@@ -1,7 +1,16 @@
 import { NextRequest, NextResponse } from 'next/server';
 
+interface ContactData {
+  name: string;
+  email: string;
+  phone?: string;
+  city: string;
+  service: string;
+  message: string;
+}
+
 // Validation simple des données
-function validateContactData(data: any) {
+function validateContactData(data: ContactData) {
   const errors: string[] = [];
 
   if (!data.name || data.name.trim().length < 2) {
@@ -28,7 +37,7 @@ function validateContactData(data: any) {
 }
 
 // Fonction pour envoyer un email (à implémenter avec votre service)
-async function sendEmail(data: any) {
+async function sendEmail(data: ContactData) {
   // Cette fonction peut être implémentée avec :
   // - Resend (https://resend.com)
   // - SendGrid (https://sendgrid.com)

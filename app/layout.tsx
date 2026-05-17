@@ -3,7 +3,7 @@ import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
 import { siteConfig } from '@/data/config';
 import { generateOrganizationSchema, generateWebSiteSchema } from '@/lib/seo';
-import './globals.css';
+
 
 export const viewport: Viewport = {
   width: 'device-width',
