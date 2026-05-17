@@ -1,15 +1,20 @@
-import type { Metadata, Viewport } from 'next';
-import { Header } from '@/components/Header';
-import { Footer } from '@/components/Footer';
-import { siteConfig } from '@/data/config';
-import { generateOrganizationSchema, generateWebSiteSchema } from '@/lib/seo';
+import type { Metadata, Viewport } from "next";
+import { Header } from "@/components/Header";
+import { Footer } from "@/components/Footer";
+import { siteConfig } from "@/data/config";
+import { generateOrganizationSchema, generateWebSiteSchema } from "@/lib/seo";
+import { Inter } from "next/font/google";
 
+const inter = Inter({
+  subsets: ["latin"],
+  display: "swap",
+});
 
 export const viewport: Viewport = {
-  width: 'device-width',
+  width: "device-width",
   initialScale: 1,
   maximumScale: 5,
-  themeColor: '#14b8a6',
+  themeColor: "#14b8a6",
 };
 
 export const metadata: Metadata = {
@@ -20,15 +25,15 @@ export const metadata: Metadata = {
   },
   description: siteConfig.siteDescription,
   keywords: [
-    'maçon',
-    'maçonnerie',
-    'rénovation',
-    'terrassement',
-    'extension maison',
-    'Artas',
-    'Bourgoin-Jallieu',
-    'Vienne',
-    'Isère',
+    "maçon",
+    "maçonnerie",
+    "rénovation",
+    "terrassement",
+    "extension maison",
+    "Artas",
+    "Bourgoin-Jallieu",
+    "Vienne",
+    "Isère",
   ],
   authors: [{ name: siteConfig.business.name }],
   creator: siteConfig.business.name,
@@ -43,13 +48,13 @@ export const metadata: Metadata = {
     googleBot: {
       index: true,
       follow: true,
-      'max-video-preview': -1,
-      'max-image-preview': 'large',
-      'max-snippet': -1,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
     },
   },
   openGraph: {
-    type: 'website',
+    type: "website",
     locale: siteConfig.locale,
     url: siteConfig.siteUrl,
     siteName: siteConfig.siteName,
@@ -65,13 +70,13 @@ export const metadata: Metadata = {
     ],
   },
   twitter: {
-    card: 'summary_large_image',
+    card: "summary_large_image",
     title: siteConfig.siteName,
     description: siteConfig.siteDescription,
     images: [siteConfig.ogImage],
   },
   verification: {
-    google: 'YOUR_GOOGLE_VERIFICATION_CODE', // À remplacer
+    google: "YOUR_GOOGLE_VERIFICATION_CODE", // À remplacer
   },
 };
 
@@ -102,23 +107,11 @@ export default function RootLayout({
             __html: JSON.stringify(generateWebSiteSchema()),
           }}
         />
-
-        {/* Preconnect to external domains */}
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-
-        {/* Google Fonts */}
-        <link
-          href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
-          rel="stylesheet"
-        />
       </head>
 
-      <body className="bg-white text-gray-900 antialiased">
+      <body className="{inter.className} bg-white text-gray-900 antialiased">
         <Header />
-        <main className="min-h-screen">
-          {children}
-        </main>
+        <main className="min-h-screen">{children}</main>
         <Footer />
       </body>
     </html>
