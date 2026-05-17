@@ -3,13 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
-import {
-  Menu,
-  X,
-  Phone,
-  MapPin,
-  ArrowRight,
-} from "lucide-react";
+import { Menu, X, Phone, MapPin, ArrowRight } from "lucide-react";
 import Image from "next/image";
 
 export function Header() {
@@ -35,9 +29,7 @@ export function Header() {
           <div className="flex items-center gap-6">
             <div className="flex items-center gap-2">
               <MapPin className="h-4 w-4" />
-              <span>
-                Maçon à Bourgoin-Jallieu • Isère
-              </span>
+              <span>Maçon à Bourgoin-Jallieu • Isère</span>
             </div>
           </div>
 
@@ -59,10 +51,7 @@ export function Header() {
         <div className="container-custom">
           <div className="flex h-20 items-center justify-between">
             {/* LOGO */}
-            <Link
-              href="/"
-              className="flex items-center gap-4"
-            >
+            <Link href="/" className="flex items-center gap-4">
               <Image
                 src="/assets/img/DZ-logo-02.webp"
                 alt="DZ Maçonnerie & Terrassement"

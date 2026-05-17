@@ -1,13 +1,21 @@
 import Link from "next/link";
+import Image from "next/image";
 import { Metadata } from "next";
-import { ArrowRight } from "lucide-react";
+import {
+  ArrowRight,
+  CheckCircle2,
+  MapPin,
+  ShieldCheck,
+  Phone,
+} from "lucide-react";
+
 import { services } from "@/data/services";
 import { generateMetadata as generatePageMetadata } from "@/lib/seo";
 import { siteConfig } from "@/data/config";
 
 export const metadata: Metadata = generatePageMetadata(
-  "Services maçonnerie et terrassement | DZ Maçonnerie",
-  "Découvrez tous nos services : maçonnerie générale, rénovation, extension maison, terrassement et plus.",
+  "Services de maçonnerie à Bourgoin-Jallieu | DZ Maçonnerie",
+  "Entreprise de maçonnerie à Bourgoin-Jallieu spécialisée en maçonnerie générale, rénovation, terrassement, dalle béton, piscine béton et extension maison en Isère.",
   "/services",
   `${siteConfig.siteUrl}/og-services.jpg`,
 );
@@ -15,150 +23,412 @@ export const metadata: Metadata = generatePageMetadata(
 export default function ServicesPage() {
   return (
     <>
-      {/* Breadcrumbs */}
-      <div className="bg-white border-b border-gray-200">
-        <div className="container-custom py-4">
-          <div className="flex items-center gap-2 text-sm">
-            <Link href="/" className="text-primary-600 hover:text-primary-700">
-              Accueil
-            </Link>
-            <span className="text-gray-400">/</span>
-            <span className="text-gray-700 font-medium">Services</span>
-          </div>
-        </div>
-      </div>
+      {/* HERO */}
+      <section className="relative overflow-hidden py-24 text-white md:py-36">
+        <div className="absolute inset-0">
+         <Image
+                     src="/assets/img/header.avif"
+                     alt="Entreprise de maçonnerie à Bourgoin-Jallieu"
+                     fill
+                     priority
+                     className="object-cover 100vw"
+                     sizes="(max-width: 768px) 100vw, 50vw"
+                   />
 
-      {/* Hero */}
-      <section className="hero-gradient relative overflow-hidden py-20 md:py-32 text-white">
-        <div className="container-custom">
-          <div className="max-w-3xl">
-            <h1 className="text-4xl md:text-5xl font-black leading-tight mb-6">
-              Nos services de maçonnerie à Bourgoin-Jallieu
+          <div className="absolute inset-0 bg-black/70" />
+        </div>
+
+        <div className="container-custom relative z-10">
+          <div className="max-w-4xl">
+            <div className="mb-6 inline-flex items-center rounded-full border border-white/10 bg-white/10 px-4 py-2 text-sm backdrop-blur">
+              <MapPin className="mr-2 h-4 w-4" />
+              Bourgoin-Jallieu • Artas • Nord-Isère
+            </div>
+
+            <h1 className="mb-8 text-5xl font-black leading-tight md:text-7xl">
+              Nos services de
+              <span className="block text-primary-400">
+                maçonnerie en Isère
+              </span>
             </h1>
 
-            <p className="text-xl text-primary-50 max-w-3xl leading-relaxed">
-              DZ Maçonnerie & Terrassement accompagne particuliers et
+            <p className="max-w-3xl text-xl leading-relaxed text-gray-200">
+              DZ Maçonnerie & Terrassement accompagne les particuliers et
               professionnels pour tous leurs travaux de maçonnerie générale,
-              terrassement, rénovation, dalle béton et extension maison en
-              Isère.
+              terrassement, rénovation, dalle béton, piscine béton, extension
+              maison et aménagement extérieur à Bourgoin-Jallieu et dans toute
+              l’Isère.
             </p>
-          </div>
-        </div>
-      </section>
 
-      {/* Services Grid */}
-      <section className="section-padding bg-white">
-        <div className="container-custom">
-          <div className="text-center mb-16">
-            <h2 className="heading-md mb-4">Notre gamme complète</h2>
-            <p className="text-gray-600 max-w-2xl mx-auto">
-              Chaque service est réalisé avec le même professionnalisme et la
-              même attention aux détails
-            </p>
-          </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-            {services.map((service) => (
+            <div className="mt-10 flex flex-col gap-4 sm:flex-row">
               <Link
-                key={service.slug}
-                href={`/services/${service.slug}`}
-                className="group flex flex-col p-6 bg-gray-50 rounded-xl border border-gray-200 hover:border-primary-600 hover:bg-primary-50 hover:shadow-lg transition-all"
+                href="/contact"
+                className="inline-flex items-center justify-center rounded-xl bg-primary-500 px-8 py-5 text-lg font-bold text-white transition hover:bg-primary-600"
               >
-                <h3 className="font-semibold text-gray-900 mb-3 group-hover:text-primary-600 transition-colors">
-                  {service.name}
-                </h3>
-                <p className="text-sm text-gray-600 mb-4 flex-1">
-                  {service.description}
-                </p>
-                <span className="inline-flex items-center text-primary-600 font-medium text-sm group-hover:gap-2 transition-all">
-                  En savoir plus <ArrowRight className="w-4 h-4 ml-1" />
-                </span>
+                Demander un devis
+                <ArrowRight className="ml-2 h-5 w-5" />
               </Link>
-            ))}
-          </div>
-        </div>
-      </section>
 
-      {/* Detailed Services */}
-      <section className="section-padding bg-gray-50">
-        <div className="container-custom">
-          <h2 className="heading-md mb-16 text-center">
-            Détail de nos prestations
-          </h2>
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
-            {services.map((service, idx) => (
-              <div
-                key={service.slug}
-                className="bg-white p-8 rounded-xl shadow-sm"
+              <a
+                href="tel:+33688144257"
+                className="inline-flex items-center justify-center rounded-xl border border-white/20 bg-white/10 px-8 py-5 text-lg font-bold text-white backdrop-blur transition hover:bg-white/20"
               >
-                <h3 className="text-2xl font-bold text-gray-900 mb-4">
-                  {service.name}
-                </h3>
-                <p className="text-gray-700 leading-relaxed mb-6">
-                  {service.longDescription}
-                </p>
-                <Link
-                  href={`/services/${service.slug}`}
-                  className="inline-flex items-center gap-2 text-primary-600 font-medium hover:text-primary-700 hover:gap-3 transition-all"
-                >
-                  Voir les détails <ArrowRight className="w-4 h-4" />
-                </Link>
-              </div>
-            ))}
+                <Phone className="mr-2 h-5 w-5" />
+                06 88 14 42 57
+              </a>
+            </div>
           </div>
         </div>
       </section>
 
-      {/* Why Services Section */}
-      <section className="section-padding bg-white">
+      {/* INTRO */}
+      <section className="bg-white py-16">
         <div className="container-custom">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+          <div className="grid gap-16 lg:grid-cols-2 lg:items-center">
             <div>
-              <h2 className="heading-md mb-6">
-                Pourquoi faire appel à nos services ?
+              <span className="mb-4 inline-block rounded-full bg-primary-100 px-4 py-2 text-sm font-bold text-primary-700">
+                ENTREPRISE DE MAÇONNERIE
+              </span>
+
+              <h2 className="mb-6 text-4xl font-black text-gray-900">
+                Un artisan maçon à votre écoute
               </h2>
-              <div className="space-y-4">
+
+              <div className="space-y-6 leading-relaxed text-gray-600">
+                <p>
+                  Située à Artas près de Bourgoin-Jallieu, notre entreprise de
+                  maçonnerie accompagne ses clients depuis plus de 15 ans dans
+                  leurs projets de construction, rénovation et aménagement
+                  extérieur.
+                </p>
+
+                <p>
+                  Nous réalisons des travaux de maçonnerie générale,
+                  terrassement, dalle béton, ouverture mur porteur, piscine
+                  béton, extension maison et rénovation dans tout le Nord-Isère.
+                </p>
+
+                <p>
+                  Chaque chantier est réalisé avec sérieux, professionnalisme et
+                  souci du détail afin de garantir des réalisations durables et
+                  des finitions soignées.
+                </p>
+              </div>
+
+              <div className="mt-8 grid gap-4 sm:grid-cols-2">
                 {[
-                  "Expertise reconnue depuis 15 ans dans le secteur",
-                  "Équipe de maçons professionnels qualifiés",
-                  "Garantie décennale sur tous les travaux",
-                  "Respect rigoureux des délais et budgets",
-                  "Devis gratuit et sans engagement",
-                  "Suivi du chantier de A à Z",
-                ].map((item, idx) => (
-                  <div key={idx} className="flex gap-3">
-                    <div className="w-6 h-6 rounded-full bg-primary-100 flex items-center justify-center flex-shrink-0 mt-0.5">
-                      <div className="w-2 h-2 rounded-full bg-primary-600"></div>
-                    </div>
-                    <p className="text-gray-700">{item}</p>
+                  "Garantie décennale",
+                  "Devis gratuit",
+                  "Travail soigné",
+                  "15 ans d’expérience",
+                ].map((item) => (
+                  <div key={item} className="flex items-center">
+                    <CheckCircle2 className="mr-3 h-5 w-5 text-primary-500" />
+
+                    <span className="font-medium text-gray-700">{item}</span>
                   </div>
                 ))}
               </div>
             </div>
-            <div className="bg-gradient-to-br from-primary-100 to-primary-50 rounded-2xl h-96 flex items-center justify-center border border-primary-200">
-              <p className="text-center text-primary-700 font-semibold">
-                Image services
-              </p>
+
+            <div className="relative aspect-[4/3] overflow-hidden rounded-3xl">
+              <Image
+                src="/assets/img/services-intro.webp"
+                alt="Travaux de maçonnerie en Isère"
+                fill
+                sizes="(max-width: 768px) 100vw, 50vw"
+                className="object-cover object-center"
+              />
             </div>
           </div>
         </div>
       </section>
 
-      {/* CTA Section */}
-      <section className="hero-gradient py-16 md:py-24 text-white">
-        <div className="container-custom text-center">
-          <h2 className="heading-md mb-4 text-white">
-            Besoin d'un service spécifique ?
+      {/* SERVICES */}
+      <section className="bg-gray-50 py-16">
+        <div className="container-custom">
+          <div className="mb-14 text-center">
+            <h2 className="mb-4 text-4xl font-black text-gray-900">
+              Nos prestations de maçonnerie
+            </h2>
+
+            <p className="mx-auto max-w-3xl text-lg leading-relaxed text-gray-600">
+              Découvrez l’ensemble de nos services de maçonnerie, rénovation et
+              terrassement à Bourgoin-Jallieu et dans toute l’Isère.
+            </p>
+          </div>
+
+          <div className="grid gap-8 md:grid-cols-2 xl:grid-cols-3">
+            {services.map((service, index) => {
+              const serviceImages = [
+                "/assets/img/service-maconnerie.webp",
+                "/assets/img/service-renovation.webp",
+                "/assets/img/service-agrandissement-maison.webp",
+                "/assets/img/service-extension.webp",
+                "/assets/img/service-piscine.webp",
+                "/assets/img/realisation-muret.webp",
+                "/assets/img/service-terrassement.webp",
+                "/assets/img/abri-de-jardin.webp",
+                "/assets/img/service-dalle.webp",
+                "/assets/img/service-dalles-sur-plot.webp"
+              ];
+
+              return (
+                <div
+                  key={service.slug}
+                  className="group overflow-hidden rounded-3xl border border-gray-200 bg-white shadow-sm transition hover:-translate-y-1 hover:shadow-xl"
+                >
+                  <div className="relative aspect-[4/3] overflow-hidden">
+                    <Image
+                      src={serviceImages[index % serviceImages.length]}
+                      alt={service.name}
+                      fill
+                      sizes="(max-width: 768px) 100vw, 33vw"
+                      className="object-cover object-center transition duration-700 group-hover:scale-110"
+                    />
+                  </div>
+
+                  <div className="p-8">
+                    <h3 className="mb-4 text-2xl font-bold text-gray-900">
+                      {service.name}
+                    </h3>
+
+                    <p className="mb-6 leading-relaxed text-gray-600">
+                      {service.description}
+                    </p>
+
+                    <Link
+                      href={`/services/${service.slug}`}
+                      className="inline-flex items-center font-bold text-primary-600 transition hover:text-primary-700"
+                    >
+                      Découvrir le service
+                      <ArrowRight className="ml-2 h-4 w-4 transition group-hover:translate-x-1" />
+                    </Link>
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+        </div>
+      </section>
+
+      {/* REALISATIONS */}
+      <section className="bg-white py-16">
+        <div className="container-custom">
+          <div className="mb-14 text-center">
+            <h2 className="mb-4 text-4xl font-black text-gray-900">
+              Des réalisations concrètes
+            </h2>
+
+            <p className="mx-auto max-w-3xl text-lg leading-relaxed text-gray-600">
+              Découvrez quelques exemples de travaux réalisés par notre
+              entreprise de maçonnerie en Isère.
+            </p>
+          </div>
+
+          <div className="grid gap-8 md:grid-cols-3">
+            {[
+              {
+                image: "/assets/img/maconnerie-generale.webp",
+                title: "Maçonnerie générale",
+                desc: "Travaux de gros œuvre et construction en parpaing.",
+              },
+              {
+                image: "/assets/img/realisation-piscine.webp",
+                title: "Piscine béton",
+                desc: "Construction de piscine béton et aménagement extérieur.",
+              },
+              {
+                image: "/assets/img/realisation-muret.webp",
+                title: "Muret & clôture",
+                desc: "Création de murets et travaux d’aménagement extérieur.",
+              },
+            ].map((item, index) => (
+              <div
+                key={index}
+                className="group overflow-hidden rounded-3xl border border-gray-200 bg-white shadow-sm transition hover:-translate-y-1 hover:shadow-xl"
+              >
+                <div className="relative aspect-[4/3] overflow-hidden">
+                  <Image
+                    src={item.image}
+                    alt={item.title}
+                    fill
+                    sizes="(max-width: 768px) 100vw, 33vw"
+                    className="object-cover object-center transition duration-700 group-hover:scale-110"
+                  />
+                </div>
+
+                <div className="p-6">
+                  <h3 className="mb-3 text-2xl font-bold text-gray-900">
+                    {item.title}
+                  </h3>
+
+                  <p className="leading-relaxed text-gray-600">{item.desc}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* WHY US */}
+      <section className="bg-gray-50 py-16">
+        <div className="container-custom">
+          <div className="mb-14 text-center">
+            <h2 className="mb-4 text-4xl font-black text-gray-900">
+              Pourquoi choisir DZ Maçonnerie ?
+            </h2>
+
+            <p className="mx-auto max-w-3xl text-lg text-gray-600">
+              Une entreprise locale reconnue pour son sérieux, son
+              accompagnement et la qualité de ses travaux.
+            </p>
+          </div>
+
+          <div className="grid gap-8 md:grid-cols-2 xl:grid-cols-4">
+            {[
+              {
+                title: "15 ans d’expérience",
+                desc: "Une solide expertise dans les travaux de maçonnerie générale.",
+              },
+              {
+                title: "Garantie décennale",
+                desc: "Tous nos travaux sont couverts par une assurance décennale.",
+              },
+              {
+                title: "Devis gratuit",
+                desc: "Étude personnalisée et accompagnement de votre projet.",
+              },
+              {
+                title: "Entreprise locale",
+                desc: "Basée à Artas près de Bourgoin-Jallieu en Isère.",
+              },
+            ].map((item) => (
+              <div
+                key={item.title}
+                className="rounded-3xl border border-gray-200 bg-white p-8"
+              >
+                <ShieldCheck className="mb-5 h-10 w-10 text-primary-500" />
+
+                <h3 className="mb-4 text-2xl font-bold text-gray-900">
+                  {item.title}
+                </h3>
+
+                <p className="leading-relaxed text-gray-600">{item.desc}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* FAQ */}
+      <section className="bg-white py-16">
+        <div className="container-custom max-w-5xl">
+          <div className="mb-14 text-center">
+            <h2 className="mb-4 text-4xl font-black text-gray-900">
+              Questions fréquentes
+            </h2>
+
+            <p className="text-lg text-gray-600">
+              Retrouvez les réponses aux questions les plus fréquentes.
+            </p>
+          </div>
+
+          <div className="space-y-6">
+            {[
+              {
+                q: "Quels types de travaux réalisez-vous ?",
+                a: "Nous réalisons des travaux de maçonnerie générale, terrassement, rénovation, dalle béton, extension maison et piscine béton.",
+              },
+              {
+                q: "Intervenez-vous uniquement à Bourgoin-Jallieu ?",
+                a: "Non, nous intervenons dans tout le Nord-Isère : Artas, Vienne, Villefontaine, L’Isle-d’Abeau et les communes voisines.",
+              },
+              {
+                q: "Le devis est-il gratuit ?",
+                a: "Oui, nous proposons un devis gratuit et personnalisé pour tous vos projets de maçonnerie.",
+              },
+              {
+                q: "Disposez-vous d’une garantie décennale ?",
+                a: "Oui, tous nos travaux sont couverts par une garantie décennale.",
+              },
+            ].map((faq, index) => (
+              <div
+                key={index}
+                className="rounded-3xl border border-gray-200 bg-gray-50 p-8"
+              >
+                <h3 className="mb-4 text-2xl font-bold text-gray-900">
+                  {faq.q}
+                </h3>
+
+                <p className="leading-relaxed text-gray-600">{faq.a}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* SEO CONTENT */}
+      <section className="bg-gray-50 py-16">
+        <div className="container-custom max-w-5xl">
+          <h2 className="mb-8 text-4xl font-black text-gray-900">
+            Entreprise de maçonnerie à Bourgoin-Jallieu
           </h2>
-          <p className="text-xl text-primary-50 mb-8 max-w-2xl mx-auto">
-            Contactez-nous pour discuter de votre projet et recevoir un devis
-            personnalisé
+
+          <div className="space-y-6 leading-relaxed text-gray-600">
+            <p>
+              DZ Maçonnerie & Terrassement accompagne les particuliers et
+              professionnels pour tous leurs travaux de maçonnerie générale à
+              Bourgoin-Jallieu, Artas, Villefontaine, Vienne et dans toute
+              l’Isère.
+            </p>
+
+            <p>
+              Notre entreprise réalise des travaux de terrassement, dalle béton,
+              rénovation, extension maison, piscine béton et ouverture mur
+              porteur avec un accompagnement personnalisé et des prestations de
+              qualité.
+            </p>
+
+            <p>
+              Grâce à notre expérience dans le bâtiment, nous proposons des
+              solutions adaptées à chaque projet avec un travail soigné et une
+              garantie décennale sur l’ensemble des réalisations.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* CTA */}
+      <section className="relative overflow-hidden py-20 text-white">
+        <div className="absolute inset-0 bg-primary-600" />
+
+        <div className="container-custom relative z-10 text-center">
+          <h2 className="mb-6 text-4xl font-black">
+            Besoin d’un devis pour vos travaux ?
+          </h2>
+
+          <p className="mx-auto mb-10 max-w-2xl text-xl text-primary-50">
+            Contactez DZ Maçonnerie & Terrassement pour discuter de votre projet
+            en Isère.
           </p>
-          <Link
-            href="/contact"
-            className="btn-primary bg-white text-primary-600 hover:bg-gray-100"
-          >
-            Demander un devis <ArrowRight className="ml-2 w-4 h-4" />
-          </Link>
+
+          <div className="flex flex-col items-center justify-center gap-4 sm:flex-row">
+            <Link
+              href="/contact"
+              className="inline-flex items-center rounded-xl bg-white px-8 py-5 text-lg font-bold text-primary-600 transition hover:bg-gray-100"
+            >
+              Demander un devis
+              <ArrowRight className="ml-2 h-5 w-5" />
+            </Link>
+
+            <a
+              href="tel:+33688144257"
+              className="inline-flex items-center rounded-xl border border-white/20 bg-white/10 px-8 py-5 text-lg font-bold text-white backdrop-blur transition hover:bg-white/20"
+            >
+              06 88 14 42 57
+            </a>
+          </div>
         </div>
       </section>
     </>

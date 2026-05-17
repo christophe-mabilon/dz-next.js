@@ -8,6 +8,7 @@ import {
   Building2,
   ShieldCheck,
 } from "lucide-react";
+import { cities } from "@/data/cities";
 
 export function Footer() {
   return (
@@ -24,11 +25,11 @@ export function Footer() {
 
             <p className="mb-6 leading-relaxed text-gray-400">
               Entreprise de maçonnerie générale, terrassement et rénovation à
-              Bourgoin-Jallieu et dans toute l’Isère.
+              Bourgoin-Jallieu et dans toute l'Isère.
             </p>
 
             <p className="leading-relaxed text-gray-500">
-              Plus de 15 ans d’expérience dans les travaux de maçonnerie, dalle
+              Plus de 15 ans d'expérience dans les travaux de maçonnerie, dalle
               béton, extension maison, ouverture mur porteur et aménagement
               extérieur.
             </p>
@@ -99,25 +100,18 @@ export function Footer() {
           {/* ZONES */}
           <div>
             <h4 className="mb-6 text-lg font-bold text-white">
-              Zones d’intervention
+              Zones d'intervention
             </h4>
 
             <ul className="space-y-4 text-sm">
-              {[
-                "Bourgoin-Jallieu",
-                "Artas",
-                "Villefontaine",
-                "L’Isle-d’Abeau",
-                "Vienne",
-                "La Verpillière",
-              ].map((city) => (
-                <li key={city}>
+              {cities.map((city) => (
+                <li key={city.slug}>
                   <Link
-                    href={`/villes/${city.toLowerCase().replace(/ /g, "-")}`}
+                    href={`/villes/${city.slug}`}
                     className="flex items-center gap-2 text-gray-400 transition hover:text-primary-400"
                   >
                     <Building2 className="h-4 w-4" />
-                    {city}
+                    {city.name}
                   </Link>
                 </li>
               ))}
@@ -190,7 +184,7 @@ export function Footer() {
             DZ Maçonnerie & Terrassement intervient pour tous vos travaux de
             maçonnerie générale, terrassement, rénovation, dalle béton,
             ouverture mur porteur et extension maison à Bourgoin-Jallieu, Artas,
-            Villefontaine, Vienne, L’Isle-d’Abeau et dans toute l’Isère.
+            Villefontaine, Vienne, L'Isle-d'Abeau et dans toute l'Isère.
           </p>
         </div>
 
@@ -235,7 +229,7 @@ export function Footer() {
         <div className="container-custom flex flex-col items-center justify-between gap-4 py-8 md:flex-row">
           <div>
             <h3 className="mb-1 text-xl font-bold text-white">
-              Besoin d’un devis pour vos travaux ?
+              Besoin d'un devis pour vos travaux ?
             </h3>
 
             <p className="text-primary-100">
