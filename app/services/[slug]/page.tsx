@@ -72,7 +72,7 @@ export default async function ServicePage(props: ServicePageProps) {
       />
 
       {/* Breadcrumbs */}
-      <div className="bg-gray-50 border-b border-gray-200">
+      <div className="bg-white border-b border-gray-200">
         <div className="container-custom py-4">
           <div className="flex items-center gap-2 text-sm">
             {breadcrumbs.map((crumb, idx) => (
@@ -88,14 +88,18 @@ export default async function ServicePage(props: ServicePageProps) {
       </div>
 
       {/* Hero */}
-      <section className="section-padding bg-gradient-to-br from-primary-50 to-primary-100">
+      <section className="hero-gradient relative overflow-hidden py-20 md:py-32 text-white">
         <div className="container-custom">
-          <Link href="/services" className="inline-flex items-center gap-2 text-primary-600 hover:text-primary-700 mb-6">
+          <Link href="/services" className="inline-flex items-center gap-2 text-primary-100 hover:text-white mb-6 transition-colors">
             <ArrowLeft className="w-4 h-4" />
             Retour aux services
           </Link>
-          <h1 className="heading-lg mb-4">{service.name}</h1>
-          <p className="text-xl text-gray-700 max-w-3xl">{service.description}</p>
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
+            {service.name}
+          </h1>
+          <p className="text-xl text-primary-50 max-w-3xl">
+            {service.description}
+          </p>
         </div>
       </section>
 
@@ -103,13 +107,14 @@ export default async function ServicePage(props: ServicePageProps) {
       <section className="section-padding bg-white">
         <div className="container-custom max-w-3xl">
           <div className="prose prose-lg max-w-none mb-12">
-            <p>{service.longDescription}</p>
+            <h2 className="text-3xl font-bold text-gray-900 mb-6">{service.name}</h2>
+            <p className="text-gray-700 leading-relaxed text-lg">{service.longDescription}</p>
           </div>
 
-          {/* Services Benefits */}
-          <div className="mb-12">
-            <h2 className="heading-sm mb-6">Avantages de notre service</h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          {/* Benefits */}
+          <div className="mb-16">
+            <h2 className="text-2xl font-bold text-gray-900 mb-8">Avantages de notre service</h2>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               {[
                 'Expertise reconnue depuis 15 ans',
                 'Équipe qualifiée et expérimentée',
@@ -118,56 +123,87 @@ export default async function ServicePage(props: ServicePageProps) {
                 'Nettoyage du chantier inclus',
                 'Devis gratuit sans engagement',
               ].map((benefit, idx) => (
-                <div key={idx} className="flex gap-3">
-                  <CheckCircle className="w-5 h-5 text-primary-600 flex-shrink-0 mt-0.5" />
+                <div key={idx} className="flex gap-4 p-4 bg-primary-50 rounded-lg hover:bg-primary-100 transition-colors">
+                  <CheckCircle className="w-6 h-6 text-primary-600 flex-shrink-0 mt-0.5" />
                   <span className="text-gray-700">{benefit}</span>
                 </div>
               ))}
             </div>
           </div>
 
-          {/* Cities */}
-          <div className="mb-12">
-            <h2 className="heading-sm mb-6">Intervention dans votre région</h2>
-            <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
-              {cities.map(city => (
+          {/* Cities Section */}
+          <div className="mb-16">
+            <h2 className="text-2xl font-bold text-gray-900 mb-8">Intervention dans votre région</h2>
+            <p className="text-gray-600 mb-6">Nous intervenons dans plus de 26 villes autour d'Artas et Bourgoin-Jallieu</p>
+            <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
+              {cities.slice(0, 9).map(city => (
                 <Link
                   key={city.slug}
                   href={`/services/${service.slug}/${city.slug}`}
-                  className="p-3 border border-gray-200 rounded-lg hover:border-primary-600 hover:bg-primary-50 transition-all text-sm font-medium text-gray-700 hover:text-primary-600"
+                  className="p-3 border border-gray-200 rounded-lg hover:border-primary-600 hover:bg-primary-50 transition-all font-medium text-gray-700 hover:text-primary-600 text-center"
                 >
-                  {service.name} à {city.name}
+                  {city.name}
                 </Link>
               ))}
+              <Link
+                href={`/services/${service.slug}`}
+                className="p-3 border border-primary-200 rounded-lg bg-primary-50 hover:bg-primary-100 transition-all font-medium text-primary-600 text-center col-span-2 md:col-span-3"
+              >
+                Voir tous les secteurs d'intervention
+              </Link>
             </div>
           </div>
 
           {/* FAQ */}
-          <div className="bg-gray-50 p-8 rounded-xl">
-            <h2 className="heading-sm mb-6">Questions fréquentes</h2>
-            <div className="space-y-6">
+          <div className="bg-gray-50 p-8 rounded-xl border border-gray-200">
+            <h2 className="text-2xl font-bold text-gray-900 mb-8">Questions fréquentes</h2>
+            <div className="space-y-8">
               <div>
-                <h3 className="font-semibold text-gray-900 mb-2">Quel est le délai de réalisation ?</h3>
-                <p className="text-gray-600">Le délai dépend de l'importance du chantier. Nous vous proposerons un planning détaillé lors de la visite.</p>
+                <h3 className="text-lg font-semibold text-gray-900 mb-3">Quel est le délai de réalisation ?</h3>
+                <p className="text-gray-700">Le délai dépend de l'importance et la complexité du chantier. Lors de notre visite gratuite, nous vous proposerons un planning détaillé et réaliste pour votre projet.</p>
               </div>
-              <div>
-                <h3 className="font-semibold text-gray-900 mb-2">Disposez-vous d'assurances ?</h3>
-                <p className="text-gray-600">Oui, nous sommes garantis décennale et responsabilité civile. Nos certifications vous assurent qualité et sérieux.</p>
+              <div className="border-t border-gray-200 pt-6">
+                <h3 className="text-lg font-semibold text-gray-900 mb-3">Disposez-vous d'assurances ?</h3>
+                <p className="text-gray-700">Oui, nous bénéficions d'une garantie décennale et d'une assurance responsabilité civile professionnelle. Ces certifications garantissent la qualité et la fiabilité de nos prestations.</p>
               </div>
-              <div>
-                <h3 className="font-semibold text-gray-900 mb-2">Puis-je obtenir un devis rapidement ?</h3>
-                <p className="text-gray-600">Oui, contactez-nous. Nous répondons sous 24h et proposons des visites sans engagement.</p>
+              <div className="border-t border-gray-200 pt-6">
+                <h3 className="text-lg font-semibold text-gray-900 mb-3">Puis-je obtenir un devis rapidement ?</h3>
+                <p className="text-gray-700">Absolument ! Nous répondons à toutes les demandes sous 24h. Une visite gratuite sans engagement peut être organisée selon vos disponibilités.</p>
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* CTA */}
+      {/* CTA Box */}
+      <section className="section-padding bg-primary-50">
+        <div className="container-custom max-w-3xl">
+          <div className="bg-white p-8 rounded-xl border-2 border-primary-200 shadow-lg">
+            <h2 className="text-2xl font-bold text-gray-900 mb-4">
+              Vous avez un projet de {service.name.toLowerCase()} ?
+            </h2>
+            <p className="text-gray-700 mb-8">
+              Contactez-nous pour un devis gratuit et personnalisé. Notre équipe vous répondra sous 24h.
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4">
+              <Link href="/contact" className="btn-primary">
+                Demander un devis <ArrowRight className="ml-2 w-4 h-4" />
+              </Link>
+              <a href="tel:+33688144257" className="btn-secondary border-primary-600 text-primary-600">
+                06 88 14 42 57
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* CTA Section */}
       <section className="hero-gradient py-16 md:py-24 text-white">
         <div className="container-custom text-center">
-          <h2 className="heading-md mb-4 text-white">Vous avez besoin de {service.name.toLowerCase()} ?</h2>
-          <p className="text-xl text-primary-50 mb-8">Contactez-nous pour un devis gratuit</p>
+          <h2 className="heading-md mb-4 text-white">Besoin d'un expert en {service.name.toLowerCase()} ?</h2>
+          <p className="text-xl text-primary-50 mb-8 max-w-2xl mx-auto">
+            DZ Maçonnerie & Terrassement réalise tous vos projets avec professionnalisme et garantie
+          </p>
           <Link href="/contact" className="btn-primary bg-white text-primary-600 hover:bg-gray-100">
             Demander un devis <ArrowRight className="ml-2 w-4 h-4" />
           </Link>
