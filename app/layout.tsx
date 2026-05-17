@@ -4,6 +4,7 @@ import { Footer } from "@/components/Footer";
 import { siteConfig } from "@/data/config";
 import { generateOrganizationSchema, generateWebSiteSchema } from "@/lib/seo";
 import { Inter } from "next/font/google";
+import './globals.css';
 
 const inter = Inter({
   subsets: ["latin"],
