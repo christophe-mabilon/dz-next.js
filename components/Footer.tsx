@@ -1,109 +1,255 @@
-import Link from 'next/link';
-import { siteConfig } from '@/data/config';
-import { Mail, MapPin, Phone, ArrowRight } from 'lucide-react';
+import Link from "next/link";
+import {
+  Mail,
+  MapPin,
+  Phone,
+  ArrowRight,
+  Hammer,
+  Building2,
+  ShieldCheck,
+} from "lucide-react";
 
 export function Footer() {
   return (
-    <footer className="bg-gradient-to-b from-gray-900 to-gray-950 text-gray-300 border-t border-gray-800">
-      {/* Main Footer */}
-      <div className="container-custom py-16">
-        <div className="grid grid-cols-1 md:grid-cols-5 gap-8">
-          {/* Brand */}
-          <div>
-            <h3 className="font-bold text-white mb-4 text-lg">DZ Maçonnerie</h3>
-            <p className="text-sm text-gray-400 leading-relaxed">
-              Expert en maçonnerie générale, rénovation, extension et terrassement depuis plus de 15 ans.
+    <footer className="bg-gray-950 text-gray-300 border-t border-gray-800">
+      {/* MAIN FOOTER */}
+      <div className="container-custom py-20">
+        <div className="grid gap-14 lg:grid-cols-4">
+          {/* ENTREPRISE */}
+          <div className="lg:col-span-1">
+            <h3 className="mb-6 text-2xl font-black text-white">
+              DZ MAÇONNERIE &
+              <span className="block text-primary-400">TERRASSEMENT</span>
+            </h3>
+
+            <p className="mb-6 leading-relaxed text-gray-400">
+              Entreprise de maçonnerie générale, terrassement et rénovation à
+              Bourgoin-Jallieu et dans toute l’Isère.
             </p>
-            <p className="text-xs text-gray-500 mt-4">Garantie décennale • Devis gratuit</p>
+
+            <p className="leading-relaxed text-gray-500">
+              Plus de 15 ans d’expérience dans les travaux de maçonnerie, dalle
+              béton, extension maison, ouverture mur porteur et aménagement
+              extérieur.
+            </p>
+
+            <div className="mt-8 inline-flex items-center rounded-full bg-primary-500/10 px-4 py-2 text-sm font-semibold text-primary-300 border border-primary-500/20">
+              <ShieldCheck className="mr-2 h-4 w-4" />
+              Garantie décennale • Devis gratuit
+            </div>
           </div>
 
-          {/* Navigation */}
+          {/* SERVICES */}
           <div>
-            <h4 className="font-semibold text-white mb-4">Navigation</h4>
-            <ul className="space-y-2 text-sm">
-              <li><Link href="/" className="text-gray-400 hover:text-primary-400 transition">Accueil</Link></li>
-              <li><Link href="/services" className="text-gray-400 hover:text-primary-400 transition">Services</Link></li>
-              <li><Link href="/realisations" className="text-gray-400 hover:text-primary-400 transition">Réalisations</Link></li>
-              <li><Link href="/avis" className="text-gray-400 hover:text-primary-400 transition">Avis clients</Link></li>
-              <li><Link href="/blog" className="text-gray-400 hover:text-primary-400 transition">Blog</Link></li>
+            <h4 className="mb-6 text-lg font-bold text-white">Nos services</h4>
+
+            <ul className="space-y-4 text-sm">
+              <li>
+                <Link
+                  href="/services/maconnerie-neuf"
+                  className="flex items-center gap-2 text-gray-400 transition hover:text-primary-400"
+                >
+                  <Hammer className="h-4 w-4" />
+                  Maçonnerie générale
+                </Link>
+              </li>
+
+              <li>
+                <Link
+                  href="/services/terrassement"
+                  className="flex items-center gap-2 text-gray-400 transition hover:text-primary-400"
+                >
+                  <Hammer className="h-4 w-4" />
+                  Terrassement
+                </Link>
+              </li>
+
+              <li>
+                <Link
+                  href="/services/extension-maison"
+                  className="flex items-center gap-2 text-gray-400 transition hover:text-primary-400"
+                >
+                  <Hammer className="h-4 w-4" />
+                  Extension maison
+                </Link>
+              </li>
+
+              <li>
+                <Link
+                  href="/services/renovation-maconnerie"
+                  className="flex items-center gap-2 text-gray-400 transition hover:text-primary-400"
+                >
+                  <Hammer className="h-4 w-4" />
+                  Rénovation
+                </Link>
+              </li>
+
+              <li>
+                <Link
+                  href="/services/dalle-beton"
+                  className="flex items-center gap-2 text-gray-400 transition hover:text-primary-400"
+                >
+                  <Hammer className="h-4 w-4" />
+                  Dalle béton
+                </Link>
+              </li>
             </ul>
           </div>
 
-          {/* Services */}
+          {/* ZONES */}
           <div>
-            <h4 className="font-semibold text-white mb-4">Services</h4>
-            <ul className="space-y-2 text-sm">
-              <li><Link href="/services/maconnerie-neuf" className="text-gray-400 hover:text-primary-400 transition">Maçonnerie générale</Link></li>
-              <li><Link href="/services/renovation-maconnerie" className="text-gray-400 hover:text-primary-400 transition">Rénovation</Link></li>
-              <li><Link href="/services/extension-maison" className="text-gray-400 hover:text-primary-400 transition">Extension maison</Link></li>
-              <li><Link href="/services/terrassement" className="text-gray-400 hover:text-primary-400 transition">Terrassement</Link></li>
+            <h4 className="mb-6 text-lg font-bold text-white">
+              Zones d’intervention
+            </h4>
+
+            <ul className="space-y-4 text-sm">
+              {[
+                "Bourgoin-Jallieu",
+                "Artas",
+                "Villefontaine",
+                "L’Isle-d’Abeau",
+                "Vienne",
+                "La Verpillière",
+              ].map((city) => (
+                <li key={city}>
+                  <Link
+                    href={`/villes/${city.toLowerCase().replace(/ /g, "-")}`}
+                    className="flex items-center gap-2 text-gray-400 transition hover:text-primary-400"
+                  >
+                    <Building2 className="h-4 w-4" />
+                    {city}
+                  </Link>
+                </li>
+              ))}
             </ul>
           </div>
 
-          {/* Zones */}
+          {/* CONTACT */}
           <div>
-            <h4 className="font-semibold text-white mb-4">Zones d'intervention</h4>
-            <ul className="space-y-2 text-sm">
-              <li><Link href="/villes/bourgoin-jallieu" className="text-gray-400 hover:text-primary-400 transition">Bourgoin-Jallieu</Link></li>
-              <li><Link href="/villes/vienne" className="text-gray-400 hover:text-primary-400 transition">Vienne</Link></li>
-              <li><Link href="/villes/artas" className="text-gray-400 hover:text-primary-400 transition">Artas</Link></li>
-              <li><Link href="/villes/saint-genis-laval" className="text-gray-400 hover:text-primary-400 transition">Saint-Genis-Laval</Link></li>
-            </ul>
-          </div>
+            <h4 className="mb-6 text-lg font-bold text-white">Contact</h4>
 
-          {/* Contact */}
-          <div>
-            <h4 className="font-semibold text-white mb-4">Contact</h4>
-            <div className="space-y-4 text-sm">
-              <div className="flex gap-2">
-                <Phone className="w-5 h-5 text-primary-500 flex-shrink-0" />
+            <div className="space-y-6">
+              <div className="flex gap-4">
+                <MapPin className="mt-1 h-5 w-5 flex-shrink-0 text-primary-400" />
+
                 <div>
-                  <p className="text-gray-400">Téléphone</p>
-                  <a href={`tel:${siteConfig.business.phone}`} className="text-white hover:text-primary-400 transition font-medium">
-                    {siteConfig.business.phone}
+                  <p className="mb-1 text-sm text-gray-500">Adresse</p>
+
+                  <p className="font-medium text-white">
+                    130 sentier du taillis
+                  </p>
+
+                  <p className="text-gray-400">38440 Artas</p>
+                </div>
+              </div>
+
+              <div className="flex gap-4">
+                <Phone className="mt-1 h-5 w-5 flex-shrink-0 text-primary-400" />
+
+                <div>
+                  <p className="mb-1 text-sm text-gray-500">Téléphone</p>
+
+                  <a
+                    href="tel:+33688144257"
+                    className="font-semibold text-white transition hover:text-primary-400"
+                  >
+                    06.88.14.42.57
                   </a>
                 </div>
               </div>
-              <div className="flex gap-2">
-                <Mail className="w-5 h-5 text-primary-500 flex-shrink-0" />
+
+              <div className="flex gap-4">
+                <Mail className="mt-1 h-5 w-5 flex-shrink-0 text-primary-400" />
+
                 <div>
-                  <p className="text-gray-400">Email</p>
-                  <a href={`mailto:${siteConfig.business.email}`} className="text-white hover:text-primary-400 transition font-medium text-xs break-all">
+                  <p className="mb-1 text-sm text-gray-500">Email</p>
+
+                  <a
+                    href="mailto:contact@dzmaconnerie38.fr"
+                    className="text-sm font-medium text-white transition hover:text-primary-400 break-all"
+                  >
                     contact@dzmaconnerie38.fr
                   </a>
                 </div>
               </div>
+
+              <Link
+                href="/contact"
+                className="inline-flex items-center rounded-xl bg-primary-500 px-6 py-4 font-bold text-white transition hover:bg-primary-600"
+              >
+                Demander un devis
+                <ArrowRight className="ml-2 h-4 w-4" />
+              </Link>
             </div>
           </div>
         </div>
 
-        {/* Divider */}
-        <div className="border-t border-gray-800 my-8"></div>
+        {/* SEO TEXT */}
+        <div className="mt-16 border-t border-gray-800 pt-10">
+          <p className="mx-auto max-w-5xl text-center text-sm leading-relaxed text-gray-500">
+            DZ Maçonnerie & Terrassement intervient pour tous vos travaux de
+            maçonnerie générale, terrassement, rénovation, dalle béton,
+            ouverture mur porteur et extension maison à Bourgoin-Jallieu, Artas,
+            Villefontaine, Vienne, L’Isle-d’Abeau et dans toute l’Isère.
+          </p>
+        </div>
 
-        {/* Bottom */}
-        <div className="flex flex-col md:flex-row justify-between items-center text-sm text-gray-500 gap-6">
-          <p>&copy; 2024 {siteConfig.business.name}. Tous droits réservés.</p>
-          <div className="flex gap-6 flex-wrap justify-center md:justify-end">
-            <Link href="/contact" className="text-gray-400 hover:text-primary-400 transition">Contact</Link>
-            <Link href="/mentions-legales" className="text-gray-400 hover:text-primary-400 transition">Mentions légales</Link>
-            <Link href="/politique-confidentialite" className="text-gray-400 hover:text-primary-400 transition">Confidentialité</Link>
-            <Link href="/conditions" className="text-gray-400 hover:text-primary-400 transition">Conditions</Link>
+        {/* BOTTOM */}
+        <div className="mt-10 flex flex-col items-center justify-between gap-6 border-t border-gray-800 pt-8 text-sm text-gray-500 md:flex-row">
+          <p>
+            © {new Date().getFullYear()} DZ Maçonnerie & Terrassement - Tous
+            droits réservés.
+          </p>
+
+          <div className="flex flex-wrap justify-center gap-6">
+            <Link
+              href="/mentions-legales"
+              className="transition hover:text-primary-400"
+            >
+              Mentions légales
+            </Link>
+
+            <Link
+              href="/politique-confidentialite"
+              className="transition hover:text-primary-400"
+            >
+              Politique de confidentialité
+            </Link>
+
+            <Link
+              href="/conditions"
+              className="transition hover:text-primary-400"
+            >
+              Conditions
+            </Link>
+
+            <Link href="/contact" className="transition hover:text-primary-400">
+              Contact
+            </Link>
           </div>
         </div>
       </div>
 
-      {/* CTA Banner */}
-      <div className="bg-primary-600 border-t border-primary-500">
-        <div className="container-custom py-8">
-          <div className="flex flex-col md:flex-row items-center justify-between gap-4">
-            <div>
-              <h3 className="text-white font-semibold text-lg mb-1">Besoin d'un devis ?</h3>
-              <p className="text-primary-100">Contactez-nous, réponse garantie sous 24h</p>
-            </div>
-            <Link href="/contact" className="flex items-center gap-2 bg-white text-primary-600 px-6 py-3 rounded-lg font-semibold hover:bg-gray-50 transition whitespace-nowrap">
-              Devis gratuit <ArrowRight className="w-4 h-4" />
-            </Link>
+      {/* CTA BAR */}
+      <div className="border-t border-primary-500 bg-primary-600">
+        <div className="container-custom flex flex-col items-center justify-between gap-4 py-8 md:flex-row">
+          <div>
+            <h3 className="mb-1 text-xl font-bold text-white">
+              Besoin d’un devis pour vos travaux ?
+            </h3>
+
+            <p className="text-primary-100">
+              Réponse rapide sous 24h pour votre projet de maçonnerie.
+            </p>
           </div>
+
+          <Link
+            href="/contact"
+            className="inline-flex items-center rounded-xl bg-white px-6 py-4 font-bold text-primary-600 transition hover:bg-gray-100"
+          >
+            Devis gratuit
+            <ArrowRight className="ml-2 h-4 w-4" />
+          </Link>
         </div>
       </div>
     </footer>

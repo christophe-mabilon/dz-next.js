@@ -3,7 +3,13 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
-import { Menu, X, Phone } from "lucide-react";
+import {
+  Menu,
+  X,
+  Phone,
+  MapPin,
+  ArrowRight,
+} from "lucide-react";
 import Image from "next/image";
 
 export function Header() {
@@ -22,93 +28,146 @@ export function Header() {
   ];
 
   return (
-    <header className="sticky top-0 z-50 w-full border-b border-gray-200  bg-gradient-to-b from-gray-900 to-gray-950 text-gray-300">
-      <div className="mx-auto max-w-10xl px-4 sm:px-6 lg:px-8">
-        <div className="flex h-16 items-center justify-between">
-          {/* Logo */}
-          <Link href="/" className="flex items-center gap-2 font-bold text-xl">
-            <Image
-              src="/assets/img/DZ-logo-02.webp"
-              alt="DZ Maçonnerie Logo"
-              width={45}
-              height={45}
-              className="object-contain"
-            />
-            <span className="hidden sm:inline text-gray-900">
-              <span className="text-base font-bold text-primary-600">
-                DZ Maçonnerie
-              </span>{" "}
-              <span className="text-sm text-primary-50">& Terrassement</span>
-            </span>
-          </Link>
+    <>
+      {/* TOP BAR */}
+      <div className="hidden md:block bg-primary-600 text-white">
+        <div className="container-custom flex items-center justify-between py-2 text-sm">
+          <div className="flex items-center gap-6">
+            <div className="flex items-center gap-2">
+              <MapPin className="h-4 w-4" />
+              <span>
+                Maçon à Bourgoin-Jallieu • Isère
+              </span>
+            </div>
+          </div>
 
-          {/* Desktop Navigation */}
-          <nav className="hidden md:flex items-center gap-8 flex-0">
-            {navItems.map((item) => (
-              <Link
-                key={item.href}
-                href={item.href}
-                className={`text-sm font-medium transition-colors ${
-                  isActive(item.href)
-                    ? "text-primary-50 border-b-2 border-primary-600"
-                    : "text-gray-300 hover:text-primary-400"
-                }`}
-              >
-                {item.label}
-              </Link>
-            ))}
-          </nav>
+          <div className="flex items-center gap-6">
+            <span>Devis gratuit sous 24h</span>
 
-          {/* CTA Button */}
-          <div className="flex items-center gap-4">
             <a
               href="tel:0688144257"
-              className="hidden sm:flex items-center gap-2 px-4 py-2 bg-primary-600 text-white rounded-lg hover:bg-primary-700 transition-colors font-medium"
+              className="font-semibold hover:text-primary-100"
             >
-              <Phone className="w-4 h-4" />
-              <span>06 88 14 42 57</span>
+              06 88 14 42 57
             </a>
+          </div>
+        </div>
+      </div>
 
-            {/* Mobile Menu Button */}
-            <button
-              onClick={() => setIsOpen(!isOpen)}
-              className="md:hidden p-2 text-gray-700"
+      {/* HEADER */}
+      <header className="sticky top-0 z-50 border-b border-white/10 bg-gray-950/95 backdrop-blur">
+        <div className="container-custom">
+          <div className="flex h-20 items-center justify-between">
+            {/* LOGO */}
+            <Link
+              href="/"
+              className="flex items-center gap-4"
             >
-              {isOpen ? (
-                <X className="w-6 h-6" />
-              ) : (
-                <Menu className="w-6 h-6" />
-              )}
-            </button>
+              <Image
+                src="/assets/img/DZ-logo-02.webp"
+                alt="DZ Maçonnerie & Terrassement"
+                width={55}
+                height={55}
+                priority
+                className="object-contain"
+              />
+
+              <div className="hidden sm:block">
+                <p className="text-lg font-black uppercase tracking-wide text-white">
+                  DZ Maçonnerie
+                </p>
+
+                <p className="text-sm font-medium text-primary-400">
+                  & Terrassement
+                </p>
+              </div>
+            </Link>
+
+            {/* NAVIGATION */}
+            <nav className="hidden lg:flex items-center gap-8">
+              {navItems.map((item) => (
+                <Link
+                  key={item.href}
+                  href={item.href}
+                  className={`relative text-sm font-semibold transition ${
+                    isActive(item.href)
+                      ? "text-white"
+                      : "text-gray-300 hover:text-primary-400"
+                  }`}
+                >
+                  {item.label}
+
+                  {isActive(item.href) && (
+                    <span className="absolute -bottom-2 left-0 h-[2px] w-full bg-primary-500" />
+                  )}
+                </Link>
+              ))}
+            </nav>
+
+            {/* CTA */}
+            <div className="flex items-center gap-4">
+              <a
+                href="tel:0688144257"
+                aria-label="Téléphoner à DZ Maçonnerie"
+                className="hidden md:flex items-center gap-3 rounded-xl bg-primary-500 px-5 py-3 font-semibold text-white transition hover:bg-primary-600"
+              >
+                <Phone className="h-4 w-4" />
+
+                <div className="flex flex-col leading-none">
+                  <span className="text-xs text-primary-100">
+                    Devis gratuit
+                  </span>
+
+                  <span>06 88 14 42 57</span>
+                </div>
+              </a>
+
+              {/* MOBILE BUTTON */}
+              <button
+                aria-label="Ouvrir le menu"
+                onClick={() => setIsOpen(!isOpen)}
+                className="rounded-lg p-2 text-white transition hover:bg-white/10 lg:hidden"
+              >
+                {isOpen ? (
+                  <X className="h-6 w-6" />
+                ) : (
+                  <Menu className="h-6 w-6" />
+                )}
+              </button>
+            </div>
           </div>
         </div>
 
-        {/* Mobile Navigation */}
+        {/* MOBILE MENU */}
         {isOpen && (
-          <nav className="md:hidden border-t border-gray-200 py-4 space-y-2">
-            {navItems.map((item) => (
-              <Link
-                key={item.href}
-                href={item.href}
-                onClick={() => setIsOpen(false)}
-                className={`block px-4 py-2 rounded-lg transition-colors ${
-                  isActive(item.href)
-                    ? "bg-primary-100 text-primary-600 font-medium"
-                    : "text-gray-700 hover:bg-gray-100"
-                }`}
+          <div className="border-t border-white/10 bg-gray-950 lg:hidden">
+            <nav className="container-custom flex flex-col py-6">
+              {navItems.map((item) => (
+                <Link
+                  key={item.href}
+                  href={item.href}
+                  onClick={() => setIsOpen(false)}
+                  className={`rounded-xl px-4 py-4 text-sm font-medium transition ${
+                    isActive(item.href)
+                      ? "bg-primary-500/10 text-primary-400"
+                      : "text-gray-300 hover:bg-white/5 hover:text-white"
+                  }`}
+                >
+                  {item.label}
+                </Link>
+              ))}
+
+              <a
+                href="tel:0688144257"
+                className="mt-4 flex items-center justify-center gap-2 rounded-xl bg-primary-500 px-6 py-4 font-semibold text-white transition hover:bg-primary-600"
               >
-                {item.label}
-              </Link>
-            ))}
-            <a
-              href="tel:0688144257"
-              className="block px-4 py-2 bg-primary-600 text-white rounded-lg font-medium text-center"
-            >
-              Appeler maintenant
-            </a>
-          </nav>
+                Appeler maintenant
+                <ArrowRight className="h-4 w-4" />
+              </a>
+            </nav>
+          </div>
         )}
-      </div>
-    </header>
+      </header>
+    </>
   );
 }
