@@ -1,5 +1,5 @@
 // app/page.tsx
-
+import { cities } from "@/data/cities";
 import Image from "next/image";
 import Link from "next/link";
 import {
@@ -73,15 +73,6 @@ const services = [
       "Rénovation intérieure et extérieure pour particuliers et professionnels.",
     href: "/services/renovation",
   },
-];
-
-const cities = [
-  "Bourgoin-Jallieu",
-  "Villefontaine",
-  "L’Isle-d’Abeau",
-  "Vienne",
-  "La Verpillière",
-  "Saint-Quentin-Fallavier",
 ];
 
 export default function HomePage() {
@@ -368,19 +359,19 @@ export default function HomePage() {
           <div className="grid gap-8 md:grid-cols-3">
             {[
               {
-                image: "/assets/img/realisation-1.webp",
+                image: "/assets/img/extention_maison.webp",
                 alt: "Travaux de maçonnerie en parpaing à Bourgoin-Jallieu",
                 title: "Maçonnerie générale",
                 desc: "Construction en parpaing et travaux de gros œuvre à Bourgoin-Jallieu.",
               },
               {
-                image: "/assets/img/realisation-2.webp",
+                image: "/assets/img/piscine-beton.webp",
                 alt: "Construction de piscine béton en Isère",
                 title: "Piscine béton",
                 desc: "Construction et maçonnerie de piscine béton pour aménagement extérieur.",
               },
               {
-                image: "/assets/img/realisation-3.webp",
+                image: "/assets/img/realisation-muret.webp",
                 alt: "Construction de muret et clôture en Isère",
                 title: "Muret & clôture",
                 desc: "Création de murets et aménagement extérieur en Isère.",
@@ -557,17 +548,25 @@ export default function HomePage() {
             </p>
           </div>
 
-          <div className="grid gap-4 md:grid-cols-3">
+          <div className="grid gap-6 md:grid-cols-2 xl:grid-cols-3">
             {cities.map((city) => (
               <Link
-                key={city}
-                href={`/villes/${city.toLowerCase().replace(/ /g, "-")}`}
+                key={city.id}
+                href={`/villes/${city.slug}`}
                 className="rounded-2xl border border-white/10 bg-white/5 p-6 transition hover:border-primary-500 hover:bg-white/10"
               >
                 <div className="flex items-center justify-between">
-                  <span className="font-semibold">{city}</span>
+                  <div>
+                    <span className="block text-lg font-semibold text-white">
+                      {city.name}
+                    </span>
 
-                  <ArrowRight className="h-4 w-4" />
+                    <span className="mt-1 block text-sm text-gray-400">
+                      {city.zipCode} • {city.region}
+                    </span>
+                  </div>
+
+                  <ArrowRight className="h-4 w-4 text-primary-400" />
                 </div>
               </Link>
             ))}
