@@ -13,7 +13,9 @@ export function generateMetadata(
   return {
     title: `${title} | ${siteConfig.siteName}`,
     description,
-    canonical: url,
+    alternates: {
+  canonical: url,
+},
     openGraph: {
       title,
       description,
@@ -187,7 +189,6 @@ export function generateWebSiteSchema() {
 export function generateArticleSchema(
   title: string,
   description: string,
-  content: string,
   image: string,
   datePublished: string,
   dateModified: string,
