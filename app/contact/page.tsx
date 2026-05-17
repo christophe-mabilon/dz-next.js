@@ -2,9 +2,8 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
-import { Metadata } from 'next';
 import { ArrowRight, Phone, Mail, MapPin, Clock } from 'lucide-react';
-import { siteConfig } from '@/data/config';
+
 
 export default function ContactPage() {
   const [formData, setFormData] = useState({
