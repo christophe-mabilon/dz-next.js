@@ -12,7 +12,7 @@ import { siteConfig } from "@/data/config";
 import { generateSeoTitle, generateSeoDescription } from "@/lib/seo-generators";
 import { generateH1 } from "@/lib/seo-generators";
 import { generateLocalIntroduction } from "@/lib/seo-generators";
-import { generateServiceFaq } from "@/lib/seo-generators";
+import { generateSeoFaqs } from "@/lib/seo-generators";
 import { DynamicFooter } from "@/components/DynamicFooter";
 
 interface CombinedPageProps {
@@ -67,7 +67,7 @@ export default async function CombinedServiceCityPage(
   if (!service || !cityData) {
     notFound();
   }
-  const faqItems = generateServiceFaq(service, cityData);
+  const faqItems = generateSeoFaqs(service, cityData);
 
   return (
     <>
