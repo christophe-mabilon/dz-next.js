@@ -87,7 +87,7 @@ export default async function CombinedServiceCityPage(
 
       {/* Breadcrumbs */}
       <div className="bg-white border-b border-gray-200">
-        <div className="container-custom py-4">
+        <div className="container mx-auto py-4">
           <div className="flex items-center gap-2 text-sm flex-wrap">
             <Link href="/" className="text-primary-600 hover:text-primary-700">
               Accueil
@@ -114,7 +114,7 @@ export default async function CombinedServiceCityPage(
 
       {/* Hero */}
       <section className="hero-gradient relative overflow-hidden py-20 md:py-32 text-white">
-        <div className="container-custom">
+        <div className="container mx-auto">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
             {generateH1(service, cityData)}
           </h1>
@@ -127,7 +127,7 @@ export default async function CombinedServiceCityPage(
 
       {/* Content */}
       <section className="section-padding bg-white">
-        <div className="container-custom max-w-3xl">
+        <div className="container mx-auto max-w-3xl">
           <div className="mb-12">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">
               {service.name} à {cityData.name}
@@ -225,7 +225,7 @@ export default async function CombinedServiceCityPage(
 
       {/* Final CTA Section */}
       <section className="hero-gradient py-16 md:py-24 text-white">
-        <div className="container-custom text-center">
+        <div className="container mx-auto text-center">
           <h2 className="text-4xl md:text-5xl font-bold mb-4 leading-tight">
             Besoin d'un expert en {service.name.toLowerCase()} à {cityData.name}{" "}
             ?

@@ -88,7 +88,7 @@ export default function BlogPage() {
     <>
       {/* Breadcrumbs */}
       <div className="bg-white border-b border-gray-200">
-        <div className="container-custom py-4">
+        <div className="container mx-auto py-4">
           <div className="flex items-center gap-2 text-sm">
             <Link href="/" className="text-primary-600 hover:text-primary-700">
               Accueil
@@ -101,7 +101,7 @@ export default function BlogPage() {
 
       {/* Hero */}
       <section className="hero-gradient relative overflow-hidden py-20 md:py-32 text-white">
-        <div className="container-custom">
+        <div className="container mx-auto">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
             Blog maçonnerie
           </h1>
@@ -114,7 +114,7 @@ export default function BlogPage() {
 
       {/* Categories */}
       <section className="section-padding bg-white border-b border-gray-200">
-        <div className="container-custom">
+        <div className="container mx-auto">
           <div className="flex flex-wrap gap-3 justify-center">
             {categories.map((cat, idx) => (
               <button
@@ -134,7 +134,7 @@ export default function BlogPage() {
 
       {/* Featured Article */}
       <section className="section-padding bg-white">
-        <div className="container-custom">
+        <div className="container mx-auto">
           <div className="bg-gradient-to-r from-primary-50 to-primary-100 rounded-xl border border-primary-200 overflow-hidden">
             <div className="grid grid-cols-1 md:grid-cols-3 gap-0">
               {/* Image Placeholder */}
@@ -177,7 +177,7 @@ export default function BlogPage() {
 
       {/* Articles Grid */}
       <section className="section-padding bg-gray-50">
-        <div className="container-custom">
+        <div className="container mx-auto">
           <h2 className="heading-md mb-12 text-center">Derniers articles</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {articles.slice(1).map((article, idx) => (
@@ -237,7 +237,7 @@ export default function BlogPage() {
 
       {/* Newsletter */}
       <section className="section-padding bg-primary-50">
-        <div className="container-custom max-w-2xl">
+        <div className="container mx-auto max-w-2xl">
           <div className="bg-white p-8 rounded-xl border border-primary-200 text-center">
             <h2 className="text-2xl font-bold text-gray-900 mb-3">
               Recevez nos conseils par email
@@ -267,7 +267,7 @@ export default function BlogPage() {
 
       {/* CTA */}
       <section className="hero-gradient py-16 md:py-24 text-white">
-        <div className="container-custom text-center">
+        <div className="container mx-auto text-center">
           <h2 className="text-4xl md:text-5xl font-bold mb-4 leading-tight">
             Prêt à concrétiser votre projet ?
           </h2>

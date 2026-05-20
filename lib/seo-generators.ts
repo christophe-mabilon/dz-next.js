@@ -1,52 +1,106 @@
-
 import { City, Service, SeoFaq } from "@/types";
+
+function getStableIndex(seed: string, length: number): number {
+  const hash = seed
+    .split("")
+    .reduce((acc, char) => acc + char.charCodeAt(0), 0);
+
+  return hash % length;
+}
+
+function pickTemplate(templates: string[], seed: string): string {
+  return templates[getStableIndex(seed, templates.length)];
+}
 
 /**
  * Génère un title SEO dynamique
  */
-export function generateSeoTitle(
-  service: Service,
-  city?: City,
-): string {
+export function generateSeoTitle(service: Service, city?: City): string {
   if (!city) {
     const templates = [
       `${service.name} | DZ Maçonnerie`,
+
       `${service.name} - Devis Gratuit | DZ Maçonnerie`,
+
       `Entreprise de ${service.name.toLowerCase()} | DZ Maçonnerie`,
+
       `${service.name} professionnel | Garantie décennale`,
+
+      `Expert en ${service.name.toLowerCase()} en Isère`,
+
+      `${service.name} pour maison et rénovation`,
+
+      `Travaux de ${service.name.toLowerCase()} | Artisan qualifié`,
+
+      `${service.name} et terrassement en Nord-Isère`,
     ];
 
-    return templates[service.slug.length % templates.length];
+    return pickTemplate(templates, service.slug);
   }
 
   const templates = [
     `${service.name} à ${city.name} (${city.zipCode}) | DZ Maçonnerie`,
+
     `${service.name} à ${city.name} - Devis Gratuit`,
+
     `Entreprise de ${service.name.toLowerCase()} à ${city.name}`,
+
     `${service.name} professionnel à ${city.name} | Garantie décennale`,
+
     `Artisan spécialisé en ${service.name.toLowerCase()} à ${city.name}`,
+
+    `${service.name} en Isère - ${city.name}`,
+
+    `Entreprise bâtiment à ${city.name} - ${service.name}`,
+
+    `${service.name} pour particuliers à ${city.name}`,
+
+    `Expert en ${service.name.toLowerCase()} à ${city.name}`,
+
+    `${service.name} et rénovation à ${city.name}`,
+
+    `Travaux de ${service.name.toLowerCase()} à ${city.name}`,
+
+    `${service.name} avec devis gratuit à ${city.name}`,
+
+    `Artisan maçon à ${city.name} spécialisé en ${service.name.toLowerCase()}`,
+
+    `${service.name} pour maison et extension à ${city.name}`,
+
+    `${service.name} générale à ${city.name}`,
+
+    `Entreprise bâtiment et ${service.name.toLowerCase()} à ${city.name}`,
+
+    `${service.name} et terrassement à ${city.name}`,
+
+    `Rénovation et ${service.name.toLowerCase()} à ${city.name}`,
+
+    `${service.name} de qualité à ${city.name}`,
+
+    `${service.name} artisanale à ${city.name}`,
   ];
 
-  return templates[
-    (service.slug.length + city.slug.length) % templates.length
-  ];
+  return pickTemplate(templates, `${service.slug}-${city.slug}`);
 }
 
 /**
  * Génère une meta description SEO dynamique
  */
-export function generateSeoDescription(
-  service: Service,
-  city?: City,
-): string {
+export function generateSeoDescription(service: Service, city?: City): string {
   if (!city) {
     const templates = [
       `${service.description}. Devis gratuit et intervention rapide.`,
+
       `DZ Maçonnerie réalise vos travaux de ${service.name.toLowerCase()} avec garantie décennale.`,
+
       `Entreprise spécialisée en ${service.name.toLowerCase()} pour tous vos projets de construction et rénovation.`,
+
+      `Artisan qualifié en ${service.name.toLowerCase()} en Nord-Isère.`,
+
+      `Travaux de ${service.name.toLowerCase()} pour particuliers et professionnels.`,
     ];
 
-    return templates[service.slug.length % templates.length];
+    return pickTemplate(templates, service.slug);
   }
 
   const templates = [
@@ -59,212 +113,157 @@ export function generateSeoDescription(
     `Travaux de ${service.name.toLowerCase()} à ${city.name} : rénovation, terrassement, construction et gros œuvre.`,
 
     `${service.name} à ${city.name} avec accompagnement personnalisé, matériaux de qualité et respect des délais.`,
+
+    `Entreprise artisanale à ${city.name} spécialisée en ${service.name.toLowerCase()} et rénovation bâtiment.`,
+
+    `DZ Maçonnerie intervient à ${city.name} pour tous vos travaux de ${service.name.toLowerCase()} et aménagement extérieur.`,
+
+    `Artisan maçon à ${city.name} pour terrasse béton, rénovation et extension maison.`,
+
+    `${service.name} professionnel à ${city.name} avec devis gratuit et garantie décennale.`,
+
+    `Travaux de ${service.name.toLowerCase()} à ${city.name} pour maison, garage et rénovation extérieure.`,
+
+    `Entreprise locale de ${service.name.toLowerCase()} à ${city.name} avec plus de 10 ans d’expérience.`,
+
+    `DZ Maçonnerie accompagne vos projets de ${service.name.toLowerCase()} à ${city.name} avec intervention rapide.`,
   ];
 
-  return templates[
-    (service.slug.length + city.slug.length) % templates.length
-  ];
+  return pickTemplate(templates, `${service.slug}-${city.slug}`);
 }
 
 /**
  * Génère un H1 SEO dynamique
  */
-export function generateH1(
-  service: Service,
-  city?: City,
-): string {
+export function generateH1(service: Service, city?: City): string {
   if (!city) {
-    const templates = [
-      service.name,
-      `Entreprise de ${service.name.toLowerCase()}`,
-      `${service.name} professionnel`,
-    ];
-
-    return templates[service.slug.length % templates.length];
+    return service.name;
   }
 
   const templates = [
     `${service.name} à ${city.name}`,
+
     `Entreprise de ${service.name.toLowerCase()} à ${city.name}`,
-    `${service.name} professionnel à ${city.name}`,
+
     `Artisan spécialisé en ${service.name.toLowerCase()} à ${city.name}`,
+
+    `Travaux de ${service.name.toLowerCase()} à ${city.name}`,
+
+    `Expert en ${service.name.toLowerCase()} à ${city.name}`,
+
+    `${service.name} professionnel à ${city.name}`,
+
+    `${service.name} et rénovation à ${city.name}`,
+
+    `Entreprise bâtiment à ${city.name}`,
   ];
 
-  return templates[
-    (service.slug.length + city.slug.length) % templates.length
-  ];
+  return pickTemplate(templates, `${service.slug}-${city.slug}-h1`);
 }
 
 /**
- * Génère une introduction SEO locale
+ * Génère une introduction locale dynamique
  */
 export function generateLocalIntroduction(
   service: Service,
   city: City,
 ): string {
-  const projectText =
-    city.commonProjects?.length
-      ? city.commonProjects.join(", ")
-      : "construction, rénovation et terrassement";
+  const introBlocks = [
+    `DZ Maçonnerie intervient à ${city.name} pour tous vos travaux de ${service.name.toLowerCase()}.`,
 
-  const neighborhoodText =
-    city.neighborhoods?.length
-      ? city.neighborhoods.join(", ")
-      : city.name;
+    `Notre entreprise accompagne les habitants de ${city.name} pour leurs projets de ${service.name.toLowerCase()}.`,
 
-  const terrainText =
-    city.terrainTypes?.length
-      ? city.terrainTypes.join(", ")
-      : "terrains résidentiels";
+    `Vous recherchez un artisan spécialisé en ${service.name.toLowerCase()} à ${city.name} ?`,
 
-  const templates = [
-    `
-DZ Maçonnerie intervient à ${city.name} (${city.zipCode}) pour tous vos projets de ${service.name.toLowerCase()}.
-
-Nous réalisons régulièrement des travaux de ${projectText} dans les secteurs de ${neighborhoodText} avec un accompagnement personnalisé et un devis gratuit.
-    `,
-
-    `
-Notre entreprise spécialisée en ${service.name.toLowerCase()} intervient dans toute la commune de ${city.name} et ses environs.
-
-Nous adaptons nos solutions aux spécificités locales comme les ${terrainText} afin de garantir des travaux durables et de qualité.
-    `,
-
-    `
-Besoin d’un professionnel en ${service.name.toLowerCase()} à ${city.name} ?
-
-DZ Maçonnerie accompagne particuliers et professionnels pour tous types de projets : ${projectText}.
-    `,
+    `DZ Maçonnerie réalise des prestations de ${service.name.toLowerCase()} à ${city.name} pour particuliers et professionnels.`,
   ];
 
-  return templates[
-    (service.slug.length + city.slug.length) % templates.length
-  ].trim();
+  const experienceBlocks = [
+    `Avec plus de 10 ans d’expérience dans le bâtiment, nous accompagnons tous types de projets.`,
+
+    `Notre équipe intervient rapidement dans toute la région ${city.region}.`,
+
+    `Nous réalisons des travaux sur mesure adaptés à votre terrain et votre budget.`,
+
+    `Chaque chantier bénéficie d’un suivi personnalisé et d’une garantie décennale.`,
+  ];
+
+  const projectBlocks = [
+    `Nous réalisons régulièrement des terrasses béton, extensions maison et rénovations dans le secteur de ${city.name}.`,
+
+    `Nos prestations couvrent le gros œuvre, la rénovation et les aménagements extérieurs.`,
+
+    `Nous intervenons aussi pour les garages, murs de clôture et travaux de terrassement.`,
+
+    `Nos solutions sont adaptées aux maisons individuelles et terrains de la région.`,
+  ];
+
+  const guaranteeBlocks = [
+    `Tous nos travaux sont couverts par une garantie décennale.`,
+
+    `Nous proposons un devis gratuit et sans engagement.`,
+
+    `Notre équipe vous accompagne de l’étude du projet jusqu’à la livraison du chantier.`,
+
+    `Nous privilégions des matériaux de qualité et des finitions durables.`,
+  ];
+
+  return `
+    ${pickTemplate(introBlocks, `${service.slug}-${city.slug}-intro`)}
+
+    ${pickTemplate(experienceBlocks, `${service.slug}-${city.slug}-experience`)}
+
+    ${pickTemplate(projectBlocks, `${service.slug}-${city.slug}-project`)}
+
+    ${pickTemplate(guaranteeBlocks, `${service.slug}-${city.slug}-guarantee`)}
+  `
+    .replace(/\s+/g, " ")
+    .trim();
 }
 
 /**
- * Génère une FAQ dynamique
+ * Génère une FAQ SEO dynamique
  */
-export function generateServiceFaq(
-  service: Service,
-  city?: City,
-): SeoFaq[] {
+export function generateSeoFaqs(service: Service, city?: City): SeoFaq[] {
   if (!city) {
     return [
       {
-        question: `Proposez-vous des travaux de ${service.name.toLowerCase()} ?`,
-        answer: `Oui, DZ Maçonnerie réalise tous types de travaux de ${service.name.toLowerCase()} avec devis gratuit et garantie décennale.`,
+        question: `Quels types de travaux propose DZ Maçonnerie ?`,
+
+        answer: `Nous réalisons des travaux de maçonnerie générale, rénovation, terrassement, dalle béton et extension maison.`,
       },
+
       {
-        question: `Quel est le délai moyen pour un chantier ?`,
-        answer: `Les délais dépendent de la nature et de la complexité du projet. Une estimation précise est fournie lors du devis.`,
-      },
-      {
-        question: `Êtes-vous assurés ?`,
-        answer: `Oui, notre entreprise dispose d’une garantie décennale et d’une assurance responsabilité civile professionnelle.`,
+        question: `Proposez-vous un devis gratuit ?`,
+
+        answer: `Oui, nous proposons un devis gratuit et sans engagement pour tous vos projets.`,
       },
     ];
   }
 
   return [
     {
-      question: `Proposez-vous des travaux de ${service.name.toLowerCase()} à ${city.name} ?`,
-      answer: `Oui, nous intervenons à ${city.name} (${city.zipCode}) pour tous vos projets de ${service.name.toLowerCase()}.`,
+      question: `Intervenez-vous à ${city.name} ?`,
+
+      answer: `Oui, notre entreprise intervient à ${city.name} et dans les communes voisines pour tous types de travaux de ${service.name.toLowerCase()}.`,
     },
+
     {
-      question: `Quel est le délai d’intervention à ${city.name} ?`,
-      answer: `Nous proposons une intervention rapide à ${city.name} selon la nature du chantier et les disponibilités.`,
+      question: `Quels travaux de ${service.name.toLowerCase()} réalisez-vous à ${city.name} ?`,
+
+      answer: `Nous réalisons des travaux de rénovation, terrassement, dalle béton, extension maison et gros œuvre à ${city.name}.`,
     },
+
     {
-      question: `Réalisez-vous des devis gratuits à ${city.name} ?`,
-      answer: `Oui, nous réalisons gratuitement vos devis de ${service.name.toLowerCase()} à ${city.name} sans engagement.`,
+      question: `Proposez-vous un devis gratuit à ${city.name} ?`,
+
+      answer: `Oui, nous proposons un devis gratuit et sans engagement pour tous vos projets à ${city.name}.`,
     },
+
     {
-      question: `Êtes-vous couverts par une garantie décennale ?`,
-      answer: `Oui, tous nos travaux bénéficient d’une garantie décennale et d’une assurance professionnelle.`,
+      question: `Disposez-vous d’une garantie décennale ?`,
+
+      answer: `Oui, tous nos travaux sont couverts par une garantie décennale professionnelle.`,
     },
   ];
-}
-
-/**
- * Génère des H2 SEO dynamiques
- */
-export function generateSeoSections(
-  service: Service,
-  city?: City,
-): string[] {
-  if (!city) {
-    return [
-      `Pourquoi choisir notre entreprise de ${service.name.toLowerCase()} ?`,
-      `Nos prestations de ${service.name.toLowerCase()}`,
-      `DZ Maçonnerie : expertise et qualité`,
-      `Demandez votre devis gratuit`,
-    ];
-  }
-
-  return [
-    `${service.name} à ${city.name}`,
-    `Pourquoi choisir DZ Maçonnerie à ${city.name} ?`,
-    `Nos prestations de ${service.name.toLowerCase()} à ${city.name}`,
-    `Intervention dans les quartiers de ${city.name}`,
-    `Devis gratuit pour vos travaux à ${city.name}`,
-  ];
-}
-
-/**
- * Génère des CTA dynamiques
- */
-export function generateDynamicCta(
-  service: Service,
-  city?: City,
-): string {
-  if (!city) {
-    const templates = [
-      `Besoin d’un expert en ${service.name.toLowerCase()} ?`,
-      `Demandez votre devis gratuit dès aujourd’hui`,
-      `Confiez vos travaux à DZ Maçonnerie`,
-    ];
-
-    return templates[service.slug.length % templates.length];
-  }
-
-  const templates = [
-    `Besoin d’un expert en ${service.name.toLowerCase()} à ${city.name} ?`,
-    `Demandez votre devis gratuit à ${city.name}`,
-    `Confiez votre projet à une entreprise locale expérimentée`,
-    `Contactez DZ Maçonnerie pour vos travaux à ${city.name}`,
-  ];
-
-  return templates[
-    (service.slug.length + city.slug.length) % templates.length
-  ];
-}
-
-/**
- * Génère des liens internes SEO
- */
-export function generateInternalLinks(
-  service: Service,
-  city?: City,
-) {
-  const links = [];
-
-  if (city) {
-    links.push({
-      title: `${service.name} à ${city.name}`,
-      href: `/services/${service.slug}/${city.slug}`,
-    });
-
-    links.push({
-      title: `Entreprise de maçonnerie à ${city.name}`,
-      href: `/villes/${city.slug}`,
-    });
-  }
-
-  links.push({
-    title: `Nos services de ${service.name.toLowerCase()}`,
-    href: `/services/${service.slug}`,
-  });
-
-  return links;
 }

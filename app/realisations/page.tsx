@@ -3,6 +3,7 @@ import { Metadata } from 'next';
 import { ArrowRight, Calendar, MapPin } from 'lucide-react';
 import { generateMetadata as generatePageMetadata } from '@/lib/seo';
 import { siteConfig } from '@/data/config';
+import { generateProjectSchema } from '@/lib/seo';
 
 export const metadata: Metadata = generatePageMetadata(
   'Réalisations et projets | DZ Maçonnerie',
@@ -89,9 +90,25 @@ const categories = [
 export default function RealisationsPage() {
   return (
     <>
+   <script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{
+    __html: JSON.stringify(
+      projects.map((project) =>
+        generateProjectSchema(
+          project.title,
+          project.description,
+          `${siteConfig.siteUrl}/og-realisations.jpg`,
+          project.city,
+          `${siteConfig.siteUrl}/realisations`
+        )
+      )
+    ),
+  }}
+/>
       {/* Breadcrumbs */}
       <div className="bg-white border-b border-gray-200">
-        <div className="container-custom py-4">
+        <div className="container mx-autopy-4">
           <div className="flex items-center gap-2 text-sm">
             <Link href="/" className="text-primary-600 hover:text-primary-700">Accueil</Link>
             <span className="text-gray-400">/</span>
@@ -102,7 +119,7 @@ export default function RealisationsPage() {
 
       {/* Hero */}
       <section className="hero-gradient relative overflow-hidden py-20 md:py-32 text-white">
-        <div className="container-custom">
+        <div className="container mx-auto">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
             Nos réalisations
           </h1>
@@ -114,7 +131,7 @@ export default function RealisationsPage() {
 
       {/* Filter */}
       <section className="section-padding bg-white border-b border-gray-200">
-        <div className="container-custom">
+        <div className="container mx-auto">
           <div className="flex flex-wrap gap-3 justify-center">
             {categories.map(cat => (
               <button
@@ -134,7 +151,7 @@ export default function RealisationsPage() {
 
       {/* Projects Grid */}
       <section className="section-padding bg-white">
-        <div className="container-custom">
+        <div className="container mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
             {projects.map((project, idx) => (
               <div
@@ -181,7 +198,7 @@ export default function RealisationsPage() {
 
       {/* Project Stats */}
       <section className="section-padding bg-gray-50">
-        <div className="container-custom">
+        <div className="container mx-auto">
           <h2 className="heading-md mb-12 text-center">Notre expérience</h2>
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-6">
             {[
@@ -201,7 +218,7 @@ export default function RealisationsPage() {
 
       {/* Why Our Work Stands Out */}
       <section className="section-padding bg-white">
-        <div className="container-custom">
+        <div className="container mx-auto">
           <h2 className="heading-md mb-12 text-center">Qualité garantie</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
@@ -229,7 +246,7 @@ export default function RealisationsPage() {
 
       {/* Final CTA */}
       <section className="hero-gradient py-16 md:py-24 text-white">
-        <div className="container-custom text-center">
+        <div className="container mx-auto text-center">
           <h2 className="text-4xl md:text-5xl font-bold mb-4 leading-tight">
             Votre projet mérite notre expertise
           </h2>

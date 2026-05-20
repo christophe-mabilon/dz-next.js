@@ -26,19 +26,19 @@ export default function ServicesPage() {
       {/* HERO */}
       <section className="relative overflow-hidden py-24 text-white md:py-36">
         <div className="absolute inset-0">
-         <Image
-                     src="/assets/img/header.avif"
-                     alt="Entreprise de maçonnerie à Bourgoin-Jallieu"
-                     fill
-                     priority
-                     className="object-cover 100vw"
-                     sizes="(max-width: 768px) 100vw, 50vw"
-                   />
+          <Image
+            src="/images/realisations/chantier_maçonnerie.avif"
+            alt="Rénovation chantier béton réalisée à Bourgoin-Jallieu par DZ Maçonnerie & terrassement"
+            fill
+            className="object-cover 100vw"
+            sizes="(max-width: 768px) 100vw, 50vw"
+            loading="lazy"
+          />
 
           <div className="absolute inset-0 bg-black/70" />
         </div>
 
-        <div className="container-custom relative z-10">
+        <div className="container mx-auto relative z-10">
           <div className="max-w-4xl">
             <div className="mb-6 inline-flex items-center rounded-full border border-white/10 bg-white/10 px-4 py-2 text-sm backdrop-blur">
               <MapPin className="mr-2 h-4 w-4" />
@@ -83,7 +83,7 @@ export default function ServicesPage() {
 
       {/* INTRO */}
       <section className="bg-white py-16">
-        <div className="container-custom">
+        <div className="container mx-auto">
           <div className="grid gap-16 lg:grid-cols-2 lg:items-center">
             <div>
               <span className="mb-4 inline-block rounded-full bg-primary-100 px-4 py-2 text-sm font-bold text-primary-700">
@@ -97,7 +97,7 @@ export default function ServicesPage() {
               <div className="space-y-6 leading-relaxed text-gray-600">
                 <p>
                   Située à Artas près de Bourgoin-Jallieu, notre entreprise de
-                  maçonnerie accompagne ses clients depuis plus de 15 ans dans
+                  maçonnerie accompagne ses clients Depuis plus de 10 ans dans
                   leurs projets de construction, rénovation et aménagement
                   extérieur.
                 </p>
@@ -120,7 +120,7 @@ export default function ServicesPage() {
                   "Garantie décennale",
                   "Devis gratuit",
                   "Travail soigné",
-                  "15 ans d’expérience",
+                  "10 ans d’expérience",
                 ].map((item) => (
                   <div key={item} className="flex items-center">
                     <CheckCircle2 className="mr-3 h-5 w-5 text-primary-500" />
@@ -133,7 +133,7 @@ export default function ServicesPage() {
 
             <div className="relative aspect-[4/3] overflow-hidden rounded-3xl">
               <Image
-                src="/assets/img/services-intro.webp"
+                src="/images/services/maconnerie-maison.webp"
                 alt="Travaux de maçonnerie en Isère"
                 fill
                 sizes="(max-width: 768px) 100vw, 50vw"
@@ -146,7 +146,7 @@ export default function ServicesPage() {
 
       {/* SERVICES */}
       <section className="bg-gray-50 py-16">
-        <div className="container-custom">
+        <div className="container mx-auto">
           <div className="mb-14 text-center">
             <h2 className="mb-4 text-4xl font-black text-gray-900">
               Nos prestations de maçonnerie
@@ -161,16 +161,16 @@ export default function ServicesPage() {
           <div className="grid gap-8 md:grid-cols-2 xl:grid-cols-3">
             {services.map((service, index) => {
               const serviceImages = [
-                "/assets/img/service-maconnerie.webp",
-                "/assets/img/service-renovation.webp",
-                "/assets/img/service-agrandissement-maison.webp",
-                "/assets/img/service-extension.webp",
-                "/assets/img/service-piscine.webp",
-                "/assets/img/realisation-muret.webp",
-                "/assets/img/service-terrassement.webp",
-                "/assets/img/abri-de-jardin.webp",
-                "/assets/img/service-dalle.webp",
-                "/assets/img/service-dalles-sur-plot.webp"
+                "/images/services/maconnerie-generale.webp",
+                "/images/services/renovations-maison.webp",
+                "/images/services/agrandissement-maison.webp",
+                "/images/services/extension-maison.webp",
+                "/images/services/piscine.webp",
+                "/images/services/realisation-cloture-muret.webp",
+                "/images/services/terrassement.webp",
+                "/images/services/abri-de-jardin.webp",
+                "/images/services/dalles.webp",
+                "/images/services/dalles-sur-plot.webp",
               ];
 
               return (
@@ -214,7 +214,7 @@ export default function ServicesPage() {
 
       {/* REALISATIONS */}
       <section className="bg-white py-16">
-        <div className="container-custom">
+        <div className="container mx-auto">
           <div className="mb-14 text-center">
             <h2 className="mb-4 text-4xl font-black text-gray-900">
               Des réalisations concrètes
@@ -273,7 +273,7 @@ export default function ServicesPage() {
 
       {/* WHY US */}
       <section className="bg-gray-50 py-16">
-        <div className="container-custom">
+        <div className="container mx-auto">
           <div className="mb-14 text-center">
             <h2 className="mb-4 text-4xl font-black text-gray-900">
               Pourquoi choisir DZ Maçonnerie ?
@@ -288,7 +288,7 @@ export default function ServicesPage() {
           <div className="grid gap-8 md:grid-cols-2 xl:grid-cols-4">
             {[
               {
-                title: "15 ans d’expérience",
+                title: "10 ans d’expérience",
                 desc: "Une solide expertise dans les travaux de maçonnerie générale.",
               },
               {
@@ -323,7 +323,7 @@ export default function ServicesPage() {
 
       {/* FAQ */}
       <section className="bg-white py-16">
-        <div className="container-custom max-w-5xl">
+        <div className="container mx-auto max-w-5xl">
           <div className="mb-14 text-center">
             <h2 className="mb-4 text-4xl font-black text-gray-900">
               Questions fréquentes
@@ -370,7 +370,7 @@ export default function ServicesPage() {
 
       {/* SEO CONTENT */}
       <section className="bg-gray-50 py-16">
-        <div className="container-custom max-w-5xl">
+        <div className="container mx-auto max-w-5xl">
           <h2 className="mb-8 text-4xl font-black text-gray-900">
             Entreprise de maçonnerie à Bourgoin-Jallieu
           </h2>
@@ -403,7 +403,7 @@ export default function ServicesPage() {
       <section className="relative overflow-hidden py-20 text-white">
         <div className="absolute inset-0 bg-primary-600" />
 
-        <div className="container-custom relative z-10 text-center">
+        <div className="container mx-auto relative z-10 text-center">
           <h2 className="mb-6 text-4xl font-black">
             Besoin d’un devis pour vos travaux ?
           </h2>

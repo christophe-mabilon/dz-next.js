@@ -17,7 +17,7 @@ export function Footer({ currentCitySlug }: FooterProps) {
   return (
     <footer className="bg-gray-950 text-gray-300 border-t border-gray-800">
       {/* MAIN FOOTER */}
-      <div className="container-custom py-20">
+      <div className="container mx-auto py-20">
         <div className="grid gap-14 lg:grid-cols-4">
           {/* ENTREPRISE */}
           <div className="lg:col-span-1">
@@ -107,11 +107,13 @@ export function Footer({ currentCitySlug }: FooterProps) {
             </h4>
 
             <ul className="flex flex-wrap gap-3">
-              {getRelatedCities().slice(0, 8).map((city) => (
-                <Link
-                  key={city.slug}
-                  href={`/villes/${city.slug}`}
-                  className="
+              {getRelatedCities()
+                .slice(0, 8)
+                .map((city) => (
+                  <Link
+                    key={city.slug}
+                    href={`/villes/${city.slug}`}
+                    className="
         px-4 py-2
         rounded-full
         bg-white/5
@@ -123,10 +125,10 @@ export function Footer({ currentCitySlug }: FooterProps) {
         text-gray-300
         hover:text-white
       "
-                >
-                  {city.name}
-                </Link>
-              ))}
+                  >
+                    {city.name}
+                  </Link>
+                ))}
             </ul>
           </div>
 
@@ -238,7 +240,7 @@ export function Footer({ currentCitySlug }: FooterProps) {
 
       {/* CTA BAR */}
       <div className="border-t border-primary-500 bg-primary-600">
-        <div className="container-custom flex flex-col items-center justify-between gap-4 py-8 md:flex-row">
+        <div className="container mx-auto flex flex-col items-center justify-between gap-4 py-8 md:flex-row">
           <div>
             <h3 className="mb-1 text-xl font-bold text-white">
               Besoin d'un devis pour vos travaux ?

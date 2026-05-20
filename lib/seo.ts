@@ -14,8 +14,8 @@ export function generateMetadata(
     title: `${title} | ${siteConfig.siteName}`,
     description,
     alternates: {
-  canonical: url,
-},
+      canonical: url,
+    },
     openGraph: {
       title,
       description,
@@ -25,7 +25,7 @@ export function generateMetadata(
       locale: siteConfig.locale,
       images: [
         {
-          url: image || siteConfig.ogImage,
+          url: image ? image : `${siteConfig.siteUrl}${siteConfig.ogImage}`,
           width: 1200,
           height: 630,
           alt: title,
@@ -36,7 +36,7 @@ export function generateMetadata(
       card: "summary_large_image",
       title,
       description,
-      images: [image || siteConfig.ogImage],
+      images: [image ? image : `${siteConfig.siteUrl}${siteConfig.ogImage}`],
     },
   };
 }
@@ -45,7 +45,7 @@ export function generateMetadata(
 export function generateLocalBusinessSchema() {
   return {
     "@context": "https://schema.org",
-    "@type": "LocalBusiness",
+    "@type": "ConstructionCompany",
     "@id": `${siteConfig.siteUrl}/#business`,
     name: siteConfig.business.name,
     image: `${siteConfig.siteUrl}/og-image.jpg`,
@@ -60,13 +60,28 @@ export function generateLocalBusinessSchema() {
       postalCode: siteConfig.business.zipCode,
       addressCountry: siteConfig.business.country,
     },
+    areaServed: {
+      "@type": "GeoCircle",
+      geoMidpoint: {
+        "@type": "GeoCoordinates",
+        latitude: 45.537,
+        longitude: 5.163,
+      },
+      geoRadius: 40, // Rayon en kilomètres
+    },
+    geo: {
+      "@type": "GeoCoordinates",
+      latitude: "45.537",
+      longitude: "5.163",
+    },
     aggregateRating: {
       "@type": "AggregateRating",
-      ratingValue: "4.9",
-      reviewCount: "42",
+      ratingValue: "5.0",
+      reviewCount: "15",
     },
     priceRange: "€€",
     sameAs: [
+      siteConfig.business.socialProfiles.google || "",
       siteConfig.business.socialProfiles.facebook || "",
       siteConfig.business.socialProfiles.instagram || "",
     ].filter(Boolean),
@@ -100,8 +115,19 @@ export function generateServiceSchema(
     },
     areaServed: {
       "@type": "Region",
-      name: "Isère, Rhône",
+      name: "Nord-Isère",
     },
+  };
+}
+export function generateCitySchema(cityName: string, cityUrl: string) {
+  return {
+    "@context": "https://schema.org",
+
+    "@type": "City",
+
+    name: cityName,
+
+    url: cityUrl,
   };
 }
 
@@ -161,6 +187,7 @@ export function generateOrganizationSchema() {
       contactType: "Customer Service",
     },
     sameAs: [
+      siteConfig.business.socialProfiles.google,
       siteConfig.business.socialProfiles.facebook || "",
       siteConfig.business.socialProfiles.instagram || "",
     ].filter(Boolean),
@@ -174,14 +201,6 @@ export function generateWebSiteSchema() {
     "@type": "WebSite",
     name: siteConfig.business.name,
     url: siteConfig.siteUrl,
-    potentialAction: {
-      "@type": "SearchAction",
-      target: {
-        "@type": "EntryPoint",
-        urlTemplate: `${siteConfig.siteUrl}/search?q={search_term_string}`,
-      },
-      "query-input": "required name=search_term_string",
-    },
   };
 }
 
@@ -217,7 +236,7 @@ export function generateArticleSchema(
       name: siteConfig.business.name,
       logo: {
         "@type": "ImageObject",
-        url: `${siteConfig.siteUrl}/logo.png`,
+        url: `${siteConfig.siteUrl}/DZ-maconnerie_logo1.webp`,
       },
     },
     mainEntityOfPage: {
@@ -234,17 +253,15 @@ export function generateSeoTitle(
 ) {
   const templates = [
     `${service} à ${city}${zipCode ? ` (${zipCode})` : ""} | DZ Maçonnerie`,
-    
+
     `${service} à ${city} - Devis Gratuit | DZ Maçonnerie`,
-    
+
     `Entreprise de ${service.toLowerCase()} à ${city}`,
-    
+
     `${service} professionnel à ${city} | Garantie décennale`,
   ];
 
-  return templates[
-    (service.length + city.length) % templates.length
-  ];
+  return templates[(service.length + city.length) % templates.length];
 }
 
 export function generateSeoDescription(
@@ -262,24 +279,17 @@ export function generateSeoDescription(
     `Travaux de ${service.toLowerCase()} à ${city} : rénovation, terrassement, construction et gros œuvre.`,
   ];
 
-  return templates[
-    (service.length + city.length) % templates.length
-  ];
+  return templates[(service.length + city.length) % templates.length];
 }
 
-export function generateH1(
-  service: string,
-  city: string,
-) {
+export function generateH1(service: string, city: string) {
   const templates = [
     `${service} à ${city}`,
     `Entreprise de ${service.toLowerCase()} à ${city}`,
     `${service} professionnel à ${city}`,
   ];
 
-  return templates[
-    (service.length + city.length) % templates.length
-  ];
+  return templates[(service.length + city.length) % templates.length];
 }
 
 export function generateLocalIntroduction(
@@ -298,10 +308,7 @@ avec un accompagnement personnalisé et un devis gratuit.
   `.trim();
 }
 
-export function generateServiceFaq(
-  service: string,
-  city: string,
-) {
+export function generateServiceFaq(service: string, city: string) {
   return [
     {
       question: `Proposez-vous des travaux de ${service.toLowerCase()} à ${city} ?`,
@@ -312,4 +319,31 @@ export function generateServiceFaq(
       answer: `Nous proposons une intervention rapide à ${city} selon la nature du chantier.`,
     },
   ];
+}
+
+export function generateProjectSchema(
+  title: string,
+  description: string,
+  image: string,
+  city: string,
+  url: string,
+) {
+  return {
+    "@context": "https://schema.org",
+
+    "@type": "ConstructionProject",
+
+    name: title,
+
+    description,
+
+    image,
+
+    url,
+
+    location: {
+      "@type": "City",
+      name: city,
+    },
+  };
 }

@@ -108,12 +108,12 @@ export default function HomePage() {
       <section className="relative overflow-hidden">
         <div className="absolute inset-0">
           <Image
-            src="/assets/img/header.avif"
-            alt="Entreprise de maçonnerie à Bourgoin-Jallieu"
+            src="/images/realisations/chantier_maçonnerie.avif"
+            alt="Rénovation chantier béton réalisée à Bourgoin-Jallieu par DZ Maçonnerie & terrassement"
             fill
-            priority
             className="object-cover 100vw"
             sizes="(max-width: 768px) 100vw, 50vw"
+            loading="lazy"
           />
 
           <div className="absolute inset-0 bg-black/60" />
@@ -172,7 +172,7 @@ export default function HomePage() {
                 <Hammer className="mb-3 h-6 w-6 text-primary-300" />
 
                 <h2 className="mb-2 font-bold text-white">
-                  15 ans d’expérience
+                  10 ans d’expérience
                 </h2>
 
                 <p className="text-sm text-gray-300">
@@ -237,7 +237,7 @@ export default function HomePage() {
 
           <div className="relative h-[500px] overflow-hidden rounded-3xl">
             <Image
-              src="/assets/img/maconnerie-isere.webp"
+              src="/images/chantiers/artisan-macon.webp"
               alt="Travaux de maçonnerie en Isère"
               fill
               className="object-cover object-[65%_center] md:object-center transition duration-500 hover:scale-105"
@@ -267,7 +267,7 @@ export default function HomePage() {
           <div className="grid gap-8 md:grid-cols-2 xl:grid-cols-4">
             {[
               {
-                title: "15 ans d’expérience",
+                title: "10 ans d’expérience",
                 desc: "Une solide expérience dans les travaux de maçonnerie générale et terrassement.",
               },
               {
@@ -478,7 +478,7 @@ export default function HomePage() {
             </p>
 
             <p>
-              Grâce à plus de 15 ans d’expérience dans le bâtiment, nous
+              Grâce à plus de 10 ans d’expérience dans le bâtiment, nous
               proposons des prestations de qualité avec garantie décennale et
               accompagnement personnalisé pour tous vos projets de construction
               et rénovation.
@@ -627,7 +627,7 @@ export default function HomePage() {
             </p>
 
             <p>
-              Grâce à plus de 15 ans d’expérience dans le bâtiment, nous
+              Grâce à plus de 10 ans d’expérience dans le bâtiment, nous
               accompagnons nos clients avec sérieux, professionnalisme et
               garantie décennale.
             </p>

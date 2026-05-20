@@ -25,7 +25,7 @@ export function Header() {
     <>
       {/* TOP BAR */}
       <div className="hidden md:block bg-primary-600 text-white">
-        <div className="container-custom flex items-center justify-between py-2 text-sm">
+        <div className="container mx-auto flex items-center justify-between py-2 text-sm">
           <div className="flex items-center gap-6">
             <div className="flex items-center gap-2">
               <MapPin className="h-4 w-4" />
@@ -48,19 +48,18 @@ export function Header() {
 
       {/* HEADER */}
       <header className="sticky top-0 z-50 border-b border-white/10 bg-gray-950/95 backdrop-blur">
-        <div className="container-custom">
+        <div className="container mx-auto">
           <div className="flex h-20 items-center justify-between">
             {/* LOGO */}
             <Link href="/" className="flex items-center gap-4">
               <Image
-                src="/assets/img/DZ-logo-02.webp"
-                alt="DZ Maçonnerie & Terrassement"
+                src="/images/chantiers/DZ-maconnerie_logo1.webp"
+                alt="DZ Maçonnerie && terassement Artas 38440"
                 width={55}
                 height={55}
-                priority
                 className="object-contain"
+                loading="lazy"
               />
-
               <div className="hidden sm:block">
                 <p className="text-lg font-black uppercase tracking-wide text-white">
                   DZ Maçonnerie
@@ -130,7 +129,7 @@ export function Header() {
         {/* MOBILE MENU */}
         {isOpen && (
           <div className="border-t border-white/10 bg-gray-950 lg:hidden">
-            <nav className="container-custom flex flex-col py-6">
+            <nav className="container mx-auto flex flex-col py-6">
               {navItems.map((item) => (
                 <Link
                   key={item.href}
