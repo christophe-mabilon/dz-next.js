@@ -9,11 +9,8 @@ import {
 } from "lucide-react";
 import { getRelatedCities } from "@/lib/getRelatedCities";
 
-interface FooterProps {
-  currentCitySlug?: string;
-}
 
-export function Footer({ currentCitySlug }: FooterProps) {
+export function Footer() {
   return (
     <footer className="bg-gray-950 text-gray-300 border-t border-gray-800">
       {/* MAIN FOOTER */}
