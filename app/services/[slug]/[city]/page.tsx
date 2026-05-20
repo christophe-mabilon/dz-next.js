@@ -13,6 +13,7 @@ import { generateSeoTitle, generateSeoDescription } from "@/lib/seo-generators";
 import { generateH1 } from "@/lib/seo-generators";
 import { generateLocalIntroduction } from "@/lib/seo-generators";
 import { generateServiceFaq } from "@/lib/seo-generators";
+import { DynamicFooter } from "@/components/DynamicFooter";
 
 interface CombinedPageProps {
   params: Promise<{
@@ -241,6 +242,7 @@ export default async function CombinedServiceCityPage(
           </Link>
         </div>
       </section>
+      <DynamicFooter currentCitySlug={cityData.slug} />
     </>
   );
 }

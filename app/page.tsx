@@ -549,27 +549,30 @@ export default function HomePage() {
           </div>
 
           <div className="grid gap-6 md:grid-cols-2 xl:grid-cols-3">
-            {cities.map((city) => (
-              <Link
-                key={city.id}
-                href={`/villes/${city.slug}`}
-                className="rounded-2xl border border-white/10 bg-white/5 p-6 transition hover:border-primary-500 hover:bg-white/10"
-              >
-                <div className="flex items-center justify-between">
-                  <div>
-                    <span className="block text-lg font-semibold text-white">
-                      {city.name}
-                    </span>
+            {cities
+              .filter((city) => city.featured)
+              .slice(0, 10)
+              .map((city) => (
+                <Link
+                  key={city.id}
+                  href={`/villes/${city.slug}`}
+                  className="rounded-2xl border border-white/10 bg-white/5 p-6 transition hover:border-primary-500 hover:bg-white/10"
+                >
+                  <div className="flex items-center justify-between">
+                    <div>
+                      <span className="block text-lg font-semibold text-white">
+                        {city.name}
+                      </span>
 
-                    <span className="mt-1 block text-sm text-gray-400">
-                      {city.zipCode} • {city.region}
-                    </span>
+                      <span className="mt-1 block text-sm text-gray-400">
+                        {city.zipCode} • {city.region}
+                      </span>
+                    </div>
+
+                    <ArrowRight className="h-4 w-4 text-primary-400" />
                   </div>
-
-                  <ArrowRight className="h-4 w-4 text-primary-400" />
-                </div>
-              </Link>
-            ))}
+                </Link>
+              ))}
           </div>
         </div>
       </section>

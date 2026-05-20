@@ -5,12 +5,15 @@ import {
   Phone,
   ArrowRight,
   Hammer,
-  Building2,
   ShieldCheck,
 } from "lucide-react";
-import { cities } from "@/data/cities";
+import { getRelatedCities } from "@/lib/getRelatedCities";
 
-export function Footer() {
+interface FooterProps {
+  currentCitySlug?: string;
+}
+
+export function Footer({ currentCitySlug }: FooterProps) {
   return (
     <footer className="bg-gray-950 text-gray-300 border-t border-gray-800">
       {/* MAIN FOOTER */}
@@ -100,20 +103,29 @@ export function Footer() {
           {/* ZONES */}
           <div>
             <h4 className="mb-6 text-lg font-bold text-white">
-              Zones d'intervention
+              Nos interventions en Isère
             </h4>
 
-            <ul className="space-y-4 text-sm">
-              {cities.map((city) => (
-                <li key={city.slug}>
-                  <Link
-                    href={`/villes/${city.slug}`}
-                    className="flex items-center gap-2 text-gray-400 transition hover:text-primary-400"
-                  >
-                    <Building2 className="h-4 w-4" />
-                    {city.name}
-                  </Link>
-                </li>
+            <ul className="flex flex-wrap gap-3">
+              {getRelatedCities().slice(0, 8).map((city) => (
+                <Link
+                  key={city.slug}
+                  href={`/villes/${city.slug}`}
+                  className="
+        px-4 py-2
+        rounded-full
+        bg-white/5
+        border border-white/10
+        hover:border-primary-400
+        hover:bg-primary-500/10
+        transition-all
+        text-sm
+        text-gray-300
+        hover:text-white
+      "
+                >
+                  {city.name}
+                </Link>
               ))}
             </ul>
           </div>

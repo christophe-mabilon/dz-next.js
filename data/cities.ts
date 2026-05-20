@@ -8,7 +8,7 @@ export const cities: City[] = [
     zipCode: "38300",
     region: "Auvergne-Rhône-Alpes",
     department: "Isère",
-
+    featured: true,
     population: "29 000 habitants",
 
     description:
@@ -86,7 +86,7 @@ export const cities: City[] = [
     zipCode: "38200",
     region: "Auvergne-Rhône-Alpes",
     department: "Isère",
-
+    featured: true,
     population: "30 000 habitants",
 
     description:
@@ -205,7 +205,7 @@ export const cities: City[] = [
     zipCode: "38080",
     region: "Auvergne-Rhône-Alpes",
     department: "Isère",
-
+    featured: true,
     population: "17 000 habitants",
 
     description:
@@ -245,7 +245,7 @@ export const cities: City[] = [
     zipCode: "38070",
     region: "Auvergne-Rhône-Alpes",
     department: "Isère",
-
+    featured: true,
     population: "6500 habitants",
 
     description:
@@ -283,7 +283,7 @@ export const cities: City[] = [
     zipCode: "38290",
     region: "Auvergne-Rhône-Alpes",
     department: "Isère",
-
+    featured: true,
     population: "8 000 habitants",
 
     description:
@@ -368,7 +368,7 @@ export const cities: City[] = [
     zipCode: "38110",
     region: "Auvergne-Rhône-Alpes",
     department: "Isère",
-
+    featured: true,
     population: "8 500 habitants",
 
     description:
@@ -447,7 +447,7 @@ export const cities: City[] = [
     zipCode: "38440",
     region: "Auvergne-Rhône-Alpes",
     department: "Isère",
-
+    featured: true,
     population: "4 800 habitants",
 
     description:
@@ -509,7 +509,7 @@ export const cities: City[] = [
     zipCode: "38440",
     region: "Auvergne-Rhône-Alpes",
     department: "Isère",
-
+    featured: true,
     population: "1 900 habitants",
 
     description:
@@ -557,7 +557,7 @@ export const cities: City[] = [
     zipCode: "38540",
     region: "Auvergne-Rhône-Alpes",
     department: "Isère",
-
+    featured: true,
     population: "5 000 habitants",
 
     description:
