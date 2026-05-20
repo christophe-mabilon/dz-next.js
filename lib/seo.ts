@@ -226,3 +226,90 @@ export function generateArticleSchema(
     },
   };
 }
+
+export function generateSeoTitle(
+  service: string,
+  city: string,
+  zipCode?: string,
+) {
+  const templates = [
+    `${service} à ${city}${zipCode ? ` (${zipCode})` : ""} | DZ Maçonnerie`,
+    
+    `${service} à ${city} - Devis Gratuit | DZ Maçonnerie`,
+    
+    `Entreprise de ${service.toLowerCase()} à ${city}`,
+    
+    `${service} professionnel à ${city} | Garantie décennale`,
+  ];
+
+  return templates[
+    (service.length + city.length) % templates.length
+  ];
+}
+
+export function generateSeoDescription(
+  service: string,
+  city: string,
+  zipCode?: string,
+) {
+  const templates = [
+    `DZ Maçonnerie réalise vos travaux de ${service.toLowerCase()} à ${city}${zipCode ? ` (${zipCode})` : ""}. Devis gratuit et intervention rapide.`,
+
+    `Entreprise spécialisée en ${service.toLowerCase()} à ${city}. Artisan qualifié avec garantie décennale.`,
+
+    `Besoin d’un expert en ${service.toLowerCase()} à ${city} ? Notre équipe intervient rapidement pour tous vos projets.`,
+
+    `Travaux de ${service.toLowerCase()} à ${city} : rénovation, terrassement, construction et gros œuvre.`,
+  ];
+
+  return templates[
+    (service.length + city.length) % templates.length
+  ];
+}
+
+export function generateH1(
+  service: string,
+  city: string,
+) {
+  const templates = [
+    `${service} à ${city}`,
+    `Entreprise de ${service.toLowerCase()} à ${city}`,
+    `${service} professionnel à ${city}`,
+  ];
+
+  return templates[
+    (service.length + city.length) % templates.length
+  ];
+}
+
+export function generateLocalIntroduction(
+  service: string,
+  city: string,
+  region: string,
+  projects?: string[],
+) {
+  return `
+DZ Maçonnerie intervient à ${city} dans la région ${region}
+pour tous vos projets de ${service.toLowerCase()}.
+
+Nous réalisons régulièrement des travaux de
+${projects?.join(", ") || "construction et rénovation"}
+avec un accompagnement personnalisé et un devis gratuit.
+  `.trim();
+}
+
+export function generateServiceFaq(
+  service: string,
+  city: string,
+) {
+  return [
+    {
+      question: `Proposez-vous des travaux de ${service.toLowerCase()} à ${city} ?`,
+      answer: `Oui, nous intervenons à ${city} pour tous vos projets de ${service.toLowerCase()}.`,
+    },
+    {
+      question: `Quel est le délai pour un chantier à ${city} ?`,
+      answer: `Nous proposons une intervention rapide à ${city} selon la nature du chantier.`,
+    },
+  ];
+}
