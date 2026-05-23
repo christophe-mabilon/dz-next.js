@@ -45,49 +45,147 @@ export function generateMetadata(
 export function generateLocalBusinessSchema() {
   return {
     "@context": "https://schema.org",
-    "@type": "ConstructionCompany",
+
+    "@type": ["LocalBusiness", "ConstructionCompany"],
+
     "@id": `${siteConfig.siteUrl}/#business`,
+
     name: siteConfig.business.name,
-    image: `${siteConfig.siteUrl}/og-image.jpg`,
-    description: siteConfig.business.description,
+
     url: siteConfig.siteUrl,
+
+    image: [
+      `${siteConfig.siteUrl}/og-image.jpg`,
+      `${siteConfig.siteUrl}/images/hero/hero-maconnerie.avif`,
+    ],
+
+    logo: `${siteConfig.siteUrl}/logo.png`,
+
+    description: siteConfig.business.description,
+
     telephone: siteConfig.business.phone,
+
     email: siteConfig.business.email,
+
+    priceRange: siteConfig.business.priceRange || "€€",
+
+    slogan: "Entreprise de maçonnerie et terrassement en Nord-Isère",
+
     address: {
       "@type": "PostalAddress",
+
       streetAddress: siteConfig.business.address,
+
       addressLocality: siteConfig.business.city,
+
       postalCode: siteConfig.business.zipCode,
+
       addressCountry: siteConfig.business.country,
     },
-    areaServed: {
-      "@type": "GeoCircle",
-      geoMidpoint: {
-        "@type": "GeoCoordinates",
-        latitude: 45.537,
-        longitude: 5.163,
-      },
-      geoRadius: 40, // Rayon en kilomètres
+
+    geo: siteConfig.business.coordinates
+      ? {
+          "@type": "GeoCoordinates",
+
+          latitude: siteConfig.business.coordinates.latitude,
+
+          longitude: siteConfig.business.coordinates.longitude,
+        }
+      : undefined,
+
+    areaServed:
+      siteConfig.business.serviceArea?.map((city) => ({
+        "@type": "City",
+
+        name: city,
+      })) || [],
+
+    openingHoursSpecification:
+      siteConfig.business.openingHours?.map((hours) => ({
+        "@type": "OpeningHoursSpecification",
+
+        opens: hours.split(" ")[1]?.split("-")[0],
+
+        closes: hours.split(" ")[1]?.split("-")[1],
+
+        dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      })) || [],
+
+    hasOfferCatalog: {
+      "@type": "OfferCatalog",
+
+      name: "Services de maçonnerie",
+
+      itemListElement: [
+        {
+          "@type": "Offer",
+
+          itemOffered: {
+            "@type": "Service",
+
+            name: "Maçonnerie générale",
+          },
+        },
+
+        {
+          "@type": "Offer",
+
+          itemOffered: {
+            "@type": "Service",
+
+            name: "Terrassement",
+          },
+        },
+
+        {
+          "@type": "Offer",
+
+          itemOffered: {
+            "@type": "Service",
+
+            name: "Extension maison",
+          },
+        },
+
+        {
+          "@type": "Offer",
+
+          itemOffered: {
+            "@type": "Service",
+
+            name: "Dalle béton",
+          },
+        },
+
+        {
+          "@type": "Offer",
+
+          itemOffered: {
+            "@type": "Service",
+
+            name: "Ouverture mur porteur",
+          },
+        },
+      ],
     },
-    geo: {
-      "@type": "GeoCoordinates",
-      latitude: "45.537",
-      longitude: "5.163",
-    },
+
     aggregateRating: {
       "@type": "AggregateRating",
-      ratingValue: "5.0",
+
+      ratingValue: "5",
+
       reviewCount: "15",
     },
-    priceRange: "€€",
+
     sameAs: [
       siteConfig.business.socialProfiles.google || "",
+
       siteConfig.business.socialProfiles.facebook || "",
+
       siteConfig.business.socialProfiles.instagram || "",
     ].filter(Boolean),
   };
 }
-
 // Service Schema pour les pages services
 export function generateServiceSchema(
   serviceName: string,

@@ -2,7 +2,7 @@ import type { Metadata, Viewport } from "next";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { siteConfig } from "@/data/config";
-import { generateOrganizationSchema, generateWebSiteSchema } from "@/lib/seo";
+import { generateLocalBusinessSchema, generateWebSiteSchema } from "@/lib/seo";
 import { Inter } from "next/font/google";
 import './globals.css';
 
@@ -99,7 +99,7 @@ export default function RootLayout({
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
-            __html: JSON.stringify(generateOrganizationSchema()),
+            __html: JSON.stringify(generateLocalBusinessSchema()),
           }}
         />
         <script

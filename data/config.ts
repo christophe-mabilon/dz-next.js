@@ -1,59 +1,90 @@
-import { SiteConfig } from '@/types';
+import { SiteConfig } from "@/types";
 
 export const siteConfig: SiteConfig = {
-  siteName: 'DZ Maçonnerie & Terrassement',
-
+  siteName: "DZ Maçonnerie & Terrassement",
   siteDescription:
-    'Entreprise de maçonnerie à Artas et Bourgoin-Jallieu spécialisée en maçonnerie générale, rénovation, terrassement, dalle béton et extension maison. Devis gratuit et garantie décennale.',
+    "Entreprise de maçonnerie à Artas et Bourgoin-Jallieu spécialisée en maçonnerie générale, rénovation, terrassement, dalle béton et extension maison. Devis gratuit et garantie décennale.",
 
-  siteUrl: 'https://dzmaconnerie.fr',
+  siteUrl: "https://www.dzmaconnerie38.fr",
 
-  ogImage: '/og-image.jpg',
+  ogImage: "/og-image.jpg",
 
-  locale: 'fr_FR',
+  locale: "fr_FR",
 
   business: {
-    name: 'DZ Maçonnerie & Terrassement',
+    name: "DZ Maçonnerie & Terrassement",
 
+    legalName: "DZ Maçonnerie & Terrassement",
     description:
-      'Expert en maçonnerie générale, terrassement, dalle béton, rénovation et extension maison en Isère.',
+      "Expert en maçonnerie générale, terrassement, dalle béton, rénovation et extension maison en Isère.",
 
-    phone: '+33688144257',
+    phone: "+33688144257",
 
-    email: 'dz.maconnerie38@gmail.com',
+    email: "dz.maconnerie38@gmail.com",
 
-    address: '130 sentier du taillis',
+    address: "130 sentier du taillis",
 
-    zipCode: '38440',
+    zipCode: "38440",
 
-    city: 'Artas',
+    city: "Artas",
+    region: "Auvergne-Rhône-Alpes",
+    country: "FR",
 
-    country: 'FR',
+    priceRange: "€€",
+
+    openingHours: ["Mo-Fr 08:00-18:00"],
+
+    coordinates: {
+      latitude: 45.537,
+
+      longitude: 5.164,
+    },
+
+    serviceArea: [
+      "Artas",
+
+      "Bourgoin-Jallieu",
+
+      "Vienne",
+
+      "Villefontaine",
+
+      "L'Isle-d'Abeau",
+
+      "La Verpillière",
+
+      "Saint-Jean-de-Bournay",
+
+      "Heyrieux",
+
+      "La Tour-du-Pin",
+
+      "Nord-Isère",
+    ],
 
     socialProfiles: {
-      facebook: '',
-      instagram: '',
+      facebook: "",
 
-      google:
-        'https://share.google/cqOcenarz7ledaiiN',
+      instagram: "",
+
+      google: "https://share.google/cqOcenarz7ledaiiN",
     },
   },
 };
 
 // Métadonnées par défaut
 export const defaultMetadata = {
-  charset: 'utf-8',
+  charset: "utf-8",
 
-  viewport: 'width=device-width, initial-scale=1',
+  viewport: "width=device-width, initial-scale=1",
 
-  robots: 'index, follow',
+  robots: "index, follow",
 
-  language: 'fr-FR',
+  language: "fr-FR",
 };
 
 // Config SEO
 export const SEO_CONFIG = {
-
   titleTemplate: `%s | ${siteConfig.siteName}`,
 
   defaultTitle: siteConfig.siteName,
@@ -63,7 +94,7 @@ export const SEO_CONFIG = {
   canonical: siteConfig.siteUrl,
 
   openGraph: {
-    type: 'website',
+    type: "website",
 
     locale: siteConfig.locale,
 
@@ -82,6 +113,6 @@ export const SEO_CONFIG = {
   },
 
   twitter: {
-    cardType: 'summary_large_image',
+    cardType: "summary_large_image",
   },
 };

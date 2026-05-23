@@ -1,0 +1,10 @@
+ProjectStatus/
+scripts/
+ARCHITECTURE.md
+GUIDE_DEPLOIEMENT_VERCEL.md
+DEPLOYMENT.md
+README.md
+*.psd
+*.drawio
+*.bak
+*.tmp

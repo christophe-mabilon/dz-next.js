@@ -251,7 +251,6 @@ export type Review = {
 
 export type SiteConfig = {
   siteName: string;
-
   siteDescription: string;
 
   defaultTitle?: string;
