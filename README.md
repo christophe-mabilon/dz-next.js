@@ -41,6 +41,7 @@ data/
 ## 🚀 Installation & Déploiement
 
 ### Installation locale
+
 ```bash
 npm install --legacy-peer-deps
 npm run dev
@@ -48,6 +49,7 @@ npm run dev
 ```
 
 ### Déployer sur Vercel
+
 ```bash
 # Via dashboard Vercel (recommandé)
 # 1. Pousser sur GitHub
@@ -56,6 +58,7 @@ npm run dev
 ```
 
 ### Variables .env
+
 ```
 RESEND_API_KEY=xxx
 CONTACT_EMAIL=admin@dzmaconnerie38.fr
@@ -65,6 +68,7 @@ NEXT_PUBLIC_SITE_URL=https://dzmaconnerie38.fr
 ## 🎨 Design
 
 **Couleur principale:** Teal #00a19a
+
 - Gradient hero: from-primary-600 via-primary-500 to-primary-400
 - Tous les boutons utilisent la palette teal
 - Responsive sur mobile/tablette/desktop
@@ -74,12 +78,15 @@ NEXT_PUBLIC_SITE_URL=https://dzmaconnerie38.fr
 Route API `/api/contact` prête pour intégration :
 
 ### Resend (Recommandé)
+
 ```bash
 npm install resend
 ```
+
 Puis configurer dans `app/api/contact/route.ts`
 
 ### SendGrid / Mailgun / NodeMailer
+
 Autres options disponibles
 
 ## 🔒 Sécurité
@@ -89,6 +96,7 @@ Autres options disponibles
 - ✅ Headers de sécurité
 
 À ajouter:
+
 - [ ] Rate limiting
 - [ ] reCAPTCHA v3
 
@@ -101,6 +109,7 @@ Autres options disponibles
 - ✅ Sitemap
 
 À faire:
+
 - [ ] Google Search Console
 - [ ] Google Analytics 4
 - [ ] Bing Webmaster
@@ -136,4 +145,4 @@ Modifier `data/cities.ts` → Pages auto-générées
 
 ## 📞 Support
 
-Contact@dzmaconnerie38.fr / 06 88 14 42 57
+dz.maconnerie38@gmail.com / 06 88 14 42 57

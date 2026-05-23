@@ -3,6 +3,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import { ArrowRight, Phone, Mail, MapPin, Clock } from "lucide-react";
+import HeroSection from "@/components/sections/hero/HeroSection";
 
 export default function ContactPage() {
   const [formData, setFormData] = useState({
@@ -63,33 +64,38 @@ export default function ContactPage() {
 
   return (
     <>
-      {/* Breadcrumbs */}
-      <div className="bg-white border-b border-gray-200">
-        <div className="container mx-auto py-4">
-          <div className="flex items-center gap-2 text-sm">
-            <Link href="/" className="text-primary-600 hover:text-primary-700">
-              Accueil
-            </Link>
-            <span className="text-gray-400">/</span>
-            <span className="text-gray-700 font-medium">Contact</span>
-          </div>
-        </div>
-      </div>
-
       {/* Hero */}
-      <section className="hero-gradient relative overflow-hidden py-20 md:py-32 text-white">
-        <div className="container mx-auto">
-          <div className="max-w-3xl">
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
-              Contactez-nous
-            </h1>
-            <p className="text-xl text-primary-50">
-              Vous avez un projet de maçonnerie ? Nous sommes là pour discuter
-              de vos besoins et vous proposer la meilleure solution.
-            </p>
-          </div>
-        </div>
-      </section>
+      <HeroSection
+        badge="Contact • Bourgoin-Jallieu • Nord-Isère"
+        title="Contactez"
+        highlight="DZ Maçonnerie"
+        description="Besoin d’un devis pour vos travaux de maçonnerie, terrassement, dalle béton, rénovation ou extension maison en Isère ? Contactez DZ Maçonnerie & Terrassement pour une réponse rapide."
+        image="/images/realisations/chantier_maçonnerie.avif"
+        imageAlt="Contact DZ Maçonnerie & Terrassement"
+        primaryButtonText="Demander un devis"
+        primaryButtonHref="/contact"
+        secondaryButtonText="06 88 14 42 57"
+        secondaryButtonHref="tel:+33688144257"
+        cards={[
+          {
+            icon: "hammer",
+            title: "Devis gratuit",
+            description: "Étude personnalisée pour votre projet.",
+          },
+
+          {
+            icon: "shield",
+            title: "Réponse rapide",
+            description: "Retour sous 24h pour vos demandes.",
+          },
+
+          {
+            icon: "star",
+            title: "Accompagnement",
+            description: "Conseils et suivi pour tous vos travaux.",
+          },
+        ]}
+      />
 
       {/* Contact Info + Form */}
       <section className="section-padding bg-white">
@@ -131,10 +137,10 @@ export default function ContactPage() {
                   <div>
                     <h3 className="font-semibold text-gray-900 mb-1">Email</h3>
                     <a
-                      href="mailto:contact@dzmaconnerie38.fr"
+                      href="mailto:dz.maconnerie38@gmail.com"
                       className="text-primary-600 hover:text-primary-700 font-medium"
                     >
-                      contact@dzmaconnerie38.fr
+                      dz.maconnerie38@gmail.com
                     </a>
                     <p className="text-sm text-gray-600 mt-1">
                       Réponse sous 24h
@@ -369,7 +375,7 @@ export default function ContactPage() {
               },
               {
                 title: "Professionnels",
-                desc: "Experts reconnus depuis 15 ans",
+                desc: "Experts reconnus depuis 10 ans",
               },
               {
                 title: "Garantie",
@@ -408,7 +414,7 @@ export default function ContactPage() {
               06 88 14 42 57
             </a>
             <a
-              href="mailto:contact@dzmaconnerie38.fr"
+              href="mailto:dz.maconnerie38@gmail.com"
               className="btn-primary bg-white text-primary-600 hover:bg-gray-100"
             >
               Envoyer un email <ArrowRight className="ml-2 w-4 h-4" />

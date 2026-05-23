@@ -3,6 +3,7 @@ import { Metadata } from "next";
 import { ArrowRight } from "lucide-react";
 import { generateMetadata as generatePageMetadata } from "@/lib/seo";
 import { siteConfig } from "@/data/config";
+import HeroSection from "@/components/sections/hero/HeroSection";
 
 export const metadata: Metadata = generatePageMetadata(
   "Conditions d'utilisation | DZ Maçonnerie",
@@ -14,155 +15,189 @@ export const metadata: Metadata = generatePageMetadata(
 export default function ConditionsUtilisation() {
   return (
     <>
-      {/* Breadcrumbs */}
-      <div className="bg-white border-b border-gray-200">
-        <div className="container mx-auto py-4">
-          <div className="flex items-center gap-2 text-sm">
-            <Link href="/" className="text-primary-600 hover:text-primary-700">
-              Accueil
-            </Link>
-            <span className="text-gray-400">/</span>
-            <span className="text-gray-700 font-medium">
-              Conditions d'utilisation
-            </span>
-          </div>
+      {/* Hero */}
+      <HeroSection
+        badge="Conditions d’utilisation • DZ Maçonnerie"
+        title="Conditions"
+        highlight="D’utilisation"
+        description="Consultez les conditions générales d’utilisation du site DZ Maçonnerie & Terrassement ainsi que les règles applicables à la navigation et à l’utilisation des contenus."
+        image="/images/realisations/chantier_maçonnerie.avif"
+        imageAlt="Conditions d’utilisation DZ Maçonnerie"
+        primaryButtonText="Nous contacter"
+        primaryButtonHref="/contact"
+        secondaryButtonText="06 88 14 42 57"
+        secondaryButtonHref="tel:+33688144257"
+        cards={[
+          {
+            icon: "shield",
+            title: "Utilisation sécurisée",
+            description: "Navigation et accès au site encadrés.",
+          },
+
+          {
+            icon: "star",
+            title: "Transparence",
+            description: "Conditions claires et accessibles.",
+          },
+
+          {
+            icon: "hammer",
+            title: "Entreprise locale",
+            description: "DZ Maçonnerie & Terrassement en Isère.",
+          },
+        ]}
+      />
+
+      {/* Content */}
+      <section className="bg-white py-20">
+  <div className="container mx-auto px-6">
+    {/* INTRO */}
+    <div className="mb-20">
+      <span className="mb-4 inline-block rounded-full bg-primary-100 px-4 py-2 text-sm font-bold text-primary-700">
+        CONDITIONS D’UTILISATION
+      </span>
+
+      <h2 className="mb-6 text-4xl font-black text-gray-900">
+        Conditions générales d’utilisation
+      </h2>
+
+      <p className="max-w-4xl text-lg leading-relaxed text-gray-600">
+        L’utilisation du site DZ Maçonnerie & Terrassement
+        implique l’acceptation pleine et entière des présentes
+        conditions générales d’utilisation.
+      </p>
+    </div>
+
+    {/* SECTIONS */}
+    <div className="space-y-20">
+      {/* SECTION */}
+      <div>
+        <h3 className="mb-6 text-3xl font-black text-gray-900">
+          1. Objet du site
+        </h3>
+
+        <p className="text-lg leading-relaxed text-gray-600">
+          Le site présente les activités, services et réalisations
+          de DZ Maçonnerie & Terrassement dans le domaine de la
+          maçonnerie générale, du terrassement, de la rénovation
+          et des extensions de maison.
+        </p>
+      </div>
+
+      {/* SECTION */}
+      <div>
+        <h3 className="mb-6 text-3xl font-black text-gray-900">
+          2. Accès au site
+        </h3>
+
+        <div className="rounded-3xl border border-gray-100 bg-gray-50 p-8">
+          <p className="text-lg leading-relaxed text-gray-600">
+            Le site est accessible 24h/24 et 7j/7 sauf interruption
+            liée à une maintenance technique ou à un cas de force
+            majeure.
+          </p>
         </div>
       </div>
 
-      {/* Hero */}
-      <section className="hero-gradient relative overflow-hidden py-12 md:py-16 text-white">
-        <div className="container mx-auto">
-          <h1 className="text-3xl md:text-4xl font-bold leading-tight">
-            Conditions d'utilisation
-          </h1>
+      {/* SECTION */}
+      <div>
+        <h3 className="mb-6 text-3xl font-black text-gray-900">
+          3. Utilisation des contenus
+        </h3>
+
+        <p className="mb-10 text-lg leading-relaxed text-gray-600">
+          Les contenus du site sont protégés par les lois relatives
+          à la propriété intellectuelle.
+        </p>
+
+        <div className="grid gap-6 md:grid-cols-2">
+          {[
+            {
+              title: 'Textes et contenus',
+              description:
+                'Toute reproduction sans autorisation est interdite.',
+            },
+
+            {
+              title: 'Images et réalisations',
+              description:
+                'Les photos de chantiers restent la propriété de DZ Maçonnerie.',
+            },
+
+            {
+              title: 'Utilisation du site',
+              description:
+                'Le site doit être utilisé dans un cadre légal et respectueux.',
+            },
+
+            {
+              title: 'Protection des données',
+              description:
+                'Les données personnelles sont traitées conformément au RGPD.',
+            },
+          ].map((item) => (
+            <div
+              key={item.title}
+              className="rounded-3xl border border-gray-100 bg-gray-50 p-8 transition hover:-translate-y-1 hover:shadow-xl"
+            >
+              <h4 className="mb-4 text-xl font-bold text-gray-900">
+                {item.title}
+              </h4>
+
+              <p className="leading-relaxed text-gray-600">
+                {item.description}
+              </p>
+            </div>
+          ))}
         </div>
-      </section>
+      </div>
 
-      {/* Content */}
-      <section className="section-padding bg-white">
-        <div className="container mx-auto max-w-3xl prose prose-lg max-w-none">
-          <p className="text-gray-700 mb-6">
-            <strong>Dernière mise à jour :</strong> Mai 2024
-          </p>
+      {/* SECTION */}
+      <div>
+        <h3 className="mb-6 text-3xl font-black text-gray-900">
+          4. Responsabilité
+        </h3>
 
-          <h2 className="text-2xl font-bold text-gray-900 mb-6">
-            Conditions d'utilisation du site
-          </h2>
+        <p className="text-lg leading-relaxed text-gray-600">
+          DZ Maçonnerie & Terrassement ne saurait être tenu
+          responsable d’éventuels dommages liés à l’utilisation
+          du site ou à une interruption temporaire des services.
+        </p>
+      </div>
 
-          <h3 className="text-xl font-semibold text-gray-900 mt-8 mb-4">
-            1. Acceptation des conditions
-          </h3>
-          <p className="text-gray-700 mb-4">
-            En accédant et en utilisant ce site web, vous acceptez sans réserve
-            les présentes conditions d'utilisation. Si vous n'acceptez pas ces
-            conditions, veuillez ne pas utiliser ce site.
-          </p>
+      {/* CTA */}
+      <div className="rounded-3xl bg-primary-500 p-10 text-white">
+        <h3 className="mb-4 text-3xl font-black">
+          Une question concernant les conditions d’utilisation ?
+        </h3>
 
-          <h3 className="text-xl font-semibold text-gray-900 mt-8 mb-4">
-            2. Description du service
-          </h3>
-          <p className="text-gray-700 mb-4">
-            DZ Maçonnerie & Terrassement met à disposition un site web pour :
-          </p>
-          <ul className="list-disc list-inside space-y-2 text-gray-700 mb-4">
-            <li>
-              Présenter ses services de maçonnerie, rénovation et terrassement
-            </li>
-            <li>Permettre aux clients de demander des devis</li>
-            <li>Partager des informations et des conseils</li>
-          </ul>
+        <p className="max-w-3xl text-lg leading-relaxed text-primary-100">
+          Contactez DZ Maçonnerie & Terrassement pour toute
+          information complémentaire concernant l’utilisation
+          du site.
+        </p>
 
-          <h3 className="text-xl font-semibold text-gray-900 mt-8 mb-4">
-            3. Restrictions d'utilisation
-          </h3>
-          <p className="text-gray-700 mb-4">Vous ne pouvez pas :</p>
-          <ul className="list-disc list-inside space-y-2 text-gray-700 mb-4">
-            <li>
-              Reproduire, copier ou distribuer le contenu sans autorisation
-            </li>
-            <li>Utiliser des scripts ou robots pour extraire des données</li>
-            <li>Tenter de contourner les mesures de sécurité</li>
-            <li>
-              Transmettre des virus, codes malveillants ou contenus nuisibles
-            </li>
-            <li>Harceler, menacer ou abuser d'autres utilisateurs</li>
-            <li>Utiliser le site à des fins illégales</li>
-          </ul>
+        <div className="mt-8 flex flex-col gap-4 sm:flex-row">
+          <Link
+            href="/contact"
+            className="inline-flex items-center justify-center rounded-xl bg-white px-8 py-5 text-lg font-bold text-primary-700 transition hover:bg-gray-100"
+          >
+            Nous contacter
 
-          <h3 className="text-xl font-semibold text-gray-900 mt-8 mb-4">
-            4. Propriété intellectuelle
-          </h3>
-          <p className="text-gray-700 mb-4">
-            Tout le contenu du site (textes, images, logos, vidéos, etc.) est la
-            propriété de DZ Maçonnerie & Terrassement ou de ses fournisseurs de
-            contenu et est protégé par les lois sur les droits d'auteur.
-          </p>
+            <ArrowRight className="ml-2 h-5 w-5" />
+          </Link>
 
-          <h3 className="text-xl font-semibold text-gray-900 mt-8 mb-4">
-            5. Responsabilité utilisateur
-          </h3>
-          <p className="text-gray-700 mb-4">Vous êtes responsable de :</p>
-          <ul className="list-disc list-inside space-y-2 text-gray-700 mb-4">
-            <li>L'exactitude des informations que vous fournissez</li>
-            <li>L'utilisation autorisée du site</li>
-            <li>
-              Les dommages directs ou indirects résultant de votre utilisation
-            </li>
-          </ul>
-
-          <h3 className="text-xl font-semibold text-gray-900 mt-8 mb-4">
-            6. Limitation de responsabilité
-          </h3>
-          <p className="text-gray-700 mb-4">
-            DZ Maçonnerie & Terrassement décline toute responsabilité pour :
-          </p>
-          <ul className="list-disc list-inside space-y-2 text-gray-700 mb-4">
-            <li>Les erreurs ou omissions du contenu</li>
-            <li>Les interruptions d'accès au site</li>
-            <li>Les pertes de données</li>
-            <li>Les dommages indirects ou accessoires</li>
-            <li>Les actions de tiers</li>
-          </ul>
-
-          <h3 className="text-xl font-semibold text-gray-900 mt-8 mb-4">
-            7. Disponibilité du site
-          </h3>
-          <p className="text-gray-700 mb-4">
-            DZ Maçonnerie & Terrassement s'efforce de maintenir le site
-            accessible 24h/24. Cependant, nous ne garantissons pas une
-            disponibilité continue et déclinons toute responsabilité concernant
-            les interruptions dues à maintenance, mises à jour ou causes
-            techniques.
-          </p>
-
-          <h3 className="text-xl font-semibold text-gray-900 mt-8 mb-4">
-            8. Modifications des conditions
-          </h3>
-          <p className="text-gray-700 mb-4">
-            DZ Maçonnerie & Terrassement se réserve le droit de modifier ces
-            conditions à tout moment. Votre utilisation continue du site
-            signifie votre acceptation des modifications.
-          </p>
-
-          <h3 className="text-xl font-semibold text-gray-900 mt-8 mb-4">
-            9. Demandes de devis
-          </h3>
-          <p className="text-gray-700 mb-4">
-            Les devis fournis via le site sont des estimations basées sur les
-            informations fournies. Ils ne constituent pas une offre
-            contractuelle. Un devis détaillé sera établi suite à une visite sur
-            site.
-          </p>
-
-          <h3 className="text-xl font-semibold text-gray-900 mt-8 mb-4">
-            10. Loi applicable
-          </h3>
-          <p className="text-gray-700">
-            Ces conditions sont soumises à la loi française. Tout litige sera
-            soumis aux juridictions compétentes d'Isère.
-          </p>
+          <a
+            href="tel:+33688144257"
+            className="inline-flex items-center justify-center rounded-xl border border-white/20 bg-white/10 px-8 py-5 text-lg font-bold text-white backdrop-blur transition hover:bg-white/20"
+          >
+            06 88 14 42 57
+          </a>
         </div>
-      </section>
+      </div>
+    </div>
+  </div>
+</section>
 
       {/* CTA */}
       <section className="hero-gradient py-12 md:py-16 text-white">

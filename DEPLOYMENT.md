@@ -3,6 +3,7 @@
 ## Option 1 : Vercel (Recommandé - Plus facile)
 
 ### Étape 1 : Préparer le code
+
 ```bash
 # Vérifier que tout est en ordre
 npm run build
@@ -15,6 +16,7 @@ git push origin main
 ```
 
 ### Étape 2 : Connecter à Vercel
+
 1. Aller sur [vercel.com](https://vercel.com)
 2. Cliquer "New Project"
 3. Sélectionner le repo GitHub `dzmaconnerie-nextjs`
@@ -22,6 +24,7 @@ git push origin main
 5. Cliquer "Deploy"
 
 ### Étape 3 : Configurer variables d'environnement
+
 Vercel Dashboard → Project Settings → Environment Variables
 
 ```
@@ -31,11 +34,14 @@ NEXT_PUBLIC_SITE_URL = https://dzmaconnerie38.fr
 ```
 
 ### Étape 4 : Configurer domaine custom
+
 Vercel Dashboard → Domains
+
 - Ajouter `dzmaconnerie38.fr`
 - Suivre les instructions DNS
 
 ### Résultat
+
 - Site live sur https://dzmaconnerie38.fr
 - Auto-redéploie à chaque push sur main
 - Certificat SSL automatique
@@ -46,12 +52,14 @@ Vercel Dashboard → Domains
 ## Option 2 : VPS/Serveur dédié (Plus complexe)
 
 ### Prérequis
+
 - VPS avec Node.js 18+
 - Nginx ou Apache
 - PM2 ou systemd
 - Certificat SSL (Let's Encrypt)
 
 ### Installation
+
 ```bash
 # Sur le serveur VPS
 git clone <repo>
@@ -67,11 +75,12 @@ pm2 save
 ```
 
 ### Nginx config
+
 ```nginx
 server {
     listen 80;
     server_name dzmaconnerie38.fr;
-    
+
     # Redirection HTTPS
     return 301 https://$server_name$request_uri;
 }
@@ -79,10 +88,10 @@ server {
 server {
     listen 443 ssl http2;
     server_name dzmaconnerie38.fr;
-    
+
     ssl_certificate /etc/letsencrypt/live/dzmaconnerie38.fr/fullchain.pem;
     ssl_certificate_key /etc/letsencrypt/live/dzmaconnerie38.fr/privkey.pem;
-    
+
     location / {
         proxy_pass http://localhost:3000;
         proxy_http_version 1.1;
@@ -95,6 +104,7 @@ server {
 ```
 
 ### SSL avec Let's Encrypt
+
 ```bash
 sudo certbot certonly --webroot -w /var/www/html \
   -d dzmaconnerie38.fr
@@ -120,6 +130,7 @@ sudo certbot certonly --webroot -w /var/www/html \
 ## Post-déploiement
 
 ### 1. Google Search Console
+
 ```
 1. Aller sur search.google.com
 2. Ajouter dzmaconnerie38.fr
@@ -129,6 +140,7 @@ sudo certbot certonly --webroot -w /var/www/html \
 ```
 
 ### 2. Google Analytics 4
+
 ```
 1. Créer compte GA4
 2. Ajouter dans gtag (ou ajouter script dans layout.tsx)
@@ -136,6 +148,7 @@ sudo certbot certonly --webroot -w /var/www/html \
 ```
 
 ### 3. Bing Webmaster
+
 ```
 1. Aller sur webmaster.bing.com
 2. Ajouter dzmaconnerie38.fr
@@ -143,12 +156,14 @@ sudo certbot certonly --webroot -w /var/www/html \
 ```
 
 ### 4. Configurer DNS
+
 ```
 A record: 76.76.19.165 (IP Vercel)
 CNAME: cname.vercel.com
 ```
 
 ### 5. Tester performance
+
 ```bash
 # Test Lighthouse local
 npm install -g @lhci/cli@latest
@@ -156,6 +171,7 @@ lhci autorun
 ```
 
 ### 6. Configurer emails
+
 Installation Resend (si pas déjà fait):
 
 ```bash
@@ -169,7 +185,7 @@ Copier API key dans variables Vercel
 Mettre à jour `app/api/contact/route.ts`:
 
 ```typescript
-import { Resend } from 'resend';
+import { Resend } from "resend";
 
 const resend = new Resend(process.env.RESEND_API_KEY);
 
@@ -186,7 +202,7 @@ async function sendEmail(data: any) {
   `;
 
   await resend.emails.send({
-    from: 'contact@dzmaconnerie38.fr',
+    from: "dz.maconnerie38@gmail.com",
     to: process.env.CONTACT_EMAIL,
     subject: `Nouvelle demande de devis de ${data.name}`,
     html: emailHtml,
@@ -199,6 +215,7 @@ async function sendEmail(data: any) {
 ## Maintenance post-déploiement
 
 ### Mise à jour du contenu
+
 ```bash
 # Ajouter un service
 # → Modifier data/services.ts
@@ -216,12 +233,14 @@ git push origin main
 ```
 
 ### Monitoring
+
 - [ ] Vérifier Google Analytics régulièrement
 - [ ] Vérifier emails arrivent correctement
 - [ ] Monitorer Core Web Vitals
 - [ ] Vérifier pas d'erreurs 404/500
 
 ### Mise à jour dépendances
+
 ```bash
 npm outdated          # Voir mises à jour dispo
 npm update            # Mettre à jour
@@ -234,6 +253,7 @@ git push              # Redéploiement auto
 ## Troubleshooting
 
 ### Build échoue
+
 ```bash
 rm -rf .next node_modules
 npm install --legacy-peer-deps
@@ -241,12 +261,14 @@ npm run build
 ```
 
 ### Emails pas envoyés
+
 - Vérifier API key Resend dans .env
 - Vérifier domaine configuré dans Resend
 - Vérifier logs Vercel
 - Tester API route : POST /api/contact
 
 ### Pages pas indexées
+
 - Vérifier sitemap.xml
 - Vérifier robots.txt
 - Soumettre à Google Search Console
@@ -256,10 +278,11 @@ npm run build
 
 ## Support & Questions
 
-📧 contact@dzmaconnerie38.fr
+📧 dz.maconnerie38@gmail.com
 📱 06 88 14 42 57
 
 Pour les questions techniques :
+
 - Vérifier Vercel logs
 - Vérifier Google Search Console
 - Vérifier fichiers de configuration

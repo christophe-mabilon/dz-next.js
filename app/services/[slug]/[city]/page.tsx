@@ -144,7 +144,7 @@ export default async function CombinedServiceCityPage(
               </h3>
               <div className="space-y-4">
                 {[
-                  "Expertise reconnue depuis 15 ans",
+                  "Expertise reconnue depuis 10 ans",
                   "Équipe de maçons professionnels",
                   "Garantie décennale certifiée",
                   "Respect strict des délais",

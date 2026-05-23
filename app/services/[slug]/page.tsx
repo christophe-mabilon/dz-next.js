@@ -134,7 +134,7 @@ export default async function ServicePage(props: ServicePageProps) {
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               {[
-                "Expertise reconnue depuis 15 ans",
+                "Expertise reconnue depuis 10 ans",
                 "Équipe qualifiée et expérimentée",
                 "Garantie décennale",
                 "Respect des délais et du budget",

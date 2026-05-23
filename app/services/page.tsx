@@ -1,17 +1,12 @@
 import Link from "next/link";
 import Image from "next/image";
 import { Metadata } from "next";
-import {
-  ArrowRight,
-  CheckCircle2,
-  MapPin,
-  ShieldCheck,
-  Phone,
-} from "lucide-react";
+import { ArrowRight, CheckCircle2, ShieldCheck } from "lucide-react";
 
 import { services } from "@/data/services";
 import { generateMetadata as generatePageMetadata } from "@/lib/seo";
 import { siteConfig } from "@/data/config";
+import HeroSection from "@/components/sections/hero/HeroSection";
 
 export const metadata: Metadata = generatePageMetadata(
   "Services de maçonnerie à Bourgoin-Jallieu | DZ Maçonnerie",
@@ -24,62 +19,38 @@ export default function ServicesPage() {
   return (
     <>
       {/* HERO */}
-      <section className="relative overflow-hidden py-24 text-white md:py-36">
-        <div className="absolute inset-0">
-          <Image
-            src="/images/realisations/chantier_maçonnerie.avif"
-            alt="Rénovation chantier béton réalisée à Bourgoin-Jallieu par DZ Maçonnerie & terrassement"
-            fill
-            className="object-cover 100vw"
-            sizes="(max-width: 768px) 100vw, 50vw"
-            loading="lazy"
-          />
+      <HeroSection
+        badge="Services • Bourgoin-Jallieu • Nord-Isère"
+        title="Nos"
+        highlight="Services"
+        description="DZ Maçonnerie & Terrassement vous accompagne pour vos travaux de maçonnerie générale, terrassement, dalle béton, rénovation, extension maison et ouverture mur porteur dans toute l’Isère."
+        image="/images/realisations/chantier_maçonnerie.avif"
+        imageAlt="Services de maçonnerie et terrassement en Nord-Isère"
+        primaryButtonText="Demander un devis"
+        primaryButtonHref="/contact"
+        secondaryButtonText="06 88 14 42 57"
+        secondaryButtonHref="tel:+33688144257"
+        cards={[
+          {
+            icon: "hammer",
+            title: "Maçonnerie générale",
+            description:
+              "Travaux de construction, rénovation et extension maison.",
+          },
 
-          <div className="absolute inset-0 bg-black/70" />
-        </div>
+          {
+            icon: "shield",
+            title: "Travail soigné",
+            description: "Prestations réalisées dans les règles de l’art.",
+          },
 
-        <div className="container mx-auto relative z-10">
-          <div className="max-w-4xl">
-            <div className="mb-6 inline-flex items-center rounded-full border border-white/10 bg-white/10 px-4 py-2 text-sm backdrop-blur">
-              <MapPin className="mr-2 h-4 w-4" />
-              Bourgoin-Jallieu • Artas • Nord-Isère
-            </div>
-
-            <h1 className="mb-8 text-5xl font-black leading-tight md:text-7xl">
-              Nos services de
-              <span className="block text-primary-400">
-                maçonnerie en Isère
-              </span>
-            </h1>
-
-            <p className="max-w-3xl text-xl leading-relaxed text-gray-200">
-              DZ Maçonnerie & Terrassement accompagne les particuliers et
-              professionnels pour tous leurs travaux de maçonnerie générale,
-              terrassement, rénovation, dalle béton, piscine béton, extension
-              maison et aménagement extérieur à Bourgoin-Jallieu et dans toute
-              l’Isère.
-            </p>
-
-            <div className="mt-10 flex flex-col gap-4 sm:flex-row">
-              <Link
-                href="/contact"
-                className="inline-flex items-center justify-center rounded-xl bg-primary-500 px-8 py-5 text-lg font-bold text-white transition hover:bg-primary-600"
-              >
-                Demander un devis
-                <ArrowRight className="ml-2 h-5 w-5" />
-              </Link>
-
-              <a
-                href="tel:+33688144257"
-                className="inline-flex items-center justify-center rounded-xl border border-white/20 bg-white/10 px-8 py-5 text-lg font-bold text-white backdrop-blur transition hover:bg-white/20"
-              >
-                <Phone className="mr-2 h-5 w-5" />
-                06 88 14 42 57
-              </a>
-            </div>
-          </div>
-        </div>
-      </section>
+          {
+            icon: "star",
+            title: "Accompagnement",
+            description: "Conseils et devis gratuit pour votre projet.",
+          },
+        ]}
+      />
 
       {/* INTRO */}
       <section className="bg-white py-16">

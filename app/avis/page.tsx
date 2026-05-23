@@ -3,6 +3,7 @@ import { Metadata } from "next";
 import { Star, ArrowRight } from "lucide-react";
 import { generateMetadata as generatePageMetadata } from "@/lib/seo";
 import { siteConfig } from "@/data/config";
+import HeroSection from "@/components/sections/hero/HeroSection";
 
 export const metadata: Metadata = generatePageMetadata(
   "Avis clients DZ Maçonnerie | 4.9/5 (42 avis)",
@@ -87,32 +88,38 @@ const stats = [
 export default function AvisPage() {
   return (
     <>
-      {/* Breadcrumbs */}
-      <div className="bg-white border-b border-gray-200">
-        <div className="container mx-auto py-4">
-          <div className="flex items-center gap-2 text-sm">
-            <Link href="/" className="text-primary-600 hover:text-primary-700">
-              Accueil
-            </Link>
-            <span className="text-gray-400">/</span>
-            <span className="text-gray-700 font-medium">Avis clients</span>
-          </div>
-        </div>
-      </div>
-
       {/* Hero */}
-      <section className="hero-gradient relative overflow-hidden py-20 md:py-32 text-white">
-        <div className="container mx-auto">
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
-            Avis de nos clients
-          </h1>
-          <p className="text-xl text-primary-50 max-w-3xl">
-            Découvrez la satisfaction de nos clients qui ont fait confiance à DZ
-            Maçonnerie & Terrassement
-          </p>
-        </div>
-      </section>
+      <HeroSection
+        badge="Avis clients • Bourgoin-Jallieu • Nord-Isère"
+        title="Avis"
+        highlight="Clients"
+        description="Découvrez les témoignages et avis de clients ayant fait confiance à DZ Maçonnerie & Terrassement pour leurs travaux de maçonnerie, terrassement, rénovation et extension maison en Isère."
+        image="/images/realisations/chantier_maçonnerie.avif"
+        imageAlt="Avis clients DZ Maçonnerie & Terrassement"
+        primaryButtonText="Demander un devis"
+        primaryButtonHref="/contact"
+        secondaryButtonText="06 88 14 42 57"
+        secondaryButtonHref="tel:+33688144257"
+        cards={[
+          {
+            icon: "star",
+            title: "Clients satisfaits",
+            description: "Des avis positifs sur nos réalisations en Isère.",
+          },
 
+          {
+            icon: "shield",
+            title: "Travail reconnu",
+            description: "Qualité, sérieux et respect des délais.",
+          },
+
+          {
+            icon: "hammer",
+            title: "Chantiers réels",
+            description: "Avis liés à de véritables travaux réalisés.",
+          },
+        ]}
+      />
       {/* Stats */}
       <section className="section-padding bg-white">
         <div className="container mx-auto">
@@ -221,7 +228,7 @@ export default function AvisPage() {
               },
               {
                 title: "Expertise",
-                desc: "Plus de 15 ans d'expérience dans le bâtiment et les travaux de maçonnerie.",
+                desc: "Plus de 10 ans d'expérience dans le bâtiment et les travaux de maçonnerie.",
               },
               {
                 title: "Écoute",

@@ -1,4 +1,4 @@
-import { NextRequest, NextResponse } from 'next/server';
+import { NextRequest, NextResponse } from "next/server";
 
 interface ContactData {
   name: string;
@@ -14,23 +14,23 @@ function validateContactData(data: ContactData) {
   const errors: string[] = [];
 
   if (!data.name || data.name.trim().length < 2) {
-    errors.push('Le nom est requis');
+    errors.push("Le nom est requis");
   }
 
-  if (!data.email || !data.email.includes('@')) {
-    errors.push('Un email valide est requis');
+  if (!data.email || !data.email.includes("@")) {
+    errors.push("Un email valide est requis");
   }
 
   if (!data.city || data.city.trim().length < 2) {
-    errors.push('La ville est requise');
+    errors.push("La ville est requise");
   }
 
   if (!data.service || data.service.trim().length < 2) {
-    errors.push('Le type de service est requis');
+    errors.push("Le type de service est requis");
   }
 
   if (!data.message || data.message.trim().length < 10) {
-    errors.push('Le message doit contenir au moins 10 caractères');
+    errors.push("Le message doit contenir au moins 10 caractères");
   }
 
   return errors;
@@ -46,14 +46,14 @@ async function sendEmail(data: ContactData) {
   // - Ou simplement envoyer une notification à votre email
 
   // Pour l'instant, on log les données
-  console.log('Nouvelle demande de devis:', {
+  console.log("Nouvelle demande de devis:", {
     timestamp: new Date().toISOString(),
     ...data,
   });
 
   // À implémenter : envoyer un email réel
   // await resend.emails.send({
-  //   from: 'contact@dzmaconnerie38.fr',
+  //   from: 'dz.maconnerie38@gmail.com',
   //   to: 'admin@dzmaconnerie38.fr',
   //   subject: `Nouvelle demande de devis de ${data.name}`,
   //   html: generateEmailHTML(data),
@@ -70,10 +70,7 @@ export async function POST(request: NextRequest) {
     // Valider les données
     const errors = validateContactData(data);
     if (errors.length > 0) {
-      return NextResponse.json(
-        { success: false, errors },
-        { status: 400 }
-      );
+      return NextResponse.json({ success: false, errors }, { status: 400 });
     }
 
     // Envoyer l'email
@@ -83,19 +80,20 @@ export async function POST(request: NextRequest) {
     return NextResponse.json(
       {
         success: true,
-        message: 'Votre demande a été reçue. Nous vous recontacterons sous 24h.',
+        message:
+          "Votre demande a été reçue. Nous vous recontacterons sous 24h.",
       },
-      { status: 200 }
+      { status: 200 },
     );
   } catch (error) {
-    console.error('Erreur lors du traitement du formulaire:', error);
+    console.error("Erreur lors du traitement du formulaire:", error);
 
     return NextResponse.json(
       {
         success: false,
-        message: 'Une erreur est survenue. Veuillez réessayer plus tard.',
+        message: "Une erreur est survenue. Veuillez réessayer plus tard.",
       },
-      { status: 500 }
+      { status: 500 },
     );
   }
 }
@@ -104,8 +102,8 @@ export async function POST(request: NextRequest) {
 export async function GET() {
   return NextResponse.json(
     {
-      message: 'API de contact - Utilisez POST pour envoyer un message',
+      message: "API de contact - Utilisez POST pour envoyer un message",
     },
-    { status: 200 }
+    { status: 200 },
   );
 }

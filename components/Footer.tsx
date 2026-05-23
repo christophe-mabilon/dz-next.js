@@ -9,7 +9,6 @@ import {
 } from "lucide-react";
 import { getRelatedCities } from "@/lib/getRelatedCities";
 
-
 export function Footer() {
   return (
     <footer className="bg-gray-950 text-gray-300 border-t border-gray-800">
@@ -29,7 +28,7 @@ export function Footer() {
             </p>
 
             <p className="leading-relaxed text-gray-500">
-              Plus de 15 ans d'expérience dans les travaux de maçonnerie, dalle
+              Plus de 10 ans d'expérience dans les travaux de maçonnerie, dalle
               béton, extension maison, ouverture mur porteur et aménagement
               extérieur.
             </p>
@@ -170,10 +169,10 @@ export function Footer() {
                   <p className="mb-1 text-sm text-gray-500">Email</p>
 
                   <a
-                    href="mailto:contact@dzmaconnerie38.fr"
+                    href="mailto:dz.maconnerie38@gmail.com"
                     className="text-sm font-medium text-white transition hover:text-primary-400 break-all"
                   >
-                    contact@dzmaconnerie38.fr
+                    dz.maconnerie38@gmail.com
                   </a>
                 </div>
               </div>

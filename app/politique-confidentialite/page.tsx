@@ -3,6 +3,7 @@ import { Metadata } from "next";
 import { ArrowRight } from "lucide-react";
 import { generateMetadata as generatePageMetadata } from "@/lib/seo";
 import { siteConfig } from "@/data/config";
+import HeroSection from "@/components/sections/hero/HeroSection";
 
 export const metadata: Metadata = generatePageMetadata(
   "Politique de confidentialité | DZ Maçonnerie",
@@ -14,205 +15,198 @@ export const metadata: Metadata = generatePageMetadata(
 export default function PolitiqueConfidentialite() {
   return (
     <>
-      {/* Breadcrumbs */}
-      <div className="bg-white border-b border-gray-200">
-        <div className="container mx-auto py-4">
-          <div className="flex items-center gap-2 text-sm">
-            <Link href="/" className="text-primary-600 hover:text-primary-700">
-              Accueil
-            </Link>
-            <span className="text-gray-400">/</span>
-            <span className="text-gray-700 font-medium">
-              Politique de confidentialité
-            </span>
-          </div>
-        </div>
-      </div>
-
       {/* Hero */}
-      <section className="hero-gradient relative overflow-hidden py-12 md:py-16 text-white">
-        <div className="container mx-auto">
-          <h1 className="text-3xl md:text-4xl font-bold leading-tight">
-            Politique de confidentialité
-          </h1>
-        </div>
-      </section>
+      <HeroSection
+        badge="Informations légales • DZ Maçonnerie"
+        title="Politique de"
+        highlight="Confidentialité"
+        description="Consultez la politique de confidentialité de DZ Maçonnerie & Terrassement concernant la collecte, l’utilisation et la protection des données personnelles."
+        image="/images/realisations/chantier_maçonnerie.avif"
+        imageAlt="Politique de confidentialité DZ Maçonnerie"
+        primaryButtonText="Nous contacter"
+        primaryButtonHref="/contact"
+        secondaryButtonText="06 88 14 42 57"
+        secondaryButtonHref="tel:+33688144257"
+        cards={[
+          {
+            icon: "shield",
+            title: "Protection des données",
+            description: "Respect de votre vie privée et de vos informations.",
+          },
+
+          {
+            icon: "star",
+            title: "Transparence",
+            description: "Informations claires sur l’utilisation des données.",
+          },
+
+          {
+            icon: "hammer",
+            title: "Entreprise locale",
+            description: "DZ Maçonnerie & Terrassement en Nord-Isère.",
+          },
+        ]}
+      />
 
       {/* Content */}
-      <section className="section-padding bg-white">
-        <div className="container mx-auto max-w-3xl prose prose-lg max-w-none">
-          <p className="text-gray-700 mb-6">
-            <strong>Dernière mise à jour :</strong> Mai 2024
-          </p>
+      <section className="bg-white py-20">
+        <div className="container mx-auto">
+          {/* INTRO */}
+          <div className="mb-16">
+            <span className="mb-4 inline-block rounded-full bg-primary-100 px-4 py-2 text-sm font-bold text-primary-700">
+              RGPD & CONFIDENTIALITÉ
+            </span>
 
-          <h2 className="text-2xl font-bold text-gray-900 mb-6">
-            Politique de confidentialité et protection des données
-          </h2>
+            <h2 className="mb-6 text-4xl font-black text-gray-900">
+              Protection des données personnelles
+            </h2>
 
-          <h3 className="text-xl font-semibold text-gray-900 mt-8 mb-4">
-            1. Introduction
-          </h3>
-          <p className="text-gray-700 mb-4">
-            DZ Maçonnerie & Terrassement ("nous", "notre", "nos") est engagée à
-            protéger votre vie privée et à respecter les dispositions du
-            Règlement Général sur la Protection des Données (RGPD) et de la loi
-            française Informatique et Libertés.
-          </p>
+            <p className="max-w-4xl text-lg leading-relaxed text-gray-600">
+              DZ Maçonnerie & Terrassement accorde une importance particulière à
+              la protection des données personnelles et au respect de votre vie
+              privée conformément au Règlement Général sur la Protection des
+              Données (RGPD).
+            </p>
+          </div>
 
-          <h3 className="text-xl font-semibold text-gray-900 mt-8 mb-4">
-            2. Données personnelles collectées
-          </h3>
-          <p className="text-gray-700 mb-4">
-            Nous collectons les données personnelles suivantes :
-          </p>
-          <ul className="list-disc list-inside space-y-2 text-gray-700 mb-4">
-            <li>
-              <strong>Informations de contact :</strong> nom, prénom, email,
-              téléphone, adresse
-            </li>
-            <li>
-              <strong>Informations de projet :</strong> description du projet,
-              localisation, dates
-            </li>
-            <li>
-              <strong>Données de navigation :</strong> adresse IP, type de
-              navigateur, pages visitées, durée de visite
-            </li>
-            <li>
-              <strong>Cookies :</strong> identifiants pour améliorer votre
-              expérience
-            </li>
-          </ul>
+          {/* SECTIONS */}
+          <div className="space-y-20">
+            {/* SECTION */}
+            <div>
+              <h3 className="mb-6 text-3xl font-black text-gray-900">
+                1. Introduction
+              </h3>
 
-          <h3 className="text-xl font-semibold text-gray-900 mt-8 mb-4">
-            3. Utilisation des données
-          </h3>
-          <p className="text-gray-700 mb-4">
-            Vos données sont utilisées pour :
-          </p>
-          <ul className="list-disc list-inside space-y-2 text-gray-700 mb-4">
-            <li>Traiter votre demande de devis ou de contact</li>
-            <li>
-              Envoyer des confirmations et des mise à jour concernant votre
-              demande
-            </li>
-            <li>Améliorer et optimiser notre site web</li>
-            <li>
-              Vous envoyer des informations marketing (avec votre consentement)
-            </li>
-            <li>Respecter nos obligations légales</li>
-          </ul>
+              <p className="text-lg leading-relaxed text-gray-600">
+                DZ Maçonnerie & Terrassement s’engage à assurer la
+                confidentialité des informations collectées sur le site et à
+                protéger les données personnelles des utilisateurs.
+              </p>
+            </div>
 
-          <h3 className="text-xl font-semibold text-gray-900 mt-8 mb-4">
-            4. Base légale du traitement
-          </h3>
-          <p className="text-gray-700 mb-4">
-            Le traitement de vos données personnelles est basé sur :
-          </p>
-          <ul className="list-disc list-inside space-y-2 text-gray-700 mb-4">
-            <li>Votre consentement explicite (pour les emails marketing)</li>
-            <li>L'exécution d'un contrat (traitement de votre demande)</li>
-            <li>Nos obligations légales</li>
-            <li>Nos intérêts légitimes (amélioration du site, sécurité)</li>
-          </ul>
+            {/* SECTION */}
+            <div>
+              <h3 className="mb-6 text-3xl font-black text-gray-900">
+                2. Données collectées
+              </h3>
 
-          <h3 className="text-xl font-semibold text-gray-900 mt-8 mb-4">
-            5. Durée de conservation
-          </h3>
-          <p className="text-gray-700 mb-4">
-            Vos données personnelles sont conservées pendant la durée nécessaire
-            au traitement de votre demande, puis supprimées ou archivées selon
-            nos obligations légales (généralement 3 années).
-          </p>
+              <p className="mb-10 text-lg leading-relaxed text-gray-600">
+                Certaines informations peuvent être collectées afin de répondre
+                à vos demandes et améliorer nos services.
+              </p>
 
-          <h3 className="text-xl font-semibold text-gray-900 mt-8 mb-4">
-            6. Partage des données
-          </h3>
-          <p className="text-gray-700 mb-4">
-            Vos données ne sont pas partagées avec des tiers, sauf :
-          </p>
-          <ul className="list-disc list-inside space-y-2 text-gray-700 mb-4">
-            <li>Si la loi l'exige</li>
-            <li>Avec nos prestataires techniques (hébergement, email, etc.)</li>
-            <li>Avec votre consentement explicite</li>
-          </ul>
+              <div className="grid gap-6 md:grid-cols-2">
+                {[
+                  {
+                    title: "Informations de contact",
+                    description: "Nom, prénom, email, téléphone et adresse.",
+                  },
 
-          <h3 className="text-xl font-semibold text-gray-900 mt-8 mb-4">
-            7. Cookies et suivi
-          </h3>
-          <p className="text-gray-700 mb-4">
-            Nous utilisons des cookies pour améliorer votre expérience du site.
-            Vous pouvez contrôler les cookies via les paramètres de votre
-            navigateur. Certains cookies sont essentiels au fonctionnement du
-            site.
-          </p>
+                  {
+                    title: "Informations projet",
+                    description:
+                      "Description des travaux et informations liées au chantier.",
+                  },
 
-          <h3 className="text-xl font-semibold text-gray-900 mt-8 mb-4">
-            8. Vos droits
-          </h3>
-          <p className="text-gray-700 mb-4">
-            Conformément au RGPD, vous disposez des droits suivants :
-          </p>
-          <ul className="list-disc list-inside space-y-2 text-gray-700 mb-4">
-            <li>
-              <strong>Droit d'accès :</strong> accéder à vos données
-              personnelles
-            </li>
-            <li>
-              <strong>Droit de rectification :</strong> corriger vos données
-              inexactes
-            </li>
-            <li>
-              <strong>Droit à l'effacement :</strong> demander la suppression de
-              vos données
-            </li>
-            <li>
-              <strong>Droit à la limitation :</strong> limiter le traitement de
-              vos données
-            </li>
-            <li>
-              <strong>Droit à la portabilité :</strong> recevoir vos données
-              dans un format lisible
-            </li>
-            <li>
-              <strong>Droit d'opposition :</strong> vous opposer au traitement
-              de vos données
-            </li>
-          </ul>
+                  {
+                    title: "Données de navigation",
+                    description: "Adresse IP, navigateur et pages consultées.",
+                  },
 
-          <h3 className="text-xl font-semibold text-gray-900 mt-8 mb-4">
-            9. Sécurité des données
-          </h3>
-          <p className="text-gray-700 mb-4">
-            Nous mettons en place des mesures techniques et organisationnelles
-            pour protéger vos données contre tout accès, modification ou
-            divulgation non autorisée. Cependant, aucun système n'est 100%
-            sécurisé.
-          </p>
+                  {
+                    title: "Cookies",
+                    description:
+                      "Amélioration de l’expérience utilisateur et statistiques.",
+                  },
+                ].map((item) => (
+                  <div
+                    key={item.title}
+                    className="rounded-3xl border border-gray-100 bg-gray-50 p-8 transition hover:-translate-y-1 hover:shadow-xl"
+                  >
+                    <h4 className="mb-4 text-xl font-bold text-gray-900">
+                      {item.title}
+                    </h4>
 
-          <h3 className="text-xl font-semibold text-gray-900 mt-8 mb-4">
-            10. Contact et exercice de vos droits
-          </h3>
-          <p className="text-gray-700 mb-4">
-            Pour exercer vos droits ou si vous avez des questions concernant
-            cette politique, contactez-nous :
-          </p>
-          <p className="text-gray-700 mb-4">
-            <strong>Email :</strong> contact@dzmaconnerie38.fr
-            <br />
-            <strong>Adresse :</strong> Artas, 38170 Isère
-            <br />
-            <strong>Téléphone :</strong> 06 88 14 42 57
-          </p>
+                    <p className="leading-relaxed text-gray-600">
+                      {item.description}
+                    </p>
+                  </div>
+                ))}
+              </div>
+            </div>
 
-          <h3 className="text-xl font-semibold text-gray-900 mt-8 mb-4">
-            11. Modifications de cette politique
-          </h3>
-          <p className="text-gray-700">
-            Nous nous réservons le droit de modifier cette politique de
-            confidentialité à tout moment. Les modifications seront mises à jour
-            sur cette page avec la date de dernière modification.
-          </p>
+            {/* SECTION */}
+            <div>
+              <h3 className="mb-6 text-3xl font-black text-gray-900">
+                3. Utilisation des données
+              </h3>
+
+              <p className="mb-10 text-lg leading-relaxed text-gray-600">
+                Les données collectées permettent notamment :
+              </p>
+
+              <div className="grid gap-4">
+                {[
+                  "Traiter les demandes de devis",
+                  "Assurer le suivi des projets",
+                  "Répondre aux demandes de contact",
+                  "Améliorer les performances du site internet",
+                ].map((item) => (
+                  <div
+                    key={item}
+                    className="flex items-center rounded-2xl border border-gray-100 bg-gray-50 px-6 py-5"
+                  >
+                    <div className="mr-4 h-3 w-3 rounded-full bg-primary-500" />
+
+                    <p className="font-medium text-gray-700">{item}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            {/* SECTION */}
+            <div>
+              <h3 className="mb-6 text-3xl font-black text-gray-900">
+                4. Sécurité des données
+              </h3>
+
+              <p className="text-lg leading-relaxed text-gray-600">
+                DZ Maçonnerie & Terrassement met en œuvre les mesures
+                nécessaires afin de garantir la sécurité et la confidentialité
+                des données personnelles.
+              </p>
+            </div>
+
+            {/* CTA */}
+            <div className="rounded-3xl bg-primary-500 p-10 text-white">
+              <h3 className="mb-4 text-3xl font-black">
+                Une question concernant vos données ?
+              </h3>
+
+              <p className="max-w-3xl text-lg leading-relaxed text-primary-100">
+                Contactez DZ Maçonnerie & Terrassement pour toute demande
+                relative à vos données personnelles ou à l’exercice de vos
+                droits RGPD.
+              </p>
+
+              <div className="mt-8 flex flex-col gap-4 sm:flex-row">
+                <Link
+                  href="/contact"
+                  className="inline-flex items-center justify-center rounded-xl bg-white px-8 py-5 text-lg font-bold text-primary-700 transition hover:bg-gray-100"
+                >
+                  Nous contacter
+                  <ArrowRight className="ml-2 h-5 w-5" />
+                </Link>
+
+                <a
+                  href="tel:+33688144257"
+                  className="inline-flex items-center justify-center rounded-xl border border-white/20 bg-white/10 px-8 py-5 text-lg font-bold text-white backdrop-blur transition hover:bg-white/20"
+                >
+                  06 88 14 42 57
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 

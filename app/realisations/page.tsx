@@ -1,263 +1,284 @@
-import Link from 'next/link';
-import { Metadata } from 'next';
-import { ArrowRight, Calendar, MapPin } from 'lucide-react';
-import { generateMetadata as generatePageMetadata } from '@/lib/seo';
-import { siteConfig } from '@/data/config';
-import { generateProjectSchema } from '@/lib/seo';
+import type { Metadata } from "next";
 
-export const metadata: Metadata = generatePageMetadata(
-  'Réalisations et projets | DZ Maçonnerie',
-  'Découvrez nos réalisations en maçonnerie, rénovation et terrassement. Projets de qualité dans la région Rhône-Alpes.',
-  '/realisations',
-  `${siteConfig.siteUrl}/og-realisations.jpg`
-);
+import Link from "next/link";
+import Image from "next/image";
+import {
+  ArrowRight,
+  Hammer,
+  MapPin,
+  Phone,
+  ShieldCheck,
+  Star,
+} from "lucide-react";
+import { realisations } from "@/data/realisations";
+import HeroSection from "@/components/sections/hero/HeroSection";
 
-const projects = [
-  {
-    title: 'Extension maison à Bourgoin-Jallieu',
-    city: 'Bourgoin-Jallieu',
-    service: 'Extension maison',
-    date: 'Mars 2024',
-    description: 'Extension moderne de 40m² avec ouvertures cintrées. Travaux réalisés en respectant les délais et le budget prévu.',
-    image: '🏠',
-  },
-  {
-    title: 'Rénovation façade à Vienne',
-    city: 'Vienne',
-    service: 'Rénovation',
-    date: 'Février 2024',
-    description: 'Rénovation complète de la façade d\'une maison ancienne. Nettoyage, rejointoiement et peinture haute performance.',
-    image: '🏘️',
-  },
-  {
-    title: 'Terrassement à Diémoz',
-    city: 'Diémoz',
-    service: 'Terrassement',
-    date: 'Janvier 2024',
-    description: 'Préparation du terrain pour construction d\'une maison. Nivellement et création de fondations sur 200m².',
-    image: '⛏️',
-  },
-  {
-    title: 'Maçonnerie générale à Artas',
-    city: 'Artas',
-    service: 'Maçonnerie générale',
-    date: 'Décembre 2023',
-    description: 'Construction d\'un mur de soutènement avec fondations renforcées. Travail précis et mise en place de chaînages.',
-    image: '🧱',
-  },
-  {
-    title: 'Extension maison à Saint-Genis-Laval',
-    city: 'Saint-Genis-Laval',
-    service: 'Extension maison',
-    date: 'Novembre 2023',
-    description: 'Extension d\'une maison existante avec création d\'une terrasse. Intégration harmonieuse au bâtiment principal.',
-    image: '🏠',
-  },
-  {
-    title: 'Rénovation maçonnerie à Pont-de-Chéruy',
-    city: 'Pont-de-Chéruy',
-    service: 'Rénovation',
-    date: 'Octobre 2023',
-    description: 'Rénovation de murs intérieurs et externes. Enduit de lissage et peinture pour un rendu impeccable.',
-    image: '🏘️',
-  },
-  {
-    title: 'Construction garage à Bourgoin-Jallieu',
-    city: 'Bourgoin-Jallieu',
-    service: 'Maçonnerie générale',
-    date: 'Septembre 2023',
-    description: 'Construction d\'un garage en parpaings avec dalle béton. Ouvrage conforme aux normes et aux attentes du client.',
-    image: '🏠',
-  },
-  {
-    title: 'Terrassement et fondations à Saint-Étienne',
-    city: 'Saint-Étienne',
-    service: 'Terrassement',
-    date: 'Août 2023',
-    description: 'Excavation et préparation de fondations pour construction. Mise en place d\'un système de drainage efficace.',
-    image: '⛏️',
-  },
-];
+const SITE_URL = "https://www.dz-maconnerie.fr";
 
-const categories = [
-  { name: 'Tous', slug: 'tous' },
-  { name: 'Maçonnerie générale', slug: 'maconnerie' },
-  { name: 'Extension maison', slug: 'extension' },
-  { name: 'Rénovation', slug: 'renovation' },
-  { name: 'Terrassement', slug: 'terrassement' },
-];
+export const metadata: Metadata = {
+  title:
+    "Réalisations maçonnerie et terrassement en Nord-Isère | DZ Maçonnerie",
+
+  description:
+    "Découvrez les réalisations DZ Maçonnerie & Terrassement : dalle béton, terrassement, rénovation, extension maison et travaux de maçonnerie en Nord-Isère.",
+
+  alternates: {
+    canonical: `${SITE_URL}/realisations`,
+  },
+
+  openGraph: {
+    title:
+      "Réalisations maçonnerie et terrassement en Nord-Isère | DZ Maçonnerie",
+
+    description:
+      "Découvrez les réalisations DZ Maçonnerie & Terrassement : dalle béton, terrassement, rénovation et extension maison.",
+
+    url: `${SITE_URL}/realisations`,
+
+    siteName: "DZ Maçonnerie",
+
+    locale: "fr_FR",
+
+    type: "website",
+
+    images: [
+      {
+        url: `${SITE_URL}/images/og/realisations-og.jpg`,
+        width: 1200,
+        height: 630,
+        alt: "Réalisations DZ Maçonnerie",
+      },
+    ],
+  },
+
+  twitter: {
+    card: "summary_large_image",
+
+    title:
+      "Réalisations maçonnerie et terrassement en Nord-Isère | DZ Maçonnerie",
+
+    description:
+      "Découvrez plusieurs chantiers réalisés par DZ Maçonnerie & Terrassement.",
+
+    images: [`${SITE_URL}/images/og/realisations-og.jpg`],
+  },
+
+  robots: {
+    index: true,
+    follow: true,
+  },
+};
 
 export default function RealisationsPage() {
+  const schema = {
+    "@context": "https://schema.org",
+
+    "@type": "CollectionPage",
+
+    name: "Réalisations DZ Maçonnerie",
+
+    description:
+      "Découvrez les chantiers réalisés par DZ Maçonnerie & Terrassement en Nord-Isère.",
+
+    url: `${SITE_URL}/realisations`,
+
+    mainEntity: realisations.map((project) => ({
+      "@type": "ConstructionProject",
+
+      name: project.title,
+
+      description: project.description,
+
+      url: `${SITE_URL}/realisations/${project.slug}`,
+
+      image: project.images?.[0]
+        ? `${SITE_URL}${project.images[0].src}`
+        : undefined,
+
+      location: {
+        "@type": "Place",
+
+        name: project.city,
+      },
+    })),
+  };
+
   return (
-    <>
-   <script
-  type="application/ld+json"
-  dangerouslySetInnerHTML={{
-    __html: JSON.stringify(
-      projects.map((project) =>
-        generateProjectSchema(
-          project.title,
-          project.description,
-          `${siteConfig.siteUrl}/og-realisations.jpg`,
-          project.city,
-          `${siteConfig.siteUrl}/realisations`
-        )
-      )
-    ),
-  }}
-/>
-      {/* Breadcrumbs */}
-      <div className="bg-white border-b border-gray-200">
-        <div className="container mx-autopy-4">
-          <div className="flex items-center gap-2 text-sm">
-            <Link href="/" className="text-primary-600 hover:text-primary-700">Accueil</Link>
-            <span className="text-gray-400">/</span>
-            <span className="text-gray-700 font-medium">Réalisations</span>
-          </div>
-        </div>
-      </div>
+    <main className="bg-white">
+      {/* SCHEMA */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(schema),
+        }}
+      />
 
-      {/* Hero */}
-      <section className="hero-gradient relative overflow-hidden py-20 md:py-32 text-white">
-        <div className="container mx-auto">
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
-            Nos réalisations
-          </h1>
-          <p className="text-xl text-primary-50 max-w-3xl">
-            Découvrez les projets que nous avons menés à bien. Des réalisations de qualité réalisées avec professionnalisme et respect des délais.
-          </p>
+      {/* HERO */}
+      <HeroSection
+        badge="Réalisations • Bourgoin-Jallieu • Nord-Isère"
+        title="Nos"
+        highlight="Réalisations"
+        description="Découvrez plusieurs chantiers réalisés par DZ Maçonnerie & Terrassement : dalle béton, terrassement, rénovation, extension maison et maçonnerie générale dans toute l’Isère."
+        image="/images/realisations/chantier_maçonnerie.avif"
+        imageAlt="Réalisations maçonnerie et terrassement en Nord-Isère"
+        primaryButtonText="Demander un devis"
+        primaryButtonHref="/contact"
+        secondaryButtonText="06 88 14 42 57"
+        secondaryButtonHref="tel:+33688144257"
+        cards={[
+          {
+            icon: "hammer",
+            title: "Chantiers réels",
+            description: "Découvrez plusieurs projets réalisés en Nord-Isère.",
+          },
+
+          {
+            icon: "shield",
+            title: "Travail de qualité",
+            description: "Réalisations durables dans les règles de l’art.",
+          },
+
+          {
+            icon: "star",
+            title: "Devis gratuit",
+            description: "Réponse rapide pour votre projet de maçonnerie.",
+          },
+        ]}
+      />
+      {/* INTRO */}
+      <section className="py-16">
+        <div className="mx-auto max-w-7xl px-6 lg:px-8">
+          <div className="max-w-4xl">
+            <h2 className="text-3xl font-bold text-zinc-900">
+              Des chantiers réels réalisés en Nord-Isère
+            </h2>
+
+            <p className="mt-6 text-lg leading-8 text-zinc-600">
+              DZ Maçonnerie & Terrassement accompagne les particuliers et
+              professionnels pour leurs travaux de maçonnerie, terrassement,
+              rénovation, création de dalle béton et extension de maison.
+            </p>
+
+            <p className="mt-4 text-lg leading-8 text-zinc-600">
+              Retrouvez ici plusieurs exemples de réalisations avec photos,
+              détails techniques et informations locales.
+            </p>
+          </div>
         </div>
       </section>
 
-      {/* Filter */}
-      <section className="section-padding bg-white border-b border-gray-200">
-        <div className="container mx-auto">
-          <div className="flex flex-wrap gap-3 justify-center">
-            {categories.map(cat => (
-              <button
-                key={cat.slug}
-                className={`px-6 py-2 rounded-full font-medium transition-all ${
-                  cat.slug === 'tous'
-                    ? 'bg-primary-600 text-white'
-                    : 'bg-gray-100 text-gray-700 hover:bg-primary-50 hover:text-primary-600'
-                }`}
+      {/* GRID */}
+      <section className="pb-24">
+        <div className="mx-auto max-w-7xl px-6 lg:px-8">
+          <div className="grid gap-8 md:grid-cols-2 xl:grid-cols-3">
+            {realisations.map((project) => (
+              <article
+                key={project.slug}
+                className="group overflow-hidden rounded-3xl border border-zinc-200 bg-white shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl"
               >
-                {cat.name}
-              </button>
-            ))}
-          </div>
-        </div>
-      </section>
+                <Link href={`/realisations/${project.slug}`} className="block">
+                  {/* IMAGE */}
+                  <div className="relative h-72 overflow-hidden">
+                    <Image
+                      src={project.images?.[0]?.src}
+                      alt={project.images?.[0]?.alt || project.title}
+                      fill
+                      className="object-cover transition-transform duration-500 group-hover:scale-105"
+                      sizes="(max-width: 768px) 100vw, 33vw"
+                    />
 
-      {/* Projects Grid */}
-      <section className="section-padding bg-white">
-        <div className="container mx-auto">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
-            {projects.map((project, idx) => (
-              <div
-                key={idx}
-                className="group border border-gray-200 rounded-xl overflow-hidden hover:border-primary-600 hover:shadow-lg transition-all"
-              >
-                {/* Image Placeholder */}
-                <div className="h-40 bg-gradient-to-br from-primary-100 to-primary-200 flex items-center justify-center text-5xl group-hover:from-primary-200 group-hover:to-primary-300 transition-all">
-                  {project.image}
-                </div>
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/10 to-transparent" />
 
-                {/* Content */}
-                <div className="p-6">
-                  <p className="text-xs text-primary-600 font-semibold mb-2 uppercase">{project.service}</p>
-                  <h3 className="text-lg font-semibold text-gray-900 mb-3 group-hover:text-primary-600 transition-colors">
-                    {project.title}
-                  </h3>
-                  <p className="text-sm text-gray-600 mb-4">{project.description}</p>
+                    <div className="absolute bottom-0 left-0 right-0 p-6 text-white">
+                      <span className="inline-flex rounded-full bg-white/20 px-3 py-1 text-xs font-medium backdrop-blur">
+                        {project.service}
+                      </span>
 
-                  {/* Meta */}
-                  <div className="space-y-2 border-t border-gray-100 pt-4">
-                    <div className="flex items-center gap-2 text-xs text-gray-600">
-                      <MapPin className="w-4 h-4" />
-                      {project.city}
-                    </div>
-                    <div className="flex items-center gap-2 text-xs text-gray-600">
-                      <Calendar className="w-4 h-4" />
-                      {project.date}
+                      <h2 className="mt-3 text-2xl font-bold">
+                        {project.title}
+                      </h2>
+
+                      <p className="mt-2 text-sm text-zinc-200">
+                        {project.city}
+                      </p>
                     </div>
                   </div>
-                </div>
-              </div>
-            ))}
-          </div>
 
-          {/* Load More */}
-          <div className="text-center">
-            <button className="btn-primary">
-              Voir plus de réalisations <ArrowRight className="ml-2 w-4 h-4" />
-            </button>
-          </div>
-        </div>
-      </section>
+                  {/* CONTENT */}
+                  <div className="p-6">
+                    <p className="line-clamp-3 text-base leading-7 text-zinc-600">
+                      {project.description}
+                    </p>
 
-      {/* Project Stats */}
-      <section className="section-padding bg-gray-50">
-        <div className="container mx-auto">
-          <h2 className="heading-md mb-12 text-center">Notre expérience</h2>
-          <div className="grid grid-cols-2 lg:grid-cols-4 gap-6">
-            {[
-              { label: 'Projets réalisés', value: '200+' },
-              { label: 'Clients satisfaits', value: '400+' },
-              { label: 'Années d\'expérience', value: '15+' },
-              { label: 'Note moyenne', value: '4.9/5' },
-            ].map((stat, idx) => (
-              <div key={idx} className="text-center p-6 bg-white rounded-xl border border-gray-200 hover:border-primary-600 hover:shadow-lg transition-all">
-                <p className="text-3xl font-bold text-primary-600 mb-2">{stat.value}</p>
-                <p className="text-gray-700 font-medium">{stat.label}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
+                    {/* MATERIALS */}
+                    {project.materials && project.materials.length > 0 && (
+                      <div className="mt-5 flex flex-wrap gap-2">
+                        {project.materials.map((material) => (
+                          <span
+                            key={material}
+                            className="rounded-full bg-zinc-100 px-3 py-1 text-xs font-medium text-zinc-700"
+                          >
+                            {material}
+                          </span>
+                        ))}
+                      </div>
+                    )}
 
-      {/* Why Our Work Stands Out */}
-      <section className="section-padding bg-white">
-        <div className="container mx-auto">
-          <h2 className="heading-md mb-12 text-center">Qualité garantie</h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {[
-              {
-                title: 'Professionnalisme',
-                desc: 'Chaque réalisation est menée par une équipe expérimentée qui maîtrise tous les aspects de la maçonnerie.',
-              },
-              {
-                title: 'Précision',
-                desc: 'Nous respectons scrupuleusement les plans et les normes de construction pour un résultat impeccable.',
-              },
-              {
-                title: 'Fiabilité',
-                desc: 'Garantie décennale sur tous nos travaux et respect strict des délais convenus.',
-              },
-            ].map((item, idx) => (
-              <div key={idx} className="p-8 bg-primary-50 rounded-xl border border-primary-200">
-                <h3 className="text-xl font-semibold text-gray-900 mb-3">{item.title}</h3>
-                <p className="text-gray-700">{item.desc}</p>
-              </div>
+                    {/* FOOTER */}
+                    <div className="mt-6 flex items-center justify-between">
+                      <div className="flex items-center gap-2 text-sm text-zinc-500">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          className="h-4 w-4"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          stroke="currentColor"
+                          strokeWidth={2}
+                        >
+                          <path
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            d="M8 7V3m8 4V3m-9 8h10m-11 9h12a2 2 0 002-2V7a2 2 0 00-2-2H6a2 2 0 00-2 2v11a2 2 0 002 2z"
+                          />
+                        </svg>
+
+                        {project.date}
+                      </div>
+
+                      <span className="font-semibold text-zinc-900 transition-transform duration-300 group-hover:translate-x-1">
+                        Voir le chantier →
+                      </span>
+                    </div>
+                  </div>
+                </Link>
+              </article>
             ))}
           </div>
         </div>
       </section>
 
-      {/* Final CTA */}
-      <section className="hero-gradient py-16 md:py-24 text-white">
-        <div className="container mx-auto text-center">
-          <h2 className="text-4xl md:text-5xl font-bold mb-4 leading-tight">
-            Votre projet mérite notre expertise
+      {/* CTA */}
+      <section className="bg-zinc-100 py-20">
+        <div className="mx-auto max-w-4xl px-6 text-center lg:px-8">
+          <h2 className="text-3xl font-bold text-zinc-900">
+            Vous avez un projet de maçonnerie ou terrassement ?
           </h2>
-          <p className="text-xl text-primary-50 mb-8 max-w-2xl mx-auto">
-            Découvrez comment DZ Maçonnerie peut transformer votre vision en réalité
+
+          <p className="mt-6 text-lg leading-8 text-zinc-600">
+            Contactez DZ Maçonnerie & Terrassement pour obtenir un devis gratuit
+            pour vos travaux en Nord-Isère.
           </p>
-          <Link href="/contact" className="btn-primary bg-white text-primary-600 hover:bg-gray-100">
-            Demander un devis <ArrowRight className="ml-2 w-4 h-4" />
-          </Link>
+
+          <div className="mt-10">
+            <Link
+              href="/contact"
+              className="inline-flex items-center rounded-2xl bg-zinc-950 px-8 py-4 text-base font-semibold text-white transition hover:bg-zinc-800"
+            >
+              Demander un devis gratuit
+            </Link>
+          </div>
         </div>
       </section>
-    </>
+    </main>
   );
 }

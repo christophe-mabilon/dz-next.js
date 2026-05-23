@@ -86,7 +86,7 @@ export default async function CityPage(props: CityPageProps) {
             </h1>
             <p className="text-xl text-primary-50">
               Services professionnels de maçonnerie générale, rénovation,
-              extension et terrassement à {city.name}. Plus de 15 ans
+              extension et terrassement à {city.name}. Plus de 10 ans
               d'expertise au service de vos projets.
             </p>
           </div>

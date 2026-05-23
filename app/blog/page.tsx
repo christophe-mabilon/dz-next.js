@@ -3,6 +3,7 @@ import { Metadata } from "next";
 import { ArrowRight, Calendar } from "lucide-react";
 import { generateMetadata as generatePageMetadata } from "@/lib/seo";
 import { siteConfig } from "@/data/config";
+import HeroSection from "@/components/sections/hero/HeroSection";
 
 export const metadata: Metadata = generatePageMetadata(
   "Blog | Conseils maçonnerie et rénovation | DZ Maçonnerie",
@@ -86,31 +87,38 @@ const categories = [
 export default function BlogPage() {
   return (
     <>
-      {/* Breadcrumbs */}
-      <div className="bg-white border-b border-gray-200">
-        <div className="container mx-auto py-4">
-          <div className="flex items-center gap-2 text-sm">
-            <Link href="/" className="text-primary-600 hover:text-primary-700">
-              Accueil
-            </Link>
-            <span className="text-gray-400">/</span>
-            <span className="text-gray-700 font-medium">Blog</span>
-          </div>
-        </div>
-      </div>
-
       {/* Hero */}
-      <section className="hero-gradient relative overflow-hidden py-20 md:py-32 text-white">
-        <div className="container mx-auto">
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
-            Blog maçonnerie
-          </h1>
-          <p className="text-xl text-primary-50 max-w-3xl">
-            Conseils, guides et astuces pour vos projets de maçonnerie,
-            rénovation et terrassement
-          </p>
-        </div>
-      </section>
+      <HeroSection
+        badge="Blog maçonnerie • Bourgoin-Jallieu • Nord-Isère"
+        title="Conseils &"
+        highlight="Actualités"
+        description="Découvrez nos conseils en maçonnerie, terrassement, dalle béton, rénovation et extension maison ainsi que les actualités de DZ Maçonnerie & Terrassement en Isère."
+       image="/images/realisations/chantier_maçonnerie.avif"
+        imageAlt="Blog maçonnerie et terrassement DZ Maçonnerie"
+        primaryButtonText="Demander un devis"
+        primaryButtonHref="/contact"
+        secondaryButtonText="06 88 14 42 57"
+        secondaryButtonHref="tel:+33688144257"
+        cards={[
+          {
+            icon: "hammer",
+            title: "Conseils travaux",
+            description: "Informations utiles pour vos projets de maçonnerie.",
+          },
+
+          {
+            icon: "shield",
+            title: "Expertise terrain",
+            description: "Articles rédigés à partir de vrais chantiers.",
+          },
+
+          {
+            icon: "star",
+            title: "Actualités locales",
+            description: "Suivez nos réalisations et conseils en Nord-Isère.",
+          },
+        ]}
+      />
 
       {/* Categories */}
       <section className="section-padding bg-white border-b border-gray-200">

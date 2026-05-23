@@ -2,15 +2,8 @@
 import { cities } from "@/data/cities";
 import Image from "next/image";
 import Link from "next/link";
-import {
-  ArrowRight,
-  CheckCircle2,
-  Phone,
-  MapPin,
-  ShieldCheck,
-  Hammer,
-  Star,
-} from "lucide-react";
+import { ArrowRight, CheckCircle2, Phone } from "lucide-react";
+import HeroSection from "@/components/sections/hero/HeroSection";
 
 export const metadata = {
   title: "Maçon à Bourgoin-Jallieu | Terrassement & Rénovation en Nord-Isère",
@@ -105,94 +98,37 @@ export default function HomePage() {
         }}
       />
       {/* HERO */}
-      <section className="relative overflow-hidden">
-        <div className="absolute inset-0">
-          <Image
-            src="/images/realisations/chantier_maçonnerie.avif"
-            alt="Rénovation chantier béton réalisée à Bourgoin-Jallieu par DZ Maçonnerie & terrassement"
-            fill
-            className="object-cover 100vw"
-            sizes="(max-width: 768px) 100vw, 50vw"
-            loading="lazy"
-          />
+      <HeroSection
+        badge="Bourgoin-Jallieu • Artas • Isère"
+        title="DZ Maçonnerie &"
+        highlight="Terrassement"
+        description="Entreprise de maçonnerie à Bourgoin-Jallieu spécialisée en terrassement, dalle béton, rénovation, extension maison et ouverture mur porteur dans toute l’Isère."
+        image="/images/realisations/chantier_maçonnerie.avif"
+        imageAlt="Rénovation chantier béton réalisée à Bourgoin-Jallieu par DZ Maçonnerie & Terrassement"
+        primaryButtonText="Demander un devis"
+        primaryButtonHref="/contact"
+        secondaryButtonText="06 88 14 42 57"
+        secondaryButtonHref="tel:+33688144257"
+        cards={[
+          {
+            icon: "shield",
+            title: "Garantie décennale",
+            description: "Travaux réalisés dans les règles de l’art.",
+          },
 
-          <div className="absolute inset-0 bg-black/60" />
-        </div>
+          {
+            icon: "hammer",
+            title: "10 ans d’expérience",
+            description: "Entreprise spécialisée en maçonnerie générale.",
+          },
 
-        <div className="relative z-10 container mx-auto px-6 py-28 md:py-40">
-          <div className="max-w-4xl">
-            <div className="mb-6 inline-flex items-center rounded-full bg-white/10 px-4 py-2 text-sm text-white backdrop-blur">
-              <MapPin className="mr-2 h-4 w-4" />
-              Bourgoin-Jallieu • Artas • Isère
-            </div>
-
-            <h1 className="mb-6 text-5xl font-black leading-tight text-white md:text-7xl">
-              DZ Maçonnerie &
-              <span className="block text-primary-400">Terrassement</span>
-            </h1>
-
-            <p className="mb-8 max-w-2xl text-xl leading-relaxed text-gray-200">
-              Entreprise de maçonnerie à Bourgoin-Jallieu spécialisée en
-              terrassement, dalle béton, rénovation, extension maison et
-              ouverture mur porteur dans toute l’Isère.
-            </p>
-
-            <div className="mb-10 flex flex-col gap-4 sm:flex-row">
-              <Link
-                href="/contact"
-                className="inline-flex items-center justify-center rounded-xl bg-primary-500 px-8 py-5 text-lg font-bold text-white transition hover:bg-primary-600"
-              >
-                Demander un devis
-                <ArrowRight className="ml-2 h-5 w-5" />
-              </Link>
-
-              <a
-                href="tel:+33688144257"
-                className="inline-flex items-center justify-center rounded-xl border border-white/20 bg-white/10 px-8 py-5 text-lg font-bold text-white backdrop-blur transition hover:bg-white/20"
-              >
-                <Phone className="mr-2 h-5 w-5" />
-                06 88 14 42 57
-              </a>
-            </div>
-
-            <div className="grid max-w-3xl grid-cols-1 gap-4 md:grid-cols-3">
-              <div className="rounded-2xl border border-white/10 bg-white/10 p-5 backdrop-blur">
-                <ShieldCheck className="mb-3 h-6 w-6 text-primary-300" />
-
-                <h2 className="mb-2 font-bold text-white">
-                  Garantie décennale
-                </h2>
-
-                <p className="text-sm text-gray-300">
-                  Travaux réalisés dans les règles de l’art.
-                </p>
-              </div>
-
-              <div className="rounded-2xl border border-white/10 bg-white/10 p-5 backdrop-blur">
-                <Hammer className="mb-3 h-6 w-6 text-primary-300" />
-
-                <h2 className="mb-2 font-bold text-white">
-                  10 ans d’expérience
-                </h2>
-
-                <p className="text-sm text-gray-300">
-                  Entreprise spécialisée en maçonnerie générale.
-                </p>
-              </div>
-
-              <div className="rounded-2xl border border-white/10 bg-white/10 p-5 backdrop-blur">
-                <Star className="mb-3 h-6 w-6 text-primary-300" />
-
-                <h2 className="mb-2 font-bold text-white">Devis gratuit</h2>
-
-                <p className="text-sm text-gray-300">
-                  Réponse rapide sous 24h pour votre projet.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+          {
+            icon: "star",
+            title: "Devis gratuit",
+            description: "Réponse rapide sous 24h pour votre projet.",
+          },
+        ]}
+      />
       {/* INTRO */}
       <section className="bg-white py-20">
         <div className="container mx-auto grid gap-16 px-6 lg:grid-cols-2 lg:items-center">
