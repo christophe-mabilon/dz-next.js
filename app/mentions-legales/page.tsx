@@ -30,7 +30,7 @@ export default function MentionsLegales() {
         primaryButtonText="Nous contacter"
         primaryButtonHref="/contact"
         secondaryButtonText={business.phone.replace("+33", "0")}
-        secondaryButtonhref="/contact"
+        secondaryButtonHref="/contact"
         cards={[
           {
             icon: "shield",
