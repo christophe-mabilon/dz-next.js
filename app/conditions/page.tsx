@@ -4,7 +4,7 @@ import { ArrowRight } from "lucide-react";
 import { generateMetadata as generatePageMetadata } from "@/lib/seo";
 import { siteConfig } from "@/data/config";
 import HeroSection from "@/components/sections/hero/HeroSection";
-
+const { business } = siteConfig;
 export const metadata: Metadata = generatePageMetadata(
   "Conditions d'utilisation | DZ Maçonnerie",
   "Conditions d'utilisation du site DZ Maçonnerie & Terrassement.",
