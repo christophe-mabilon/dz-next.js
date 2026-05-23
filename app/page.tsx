@@ -4,7 +4,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { ArrowRight, CheckCircle2, Phone } from "lucide-react";
 import HeroSection from "@/components/sections/hero/HeroSection";
+import { siteConfig } from "@/data/config";
 
+const { business } = siteConfig;
 export const metadata = {
   title: "Maçon à Bourgoin-Jallieu | Terrassement & Rénovation en Nord-Isère",
   description:
@@ -107,8 +109,8 @@ export default function HomePage() {
         imageAlt="Rénovation chantier béton réalisée à Bourgoin-Jallieu par DZ Maçonnerie & Terrassement"
         primaryButtonText="Demander un devis"
         primaryButtonHref="/contact"
-        secondaryButtonText="06 88 14 42 57"
-        secondaryButtonHref="tel:+33688144257"
+        secondaryButtonText={business.phone.replace("+33", "0")}
+        secondaryButtonHref="/contact"
         cards={[
           {
             icon: "shield",

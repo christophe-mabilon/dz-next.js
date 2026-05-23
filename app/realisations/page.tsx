@@ -4,7 +4,8 @@ import Link from "next/link";
 import Image from "next/image";
 import { realisations } from "@/data/realisations";
 import HeroSection from "@/components/sections/hero/HeroSection";
-
+import { siteConfig } from "@/data/config";
+const { business } = siteConfig;
 const SITE_URL = "https://www.dz-maconnerie.fr";
 
 export const metadata: Metadata = {
@@ -115,8 +116,8 @@ export default function RealisationsPage() {
         imageAlt="Réalisations maçonnerie et terrassement en Nord-Isère"
         primaryButtonText="Demander un devis"
         primaryButtonHref="/contact"
-        secondaryButtonText="06 88 14 42 57"
-        secondaryButtonHref="tel:+33688144257"
+        secondaryButtonText={business.phone.replace("+33", "0")}
+        secondaryButtonHref="/contact"
         cards={[
           {
             icon: "hammer",

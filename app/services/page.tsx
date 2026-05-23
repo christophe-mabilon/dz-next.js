@@ -8,6 +8,7 @@ import { generateMetadata as generatePageMetadata } from "@/lib/seo";
 import { siteConfig } from "@/data/config";
 import HeroSection from "@/components/sections/hero/HeroSection";
 
+const { business } = siteConfig;
 export const metadata: Metadata = generatePageMetadata(
   "Services de maçonnerie à Bourgoin-Jallieu | DZ Maçonnerie",
   "Entreprise de maçonnerie à Bourgoin-Jallieu spécialisée en maçonnerie générale, rénovation, terrassement, dalle béton, piscine béton et extension maison en Isère.",
@@ -28,8 +29,8 @@ export default function ServicesPage() {
         imageAlt="Services de maçonnerie et terrassement en Nord-Isère"
         primaryButtonText="Demander un devis"
         primaryButtonHref="/contact"
-        secondaryButtonText="06 88 14 42 57"
-        secondaryButtonHref="tel:+33688144257"
+        secondaryButtonText={business.phone.replace("+33", "0")}
+        secondaryButtonHref="/contact"
         cards={[
           {
             icon: "hammer",

@@ -22,7 +22,7 @@ export const siteConfig: SiteConfig = {
 
     email: "dz.maconnerie38@gmail.com",
 
-    address: "130 sentier du taillis",
+    address: "130 Sentier du Taillis",
 
     zipCode: "38440",
 
@@ -32,12 +32,17 @@ export const siteConfig: SiteConfig = {
 
     priceRange: "€€",
 
-    openingHours: ["Mo-Fr 08:00-18:00"],
+    openingHours: [
+      "Mo 09:00-17:00",
+      "Tu 09:00-17:00",
+      "We 09:00-17:00",
+      "Th 09:00-17:00",
+      "Fr 09:00-17:00",
+    ],
 
     coordinates: {
-      latitude: 45.537,
-
-      longitude: 5.164,
+      latitude: 45.536842,
+      longitude: 5.165274,
     },
 
     serviceArea: [
@@ -63,10 +68,7 @@ export const siteConfig: SiteConfig = {
     ],
 
     socialProfiles: {
-      facebook: "",
-
-      instagram: "",
-
+      facebook: "https://www.facebook.com/dz.maconnerie38",
       google: "https://share.google/cqOcenarz7ledaiiN",
     },
   },

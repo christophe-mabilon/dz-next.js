@@ -25,8 +25,8 @@ export default function PolitiqueConfidentialite() {
         imageAlt="Politique de confidentialité DZ Maçonnerie"
         primaryButtonText="Nous contacter"
         primaryButtonHref="/contact"
-        secondaryButtonText="06 88 14 42 57"
-        secondaryButtonHref="tel:+33688144257"
+        secondaryButtonText={business.phone.replace("+33", "0")}
+        secondaryButtonHref="/contact"
         cards={[
           {
             icon: "shield",

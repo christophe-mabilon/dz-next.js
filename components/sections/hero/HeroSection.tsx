@@ -64,7 +64,7 @@ export default function HeroSection({
   primaryButtonText = "Demander un devis",
   primaryButtonHref = "/contact",
   secondaryButtonText = "06 88 14 42 57",
-  secondaryButtonHref = "tel:+33688144257",
+  secondaryButtonHref = "/contact",
 
   cards = [
     {

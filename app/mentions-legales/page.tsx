@@ -1,13 +1,17 @@
 import Link from "next/link";
 import { Metadata } from "next";
 import { ArrowRight } from "lucide-react";
+
 import { generateMetadata as generatePageMetadata } from "@/lib/seo";
 import { siteConfig } from "@/data/config";
+
 import HeroSection from "@/components/sections/hero/HeroSection";
 
+const { business } = siteConfig;
+
 export const metadata: Metadata = generatePageMetadata(
-  "Mentions légales | DZ Maçonnerie",
-  "Mentions légales et informations légales du site DZ Maçonnerie & Terrassement.",
+  `Mentions légales | ${business.name}`,
+  `Mentions légales et informations légales du site ${business.name}.`,
   "/mentions-legales",
   `${siteConfig.siteUrl}/og-mentions.jpg`,
 );
@@ -17,16 +21,16 @@ export default function MentionsLegales() {
     <>
       {/* Hero */}
       <HeroSection
-        badge="Informations légales • DZ Maçonnerie"
+        badge={`Informations légales • ${business.name}`}
         title="Mentions"
         highlight="Légales"
-        description="Consultez les informations légales et les conditions d’utilisation du site DZ Maçonnerie & Terrassement."
+        description={`Consultez les informations légales et les conditions d’utilisation du site ${business.name}.`}
         image="/images/realisations/chantier_maçonnerie.avif"
-        imageAlt="Mentions légales DZ Maçonnerie"
+        imageAlt={`Mentions légales ${business.name}`}
         primaryButtonText="Nous contacter"
         primaryButtonHref="/contact"
-        secondaryButtonText="06 88 14 42 57"
-        secondaryButtonHref="tel:+33688144257"
+        secondaryButtonText={business.phone.replace("+33", "0")}
+        secondaryButtonhref="/contact"
         cards={[
           {
             icon: "shield",
@@ -43,7 +47,7 @@ export default function MentionsLegales() {
           {
             icon: "hammer",
             title: "Entreprise locale",
-            description: "DZ Maçonnerie & Terrassement en Isère.",
+            description: `${business.name} en Isère.`,
           },
         ]}
       />
@@ -64,46 +68,78 @@ export default function MentionsLegales() {
             <p className="max-w-4xl text-lg leading-relaxed text-gray-600">
               Conformément aux dispositions de la loi pour la confiance dans
               l’économie numérique (LCEN), voici les informations relatives au
-              site DZ Maçonnerie & Terrassement.
+              site {business.name}.
             </p>
           </div>
 
           {/* SECTIONS */}
           <div className="space-y-20">
-            {/* SECTION */}
+            {/* ÉDITEUR */}
             <div>
               <h3 className="mb-6 text-3xl font-black text-gray-900">
                 1. Éditeur du site
               </h3>
 
               <div className="grid gap-6 md:grid-cols-2">
+                {/* ENTREPRISE */}
                 <div className="rounded-3xl border border-gray-100 bg-gray-50 p-8">
                   <h4 className="mb-4 text-xl font-bold text-gray-900">
                     Entreprise
                   </h4>
 
                   <div className="space-y-3 text-gray-600">
-                    <p>DZ Maçonnerie & Terrassement</p>
-                    <p>Bourgoin-Jallieu – Isère</p>
-                    <p>France</p>
+                    <p>{business.name}</p>
+
+                    <p>{business.address}</p>
+
+                    <p>
+                      {business.zipCode} {business.city}
+                    </p>
+
+                    <p>{business.region} - France</p>
                   </div>
                 </div>
 
+                {/* CONTACT */}
                 <div className="rounded-3xl border border-gray-100 bg-gray-50 p-8">
                   <h4 className="mb-4 text-xl font-bold text-gray-900">
                     Contact
                   </h4>
 
                   <div className="space-y-3 text-gray-600">
-                    <p>06 88 14 42 57</p>
-                    <p>contact@dz-maconnerie.fr</p>
-                    <p>www.dz-maconnerie.fr</p>
+                    <p>{business.phone.replace("+33", "0")}</p>
+
+                    <p>{business.email}</p>
+
+                    <p>{siteConfig.siteUrl}</p>
+
+                    {business.socialProfiles.facebook && (
+                      <Link
+                        href={business.socialProfiles.facebook}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="block transition hover:text-primary-600"
+                      >
+                        Facebook officiel
+                      </Link>
+                    )}
+
+                    {business.socialProfiles.google && (
+                      <Link
+                        href={business.socialProfiles.google}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="block transition hover:text-primary-600"
+                      >
+                        Google Business
+                      </Link>
+                    )}
                   </div>
                 </div>
               </div>
             </div>
 
-            {/* SECTION */}
+            {/* HÉBERGEMENT */}
             <div>
               <h3 className="mb-6 text-3xl font-black text-gray-900">
                 2. Hébergement
@@ -117,7 +153,7 @@ export default function MentionsLegales() {
               </div>
             </div>
 
-            {/* SECTION */}
+            {/* PROPRIÉTÉ INTELLECTUELLE */}
             <div>
               <h3 className="mb-6 text-3xl font-black text-gray-900">
                 3. Propriété intellectuelle
@@ -130,17 +166,16 @@ export default function MentionsLegales() {
               </p>
             </div>
 
-            {/* SECTION */}
+            {/* RESPONSABILITÉ */}
             <div>
               <h3 className="mb-6 text-3xl font-black text-gray-900">
                 4. Responsabilité
               </h3>
 
               <p className="text-lg leading-relaxed text-gray-600">
-                DZ Maçonnerie & Terrassement s’efforce de fournir des
-                informations fiables et régulièrement mises à jour, mais ne
-                saurait garantir l’exactitude ou l’exhaustivité des contenus
-                publiés.
+                {business.name} s’efforce de fournir des informations fiables et
+                régulièrement mises à jour, mais ne saurait garantir
+                l’exactitude ou l’exhaustivité des contenus publiés.
               </p>
             </div>
 
@@ -151,8 +186,8 @@ export default function MentionsLegales() {
               </h3>
 
               <p className="max-w-3xl text-lg leading-relaxed text-primary-100">
-                Contactez DZ Maçonnerie & Terrassement pour toute information
-                complémentaire concernant les mentions légales du site.
+                Contactez {business.name} pour toute information complémentaire
+                concernant les mentions légales du site.
               </p>
 
               <div className="mt-8 flex flex-col gap-4 sm:flex-row">
@@ -165,10 +200,10 @@ export default function MentionsLegales() {
                 </Link>
 
                 <a
-                  href="tel:+33688144257"
+                  href="/contact"
                   className="inline-flex items-center justify-center rounded-xl border border-white/20 bg-white/10 px-8 py-5 text-lg font-bold text-white backdrop-blur transition hover:bg-white/20"
                 >
-                  06 88 14 42 57
+                  {business.phone.replace("+33", "0")}
                 </a>
               </div>
             </div>
@@ -176,20 +211,23 @@ export default function MentionsLegales() {
         </div>
       </section>
 
-      {/* CTA */}
-      <section className="hero-gradient py-12 md:py-16 text-white">
+      {/* CTA FINAL */}
+      <section className="hero-gradient py-12 text-white md:py-16">
         <div className="container mx-auto text-center">
-          <h2 className="text-2xl md:text-3xl font-bold mb-3">
+          <h2 className="mb-3 text-2xl font-bold md:text-3xl">
             Des questions ?
           </h2>
-          <p className="text-primary-50 mb-6">
+
+          <p className="mb-6 text-primary-50">
             Contactez-nous pour toute information
           </p>
+
           <Link
             href="/contact"
             className="btn-primary bg-white text-primary-600 hover:bg-gray-100"
           >
-            Nous contacter <ArrowRight className="ml-2 w-4 h-4" />
+            Nous contacter
+            <ArrowRight className="ml-2 h-4 w-4" />
           </Link>
         </div>
       </section>

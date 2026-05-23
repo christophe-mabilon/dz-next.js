@@ -1,14 +1,28 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
-import { Menu, X, Phone, MapPin, ArrowRight } from "lucide-react";
-import Image from "next/image";
+
+import {
+  Menu,
+  X,
+  Phone,
+  MapPin,
+  ArrowRight,
+  Facebook,
+  Star,
+} from "lucide-react";
+
+import { siteConfig } from "@/data/config";
 
 export function Header() {
   const [isOpen, setIsOpen] = useState(false);
+
   const pathname = usePathname();
+
+  const { business } = siteConfig;
 
   const isActive = (href: string) => pathname === href;
 
@@ -24,23 +38,55 @@ export function Header() {
   return (
     <>
       {/* TOP BAR */}
-      <div className="hidden md:block bg-primary-600 text-white">
+      <div className="hidden bg-primary-600 text-white md:block">
         <div className="container mx-auto flex items-center justify-between py-2 text-sm">
+          {/* LEFT */}
           <div className="flex items-center gap-6">
             <div className="flex items-center gap-2">
               <MapPin className="h-4 w-4" />
-              <span>Maçon à Bourgoin-Jallieu • Isère</span>
+
+              <span>
+                Maçon à {business.city} • {business.region}
+              </span>
             </div>
           </div>
 
+          {/* RIGHT */}
           <div className="flex items-center gap-6">
             <span>Devis gratuit sous 24h</span>
 
+            {/* FACEBOOK */}
+            {business.socialProfiles.facebook && (
+              <Link
+                href={business.socialProfiles.facebook}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Facebook DZ Maçonnerie"
+                className="transition hover:text-primary-100"
+              >
+                <Facebook className="h-4 w-4" />
+              </Link>
+            )}
+
+            {/* GOOGLE */}
+            {business.socialProfiles.google && (
+              <Link
+                href={business.socialProfiles.google}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Avis Google DZ Maçonnerie"
+                className="transition hover:text-primary-100"
+              >
+                <Star className="h-4 w-4" />
+              </Link>
+            )}
+
+            {/* PHONE */}
             <a
-              href="tel:0688144257"
-              className="font-semibold hover:text-primary-100"
+              href="/contact"
+              className="font-semibold transition hover:text-primary-100"
             >
-              06 88 14 42 57
+              {business.phone.replace("+33", "0")}
             </a>
           </div>
         </div>
@@ -54,15 +100,16 @@ export function Header() {
             <Link href="/" className="flex items-center gap-4">
               <Image
                 src="/images/chantiers/DZ-maconnerie_logo1.webp"
-                alt="DZ Maçonnerie && terassement Artas 38440"
+                alt={`${business.name} ${business.city}`}
                 width={55}
                 height={55}
                 className="object-contain"
                 loading="lazy"
               />
+
               <div className="hidden sm:block">
                 <p className="text-lg font-black uppercase tracking-wide text-white">
-                  DZ Maçonnerie
+                  {business.name.split("&")[0]}
                 </p>
 
                 <p className="text-sm font-medium text-primary-400">
@@ -72,7 +119,7 @@ export function Header() {
             </Link>
 
             {/* NAVIGATION */}
-            <nav className="hidden lg:flex items-center gap-8">
+            <nav className="hidden items-center gap-8 lg:flex">
               {navItems.map((item) => (
                 <Link
                   key={item.href}
@@ -95,9 +142,9 @@ export function Header() {
             {/* CTA */}
             <div className="flex items-center gap-4">
               <a
-                href="tel:0688144257"
-                aria-label="Téléphoner à DZ Maçonnerie"
-                className="hidden md:flex items-center gap-3 rounded-xl bg-primary-500 px-5 py-3 font-semibold text-white transition hover:bg-primary-600"
+                href="/contact"
+                aria-label={`Téléphoner à ${business.name}`}
+                className="hidden items-center gap-3 rounded-xl bg-primary-500 px-5 py-3 font-semibold text-white transition hover:bg-primary-600 md:flex"
               >
                 <Phone className="h-4 w-4" />
 
@@ -106,7 +153,7 @@ export function Header() {
                     Devis gratuit
                   </span>
 
-                  <span>06 88 14 42 57</span>
+                  <span>{business.phone.replace("+33", "0")}</span>
                 </div>
               </a>
 
@@ -145,8 +192,54 @@ export function Header() {
                 </Link>
               ))}
 
+              {/* MOBILE SOCIALS */}
+              <div className="mt-4 flex items-center justify-center gap-4">
+                {business.socialProfiles.facebook && (
+                  <Link
+                    href={business.socialProfiles.facebook}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="
+                      rounded-full
+                      border border-white/10
+                      bg-white/5
+                      p-3
+                      text-gray-300
+                      transition
+                      hover:border-primary-400
+                      hover:bg-primary-500/10
+                      hover:text-white
+                    "
+                  >
+                    <Facebook className="h-5 w-5" />
+                  </Link>
+                )}
+
+                {business.socialProfiles.google && (
+                  <Link
+                    href={business.socialProfiles.google}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="
+                      rounded-full
+                      border border-white/10
+                      bg-white/5
+                      p-3
+                      text-gray-300
+                      transition
+                      hover:border-primary-400
+                      hover:bg-primary-500/10
+                      hover:text-white
+                    "
+                  >
+                    <Star className="h-5 w-5" />
+                  </Link>
+                )}
+              </div>
+
+              {/* MOBILE CTA */}
               <a
-                href="tel:0688144257"
+                href="/contact"
                 className="mt-4 flex items-center justify-center gap-2 rounded-xl bg-primary-500 px-6 py-4 font-semibold text-white transition hover:bg-primary-600"
               >
                 Appeler maintenant
