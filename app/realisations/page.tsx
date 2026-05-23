@@ -2,14 +2,6 @@ import type { Metadata } from "next";
 
 import Link from "next/link";
 import Image from "next/image";
-import {
-  ArrowRight,
-  Hammer,
-  MapPin,
-  Phone,
-  ShieldCheck,
-  Star,
-} from "lucide-react";
 import { realisations } from "@/data/realisations";
 import HeroSection from "@/components/sections/hero/HeroSection";
 
