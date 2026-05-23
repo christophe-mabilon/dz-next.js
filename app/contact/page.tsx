@@ -210,7 +210,7 @@ export default function ContactPage() {
                     </h3>
 
                     <div className="space-y-1 text-gray-700">
-                      {business.openingHours.map((hour) => (
+                      {business.openingHours?.map((hour) => (
                         <p key={hour}>{hour}</p>
                       ))}
                     </div>
