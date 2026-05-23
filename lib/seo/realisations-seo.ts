@@ -1,4 +1,4 @@
-import { Realisation } from '@/data/realisations'
+import type { Realisation } from '@/data/realisations'
 
 const SITE_URL = 'https://www.dz-maconnerie.fr'
 
