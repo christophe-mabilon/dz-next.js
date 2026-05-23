@@ -98,7 +98,7 @@ export default function ContactPage() {
         primaryButtonText="Demander un devis"
         primaryButtonHref="/contact"
         secondaryButtonText={business.phone.replace("+33", "0")}
-        secondaryButtonhref="/contact"
+        secondaryButtonHref="/contact"
         cards={[
           {
             icon: "hammer",
