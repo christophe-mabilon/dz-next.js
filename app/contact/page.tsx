@@ -1,7 +1,6 @@
 "use client";
 
 import { useState } from "react";
-import Link from "next/link";
 import { ArrowRight, Phone, Mail, MapPin, Clock } from "lucide-react";
 import HeroSection from "@/components/sections/hero/HeroSection";
 
