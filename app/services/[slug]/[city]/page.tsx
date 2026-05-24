@@ -14,6 +14,7 @@ import { generateH1 } from "@/lib/seo-generators";
 import { generateLocalIntroduction } from "@/lib/seo-generators";
 import { generateSeoFaqs } from "@/lib/seo-generators";
 import { DynamicFooter } from "@/components/DynamicFooter";
+const { business } = siteConfig;
 
 interface CombinedPageProps {
   params: Promise<{

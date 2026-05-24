@@ -1,4 +1,6 @@
 #!/bin/bash
+# Depuis la racine du site, exécutez ce script pour afficher la structure du projet, les routes d'applications, les fichiers SEO, les composants, les fichiers de données et les types, ainsi que les comptes totaux pour chaque catégorie.
+# bash scripts/tree.sh
 
 echo "====================================="
 echo " DZ MACONNERIE - PROJECT STRUCTURE "
