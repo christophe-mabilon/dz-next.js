@@ -2384,7 +2384,8 @@ export const articles = [
     excerpt:
       "Découvrez les principales causes des fissures sur une maison et comment éviter les problèmes structurels.",
 
-    image: "/images/blog/pourquoi-des-fissures-apparaissent-sur-une maison.webp",
+    image:
+      "/images/blog/pourquoi-des-fissures-apparaissent-sur-une maison.webp",
 
     category: "Construction",
 
@@ -2582,7 +2583,7 @@ export const articles = [
     excerpt:
       "Découvrez les étapes essentielles pour réaliser une dalle béton solide et durable pour un garage.",
 
-    image: "/images/blog/coulage-beton.webp",
+    image: "/images/blog/comment-realiser-une-dalle-beton-pour-garage.webp",
 
     category: "Dalle béton",
 
@@ -2681,7 +2682,7 @@ export const articles = [
     excerpt:
       "Le mur de soutènement permet de stabiliser un terrain en pente et sécuriser les aménagements extérieurs.",
 
-    image: "/images/blog/fondations-realisation.webp",
+    image: "/images/blog/pourquoi-construire-un-mur-de-soutènement.webp",
 
     category: "Maçonnerie",
 
@@ -2978,7 +2979,8 @@ export const articles = [
     excerpt:
       "Résistante, moderne et durable : découvrez les avantages d’une allée béton pour vos extérieurs.",
 
-    image: "/images/blog/terrasse-beton.webp",
+    image:
+      "/images/blog/pourquoi-choisir-une-allee-beton-pour-votre-maison.webp",
 
     category: "Aménagement extérieur",
 
@@ -3076,7 +3078,7 @@ export const articles = [
     excerpt:
       "L’escalier béton extérieur offre robustesse, durabilité et nombreuses possibilités esthétiques.",
 
-    image: "/images/blog/maconnerie.webp",
+    image: "/images/blog/pourquoi-choisir-un-escalier-beton-exterieur.webp",
 
     category: "Maçonnerie",
 
