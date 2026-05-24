@@ -1,5 +1,7 @@
 "use client";
+import { siteConfig } from "@/data/config";
 
+const { business } = siteConfig;
 import Image from "next/image";
 import Link from "next/link";
 
@@ -52,6 +54,7 @@ function getIcon(icon: string) {
       return <Hammer className="mb-3 h-6 w-6 text-primary-300" />;
   }
 }
+const defaultPhone = business.phone.replace("+33", "0");
 
 export default function HeroSection({
   badge,
@@ -60,10 +63,10 @@ export default function HeroSection({
   description,
   image,
   imageAlt,
-  phone = "{business.phone.replace("+33", "0")}",
+  phone = defaultPhone,
   primaryButtonText = "Demander un devis",
   primaryButtonHref = "/contact",
-  secondaryButtonText = "{business.phone.replace("+33", "0")}",
+  secondaryButtonText = defaultPhone,
   secondaryButtonHref = "/contact",
 
   cards = [
