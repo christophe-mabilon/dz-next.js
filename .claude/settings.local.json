@@ -1,7 +1,10 @@
 {
   "permissions": {
     "allow": [
-      "Bash(node -e \"const {articles} = require\\('./data/blog.ts'\\); console.log\\('Articles:', articles?.length\\)\")"
+      "Bash(node -e \"const {articles} = require\\('./data/blog.ts'\\); console.log\\('Articles:', articles?.length\\)\")",
+      "Bash(npx tsc *)",
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)"
     ]
   }
 }
