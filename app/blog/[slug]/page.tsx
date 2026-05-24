@@ -150,7 +150,7 @@ export default async function BlogArticlePage({ params }: Props) {
             flex items-center
           "
           >
-            <div className="container mx-auto">
+            <div className="mx-3 mx-auto">
               <div className="max-w-8xl text-white">
                 <span
                   className="
@@ -217,21 +217,43 @@ export default async function BlogArticlePage({ params }: Props) {
         </section>
 
         {/* BREADCRUMBS */}
-        <nav aria-label="Fil d'Ariane" className="border-b border-gray-100 bg-gray-50 py-3">
+        <nav
+          aria-label="Fil d'Ariane"
+          className="border-b border-gray-100 bg-gray-50 py-3"
+        >
           <div className="mx-auto px-3">
             <ol className="flex flex-wrap items-center gap-1 text-sm text-gray-500">
-              <li><Link href="/" className="transition hover:text-primary-600 hover:underline">Accueil</Link></li>
+              <li>
+                <Link
+                  href="/"
+                  className="transition hover:text-primary-600 hover:underline"
+                >
+                  Accueil
+                </Link>
+              </li>
               <li className="select-none px-1 text-gray-400">/</li>
-              <li><Link href="/blog" className="transition hover:text-primary-600 hover:underline">Blog</Link></li>
+              <li>
+                <Link
+                  href="/blog"
+                  className="transition hover:text-primary-600 hover:underline"
+                >
+                  Blog
+                </Link>
+              </li>
               <li className="select-none px-1 text-gray-400">/</li>
-              <li className="max-w-xs truncate font-medium text-gray-800 sm:max-w-md lg:max-w-none" aria-current="page">{article.title}</li>
+              <li
+                className="max-w-xs truncate font-medium text-gray-800 sm:max-w-md lg:max-w-none"
+                aria-current="page"
+              >
+                {article.title}
+              </li>
             </ol>
           </div>
         </nav>
 
         {/* ARTICLE */}
         <section className="section-padding">
-          <div className="container mx-auto">
+          <div className="mx-3 mx-auto">
             <div className="mx-auto max-w-7xl">
               {/* HERO ARTICLE */}
               <h2

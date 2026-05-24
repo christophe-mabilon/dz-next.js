@@ -39,7 +39,7 @@ export function Header() {
     <>
       {/* TOP BAR */}
       <div className="hidden bg-primary-600 text-white md:block">
-        <div className="container mx-auto flex items-center justify-between py-2 text-sm">
+        <div className="px-3 mx-auto flex items-center justify-between py-2 text-sm">
           {/* LEFT */}
           <div className="flex items-center gap-6">
             <div className="flex items-center gap-2">
@@ -176,7 +176,7 @@ export function Header() {
         {/* MOBILE MENU */}
         {isOpen && (
           <div className="border-t border-white/10 bg-gray-950 lg:hidden">
-            <nav className="container mx-auto flex flex-col py-6">
+            <nav className="mx-3 mx-auto flex flex-col py-6">
               {navItems.map((item) => (
                 <Link
                   key={item.href}

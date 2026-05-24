@@ -134,7 +134,10 @@ export default function ContactPage() {
         <div className="mx-auto px-3">
           <ol className="flex flex-wrap items-center gap-1 text-sm text-gray-500">
             <li>
-              <Link href="/" className="transition hover:text-primary-600 hover:underline">
+              <Link
+                href="/"
+                className="transition hover:text-primary-600 hover:underline"
+              >
                 Accueil
               </Link>
             </li>
@@ -148,7 +151,7 @@ export default function ContactPage() {
 
       {/* CONTACT */}
       <section className="section-padding bg-white">
-        <div className="container mx-auto">
+        <div className="mx-3 mx-auto">
           <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
             {/* INFOS */}
             <div className="space-y-6">
@@ -485,41 +488,41 @@ export default function ContactPage() {
                       className="w-full rounded-lg border border-gray-300 px-4 py-3 transition focus:border-primary-600 focus:outline-none focus:ring-2 focus:ring-primary-100"
                     >
                       <option value="" disabled>
-											Sélectionnez une option
-										</option>
-										<option value="Autre (Merci de préciser)">
-											Autre (Merci de préciser)
-										</option>
-										<option value="Abri de jardin">Abri de jardin</option>
-										<option value="Abri de piscine">Abri de piscine</option>
-										<option value="Chape">Chape</option>
-										<option value="Clôture">Clôture</option>
-										<option value="Construction garage">
-											Construction garage
-										</option>
-										<option value="Construction maison">
-											Construction maison
-										</option>
-										<option value="Dallage">Dallage</option>
-										<option value="Démolition (bâtiment, murs...)">
-											Démolition (bâtiment, murs...)
-										</option>
-										<option value="Escaliers">Escaliers</option>
-										<option value="Extension maison">Extension maison</option>
-										<option value="Fondation">Fondation</option>
-										<option value="Gros œuvre">Gros œuvre</option>
-										<option value="Piscine">Piscine</option>
-										<option value="Petits travaux de maçonnerie">
-											Petits travaux de maçonnerie
-										</option>
-										<option value="Création d'ouverture">
-											Création d'ouverture
-										</option>
-										<option value="Sol béton">Sol béton</option>
-										<option value="Surélévation">Surélévation</option>
-										<option value="Terrasse">Terrasse</option>
-										<option value="Carrelage">Carrelage</option>
-										<option value="Petite charpente">Petite charpente</option>
+                        Sélectionnez une option
+                      </option>
+                      <option value="Autre (Merci de préciser)">
+                        Autre (Merci de préciser)
+                      </option>
+                      <option value="Abri de jardin">Abri de jardin</option>
+                      <option value="Abri de piscine">Abri de piscine</option>
+                      <option value="Chape">Chape</option>
+                      <option value="Clôture">Clôture</option>
+                      <option value="Construction garage">
+                        Construction garage
+                      </option>
+                      <option value="Construction maison">
+                        Construction maison
+                      </option>
+                      <option value="Dallage">Dallage</option>
+                      <option value="Démolition (bâtiment, murs...)">
+                        Démolition (bâtiment, murs...)
+                      </option>
+                      <option value="Escaliers">Escaliers</option>
+                      <option value="Extension maison">Extension maison</option>
+                      <option value="Fondation">Fondation</option>
+                      <option value="Gros œuvre">Gros œuvre</option>
+                      <option value="Piscine">Piscine</option>
+                      <option value="Petits travaux de maçonnerie">
+                        Petits travaux de maçonnerie
+                      </option>
+                      <option value="Création d'ouverture">
+                        Création d'ouverture
+                      </option>
+                      <option value="Sol béton">Sol béton</option>
+                      <option value="Surélévation">Surélévation</option>
+                      <option value="Terrasse">Terrasse</option>
+                      <option value="Carrelage">Carrelage</option>
+                      <option value="Petite charpente">Petite charpente</option>
                     </select>
                   </div>
 
@@ -565,7 +568,7 @@ export default function ContactPage() {
 
       {/* BENEFITS */}
       <section className="section-padding bg-gray-50">
-        <div className="container mx-auto">
+        <div className="mx-3 mx-auto">
           <h2 className="heading-md mb-12 text-center">
             Pourquoi nous contacter ?
           </h2>
@@ -627,7 +630,7 @@ export default function ContactPage() {
 
       {/* FINAL CTA */}
       <section className="hero-gradient py-16 text-white md:py-24">
-        <div className="container mx-auto text-center">
+        <div className="mx-3 mx-auto text-center">
           <h2 className="mb-4 text-4xl font-bold leading-tight md:text-5xl">
             Prêt à démarrer votre projet ?
           </h2>

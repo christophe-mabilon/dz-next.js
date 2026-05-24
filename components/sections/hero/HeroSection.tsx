@@ -109,7 +109,7 @@ export default function HeroSection({
       </div>
 
       {/* CONTENT */}
-      <div className={`relative z-10 container mx-auto px-6 ${heightClass}`}>
+      <div className={`relative z-10 mx-3 mx-auto px-6 ${heightClass}`}>
         <div className="max-w-4xl">
           {/* BADGE */}
           {badge && (

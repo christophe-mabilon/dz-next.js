@@ -55,19 +55,31 @@ export default function ServicesPage() {
       />
 
       {/* BREADCRUMBS */}
-      <nav aria-label="Fil d'Ariane" className="border-b border-gray-100 bg-gray-50 py-3">
+      <nav
+        aria-label="Fil d'Ariane"
+        className="border-b border-gray-100 bg-gray-50 py-3"
+      >
         <div className="mx-auto px-3">
           <ol className="flex flex-wrap items-center gap-1 text-sm text-gray-500">
-            <li><Link href="/" className="transition hover:text-primary-600 hover:underline">Accueil</Link></li>
+            <li>
+              <Link
+                href="/"
+                className="transition hover:text-primary-600 hover:underline"
+              >
+                Accueil
+              </Link>
+            </li>
             <li className="select-none px-1 text-gray-400">/</li>
-            <li className="font-medium text-gray-800" aria-current="page">Services</li>
+            <li className="font-medium text-gray-800" aria-current="page">
+              Services
+            </li>
           </ol>
         </div>
       </nav>
 
       {/* INTRO */}
       <section className="bg-white py-16">
-        <div className="container mx-auto">
+        <div className="mx-3 mx-auto">
           <div className="grid gap-16 lg:grid-cols-2 lg:items-center">
             <div>
               <span className="mb-4 inline-block rounded-full bg-primary-100 px-4 py-2 text-sm font-bold text-primary-700">
@@ -130,7 +142,7 @@ export default function ServicesPage() {
 
       {/* SERVICES */}
       <section className="bg-gray-50 py-16">
-        <div className="container mx-auto">
+        <div className="mx-3 mx-auto">
           <div className="mb-14 text-center">
             <h2 className="mb-4 text-4xl font-black text-gray-900">
               Nos prestations de maçonnerie
@@ -198,7 +210,7 @@ export default function ServicesPage() {
 
       {/* REALISATIONS */}
       <section className="bg-white py-16">
-        <div className="container mx-auto">
+        <div className="mx-3 mx-auto">
           <div className="mb-14 text-center">
             <h2 className="mb-4 text-4xl font-black text-gray-900">
               Des réalisations concrètes
@@ -257,7 +269,7 @@ export default function ServicesPage() {
 
       {/* WHY US */}
       <section className="bg-gray-50 py-16">
-        <div className="container mx-auto">
+        <div className="mx-3 mx-auto">
           <div className="mb-14 text-center">
             <h2 className="mb-4 text-4xl font-black text-gray-900">
               Pourquoi choisir DZ Maçonnerie ?
@@ -307,7 +319,7 @@ export default function ServicesPage() {
 
       {/* FAQ */}
       <section className="bg-white py-16">
-        <div className="container mx-auto max-w-5xl">
+        <div className="mx-3 mx-auto max-w-5xl">
           <div className="mb-14 text-center">
             <h2 className="mb-4 text-4xl font-black text-gray-900">
               Questions fréquentes
@@ -354,7 +366,7 @@ export default function ServicesPage() {
 
       {/* SEO CONTENT */}
       <section className="bg-gray-50 py-16">
-        <div className="container mx-auto max-w-5xl">
+        <div className="mx-3 mx-auto max-w-5xl">
           <h2 className="mb-8 text-4xl font-black text-gray-900">
             Entreprise de maçonnerie à Bourgoin-Jallieu
           </h2>
@@ -386,7 +398,7 @@ export default function ServicesPage() {
       <section className="relative overflow-hidden py-20 text-white">
         <div className="absolute inset-0 bg-primary-600" />
 
-        <div className="container mx-auto relative z-10 text-center">
+        <div className="mx-3 mx-auto relative z-10 text-center">
           <h2 className="mb-6 text-4xl font-black">
             Besoin d’un devis pour vos travaux ?
           </h2>

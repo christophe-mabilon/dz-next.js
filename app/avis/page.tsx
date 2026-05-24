@@ -78,12 +78,24 @@ export default function AvisPage() {
       />
 
       {/* BREADCRUMBS */}
-      <nav aria-label="Fil d'Ariane" className="border-b border-gray-100 bg-gray-50 py-3">
+      <nav
+        aria-label="Fil d'Ariane"
+        className="border-b border-gray-100 bg-gray-50 py-3"
+      >
         <div className="mx-auto px-3">
           <ol className="flex flex-wrap items-center gap-1 text-sm text-gray-500">
-            <li><Link href="/" className="transition hover:text-primary-600 hover:underline">Accueil</Link></li>
+            <li>
+              <Link
+                href="/"
+                className="transition hover:text-primary-600 hover:underline"
+              >
+                Accueil
+              </Link>
+            </li>
             <li className="select-none px-1 text-gray-400">/</li>
-            <li className="font-medium text-gray-800" aria-current="page">Avis clients</li>
+            <li className="font-medium text-gray-800" aria-current="page">
+              Avis clients
+            </li>
           </ol>
         </div>
       </nav>
@@ -470,7 +482,7 @@ export default function AvisPage() {
 
       {/* WHY CHOOSE US */}
       <section className="section-padding bg-white">
-        <div className="container mx-auto">
+        <div className="mx-3 mx-auto">
           <h2 className="heading-md mb-12 text-center">
             Pourquoi nos clients nous choisissent
           </h2>
@@ -523,7 +535,7 @@ export default function AvisPage() {
 
       {/* CTA */}
       <section className="section-padding bg-gray-950 text-white">
-        <div className="container mx-auto max-w-4xl text-center">
+        <div className="mx-3 mx-auto max-w-4xl text-center">
           <div
             className="
               rounded-3xl
@@ -613,7 +625,7 @@ export default function AvisPage() {
 
       {/* FINAL CTA */}
       <section className="hero-gradient py-16 text-white md:py-24">
-        <div className="container mx-auto text-center">
+        <div className="mx-3 mx-auto text-center">
           <h2
             className="
               mb-4

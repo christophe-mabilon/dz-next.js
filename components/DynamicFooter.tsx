@@ -14,7 +14,7 @@ export function DynamicFooter({ currentCitySlug }: DynamicFooterProps) {
 
   return (
     <section className="bg-gray-50 border-t border-gray-200">
-      <div className="container mx-auto py-10">
+      <div className="mx-3 mx-auto py-10">
         <h2 className="text-2xl font-bold text-gray-900 mb-6">
           Nos interventions autour de cette ville
         </h2>

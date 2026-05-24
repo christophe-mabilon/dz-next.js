@@ -51,19 +51,31 @@ export default function PolitiqueConfidentialite() {
       />
 
       {/* BREADCRUMBS */}
-      <nav aria-label="Fil d'Ariane" className="border-b border-gray-100 bg-gray-50 py-3">
+      <nav
+        aria-label="Fil d'Ariane"
+        className="border-b border-gray-100 bg-gray-50 py-3"
+      >
         <div className="mx-auto px-3">
           <ol className="flex flex-wrap items-center gap-1 text-sm text-gray-500">
-            <li><Link href="/" className="transition hover:text-primary-600 hover:underline">Accueil</Link></li>
+            <li>
+              <Link
+                href="/"
+                className="transition hover:text-primary-600 hover:underline"
+              >
+                Accueil
+              </Link>
+            </li>
             <li className="select-none px-1 text-gray-400">/</li>
-            <li className="font-medium text-gray-800" aria-current="page">Politique de confidentialité</li>
+            <li className="font-medium text-gray-800" aria-current="page">
+              Politique de confidentialité
+            </li>
           </ol>
         </div>
       </nav>
 
       {/* Content */}
       <section className="bg-white py-20">
-        <div className="container mx-auto">
+        <div className="mx-3 mx-auto">
           {/* INTRO */}
           <div className="mb-16">
             <span className="mb-4 inline-block rounded-full bg-primary-100 px-4 py-2 text-sm font-bold text-primary-700">
@@ -224,7 +236,7 @@ export default function PolitiqueConfidentialite() {
 
       {/* CTA */}
       <section className="hero-gradient py-12 md:py-16 text-white">
-        <div className="container mx-auto text-center">
+        <div className="mx-3 mx-auto text-center">
           <h2 className="text-2xl md:text-3xl font-bold mb-3">
             Avez-vous des questions ?
           </h2>

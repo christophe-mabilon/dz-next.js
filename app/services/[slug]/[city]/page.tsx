@@ -2,6 +2,7 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import { Metadata } from "next";
 import { ArrowRight } from "lucide-react";
+import HeroSection from "@/components/sections/hero/HeroSection";
 import { services, getServiceBySlug } from "@/data/services";
 import { cities, getCityBySlug } from "@/data/cities";
 import {
@@ -10,7 +11,7 @@ import {
 } from "@/lib/seo";
 import { siteConfig } from "@/data/config";
 import { generateSeoTitle, generateSeoDescription } from "@/lib/seo-generators";
-import { generateH1 } from "@/lib/seo-generators";
+
 import { generateLocalIntroduction } from "@/lib/seo-generators";
 import { generateSeoFaqs } from "@/lib/seo-generators";
 import { DynamicFooter } from "@/components/DynamicFooter";
@@ -86,37 +87,69 @@ export default async function CombinedServiceCityPage(
         }}
       />
 
-      {/* Hero */}
-      <section className="hero-gradient relative overflow-hidden py-20 md:py-32 text-white">
-        <div className="container mx-auto">
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
-            {generateH1(service, cityData)}
-          </h1>
-          <p className="text-xl text-primary-50 max-w-3xl">
-            {service.description} à {cityData.name} ({cityData.zipCode}).
-            Service professionnel avec devis gratuit et garantie décennale.
-          </p>
-        </div>
-      </section>
+      {/* HERO */}
+      <HeroSection
+        badge={`${service.name} • ${cityData.name} • ${cityData.zipCode}`}
+        title={service.name}
+        highlight={`à ${cityData.name}`}
+        description={`${service.description} à ${cityData.name} (${cityData.zipCode}). Service professionnel avec devis gratuit et garantie décennale.`}
+        image={service.heroImage || service.image || "/images/realisations/chantier_maçonnerie.avif"}
+        imageAlt={`${service.name} à ${cityData.name}`}
+        primaryButtonText="Demander un devis"
+        primaryButtonHref="/contact"
+        secondaryButtonText={business.phone.replace("+33", "0")}
+        secondaryButtonHref="/contact"
+        cards={[
+          { icon: "hammer", title: service.name, description: `Expert à ${cityData.name} et ses environs.` },
+          { icon: "shield", title: "Garantie décennale", description: "Travaux assurés sur tous les chantiers." },
+          { icon: "star", title: "Devis gratuit", description: "Réponse sous 24h pour votre projet." },
+        ]}
+      />
 
       {/* BREADCRUMBS */}
-      <nav aria-label="Fil d'Ariane" className="border-b border-gray-100 bg-gray-50 py-3">
+      <nav
+        aria-label="Fil d'Ariane"
+        className="border-b border-gray-100 bg-gray-50 py-3"
+      >
         <div className="mx-auto px-3">
           <ol className="flex flex-wrap items-center gap-1 text-sm text-gray-500">
-            <li><Link href="/" className="transition hover:text-primary-600 hover:underline">Accueil</Link></li>
+            <li>
+              <Link
+                href="/"
+                className="transition hover:text-primary-600 hover:underline"
+              >
+                Accueil
+              </Link>
+            </li>
             <li className="select-none px-1 text-gray-400">/</li>
-            <li><Link href="/services" className="transition hover:text-primary-600 hover:underline">Services</Link></li>
+            <li>
+              <Link
+                href="/services"
+                className="transition hover:text-primary-600 hover:underline"
+              >
+                Services
+              </Link>
+            </li>
             <li className="select-none px-1 text-gray-400">/</li>
-            <li><Link href={`/services/${service.slug}`} className="transition hover:text-primary-600 hover:underline">{service.name}</Link></li>
+            <li>
+              <Link
+                href={`/services/${service.slug}`}
+                className="transition hover:text-primary-600 hover:underline"
+              >
+                {service.name}
+              </Link>
+            </li>
             <li className="select-none px-1 text-gray-400">/</li>
-            <li className="font-medium text-gray-800" aria-current="page">{cityData.name}</li>
+            <li className="font-medium text-gray-800" aria-current="page">
+              {cityData.name}
+            </li>
           </ol>
         </div>
       </nav>
 
       {/* Content */}
       <section className="section-padding bg-white">
-        <div className="container mx-auto max-w-3xl">
+        <div className="mx-3 mx-auto max-w-3xl">
           <div className="mb-12">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">
               {service.name} à {cityData.name}
@@ -214,7 +247,7 @@ export default async function CombinedServiceCityPage(
 
       {/* Final CTA Section */}
       <section className="hero-gradient py-16 md:py-24 text-white">
-        <div className="container mx-auto text-center">
+        <div className="mx-3 mx-auto text-center">
           <h2 className="text-4xl md:text-5xl font-bold mb-4 leading-tight">
             Besoin d'un expert en {service.name.toLowerCase()} à {cityData.name}{" "}
             ?

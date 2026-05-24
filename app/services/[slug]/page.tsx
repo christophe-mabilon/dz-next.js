@@ -1,9 +1,10 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { Metadata } from "next";
-import { ArrowLeft, ArrowRight, CheckCircle } from "lucide-react";
+import { ArrowRight, CheckCircle } from "lucide-react";
 import { services, getServiceBySlug } from "@/data/services";
 import { cities } from "@/data/cities";
+import HeroSection from "@/components/sections/hero/HeroSection";
 import {
   generateMetadata as generatePageMetadata,
   generateServiceSchema,
@@ -79,41 +80,59 @@ export default async function ServicePage(props: ServicePageProps) {
         }}
       />
 
-      {/* Hero */}
-      <section className="hero-gradient relative overflow-hidden py-20 md:py-32 text-white">
-        <div className="container mx-auto">
-          <Link
-            href="/services"
-            className="inline-flex items-center gap-2 text-primary-100 hover:text-white mb-6 transition-colors"
-          >
-            <ArrowLeft className="w-4 h-4" />
-            Retour aux services
-          </Link>
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
-            {service.name}
-          </h1>
-          <p className="text-xl text-primary-50 max-w-3xl">
-            {service.description}
-          </p>
-        </div>
-      </section>
+      {/* HERO */}
+      <HeroSection
+        badge={`Services • ${business.city} • Nord-Isère`}
+        title={service.name}
+        description={service.description}
+        image={service.heroImage || service.image || "/images/realisations/chantier_maçonnerie.avif"}
+        imageAlt={service.name}
+        primaryButtonText="Demander un devis"
+        primaryButtonHref="/contact"
+        secondaryButtonText={business.phone.replace("+33", "0")}
+        secondaryButtonHref="/contact"
+        cards={[
+          { icon: "hammer", title: "Expertise locale", description: "Plus de 10 ans d'expérience en maçonnerie." },
+          { icon: "shield", title: "Garantie décennale", description: "Tous nos travaux sont assurés." },
+          { icon: "star", title: "Devis gratuit", description: "Réponse rapide sous 24h." },
+        ]}
+      />
 
       {/* BREADCRUMBS */}
-      <nav aria-label="Fil d'Ariane" className="border-b border-gray-100 bg-gray-50 py-3">
+      <nav
+        aria-label="Fil d'Ariane"
+        className="border-b border-gray-100 bg-gray-50 py-3"
+      >
         <div className="mx-auto px-3">
           <ol className="flex flex-wrap items-center gap-1 text-sm text-gray-500">
-            <li><Link href="/" className="transition hover:text-primary-600 hover:underline">Accueil</Link></li>
+            <li>
+              <Link
+                href="/"
+                className="transition hover:text-primary-600 hover:underline"
+              >
+                Accueil
+              </Link>
+            </li>
             <li className="select-none px-1 text-gray-400">/</li>
-            <li><Link href="/services" className="transition hover:text-primary-600 hover:underline">Services</Link></li>
+            <li>
+              <Link
+                href="/services"
+                className="transition hover:text-primary-600 hover:underline"
+              >
+                Services
+              </Link>
+            </li>
             <li className="select-none px-1 text-gray-400">/</li>
-            <li className="font-medium text-gray-800" aria-current="page">{service.name}</li>
+            <li className="font-medium text-gray-800" aria-current="page">
+              {service.name}
+            </li>
           </ol>
         </div>
       </nav>
 
       {/* Content */}
       <section className="section-padding bg-white">
-        <div className="container mx-auto max-w-3xl">
+        <div className="mx-3 mx-auto max-w-3xl">
           <div className="prose prose-lg max-w-none mb-12">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">
               {service.name}
@@ -220,7 +239,7 @@ export default async function ServicePage(props: ServicePageProps) {
 
       {/* CTA Box */}
       <section className="section-padding bg-primary-50">
-        <div className="container mx-auto max-w-3xl">
+        <div className="mx-3 mx-auto max-w-3xl">
           <div className="bg-white p-8 rounded-xl border-2 border-primary-200 shadow-lg">
             <h2 className="text-2xl font-bold text-gray-900 mb-4">
               Vous avez un projet de {service.name.toLowerCase()} ?
@@ -246,7 +265,7 @@ export default async function ServicePage(props: ServicePageProps) {
 
       {/* CTA Section */}
       <section className="hero-gradient py-16 md:py-24 text-white">
-        <div className="container mx-auto text-center">
+        <div className="mx-3 mx-auto text-center">
           <h2 className="heading-md mb-4 text-white">
             Besoin d'un expert en {service.name.toLowerCase()} ?
           </h2>

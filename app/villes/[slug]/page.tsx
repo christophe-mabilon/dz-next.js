@@ -1,9 +1,10 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { Metadata } from "next";
-import { ArrowRight, MapPin, Phone } from "lucide-react";
+import { ArrowRight, Phone } from "lucide-react";
 import { cities, getCityBySlug } from "@/data/cities";
 import { services } from "@/data/services";
+import HeroSection from "@/components/sections/hero/HeroSection";
 import {
   generateMetadata as generatePageMetadata,
   generateLocalBusinessSchema,
@@ -60,42 +61,51 @@ export default async function CityPage(props: CityPageProps) {
         }}
       />
 
-      {/* Hero */}
-      <section className="hero-gradient relative overflow-hidden py-20 md:py-32 text-white">
-        <div className="container mx-auto">
-          <div className="max-w-3xl">
-            <div className="flex items-center gap-2 mb-6">
-              <MapPin className="w-5 h-5" />
-              <span className="text-primary-100">
-                {city.zipCode} - {city.region}
-              </span>
-            </div>
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
-              Maçonnerie à {city.name}
-            </h1>
-            <p className="text-xl text-primary-50">
-              Services professionnels de maçonnerie générale, rénovation,
-              extension et terrassement à {city.name}. Plus de 10 ans
-              d'expertise au service de vos projets.
-            </p>
-          </div>
-        </div>
-      </section>
+      {/* HERO */}
+      <HeroSection
+        badge={`${city.zipCode} • ${city.region}`}
+        title="Maçonnerie à"
+        highlight={city.name}
+        description={`Services professionnels de maçonnerie générale, rénovation, extension et terrassement à ${city.name}. Plus de 10 ans d'expertise au service de vos projets.`}
+        image="/images/realisations/chantier_maçonnerie.avif"
+        imageAlt={`Maçonnerie à ${city.name}`}
+        primaryButtonText="Demander un devis"
+        primaryButtonHref="/contact"
+        secondaryButtonText={business.phone.replace("+33", "0")}
+        secondaryButtonHref="/contact"
+        cards={[
+          { icon: "hammer", title: "Maçonnerie locale", description: `Votre artisan maçon à ${city.name}.` },
+          { icon: "shield", title: "Garantie décennale", description: "Travaux assurés et durables." },
+          { icon: "star", title: "Devis gratuit", description: "Réponse rapide sous 24h." },
+        ]}
+      />
 
       {/* BREADCRUMBS */}
-      <nav aria-label="Fil d'Ariane" className="border-b border-gray-100 bg-gray-50 py-3">
+      <nav
+        aria-label="Fil d'Ariane"
+        className="border-b border-gray-100 bg-gray-50 py-3"
+      >
         <div className="mx-auto px-3">
           <ol className="flex flex-wrap items-center gap-1 text-sm text-gray-500">
-            <li><Link href="/" className="transition hover:text-primary-600 hover:underline">Accueil</Link></li>
+            <li>
+              <Link
+                href="/"
+                className="transition hover:text-primary-600 hover:underline"
+              >
+                Accueil
+              </Link>
+            </li>
             <li className="select-none px-1 text-gray-400">/</li>
-            <li className="font-medium text-gray-800" aria-current="page">{city.name}</li>
+            <li className="font-medium text-gray-800" aria-current="page">
+              {city.name}
+            </li>
           </ol>
         </div>
       </nav>
 
       {/* Content */}
       <section className="section-padding bg-white">
-        <div className="container mx-auto max-w-3xl">
+        <div className="mx-3 mx-auto max-w-3xl">
           <div className="mb-12">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">
               Maçon expert à {city.name}
@@ -236,7 +246,7 @@ export default async function CityPage(props: CityPageProps) {
 
       {/* CTA Box */}
       <section className="section-padding bg-gradient-to-r from-primary-50 to-primary-100">
-        <div className="container mx-auto max-w-3xl">
+        <div className="mx-3 mx-auto max-w-3xl">
           <div className="bg-white p-8 rounded-xl border-2 border-primary-200 shadow-lg">
             <h2 className="text-2xl font-bold text-gray-900 mb-4">
               Vous avez un projet à {city.name} ?
@@ -263,7 +273,7 @@ export default async function CityPage(props: CityPageProps) {
 
       {/* Final CTA */}
       <section className="hero-gradient py-16 md:py-24 text-white">
-        <div className="container mx-auto text-center">
+        <div className="mx-3 mx-auto text-center">
           <h2 className="text-4xl md:text-5xl font-bold mb-4 leading-tight">
             Maçon professionnel à {city.name}
           </h2>
