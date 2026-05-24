@@ -46,21 +46,21 @@ export const articles = [
 
     content: {
       introduction:
-        "Le prix d’un terrassement dépend de plusieurs éléments comme la nature du terrain, l’accès chantier et le volume de terre à évacuer.",
+        "Le prix d’un terrassement varie sensiblement selon les caractéristiques de votre projet. En Isère, plusieurs facteurs influencent directement le coût final : la nature du terrain, la surface à traiter, le volume de terres à évacuer et l’accessibilité du chantier. Chez DZ Maçonnerie, nous intervenons dans le Nord-Isère depuis de nombreuses années et accompagnons particuliers et professionnels dans leurs projets de terrassement avec des devis détaillés et transparents. Anticiper ces éléments dès le départ permet d’éviter les mauvaises surprises et de maîtriser votre budget.",
 
       sections: [
         {
           title: "Quels éléments influencent le prix d’un terrassement ?",
 
           content:
-            "Le coût d’un terrassement dépend principalement de la surface du terrain, de la pente, du volume de terre à déplacer et de l’accessibilité du chantier.",
+            "Le coût d’un terrassement dépend principalement de la surface du terrain à traiter, de la pente éventuelle, du volume de terre à déplacer et de l’accessibilité du chantier. Un terrain argileux ou rocheux nécessite davantage d’efforts et d’équipements spécialisés, ce qui peut faire grimper la facture. La présence de réseaux enterrés (eau, électricité, gaz) impose également une vigilance particulière et peut ralentir l’avancement du chantier. Enfin, la distance à parcourir pour évacuer les terres excédentaires représente souvent un poste de coût non négligeable dans le budget total. Il est donc essentiel de réaliser une visite technique avant tout devis pour chiffrer précisément l’ensemble des postes.",
         },
 
         {
           title: "Pourquoi préparer correctement son terrain ?",
 
           content:
-            "Un terrassement de qualité permet d’assurer la stabilité des futures fondations et d’éviter les problèmes de tassement ou d’infiltration.",
+            "Un terrassement de qualité est le premier investissement pour garantir la stabilité de vos futures fondations, dalle ou aménagements extérieurs. Un sol mal préparé peut entraîner des tassements différentiels, des fissures sur les murs ou des infiltrations d’eau dans les années suivant la construction. En Isère, la nature des sols — notamment les argiles gonflantes du Nord-Isère — impose un soin particulier lors des travaux de préparation du terrain. Faire appel à un professionnel expérimenté permet d’anticiper ces risques et d’adapter les techniques de terrassement à la réalité du sol. Un bon compactage et un nivellement précis sont les bases de tout chantier réussi.",
         },
 
         {
@@ -68,12 +68,19 @@ export const articles = [
             "L’évacuation des terres représente-t-elle un coût important ?",
 
           content:
-            "Oui, le transport et l’évacuation des terres excavées représentent souvent une part importante du budget total du chantier.",
+            "Oui, le transport et l’évacuation des terres excavées représentent souvent 20 à 40 % du budget total d’un terrassement. Le coût varie selon le volume de déblais, la distance jusqu’au lieu de dépôt et le type de matériaux (terres normales, inertes ou polluées). Certaines terres peuvent être réutilisées sur le chantier pour du remblaiement ou du nivellement, ce qui peut réduire significativement les coûts d’évacuation. Il est donc important d’anticiper cette étape dès l’établissement du devis pour éviter les dépenses imprévues. Une bonne gestion des déblais contribue aussi à maintenir un chantier propre et sécurisé.",
+        },
+
+        {
+          title: "Comment obtenir un devis de terrassement en Isère ?",
+
+          content:
+            "Pour obtenir un devis précis pour vos travaux de terrassement en Isère, il est conseillé de faire appel à une entreprise locale connaissant bien les spécificités des terrains du secteur. DZ Maçonnerie intervient sur Artas, Bourgoin-Jallieu et dans tout le Nord-Isère pour l’ensemble des travaux de terrassement : décaissement, nivellement, compactage, drainage et évacuation des terres. Un diagnostic terrain préalable permet d’établir un devis adapté à votre projet, sans frais cachés. Nous disposons des engins et équipements nécessaires pour intervenir sur tous types de configurations, y compris les terrains en pente ou difficiles d’accès.",
         },
       ],
 
       conclusion:
-        "Un bon terrassement garantit la réussite de votre projet de construction ou d’aménagement extérieur en Isère.",
+        "Un terrassement bien réalisé est le premier gage de réussite de votre projet de construction ou d’aménagement extérieur en Isère. En faisant appel à DZ Maçonnerie, vous bénéficiez d’un savoir-faire reconnu, d’équipements adaptés et d’un accompagnement personnalisé à chaque étape de votre chantier. N’hésitez pas à nous contacter pour obtenir un devis gratuit et personnalisé pour vos travaux de terrassement dans le Nord-Isère.",
     },
 
     faq: [
@@ -81,14 +88,14 @@ export const articles = [
         question: "Quel est le prix moyen d’un terrassement en Isère ?",
 
         answer:
-          "Le tarif dépend de la nature du terrain, du volume de terre et de l’accessibilité du chantier.",
+          "Le tarif dépend de la nature du terrain, du volume de terre et de l’accessibilité du chantier. En règle générale, comptez entre 30 et 80 €/m² pour un terrassement standard en Isère, hors évacuation des terres. Pour un chiffrage précis et adapté à votre projet, il est recommandé de demander un devis à une entreprise locale comme DZ Maçonnerie.",
       },
 
       {
         question: "Faut-il évacuer les terres après terrassement ?",
 
         answer:
-          "Oui, les terres excavées doivent généralement être évacuées ou réutilisées sur le terrain selon le projet.",
+          "Oui, les terres excavées doivent généralement être évacuées ou réutilisées sur le terrain selon le projet. Si les terres sont réemployées pour du remblaiement ou du nivellement sur place, les coûts d’évacuation peuvent être sensiblement réduits. Dans tous les cas, cette étape doit être anticipée dans le devis dès le début du chantier.",
       },
     ],
 
@@ -145,33 +152,40 @@ export const articles = [
 
     content: {
       introduction:
-        "La préparation du terrain est une étape essentielle avant de construire une maison ou une extension.",
+        "La préparation du terrain est une étape essentielle avant de construire une maison, une extension ou tout autre ouvrage. Un terrain mal préparé peut compromettre la stabilité des fondations et générer des problèmes coûteux à long terme : fissures, tassements ou infiltrations. En Isère, les caractéristiques des sols — souvent argileux dans le Nord-Isère — rendent cette phase de préparation encore plus déterminante. DZ Maçonnerie réalise l’ensemble de ces travaux préparatoires avec le matériel adapté et l’expertise terrain nécessaire.",
 
       sections: [
         {
           title: "Réaliser le terrassement du terrain",
 
           content:
-            "Le terrassement permet d’obtenir une surface stable et adaptée aux futures fondations.",
+            "Le terrassement est la première intervention sur le chantier : il consiste à décaisser, niveler et préparer le sol pour accueillir les futures fondations ou la dalle béton. Cette opération nécessite des engins adaptés comme une mini-pelle ou une tractopelle, sélectionnés selon la surface et la nature du terrain. Un nivellement précis garantit une assise homogène et limite les risques de tassements différentiels. En Isère, les terrains en pente requièrent souvent des travaux supplémentaires de soutènement ou de talutage pour sécuriser les terres. Chez DZ Maçonnerie, chaque terrassement fait l’objet d’un plan d’exécution adapté à la configuration du chantier.",
         },
 
         {
           title: "Prévoir le drainage",
 
           content:
-            "Un drainage efficace permet d’éviter les infiltrations et les problèmes d’humidité autour de la construction.",
+            "Un drainage efficace est indispensable pour éviter les infiltrations et les problèmes d’humidité autour de la construction. En Isère, les pluies hivernales importantes et la nature imperméable de certains sols rendent ce dispositif particulièrement crucial. Le drainage périphérique permet d’évacuer les eaux de ruissellement loin des fondations et de limiter la pression hydrostatique sur les murs enterrés. Il peut prendre la forme d’un drain agricole, d’un géotextile filtrant ou d’une tranchée drainante selon les besoins du terrain. Un système de drainage bien dimensionné protège durablement votre construction et réduit les risques de sinistres liés à l’humidité.",
         },
 
         {
           title: "Préparer les accès chantier",
 
           content:
-            "L’accès des engins de chantier doit être anticipé afin de faciliter les travaux et limiter les dégradations.",
+            "L’organisation des accès chantier est un facteur clé pour la bonne exécution des travaux. L’accès des engins de terrassement doit être anticipé afin d’éviter les dégradations des voies d’accès et de limiter les nuisances pour le voisinage. Dans les zones urbaines ou les terrains enclavés du Nord-Isère, DZ Maçonnerie utilise des mini-pelles compactes capables de travailler dans des espaces réduits. Une bonne organisation du chantier permet également d’optimiser le flux de camions pour l’évacuation des terres et de respecter les délais prévus.",
+        },
+
+        {
+          title: "Le compactage : une étape souvent négligée",
+
+          content:
+            "Après le décaissement, le compactage du sol est une étape cruciale avant tout coulage de béton ou pose de fondations. Il permet de réduire les vides dans le sol, d’améliorer sa portance et d’éviter les affaissements futurs. Selon la nature du terrain et les charges à supporter, différentes techniques de compactage peuvent être utilisées : plaque vibrante, cylindre compacteur ou grenouille. DZ Maçonnerie vérifie systématiquement la densité du sol après compactage pour s’assurer que le terrain est prêt à recevoir les ouvrages en béton.",
         },
       ],
 
       conclusion:
-        "Une bonne préparation terrain garantit un chantier plus sécurisé et des fondations durables.",
+        "Une bonne préparation du terrain est la base de tout projet de construction réussi en Isère. Terrassement, drainage, compactage et organisation des accès sont des étapes interdépendantes qui conditionnent la durabilité de votre future maison ou extension. DZ Maçonnerie vous accompagne de A à Z pour préparer votre terrain dans les meilleures conditions.",
     },
 
     faq: [
@@ -179,14 +193,14 @@ export const articles = [
         question: "Pourquoi préparer un terrain avant construction ?",
 
         answer:
-          "La préparation terrain permet d’assurer la stabilité de la future construction.",
+          "La préparation terrain permet d’assurer la stabilité de la future construction en offrant une base homogène et résistante aux fondations. Sans cette étape, les risques de tassements, de fissures et d’infiltrations sont considérablement augmentés. Un investissement dans une bonne préparation terrain se rentabilise rapidement en évitant des réparations coûteuses.",
       },
 
       {
         question: "Le drainage est-il obligatoire ?",
 
         answer:
-          "Le drainage est fortement recommandé pour limiter les risques d’humidité.",
+          "Le drainage n’est pas systématiquement obligatoire mais est fortement recommandé, notamment en Isère où les sols argileux retiennent l’eau. Il est indispensable pour les constructions comportant des niveaux enterrés ou semi-enterrés, ou lorsque le terrain présente une forte imperméabilité. Un professionnel saura vous conseiller sur la solution de drainage adaptée à votre situation.",
       },
     ],
 
@@ -244,33 +258,40 @@ export const articles = [
 
     content: {
       introduction:
-        "Le terrassement est indispensable avant l’installation d’une piscine enterrée afin de garantir sa stabilité.",
+        "Le terrassement est une étape incontournable avant l’installation d’une piscine enterrée ou semi-enterrée. Sans une excavation précise et un fond de fouille correctement stabilisé, la piscine risque de se déplacer, de se fissurer ou de se déformer avec le temps. En Isère, les variations saisonnières du sol et la présence fréquente d’argile dans le Nord-Isère rendent cette phase de préparation encore plus critique. DZ Maçonnerie réalise les terrassements pour piscine avec les engins adaptés pour garantir un résultat solide et durable.",
 
       sections: [
         {
           title: "Délimiter et excaver la zone",
 
           content:
-            "Le terrain doit être décapé et excavé selon les dimensions exactes du bassin.",
+            "La première étape consiste à délimiter précisément l’emplacement de la piscine et à procéder à l’excavation selon les dimensions exactes du bassin prévu. Le volume de terre à retirer dépend de la profondeur, de la longueur et de la largeur de la piscine, ainsi que de l’espace nécessaire pour les finitions périphériques. Cette opération demande l’utilisation d’une pelle hydraulique ou d’une mini-pelle selon l’accessibilité du terrain. Un tracé précis en amont est indispensable pour éviter tout débordement ou sous-excavation qui pourrait compliquer l’installation. DZ Maçonnerie réalise ce travail avec le souci du détail pour respecter les cotes imposées par les fabricants de bassins.",
         },
 
         {
           title: "Stabiliser le fond de fouille",
 
           content:
-            "Le compactage du terrain permet de garantir une meilleure stabilité de la future piscine.",
+            "Une fois l’excavation réalisée, le fond de fouille doit être soigneusement compacté et nivelé pour offrir une assise homogène à la piscine. En présence de sol meuble ou argileux, il peut être nécessaire d’ajouter une couche de grave compactée pour améliorer la portance du terrain. Le drainage du fond de fouille est également important pour éviter les remontées d’eau par capillarité qui pourraient exercer une pression sur la coque ou le béton de la piscine. Cette étape garantit que la structure de la piscine ne bougera pas avec les mouvements saisonniers du sol. Une mauvaise stabilisation du fond est l’une des causes les plus fréquentes de déformation ou de fissuration des piscines.",
         },
 
         {
           title: "Gérer les terres excavées",
 
           content:
-            "Les terres retirées doivent être évacuées ou redistribuées selon l’aménagement extérieur prévu.",
+            "L’excavation d’une piscine génère un volume important de terres qu’il faut gérer efficacement. Selon la configuration de votre terrain, une partie des terres peut être redistribuée pour niveler ou remodeler les extérieurs autour de la piscine. Si les terres sont en excès, elles doivent être évacuées par camion vers une filière de traitement agréée. DZ Maçonnerie organise l’ensemble de la logistique de transport des déblais pour maintenir un chantier propre et éviter les accumulations de terres inutiles. La gestion anticipée des déblais contribue à maîtriser le budget global du projet piscine.",
+        },
+
+        {
+          title: "Aménager les abords de la piscine",
+
+          content:
+            "Le terrassement ne se limite pas à la fouille de la piscine elle-même : il inclut également la préparation des abords pour les plages, les escaliers et les accès. Une plage béton bien réalisée nécessite un terrassement et un compactage préalables pour éviter les affaissements. DZ Maçonnerie peut réaliser en même temps les dalles bétonnées autour du bassin, les allées d’accès et les éventuels murets de soutènement si le terrain est en pente. Cette approche globale permet de coordonner les différentes interventions et de réduire les coûts de chantier.",
         },
       ],
 
       conclusion:
-        "Un terrassement bien réalisé permet d’assurer la longévité et la stabilité de votre piscine enterrée.",
+        "Un terrassement bien réalisé est la condition sine qua non pour installer une piscine enterrée durable et sécurisée en Isère. De l’excavation précise au fond de fouille stabilisé, en passant par la gestion des déblais et l’aménagement des abords, DZ Maçonnerie prend en charge l’intégralité de ces travaux préparatoires dans le Nord-Isère.",
     },
 
     faq: [
@@ -278,14 +299,14 @@ export const articles = [
         question: "Pourquoi terrasser avant une piscine ?",
 
         answer:
-          "Le terrassement permet de créer un sol stable et adapté à l’installation du bassin.",
+          "Le terrassement permet de créer un fond de fouille stable et parfaitement adapté aux dimensions du bassin. Sans cette étape, la piscine risque de se déformer ou de se fissurer sous l’effet des mouvements du sol. Un terrassement professionnel garantit la stabilité de l’ouvrage sur le long terme.",
       },
 
       {
         question: "Peut-on réutiliser les terres excavées ?",
 
         answer:
-          "Oui, certaines terres peuvent être réutilisées pour l’aménagement du terrain.",
+          "Oui, certaines terres peuvent être réutilisées pour l’aménagement du terrain autour de la piscine, notamment pour niveler les abords ou créer des talus paysagers. Cependant, les terres trop argileuses ou instables ne conviennent pas au remblaiement autour d’une piscine. DZ Maçonnerie évalue la qualité des terres sur place avant de décider de leur réemploi.",
       },
     ],
 
@@ -343,33 +364,40 @@ export const articles = [
 
     content: {
       introduction:
-        "Le terrassement d’un terrain en pente demande une étude précise afin de limiter les risques de glissement et de tassement.",
+        "Le terrassement d’un terrain en pente est une opération plus complexe qu’un terrassement classique sur terrain plat. Il demande une étude précise du profil du sol, de la nature des couches géologiques et des risques de glissement ou d’érosion. En Isère, les reliefs accidentés du Nord-Isère sont fréquents et nécessitent des techniques adaptées pour garantir la stabilité des futures constructions. DZ Maçonnerie maîtrise ces spécificités et propose des solutions sur mesure pour terrasser efficacement les terrains en pente.",
 
       sections: [
         {
           title: "Stabiliser le terrain",
 
           content:
-            "Des travaux de soutènement peuvent être nécessaires pour maintenir correctement les terres.",
+            "La stabilisation d’un terrain en pente est la priorité absolue avant tout travaux de construction. Sans mesures adaptées, les terres peuvent glisser, notamment lors de fortes pluies ou de secousses sismiques. Les techniques de stabilisation comprennent la réalisation de banquettes étagées, la pose de géogrilles ou la construction de murs de soutènement en béton armé. Ces ouvrages retiennent les terres et redistribuent les pressions de manière homogène. DZ Maçonnerie évalue systématiquement la stabilité du terrain avant de recommander la solution la plus appropriée pour votre projet.",
         },
 
         {
           title: "Prévoir le drainage",
 
           content:
-            "Le drainage permet d’éviter les infiltrations d’eau et les problèmes d’érosion du terrain.",
+            "Sur un terrain en pente, le drainage est encore plus important que sur terrain plat car les eaux de ruissellement s’accumulent naturellement en bas de pente. Un réseau de drains bien dimensionné permet d’intercepter ces eaux en amont et de les évacuer loin des fondations. Sans drainage adapté, l’érosion progressive du sol peut fragiliser les fondations et provoquer des désordres structurels. Le drainage d’un terrain en pente peut inclure des fossés, des cunettes bétonnées ou des drains agricoles enterrés selon la topographie. DZ Maçonnerie intègre systématiquement une solution de drainage dans les projets de terrassement sur terrain en pente.",
         },
 
         {
           title: "Adapter les fondations",
 
           content:
-            "Les fondations doivent être adaptées à la pente afin d’assurer une stabilité optimale du bâtiment.",
+            "Les fondations d’une construction sur terrain en pente doivent être conçues pour tenir compte des contraintes spécifiques liées au dénivelé. Les semelles filantes doivent être descendues plus profondément du côté aval pour compenser l’effet de pente. Dans certains cas, des fondations profondes sur pieux ou micropieux sont nécessaires pour atteindre une couche de sol suffisamment stable. Le ferraillage des fondations doit également être renforcé pour résister aux contraintes de cisaillement liées à la pente. Un bureau d’études ou un géotechnicien peut être consulté pour les projets complexes.",
+        },
+
+        {
+          title: "Réaliser les murs de soutènement",
+
+          content:
+            "Sur les terrains fortement pentus, la construction de murs de soutènement est souvent indispensable pour créer des zones planes destinées à accueillir une maison, une terrasse ou un jardin. Ces murs peuvent être réalisés en béton armé, en blocs à bancher ou en pierres maçonnées selon le style architectural et les contraintes de terrain. DZ Maçonnerie réalise ces ouvrages de soutènement avec les armatures et les fondations adaptées pour garantir leur stabilité dans le temps, même en présence d’importantes pressions de terre.",
         },
       ],
 
       conclusion:
-        "Un terrassement adapté aux terrains en pente garantit la sécurité et la durabilité de votre construction.",
+        "Un terrassement adapté aux terrains en pente garantit la sécurité et la durabilité de votre construction en Isère. De la stabilisation des terres à la réalisation des murs de soutènement, DZ Maçonnerie dispose de l’expertise et des équipements nécessaires pour mener à bien votre projet sur tout type de terrain escarpé dans le Nord-Isère.",
     },
 
     faq: [
@@ -378,14 +406,14 @@ export const articles = [
           "Pourquoi un terrain en pente nécessite-t-il un terrassement spécifique ?",
 
         answer:
-          "La pente augmente les risques de glissement et nécessite souvent des travaux de soutènement.",
+          "La pente augmente les risques de glissement de terrain et nécessite souvent des travaux de soutènement et de drainage renforcés. Les fondations doivent également être adaptées pour tenir compte du dénivelé et assurer une stabilité homogène de la construction. Un mauvais terrassement sur terrain en pente peut engendrer des désordres structurels importants et coûteux.",
       },
 
       {
         question: "Le drainage est-il important sur un terrain en pente ?",
 
         answer:
-          "Oui, il permet d’éviter l’érosion et les infiltrations autour des fondations.",
+          "Oui, le drainage est crucial sur un terrain en pente car les eaux de ruissellement s’accumulent naturellement en bas de pente et peuvent éroder le sol ou infiltrer les fondations. Un réseau de drains bien conçu intercepte ces eaux en amont et les évacue loin des constructions. C’est un investissement indispensable pour protéger durablement votre maison.",
       },
     ],
 
@@ -442,48 +470,55 @@ export const articles = [
 
     content: {
       introduction:
-        "Le prix d’une dalle béton dépend principalement de la surface, de l’épaisseur et des travaux de préparation nécessaires.",
+        "Le prix d’une dalle béton dépend de nombreux paramètres qu’il est important de bien identifier avant de solliciter un devis. La surface à couvrir, l’épaisseur nécessaire, le type de ferraillage, les travaux de terrassement préalables et l’accessibilité du chantier sont autant de facteurs qui vont influencer le coût final. En Isère, DZ Maçonnerie réalise des dalles béton pour tous types de projets : terrasses, garages, hangars, dalles de fondation ou planchers de maison. Nous établissons des devis détaillés pour que vous puissiez maîtriser votre budget dès le départ.",
 
       sections: [
         {
-          title: "Quels éléments influencent le prix ?",
+          title: "Quels éléments influencent le prix d’une dalle béton ?",
 
           content:
-            "Le tarif varie selon la surface, le type de dalle, le terrassement, le ferraillage et l’accessibilité du chantier.",
+            "Le tarif d’une dalle béton varie selon plusieurs paramètres cumulatifs. La surface totale est bien sûr le premier critère : plus elle est grande, plus le volume de béton et le temps de travail augmentent, même si le coût au m² peut diminuer par effet d’échelle. L’épaisseur de la dalle influe directement sur la quantité de béton utilisée et sur la nécessité ou non d’un ferraillage. Les travaux de terrassement et de compactage préalables représentent souvent 20 à 30 % du coût total. Enfin, les finitions (béton lissé, désactivé, balayé) ont également un impact sur le prix final.",
         },
 
         {
-          title: "Pourquoi le terrassement est-il important ?",
+          title: "Pourquoi le terrassement est-il important avant une dalle ?",
 
           content:
-            "Une bonne préparation du terrain permet d’éviter les fissures et garantit une meilleure stabilité de la dalle béton.",
+            "Une bonne préparation du terrain est la condition indispensable pour éviter les fissures et garantir la stabilité d’une dalle béton sur le long terme. Sans terrassement et compactage préalables, le sol peut se tasser de manière irrégulière sous le poids de la dalle, provoquant des fissures, des affaissements ou des décollements du revêtement. En Isère, les sols argileux du Nord-Isère sont particulièrement sensibles aux variations d’humidité et peuvent gonfler ou se rétracter selon les saisons. DZ Maçonnerie réalise systématiquement un terrassement et un compactage soignés avant tout coulage de dalle béton.",
         },
 
         {
-          title: "Quelle épaisseur choisir ?",
+          title: "Quelle épaisseur choisir pour une dalle béton ?",
 
           content:
-            "L’épaisseur dépend de l’utilisation prévue : terrasse, garage, abri de jardin ou passage véhicule.",
+            "L’épaisseur d’une dalle béton doit être adaptée à l’usage prévu pour garantir une résistance suffisante. Pour une terrasse ou un passage piéton, une épaisseur de 10 à 12 cm est généralement suffisante. Pour un garage ou un passage de véhicule léger, il est recommandé de prévoir 12 à 15 cm avec ferraillage. Pour des charges lourdes (camion, machine agricole, hangar), une épaisseur de 15 à 20 cm avec un renforcement métallique adapté est nécessaire. DZ Maçonnerie vous conseille sur l’épaisseur et le type de ferraillage les mieux adaptés à votre projet en Isère.",
+        },
+
+        {
+          title: "Le ferraillage est-il systématiquement nécessaire ?",
+
+          content:
+            "Le ferraillage d’une dalle béton n’est pas toujours obligatoire mais est fortement recommandé dès que la dalle doit supporter des charges importantes ou est exposée aux variations thermiques. Un treillis soudé posé dans la moitié supérieure de la dalle limite l’apparition et la propagation des fissures. Pour les dalles de fondation ou les planchers porteurs, un ferraillage calculé par un bureau d’études est indispensable. DZ Maçonnerie dispose de l’expertise nécessaire pour vous conseiller sur la solution de ferraillage adaptée à chaque type de dalle.",
         },
       ],
 
       conclusion:
-        "Une dalle béton bien réalisée garantit la solidité et la durabilité de votre aménagement extérieur ou construction.",
+        "Une dalle béton bien dimensionnée et correctement réalisée est un investissement durable pour vos aménagements ou votre construction en Isère. En faisant appel à DZ Maçonnerie, vous bénéficiez d’un accompagnement complet depuis le terrassement jusqu’aux finitions, avec un devis transparent et des travaux réalisés dans les règles de l’art.",
     },
 
     faq: [
       {
-        question: "Quel est le prix moyen d’une dalle béton ?",
+        question: "Quel est le prix moyen d’une dalle béton en Isère ?",
 
         answer:
-          "Le tarif dépend principalement de la surface, de l’épaisseur et des travaux préparatoires.",
+          "Le tarif dépend principalement de la surface, de l’épaisseur et des travaux préparatoires. En règle générale, comptez entre 50 et 120 €/m² pour une dalle béton standard en Isère, pose et terrassement inclus. Pour les dalles avec finitions spéciales (béton désactivé, lissé) ou ferraillage renforcé, le prix peut être plus élevé.",
       },
 
       {
         question: "Faut-il réaliser un terrassement avant une dalle béton ?",
 
         answer:
-          "Oui, le terrassement permet de stabiliser le terrain avant le coulage du béton.",
+          "Oui, le terrassement est indispensable pour stabiliser le terrain avant le coulage du béton. Sans cette étape, les risques de fissures et d’affaissements sont très importants, surtout en Isère où les sols argileux sont courants. Un bon terrassement suivi d’un compactage soigné est la garantie d’une dalle durable.",
       },
     ],
 
@@ -541,33 +576,40 @@ export const articles = [
 
     content: {
       introduction:
-        "La terrasse béton reste l’une des solutions les plus durables et modernes pour aménager ses extérieurs.",
+        "La terrasse béton reste l’une des solutions les plus durables et modernes pour aménager ses extérieurs en Isère. Polyvalente, robuste et nécessitant peu d’entretien, elle s’adapte à tous les styles architecturaux. Que vous optiez pour un béton lissé, désactivé ou balayé, le résultat est toujours esthétique et résistant. Cependant, une terrasse béton doit être réalisée avec soin pour éviter les problèmes classiques de fissures ou d’affaissements qui apparaissent souvent quelques années après la pose.",
 
       sections: [
         {
           title: "Préparer correctement le terrain",
 
           content:
-            "Le terrassement et le compactage sont indispensables avant le coulage de la dalle béton.",
+            "Le terrassement et le compactage sont les fondations d’une terrasse béton réussie. Avant tout coulage, il est impératif de décaisser le terrain sur une profondeur suffisante (généralement 20 à 30 cm) pour retirer la terre végétale et créer un fond stable. Une couche de grave compactée est ensuite posée pour améliorer la portance et le drainage. DZ Maçonnerie utilise des plaques vibrantes pour compacter soigneusement chaque couche avant de couler le béton. Un terrain bien préparé évite la majorité des problèmes de fissuration qui peuvent apparaître après les travaux.",
         },
 
         {
-          title: "Prévoir le drainage",
+          title: "Prévoir le drainage et la pente",
 
           content:
-            "Une légère pente permet d’éviter les stagnations d’eau sur la terrasse.",
+            "Une légère pente (minimum 1 à 2 %) est indispensable pour permettre l’évacuation des eaux de pluie et éviter les stagnations qui peuvent accélérer la dégradation de la dalle. Cette pente doit être intégrée dès la phase de terrassement et respectée lors du coulage du béton. En Isère, les précipitations hivernales sont importantes et une terrasse sans pente suffisante peut rapidement se transformer en mare. Il faut également prévoir un système d’évacuation des eaux en bas de pente (caniveau, noue ou drain) pour ne pas créer de problèmes d’humidité contre la maison.",
         },
 
         {
           title: "Éviter les erreurs fréquentes",
 
           content:
-            "Un mauvais dosage béton ou un terrain mal préparé peut provoquer fissures et affaissements.",
+            "Les erreurs les plus courantes lors de la réalisation d’une terrasse béton sont : un terrain insuffisamment compacté, un béton mal dosé en eau, une absence de joints de dilatation et une pente de drainage insuffisante. Les joints de dilatation sont particulièrement importants : ils permettent à la dalle de se dilater et se rétracter librement sous l’effet des variations de température, sans se fissurer. En Isère, les écarts thermiques entre été et hiver sont significatifs et imposent des joints bien positionnés tous les 15 à 20 m². DZ Maçonnerie réalise systématiquement ces joints pour garantir la durabilité de vos terrasses béton.",
+        },
+
+        {
+          title: "Choisir la finition adaptée",
+
+          content:
+            "Le béton offre de nombreuses possibilités de finitions pour personnaliser l’aspect de votre terrasse. Le béton lissé donne un rendu épuré et contemporain, idéal pour les espaces modernes. Le béton désactivé, où les granulats apparents créent une texture rugueuse, est très apprécié pour son aspect naturel et son adhérence par temps humide. Le béton balayé est une finition économique et efficace qui offre une bonne adhérence. Enfin, les finitions imprimées ou teintées permettent d’imiter d’autres matériaux (bois, pierre, ardoise) tout en conservant les avantages du béton.",
         },
       ],
 
       conclusion:
-        "Une terrasse béton bien réalisée offre une excellente durabilité et valorise votre extérieur.",
+        "Une terrasse béton bien réalisée offre une durabilité et une esthétique incomparables pour valoriser votre extérieur en Isère. En évitant les erreurs classiques et en faisant appel à DZ Maçonnerie pour la réalisation, vous investissez dans un aménagement qui vous accompagnera pendant plusieurs décennies sans problème majeur.",
     },
 
     faq: [
@@ -575,14 +617,14 @@ export const articles = [
         question: "Quelle épaisseur pour une terrasse béton ?",
 
         answer:
-          "Une terrasse béton possède généralement une épaisseur comprise entre 10 et 15 cm.",
+          "Une terrasse béton destinée à un usage piéton possède généralement une épaisseur comprise entre 10 et 12 cm. Si la terrasse est accessible aux véhicules ou doit supporter des charges importantes, il est recommandé de prévoir 15 cm avec ferraillage. L’épaisseur exacte dépend de la nature du sol et des charges prévues.",
       },
 
       {
         question: "Pourquoi prévoir une pente sur une terrasse béton ?",
 
         answer:
-          "La pente permet l’évacuation des eaux de pluie et limite les infiltrations.",
+          "La pente permet l’évacuation naturelle des eaux de pluie et limite les risques d’infiltrations et de stagnations. Sans pente suffisante, l’eau peut s’accumuler sur la terrasse et favoriser le développement de mousses et d’algues. Une pente minimale de 1,5 à 2 % est recommandée pour garantir un drainage efficace.",
       },
     ],
 
@@ -640,33 +682,40 @@ export const articles = [
 
     content: {
       introduction:
-        "Le béton désactivé est très apprécié pour les terrasses, allées et aménagements extérieurs grâce à son aspect décoratif.",
+        "Le béton désactivé est l’une des finitions béton les plus prisées pour les terrasses, allées et aménagements extérieurs. Son procédé consiste à appliquer un produit retardateur de prise en surface pour que les granulats (galets, graviers) apparaissent après lavage, créant un rendu naturel et texturé très esthétique. En Isère, il est très utilisé pour les terrasses de maison, les allées de jardin et les plages de piscine car il s’intègre parfaitement dans les environnements naturels. DZ Maçonnerie réalise des terrasses en béton désactivé avec des granulats sélectionnés pour un rendu soigné et personnalisé.",
 
       sections: [
         {
           title: "Quels sont les avantages du béton désactivé ?",
 
           content:
-            "Le béton désactivé offre une excellente résistance et un rendu esthétique moderne pour les extérieurs.",
+            "Le béton désactivé cumule de nombreux avantages qui en font une solution idéale pour les extérieurs. Son aspect décoratif avec les granulats apparents offre un rendu naturel qui s’harmonise avec les espaces verts et les pierres naturelles. Sa texture rugueuse procure une excellente adhérence, même sous la pluie, ce qui en fait une solution antidérapante naturelle parfaite autour des piscines et sur les terrasses exposées aux intempéries. Contrairement aux dallages en pierre ou aux pavés, le béton désactivé ne présente pas de joints qui peuvent se colmater ou laisser pousser les mauvaises herbes. Enfin, il offre une surface continue sans interruption, ce qui facilite le balayage et l’entretien.",
         },
 
         {
-          title: "Une solution durable",
+          title: "Une solution durable face aux intempéries",
 
           content:
-            "Ce type de béton résiste particulièrement bien aux intempéries et aux passages fréquents.",
+            "Le béton désactivé résiste particulièrement bien aux intempéries, aux cycles gel-dégel et aux passages fréquents, ce qui en fait une solution très adaptée au climat isérois. Contrairement à certains revêtements qui s’effritent ou se décolorent avec le temps, le béton désactivé conserve son aspect naturel pendant de nombreuses années. Les granulats intégrés dans la masse du béton ne peuvent pas se décoller comme des carreaux collés, ce qui garantit une longévité supérieure. Pour maximiser la durabilité, DZ Maçonnerie utilise un béton bien dosé et applique un produit de cure après le coulage pour protéger la surface durant la prise.",
         },
 
         {
-          title: "Un entretien limité",
+          title: "Un entretien limité au fil des années",
 
           content:
-            "Le béton désactivé nécessite peu d’entretien comparé à d’autres revêtements extérieurs.",
+            "L’un des atouts majeurs du béton désactivé est sa faible exigence en termes d’entretien. Un nettoyage régulier au jet d’eau suffit généralement pour éliminer les salissures et conserver son aspect. En cas d’apparition de mousses ou d’algues (fréquent dans les zones ombragées ou humides), un traitement annuel avec un produit antifongique permet de retrouver l’aspect d’origine. Pour prolonger encore sa durée de vie, l’application d’un hydrofuge tous les 5 à 10 ans est recommandée pour limiter les infiltrations d’eau dans la masse du béton. DZ Maçonnerie peut vous conseiller sur les produits d’entretien adaptés à votre revêtement.",
+        },
+
+        {
+          title: "Comment est réalisé un béton désactivé ?",
+
+          content:
+            "La réalisation d’un béton désactivé de qualité nécessite un savoir-faire technique précis. Après le terrassement et le compactage du terrain, le béton est coulé et tiré à la règle pour obtenir un niveau homogène. Un produit retardateur de prise est ensuite pulvérisé en surface pour empêcher le ciment de durcir en périphérie. Après une attente de 6 à 24 heures selon les conditions météorologiques, la surface est lavée au jet haute pression pour éliminer la laitance et faire apparaître les granulats. La qualité du résultat final dépend de la précision du dosage du retardateur, du timing du lavage et de l’homogénéité du béton.",
         },
       ],
 
       conclusion:
-        "Le béton désactivé constitue une excellente solution pour une terrasse moderne et durable.",
+        "Le béton désactivé constitue une excellente solution pour une terrasse ou une allée moderne, durable et facile d’entretien en Isère. Son rendu naturel, son adhérence et sa résistance aux intempéries en font le revêtement extérieur le plus polyvalent du marché. DZ Maçonnerie réalise vos projets de béton désactivé dans tout le Nord-Isère avec des finitions de qualité.",
     },
 
     faq: [
@@ -674,14 +723,14 @@ export const articles = [
         question: "Le béton désactivé est-il glissant ?",
 
         answer:
-          "Non, sa texture rugueuse offre une bonne adhérence même par temps humide.",
+          "Non, au contraire : sa texture rugueuse avec les granulats apparents offre une excellente adhérence même par temps humide. C’est pourquoi il est très souvent utilisé autour des piscines et sur les terrasses exposées à la pluie. C’est l’un de ses avantages majeurs par rapport aux carrelages lisses.",
       },
 
       {
         question: "Le béton désactivé nécessite-t-il beaucoup d’entretien ?",
 
         answer:
-          "Non, un nettoyage régulier suffit généralement pour conserver son aspect.",
+          "Non, le béton désactivé est l’un des revêtements extérieurs les moins exigeants en entretien. Un nettoyage régulier au jet d’eau suffit pour conserver son aspect. Un traitement hydrofuge tous les 5 à 10 ans et un anti-mousse annuel dans les zones ombragées permettent de le maintenir en parfait état pendant plusieurs décennies.",
       },
     ],
 
@@ -701,7 +750,7 @@ export const articles = [
     excerpt:
       "Comprenez les différences entre une chape et une dalle béton pour éviter les erreurs de chantier.",
 
-    image: "/images/blog/coulage-beton.webp",
+    image: "/images/blog/difference-chape-et-dalle-beton.webp",
 
     category: "Conseils",
 
@@ -739,33 +788,40 @@ export const articles = [
 
     content: {
       introduction:
-        "La chape et la dalle béton possèdent des fonctions différentes dans un chantier de construction ou rénovation.",
+        "La chape et la dalle béton sont deux termes souvent confondus, même par les particuliers qui ont déjà eu des travaux chez eux. Pourtant, ces deux éléments remplissent des fonctions très différentes dans un chantier de construction ou de rénovation. Confondre les deux peut entraîner des erreurs de conception coûteuses, notamment dans le dimensionnement des structures. DZ Maçonnerie vous aide à comprendre ces différences pour mieux préparer vos projets de maçonnerie en Isère.",
 
       sections: [
         {
           title: "Quel est le rôle d’une dalle béton ?",
 
           content:
-            "La dalle béton sert de base structurelle et supporte les charges du bâtiment ou des aménagements.",
+            "La dalle béton est un élément structurel qui joue un rôle porteur dans la construction. Elle sert de base solide pour supporter les charges du bâtiment, des équipements lourds ou des véhicules. Son épaisseur varie généralement de 12 à 20 cm selon les charges prévues, et elle est presque toujours ferraillée pour résister aux contraintes de flexion. Une dalle béton peut constituer le plancher d’un rez-de-chaussée, le fond d’un garage ou la base d’une terrasse extérieure. Elle nécessite systématiquement un terrassement, un compactage et souvent un lit de grave avant le coulage.",
         },
 
         {
-          title: "À quoi sert une chape ?",
+          title: "À quoi sert une chape béton ?",
 
           content:
-            "La chape permet principalement de niveler le sol avant la pose d’un revêtement.",
+            "La chape béton est un élément de finition, non porteur, qui se pose sur une dalle existante pour régulariser et mettre à niveau le sol avant la pose d’un revêtement. Son épaisseur est généralement comprise entre 3 et 7 cm, ce qui est bien insuffisant pour assurer un rôle porteur. La chape peut être traditionnelle (mortier de sable et ciment) ou fluide (ragréage autonivelant). Elle est utilisée en rénovation pour compenser les irrégularités d’une dalle ancienne ou en construction neuve pour intégrer les gaines de plancher chauffant avant la pose du carrelage ou du parquet.",
         },
 
         {
           title: "Ne pas confondre les deux",
 
           content:
-            "Une chape ne remplace pas une dalle béton car elle ne possède pas le même rôle structurel.",
+            "L’erreur classique consiste à couler une chape là où une dalle structurelle est nécessaire, par exemple pour réaliser une terrasse ou un garage. Une chape de 4 cm posée sur du sable ne peut absolument pas supporter le poids d’un véhicule ou les charges d’une terrasse fréquentée. Elle va se fissurer et se décoller rapidement. Inversement, commander une dalle épaisse ferraillée pour une simple mise à niveau intérieure est un surcoût inutile. Il est donc essentiel de bien identifier dès le départ si votre projet nécessite une dalle structurelle ou une simple chape de finition.",
+        },
+
+        {
+          title: "Quand faire appel à un professionnel ?",
+
+          content:
+            "Pour tout projet impliquant une dalle béton portante (garage, terrasse, fondations, extension), il est indispensable de faire appel à un professionnel maîtrisant les techniques de ferraillage et de coulage du béton. DZ Maçonnerie réalise l’ensemble de ces travaux en Isère : du terrassement jusqu’aux finitions de la dalle. Pour une chape intérieure de mise à niveau, les techniques sont différentes et peuvent faire appel à des mortiers spéciaux autonivelants. Dans tous les cas, un devis préalable permet de définir clairement la nature des travaux et d’éviter les malentendus.",
         },
       ],
 
       conclusion:
-        "Comprendre la différence entre une chape et une dalle béton permet d’éviter de nombreuses erreurs sur un chantier.",
+        "Comprendre la différence entre une chape et une dalle béton est essentiel pour éviter les erreurs de chantier et bien dimensionner votre projet. La dalle est un élément porteur épais et ferraillé, tandis que la chape est une couche de finition mince et non structurelle. En cas de doute, DZ Maçonnerie vous conseille et réalise vos travaux béton en Isère.",
     },
 
     faq: [
@@ -773,14 +829,14 @@ export const articles = [
         question: "Une chape peut-elle remplacer une dalle béton ?",
 
         answer:
-          "Non, une chape ne possède pas le même rôle structurel qu’une dalle béton.",
+          "Non, une chape ne possède pas le même rôle structurel qu’une dalle béton. Elle est trop mince et non ferraillée pour supporter des charges importantes. Utiliser une chape à la place d’une dalle structurelle entraîne inévitablement des fissures et des dégradations rapides.",
       },
 
       {
         question: "Quelle est l’épaisseur d’une chape ?",
 
         answer:
-          "Une chape possède généralement une épaisseur plus faible qu’une dalle béton.",
+          "Une chape possède généralement une épaisseur de 3 à 7 cm, contre 10 à 20 cm pour une dalle béton structurelle. Cette différence d’épaisseur reflète leur rôle très différent : la chape est une couche de finition non portante, tandis que la dalle supporte les charges du bâtiment.",
       },
     ],
 
@@ -800,7 +856,7 @@ export const articles = [
     excerpt:
       "Temps de séchage, météo, épaisseur : découvrez les délais à respecter avant utilisation.",
 
-    image: "/images/blog/coulage-beton.webp",
+    image: "/images/blog/temps-sechage-dalle-beton-avant-travaux.webp",
 
     category: "Dalle béton",
 
@@ -838,33 +894,40 @@ export const articles = [
 
     content: {
       introduction:
-        "Le temps de séchage d’une dalle béton dépend de plusieurs facteurs comme l’épaisseur, la température et l’humidité.",
+        "Le temps de séchage d’une dalle béton est une question que se posent tous les maîtres d’ouvrage, pressés de voir leur chantier avancer. Il est important de distinguer le séchage superficiel, qui permet de marcher sur la dalle, de la prise complète du béton, qui conditionne sa résistance mécanique finale. Ces deux étapes sont très différentes et confondre les deux peut entraîner des dommages irréversibles sur la dalle. DZ Maçonnerie accompagne ses clients dans la compréhension de ces délais pour éviter les erreurs fréquentes.",
 
       sections: [
         {
           title: "Pourquoi respecter le temps de séchage ?",
 
           content:
-            "Un séchage insuffisant peut fragiliser la dalle et provoquer des fissurations prématurées.",
+            "Respecter le temps de séchage du béton est absolument essentiel pour garantir sa résistance mécanique finale. Le béton ne sèche pas simplement par évaporation de l’eau : il se solidifie grâce à une réaction chimique appelée hydratation, qui dure plusieurs semaines. Si l’on soumet la dalle à des charges trop importantes avant la fin de cette réaction, on risque de provoquer des fissurations prématurées qui compromettront définitivement la résistance de l’ouvrage. Un béton mal séché présente également une surface plus poreuse et moins résistante à l’abrasion, ce qui réduit sa durée de vie. La patience est donc un investissement dans la durabilité de votre dalle.",
         },
 
         {
-          title: "Quels éléments influencent le séchage ?",
+          title: "Quels éléments influencent le temps de séchage ?",
 
           content:
-            "La météo, l’épaisseur du béton et la ventilation influencent fortement le temps de séchage.",
+            "Plusieurs facteurs influencent la vitesse de séchage et de prise du béton. La température est le facteur le plus important : par temps chaud (20-25°C), le béton prend plus rapidement, mais risque de sécher trop vite en surface si des précautions ne sont pas prises. Par temps froid (en dessous de 5°C), la réaction d’hydratation ralentit considérablement et peut même s’arrêter en dessous de 0°C, ce qui fragilise le béton. L’humidité ambiante joue également un rôle : une atmosphère trop sèche favorise l’évaporation rapide de l’eau de gâchage, ce qui peut créer des fissurations superficielles. L’épaisseur de la dalle influe aussi : plus elle est épaisse, plus le séchage en profondeur prend du temps.",
         },
 
         {
           title: "Quand peut-on marcher sur une dalle béton ?",
 
           content:
-            "Il est généralement possible de marcher sur une dalle après quelques jours, mais le séchage complet prend plus longtemps.",
+            "En conditions normales (température de 15-20°C), il est généralement possible de circuler à pied sur une dalle béton après 24 à 48 heures sans risque de la détériorer. Cependant, il est déconseillé de laisser des charges statiques importantes (palettes, matériaux lourds) avant 7 jours minimum. Pour un usage normal (voiture, meubles), il faut attendre au minimum 28 jours, qui correspond au temps de prise normatif du béton. Pour des charges exceptionnelles ou la pose d’un revêtement carrelé, certains professionnels recommandent d’attendre encore plus longtemps, surtout en hiver.",
+        },
+
+        {
+          title: "Comment favoriser un séchage optimal ?",
+
+          content:
+            "Pour optimiser les conditions de séchage de votre dalle béton, plusieurs précautions peuvent être prises. Par temps chaud et sec, il est conseillé d’arroser légèrement la surface pendant les 3 à 7 premiers jours pour maintenir une humidité suffisante et éviter les fissurations de retrait. Par temps froid, protéger la dalle avec des voiles de protection thermique permet de maintenir une température suffisante pour la réaction d’hydratation. DZ Maçonnerie applique systématiquement un produit de cure après le coulage pour protéger la surface et favoriser un séchage homogène, quelle que soit la saison.",
         },
       ],
 
       conclusion:
-        "Respecter le temps de séchage garantit une meilleure résistance et durabilité de votre dalle béton.",
+        "Respecter le temps de séchage est la dernière étape indispensable pour garantir la résistance et la durabilité de votre dalle béton en Isère. En confiant vos travaux à DZ Maçonnerie, vous bénéficiez de conseils adaptés aux conditions météorologiques et à la saison pour optimiser la prise de votre béton dans les meilleures conditions possibles.",
     },
 
     faq: [
@@ -872,14 +935,14 @@ export const articles = [
         question: "Combien de temps sèche une dalle béton ?",
 
         answer:
-          "Le séchage complet peut prendre plusieurs semaines selon l’épaisseur et les conditions météo.",
+          "Le béton est praticable à pied après 24 à 48 heures, mais sa résistance mécanique complète n’est atteinte qu’après 28 jours. En hiver, ces délais peuvent être significativement allongés en raison des basses températures. Pour un usage véhicule ou la pose d’un revêtement, il est recommandé d’attendre au minimum 28 jours.",
       },
 
       {
         question: "Peut-on marcher rapidement sur une dalle béton ?",
 
         answer:
-          "Oui, mais il faut attendre le séchage complet avant de supporter des charges importantes.",
+          "Oui, il est possible de marcher sur une dalle béton après 24 à 48 heures sans la détériorer. Cependant, il faut attendre le séchage complet (28 jours) avant de soumettre la dalle à des charges importantes comme un véhicule. Trop de hâte peut provoquer des fissures permanentes qui compromettent la résistance de l’ouvrage.",
       },
     ],
 
@@ -937,48 +1000,55 @@ export const articles = [
 
     content: {
       introduction:
-        "Le terrassement constitue l’une des premières étapes d’un chantier de construction de maison neuve.",
+        "Le terrassement est l’une des toutes premières étapes d’un chantier de construction de maison neuve, et c’est sans doute l’une des plus déterminantes pour la réussite du projet. Un terrain mal préparé peut engendrer des problèmes structurels sérieux dans les années suivant la construction : tassements différentiels, fissures sur les murs, infiltrations dans les fondations. En Isère, la diversité des terrains — plaines, vallons, zones argileuses du Nord-Isère — nécessite une approche adaptée à chaque configuration. DZ Maçonnerie réalise l’ensemble des travaux de terrassement pour maison neuve avec le matériel et l’expertise nécessaires.",
 
       sections: [
         {
           title: "Pourquoi le terrassement est-il indispensable ?",
 
           content:
-            "Le terrassement permet de préparer le terrain avant les fondations en assurant une surface stable et nivelée.",
+            "Le terrassement permet de transformer un terrain brut en une surface stable, nivelée et prête à accueillir les fondations. Sans cette étape, les fondations reposeront sur une terre hétérogène qui peut se tasser de manière inégale sous le poids de la construction. En Isère, les terrains argileux sont particulièrement sensibles aux variations d’humidité saisonnières : ils gonflent en hiver et se rétractent en été, ce qui peut provoquer des mouvements importants si le terrain n’est pas correctement traité. Un terrassement professionnel prend en compte ces spécificités locales pour adapter les techniques de décaissement et de compactage.",
         },
 
         {
           title: "Les différentes étapes du terrassement",
 
           content:
-            "Le chantier comprend généralement le décaissement, le nivellement, le compactage et parfois le drainage du terrain.",
+            "Le terrassement d’une maison neuve comprend plusieurs étapes successives. Le décapage de la terre végétale est la première opération : il faut retirer la couche superficielle (25 à 40 cm) qui est trop organique pour servir d’assise. Vient ensuite le décaissement proprement dit pour atteindre le niveau voulu des fondations, suivi du nivellement pour obtenir une surface plane. Le compactage du fond de fouille est réalisé mécaniquement pour améliorer la portance du sol. Enfin, selon la nature du terrain, un drainage peut être mis en place pour évacuer les eaux superficielles et protéger les fondations.",
         },
 
         {
           title: "Prévoir l’évacuation des terres",
 
           content:
-            "Après excavation, les terres doivent être évacuées ou redistribuées selon la configuration du terrain.",
+            "La construction d’une maison neuve génère un volume important de terres excavées qu’il faut gérer dès le début du chantier. Une partie peut parfois être réutilisée pour le remblaiement des abords de la maison ou la création de talus paysagers. Cependant, la terre végétale retirée en surface ne convient pas au remblaiement structurel car elle est trop compressible. Les terres excédentaires doivent être évacuées par camion vers des centres de traitement agréés ou des chantiers ayant besoin de remblais. DZ Maçonnerie organise l’ensemble de la logistique d’évacuation des terres pour maintenir un chantier propre et sécurisé.",
+        },
+
+        {
+          title: "Coordonner le terrassement avec les autres corps de métier",
+
+          content:
+            "Le terrassement d’une maison neuve doit être coordonné avec les autres intervenants du chantier, notamment le géotechnicien (qui réalise l’étude de sol), le maître d’œuvre et l’entreprise de fondations. L’étude géotechnique (G2 PRO) est obligatoire pour les maisons neuves depuis la loi ELAN de 2020 en zone argileuse, ce qui concerne une grande partie du Nord-Isère. DZ Maçonnerie travaille en étroite collaboration avec les bureaux d’études géotechniques et les maîtres d’ouvrage pour réaliser le terrassement conformément aux prescriptions techniques de l’étude de sol.",
         },
       ],
 
       conclusion:
-        "Un terrassement bien réalisé garantit des fondations solides et une meilleure durabilité de votre future maison.",
+        "Un terrassement bien réalisé pour votre maison neuve en Isère est le premier investissement pour garantir la solidité et la pérennité de votre construction. DZ Maçonnerie dispose des équipements et de l’expérience nécessaires pour réaliser tous types de terrassement dans le Nord-Isère, des terrains plats aux configurations les plus complexes.",
     },
 
     faq: [
       {
-        question: "Quand faut-il réaliser le terrassement ?",
+        question: "Quand faut-il réaliser le terrassement d’une maison neuve ?",
 
         answer:
-          "Le terrassement intervient avant les fondations et la dalle béton.",
+          "Le terrassement intervient en tout début de chantier, avant les fondations et la dalle béton. Il est réalisé après l’obtention du permis de construire et l’installation du chantier. Idéalement, il est préférable de le planifier en dehors des périodes de gel et de fortes pluies pour optimiser les conditions de travail.",
       },
 
       {
-        question: "Pourquoi compacter le terrain ?",
+        question: "Pourquoi compacter le terrain après terrassement ?",
 
         answer:
-          "Le compactage permet d’éviter les tassements et d’assurer la stabilité du sol.",
+          "Le compactage permet d’améliorer la portance du sol en réduisant les vides et en densifiant les couches de terre. Sans compactage, les fondations risquent de se tasser de manière irrégulière sous le poids de la maison, ce qui peut provoquer des fissures structurelles. C’est une étape obligatoire et contrôlée sur tous les chantiers sérieux.",
       },
     ],
 
@@ -997,7 +1067,7 @@ export const articles = [
     excerpt:
       "Terrasses modernes, murs design et aménagements extérieurs : découvrez les tendances actuelles en maçonnerie extérieure.",
 
-    image: "/images/blog/maconnerie.webp",
+    image: "/images/blog/tendance-maconnerie.webp",
 
     category: "Maçonnerie",
 
@@ -1035,48 +1105,57 @@ export const articles = [
 
     content: {
       introduction:
-        "La maçonnerie extérieure évolue avec des aménagements plus modernes, durables et esthétiques.",
+        "La maçonnerie extérieure connaît en 2026 un renouveau esthétique majeur, avec des aménagements qui conjuguent modernité, durabilité et intégration paysagère. Les propriétaires isérois sont de plus en plus exigeants sur la qualité et le style de leurs extérieurs, cherchant des solutions qui valorisent leur patrimoine tout en résistant aux conditions climatiques locales. DZ Maçonnerie suit ces évolutions et propose des réalisations en phase avec les tendances actuelles, toujours avec le souci de la qualité et de la longévité.",
 
       sections: [
         {
-          title: "Le retour du béton décoratif",
+          title: "Le retour en force du béton décoratif",
 
           content:
-            "Le béton désactivé et les finitions modernes sont très appréciés pour les terrasses et allées extérieures.",
+            "Le béton désactivé, le béton lissé et le béton imprimé sont au cœur des tendances 2026 en maçonnerie extérieure. Ces finitions permettent de créer des terrasses, allées et plages de piscine avec un rendu très esthétique, tout en conservant les avantages de durabilité propres au béton. Le béton désactivé avec des granulats colorés ou des galets locaux s’intègre parfaitement dans les paysages isérois. Les clients recherchent également des effets de continuité entre les espaces intérieurs et extérieurs, avec des dalles bétonnées étendues jusqu’à la terrasse. DZ Maçonnerie maîtrise l’ensemble de ces techniques pour répondre aux projets les plus créatifs.",
         },
 
         {
-          title: "Des murets plus esthétiques",
+          title: "Des murets et clôtures plus esthétiques",
 
           content:
-            "Les murets béton et murs maçonnés deviennent de véritables éléments décoratifs pour structurer les extérieurs.",
+            "Les murets maçonnés ne sont plus seulement des éléments fonctionnels : en 2026, ils deviennent de véritables pièces maîtresses de l’aménagement extérieur. Les murets en bloc banché lissé, en pierre naturelle ou en béton architectonique structurent les jardins, délimitent les espaces et créent des lignes épurées très appréciées dans les architectures contemporaines. Les clôtures maçonnées reprennent ces codes esthétiques avec des finitions soignées qui s’harmonisent avec la façade de la maison. DZ Maçonnerie propose des réalisations sur mesure qui combinent solidité, esthétique et valeur patrimoniale.",
         },
 
         {
-          title: "Des aménagements durables",
+          title: "Des aménagements durables et responsables",
 
           content:
-            "Les matériaux résistants et faciles d’entretien sont privilégiés pour garantir la durabilité des aménagements extérieurs.",
+            "La tendance 2026 est clairement à la durabilité et à l’entretien minimaliste. Les propriétaires plébiscitent des matériaux qui résistent aux intempéries, aux UV et aux passages répétés sans nécessiter de traitement annuel. Le béton et la maçonnerie répondent parfaitement à ces attentes : ils ne nécessitent pas de lasure, de peinture ou de remplacement régulier comme certains matériaux composites ou en bois. La durabilité est également une démarche environnementale, car un aménagement qui dure 30 ans est plus écologique qu’un revêtement bon marché à remplacer tous les 5 ans.",
+        },
+
+        {
+          title: "L’intégration paysagère comme critère clé",
+
+          content:
+            "En 2026, les clients souhaitent que leurs aménagements extérieurs s’intègrent harmonieusement dans leur environnement naturel. En Isère, cela se traduit par le choix de granulats locaux pour le béton désactivé, l’utilisation de pierres régionales pour les murets ou la création de jardins en terrasses qui épousent la topographie naturelle du terrain. DZ Maçonnerie conseille ses clients sur les matériaux et les couleurs les plus adaptés à leur environnement local, pour des réalisations qui valorisent durablement leur propriété.",
         },
       ],
 
       conclusion:
-        "La maçonnerie extérieure moderne allie aujourd’hui esthétique, durabilité et facilité d’entretien.",
+        "La maçonnerie extérieure moderne en Isère allie esthétique contemporaine, durabilité et intégration paysagère. DZ Maçonnerie vous accompagne dans la réalisation de vos projets d’aménagement extérieur à Artas, Bourgoin-Jallieu et dans tout le Nord-Isère, avec des techniques et des finitions en phase avec les tendances actuelles.",
     },
 
     faq: [
       {
-        question: "Quels matériaux utiliser pour des extérieurs durables ?",
+        question:
+          "Quels matériaux utiliser pour des extérieurs durables en Isère ?",
 
         answer:
-          "Le béton et la maçonnerie restent parmi les solutions les plus résistantes et durables.",
+          "Le béton et la maçonnerie restent parmi les solutions les plus résistantes et durables pour les extérieurs isérois. Le béton désactivé, les murets maçonnés et les dalles béton ferraillées offrent une longévité supérieure à 30 ans avec un entretien minimal. Ces matériaux résistent parfaitement au gel, aux UV et aux variations climatiques de la région.",
       },
 
       {
-        question: "Pourquoi choisir un aménagement maçonné ?",
+        question:
+          "Pourquoi choisir un aménagement maçonné plutôt que du bois ?",
 
         answer:
-          "La maçonnerie offre une excellente durabilité et valorise les extérieurs.",
+          "La maçonnerie offre une durabilité bien supérieure au bois qui nécessite un entretien régulier (lasure, peinture) et se dégrade plus rapidement face aux intempéries. Un aménagement maçonné ne pourrit pas, ne se déforme pas et conserve son aspect sans traitement pendant plusieurs décennies. C’est également un meilleur investissement en termes de valorisation immobilière.",
       },
     ],
 
@@ -1134,48 +1213,55 @@ export const articles = [
 
     content: {
       introduction:
-        "Le printemps reste une période particulièrement favorable pour lancer des travaux de maçonnerie et terrassement.",
+        "Le printemps est la période de l’année la plus favorable pour réaliser des travaux de maçonnerie et de terrassement en Isère. Les conditions climatiques de mars à juin offrent un équilibre idéal entre températures douces, humidité modérée et durées du jour allongées, qui permettent aux artisans de travailler dans les meilleures conditions. Pour les particuliers, c’est aussi le moment d’anticiper les aménagements extérieurs pour profiter de leur terrasse ou de leur jardin dès les premiers beaux jours d’été. DZ Maçonnerie vous conseille de planifier vos travaux dès le début d’année pour sécuriser les créneaux de chantier.",
 
       sections: [
         {
-          title: "Des conditions météo plus favorables",
+          title: "Des conditions météo idéales pour le béton",
 
           content:
-            "Les températures plus douces facilitent le séchage du béton et limitent les contraintes liées au gel.",
+            "Les températures printanières, généralement comprises entre 10 et 20°C en Isère, sont les conditions optimales pour la prise du béton. À ces températures, la réaction d’hydratation du ciment se déroule à un rythme idéal : ni trop lentement comme en hiver, ni trop rapidement comme en été avec risque de séchage prématuré en surface. L’humidité naturelle du printemps contribue également à maintenir le béton correctement hydraté pendant la phase de prise. Ces conditions permettent d’obtenir des résistances mécaniques optimales et des finitions de surface homogènes. Pour les terrasses bétonnées, le printemps garantit un rendu final de meilleure qualité.",
         },
 
         {
           title: "Préparer les extérieurs avant l’été",
 
           content:
-            "Le printemps permet d’anticiper les travaux de terrasse, murets et aménagements extérieurs avant les beaux jours.",
+            "Réaliser ses travaux de terrasse, murets et aménagements extérieurs au printemps permet de profiter de ses extérieurs dès les premières chaleurs estivales. En Isère, les étés peuvent être chauds et secs, et une terrasse bien réalisée au printemps aura suffisamment durci pour supporter un usage intensif dès juin. Anticiper ces travaux évite aussi les délais d’attente souvent plus longs en été, période de forte demande pour les entreprises de maçonnerie. DZ Maçonnerie recommande de prendre contact dès janvier-février pour planifier vos travaux printaniers et garantir les meilleurs créneaux de disponibilité.",
         },
 
         {
-          title: "Un terrain plus facile à travailler",
+          title: "Un terrain plus facile à terrasser",
 
           content:
-            "Les sols sont généralement plus stables et plus simples à terrasser qu’en hiver.",
+            "Au printemps, les sols sont généralement plus faciles à travailler qu’en hiver : ils ne sont ni gelés, ni gorgés d’eau comme après les fortes pluies hivernales. La portance du sol est meilleure, ce qui facilite le travail des engins de terrassement et réduit le risque de dégradation des zones d’accès. Les sols argileux du Nord-Isère, qui peuvent être très plastiques et collants en hiver, retrouvent une consistance plus travaillable au printemps. Ces conditions favorables permettent des travaux plus rapides et plus précis, avec moins de contraintes liées aux conditions de sol.",
+        },
+
+        {
+          title: "Les travaux à prévoir au printemps",
+
+          content:
+            "Le printemps est idéal pour une large palette de travaux de maçonnerie et terrassement. Les terrasses béton, allées et plages de piscine profitent parfaitement des conditions printanières pour un coulage et un séchage optimal. Les terrassements pour maison neuve, extension ou aménagement extérieur peuvent être lancés dès la fin mars. Les murs de soutènement, murets et clôtures maçonnées sont également très bien adaptés à cette saison. DZ Maçonnerie intervient sur l’ensemble de ces prestations en Isère, avec des équipes disponibles dès le printemps pour concrétiser vos projets.",
         },
       ],
 
       conclusion:
-        "Le printemps constitue souvent la meilleure période pour réaliser des travaux de maçonnerie extérieure.",
+        "Le printemps constitue la meilleure période de l’année pour réaliser vos travaux de maçonnerie extérieure en Isère. Conditions météo favorables, terrain plus facile à travailler et calendrier moins chargé qu’en été : tous les avantages sont réunis pour lancer votre projet dans les meilleures conditions. N’attendez pas l’été pour contacter DZ Maçonnerie.",
     },
 
     faq: [
       {
-        question: "Pourquoi éviter les travaux béton en hiver ?",
+        question: "Pourquoi éviter les travaux béton en hiver en Isère ?",
 
         answer:
-          "Le froid peut ralentir le séchage du béton et fragiliser certaines réalisations.",
+          "Le froid ralentit ou bloque la réaction d’hydratation du béton, ce qui peut fragiliser considérablement la dalle ou le muret. En dessous de 5°C, des précautions spéciales sont nécessaires (adjuvants, protection thermique), ce qui augmente les coûts. En Isère, les gelées printanières tardives (jusqu’en avril) imposent une vigilance particulière pour les chantiers béton.",
       },
 
       {
         question: "Le printemps est-il idéal pour une terrasse béton ?",
 
         answer:
-          "Oui, les températures plus douces favorisent un meilleur séchage du béton.",
+          "Oui, le printemps est la période idéale pour réaliser une terrasse béton en Isère. Les températures de 10 à 20°C favorisent une prise optimale du béton, et la terrasse aura suffisamment durci pour être utilisée dès l’été. C’est aussi la période où les plannings des entreprises sont les moins chargés, avant le pic d’activité estival.",
       },
     ],
 
@@ -1233,48 +1319,57 @@ export const articles = [
 
     content: {
       introduction:
-        "La garantie décennale protège les travaux de construction pendant 10 ans après réception du chantier.",
+        "La garantie décennale est une assurance obligatoire pour toutes les entreprises du bâtiment réalisant des travaux de construction en France. Elle protège le maître d’ouvrage (le client) contre les vices cachés et malfaçons qui pourraient affecter la solidité de l’ouvrage pendant 10 ans après la réception des travaux. Avant de confier vos travaux de maçonnerie ou de terrassement à une entreprise en Isère, il est indispensable de vérifier qu’elle dispose bien d’une assurance décennale valide. DZ Maçonnerie est entièrement assurée et peut vous fournir son attestation décennale sur simple demande.",
 
       sections: [
         {
-          title: "Quels travaux sont concernés ?",
+          title: "Quels travaux sont couverts par la garantie décennale ?",
 
           content:
-            "La décennale couvre notamment les fondations, murs porteurs, extensions et travaux de maçonnerie importants.",
+            "La garantie décennale couvre les travaux de construction qui peuvent affecter la solidité de l’ouvrage ou le rendre impropre à sa destination. Sont notamment concernés : les fondations, les murs porteurs, les dalles béton structurelles, les extensions de maison, les travaux de terrassement liés aux fondations et les murs de soutènement. Elle ne couvre pas les dommages résultant d’une utilisation anormale, de modifications réalisées par le propriétaire après les travaux, ou de causes extérieures comme les catastrophes naturelles. En cas de doute sur la couverture d’un sinistre, il est conseillé de consulter votre assureur.",
         },
 
         {
-          title: "Pourquoi vérifier l’assurance de l’entreprise ?",
+          title:
+            "Pourquoi vérifier l’assurance de l’entreprise avant les travaux ?",
 
           content:
-            "Une entreprise assurée protège le client contre d’éventuels défauts structurels après les travaux.",
+            "Vérifier l’assurance décennale de l’entreprise avant de signer un contrat est une précaution fondamentale. En effet, si des malfaçons apparaissent après les travaux et que l’entreprise n’est pas assurée (ou a cessé son activité), vous n’aurez aucun recours pour faire prendre en charge les réparations. La loi Spinetta de 1978 rend l’assurance décennale obligatoire, mais certaines entreprises peu scrupuleuses travaillent sans couverture. Pour vous protéger, demandez systématiquement une attestation d’assurance décennale à jour avant tout démarrage de chantier. DZ Maçonnerie fournit cette attestation dès le premier devis.",
         },
 
         {
-          title: "Une protection essentielle",
+          title: "La garantie décennale et la dommages-ouvrage",
 
           content:
-            "La garantie décennale permet de sécuriser votre investissement et vos travaux de construction.",
+            "En complément de la garantie décennale de l’entreprise, il existe une autre assurance importante pour le maître d’ouvrage : la dommages-ouvrage. Souscrite par le client avant le début des travaux, elle permet d’obtenir une indemnisation rapide en cas de sinistre, sans attendre la détermination des responsabilités entre les différents intervenants. Elle fait ensuite l’objet d’un recours subrogatoire contre l’entreprise responsable et son assureur décennal. Pour les travaux importants (maison neuve, extension, rénovation lourde), la souscription d’une dommages-ouvrage est fortement recommandée.",
+        },
+
+        {
+          title:
+            "Comment se déroule une mise en jeu de la garantie décennale ?",
+
+          content:
+            "En cas de sinistre relevant de la garantie décennale, la procédure commence par une déclaration de sinistre à l’assureur de l’entreprise, accompagnée d’un rapport décrivant les désordres constatés. Un expert est généralement mandaté pour évaluer les dommages et déterminer les causes. Si le sinistre est reconnu, l’assureur prend en charge les réparations dans les délais prévus au contrat. DZ Maçonnerie s’engage à traiter rapidement tout signalement de malfaçon post-travaux et à mettre en œuvre sa garantie décennale dans le respect de ses obligations légales.",
         },
       ],
 
       conclusion:
-        "Faire appel à une entreprise disposant d’une garantie décennale est indispensable pour des travaux réalisés en toute sécurité.",
+        "La garantie décennale est une protection indispensable pour sécuriser votre investissement dans des travaux de maçonnerie ou de construction en Isère. En faisant appel à DZ Maçonnerie, vous choisissez une entreprise sérieuse, assurée et disposant de toutes les garanties légales pour réaliser vos travaux en toute confiance.",
     },
 
     faq: [
       {
-        question: "La garantie décennale est-elle obligatoire ?",
+        question: "La garantie décennale est-elle obligatoire en France ?",
 
         answer:
-          "Oui, elle est obligatoire pour les entreprises du bâtiment réalisant des travaux de construction.",
+          "Oui, la garantie décennale est obligatoire pour toutes les entreprises du bâtiment réalisant des travaux de construction en France, depuis la loi Spinetta de 1978. Elle doit être souscrite avant l’ouverture du chantier et couvre les dommages pendant 10 ans à compter de la réception des travaux. Travailler avec une entreprise non assurée expose le client à de graves risques financiers.",
       },
 
       {
         question: "Combien de temps dure la garantie décennale ?",
 
         answer:
-          "La garantie décennale couvre les travaux pendant 10 ans après réception du chantier.",
+          "La garantie décennale couvre les travaux pendant 10 ans après la réception du chantier (la date de signature du procès-verbal de réception). Elle prend effet dès la réception et court indépendamment de la durée de vie de l’entreprise. Même si l’entreprise a cessé son activité, l’assureur reste tenu d’indemniser les sinistres survenus dans ce délai.",
       },
     ],
 
@@ -1332,48 +1427,55 @@ export const articles = [
 
     content: {
       introduction:
-        "Choisir une entreprise de maçonnerie sérieuse est essentiel pour garantir des travaux durables et de qualité.",
+        "Choisir le bon maçon pour vos travaux en Isère est une décision importante qui conditionne la qualité, la durabilité et la sécurité de votre projet. Face à la multitude d’entreprises présentes sur le marché, il est parfois difficile de distinguer les professionnels sérieux des prestataires peu fiables. DZ Maçonnerie, entreprise locale basée dans le Nord-Isère, vous livre ses conseils pour sélectionner sereinement votre artisan maçon et éviter les mauvaises expériences.",
 
       sections: [
         {
           title: "Vérifier les assurances et garanties",
 
           content:
-            "Une entreprise sérieuse doit disposer d’une assurance décennale valide et fournir des devis détaillés.",
+            "La première chose à vérifier avant de confier vos travaux à un maçon est la validité de son assurance décennale. Cette assurance obligatoire protège vos travaux contre les malfaçons pendant 10 ans après la réception du chantier. Demandez l’attestation d’assurance décennale à jour et vérifiez que les travaux que vous souhaitez réaliser sont bien couverts par le contrat. Un maçon sérieux n’hésitera pas à vous fournir ce document dès la phase de devis. Méfiez-vous des entreprises qui refusent de communiquer leur attestation ou qui proposent des tarifs très inférieurs au marché sans justification.",
         },
 
         {
-          title: "Consulter les réalisations",
+          title: "Consulter les réalisations et les avis clients",
 
           content:
-            "Les photos de chantier et les avis clients permettent d’évaluer la qualité du travail réalisé.",
+            "Le meilleur indicateur de la qualité d’un maçon est son portfolio de réalisations concrètes. Demandez à voir des photos de chantiers similaires au vôtre et, si possible, à visiter une réalisation récente. Les avis Google et les témoignages de clients sur les réseaux sociaux sont également de bons indicateurs, à condition de prendre en compte l’ensemble des avis et non uniquement les plus récents. DZ Maçonnerie dispose d’un portfolio complet de réalisations en Isère et encourage ses clients à contacter d’anciens clients pour recueillir leur avis. La transparence est chez nous une valeur fondamentale.",
         },
 
         {
           title: "Privilégier une entreprise locale",
 
           content:
-            "Une entreprise locale connaît mieux les contraintes du terrain et les réglementations du secteur.",
+            "Choisir une entreprise de maçonnerie locale en Isère présente de nombreux avantages. Un artisan du secteur connaît parfaitement les spécificités des terrains locaux (argiles du Nord-Isère, risques géotechniques), les réglementations d’urbanisme communales et les fournisseurs de matériaux de la région. Il est également plus disponible pour les visites de chantier, plus réactif en cas de problème et plus facile à contacter après les travaux. DZ Maçonnerie intervient à Artas, Bourgoin-Jallieu, La Tour-du-Pin et dans tout le Nord-Isère avec une connaissance approfondie du territoire.",
+        },
+
+        {
+          title: "Analyser les devis en détail",
+
+          content:
+            "Un devis de maçonnerie sérieux doit détailler précisément les prestations prévues : nature des travaux, matériaux utilisés, épaisseurs, ferraillages, finitions et délais. Un devis trop laconique ou une offre globale sans détail doit vous alerter. Il est recommandé de demander au moins 2 à 3 devis pour comparer les approches techniques et les tarifs. Attention : le moins-disant n’est pas toujours le meilleur choix si la prestation proposée est moins complète ou si les matériaux utilisés sont de moins bonne qualité. DZ Maçonnerie établit des devis détaillés et transparents pour chaque projet.",
         },
       ],
 
       conclusion:
-        "Choisir un artisan maçon expérimenté permet de sécuriser votre projet et garantir des travaux durables.",
+        "Bien choisir son maçon en Isère est la garantie de travaux réalisés dans les règles de l’art, avec les matériaux adaptés et les garanties légales nécessaires. DZ Maçonnerie met à votre disposition son expérience, ses assurances et son expertise locale pour vous accompagner dans vos projets de maçonnerie et terrassement dans le Nord-Isère.",
     },
 
     faq: [
       {
-        question: "Comment savoir si un maçon est fiable ?",
+        question: "Comment savoir si un maçon est fiable en Isère ?",
 
         answer:
-          "Il est important de vérifier les assurances, les avis clients et les réalisations récentes.",
+          "Pour évaluer la fiabilité d’un maçon, vérifiez son assurance décennale à jour, consultez ses avis clients en ligne et demandez à voir des photos de réalisations récentes. Un professionnel sérieux n’hésitera pas à vous fournir des références et à visiter le chantier avant d’établir un devis précis. La transparence et la communication sont les meilleurs indicateurs de fiabilité.",
       },
 
       {
-        question: "Pourquoi demander plusieurs devis ?",
+        question: "Pourquoi demander plusieurs devis à des maçons en Isère ?",
 
         answer:
-          "Comparer plusieurs devis permet d’évaluer les prestations proposées et les tarifs.",
+          "Comparer plusieurs devis permet d’évaluer la cohérence des tarifs, la qualité des prestations proposées et l’approche technique de chaque entreprise. Un écart de prix important entre deux devis peut signaler une différence de qualité de matériaux ou de complétude de la prestation. Il est recommandé de demander au minimum 3 devis pour avoir une vision claire du marché local.",
       },
     ],
 
@@ -1984,7 +2086,7 @@ export const articles = [
     excerpt:
       "Après un terrassement, l’évacuation des terres est une étape essentielle pour garantir un chantier propre et sécurisé.",
 
-    image: "/images/blog/tractopelle-action.webp",
+    image: "/images/blog/evacuation-terres-chantier-particulier.webp",
 
     category: "Terrassement",
 
@@ -2380,7 +2482,7 @@ export const articles = [
     excerpt:
       "Découvrez comment rénover une maçonnerie ancienne tout en conservant la solidité et le charme du bâtiment.",
 
-    image: "/images/blog/maconnerie.webp",
+    image: "/images/blog/renovation-ouverture-mur-porteur-maison-ancienne.webp",
 
     category: "Rénovation",
 
