@@ -45,7 +45,7 @@ export default async function RealisationDetailPage({ params }: Props) {
 
       {/* BREADCRUMBS */}
       <nav aria-label="Fil d'Ariane" className="border-b border-gray-100 bg-gray-50 py-3">
-        <div className="mx-auto px-3">
+        <div className="mx-auto lg:px-8">
           <ol className="flex flex-wrap items-center gap-1 text-sm text-gray-500">
             <li>
               <Link href="/" className="transition hover:text-primary-600 hover:underline">Accueil</Link>
@@ -63,7 +63,7 @@ export default async function RealisationDetailPage({ params }: Props) {
       {/* GALERIE */}
       {galleryImages.length > 0 && (
         <section className="border-b border-gray-100 bg-gray-50 py-10">
-          <div className="mx-auto max-w-5xl px-6">
+          <div className="mx-auto max-w-8xl px-6 lg:px-8">
             <h2 className="mb-6 text-xl font-bold text-gray-900">
               Photos du chantier
             </h2>
@@ -86,7 +86,7 @@ export default async function RealisationDetailPage({ params }: Props) {
 
       {/* CONTENT */}
       <section className="section-padding bg-white">
-        <div className="mx-auto max-w-4xl px-6">
+        <div className="mx-auto max-w-8xl px-6 lg:px-8">
           <h2 className="mb-6 text-2xl font-bold text-gray-900">
             Détails du chantier
           </h2>

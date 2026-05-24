@@ -130,7 +130,7 @@ export default function ContactPage() {
         aria-label="Fil d'Ariane"
         className="border-b border-gray-100 bg-gray-50 py-3"
       >
-        <div className="mx-auto px-3">
+        <div className="mx-auto lg:px-8">
           <ol className="flex flex-wrap items-center gap-1 text-sm text-gray-500">
             <li>
               <Link
@@ -150,7 +150,7 @@ export default function ContactPage() {
 
       {/* CONTACT */}
       <section className="section-padding bg-white">
-        <div className="px-3 mx-auto">
+        <div className="mx-auto max-w-8xl px-6 lg:px-8">
           <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
             {/* INFOS */}
             <div className="space-y-6">
@@ -567,7 +567,7 @@ export default function ContactPage() {
 
       {/* BENEFITS */}
       <section className="section-padding bg-gray-50">
-        <div className="px-3 mx-auto">
+        <div className="mx-auto max-w-8xl px-6 lg:px-8">
           <h2 className="heading-md mb-12 text-center">
             Pourquoi nous contacter ?
           </h2>
@@ -629,7 +629,7 @@ export default function ContactPage() {
 
       {/* FINAL CTA */}
       <section className="hero-gradient py-16 text-white md:py-24">
-        <div className="px-3 mx-auto text-center">
+        <div className="mx-auto max-w-8xl px-6 lg:px-8 text-center">
           <h2 className="mb-4 text-4xl font-bold leading-tight md:text-5xl">
             Prêt à démarrer votre projet ?
           </h2>

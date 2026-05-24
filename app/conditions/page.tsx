@@ -53,7 +53,7 @@ export default function ConditionsUtilisation() {
         aria-label="Fil d'Ariane"
         className="border-b border-gray-100 bg-gray-50 py-3"
       >
-        <div className="mx-auto px-3">
+        <div className="mx-auto lg:px-8">
           <ol className="flex flex-wrap items-center gap-1 text-sm text-gray-500">
             <li>
               <Link
@@ -73,7 +73,7 @@ export default function ConditionsUtilisation() {
 
       {/* Content */}
       <section className="bg-white py-20">
-        <div className="mx-auto px-6">
+        <div className="mx-auto max-w-8xl px-6 lg:px-8">
           {/* INTRO */}
           <div className="mb-20">
             <span className="mb-4 inline-block rounded-full bg-primary-100 px-4 py-2 text-sm font-bold text-primary-700">
@@ -213,7 +213,7 @@ export default function ConditionsUtilisation() {
 
       {/* CTA FINAL */}
       <section className="hero-gradient py-12 md:py-16 text-white">
-        <div className="px-3 mx-auto text-center">
+        <div className="mx-auto max-w-8xl px-6 lg:px-8 text-center">
           <h2 className="text-2xl md:text-3xl font-bold mb-3">
             Besoin de clarifications ?
           </h2>

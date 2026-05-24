@@ -38,6 +38,8 @@ export type Service = {
 
   heroImage?: string;
 
+  galleryImages?: string[];
+
   seoTitle?: string;
 
   seoDescription?: string;

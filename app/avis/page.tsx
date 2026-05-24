@@ -82,7 +82,7 @@ export default function AvisPage() {
         aria-label="Fil d'Ariane"
         className="border-b border-gray-100 bg-gray-50 py-3"
       >
-        <div className="mx-auto px-3">
+        <div className="mx-auto lg:px-8">
           <ol className="flex flex-wrap items-center gap-1 text-sm text-gray-500">
             <li>
               <Link
@@ -102,7 +102,7 @@ export default function AvisPage() {
 
       {/* STATS */}
       <section className="section-padding bg-white">
-        <div className="mx-auto">
+        <div className="mx-auto max-w-8xl px-6 lg:px-8">
           <div className="mb-12 grid grid-cols-2 gap-6 lg:grid-cols-4">
             {stats.map((stat, idx) => (
               <div
@@ -393,7 +393,7 @@ export default function AvisPage() {
 
       {/* REVIEWS GRID */}
       <section className="section-padding bg-gray-50">
-        <div className="mx-auto">
+        <div className="mx-auto max-w-8xl px-6 lg:px-8">
           <h2 className="heading-md mb-12 text-center">
             Témoignages de nos clients
           </h2>
@@ -483,7 +483,7 @@ export default function AvisPage() {
 
       {/* WHY CHOOSE US */}
       <section className="section-padding bg-white">
-        <div className="px-3 mx-auto">
+        <div className="mx-auto max-w-8xl px-6 lg:px-8">
           <h2 className="heading-md mb-12 text-center">
             Pourquoi nos clients nous choisissent
           </h2>
@@ -536,7 +536,7 @@ export default function AvisPage() {
 
       {/* CTA */}
       <section className="section-padding bg-gray-950 text-white">
-        <div className="px-3 mx-auto max-w-4xl text-center">
+        <div className="mx-auto max-w-8xl px-6 lg:px-8 text-center">
           <div
             className="
               rounded-3xl
@@ -626,7 +626,7 @@ export default function AvisPage() {
 
       {/* FINAL CTA */}
       <section className="hero-gradient py-16 text-white md:py-24">
-        <div className="px-3 mx-auto text-center">
+        <div className="mx-auto max-w-8xl px-6 lg:px-8 text-center">
           <h2
             className="
               mb-4

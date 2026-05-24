@@ -150,7 +150,7 @@ export default async function BlogArticlePage({ params }: Props) {
             flex items-center
           "
           >
-            <div className="px-3 mx-auto">
+            <div className="mx-auto max-w-8xl px-6 lg:px-8">
               <div className="max-w-8xl text-white">
                 <span
                   className="
@@ -221,7 +221,7 @@ export default async function BlogArticlePage({ params }: Props) {
           aria-label="Fil d'Ariane"
           className="border-b border-gray-100 bg-gray-50 py-3"
         >
-          <div className="mx-auto px-3">
+          <div className="mx-auto lg:px-8">
             <ol className="flex flex-wrap items-center gap-1 text-sm text-gray-500">
               <li>
                 <Link
@@ -253,8 +253,8 @@ export default async function BlogArticlePage({ params }: Props) {
 
         {/* ARTICLE */}
         <section className="section-padding">
-          <div className="px-3 mx-auto">
-            <div className="mx-auto max-w-7xl">
+          <div className="mx-auto max-w-8xl px-6 lg:px-8">
+            <div className="mx-auto max-w-8xl">
               {/* HERO ARTICLE */}
               <h2
                 className="

@@ -85,11 +85,7 @@ export default async function ServicePage(props: ServicePageProps) {
         badge={`Services • ${business.city} • Nord-Isère`}
         title={service.name}
         description={service.description}
-        image={
-          service.heroImage ||
-          service.image ||
-          "/images/realisations/chantier_maçonnerie.avif"
-        }
+        image="/images/realisations/chantier_maçonnerie.avif"
         imageAlt={service.name}
         primaryButtonText="Demander un devis"
         primaryButtonHref="/contact"
@@ -119,7 +115,7 @@ export default async function ServicePage(props: ServicePageProps) {
         aria-label="Fil d'Ariane"
         className="border-b border-gray-100 bg-gray-50 py-3"
       >
-        <div className="mx-auto px-3">
+        <div className="mx-auto lg:px-8">
           <ol className="flex flex-wrap items-center gap-1 text-sm text-gray-500">
             <li>
               <Link
@@ -148,7 +144,7 @@ export default async function ServicePage(props: ServicePageProps) {
 
       {/* Content */}
       <section className="section-padding bg-white">
-        <div className="px-3 mx-auto max-w-3xl">
+        <div className="mx-auto max-w-8xl px-6 lg:px-8">
           <div className="prose prose-lg max-w-none mb-12">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">
               {service.name}
@@ -163,7 +159,7 @@ export default async function ServicePage(props: ServicePageProps) {
             <h2 className="text-2xl font-bold text-gray-900 mb-8">
               Avantages de notre service
             </h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 ">
               {[
                 "Expertise reconnue depuis 10 ans",
                 "Équipe qualifiée et expérimentée",
@@ -174,10 +170,28 @@ export default async function ServicePage(props: ServicePageProps) {
               ].map((benefit, idx) => (
                 <div
                   key={idx}
-                  className="flex gap-4 p-4 bg-primary-50 rounded-lg hover:bg-primary-100 transition-colors"
+                  className="
+  inline-flex
+  items-center
+  gap-3
+  rounded-2xl
+  border
+  border-primary-600
+  bg-primary-600
+  px-6
+  py-4
+  font-semibold
+  text-white
+  shadow-lg
+  transition-all
+  duration-300
+  hover:-translate-y-1
+  hover:bg-primary-700
+  hover:shadow-2xl
+"
                 >
-                  <CheckCircle className="w-6 h-6 text-primary-600 flex-shrink-0 mt-0.5" />
-                  <span className="text-gray-700">{benefit}</span>
+                  <CheckCircle className="w-6 h-6 text-white flex-shrink-0 mt-0.5" />
+                  <span className="text-white-700">{benefit}</span>
                 </div>
               ))}
             </div>
@@ -189,8 +203,8 @@ export default async function ServicePage(props: ServicePageProps) {
               Intervention dans votre région
             </h2>
             <p className="text-gray-600 mb-6">
-              Nous intervenons dans plus de 26 villes autour d'Artas et
-              Bourgoin-Jallieu
+              Nous intervenons dans plus de {cities.length} villes autour
+              d'Artas et Bourgoin-Jallieu
             </p>
             <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
               {cities.slice(0, 9).map((city) => (
@@ -203,8 +217,8 @@ export default async function ServicePage(props: ServicePageProps) {
                 </Link>
               ))}
               <Link
-                href={`/services/${service.slug}`}
-                className="p-3 border border-primary-200 rounded-lg bg-primary-50 hover:bg-primary-100 transition-all font-medium text-primary-600 text-center col-span-2 md:col-span-3"
+                href="/villes"
+                className="p-3 border rounded-2xl border-primary-800  bg-primary-600 hover:bg-primary-700 transition-all font-medium text-white text-center col-span-2 md:col-span-3"
               >
                 Voir tous les secteurs d'intervention
               </Link>
@@ -255,7 +269,7 @@ export default async function ServicePage(props: ServicePageProps) {
 
       {/* CTA Box */}
       <section className="section-padding bg-primary-50">
-        <div className="px-3 mx-auto max-w-3xl">
+        <div className="mx-auto max-w-8xl px-6 lg:px-8">
           <div className="bg-white p-8 rounded-xl border-2 border-primary-200 shadow-lg">
             <h2 className="text-2xl font-bold text-gray-900 mb-4">
               Vous avez un projet de {service.name.toLowerCase()} ?
@@ -281,7 +295,7 @@ export default async function ServicePage(props: ServicePageProps) {
 
       {/* CTA Section */}
       <section className="hero-gradient py-16 md:py-24 text-white">
-        <div className="px-3 mx-auto text-center">
+        <div className="mx-auto max-w-8xl px-6 lg:px-8 text-center">
           <h2 className="heading-md mb-4 text-white">
             Besoin d'un expert en {service.name.toLowerCase()} ?
           </h2>

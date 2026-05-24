@@ -97,7 +97,7 @@ export default async function CityPage(props: CityPageProps) {
         aria-label="Fil d'Ariane"
         className="border-b border-gray-100 bg-gray-50 py-3"
       >
-        <div className="mx-auto px-3">
+        <div className="mx-auto lg:px-8">
           <ol className="flex flex-wrap items-center gap-1 text-sm text-gray-500">
             <li>
               <Link
@@ -117,7 +117,7 @@ export default async function CityPage(props: CityPageProps) {
 
       {/* Content */}
       <section className="section-padding bg-white">
-        <div className="px-3 mx-auto max-w-3xl">
+        <div className="mx-auto max-w-8xl px-6 lg:px-8">
           <div className="mb-12">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">
               Maçon expert à {city.name}
@@ -258,7 +258,7 @@ export default async function CityPage(props: CityPageProps) {
 
       {/* CTA Box */}
       <section className="section-padding bg-gradient-to-r from-primary-50 to-primary-100">
-        <div className="px-3 mx-auto max-w-3xl">
+        <div className="mx-auto max-w-8xl px-6 lg:px-8">
           <div className="bg-white p-8 rounded-xl border-2 border-primary-200 shadow-lg">
             <h2 className="text-2xl font-bold text-gray-900 mb-4">
               Vous avez un projet à {city.name} ?
@@ -285,7 +285,7 @@ export default async function CityPage(props: CityPageProps) {
 
       {/* Final CTA */}
       <section className="hero-gradient py-16 md:py-24 text-white">
-        <div className="px-3 mx-auto text-center">
+        <div className="mx-auto max-w-8xl px-6 lg:px-8 text-center">
           <h2 className="text-4xl md:text-5xl font-bold mb-4 leading-tight">
             Maçon professionnel à {city.name}
           </h2>

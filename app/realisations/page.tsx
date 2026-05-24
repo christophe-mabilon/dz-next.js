@@ -107,7 +107,7 @@ export default function RealisationsPage() {
 
       {/* BREADCRUMBS */}
       <nav aria-label="Fil d'Ariane" className="border-b border-gray-100 bg-gray-50 py-3">
-        <div className="mx-auto px-3">
+        <div className="mx-auto lg:px-8">
           <ol className="flex flex-wrap items-center gap-1 text-sm text-gray-500">
             <li>
               <Link href="/" className="transition hover:text-primary-600 hover:underline">
@@ -124,7 +124,7 @@ export default function RealisationsPage() {
 
       {/* INTRO */}
       <section className="py-16">
-        <div className="mx-auto max-w-7xl px-6 lg:px-8">
+        <div className="mx-auto max-w-8xl px-6 lg:px-8">
           <div className="max-w-4xl">
             <h2 className="text-3xl font-bold text-zinc-900">
               Des chantiers réels réalisés en Nord-Isère
@@ -144,7 +144,7 @@ export default function RealisationsPage() {
 
       {/* GRID */}
       <section className="pb-24">
-        <div className="mx-auto max-w-7xl px-6 lg:px-8">
+        <div className="mx-auto max-w-8xl px-6 lg:px-8">
           <div className="grid gap-8 md:grid-cols-2 xl:grid-cols-3">
             {realisations.map((project) => (
               <article
@@ -229,7 +229,7 @@ export default function RealisationsPage() {
 
       {/* CTA */}
       <section className="bg-zinc-100 py-20">
-        <div className="mx-auto max-w-4xl px-6 text-center lg:px-8">
+        <div className="mx-auto max-w-8xl px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold text-zinc-900">
             Vous avez un projet de maçonnerie ou terrassement ?
           </h2>
