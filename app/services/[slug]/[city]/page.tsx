@@ -86,33 +86,6 @@ export default async function CombinedServiceCityPage(
         }}
       />
 
-      {/* Breadcrumbs */}
-      <div className="bg-white border-b border-gray-200">
-        <div className="container mx-auto py-4">
-          <div className="flex items-center gap-2 text-sm flex-wrap">
-            <Link href="/" className="text-primary-600 hover:text-primary-700">
-              Accueil
-            </Link>
-            <span className="text-gray-400">/</span>
-            <Link
-              href="/services"
-              className="text-primary-600 hover:text-primary-700"
-            >
-              Services
-            </Link>
-            <span className="text-gray-400">/</span>
-            <Link
-              href={`/services/${service.slug}`}
-              className="text-primary-600 hover:text-primary-700"
-            >
-              {service.name}
-            </Link>
-            <span className="text-gray-400">/</span>
-            <span className="text-gray-700 font-medium">{cityData.name}</span>
-          </div>
-        </div>
-      </div>
-
       {/* Hero */}
       <section className="hero-gradient relative overflow-hidden py-20 md:py-32 text-white">
         <div className="container mx-auto">
@@ -125,6 +98,21 @@ export default async function CombinedServiceCityPage(
           </p>
         </div>
       </section>
+
+      {/* BREADCRUMBS */}
+      <nav aria-label="Fil d'Ariane" className="border-b border-gray-100 bg-gray-50 py-3">
+        <div className="mx-auto px-3">
+          <ol className="flex flex-wrap items-center gap-1 text-sm text-gray-500">
+            <li><Link href="/" className="transition hover:text-primary-600 hover:underline">Accueil</Link></li>
+            <li className="select-none px-1 text-gray-400">/</li>
+            <li><Link href="/services" className="transition hover:text-primary-600 hover:underline">Services</Link></li>
+            <li className="select-none px-1 text-gray-400">/</li>
+            <li><Link href={`/services/${service.slug}`} className="transition hover:text-primary-600 hover:underline">{service.name}</Link></li>
+            <li className="select-none px-1 text-gray-400">/</li>
+            <li className="font-medium text-gray-800" aria-current="page">{cityData.name}</li>
+          </ol>
+        </div>
+      </nav>
 
       {/* Content */}
       <section className="section-padding bg-white">

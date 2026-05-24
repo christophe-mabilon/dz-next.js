@@ -18,7 +18,7 @@ export const siteConfig: SiteConfig = {
     description:
       "Expert en maçonnerie générale, terrassement, dalle béton, rénovation et extension maison en Isère.",
 
-    phone: "+33688144257",
+    phone: "+336.88.14.42.57",
 
     email: "dz.maconnerie38@gmail.com",
 

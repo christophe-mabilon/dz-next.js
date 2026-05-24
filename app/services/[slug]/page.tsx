@@ -79,25 +79,6 @@ export default async function ServicePage(props: ServicePageProps) {
         }}
       />
 
-      {/* Breadcrumbs */}
-      <div className="bg-white border-b border-gray-200">
-        <div className="container mx-auto py-4">
-          <div className="flex items-center gap-2 text-sm">
-            {breadcrumbs.map((crumb, idx) => (
-              <div key={crumb.url} className="flex items-center gap-2">
-                {idx > 0 && <span className="text-gray-400">/</span>}
-                <Link
-                  href={crumb.url}
-                  className="text-primary-600 hover:text-primary-700"
-                >
-                  {crumb.name}
-                </Link>
-              </div>
-            ))}
-          </div>
-        </div>
-      </div>
-
       {/* Hero */}
       <section className="hero-gradient relative overflow-hidden py-20 md:py-32 text-white">
         <div className="container mx-auto">
@@ -116,6 +97,19 @@ export default async function ServicePage(props: ServicePageProps) {
           </p>
         </div>
       </section>
+
+      {/* BREADCRUMBS */}
+      <nav aria-label="Fil d'Ariane" className="border-b border-gray-100 bg-gray-50 py-3">
+        <div className="mx-auto px-3">
+          <ol className="flex flex-wrap items-center gap-1 text-sm text-gray-500">
+            <li><Link href="/" className="transition hover:text-primary-600 hover:underline">Accueil</Link></li>
+            <li className="select-none px-1 text-gray-400">/</li>
+            <li><Link href="/services" className="transition hover:text-primary-600 hover:underline">Services</Link></li>
+            <li className="select-none px-1 text-gray-400">/</li>
+            <li className="font-medium text-gray-800" aria-current="page">{service.name}</li>
+          </ol>
+        </div>
+      </nav>
 
       {/* Content */}
       <section className="section-padding bg-white">

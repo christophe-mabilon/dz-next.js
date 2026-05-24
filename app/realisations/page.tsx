@@ -137,6 +137,18 @@ export default function RealisationsPage() {
           },
         ]}
       />
+
+      {/* BREADCRUMBS */}
+      <nav aria-label="Fil d'Ariane" className="border-b border-gray-100 bg-gray-50 py-3">
+        <div className="mx-auto px-3">
+          <ol className="flex flex-wrap items-center gap-1 text-sm text-gray-500">
+            <li><Link href="/" className="transition hover:text-primary-600 hover:underline">Accueil</Link></li>
+            <li className="select-none px-1 text-gray-400">/</li>
+            <li className="font-medium text-gray-800" aria-current="page">Réalisations</li>
+          </ol>
+        </div>
+      </nav>
+
       {/* INTRO */}
       <section className="py-16">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">

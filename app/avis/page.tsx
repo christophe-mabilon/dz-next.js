@@ -77,6 +77,17 @@ export default function AvisPage() {
         ]}
       />
 
+      {/* BREADCRUMBS */}
+      <nav aria-label="Fil d'Ariane" className="border-b border-gray-100 bg-gray-50 py-3">
+        <div className="mx-auto px-3">
+          <ol className="flex flex-wrap items-center gap-1 text-sm text-gray-500">
+            <li><Link href="/" className="transition hover:text-primary-600 hover:underline">Accueil</Link></li>
+            <li className="select-none px-1 text-gray-400">/</li>
+            <li className="font-medium text-gray-800" aria-current="page">Avis clients</li>
+          </ol>
+        </div>
+      </nav>
+
       {/* STATS */}
       <section className="section-padding bg-white">
         <div className="mx-auto">

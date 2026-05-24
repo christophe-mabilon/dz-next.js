@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
-
+import Link from "next/link";
 import { articles } from "@/data/blog";
 import { siteConfig } from "@/data/config";
 import {
@@ -126,41 +126,6 @@ export default async function BlogArticlePage({ params }: Props) {
         />
       )}
       <main className="bg-white">
-        {/* BREADCRUMBS */}
-        <nav
-          aria-label="Fil d'Ariane"
-          className="border-b border-gray-100 bg-gray-50 py-3"
-        >
-          <div className="container mx-auto">
-            <ol className="flex flex-wrap items-center gap-1 text-sm text-gray-500">
-              <li>
-                <a
-                  href="/"
-                  className="transition hover:text-primary-600 hover:underline"
-                >
-                  Accueil
-                </a>
-              </li>
-              <li className="select-none px-1 text-gray-400">/</li>
-              <li>
-                <a
-                  href="/blog"
-                  className="transition hover:text-primary-600 hover:underline"
-                >
-                  Blog
-                </a>
-              </li>
-              <li className="select-none px-1 text-gray-400">/</li>
-              <li
-                className="max-w-xs truncate font-medium text-gray-800 sm:max-w-md lg:max-w-none"
-                aria-current="page"
-              >
-                {article.title}
-              </li>
-            </ol>
-          </div>
-        </nav>
-
         {/* HERO */}
         <section
           className="
@@ -251,23 +216,37 @@ export default async function BlogArticlePage({ params }: Props) {
           </div>
         </section>
 
+        {/* BREADCRUMBS */}
+        <nav aria-label="Fil d'Ariane" className="border-b border-gray-100 bg-gray-50 py-3">
+          <div className="mx-auto px-3">
+            <ol className="flex flex-wrap items-center gap-1 text-sm text-gray-500">
+              <li><Link href="/" className="transition hover:text-primary-600 hover:underline">Accueil</Link></li>
+              <li className="select-none px-1 text-gray-400">/</li>
+              <li><Link href="/blog" className="transition hover:text-primary-600 hover:underline">Blog</Link></li>
+              <li className="select-none px-1 text-gray-400">/</li>
+              <li className="max-w-xs truncate font-medium text-gray-800 sm:max-w-md lg:max-w-none" aria-current="page">{article.title}</li>
+            </ol>
+          </div>
+        </nav>
+
         {/* ARTICLE */}
         <section className="section-padding">
           <div className="container mx-auto">
             <div className="mx-auto max-w-7xl">
               {/* HERO ARTICLE */}
               <h2
-                    className="
+                className="
               mb-6
               text-3xl
               font-black
               text-primary-600
               md:text-4xl
             "
-                  >
-                    À savoir avant vos travaux
-                  </h2>
-                  <hr className="mb-6 border-gray-200" /><div
+              >
+                À savoir avant vos travaux
+              </h2>
+              <hr className="mb-6 border-gray-200" />
+              <div
                 className="
           mb-16
           grid
@@ -279,7 +258,6 @@ export default async function BlogArticlePage({ params }: Props) {
               >
                 {/* IMAGE */}
                 <div>
-                  
                   <Image
                     src={article.image}
                     alt={article.title}

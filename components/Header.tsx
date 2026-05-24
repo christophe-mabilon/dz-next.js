@@ -94,7 +94,7 @@ export function Header() {
 
       {/* HEADER */}
       <header className="sticky top-0 z-50 border-b border-white/10 bg-gray-950/95 backdrop-blur">
-        <div className="container mx-auto">
+        <div className="mx-auto px-3">
           <div className="flex h-20 items-center justify-between">
             {/* LOGO */}
             <Link href="/" className="flex items-center gap-4">
