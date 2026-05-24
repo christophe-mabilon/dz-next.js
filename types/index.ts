@@ -298,7 +298,16 @@ export type SiteConfig = {
 
     coordinates?: GeoCoordinates;
 
-    openingHours?: string[];
+    openingHoursSpecification?: {
+      dayOfWeek: string;
+      opens: string;
+      closes: string;
+    }[];
+
+    openingHoursDisplay?: {
+      day: string;
+      hours: string;
+    }[];
 
     paymentMethods?: string[];
 

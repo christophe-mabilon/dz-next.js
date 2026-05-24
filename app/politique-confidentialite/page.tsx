@@ -8,8 +8,8 @@ import HeroSection from "@/components/sections/hero/HeroSection";
 const { business } = siteConfig;
 
 export const metadata: Metadata = generatePageMetadata(
-  "Politique de confidentialité | DZ Maçonnerie",
-  "Politique de confidentialité et protection des données personnelles de ${business.name}.",
+  `Politique de confidentialité | ${business.name}`,
+  `Politique de confidentialité et protection des données personnelles de ${business.name}.`,
   "/politique-confidentialite",
   `${siteConfig.siteUrl}/og-privacy.jpg`,
 );
@@ -19,12 +19,12 @@ export default function PolitiqueConfidentialite() {
     <>
       {/* Hero */}
       <HeroSection
-        badge="Informations légales • DZ Maçonnerie"
+        badge={`Informations légales • ${business.name}`}
         title="Politique de"
         highlight="Confidentialité"
-        description="Consultez la politique de confidentialité de ${business.name} concernant la collecte, l’utilisation et la protection des données personnelles."
+        description={`Consultez la politique de confidentialité de ${business.name} concernant la collecte, l'utilisation et la protection des données personnelles.`}
         image="/images/realisations/chantier_maçonnerie.avif"
-        imageAlt="Politique de confidentialité DZ Maçonnerie"
+        imageAlt={`Politique de confidentialité ${business.name}`}
         primaryButtonText="Nous contacter"
         primaryButtonHref="/contact"
         secondaryButtonText={business.phone.replace("+33", "0")}
@@ -35,17 +35,15 @@ export default function PolitiqueConfidentialite() {
             title: "Protection des données",
             description: "Respect de votre vie privée et de vos informations.",
           },
-
           {
             icon: "star",
             title: "Transparence",
-            description: "Informations claires sur l’utilisation des données.",
+            description: "Informations claires sur l'utilisation des données.",
           },
-
           {
             icon: "hammer",
             title: "Entreprise locale",
-            description: "${business.name} en Nord-Isère.",
+            description: `${business.name} en Nord-Isère.`,
           },
         ]}
       />
@@ -75,11 +73,11 @@ export default function PolitiqueConfidentialite() {
 
       {/* Content */}
       <section className="bg-white py-20">
-        <div className="px-3 mx-auto">
+        <div className="mx-auto px-6">
           {/* INTRO */}
           <div className="mb-16">
             <span className="mb-4 inline-block rounded-full bg-primary-100 px-4 py-2 text-sm font-bold text-primary-700">
-              RGPD & CONFIDENTIALITÉ
+              RGPD &amp; CONFIDENTIALITÉ
             </span>
 
             <h2 className="mb-6 text-4xl font-black text-gray-900">
@@ -87,7 +85,7 @@ export default function PolitiqueConfidentialite() {
             </h2>
 
             <p className="max-w-4xl text-base leading-relaxed text-gray-600">
-              ${business.name} accorde une importance particulière à la
+              {business.name} accorde une importance particulière à la
               protection des données personnelles et au respect de votre vie
               privée conformément au Règlement Général sur la Protection des
               Données (RGPD).
@@ -96,20 +94,18 @@ export default function PolitiqueConfidentialite() {
 
           {/* SECTIONS */}
           <div className="space-y-20">
-            {/* SECTION */}
             <div>
               <h3 className="mb-6 text-3xl font-black text-gray-900">
                 1. Introduction
               </h3>
 
               <p className="text-base leading-relaxed text-gray-600">
-                ${business.name} s’engage à assurer la confidentialité des
+                {business.name} s&apos;engage à assurer la confidentialité des
                 informations collectées sur le site et à protéger les données
                 personnelles des utilisateurs.
               </p>
             </div>
 
-            {/* SECTION */}
             <div>
               <h3 className="mb-6 text-3xl font-black text-gray-900">
                 2. Données collectées
@@ -126,22 +122,19 @@ export default function PolitiqueConfidentialite() {
                     title: "Informations de contact",
                     description: "Nom, prénom, email, téléphone et adresse.",
                   },
-
                   {
                     title: "Informations projet",
                     description:
                       "Description des travaux et informations liées au chantier.",
                   },
-
                   {
                     title: "Données de navigation",
                     description: "Adresse IP, navigateur et pages consultées.",
                   },
-
                   {
                     title: "Cookies",
                     description:
-                      "Amélioration de l’expérience utilisateur et statistiques.",
+                      "Amélioration de l'expérience utilisateur et statistiques.",
                   },
                 ].map((item) => (
                   <div
@@ -151,7 +144,6 @@ export default function PolitiqueConfidentialite() {
                     <h4 className="mb-4 text-xl font-bold text-gray-900">
                       {item.title}
                     </h4>
-
                     <p className="leading-relaxed text-gray-600">
                       {item.description}
                     </p>
@@ -160,7 +152,6 @@ export default function PolitiqueConfidentialite() {
               </div>
             </div>
 
-            {/* SECTION */}
             <div>
               <h3 className="mb-6 text-3xl font-black text-gray-900">
                 3. Utilisation des données
@@ -182,21 +173,19 @@ export default function PolitiqueConfidentialite() {
                     className="flex items-center rounded-2xl border border-gray-100 bg-gray-50 px-6 py-5"
                   >
                     <div className="mr-4 h-3 w-3 rounded-full bg-primary-500" />
-
                     <p className="font-medium text-gray-700">{item}</p>
                   </div>
                 ))}
               </div>
             </div>
 
-            {/* SECTION */}
             <div>
               <h3 className="mb-6 text-3xl font-black text-gray-900">
                 4. Sécurité des données
               </h3>
 
               <p className="text-base leading-relaxed text-gray-600">
-                ${business.name} met en œuvre les mesures nécessaires afin de
+                {business.name} met en œuvre les mesures nécessaires afin de
                 garantir la sécurité et la confidentialité des données
                 personnelles.
               </p>
@@ -209,8 +198,8 @@ export default function PolitiqueConfidentialite() {
               </h3>
 
               <p className="max-w-3xl text-base leading-relaxed text-primary-100">
-                Contactez ${business.name} pour toute demande relative à vos
-                données personnelles ou à l’exercice de vos droits RGPD.
+                Contactez {business.name} pour toute demande relative à vos
+                données personnelles ou à l&apos;exercice de vos droits RGPD.
               </p>
 
               <div className="mt-8 flex flex-col gap-4 sm:flex-row">
@@ -234,7 +223,7 @@ export default function PolitiqueConfidentialite() {
         </div>
       </section>
 
-      {/* CTA */}
+      {/* CTA FINAL */}
       <section className="hero-gradient py-12 md:py-16 text-white">
         <div className="px-3 mx-auto text-center">
           <h2 className="text-2xl md:text-3xl font-bold mb-3">

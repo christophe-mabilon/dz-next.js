@@ -101,14 +101,14 @@ export function generateLocalBusinessSchema() {
       })) || [],
 
     openingHoursSpecification:
-      siteConfig.business.openingHours?.map((hours) => ({
+      siteConfig.business.openingHoursSpecification?.map((item) => ({
         "@type": "OpeningHoursSpecification",
 
-        opens: hours.split(" ")[1]?.split("-")[0],
+        dayOfWeek: item.dayOfWeek,
 
-        closes: hours.split(" ")[1]?.split("-")[1],
+        opens: item.opens,
 
-        dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+        closes: item.closes,
       })) || [],
 
     hasOfferCatalog: {

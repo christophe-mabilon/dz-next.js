@@ -4,10 +4,12 @@ import { ArrowRight } from "lucide-react";
 import { generateMetadata as generatePageMetadata } from "@/lib/seo";
 import { siteConfig } from "@/data/config";
 import HeroSection from "@/components/sections/hero/HeroSection";
+
 const { business } = siteConfig;
+
 export const metadata: Metadata = generatePageMetadata(
-  "Conditions d'utilisation | DZ Maçonnerie",
-  "Conditions d'utilisation du site ${business.name}.",
+  `Conditions d'utilisation | ${business.name}`,
+  `Conditions d'utilisation du site ${business.name}.`,
   "/conditions",
   `${siteConfig.siteUrl}/og-conditions.jpg`,
 );
@@ -17,12 +19,12 @@ export default function ConditionsUtilisation() {
     <>
       {/* Hero */}
       <HeroSection
-        badge="Conditions d’utilisation • DZ Maçonnerie"
+        badge={`Conditions d'utilisation • ${business.name}`}
         title="Conditions"
-        highlight="D’utilisation"
-        description="Consultez les conditions générales d’utilisation du site ${business.name} ainsi que les règles applicables à la navigation et à l’utilisation des contenus."
+        highlight="D'utilisation"
+        description={`Consultez les conditions générales d'utilisation du site ${business.name} ainsi que les règles applicables à la navigation et à l'utilisation des contenus.`}
         image="/images/realisations/chantier_maçonnerie.avif"
-        imageAlt="Conditions d’utilisation DZ Maçonnerie"
+        imageAlt={`Conditions d'utilisation ${business.name}`}
         primaryButtonText="Nous contacter"
         primaryButtonHref="/contact"
         secondaryButtonText={business.phone.replace("+33", "0")}
@@ -33,17 +35,15 @@ export default function ConditionsUtilisation() {
             title: "Utilisation sécurisée",
             description: "Navigation et accès au site encadrés.",
           },
-
           {
             icon: "star",
             title: "Transparence",
             description: "Conditions claires et accessibles.",
           },
-
           {
             icon: "hammer",
             title: "Entreprise locale",
-            description: "${business.name} en Isère.",
+            description: `${business.name} en Isère.`,
           },
         ]}
       />
@@ -73,27 +73,26 @@ export default function ConditionsUtilisation() {
 
       {/* Content */}
       <section className="bg-white py-20">
-        <div className="px-3 mx-auto px-6">
+        <div className="mx-auto px-6">
           {/* INTRO */}
           <div className="mb-20">
             <span className="mb-4 inline-block rounded-full bg-primary-100 px-4 py-2 text-sm font-bold text-primary-700">
-              CONDITIONS D’UTILISATION
+              CONDITIONS D&apos;UTILISATION
             </span>
 
             <h2 className="mb-6 text-4xl font-black text-gray-900">
-              Conditions générales d’utilisation
+              Conditions générales d&apos;utilisation
             </h2>
 
             <p className="max-w-4xl text-base leading-relaxed text-gray-600">
-              L’utilisation du site ${business.name} implique l’acceptation
+              L&apos;utilisation du site {business.name} implique l&apos;acceptation
               pleine et entière des présentes conditions générales
-              d’utilisation.
+              d&apos;utilisation.
             </p>
           </div>
 
           {/* SECTIONS */}
           <div className="space-y-20">
-            {/* SECTION */}
             <div>
               <h3 className="mb-6 text-3xl font-black text-gray-900">
                 1. Objet du site
@@ -101,13 +100,12 @@ export default function ConditionsUtilisation() {
 
               <p className="text-base leading-relaxed text-gray-600">
                 Le site présente les activités, services et réalisations de DZ
-                Maçonnerie & Terrassement dans le domaine de la maçonnerie
+                Maçonnerie &amp; Terrassement dans le domaine de la maçonnerie
                 générale, du terrassement, de la rénovation et des extensions de
                 maison.
               </p>
             </div>
 
-            {/* SECTION */}
             <div>
               <h3 className="mb-6 text-3xl font-black text-gray-900">
                 2. Accès au site
@@ -121,7 +119,6 @@ export default function ConditionsUtilisation() {
               </div>
             </div>
 
-            {/* SECTION */}
             <div>
               <h3 className="mb-6 text-3xl font-black text-gray-900">
                 3. Utilisation des contenus
@@ -139,19 +136,16 @@ export default function ConditionsUtilisation() {
                     description:
                       "Toute reproduction sans autorisation est interdite.",
                   },
-
                   {
                     title: "Images et réalisations",
                     description:
                       "Les photos de chantiers restent la propriété de DZ Maçonnerie.",
                   },
-
                   {
                     title: "Utilisation du site",
                     description:
                       "Le site doit être utilisé dans un cadre légal et respectueux.",
                   },
-
                   {
                     title: "Protection des données",
                     description:
@@ -165,7 +159,6 @@ export default function ConditionsUtilisation() {
                     <h4 className="mb-4 text-xl font-bold text-gray-900">
                       {item.title}
                     </h4>
-
                     <p className="leading-relaxed text-gray-600">
                       {item.description}
                     </p>
@@ -174,15 +167,14 @@ export default function ConditionsUtilisation() {
               </div>
             </div>
 
-            {/* SECTION */}
             <div>
               <h3 className="mb-6 text-3xl font-black text-gray-900">
                 4. Responsabilité
               </h3>
 
               <p className="text-base leading-relaxed text-gray-600">
-                ${business.name} ne saurait être tenu responsable d’éventuels
-                dommages liés à l’utilisation du site ou à une interruption
+                {business.name} ne saurait être tenu responsable d&apos;éventuels
+                dommages liés à l&apos;utilisation du site ou à une interruption
                 temporaire des services.
               </p>
             </div>
@@ -190,12 +182,12 @@ export default function ConditionsUtilisation() {
             {/* CTA */}
             <div className="rounded-3xl bg-primary-500 p-10 text-white">
               <h3 className="mb-4 text-3xl font-black">
-                Une question concernant les conditions d’utilisation ?
+                Une question concernant les conditions d&apos;utilisation ?
               </h3>
 
               <p className="max-w-3xl text-base leading-relaxed text-primary-100">
-                Contactez ${business.name} pour toute information complémentaire
-                concernant l’utilisation du site.
+                Contactez {business.name} pour toute information complémentaire
+                concernant l&apos;utilisation du site.
               </p>
 
               <div className="mt-8 flex flex-col gap-4 sm:flex-row">
@@ -219,7 +211,7 @@ export default function ConditionsUtilisation() {
         </div>
       </section>
 
-      {/* CTA */}
+      {/* CTA FINAL */}
       <section className="hero-gradient py-12 md:py-16 text-white">
         <div className="px-3 mx-auto text-center">
           <h2 className="text-2xl md:text-3xl font-bold mb-3">

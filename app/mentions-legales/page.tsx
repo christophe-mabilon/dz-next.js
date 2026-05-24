@@ -77,7 +77,7 @@ export default function MentionsLegales() {
 
       {/* Content */}
       <section className="bg-white py-20">
-        <div className="px-3 mx-auto px-6">
+        <div className="mx-auto px-6">
           {/* INTRO */}
           <div className="mb-20">
             <span className="mb-4 inline-block rounded-full bg-primary-100 px-4 py-2 text-sm font-bold text-primary-700">

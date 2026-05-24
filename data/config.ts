@@ -1,5 +1,62 @@
 import { SiteConfig } from "@/types";
+export const openingHoursSpecification = [
+  {
+    dayOfWeek: "Monday",
+    opens: "09:00",
+    closes: "17:00",
+  },
 
+  {
+    dayOfWeek: "Tuesday",
+    opens: "09:00",
+    closes: "17:00",
+  },
+
+  {
+    dayOfWeek: "Wednesday",
+    opens: "09:00",
+    closes: "17:00",
+  },
+
+  {
+    dayOfWeek: "Thursday",
+    opens: "09:00",
+    closes: "17:00",
+  },
+
+  {
+    dayOfWeek: "Friday",
+    opens: "09:00",
+    closes: "17:00",
+  },
+];
+
+export const openingHoursDisplay = [
+  {
+    day: "Lundi",
+    hours: "09h00 - 17h00",
+  },
+
+  {
+    day: "Mardi",
+    hours: "09h00 - 17h00",
+  },
+
+  {
+    day: "Mercredi",
+    hours: "09h00 - 17h00",
+  },
+
+  {
+    day: "Jeudi",
+    hours: "09h00 - 17h00",
+  },
+
+  {
+    day: "Vendredi",
+    hours: "09h00 - 17h00",
+  },
+];
 export const siteConfig: SiteConfig = {
   siteName: "DZ Maçonnerie & Terrassement",
   siteDescription:
@@ -32,13 +89,8 @@ export const siteConfig: SiteConfig = {
 
     priceRange: "€€",
 
-    openingHours: [
-      "Mo 09:00-17:00",
-      "Tu 09:00-17:00",
-      "We 09:00-17:00",
-      "Th 09:00-17:00",
-      "Fr 09:00-17:00",
-    ],
+    openingHoursSpecification,
+    openingHoursDisplay,
 
     coordinates: {
       latitude: 45.536842,

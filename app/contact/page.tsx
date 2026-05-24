@@ -104,8 +104,7 @@ export default function ContactPage() {
         primaryButtonText="Demander un devis"
         primaryButtonHref="/contact"
         secondaryButtonText={business.phone.replace("+33", "0")}
-        secondaryButtonHref="/contact"
-        cards={[
+                cards={[
           {
             icon: "hammer",
             title: "Devis gratuit",
@@ -239,8 +238,8 @@ export default function ContactPage() {
                     </h3>
 
                     <div className="space-y-1 text-gray-700">
-                      {business.openingHours?.map((hour) => (
-                        <p key={hour}>{hour}</p>
+                      {business.openingHoursDisplay?.map((hour) => (
+                        <p key={hour.day}>{hour.day}: {hour.hours}</p>
                       ))}
                     </div>
                   </div>

@@ -147,7 +147,7 @@ export default function HomePage() {
       </nav>
       {/* INTRO */}
       <section className="bg-white py-20">
-        <div className="px-3 mx-auto grid gap-16 px-6 lg:grid-cols-2 lg:items-center">
+        <div className="mx-auto grid gap-16 px-6 lg:grid-cols-2 lg:items-center">
           <div>
             <span className="mb-4 inline-block rounded-full bg-primary-100 px-4 py-2 text-sm font-bold text-primary-700">
               ENTREPRISE DE MAÇONNERIE
@@ -199,7 +199,7 @@ export default function HomePage() {
       </section>
       {/* WHY US */}
       <section className="bg-white py-16">
-        <div className="px-3 mx-auto px-6">
+        <div className="mx-auto px-6">
           <div className="mb-14 text-center">
             <span className="mb-4 inline-block rounded-full bg-primary-100 px-4 py-2 text-sm font-bold text-primary-700">
               POURQUOI NOUS CHOISIR
@@ -210,7 +210,7 @@ export default function HomePage() {
             </h2>
 
             <p className="mx-auto max-w-3xl text-base leading-relaxed text-gray-600">
-              ${business.name} accompagne ses clients avec sérieux et
+              {business.name} accompagne ses clients avec sérieux et
               professionnalisme pour tous leurs travaux de maçonnerie à
               Bourgoin-Jallieu et dans toute l’Isère.
             </p>
@@ -251,7 +251,7 @@ export default function HomePage() {
       </section>
       {/* SERVICES */}
       <section className="bg-gray-50 py-20">
-        <div className="px-3 mx-auto px-6">
+        <div className="mx-auto px-6">
           <div className="mb-14 text-center">
             <span className="mb-4 inline-block rounded-full bg-primary-100 px-4 py-2 text-sm font-bold text-primary-700">
               NOS SERVICES
@@ -294,7 +294,7 @@ export default function HomePage() {
       </section>
       {/* PHOTO SECTION */}
       <section className="bg-white py-16">
-        <div className="px-3 mx-auto px-6">
+        <div className="mx-auto px-6">
           <div className="mb-14 text-center">
             <h2 className="mb-4 text-4xl font-black text-gray-900">
               Des réalisations de qualité en Nord-Isère
@@ -357,7 +357,7 @@ export default function HomePage() {
       </section>
       {/* FAQ */}
       <section className="bg-gray-50 py-20">
-        <div className="px-3 mx-auto max-w-5xl px-6">
+        <div className="mx-auto max-w-5xl px-6">
           <div className="mb-14 text-center">
             <span className="mb-4 inline-block rounded-full bg-primary-100 px-4 py-2 text-sm font-bold text-primary-700">
               QUESTIONS FRÉQUENTES
@@ -409,7 +409,7 @@ export default function HomePage() {
       </section>
       {/* SEO CONTENT */}
       <section className="bg-white py-16">
-        <div className="px-3 mx-auto max-w-5xl px-6">
+        <div className="mx-auto max-w-5xl px-6">
           <h2 className="mb-8 text-4xl font-black text-gray-900">
             Entreprise de maçonnerie à Bourgoin-Jallieu
           </h2>
@@ -489,7 +489,7 @@ export default function HomePage() {
       />
       {/* ZONES */}
       <section className="bg-gray-900 py-20 text-white">
-        <div className="px-3 mx-auto px-6">
+        <div className="mx-auto px-6">
           <div className="mb-14 text-center">
             <h2 className="mb-6 text-4xl font-black">Zones d’intervention</h2>
 
@@ -529,7 +529,7 @@ export default function HomePage() {
       </section>
       {/* CTA */}
       <section className="bg-primary-500 py-16">
-        <div className="px-3 mx-auto px-6 text-center">
+        <div className="mx-auto px-6 text-center">
           <h2 className="mx-auto mb-6 max-w-4xl text-4xl font-black leading-tight text-white">
             Besoin d’un devis pour vos travaux ?
           </h2>
@@ -559,7 +559,7 @@ export default function HomePage() {
         </div>
       </section>{" "}
       <section className="bg-white py-20">
-        <div className="px-3 mx-auto max-w-5xl px-6">
+        <div className="mx-auto max-w-5xl px-6">
           <h2 className="mb-8 text-4xl font-black text-gray-900">
             Entreprise de maçonnerie à Bourgoin-Jallieu
           </h2>
