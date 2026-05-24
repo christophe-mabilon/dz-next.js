@@ -61,7 +61,7 @@ export default function ConditionsUtilisation() {
               Conditions générales d’utilisation
             </h2>
 
-            <p className="max-w-4xl text-lg leading-relaxed text-gray-600">
+            <p className="max-w-4xl text-base leading-relaxed text-gray-600">
               L’utilisation du site ${business.name} implique l’acceptation
               pleine et entière des présentes conditions générales
               d’utilisation.
@@ -76,7 +76,7 @@ export default function ConditionsUtilisation() {
                 1. Objet du site
               </h3>
 
-              <p className="text-lg leading-relaxed text-gray-600">
+              <p className="text-base leading-relaxed text-gray-600">
                 Le site présente les activités, services et réalisations de DZ
                 Maçonnerie & Terrassement dans le domaine de la maçonnerie
                 générale, du terrassement, de la rénovation et des extensions de
@@ -91,7 +91,7 @@ export default function ConditionsUtilisation() {
               </h3>
 
               <div className="rounded-3xl border border-gray-100 bg-gray-50 p-8">
-                <p className="text-lg leading-relaxed text-gray-600">
+                <p className="text-base leading-relaxed text-gray-600">
                   Le site est accessible 24h/24 et 7j/7 sauf interruption liée à
                   une maintenance technique ou à un cas de force majeure.
                 </p>
@@ -104,7 +104,7 @@ export default function ConditionsUtilisation() {
                 3. Utilisation des contenus
               </h3>
 
-              <p className="mb-10 text-lg leading-relaxed text-gray-600">
+              <p className="mb-10 text-base leading-relaxed text-gray-600">
                 Les contenus du site sont protégés par les lois relatives à la
                 propriété intellectuelle.
               </p>
@@ -157,7 +157,7 @@ export default function ConditionsUtilisation() {
                 4. Responsabilité
               </h3>
 
-              <p className="text-lg leading-relaxed text-gray-600">
+              <p className="text-base leading-relaxed text-gray-600">
                 ${business.name} ne saurait être tenu responsable d’éventuels
                 dommages liés à l’utilisation du site ou à une interruption
                 temporaire des services.
@@ -170,7 +170,7 @@ export default function ConditionsUtilisation() {
                 Une question concernant les conditions d’utilisation ?
               </h3>
 
-              <p className="max-w-3xl text-lg leading-relaxed text-primary-100">
+              <p className="max-w-3xl text-base leading-relaxed text-primary-100">
                 Contactez ${business.name} pour toute information complémentaire
                 concernant l’utilisation du site.
               </p>
@@ -178,7 +178,7 @@ export default function ConditionsUtilisation() {
               <div className="mt-8 flex flex-col gap-4 sm:flex-row">
                 <Link
                   href="/contact"
-                  className="inline-flex items-center justify-center rounded-xl bg-white px-8 py-5 text-lg font-bold text-primary-700 transition hover:bg-gray-100"
+                  className="inline-flex items-center justify-center rounded-xl bg-white px-8 py-5 text-base font-bold text-primary-700 transition hover:bg-gray-100"
                 >
                   Nous contacter
                   <ArrowRight className="ml-2 h-5 w-5" />
@@ -186,7 +186,7 @@ export default function ConditionsUtilisation() {
 
                 <a
                   href="/contact"
-                  className="inline-flex items-center justify-center rounded-xl border border-white/20 bg-white/10 px-8 py-5 text-lg font-bold text-white backdrop-blur transition hover:bg-white/20"
+                  className="inline-flex items-center justify-center rounded-xl border border-white/20 bg-white/10 px-8 py-5 text-base font-bold text-white backdrop-blur transition hover:bg-white/20"
                 >
                   {business.phone.replace("+33", "0")}
                 </a>

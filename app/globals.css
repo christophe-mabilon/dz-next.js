@@ -9,10 +9,12 @@
 
   html {
     scroll-behavior: smooth;
-    font-size: 16px;
+    font-size: 16px !important;
   }
 
   body {
+    font-size: 16px !important;
+
     @apply bg-white text-gray-900 antialiased;
   }
 
@@ -88,12 +90,12 @@
 
 @media (min-width: 768px) {
   html {
-    font-size: 17px;
+    font-size: 16px;
   }
 }
 
 @media (min-width: 1280px) {
   html {
-    font-size: 18px;
+    font-size: 16px;
   }
 }

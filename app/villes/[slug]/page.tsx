@@ -102,7 +102,7 @@ export default async function CityPage(props: CityPageProps) {
             <h2 className="text-3xl font-bold text-gray-900 mb-6">
               Maçon expert à {city.name}
             </h2>
-            <p className="text-lg text-gray-700 leading-relaxed mb-6">
+            <p className="text-base text-gray-700 leading-relaxed mb-6">
               ${business.name} est votre partenaire de confiance pour tous vos
               projets de maçonnerie à {city.name} ({city.zipCode}
               ). Basés à Artas, nous intervenons dans la région {
@@ -110,7 +110,7 @@ export default async function CityPage(props: CityPageProps) {
               }{" "}
               avec une équipe de professionnels qualifiés et expérimentés.
             </p>
-            <p className="text-lg text-gray-700 leading-relaxed">
+            <p className="text-base text-gray-700 leading-relaxed">
               Depuis plus de 10 ans, nous réalisons des projets de construction,
               rénovation et extension pour des particuliers et des
               professionnels. Chaque chantier est suivi avec rigueur pour
@@ -203,7 +203,7 @@ export default async function CityPage(props: CityPageProps) {
             </h2>
             <div className="space-y-8">
               <div>
-                <h3 className="text-lg font-semibold text-gray-900 mb-3">
+                <h3 className="text-base font-semibold text-gray-900 mb-3">
                   Intervenez-vous à {city.name} ?
                 </h3>
                 <p className="text-gray-700">
@@ -213,7 +213,7 @@ export default async function CityPage(props: CityPageProps) {
                 </p>
               </div>
               <div className="border-t border-gray-200 pt-6">
-                <h3 className="text-lg font-semibold text-gray-900 mb-3">
+                <h3 className="text-base font-semibold text-gray-900 mb-3">
                   Quel est le coût d'une intervention ?
                 </h3>
                 <p className="text-gray-700">
@@ -222,7 +222,7 @@ export default async function CityPage(props: CityPageProps) {
                 </p>
               </div>
               <div className="border-t border-gray-200 pt-6">
-                <h3 className="text-lg font-semibold text-gray-900 mb-3">
+                <h3 className="text-base font-semibold text-gray-900 mb-3">
                   Comment prendre contact ?
                 </h3>
                 <p className="text-gray-700">

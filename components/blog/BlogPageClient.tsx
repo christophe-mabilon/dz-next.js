@@ -161,7 +161,7 @@ export default function BlogPageClient() {
                   <p
                     className="
                       mb-8
-                      text-lg
+                      text-base
                       leading-relaxed
                       text-primary-600
                     "
@@ -423,7 +423,7 @@ export default function BlogPageClient() {
                 rounded-xl
                 bg-white
                 px-8 py-5
-                text-lg
+                text-base
                 font-bold
                 text-primary-600
                 transition
@@ -442,7 +442,7 @@ export default function BlogPageClient() {
                 border border-white/20
                 bg-white/10
                 px-8 py-5
-                text-lg
+                text-base
                 font-bold
                 text-white
                 transition

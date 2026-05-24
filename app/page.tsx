@@ -196,7 +196,7 @@ export default function HomePage() {
               Une entreprise de maçonnerie de confiance en Isère
             </h2>
 
-            <p className="mx-auto max-w-3xl text-lg leading-relaxed text-gray-600">
+            <p className="mx-auto max-w-3xl text-base leading-relaxed text-gray-600">
               ${business.name} accompagne ses clients avec sérieux et
               professionnalisme pour tous leurs travaux de maçonnerie à
               Bourgoin-Jallieu et dans toute l’Isère.
@@ -248,7 +248,7 @@ export default function HomePage() {
               Nos travaux de maçonnerie
             </h2>
 
-            <p className="mx-auto max-w-3xl text-lg leading-relaxed text-gray-600">
+            <p className="mx-auto max-w-3xl text-base leading-relaxed text-gray-600">
               Une entreprise spécialisée dans les travaux de maçonnerie,
               terrassement et rénovation à Bourgoin-Jallieu et dans toute
               l’Isère.
@@ -287,7 +287,7 @@ export default function HomePage() {
               Des réalisations de qualité en Nord-Isère
             </h2>
 
-            <p className="mx-auto max-w-3xl text-lg leading-relaxed text-gray-600">
+            <p className="mx-auto max-w-3xl text-base leading-relaxed text-gray-600">
               Découvrez quelques réalisations de travaux de maçonnerie,
               terrassement, dalle béton et rénovation effectuées à
               Bourgoin-Jallieu, Artas, Villefontaine, Vienne et dans tout le
@@ -354,7 +354,7 @@ export default function HomePage() {
               FAQ Maçonnerie & Terrassement
             </h2>
 
-            <p className="mx-auto max-w-3xl text-lg leading-relaxed text-gray-600">
+            <p className="mx-auto max-w-3xl text-base leading-relaxed text-gray-600">
               Retrouvez les réponses aux questions les plus fréquentes
               concernant nos travaux de maçonnerie à Bourgoin-Jallieu et dans
               toute l’Isère.
@@ -480,7 +480,7 @@ export default function HomePage() {
           <div className="mb-14 text-center">
             <h2 className="mb-6 text-4xl font-black">Zones d’intervention</h2>
 
-            <p className="mx-auto max-w-3xl text-lg text-gray-300">
+            <p className="mx-auto max-w-3xl text-base text-gray-300">
               Nous intervenons rapidement dans toute l’Isère pour vos travaux de
               maçonnerie et terrassement.
             </p>
@@ -498,7 +498,7 @@ export default function HomePage() {
                 >
                   <div className="flex items-center justify-between">
                     <div>
-                      <span className="block text-lg font-semibold text-white">
+                      <span className="block text-base font-semibold text-white">
                         {city.name}
                       </span>
 
@@ -521,7 +521,7 @@ export default function HomePage() {
             Besoin d’un devis pour vos travaux ?
           </h2>
 
-          <p className="mx-auto mb-10 max-w-2xl text-lg text-primary-50">
+          <p className="mx-auto mb-10 max-w-2xl text-base text-primary-50">
             Contactez ${business.name} pour discuter de votre projet de
             maçonnerie, rénovation ou terrassement en Isère.
           </p>
@@ -529,7 +529,7 @@ export default function HomePage() {
           <div className="flex flex-col items-center justify-center gap-4 sm:flex-row">
             <Link
               href="/contact"
-              className="inline-flex items-center rounded-xl bg-white px-8 py-5 text-lg font-bold text-primary-600 transition hover:bg-gray-100"
+              className="inline-flex items-center rounded-xl bg-white px-8 py-5 text-base font-bold text-primary-600 transition hover:bg-gray-100"
             >
               Demander un devis
               <ArrowRight className="ml-2 h-5 w-5" />
@@ -537,7 +537,7 @@ export default function HomePage() {
 
             <a
               href="/contact"
-              className="inline-flex items-center rounded-xl border border-white/20 bg-white/10 px-8 py-5 text-lg font-bold text-white backdrop-blur transition hover:bg-white/20"
+              className="inline-flex items-center rounded-xl border border-white/20 bg-white/10 px-8 py-5 text-base font-bold text-white backdrop-blur transition hover:bg-white/20"
             >
               <Phone className="mr-2 h-5 w-5" />$
               {business.phone.replace("+33", "0")}

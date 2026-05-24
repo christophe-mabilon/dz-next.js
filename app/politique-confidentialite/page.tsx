@@ -63,7 +63,7 @@ export default function PolitiqueConfidentialite() {
               Protection des données personnelles
             </h2>
 
-            <p className="max-w-4xl text-lg leading-relaxed text-gray-600">
+            <p className="max-w-4xl text-base leading-relaxed text-gray-600">
               ${business.name} accorde une importance particulière à la
               protection des données personnelles et au respect de votre vie
               privée conformément au Règlement Général sur la Protection des
@@ -79,7 +79,7 @@ export default function PolitiqueConfidentialite() {
                 1. Introduction
               </h3>
 
-              <p className="text-lg leading-relaxed text-gray-600">
+              <p className="text-base leading-relaxed text-gray-600">
                 ${business.name} s’engage à assurer la confidentialité des
                 informations collectées sur le site et à protéger les données
                 personnelles des utilisateurs.
@@ -92,7 +92,7 @@ export default function PolitiqueConfidentialite() {
                 2. Données collectées
               </h3>
 
-              <p className="mb-10 text-lg leading-relaxed text-gray-600">
+              <p className="mb-10 text-base leading-relaxed text-gray-600">
                 Certaines informations peuvent être collectées afin de répondre
                 à vos demandes et améliorer nos services.
               </p>
@@ -143,7 +143,7 @@ export default function PolitiqueConfidentialite() {
                 3. Utilisation des données
               </h3>
 
-              <p className="mb-10 text-lg leading-relaxed text-gray-600">
+              <p className="mb-10 text-base leading-relaxed text-gray-600">
                 Les données collectées permettent notamment :
               </p>
 
@@ -172,7 +172,7 @@ export default function PolitiqueConfidentialite() {
                 4. Sécurité des données
               </h3>
 
-              <p className="text-lg leading-relaxed text-gray-600">
+              <p className="text-base leading-relaxed text-gray-600">
                 ${business.name} met en œuvre les mesures nécessaires afin de
                 garantir la sécurité et la confidentialité des données
                 personnelles.
@@ -185,7 +185,7 @@ export default function PolitiqueConfidentialite() {
                 Une question concernant vos données ?
               </h3>
 
-              <p className="max-w-3xl text-lg leading-relaxed text-primary-100">
+              <p className="max-w-3xl text-base leading-relaxed text-primary-100">
                 Contactez ${business.name} pour toute demande relative à vos
                 données personnelles ou à l’exercice de vos droits RGPD.
               </p>
@@ -193,7 +193,7 @@ export default function PolitiqueConfidentialite() {
               <div className="mt-8 flex flex-col gap-4 sm:flex-row">
                 <Link
                   href="/contact"
-                  className="inline-flex items-center justify-center rounded-xl bg-white px-8 py-5 text-lg font-bold text-primary-700 transition hover:bg-gray-100"
+                  className="inline-flex items-center justify-center rounded-xl bg-white px-8 py-5 text-base font-bold text-primary-700 transition hover:bg-gray-100"
                 >
                   Nous contacter
                   <ArrowRight className="ml-2 h-5 w-5" />
@@ -201,7 +201,7 @@ export default function PolitiqueConfidentialite() {
 
                 <a
                   href="/contact"
-                  className="inline-flex items-center justify-center rounded-xl border border-white/20 bg-white/10 px-8 py-5 text-lg font-bold text-white backdrop-blur transition hover:bg-white/20"
+                  className="inline-flex items-center justify-center rounded-xl border border-white/20 bg-white/10 px-8 py-5 text-base font-bold text-white backdrop-blur transition hover:bg-white/20"
                 >
                   {business.phone.replace("+33", "0")}
                 </a>

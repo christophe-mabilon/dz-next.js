@@ -174,7 +174,7 @@ export default function AvisPage() {
                 <p className="mb-2 text-6xl font-black text-white">5/5</p>
 
                 {/* SUBTEXT */}
-                <p className="mb-1 text-lg font-semibold text-white">
+                <p className="mb-1 text-base font-semibold text-white">
                   Plus de {reviews.length}+ avis clients
                 </p>
 
@@ -201,7 +201,7 @@ export default function AvisPage() {
                 <p
                   className="
                     mb-6
-                    text-lg
+                    text-base
                     leading-relaxed
                     text-gray-300
                   "
@@ -552,7 +552,7 @@ export default function AvisPage() {
                 mx-auto
                 mb-10
                 max-w-2xl
-                text-lg
+                text-base
                 leading-relaxed
                 text-gray-300
               "
@@ -570,7 +570,7 @@ export default function AvisPage() {
                   rounded-xl
                   bg-primary-600
                   px-8 py-5
-                  text-lg font-bold text-white
+                  text-base font-bold text-white
                   transition
                   hover:bg-primary-700
                 "
@@ -587,7 +587,7 @@ export default function AvisPage() {
                   border border-white/10
                   bg-white/5
                   px-8 py-5
-                  text-lg font-bold text-white
+                  text-base font-bold text-white
                   transition
                   hover:border-primary-500
                   hover:bg-primary-500/10

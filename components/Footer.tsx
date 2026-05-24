@@ -45,7 +45,9 @@ export function Footer() {
 
           {/* SERVICES */}
           <div>
-            <h4 className="mb-6 text-lg font-bold text-white">Nos services</h4>
+            <h4 className="mb-6 text-base font-bold text-white">
+              Nos services
+            </h4>
 
             <ul className="space-y-4 text-sm">
               <li>
@@ -102,7 +104,7 @@ export function Footer() {
 
           {/* ZONES */}
           <div>
-            <h4 className="mb-6 text-lg font-bold text-white">
+            <h4 className="mb-6 text-base font-bold text-white">
               Nos interventions en Isère
             </h4>
 
@@ -134,7 +136,7 @@ export function Footer() {
 
           {/* CONTACT */}
           <div>
-            <h4 className="mb-6 text-lg font-bold text-white">Contact</h4>
+            <h4 className="mb-6 text-base font-bold text-white">Contact</h4>
 
             <div className="space-y-6">
               {/* Adresse */}

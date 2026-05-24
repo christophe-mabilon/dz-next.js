@@ -65,7 +65,7 @@ export default function MentionsLegales() {
               Mentions légales
             </h2>
 
-            <p className="max-w-4xl text-lg leading-relaxed text-gray-600">
+            <p className="max-w-4xl text-base leading-relaxed text-gray-600">
               Conformément aux dispositions de la loi pour la confiance dans
               l’économie numérique (LCEN), voici les informations relatives au
               site {business.name}.
@@ -146,7 +146,7 @@ export default function MentionsLegales() {
               </h3>
 
               <div className="rounded-3xl border border-gray-100 bg-gray-50 p-8">
-                <p className="text-lg leading-relaxed text-gray-600">
+                <p className="text-base leading-relaxed text-gray-600">
                   Le site est hébergé par OVHcloud, société spécialisée dans
                   l’hébergement de sites internet et d’infrastructures cloud.
                 </p>
@@ -159,7 +159,7 @@ export default function MentionsLegales() {
                 3. Propriété intellectuelle
               </h3>
 
-              <p className="text-lg leading-relaxed text-gray-600">
+              <p className="text-base leading-relaxed text-gray-600">
                 L’ensemble des contenus présents sur ce site (textes, images,
                 logos, éléments graphiques et réalisations) est protégé par les
                 lois relatives à la propriété intellectuelle.
@@ -172,7 +172,7 @@ export default function MentionsLegales() {
                 4. Responsabilité
               </h3>
 
-              <p className="text-lg leading-relaxed text-gray-600">
+              <p className="text-base leading-relaxed text-gray-600">
                 {business.name} s’efforce de fournir des informations fiables et
                 régulièrement mises à jour, mais ne saurait garantir
                 l’exactitude ou l’exhaustivité des contenus publiés.
@@ -185,7 +185,7 @@ export default function MentionsLegales() {
                 Une question concernant le site ?
               </h3>
 
-              <p className="max-w-3xl text-lg leading-relaxed text-primary-100">
+              <p className="max-w-3xl text-base leading-relaxed text-primary-100">
                 Contactez {business.name} pour toute information complémentaire
                 concernant les mentions légales du site.
               </p>
@@ -193,7 +193,7 @@ export default function MentionsLegales() {
               <div className="mt-8 flex flex-col gap-4 sm:flex-row">
                 <Link
                   href="/contact"
-                  className="inline-flex items-center justify-center rounded-xl bg-white px-8 py-5 text-lg font-bold text-primary-700 transition hover:bg-gray-100"
+                  className="inline-flex items-center justify-center rounded-xl bg-white px-8 py-5 text-base font-bold text-primary-700 transition hover:bg-gray-100"
                 >
                   Nous contacter
                   <ArrowRight className="ml-2 h-5 w-5" />
@@ -201,7 +201,7 @@ export default function MentionsLegales() {
 
                 <a
                   href="/contact"
-                  className="inline-flex items-center justify-center rounded-xl border border-white/20 bg-white/10 px-8 py-5 text-lg font-bold text-white backdrop-blur transition hover:bg-white/20"
+                  className="inline-flex items-center justify-center rounded-xl border border-white/20 bg-white/10 px-8 py-5 text-base font-bold text-white backdrop-blur transition hover:bg-white/20"
                 >
                   {business.phone.replace("+33", "0")}
                 </a>

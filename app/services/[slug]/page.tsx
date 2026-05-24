@@ -124,7 +124,7 @@ export default async function ServicePage(props: ServicePageProps) {
             <h2 className="text-3xl font-bold text-gray-900 mb-6">
               {service.name}
             </h2>
-            <p className="text-gray-700 leading-relaxed text-lg">
+            <p className="text-gray-700 leading-relaxed text-base">
               {service.longDescription}
             </p>
           </div>
@@ -189,7 +189,7 @@ export default async function ServicePage(props: ServicePageProps) {
             </h2>
             <div className="space-y-8">
               <div>
-                <h3 className="text-lg font-semibold text-gray-900 mb-3">
+                <h3 className="text-base font-semibold text-gray-900 mb-3">
                   Quel est le délai de réalisation ?
                 </h3>
                 <p className="text-gray-700">
@@ -199,7 +199,7 @@ export default async function ServicePage(props: ServicePageProps) {
                 </p>
               </div>
               <div className="border-t border-gray-200 pt-6">
-                <h3 className="text-lg font-semibold text-gray-900 mb-3">
+                <h3 className="text-base font-semibold text-gray-900 mb-3">
                   Disposez-vous d'assurances ?
                 </h3>
                 <p className="text-gray-700">
@@ -210,7 +210,7 @@ export default async function ServicePage(props: ServicePageProps) {
                 </p>
               </div>
               <div className="border-t border-gray-200 pt-6">
-                <h3 className="text-lg font-semibold text-gray-900 mb-3">
+                <h3 className="text-base font-semibold text-gray-900 mb-3">
                   Puis-je obtenir un devis rapidement ?
                 </h3>
                 <p className="text-gray-700">

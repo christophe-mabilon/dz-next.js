@@ -125,35 +125,70 @@ export default async function BlogArticlePage({ params }: Props) {
           dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
         />
       )}
-    <main className="bg-white">
-      {/* HERO */}
-      <section
-        className="
+      <main className="bg-white">
+        {/* BREADCRUMBS */}
+        <nav
+          aria-label="Fil d'Ariane"
+          className="border-b border-gray-100 bg-gray-50 py-3"
+        >
+          <div className="container mx-auto">
+            <ol className="flex flex-wrap items-center gap-1 text-sm text-gray-500">
+              <li>
+                <a
+                  href="/"
+                  className="transition hover:text-primary-600 hover:underline"
+                >
+                  Accueil
+                </a>
+              </li>
+              <li className="select-none px-1 text-gray-400">/</li>
+              <li>
+                <a
+                  href="/blog"
+                  className="transition hover:text-primary-600 hover:underline"
+                >
+                  Blog
+                </a>
+              </li>
+              <li className="select-none px-1 text-gray-400">/</li>
+              <li
+                className="max-w-xs truncate font-medium text-gray-800 sm:max-w-md lg:max-w-none"
+                aria-current="page"
+              >
+                {article.title}
+              </li>
+            </ol>
+          </div>
+        </nav>
+
+        {/* HERO */}
+        <section
+          className="
           relative
           overflow-hidden
           h-[520px]
         "
-      >
-        <Image
-          src={article.image}
-          alt={article.title}
-          fill
-          priority
-          className="object-cover"
-        />
+        >
+          <Image
+            src={article.image}
+            alt={article.title}
+            fill
+            priority
+            className="object-cover"
+          />
 
-        <div className="absolute inset-0 bg-black/60" />
+          <div className="absolute inset-0 bg-black/60" />
 
-        <div
-          className="
+          <div
+            className="
             absolute inset-0
             flex items-center
           "
-        >
-          <div className="container mx-auto">
-            <div className="max-w-8xl text-white">
-              <span
-                className="
+          >
+            <div className="container mx-auto">
+              <div className="max-w-8xl text-white">
+                <span
+                  className="
                   mb-5
                   inline-flex
                   rounded-full
@@ -162,34 +197,34 @@ export default async function BlogArticlePage({ params }: Props) {
                   text-sm
                   font-semibold
                 "
-              >
-                {article?.hero?.badge}
-              </span>
+                >
+                  {article?.hero?.badge}
+                </span>
 
-              <h1
-                className="
+                <h1
+                  className="
                   mb-6
                   text-5xl
                   font-black
                   leading-tight
                 "
-              >
-                {article?.hero?.title}
-              </h1>
+                >
+                  {article?.hero?.title}
+                </h1>
 
-              <p
-                className="
+                <p
+                  className="
                   max-w-6xl
                   text-xl
                   leading-relaxed
                   text-gray-200
                 "
-              >
-                {article?.hero?.subtitle}
-              </p>
+                >
+                  {article?.hero?.subtitle}
+                </p>
 
-              <div
-                className="
+                <div
+                  className="
                   mt-8
                   flex flex-wrap
                   items-center
@@ -197,29 +232,43 @@ export default async function BlogArticlePage({ params }: Props) {
                   text-sm
                   text-gray-300
                 "
-              >
-                <span>Par {article.author}</span>
+                >
+                  <span>Par {article.author}</span>
 
-                <span>{article.readTime} de lecture</span>
+                  <span>{article.readTime} de lecture</span>
 
-                <span>Publié le {formatDateFr(article.publishedAt)}</span>
+                  <span>Publié le {formatDateFr(article.publishedAt)}</span>
 
-                {article.updatedAt && article.updatedAt !== article.publishedAt && (
-                  <span>Mis à jour le {formatDateFr(article.updatedAt)}</span>
-                )}
+                  {article.updatedAt &&
+                    article.updatedAt !== article.publishedAt && (
+                      <span>
+                        Mis à jour le {formatDateFr(article.updatedAt)}
+                      </span>
+                    )}
+                </div>
               </div>
             </div>
           </div>
-        </div>
-      </section>
+        </section>
 
-     {/* ARTICLE */}
-<section className="section-padding">
-  <div className="container mx-auto">
-    <div className="mx-auto max-w-7xl">
-      {/* HERO ARTICLE */}
-      <div
-        className="
+        {/* ARTICLE */}
+        <section className="section-padding">
+          <div className="container mx-auto">
+            <div className="mx-auto max-w-7xl">
+              {/* HERO ARTICLE */}
+              <h2
+                    className="
+              mb-6
+              text-3xl
+              font-black
+              text-primary-600
+              md:text-4xl
+            "
+                  >
+                    À savoir avant vos travaux
+                  </h2>
+                  <hr className="mb-6 border-gray-200" /><div
+                className="
           mb-16
           grid
           grid-cols-1
@@ -227,26 +276,17 @@ export default async function BlogArticlePage({ params }: Props) {
           gap-10
           lg:grid-cols-2
         "
-      >
-        {/* IMAGE */}
-        <div><h2
-            className="
-              mb-6
-              text-3xl
-              font-black
-              text-primary-600
-              md:text-4xl
-            "
-          >
-            À savoir avant vos travaux
-          </h2>
-          <Image
-            src={article.image}
-            alt={article.title}
-            width={900}
-            height={700}
-            priority
-            className="
+              >
+                {/* IMAGE */}
+                <div>
+                  
+                  <Image
+                    src={article.image}
+                    alt={article.title}
+                    width={900}
+                    height={700}
+                    priority
+                    className="
               h-[300px]
               w-full
               rounded-3xl
@@ -254,176 +294,171 @@ export default async function BlogArticlePage({ params }: Props) {
               shadow-2xl
               md:h-[450px]
             "
-          />
-        </div>
+                  />
+                </div>
 
-        {/* INTRO */}
-        
-        <div>
-          
+                {/* INTRO */}
 
-          <p
-            className="
-              text-lg
-              leading-relaxed
-              text-gray-700
-              md:text-xl
+                <div>
+                  <p
+                    className="max-w-4xl
+    whitespace-pre-line
+    text-base
+    leading-8
+    text-gray-700
             "
-          >
-            {article?.content?.introduction}
-          </p>
-        </div>
-      </div>
+                  >
+                    {article?.content?.introduction}
+                  </p>
+                </div>
+              </div>
 
-      {/* SECTIONS */}
-      <div className="space-y-14">
-        {article?.content?.sections.map((section, index) => (
-          <div key={index}>
-            <h2
-              className="
+              {/* SECTIONS */}
+              <div className="space-y-14">
+                {article?.content?.sections.map((section, index) => (
+                  <div key={index}>
+                    <h2
+                      className="
                 mb-6
                 text-3xl
                 font-black
                 text-primary-600
               "
-            >
-              {section.title.split("\n")
-    .filter(Boolean)
-    .map((paragraph, index) => (
-      <p key={index}>{paragraph.trim()}</p>
-    ))}
-            </h2>
+                    >
+                      {section.title}
+                    </h2>
 
-            <hr className="mb-6 border-gray-200" />
+                    <hr className="mb-6 border-gray-200" />
 
-            <p
-              className="
-                text-lg
-                leading-relaxed
-                text-gray-700
-              "
-            >
-              {section.content}
-            </p>
-          </div>
-        ))}
-      </div>
+                    <div
+                      className="
+    whitespace-pre-line
+    text-base
+    leading-relaxed
+    text-gray-700
+  "
+                    >
+                      {section.content}
+                    </div>
+                  </div>
+                ))}
+              </div>
 
-      {/* CONCLUSION */}
-      <div
-        className="
+              {/* CONCLUSION */}
+              <div
+                className="
           mt-16
           rounded-3xl
           bg-gray-50
           p-10
         "
-      >
-        <h2
-          className="
+              >
+                <h2
+                  className="
             mb-5
             text-3xl
             font-black
             text-gray-900
           "
-        >
-          Conclusion
-        </h2>
+                >
+                  Conclusion
+                </h2>
 
-        <p
-          className="
-            text-lg
+                <p
+                  className="
+            text-base
             leading-relaxed
             text-gray-700
           "
-        >
-          {article?.content?.conclusion}
-        </p>
-      </div>
+                >
+                  {article?.content?.conclusion}
+                </p>
+              </div>
 
-      {/* FAQ */}
-      {article && article.faq && article.faq?.length > 0 && (
-        <div className="mt-20">
-          <h2
-            className="
+              {/* FAQ */}
+              {article && article.faq && article.faq?.length > 0 && (
+                <div className="mt-20">
+                  <h2
+                    className="
               mb-10
               text-4xl
               font-black
               text-gray-900
             "
-          >
-            Questions fréquentes
-          </h2>
+                  >
+                    Questions fréquentes
+                  </h2>
 
-          <div className="space-y-6">
-            {article?.faq?.map((faq, index) => (
-              <div
-                key={index}
-                className="
+                  <div className="space-y-6">
+                    {article?.faq?.map((faq, index) => (
+                      <div
+                        key={index}
+                        className="
                   rounded-2xl
                   border border-gray-200
                   bg-white
                   p-8
                 "
-              >
-                <h3
-                  className="
+                      >
+                        <h3
+                          className="
                     mb-4
                     text-xl
                     font-bold
                     text-gray-900
                   "
-                >
-                  {faq.question}
-                </h3>
+                        >
+                          {faq.question}
+                        </h3>
 
-                <p
-                  className="
+                        <p
+                          className="
                     leading-relaxed
                     text-gray-700
                   "
-                >
-                  {faq.answer}
-                </p>
-              </div>
-            ))}
-          </div>
-        </div>
-      )}
+                        >
+                          {faq.answer}
+                        </p>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              )}
 
-      {/* CTA */}
-      <div
-        className="
+              {/* CTA */}
+              <div
+                className="
           mt-20
           rounded-3xl
           bg-primary-600
           p-10
           text-white
         "
-      >
-        <h2
-          className="
+              >
+                <h2
+                  className="
             mb-4
             text-3xl
             font-black
           "
-        >
-          {article?.footer?.ctaTitle}
-        </h2>
+                >
+                  {article?.footer?.ctaTitle}
+                </h2>
 
-        <p
-          className="
+                <p
+                  className="
             mb-8
             max-w-2xl
-            text-lg
+            text-base
             text-white/90
           "
-        >
-          {article?.footer?.ctaText}
-        </p>
+                >
+                  {article?.footer?.ctaText}
+                </p>
 
-        <a
-          href="/contact"
-          className="
+                <a
+                  href="/contact"
+                  className="
             inline-flex
             rounded-xl
             bg-white
@@ -433,14 +468,60 @@ export default async function BlogArticlePage({ params }: Props) {
             transition
             hover:bg-gray-100
           "
-        >
-          Demander un devis
-        </a>
-      </div>
-    </div>
-  </div>
-</section>
-    </main>
+                >
+                  Demander un devis
+                </a>
+              </div>
+
+              {/* ARTICLES SIMILAIRES */}
+              {(() => {
+                const related = articles
+                  .filter(
+                    (a) => a.slug !== slug && a.category === article.category,
+                  )
+                  .slice(0, 3);
+                if (related.length === 0) return null;
+                return (
+                  <div className="mt-20">
+                    <h2 className="mb-8 text-3xl font-black text-gray-900">
+                      Articles similaires
+                    </h2>
+                    <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+                      {related.map((rel) => (
+                        <a
+                          key={rel.slug}
+                          href={`/blog/${rel.slug}`}
+                          className="group flex flex-col overflow-hidden rounded-2xl border border-gray-200 bg-white shadow-sm transition hover:shadow-md"
+                        >
+                          <div className="relative h-48 w-full overflow-hidden">
+                            <Image
+                              src={rel.image}
+                              alt={rel.title}
+                              fill
+                              className="object-cover transition duration-300 group-hover:scale-105"
+                            />
+                          </div>
+                          <div className="flex flex-1 flex-col p-5">
+                            <h3 className="mb-2 text-base font-bold leading-snug text-gray-900 group-hover:text-primary-600">
+                              {rel.title}
+                            </h3>
+                            <p className="line-clamp-3 flex-1 text-sm leading-relaxed text-gray-600">
+                              {rel.excerpt}
+                            </p>
+                            <span className="mt-4 text-sm font-semibold text-primary-600">
+                              Lire l&apos;article →
+                            </span>
+                          </div>
+                        </a>
+                      ))}
+                    </div>
+                  </div>
+                );
+              })()}
+            </div>
+          </div>
+        </section>
+      </main>
     </>
   );
 }

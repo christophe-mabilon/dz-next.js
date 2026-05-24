@@ -138,7 +138,7 @@ export default function HeroSection({
           <div className="mb-10 flex flex-col gap-4 sm:flex-row">
             <Link
               href={primaryButtonHref}
-              className="inline-flex items-center justify-center rounded-xl bg-primary-500 px-8 py-5 text-lg font-bold text-white transition hover:bg-primary-600"
+              className="inline-flex items-center justify-center rounded-xl bg-primary-500 px-8 py-5 text-base font-bold text-white transition hover:bg-primary-600"
             >
               {primaryButtonText}
 
@@ -147,7 +147,7 @@ export default function HeroSection({
 
             <a
               href={secondaryButtonHref}
-              className="inline-flex items-center justify-center rounded-xl border border-white/20 bg-white/10 px-8 py-5 text-lg font-bold text-white backdrop-blur transition hover:bg-white/20"
+              className="inline-flex items-center justify-center rounded-xl border border-white/20 bg-white/10 px-8 py-5 text-base font-bold text-white backdrop-blur transition hover:bg-white/20"
             >
               <Phone className="mr-2 h-5 w-5" />
 

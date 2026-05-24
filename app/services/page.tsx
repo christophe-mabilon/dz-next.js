@@ -125,7 +125,7 @@ export default function ServicesPage() {
               Nos prestations de maçonnerie
             </h2>
 
-            <p className="mx-auto max-w-3xl text-lg leading-relaxed text-gray-600">
+            <p className="mx-auto max-w-3xl text-base leading-relaxed text-gray-600">
               Découvrez l’ensemble de nos services de maçonnerie, rénovation et
               terrassement à Bourgoin-Jallieu et dans toute l’Isère.
             </p>
@@ -193,7 +193,7 @@ export default function ServicesPage() {
               Des réalisations concrètes
             </h2>
 
-            <p className="mx-auto max-w-3xl text-lg leading-relaxed text-gray-600">
+            <p className="mx-auto max-w-3xl text-base leading-relaxed text-gray-600">
               Découvrez quelques exemples de travaux réalisés par notre
               entreprise de maçonnerie en Isère.
             </p>
@@ -252,7 +252,7 @@ export default function ServicesPage() {
               Pourquoi choisir DZ Maçonnerie ?
             </h2>
 
-            <p className="mx-auto max-w-3xl text-lg text-gray-600">
+            <p className="mx-auto max-w-3xl text-base text-gray-600">
               Une entreprise locale reconnue pour son sérieux, son
               accompagnement et la qualité de ses travaux.
             </p>
@@ -302,7 +302,7 @@ export default function ServicesPage() {
               Questions fréquentes
             </h2>
 
-            <p className="text-lg text-gray-600">
+            <p className="text-base text-gray-600">
               Retrouvez les réponses aux questions les plus fréquentes.
             </p>
           </div>
@@ -387,7 +387,7 @@ export default function ServicesPage() {
           <div className="flex flex-col items-center justify-center gap-4 sm:flex-row">
             <Link
               href="/contact"
-              className="inline-flex items-center rounded-xl bg-white px-8 py-5 text-lg font-bold text-primary-600 transition hover:bg-gray-100"
+              className="inline-flex items-center rounded-xl bg-white px-8 py-5 text-base font-bold text-primary-600 transition hover:bg-gray-100"
             >
               Demander un devis
               <ArrowRight className="ml-2 h-5 w-5" />
@@ -395,7 +395,7 @@ export default function ServicesPage() {
 
             <a
               href="/contact"
-              className="inline-flex items-center rounded-xl border border-white/20 bg-white/10 px-8 py-5 text-lg font-bold text-white backdrop-blur transition hover:bg-white/20"
+              className="inline-flex items-center rounded-xl border border-white/20 bg-white/10 px-8 py-5 text-base font-bold text-white backdrop-blur transition hover:bg-white/20"
             >
               {business.phone.replace("+33", "0")}
             </a>

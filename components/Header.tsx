@@ -108,7 +108,7 @@ export function Header() {
               />
 
               <div className="hidden sm:block">
-                <p className="text-lg font-black uppercase tracking-wide text-white">
+                <p className="text-base font-black uppercase tracking-wide text-white">
                   {business.name.split("&")[0]}
                 </p>
 

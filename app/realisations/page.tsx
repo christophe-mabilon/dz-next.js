@@ -50,8 +50,7 @@ export const metadata: Metadata = {
     title:
       "Réalisations maçonnerie et terrassement en Nord-Isère | DZ Maçonnerie",
 
-    description:
-      "Découvrez plusieurs chantiers réalisés par ${business.name}.",
+    description: "Découvrez plusieurs chantiers réalisés par ${business.name}.",
 
     images: [`${SITE_URL}/images/og/realisations-og.jpg`],
   },
@@ -146,13 +145,13 @@ export default function RealisationsPage() {
               Des chantiers réels réalisés en Nord-Isère
             </h2>
 
-            <p className="mt-6 text-lg leading-8 text-zinc-600">
-              ${business.name} accompagne les particuliers et
-              professionnels pour leurs travaux de maçonnerie, terrassement,
-              rénovation, création de dalle béton et extension de maison.
+            <p className="mt-6 text-base leading-8 text-zinc-600">
+              ${business.name} accompagne les particuliers et professionnels
+              pour leurs travaux de maçonnerie, terrassement, rénovation,
+              création de dalle béton et extension de maison.
             </p>
 
-            <p className="mt-4 text-lg leading-8 text-zinc-600">
+            <p className="mt-4 text-base leading-8 text-zinc-600">
               Retrouvez ici plusieurs exemples de réalisations avec photos,
               détails techniques et informations locales.
             </p>
@@ -257,9 +256,9 @@ export default function RealisationsPage() {
             Vous avez un projet de maçonnerie ou terrassement ?
           </h2>
 
-          <p className="mt-6 text-lg leading-8 text-zinc-600">
-            Contactez ${business.name} pour obtenir un devis gratuit
-            pour vos travaux en Nord-Isère.
+          <p className="mt-6 text-base leading-8 text-zinc-600">
+            Contactez ${business.name} pour obtenir un devis gratuit pour vos
+            travaux en Nord-Isère.
           </p>
 
           <div className="mt-10">

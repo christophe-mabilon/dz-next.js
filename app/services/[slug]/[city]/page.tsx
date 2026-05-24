@@ -133,7 +133,7 @@ export default async function CombinedServiceCityPage(
             <h2 className="text-3xl font-bold text-gray-900 mb-6">
               {service.name} à {cityData.name}
             </h2>
-            <p className="text-lg text-gray-700 leading-relaxed mb-6 whitespace-pre-line">
+            <p className="text-base text-gray-700 leading-relaxed mb-6 whitespace-pre-line">
               {generateLocalIntroduction(service, cityData)}
             </p>
           </div>
@@ -212,7 +212,7 @@ export default async function CombinedServiceCityPage(
                   key={index}
                   className={index > 0 ? "border-t border-gray-200 pt-6" : ""}
                 >
-                  <h3 className="text-lg font-semibold text-gray-900 mb-3">
+                  <h3 className="text-base font-semibold text-gray-900 mb-3">
                     {faq.question}
                   </h3>
 
