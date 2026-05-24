@@ -142,7 +142,7 @@ export default async function BlogArticlePage({ params }: Props) {
       {/* ARTICLE */}
       <section className="section-padding">
         <div className="container mx-auto">
-          <div className="mx-auto max-w-8xl">
+          <div className="mx-auto max-w-12xl">
             {/* INTRO */}
             <div
               className="
@@ -164,12 +164,12 @@ export default async function BlogArticlePage({ params }: Props) {
                         mb-6
                         text-3xl
                         font-black
-                        text-gray-900
+                        text-primary-600
                       "
                   >
                     {section.title}
                   </h2>
-
+                  <hr className="mb-6 border-gray-200" />
                   <p
                     className="
                         text-lg
@@ -197,7 +197,7 @@ export default async function BlogArticlePage({ params }: Props) {
                   mb-5
                   text-3xl
                   font-black
-                  text-gray-900
+                 text-gray-900
                 "
               >
                 Conclusion
@@ -222,7 +222,7 @@ export default async function BlogArticlePage({ params }: Props) {
                     mb-10
                     text-4xl
                     font-black
-                    text-gray-900
+                     text-gray-900
                   "
                 >
                   Questions fréquentes

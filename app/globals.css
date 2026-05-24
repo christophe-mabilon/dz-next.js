@@ -7,22 +7,36 @@
     color-scheme: light;
   }
 
+  html {
+    scroll-behavior: smooth;
+    font-size: 16px;
+  }
+
   body {
-    @apply bg-white text-gray-900;
+    @apply bg-white text-gray-900 antialiased;
+  }
+
+  img {
+    @apply h-auto max-w-full;
+  }
+
+  a:focus-visible,
+  button:focus-visible {
+    @apply outline-2 outline-offset-2 outline-primary-600;
   }
 }
 
 @layer components {
-  .container mx-auto {
+  .container {
     @apply mx-auto max-w-7xl px-4 sm:px-6 lg:px-8;
   }
 
   .btn-primary {
-    @apply inline-flex items-center justify-center px-6 py-3 bg-primary-600 text-white font-medium rounded-lg hover:bg-primary-700 transition-colors;
+    @apply inline-flex items-center justify-center rounded-lg bg-primary-600 px-6 py-3 font-medium text-white transition-colors hover:bg-primary-700;
   }
 
   .btn-secondary {
-    @apply inline-flex items-center justify-center px-6 py-3 border border-primary-600 text-primary-600 font-medium rounded-lg hover:bg-primary-50 transition-colors;
+    @apply inline-flex items-center justify-center rounded-lg border border-primary-600 px-6 py-3 font-medium text-primary-600 transition-colors hover:bg-primary-50;
   }
 
   .hero-gradient {
@@ -34,23 +48,24 @@
   }
 
   .heading-lg {
-    @apply text-3xl md:text-4xl lg:text-5xl font-bold tracking-tight text-gray-900;
+    @apply text-3xl font-bold tracking-tight text-gray-900 md:text-4xl lg:text-5xl;
   }
 
   .heading-md {
-    @apply text-2xl md:text-3xl font-bold tracking-tight text-gray-900;
+    @apply text-2xl font-bold tracking-tight text-gray-900 md:text-3xl;
   }
 
   .heading-sm {
-    @apply text-xl md:text-2xl font-semibold text-gray-900;
+    @apply text-xl font-semibold text-gray-900 md:text-2xl;
   }
 
   .card-shadow {
-    @apply shadow-sm hover:shadow-md transition-shadow duration-300;
+    @apply shadow-sm transition-shadow duration-300 hover:shadow-md;
   }
 }
 
-/* Custom scrollbar */
+/* Scrollbar */
+
 ::-webkit-scrollbar {
   width: 8px;
   height: 8px;
@@ -69,18 +84,16 @@
   background: #0d9488;
 }
 
-/* Smooth scroll behavior */
-html {
-  scroll-behavior: smooth;
+/* Responsive typography */
+
+@media (min-width: 768px) {
+  html {
+    font-size: 17px;
+  }
 }
 
-/* Focus styles for accessibility */
-a:focus-visible,
-button:focus-visible {
-  @apply outline-2 outline-offset-2 outline-primary-600;
-}
-
-/* Image optimization */
-img {
-  @apply max-w-full h-auto;
+@media (min-width: 1280px) {
+  html {
+    font-size: 18px;
+  }
 }
