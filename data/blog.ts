@@ -1281,7 +1281,7 @@ export const articles = [
     excerpt:
       "Comprendre la garantie décennale et pourquoi elle est essentielle pour vos travaux de maçonnerie.",
 
-    image: "/images/blog/macon-isere.webp",
+    image: "/images/blog/garantie-decennale.webp",
 
     category: "Conseils",
 
@@ -1692,7 +1692,8 @@ export const articles = [
     excerpt:
       "Un bon terrassement garantit la stabilité et la durabilité d’une dalle béton ou d’une future construction.",
 
-    image: "/images/blog/coulage-beton.webp",
+    image:
+      "/images/blog/Preparation-du sol-avant-coulage d-une-dalle-beton.webp",
 
     category: "Terrassement",
 
@@ -1889,7 +1890,7 @@ export const articles = [
     excerpt:
       "Un bon drainage permet d’éviter les infiltrations et les problèmes d’humidité autour de votre maison.",
 
-    image: "/images/blog/fondations-terminees.webp",
+    image: "/images/blog/drainage-terrain-maison-particulier.webp",
 
     category: "Terrassement",
 
@@ -2185,7 +2186,7 @@ export const articles = [
     excerpt:
       "Découvrez les facteurs qui influencent le coût d’évacuation des terres après un chantier de terrassement.",
 
-    image: "/images/blog/tractopelle-action.webp",
+    image: "/images/blog/prix-pour-evacuere-terres-apres-terrassement.webp",
 
     category: "Terrassement",
 
@@ -2383,7 +2384,7 @@ export const articles = [
     excerpt:
       "Découvrez les principales causes des fissures sur une maison et comment éviter les problèmes structurels.",
 
-    image: "/images/blog/fondations-terminees.webp",
+    image: "/images/blog/pourquoi-des-fissures-apparaissent-sur-une maison.webp",
 
     category: "Construction",
 

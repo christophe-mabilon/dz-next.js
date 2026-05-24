@@ -144,25 +144,14 @@ export default async function BlogArticlePage({ params }: Props) {
         <div className="container mx-auto">
           <div className="mx-auto max-w-12xl">
             <div className="mb-14">
-              <figure
-                className="
-      relative
-      mx-auto
-      h-[450px]
-      w-full
-      max-w-6xl
-      overflow-hidden
-      rounded-3xl
-      shadow-2xl
-    "
-              >
+              
                 <Image
                   src={article.image}
                   alt={article.title}
-                  fill
-                  className="object-cover"
+                  width={450}
+                  height={260}
+                  className="rounded-3xl object-cover"
                 />
-              </figure>
             </div>
             {/* INTRO */}
             <div
