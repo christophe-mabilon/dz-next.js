@@ -181,7 +181,7 @@ export default function AvisPage() {
 
                 {/* STARS */}
                 <div className="mb-4 flex items-center gap-2">
-                  {[...Array()].map((_, i) => (
+                  {[...Array(5)].map((_, i) => (
                     <Star
                       key={i}
                       className="
@@ -405,14 +405,15 @@ export default function AvisPage() {
                 className="
                   group
                   rounded-3xl
-                  border border-primary-500/
-                 
+                  border border-gray-200
+                  bg-white
                   p-7
-                  shadow-xl
+                  shadow-sm
                   transition-all
                   duration-300
                   hover:-translate-y-1
-                  hover:shadow-2xl
+                  hover:shadow-xl
+                  hover:border-primary-300
                 "
               >
                 {/* STARS */}
@@ -430,19 +431,19 @@ export default function AvisPage() {
                 </div>
 
                 {/* REVIEW */}
-                <p className="mb-6 leading-relaxed text-white-300">
-                  "{review.text}"
+                <p className="mb-6 leading-relaxed text-gray-700">
+                  &ldquo;{review.text}&rdquo;
                 </p>
 
                 {/* AUTHOR */}
-                <div className="border-t border-white/10 pt-5">
+                <div className="border-t border-gray-200 pt-5">
                   <div className="flex items-center justify-between">
                     <div>
-                      <p className="font-semibold text-white">
+                      <p className="font-semibold text-gray-900">
                         {review.author}
                       </p>
 
-                      <p className="text-sm text-gray-800">{review.city}</p>
+                      <p className="text-sm text-gray-600">{review.city}</p>
                     </div>
 
                     <div
@@ -464,7 +465,7 @@ export default function AvisPage() {
                     className="
                       mt-3
                       flex items-center gap-2
-                      text-xs text-gray-700
+                      text-xs text-gray-500
                     "
                   >
                     <span>{review.relativeDate}</span>
