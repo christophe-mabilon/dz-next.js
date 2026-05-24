@@ -150,7 +150,7 @@ export default async function BlogArticlePage({ params }: Props) {
             flex items-center
           "
           >
-            <div className="mx-3 mx-auto">
+            <div className="px-3 mx-auto">
               <div className="max-w-8xl text-white">
                 <span
                   className="
@@ -253,7 +253,7 @@ export default async function BlogArticlePage({ params }: Props) {
 
         {/* ARTICLE */}
         <section className="section-padding">
-          <div className="mx-3 mx-auto">
+          <div className="px-3 mx-auto">
             <div className="mx-auto max-w-7xl">
               {/* HERO ARTICLE */}
               <h2

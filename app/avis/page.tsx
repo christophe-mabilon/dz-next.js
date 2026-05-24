@@ -482,7 +482,7 @@ export default function AvisPage() {
 
       {/* WHY CHOOSE US */}
       <section className="section-padding bg-white">
-        <div className="mx-3 mx-auto">
+        <div className="px-3 mx-auto">
           <h2 className="heading-md mb-12 text-center">
             Pourquoi nos clients nous choisissent
           </h2>
@@ -535,7 +535,7 @@ export default function AvisPage() {
 
       {/* CTA */}
       <section className="section-padding bg-gray-950 text-white">
-        <div className="mx-3 mx-auto max-w-4xl text-center">
+        <div className="px-3 mx-auto max-w-4xl text-center">
           <div
             className="
               rounded-3xl
@@ -625,7 +625,7 @@ export default function AvisPage() {
 
       {/* FINAL CTA */}
       <section className="hero-gradient py-16 text-white md:py-24">
-        <div className="mx-3 mx-auto text-center">
+        <div className="px-3 mx-auto text-center">
           <h2
             className="
               mb-4

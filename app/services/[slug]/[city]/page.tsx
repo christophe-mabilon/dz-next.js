@@ -93,16 +93,32 @@ export default async function CombinedServiceCityPage(
         title={service.name}
         highlight={`à ${cityData.name}`}
         description={`${service.description} à ${cityData.name} (${cityData.zipCode}). Service professionnel avec devis gratuit et garantie décennale.`}
-        image={service.heroImage || service.image || "/images/realisations/chantier_maçonnerie.avif"}
+        image={
+          service.heroImage ||
+          service.image ||
+          "/images/realisations/chantier_maçonnerie.avif"
+        }
         imageAlt={`${service.name} à ${cityData.name}`}
         primaryButtonText="Demander un devis"
         primaryButtonHref="/contact"
         secondaryButtonText={business.phone.replace("+33", "0")}
         secondaryButtonHref="/contact"
         cards={[
-          { icon: "hammer", title: service.name, description: `Expert à ${cityData.name} et ses environs.` },
-          { icon: "shield", title: "Garantie décennale", description: "Travaux assurés sur tous les chantiers." },
-          { icon: "star", title: "Devis gratuit", description: "Réponse sous 24h pour votre projet." },
+          {
+            icon: "hammer",
+            title: service.name,
+            description: `Expert à ${cityData.name} et ses environs.`,
+          },
+          {
+            icon: "shield",
+            title: "Garantie décennale",
+            description: "Travaux assurés sur tous les chantiers.",
+          },
+          {
+            icon: "star",
+            title: "Devis gratuit",
+            description: "Réponse sous 24h pour votre projet.",
+          },
         ]}
       />
 
@@ -149,7 +165,7 @@ export default async function CombinedServiceCityPage(
 
       {/* Content */}
       <section className="section-padding bg-white">
-        <div className="mx-3 mx-auto max-w-3xl">
+        <div className="px-3 mx-auto max-w-3xl">
           <div className="mb-12">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">
               {service.name} à {cityData.name}
@@ -247,7 +263,7 @@ export default async function CombinedServiceCityPage(
 
       {/* Final CTA Section */}
       <section className="hero-gradient py-16 md:py-24 text-white">
-        <div className="mx-3 mx-auto text-center">
+        <div className="px-3 mx-auto text-center">
           <h2 className="text-4xl md:text-5xl font-bold mb-4 leading-tight">
             Besoin d'un expert en {service.name.toLowerCase()} à {cityData.name}{" "}
             ?

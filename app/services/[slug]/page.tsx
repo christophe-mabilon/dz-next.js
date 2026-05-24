@@ -85,16 +85,32 @@ export default async function ServicePage(props: ServicePageProps) {
         badge={`Services • ${business.city} • Nord-Isère`}
         title={service.name}
         description={service.description}
-        image={service.heroImage || service.image || "/images/realisations/chantier_maçonnerie.avif"}
+        image={
+          service.heroImage ||
+          service.image ||
+          "/images/realisations/chantier_maçonnerie.avif"
+        }
         imageAlt={service.name}
         primaryButtonText="Demander un devis"
         primaryButtonHref="/contact"
         secondaryButtonText={business.phone.replace("+33", "0")}
         secondaryButtonHref="/contact"
         cards={[
-          { icon: "hammer", title: "Expertise locale", description: "Plus de 10 ans d'expérience en maçonnerie." },
-          { icon: "shield", title: "Garantie décennale", description: "Tous nos travaux sont assurés." },
-          { icon: "star", title: "Devis gratuit", description: "Réponse rapide sous 24h." },
+          {
+            icon: "hammer",
+            title: "Expertise locale",
+            description: "Plus de 10 ans d'expérience en maçonnerie.",
+          },
+          {
+            icon: "shield",
+            title: "Garantie décennale",
+            description: "Tous nos travaux sont assurés.",
+          },
+          {
+            icon: "star",
+            title: "Devis gratuit",
+            description: "Réponse rapide sous 24h.",
+          },
         ]}
       />
 
@@ -132,7 +148,7 @@ export default async function ServicePage(props: ServicePageProps) {
 
       {/* Content */}
       <section className="section-padding bg-white">
-        <div className="mx-3 mx-auto max-w-3xl">
+        <div className="px-3 mx-auto max-w-3xl">
           <div className="prose prose-lg max-w-none mb-12">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">
               {service.name}
@@ -239,7 +255,7 @@ export default async function ServicePage(props: ServicePageProps) {
 
       {/* CTA Box */}
       <section className="section-padding bg-primary-50">
-        <div className="mx-3 mx-auto max-w-3xl">
+        <div className="px-3 mx-auto max-w-3xl">
           <div className="bg-white p-8 rounded-xl border-2 border-primary-200 shadow-lg">
             <h2 className="text-2xl font-bold text-gray-900 mb-4">
               Vous avez un projet de {service.name.toLowerCase()} ?
@@ -265,7 +281,7 @@ export default async function ServicePage(props: ServicePageProps) {
 
       {/* CTA Section */}
       <section className="hero-gradient py-16 md:py-24 text-white">
-        <div className="mx-3 mx-auto text-center">
+        <div className="px-3 mx-auto text-center">
           <h2 className="heading-md mb-4 text-white">
             Besoin d'un expert en {service.name.toLowerCase()} ?
           </h2>

@@ -31,5 +31,12 @@ export function getRelatedCities(
       !nearby.some((n) => n.slug === city.slug)
   );
 
-  return [...nearby, ...sameDepartment].slice(0, limit);
+  const combined = [...nearby, ...sameDepartment];
+  const seen = new Set<string>();
+  const unique = combined.filter((city) => {
+    if (seen.has(city.slug)) return false;
+    seen.add(city.slug);
+    return true;
+  });
+  return unique.slice(0, limit);
 }

@@ -151,7 +151,7 @@ export default function ContactPage() {
 
       {/* CONTACT */}
       <section className="section-padding bg-white">
-        <div className="mx-3 mx-auto">
+        <div className="px-3 mx-auto">
           <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
             {/* INFOS */}
             <div className="space-y-6">
@@ -568,7 +568,7 @@ export default function ContactPage() {
 
       {/* BENEFITS */}
       <section className="section-padding bg-gray-50">
-        <div className="mx-3 mx-auto">
+        <div className="px-3 mx-auto">
           <h2 className="heading-md mb-12 text-center">
             Pourquoi nous contacter ?
           </h2>
@@ -630,7 +630,7 @@ export default function ContactPage() {
 
       {/* FINAL CTA */}
       <section className="hero-gradient py-16 text-white md:py-24">
-        <div className="mx-3 mx-auto text-center">
+        <div className="px-3 mx-auto text-center">
           <h2 className="mb-4 text-4xl font-bold leading-tight md:text-5xl">
             Prêt à démarrer votre projet ?
           </h2>

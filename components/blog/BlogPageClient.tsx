@@ -106,7 +106,7 @@ export default function BlogPageClient() {
 
       {/* CATEGORIES */}
       <section className="border-b border-gray-200 bg-white py-10">
-        <div className="mx-3 mx-auto">
+        <div className="px-3 mx-auto">
           <div className="flex flex-wrap justify-center gap-3">
             {categories.map((cat) => (
               <button
@@ -137,7 +137,7 @@ export default function BlogPageClient() {
       {/* FEATURED ARTICLE */}
       {featuredArticle && (
         <section className="section-padding bg-white">
-          <div className="mx-3 mx-auto">
+          <div className="px-3 mx-auto">
             <div className="rounded-3xl bg-white shadow-xl">
               <div className="grid grid-cols-1 lg:grid-cols-[420px_1fr]">
                 {/* IMAGE */}
@@ -223,7 +223,7 @@ export default function BlogPageClient() {
 
       {/* ARTICLES */}
       <section className="section-padding bg-gray-50">
-        <div className="mx-3 mx-auto">
+        <div className="px-3 mx-auto">
           <div className="mb-14 text-center">
             <h2 className="heading-md mb-4">Derniers articles</h2>
 
@@ -366,7 +366,7 @@ export default function BlogPageClient() {
 
       {/* TRUST SECTION */}
       <section className="section-padding bg-white">
-        <div className="mx-3 mx-auto">
+        <div className="px-3 mx-auto">
           <div
             className="
               rounded-3xl
@@ -412,7 +412,7 @@ export default function BlogPageClient() {
 
       {/* CTA */}
       <section className="hero-gradient py-16 text-white md:py-24">
-        <div className="mx-3 mx-auto text-center">
+        <div className="px-3 mx-auto text-center">
           <h2
             className="
               mb-4

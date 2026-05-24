@@ -74,9 +74,21 @@ export default async function CityPage(props: CityPageProps) {
         secondaryButtonText={business.phone.replace("+33", "0")}
         secondaryButtonHref="/contact"
         cards={[
-          { icon: "hammer", title: "Maçonnerie locale", description: `Votre artisan maçon à ${city.name}.` },
-          { icon: "shield", title: "Garantie décennale", description: "Travaux assurés et durables." },
-          { icon: "star", title: "Devis gratuit", description: "Réponse rapide sous 24h." },
+          {
+            icon: "hammer",
+            title: "Maçonnerie locale",
+            description: `Votre artisan maçon à ${city.name}.`,
+          },
+          {
+            icon: "shield",
+            title: "Garantie décennale",
+            description: "Travaux assurés et durables.",
+          },
+          {
+            icon: "star",
+            title: "Devis gratuit",
+            description: "Réponse rapide sous 24h.",
+          },
         ]}
       />
 
@@ -105,7 +117,7 @@ export default async function CityPage(props: CityPageProps) {
 
       {/* Content */}
       <section className="section-padding bg-white">
-        <div className="mx-3 mx-auto max-w-3xl">
+        <div className="px-3 mx-auto max-w-3xl">
           <div className="mb-12">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">
               Maçon expert à {city.name}
@@ -246,7 +258,7 @@ export default async function CityPage(props: CityPageProps) {
 
       {/* CTA Box */}
       <section className="section-padding bg-gradient-to-r from-primary-50 to-primary-100">
-        <div className="mx-3 mx-auto max-w-3xl">
+        <div className="px-3 mx-auto max-w-3xl">
           <div className="bg-white p-8 rounded-xl border-2 border-primary-200 shadow-lg">
             <h2 className="text-2xl font-bold text-gray-900 mb-4">
               Vous avez un projet à {city.name} ?
@@ -273,7 +285,7 @@ export default async function CityPage(props: CityPageProps) {
 
       {/* Final CTA */}
       <section className="hero-gradient py-16 md:py-24 text-white">
-        <div className="mx-3 mx-auto text-center">
+        <div className="px-3 mx-auto text-center">
           <h2 className="text-4xl md:text-5xl font-bold mb-4 leading-tight">
             Maçon professionnel à {city.name}
           </h2>

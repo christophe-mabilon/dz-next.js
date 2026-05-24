@@ -176,7 +176,7 @@ export function Header() {
         {/* MOBILE MENU */}
         {isOpen && (
           <div className="border-t border-white/10 bg-gray-950 lg:hidden">
-            <nav className="mx-3 mx-auto flex flex-col py-6">
+            <nav className="px-3 mx-auto flex flex-col py-6">
               {navItems.map((item) => (
                 <Link
                   key={item.href}

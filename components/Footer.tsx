@@ -17,7 +17,7 @@ export function Footer() {
   return (
     <footer className="border-t border-gray-800 bg-gray-950 text-gray-300">
       {/* MAIN FOOTER */}
-      <div className="mx-3 mx-auto py-20">
+      <div className="px-3 mx-auto py-20">
         <div className="grid gap-14 lg:grid-cols-4">
           {/* ENTREPRISE */}
           <div className="lg:col-span-1">
@@ -293,10 +293,10 @@ export function Footer() {
 
       {/* CTA BAR */}
       <div className="border-t border-primary-500 bg-primary-600">
-        <div className="mx-3 mx-auto flex flex-col items-center justify-between gap-4 py-8 md:flex-row">
+        <div className="px-3 mx-auto flex flex-col items-center justify-between gap-4 py-8 md:flex-row">
           <div>
             <h3 className="mb-1 text-xl font-bold text-white">
-              Besoin d&apos;un devis pour vos travaux ?
+              Besoin d'un devis pour vos travaux ?
             </h3>
 
             <p className="text-primary-100">
