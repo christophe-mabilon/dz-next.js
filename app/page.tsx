@@ -132,6 +132,16 @@ export default function HomePage() {
           },
         ]}
       />
+
+      {/* BREADCRUMBS */}
+      <nav aria-label="Fil d'Ariane" className="border-b border-gray-100 bg-gray-50 py-3">
+        <div className="mx-auto px-3">
+          <ol className="flex flex-wrap items-center gap-1 text-sm text-gray-500">
+            <li className="font-medium text-gray-800" aria-current="page">Accueil</li>
+          </ol>
+        </div>
+      </nav>
+
       {/* INTRO */}
       <section className="bg-white py-20">
         <div className="container mx-auto grid gap-16 px-6 lg:grid-cols-2 lg:items-center">

@@ -81,6 +81,17 @@ export default function BlogPageClient() {
         ]}
       />
 
+      {/* BREADCRUMBS */}
+      <nav aria-label="Fil d'Ariane" className="border-b border-gray-100 bg-gray-50 py-3">
+        <div className="mx-auto px-3">
+          <ol className="flex flex-wrap items-center gap-1 text-sm text-gray-500">
+            <li><Link href="/" className="transition hover:text-primary-600 hover:underline">Accueil</Link></li>
+            <li className="select-none px-1 text-gray-400">/</li>
+            <li className="font-medium text-gray-800" aria-current="page">Blog</li>
+          </ol>
+        </div>
+      </nav>
+
       {/* CATEGORIES */}
       <section className="border-b border-gray-200 bg-white py-10">
         <div className="container mx-auto">
