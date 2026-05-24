@@ -7,7 +7,7 @@ import HeroSection from "@/components/sections/hero/HeroSection";
 const { business } = siteConfig;
 export const metadata: Metadata = generatePageMetadata(
   "Conditions d'utilisation | DZ Maçonnerie",
-  "Conditions d'utilisation du site DZ Maçonnerie & Terrassement.",
+  "Conditions d'utilisation du site ${business.name}.",
   "/conditions",
   `${siteConfig.siteUrl}/og-conditions.jpg`,
 );
@@ -20,7 +20,7 @@ export default function ConditionsUtilisation() {
         badge="Conditions d’utilisation • DZ Maçonnerie"
         title="Conditions"
         highlight="D’utilisation"
-        description="Consultez les conditions générales d’utilisation du site DZ Maçonnerie & Terrassement ainsi que les règles applicables à la navigation et à l’utilisation des contenus."
+        description="Consultez les conditions générales d’utilisation du site ${business.name} ainsi que les règles applicables à la navigation et à l’utilisation des contenus."
         image="/images/realisations/chantier_maçonnerie.avif"
         imageAlt="Conditions d’utilisation DZ Maçonnerie"
         primaryButtonText="Nous contacter"
@@ -43,7 +43,7 @@ export default function ConditionsUtilisation() {
           {
             icon: "hammer",
             title: "Entreprise locale",
-            description: "DZ Maçonnerie & Terrassement en Isère.",
+            description: "${business.name} en Isère.",
           },
         ]}
       />
@@ -62,8 +62,8 @@ export default function ConditionsUtilisation() {
             </h2>
 
             <p className="max-w-4xl text-lg leading-relaxed text-gray-600">
-              L’utilisation du site DZ Maçonnerie & Terrassement implique
-              l’acceptation pleine et entière des présentes conditions générales
+              L’utilisation du site ${business.name} implique l’acceptation
+              pleine et entière des présentes conditions générales
               d’utilisation.
             </p>
           </div>
@@ -158,9 +158,9 @@ export default function ConditionsUtilisation() {
               </h3>
 
               <p className="text-lg leading-relaxed text-gray-600">
-                DZ Maçonnerie & Terrassement ne saurait être tenu responsable
-                d’éventuels dommages liés à l’utilisation du site ou à une
-                interruption temporaire des services.
+                ${business.name} ne saurait être tenu responsable d’éventuels
+                dommages liés à l’utilisation du site ou à une interruption
+                temporaire des services.
               </p>
             </div>
 
@@ -171,8 +171,8 @@ export default function ConditionsUtilisation() {
               </h3>
 
               <p className="max-w-3xl text-lg leading-relaxed text-primary-100">
-                Contactez DZ Maçonnerie & Terrassement pour toute information
-                complémentaire concernant l’utilisation du site.
+                Contactez ${business.name} pour toute information complémentaire
+                concernant l’utilisation du site.
               </p>
 
               <div className="mt-8 flex flex-col gap-4 sm:flex-row">
@@ -185,10 +185,10 @@ export default function ConditionsUtilisation() {
                 </Link>
 
                 <a
-                  href="tel:+33688144257"
+                  href="/contact"
                   className="inline-flex items-center justify-center rounded-xl border border-white/20 bg-white/10 px-8 py-5 text-lg font-bold text-white backdrop-blur transition hover:bg-white/20"
                 >
-                  06 88 14 42 57
+                  {business.phone.replace("+33", "0")}
                 </a>
               </div>
             </div>

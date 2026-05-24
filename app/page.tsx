@@ -7,6 +7,7 @@ import HeroSection from "@/components/sections/hero/HeroSection";
 import { siteConfig } from "@/data/config";
 
 const { business } = siteConfig;
+
 export const metadata = {
   title: "Maçon à Bourgoin-Jallieu | Terrassement & Rénovation en Nord-Isère",
   description:
@@ -15,7 +16,7 @@ export const metadata = {
     canonical: "https://www.dzmaconnerie38.fr",
   },
   openGraph: {
-    title: "DZ Maçonnerie & Terrassement - Maçon à Bourgoin-Jallieu",
+    title: "${business.name} - Maçon à Bourgoin-Jallieu",
     description:
       "Travaux de maçonnerie, terrassement, rénovation et extension en Isère.",
     url: "https://www.dzmaconnerie38.fr",
@@ -27,7 +28,7 @@ export const metadata = {
         url: "/images/og-home.jpg",
         width: 1200,
         height: 630,
-        alt: "DZ Maçonnerie & Terrassement",
+        alt: "${business.name}",
       },
     ],
   },
@@ -80,7 +81,7 @@ export default function HomePage() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
-            name: "DZ Maçonnerie & Terrassement",
+            name: "${business.name}",
             image: "https://www.dzmaconnerie38.fr/images/og-home.jpg",
             url: "https://www.dzmaconnerie38.fr",
             telephone: "+33688144257",
@@ -106,7 +107,7 @@ export default function HomePage() {
         highlight="Terrassement"
         description="Entreprise de maçonnerie à Bourgoin-Jallieu spécialisée en terrassement, dalle béton, rénovation, extension maison et ouverture mur porteur dans toute l’Isère."
         image="/images/realisations/chantier_maçonnerie.avif"
-        imageAlt="Rénovation chantier béton réalisée à Bourgoin-Jallieu par DZ Maçonnerie & Terrassement"
+        imageAlt="Rénovation chantier béton réalisée à Bourgoin-Jallieu par ${business.name}"
         primaryButtonText="Demander un devis"
         primaryButtonHref="/contact"
         secondaryButtonText={business.phone.replace("+33", "0")}
@@ -196,8 +197,8 @@ export default function HomePage() {
             </h2>
 
             <p className="mx-auto max-w-3xl text-lg leading-relaxed text-gray-600">
-              DZ Maçonnerie & Terrassement accompagne ses clients avec sérieux
-              et professionnalisme pour tous leurs travaux de maçonnerie à
+              ${business.name} accompagne ses clients avec sérieux et
+              professionnalisme pour tous leurs travaux de maçonnerie à
               Bourgoin-Jallieu et dans toute l’Isère.
             </p>
           </div>
@@ -402,10 +403,9 @@ export default function HomePage() {
 
           <div className="space-y-6 leading-relaxed text-gray-600">
             <p>
-              DZ Maçonnerie & Terrassement accompagne les particuliers et
-              professionnels pour tous leurs travaux de maçonnerie générale à
-              Bourgoin-Jallieu, Artas, Villefontaine, Vienne et dans toute
-              l’Isère.
+              ${business.name} accompagne les particuliers et professionnels
+              pour tous leurs travaux de maçonnerie générale à Bourgoin-Jallieu,
+              Artas, Villefontaine, Vienne et dans toute l’Isère.
             </p>
 
             <p>
@@ -522,8 +522,8 @@ export default function HomePage() {
           </h2>
 
           <p className="mx-auto mb-10 max-w-2xl text-lg text-primary-50">
-            Contactez DZ Maçonnerie & Terrassement pour discuter de votre projet
-            de maçonnerie, rénovation ou terrassement en Isère.
+            Contactez ${business.name} pour discuter de votre projet de
+            maçonnerie, rénovation ou terrassement en Isère.
           </p>
 
           <div className="flex flex-col items-center justify-center gap-4 sm:flex-row">
@@ -536,11 +536,11 @@ export default function HomePage() {
             </Link>
 
             <a
-              href="tel:+33688144257"
+              href="/contact"
               className="inline-flex items-center rounded-xl border border-white/20 bg-white/10 px-8 py-5 text-lg font-bold text-white backdrop-blur transition hover:bg-white/20"
             >
-              <Phone className="mr-2 h-5 w-5" />
-              06 88 14 42 57
+              <Phone className="mr-2 h-5 w-5" />$
+              {business.phone.replace("+33", "0")}
             </a>
           </div>
         </div>
@@ -553,9 +553,9 @@ export default function HomePage() {
 
           <div className="space-y-6 leading-relaxed text-gray-600">
             <p>
-              DZ Maçonnerie & Terrassement intervient pour tous vos travaux de
-              maçonnerie générale à Bourgoin-Jallieu, Artas, Villefontaine,
-              Vienne et dans toute l’Isère.
+              ${business.name} intervient pour tous vos travaux de maçonnerie
+              générale à Bourgoin-Jallieu, Artas, Villefontaine, Vienne et dans
+              toute l’Isère.
             </p>
 
             <p>

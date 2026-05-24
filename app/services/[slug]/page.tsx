@@ -11,6 +11,8 @@ import {
 } from "@/lib/seo";
 import { siteConfig } from "@/data/config";
 
+const { business } = siteConfig;
+
 interface ServicePageProps {
   params: Promise<{
     slug: string;
@@ -238,10 +240,10 @@ export default async function ServicePage(props: ServicePageProps) {
                 Demander un devis <ArrowRight className="ml-2 w-4 h-4" />
               </Link>
               <a
-                href="tel:+33688144257"
+                href="/contact"
                 className="btn-secondary border-primary-600 text-primary-600"
               >
-                06 88 14 42 57
+                {business.phone.replace("+33", "0")}
               </a>
             </div>
           </div>
@@ -255,8 +257,8 @@ export default async function ServicePage(props: ServicePageProps) {
             Besoin d'un expert en {service.name.toLowerCase()} ?
           </h2>
           <p className="text-xl text-primary-50 mb-8 max-w-2xl mx-auto">
-            DZ Maçonnerie & Terrassement réalise tous vos projets avec
-            professionnalisme et garantie
+            ${business.name} réalise tous vos projets avec professionnalisme et
+            garantie
           </p>
           <Link
             href="/contact"

@@ -5,9 +5,11 @@ import { generateMetadata as generatePageMetadata } from "@/lib/seo";
 import { siteConfig } from "@/data/config";
 import HeroSection from "@/components/sections/hero/HeroSection";
 
+const { business } = siteConfig;
+
 export const metadata: Metadata = generatePageMetadata(
   "Politique de confidentialité | DZ Maçonnerie",
-  "Politique de confidentialité et protection des données personnelles de DZ Maçonnerie & Terrassement.",
+  "Politique de confidentialité et protection des données personnelles de ${business.name}.",
   "/politique-confidentialite",
   `${siteConfig.siteUrl}/og-privacy.jpg`,
 );
@@ -20,7 +22,7 @@ export default function PolitiqueConfidentialite() {
         badge="Informations légales • DZ Maçonnerie"
         title="Politique de"
         highlight="Confidentialité"
-        description="Consultez la politique de confidentialité de DZ Maçonnerie & Terrassement concernant la collecte, l’utilisation et la protection des données personnelles."
+        description="Consultez la politique de confidentialité de ${business.name} concernant la collecte, l’utilisation et la protection des données personnelles."
         image="/images/realisations/chantier_maçonnerie.avif"
         imageAlt="Politique de confidentialité DZ Maçonnerie"
         primaryButtonText="Nous contacter"
@@ -43,7 +45,7 @@ export default function PolitiqueConfidentialite() {
           {
             icon: "hammer",
             title: "Entreprise locale",
-            description: "DZ Maçonnerie & Terrassement en Nord-Isère.",
+            description: "${business.name} en Nord-Isère.",
           },
         ]}
       />
@@ -62,8 +64,8 @@ export default function PolitiqueConfidentialite() {
             </h2>
 
             <p className="max-w-4xl text-lg leading-relaxed text-gray-600">
-              DZ Maçonnerie & Terrassement accorde une importance particulière à
-              la protection des données personnelles et au respect de votre vie
+              ${business.name} accorde une importance particulière à la
+              protection des données personnelles et au respect de votre vie
               privée conformément au Règlement Général sur la Protection des
               Données (RGPD).
             </p>
@@ -78,9 +80,9 @@ export default function PolitiqueConfidentialite() {
               </h3>
 
               <p className="text-lg leading-relaxed text-gray-600">
-                DZ Maçonnerie & Terrassement s’engage à assurer la
-                confidentialité des informations collectées sur le site et à
-                protéger les données personnelles des utilisateurs.
+                ${business.name} s’engage à assurer la confidentialité des
+                informations collectées sur le site et à protéger les données
+                personnelles des utilisateurs.
               </p>
             </div>
 
@@ -171,9 +173,9 @@ export default function PolitiqueConfidentialite() {
               </h3>
 
               <p className="text-lg leading-relaxed text-gray-600">
-                DZ Maçonnerie & Terrassement met en œuvre les mesures
-                nécessaires afin de garantir la sécurité et la confidentialité
-                des données personnelles.
+                ${business.name} met en œuvre les mesures nécessaires afin de
+                garantir la sécurité et la confidentialité des données
+                personnelles.
               </p>
             </div>
 
@@ -184,9 +186,8 @@ export default function PolitiqueConfidentialite() {
               </h3>
 
               <p className="max-w-3xl text-lg leading-relaxed text-primary-100">
-                Contactez DZ Maçonnerie & Terrassement pour toute demande
-                relative à vos données personnelles ou à l’exercice de vos
-                droits RGPD.
+                Contactez ${business.name} pour toute demande relative à vos
+                données personnelles ou à l’exercice de vos droits RGPD.
               </p>
 
               <div className="mt-8 flex flex-col gap-4 sm:flex-row">
@@ -199,10 +200,10 @@ export default function PolitiqueConfidentialite() {
                 </Link>
 
                 <a
-                  href="tel:+33688144257"
+                  href="/contact"
                   className="inline-flex items-center justify-center rounded-xl border border-white/20 bg-white/10 px-8 py-5 text-lg font-bold text-white backdrop-blur transition hover:bg-white/20"
                 >
-                  06 88 14 42 57
+                  {business.phone.replace("+33", "0")}
                 </a>
               </div>
             </div>

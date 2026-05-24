@@ -60,10 +60,10 @@ export default function HeroSection({
   description,
   image,
   imageAlt,
-  phone = "06 88 14 42 57",
+  phone = "{business.phone.replace("+33", "0")}",
   primaryButtonText = "Demander un devis",
   primaryButtonHref = "/contact",
-  secondaryButtonText = "06 88 14 42 57",
+  secondaryButtonText = "{business.phone.replace("+33", "0")}",
   secondaryButtonHref = "/contact",
 
   cards = [

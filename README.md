@@ -145,4 +145,4 @@ Modifier `data/cities.ts` → Pages auto-générées
 
 ## 📞 Support
 
-dz.maconnerie38@gmail.com / 06 88 14 42 57
+dz.maconnerie38@gmail.com / {business.phone.replace("+33", "0")}

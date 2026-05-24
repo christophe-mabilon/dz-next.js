@@ -9,6 +9,7 @@ import { siteConfig } from "@/data/config";
 import HeroSection from "@/components/sections/hero/HeroSection";
 
 const { business } = siteConfig;
+
 export const metadata: Metadata = generatePageMetadata(
   "Services de maçonnerie à Bourgoin-Jallieu | DZ Maçonnerie",
   "Entreprise de maçonnerie à Bourgoin-Jallieu spécialisée en maçonnerie générale, rénovation, terrassement, dalle béton, piscine béton et extension maison en Isère.",
@@ -24,7 +25,7 @@ export default function ServicesPage() {
         badge="Services • Bourgoin-Jallieu • Nord-Isère"
         title="Nos"
         highlight="Services"
-        description="DZ Maçonnerie & Terrassement vous accompagne pour vos travaux de maçonnerie générale, terrassement, dalle béton, rénovation, extension maison et ouverture mur porteur dans toute l’Isère."
+        description="${business.name} vous accompagne pour vos travaux de maçonnerie générale, terrassement, dalle béton, rénovation, extension maison et ouverture mur porteur dans toute l’Isère."
         image="/images/realisations/chantier_maçonnerie.avif"
         imageAlt="Services de maçonnerie et terrassement en Nord-Isère"
         primaryButtonText="Demander un devis"
@@ -349,10 +350,9 @@ export default function ServicesPage() {
 
           <div className="space-y-6 leading-relaxed text-gray-600">
             <p>
-              DZ Maçonnerie & Terrassement accompagne les particuliers et
-              professionnels pour tous leurs travaux de maçonnerie générale à
-              Bourgoin-Jallieu, Artas, Villefontaine, Vienne et dans toute
-              l’Isère.
+              ${business.name} accompagne les particuliers et professionnels
+              pour tous leurs travaux de maçonnerie générale à Bourgoin-Jallieu,
+              Artas, Villefontaine, Vienne et dans toute l’Isère.
             </p>
 
             <p>
@@ -381,8 +381,7 @@ export default function ServicesPage() {
           </h2>
 
           <p className="mx-auto mb-10 max-w-2xl text-xl text-primary-50">
-            Contactez DZ Maçonnerie & Terrassement pour discuter de votre projet
-            en Isère.
+            Contactez ${business.name} pour discuter de votre projet en Isère.
           </p>
 
           <div className="flex flex-col items-center justify-center gap-4 sm:flex-row">
@@ -395,10 +394,10 @@ export default function ServicesPage() {
             </Link>
 
             <a
-              href="tel:+33688144257"
+              href="/contact"
               className="inline-flex items-center rounded-xl border border-white/20 bg-white/10 px-8 py-5 text-lg font-bold text-white backdrop-blur transition hover:bg-white/20"
             >
-              06 88 14 42 57
+              {business.phone.replace("+33", "0")}
             </a>
           </div>
         </div>

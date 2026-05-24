@@ -10,6 +10,8 @@ import {
 } from "@/lib/seo";
 import { siteConfig } from "@/data/config";
 
+const { business } = siteConfig;
+
 interface CityPageProps {
   params: Promise<{
     slug: string;
@@ -101,8 +103,8 @@ export default async function CityPage(props: CityPageProps) {
               Maçon expert à {city.name}
             </h2>
             <p className="text-lg text-gray-700 leading-relaxed mb-6">
-              DZ Maçonnerie & Terrassement est votre partenaire de confiance
-              pour tous vos projets de maçonnerie à {city.name} ({city.zipCode}
+              ${business.name} est votre partenaire de confiance pour tous vos
+              projets de maçonnerie à {city.name} ({city.zipCode}
               ). Basés à Artas, nous intervenons dans la région {
                 city.region
               }{" "}
@@ -224,7 +226,8 @@ export default async function CityPage(props: CityPageProps) {
                   Comment prendre contact ?
                 </h3>
                 <p className="text-gray-700">
-                  Vous pouvez nous appeler au 06 88 14 42 57 ou remplir notre
+                  Vous pouvez nous appeler au{" "}
+                  {business.phone.replace("+33", "0")} ou remplir notre
                   formulaire de contact. Nous vous répondons sous 24h.
                 </p>
               </div>
@@ -249,11 +252,11 @@ export default async function CityPage(props: CityPageProps) {
                 Demander un devis <ArrowRight className="ml-2 w-4 h-4" />
               </Link>
               <a
-                href="tel:+33688144257"
+                href="/contact"
                 className="btn-secondary border-primary-600 text-primary-600"
               >
                 <Phone className="w-4 h-4 mr-2" />
-                06 88 14 42 57
+                {business.phone.replace("+33", "0")}
               </a>
             </div>
           </div>

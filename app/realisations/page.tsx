@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     "Réalisations maçonnerie et terrassement en Nord-Isère | DZ Maçonnerie",
 
   description:
-    "Découvrez les réalisations DZ Maçonnerie & Terrassement : dalle béton, terrassement, rénovation, extension maison et travaux de maçonnerie en Nord-Isère.",
+    "Découvrez les réalisations ${business.name} : dalle béton, terrassement, rénovation, extension maison et travaux de maçonnerie en Nord-Isère.",
 
   alternates: {
     canonical: `${SITE_URL}/realisations`,
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
       "Réalisations maçonnerie et terrassement en Nord-Isère | DZ Maçonnerie",
 
     description:
-      "Découvrez les réalisations DZ Maçonnerie & Terrassement : dalle béton, terrassement, rénovation et extension maison.",
+      "Découvrez les réalisations ${business.name} : dalle béton, terrassement, rénovation et extension maison.",
 
     url: `${SITE_URL}/realisations`,
 
@@ -51,7 +51,7 @@ export const metadata: Metadata = {
       "Réalisations maçonnerie et terrassement en Nord-Isère | DZ Maçonnerie",
 
     description:
-      "Découvrez plusieurs chantiers réalisés par DZ Maçonnerie & Terrassement.",
+      "Découvrez plusieurs chantiers réalisés par ${business.name}.",
 
     images: [`${SITE_URL}/images/og/realisations-og.jpg`],
   },
@@ -71,7 +71,7 @@ export default function RealisationsPage() {
     name: "Réalisations DZ Maçonnerie",
 
     description:
-      "Découvrez les chantiers réalisés par DZ Maçonnerie & Terrassement en Nord-Isère.",
+      "Découvrez les chantiers réalisés par ${business.name} en Nord-Isère.",
 
     url: `${SITE_URL}/realisations`,
 
@@ -111,7 +111,7 @@ export default function RealisationsPage() {
         badge="Réalisations • Bourgoin-Jallieu • Nord-Isère"
         title="Nos"
         highlight="Réalisations"
-        description="Découvrez plusieurs chantiers réalisés par DZ Maçonnerie & Terrassement : dalle béton, terrassement, rénovation, extension maison et maçonnerie générale dans toute l’Isère."
+        description="Découvrez plusieurs chantiers réalisés par ${business.name} : dalle béton, terrassement, rénovation, extension maison et maçonnerie générale dans toute l’Isère."
         image="/images/realisations/chantier_maçonnerie.avif"
         imageAlt="Réalisations maçonnerie et terrassement en Nord-Isère"
         primaryButtonText="Demander un devis"
@@ -147,7 +147,7 @@ export default function RealisationsPage() {
             </h2>
 
             <p className="mt-6 text-lg leading-8 text-zinc-600">
-              DZ Maçonnerie & Terrassement accompagne les particuliers et
+              ${business.name} accompagne les particuliers et
               professionnels pour leurs travaux de maçonnerie, terrassement,
               rénovation, création de dalle béton et extension de maison.
             </p>
@@ -258,7 +258,7 @@ export default function RealisationsPage() {
           </h2>
 
           <p className="mt-6 text-lg leading-8 text-zinc-600">
-            Contactez DZ Maçonnerie & Terrassement pour obtenir un devis gratuit
+            Contactez ${business.name} pour obtenir un devis gratuit
             pour vos travaux en Nord-Isère.
           </p>
 

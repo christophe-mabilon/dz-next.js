@@ -192,10 +192,10 @@ export default async function CombinedServiceCityPage(
                 Demander un devis <ArrowRight className="ml-2 w-4 h-4" />
               </Link>
               <a
-                href="tel:+33688144257"
+                href="/contact"
                 className="btn-secondary border-primary-600 text-primary-600 hover:bg-primary-50"
               >
-                06 88 14 42 57
+                {business.phone.replace("+33", "0")}
               </a>
             </div>
           </div>

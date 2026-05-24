@@ -1,15 +1,17 @@
 import type { Realisation } from '@/data/realisations'
+import { siteConfig } from "@/data/config";
 
+const { business } = siteConfig;
 const SITE_URL = 'https://www.dz-maconnerie.fr'
 
 export function generateRealisationMetadata(
   project: Realisation
 ) {
   const title =
-    `${project.service} à ${project.city} | ${project.title} | DZ Maçonnerie`
+    `${project.service} à ${project.city} | ${project.title} | ${business.name}`
 
   const description =
-    `${project.description} Découvrez cette réalisation de ${project.service.toLowerCase()} réalisée à ${project.city} par DZ Maçonnerie & Terrassement.`
+    `${project.description} Découvrez cette réalisation de ${project.service.toLowerCase()} réalisée à ${project.city} par ${business.name}.`
 
   const canonical =
     `${SITE_URL}/realisations/${project.slug}`
