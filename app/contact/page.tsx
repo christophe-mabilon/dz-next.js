@@ -23,9 +23,12 @@ const { business } = siteConfig;
 
 export default function ContactPage() {
   const [formData, setFormData] = useState({
-    name: "",
+    nom: "",
+    prenom: "",
     email: "",
     phone: "",
+    adresse: "",
+    codePostal: "",
     city: "",
     service: "",
     message: "",
@@ -66,9 +69,12 @@ export default function ContactPage() {
         setSubmitted(true);
 
         setFormData({
-          name: "",
+          nom: "",
+          prenom: "",
           email: "",
           phone: "",
+          adresse: "",
+          codePostal: "",
           city: "",
           service: "",
           message: "",
@@ -319,25 +325,44 @@ export default function ContactPage() {
                 )}
 
                 <form onSubmit={handleSubmit} className="space-y-5">
-                  {/* NAME */}
-                  <div>
-                    <label
-                      htmlFor="name"
-                      className="mb-2 block text-sm font-semibold text-gray-900"
-                    >
-                      Nom complet *
-                    </label>
-
-                    <input
-                      type="text"
-                      id="name"
-                      name="name"
-                      value={formData.name}
-                      onChange={handleChange}
-                      required
-                      className="w-full rounded-lg border border-gray-300 px-4 py-3 transition focus:border-primary-600 focus:outline-none focus:ring-2 focus:ring-primary-100"
-                      placeholder="Jean Dupont"
-                    />
+                  {/* NOM + PRÉNOM */}
+                  <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
+                    <div>
+                      <label
+                        htmlFor="nom"
+                        className="mb-2 block text-sm font-semibold text-gray-900"
+                      >
+                        Nom *
+                      </label>
+                      <input
+                        type="text"
+                        id="nom"
+                        name="nom"
+                        value={formData.nom}
+                        onChange={handleChange}
+                        required
+                        className="w-full rounded-lg border border-gray-300 px-4 py-3 transition focus:border-primary-600 focus:outline-none focus:ring-2 focus:ring-primary-100"
+                        placeholder="Dupont"
+                      />
+                    </div>
+                    <div>
+                      <label
+                        htmlFor="prenom"
+                        className="mb-2 block text-sm font-semibold text-gray-900"
+                      >
+                        Prénom *
+                      </label>
+                      <input
+                        type="text"
+                        id="prenom"
+                        name="prenom"
+                        value={formData.prenom}
+                        onChange={handleChange}
+                        required
+                        className="w-full rounded-lg border border-gray-300 px-4 py-3 transition focus:border-primary-600 focus:outline-none focus:ring-2 focus:ring-primary-100"
+                        placeholder="Jean"
+                      />
+                    </div>
                   </div>
 
                   {/* EMAIL */}
@@ -367,7 +392,7 @@ export default function ContactPage() {
                       htmlFor="phone"
                       className="mb-2 block text-sm font-semibold text-gray-900"
                     >
-                      Téléphone
+                      Téléphone *
                     </label>
 
                     <input
@@ -376,30 +401,70 @@ export default function ContactPage() {
                       name="phone"
                       value={formData.phone}
                       onChange={handleChange}
+                      required
                       className="w-full rounded-lg border border-gray-300 px-4 py-3 transition focus:border-primary-600 focus:outline-none focus:ring-2 focus:ring-primary-100"
                       placeholder="06 12 34 56 78"
                     />
                   </div>
 
-                  {/* CITY */}
+                  {/* ADRESSE */}
                   <div>
                     <label
-                      htmlFor="city"
+                      htmlFor="adresse"
                       className="mb-2 block text-sm font-semibold text-gray-900"
                     >
-                      Ville du projet *
+                      Adresse du chantier
                     </label>
 
                     <input
                       type="text"
-                      id="city"
-                      name="city"
-                      value={formData.city}
+                      id="adresse"
+                      name="adresse"
+                      value={formData.adresse}
                       onChange={handleChange}
-                      required
                       className="w-full rounded-lg border border-gray-300 px-4 py-3 transition focus:border-primary-600 focus:outline-none focus:ring-2 focus:ring-primary-100"
-                      placeholder="Bourgoin-Jallieu"
+                      placeholder="12 rue des Lilas"
                     />
+                  </div>
+
+                  {/* CODE POSTAL + VILLE */}
+                  <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
+                    <div>
+                      <label
+                        htmlFor="codePostal"
+                        className="mb-2 block text-sm font-semibold text-gray-900"
+                      >
+                        Code postal
+                      </label>
+                      <input
+                        type="text"
+                        id="codePostal"
+                        name="codePostal"
+                        value={formData.codePostal}
+                        onChange={handleChange}
+                        className="w-full rounded-lg border border-gray-300 px-4 py-3 transition focus:border-primary-600 focus:outline-none focus:ring-2 focus:ring-primary-100"
+                        placeholder="38300"
+                        maxLength={5}
+                      />
+                    </div>
+                    <div>
+                      <label
+                        htmlFor="city"
+                        className="mb-2 block text-sm font-semibold text-gray-900"
+                      >
+                        Ville *
+                      </label>
+                      <input
+                        type="text"
+                        id="city"
+                        name="city"
+                        value={formData.city}
+                        onChange={handleChange}
+                        required
+                        className="w-full rounded-lg border border-gray-300 px-4 py-3 transition focus:border-primary-600 focus:outline-none focus:ring-2 focus:ring-primary-100"
+                        placeholder="Bourgoin-Jallieu"
+                      />
+                    </div>
                   </div>
 
                   {/* SERVICE */}
@@ -419,19 +484,42 @@ export default function ContactPage() {
                       required
                       className="w-full rounded-lg border border-gray-300 px-4 py-3 transition focus:border-primary-600 focus:outline-none focus:ring-2 focus:ring-primary-100"
                     >
-                      <option value="">Sélectionnez un service</option>
-
-                      <option value="maconnerie">Maçonnerie générale</option>
-
-                      <option value="renovation">Rénovation</option>
-
-                      <option value="extension">Extension maison</option>
-
-                      <option value="terrassement">Terrassement</option>
-
-                      <option value="dalle-beton">Dalle béton</option>
-
-                      <option value="autre">Autre</option>
+                      <option value="" disabled>
+											Sélectionnez une option
+										</option>
+										<option value="Autre (Merci de préciser)">
+											Autre (Merci de préciser)
+										</option>
+										<option value="Abri de jardin">Abri de jardin</option>
+										<option value="Abri de piscine">Abri de piscine</option>
+										<option value="Chape">Chape</option>
+										<option value="Clôture">Clôture</option>
+										<option value="Construction garage">
+											Construction garage
+										</option>
+										<option value="Construction maison">
+											Construction maison
+										</option>
+										<option value="Dallage">Dallage</option>
+										<option value="Démolition (bâtiment, murs...)">
+											Démolition (bâtiment, murs...)
+										</option>
+										<option value="Escaliers">Escaliers</option>
+										<option value="Extension maison">Extension maison</option>
+										<option value="Fondation">Fondation</option>
+										<option value="Gros œuvre">Gros œuvre</option>
+										<option value="Piscine">Piscine</option>
+										<option value="Petits travaux de maçonnerie">
+											Petits travaux de maçonnerie
+										</option>
+										<option value="Création d'ouverture">
+											Création d'ouverture
+										</option>
+										<option value="Sol béton">Sol béton</option>
+										<option value="Surélévation">Surélévation</option>
+										<option value="Terrasse">Terrasse</option>
+										<option value="Carrelage">Carrelage</option>
+										<option value="Petite charpente">Petite charpente</option>
                     </select>
                   </div>
 

@@ -1,24 +1,34 @@
 import { NextRequest, NextResponse } from "next/server";
 
 interface ContactData {
-  name: string;
+  nom: string;
+  prenom: string;
   email: string;
-  phone?: string;
+  phone: string;
+  adresse?: string;
+  codePostal?: string;
   city: string;
   service: string;
   message: string;
 }
 
-// Validation simple des données
 function validateContactData(data: ContactData) {
   const errors: string[] = [];
 
-  if (!data.name || data.name.trim().length < 2) {
+  if (!data.nom || data.nom.trim().length < 2) {
     errors.push("Le nom est requis");
+  }
+
+  if (!data.prenom || data.prenom.trim().length < 2) {
+    errors.push("Le prénom est requis");
   }
 
   if (!data.email || !data.email.includes("@")) {
     errors.push("Un email valide est requis");
+  }
+
+  if (!data.phone || data.phone.trim().length < 8) {
+    errors.push("Le téléphone est requis");
   }
 
   if (!data.city || data.city.trim().length < 2) {
@@ -55,7 +65,7 @@ async function sendEmail(data: ContactData) {
   // await resend.emails.send({
   //   from: 'dz.maconnerie38@gmail.com',
   //   to: 'admin@dzmaconnerie38.fr',
-  //   subject: `Nouvelle demande de devis de ${data.name}`,
+  //   subject: `Nouvelle demande de devis de ${data.prenom} ${data.nom}`,
   //   html: generateEmailHTML(data),
   // });
 
