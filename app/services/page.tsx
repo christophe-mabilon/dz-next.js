@@ -373,7 +373,7 @@ export default function ServicesPage() {
 
           <div className="space-y-6 leading-relaxed text-gray-600">
             <p>
-              ${business.name} accompagne les particuliers et professionnels
+              {business.name} accompagne les particuliers et professionnels
               pour tous leurs travaux de maçonnerie générale à Bourgoin-Jallieu,
               Artas, Villefontaine, Vienne et dans toute l’Isère.
             </p>
