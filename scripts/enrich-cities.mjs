@@ -27,7 +27,9 @@ const args = Object.fromEntries(
     return [k, v ?? true];
   }),
 );
-const RADIUS_KM = Number(args.radius ?? 40);
+// Périmètre validé : 35 km À VOL D'OISEAU autour d'Artas, population ≥ 500.
+// (distance directe entre centres de communes, PAS la distance routière)
+const RADIUS_KM = Number(args.radius ?? 35);
 const MIN_POP = Number(args.minpop ?? 500);
 const FORCE_OSM = Boolean(args["force-osm"]);
 const ARTAS = { lat: 45.5385, lon: 5.1676 }; // Artas (INSEE 38015)
@@ -393,8 +395,9 @@ async function main() {
   // --- OSM : une passe globale (bbox) + affectation par contours ------------
   // Le cache conserve les éléments bruts ; l'affectation est recalculée à
   // chaque run (gratuit, et bénéficie des évolutions de tri/priorité).
+  // le cache reste valide si son rayon couvre le rayon demandé (sur-ensemble)
   let zoneCache = FORCE_OSM ? null : await loadCache("osm-zone.json");
-  if (!zoneCache?.elements || zoneCache.radius !== RADIUS_KM) {
+  if (!zoneCache?.elements || zoneCache.radius < RADIUS_KM) {
     console.log(`▶ Overpass : requête bbox globale (rayon ${RADIUS_KM} km)…`);
     const elements = await fetchOsmZone();
     console.log(`  ${elements.length} éléments OSM récupérés.`);

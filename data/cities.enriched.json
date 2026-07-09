@@ -2831,7 +2831,7 @@
       "doissin",
       "biol",
       "sainte-blandine",
-      "montagnieu-38",
+      "montagnieu",
       "succieu"
     ],
     "neighborhoods": [],
@@ -3736,7 +3736,7 @@
     "distanceKm": 20.5,
     "nearbyCities": [
       "torchefelon",
-      "montagnieu-38",
+      "montagnieu",
       "chelieu",
       "val-de-virieu",
       "biol",
@@ -3968,7 +3968,7 @@
     },
     "distanceKm": 20.9,
     "nearbyCities": [
-      "montagnieu-38",
+      "montagnieu",
       "la-tour-du-pin",
       "saint-didier-de-la-tour",
       "torchefelon",
@@ -4470,7 +4470,7 @@
   {
     "insee": "38246",
     "name": "Montagnieu",
-    "slug": "montagnieu-38",
+    "slug": "montagnieu",
     "zipCode": "38110",
     "department": "38",
     "departmentName": "Isère",
@@ -4913,7 +4913,8 @@
       "siccieu-saint-julien-et-carisieu",
       "sermerieu",
       "optevoz",
-      "arandon-passins"
+      "arandon-passins",
+      "bouvesse-quirieu"
     ],
     "neighborhoods": [],
     "landmarks": [
@@ -5312,7 +5313,7 @@
     },
     "distanceKm": 24.4,
     "nearbyCities": [
-      "montagnieu-38",
+      "montagnieu",
       "val-de-virieu",
       "le-passage",
       "doissin",
@@ -5576,7 +5577,7 @@
       "pajay",
       "saint-barthelemy",
       "le-grand-serre",
-      "valherbasse"
+      "roybon"
     ],
     "neighborhoods": [],
     "landmarks": [
@@ -5617,7 +5618,8 @@
       "la-tour-du-pin",
       "saint-jean-de-soudain",
       "saint-sorlin-de-morestel",
-      "rochetoirin"
+      "rochetoirin",
+      "corbelin"
     ],
     "neighborhoods": [],
     "landmarks": [],
@@ -5686,7 +5688,7 @@
     "nearbyCities": [
       "le-passage",
       "saint-clair-de-la-tour",
-      "montagnieu-38",
+      "montagnieu",
       "saint-andre-le-gaz",
       "sainte-blandine",
       "chelieu",
@@ -5916,7 +5918,8 @@
       "ville-sous-anjou",
       "vernioz",
       "monsteroux-milieu",
-      "moissieu-sur-dolon"
+      "moissieu-sur-dolon",
+      "anjou"
     ],
     "neighborhoods": [
       "Les Terres de la Rivière",
@@ -5957,8 +5960,7 @@
       "sardieu",
       "la-cote-saint-andre",
       "saint-etienne-de-saint-geoirs",
-      "roybon",
-      "varacieux"
+      "roybon"
     ],
     "neighborhoods": [
       "Charpenay",
@@ -6216,7 +6218,9 @@
       "vignieu",
       "la-chapelle-de-la-tour",
       "faverges-de-la-tour",
-      "morestel"
+      "morestel",
+      "le-bouchage",
+      "les-avenieres-veyrins-thuellin"
     ],
     "neighborhoods": [],
     "landmarks": [],
@@ -6299,7 +6303,8 @@
       "lens-lestang",
       "beaurepaire",
       "thodure",
-      "le-grand-serre"
+      "le-grand-serre",
+      "hauterives"
     ],
     "neighborhoods": [],
     "landmarks": [
@@ -6337,8 +6342,7 @@
       "sardieu",
       "saint-pierre-de-bressieux",
       "beaufort",
-      "roybon",
-      "valherbasse"
+      "roybon"
     ],
     "neighborhoods": [],
     "landmarks": [
@@ -6421,7 +6425,8 @@
       "loire-sur-rhone",
       "vienne",
       "chasse-sur-rhone",
-      "ampuis"
+      "ampuis",
+      "echalas"
     ],
     "neighborhoods": [
       "Chatanay",
@@ -6469,8 +6474,8 @@
       "cheyssieu",
       "la-chapelle-de-surieu",
       "ville-sous-anjou",
-      "auberives-sur-vareze",
-      "les-cotes-d-arey"
+      "les-cotes-d-arey",
+      "roussillon"
     ],
     "neighborhoods": [
       "Les Terrasses de Chiney",
@@ -6560,7 +6565,9 @@
       "dolomieu",
       "vignieu",
       "sermerieu",
-      "le-bouchage"
+      "le-bouchage",
+      "saint-victor-de-morestel",
+      "brangues"
     ],
     "neighborhoods": [
       "Clos Le Régent"
@@ -6646,7 +6653,9 @@
       "optevoz",
       "cremieu",
       "siccieu-saint-julien-et-carisieu",
-      "saint-baudille-de-la-tour"
+      "saint-baudille-de-la-tour",
+      "saint-vulbas",
+      "blyes"
     ],
     "neighborhoods": [],
     "landmarks": [
@@ -6683,7 +6692,8 @@
       "villette-d-anthon",
       "charvieu-chavagneux",
       "janneyrias",
-      "loyettes"
+      "loyettes",
+      "balan"
     ],
     "neighborhoods": [],
     "landmarks": [
@@ -6719,7 +6729,8 @@
       "saint-didier-de-la-tour",
       "chelieu",
       "valencogne",
-      "montagnieu-38",
+      "montagnieu",
+      "charancieu",
       "les-abrets-en-dauphine"
     ],
     "neighborhoods": [],
@@ -6754,7 +6765,8 @@
       "genas",
       "decines-charpieu",
       "vaulx-en-velin",
-      "meyzieu"
+      "meyzieu",
+      "villeurbanne"
     ],
     "neighborhoods": [
       "centre-ville",
@@ -6803,7 +6815,8 @@
       "oyeu",
       "rives",
       "saint-blaise-du-buis",
-      "izeaux"
+      "izeaux",
+      "beaucroissant"
     ],
     "neighborhoods": [
       "Les Noisetiers"
@@ -6838,7 +6851,8 @@
       "chabons",
       "colombe",
       "val-de-virieu",
-      "saint-blaise-du-buis"
+      "bilieu",
+      "chirens"
     ],
     "neighborhoods": [
       "Le Verney"
@@ -6874,7 +6888,8 @@
       "courtenay",
       "annoisin-chatelans",
       "saint-baudille-de-la-tour",
-      "soleymieu"
+      "soleymieu",
+      "bouvesse-quirieu"
     ],
     "neighborhoods": [],
     "landmarks": [
@@ -6949,7 +6964,9 @@
       "la-batie-montgascon",
       "saint-clair-de-la-tour",
       "dolomieu",
-      "saint-sorlin-de-morestel"
+      "saint-sorlin-de-morestel",
+      "granieu",
+      "les-avenieres-veyrins-thuellin"
     ],
     "neighborhoods": [],
     "landmarks": [],
@@ -7070,9 +7087,7 @@
       "saint-etienne-de-saint-geoirs",
       "viriville",
       "roybon",
-      "sardieu",
-      "varacieux",
-      "chevrieres"
+      "sardieu"
     ],
     "neighborhoods": [],
     "landmarks": [],
@@ -7109,7 +7124,8 @@
       "sermerieu",
       "creys-mepieu",
       "courtenay",
-      "soleymieu"
+      "soleymieu",
+      "bouvesse-quirieu"
     ],
     "neighborhoods": [
       "Résidence Les Platanes",
@@ -7149,7 +7165,8 @@
       "vernioz",
       "clonas-sur-vareze",
       "les-cotes-d-arey",
-      "reventin-vaugris"
+      "reventin-vaugris",
+      "roussillon"
     ],
     "neighborhoods": [
       "Lotissement La Brula",
@@ -7188,7 +7205,8 @@
       "bouvesse-quirieu",
       "arandon-passins",
       "creys-mepieu",
-      "siccieu-saint-julien-et-carisieu"
+      "siccieu-saint-julien-et-carisieu",
+      "saint-baudille-de-la-tour"
     ],
     "neighborhoods": [],
     "landmarks": [
@@ -7264,7 +7282,9 @@
       "balan",
       "pusignan",
       "anthon",
-      "jonage"
+      "jonage",
+      "nievroz",
+      "saint-maurice-de-gourdans"
     ],
     "neighborhoods": [
       "centre-ville",
@@ -7306,7 +7326,8 @@
       "sonnay",
       "bouge-chambalud",
       "bellegarde-poussieu",
-      "anjou"
+      "anjou",
+      "saint-sorlin-en-valloire"
     ],
     "neighborhoods": [
       "Les Chatelardes",
@@ -7348,7 +7369,8 @@
       "reventin-vaugris",
       "chonas-l-amballan",
       "saint-romain-en-gal",
-      "sainte-colombe"
+      "sainte-colombe",
+      "les-haies"
     ],
     "neighborhoods": [
       "Le Port",
@@ -7402,7 +7424,8 @@
       "venissieux",
       "solaize",
       "saint-symphorien-d-ozon",
-      "corbas"
+      "corbas",
+      "oullins-pierre-benite"
     ],
     "neighborhoods": [
       "centre-ville",
@@ -7458,7 +7481,8 @@
       "le-bouchage",
       "sermerieu",
       "saint-sorlin-de-morestel",
-      "brangues"
+      "brangues",
+      "creys-mepieu"
     ],
     "neighborhoods": [
       "centre-ville",
@@ -7501,7 +7525,8 @@
       "saint-didier-de-la-tour",
       "les-abrets-en-dauphine",
       "saint-clair-de-la-tour",
-      "charancieu"
+      "charancieu",
+      "chimilin"
     ],
     "neighborhoods": [],
     "landmarks": [],
@@ -7587,7 +7612,8 @@
       "bron",
       "corbas",
       "saint-priest",
-      "oullins-pierre-benite"
+      "oullins-pierre-benite",
+      "villeurbanne"
     ],
     "neighborhoods": [
       "Les Minguettes",
@@ -7704,7 +7730,7 @@
       "hauterives",
       "lapeyrouse-mornay",
       "le-grand-serre",
-      "montchenu"
+      "saint-sorlin-en-valloire"
     ],
     "neighborhoods": [
       "Pré Plancher",
@@ -7744,7 +7770,9 @@
       "anthon",
       "saint-romain-de-jalionas",
       "saint-jean-de-niost",
-      "saint-vulbas"
+      "saint-vulbas",
+      "hieres-sur-amby",
+      "blyes"
     ],
     "neighborhoods": [],
     "landmarks": [],
@@ -7852,7 +7880,8 @@
       "pusignan",
       "genas",
       "jons",
-      "chassieu"
+      "chassieu",
+      "nievroz"
     ],
     "neighborhoods": [
       "Le Carreau",
@@ -7941,7 +7970,8 @@
       "millery",
       "chasse-sur-rhone",
       "vernaison",
-      "givors"
+      "givors",
+      "montagny"
     ],
     "neighborhoods": [
       "centre-ville",
@@ -7995,8 +8025,7 @@
       "saint-sorlin-en-valloire",
       "epinouze",
       "beaurepaire",
-      "hauterives",
-      "chateauneuf-de-galaure"
+      "hauterives"
     ],
     "neighborhoods": [
       "Port De Jonc",
@@ -8076,7 +8105,8 @@
       "valencogne",
       "saint-andre-le-gaz",
       "les-abrets-en-dauphine",
-      "villages-du-lac-de-paladru"
+      "villages-du-lac-de-paladru",
+      "montferrat"
     ],
     "neighborhoods": [],
     "landmarks": [
@@ -8110,8 +8140,7 @@
       "venissieux",
       "saint-priest",
       "vaulx-en-velin",
-      "decines-charpieu",
-      "lyon"
+      "decines-charpieu"
     ],
     "neighborhoods": [
       "Grand Parilly",
@@ -8164,7 +8193,9 @@
       "thil",
       "pusignan",
       "nievroz",
-      "villette-d-anthon"
+      "villette-d-anthon",
+      "decines-charpieu",
+      "balan"
     ],
     "neighborhoods": [
       "centre-ville",
@@ -8260,9 +8291,7 @@
       "rives",
       "renage",
       "colombe",
-      "le-grand-lemps",
-      "tullins",
-      "notre-dame-de-l-osier"
+      "le-grand-lemps"
     ],
     "neighborhoods": [
       "Les Granges"
@@ -8344,7 +8373,8 @@
       "echalas",
       "givors",
       "seyssuel",
-      "saint-cyr-sur-le-rhone"
+      "saint-cyr-sur-le-rhone",
+      "les-haies"
     ],
     "neighborhoods": [
       "Le Freyssinet",
@@ -8438,8 +8468,9 @@
       "clonas-sur-vareze",
       "saint-clair-du-rhone",
       "chonas-l-amballan",
+      "saint-alban-du-rhone",
       "roussillon",
-      "assieu"
+      "saint-maurice-l-exil"
     ],
     "neighborhoods": [],
     "landmarks": [],
@@ -8561,7 +8592,7 @@
       "oullins-pierre-benite",
       "irigny",
       "saint-genis-laval",
-      "la-mulatiere"
+      "villeurbanne"
     ],
     "neighborhoods": [
       "centre-ville",
@@ -8614,7 +8645,8 @@
       "charavines",
       "colombe",
       "reaumont",
-      "oyeu"
+      "oyeu",
+      "chirens"
     ],
     "neighborhoods": [
       "Lotissement La Croix Vanel",
@@ -8655,8 +8687,8 @@
       "sonnay",
       "ville-sous-anjou",
       "bouge-chambalud",
-      "chanas",
-      "jarcieu"
+      "jarcieu",
+      "la-chapelle-de-surieu"
     ],
     "neighborhoods": [],
     "landmarks": [
@@ -8692,8 +8724,7 @@
       "granieu",
       "chimilin",
       "les-avenieres-veyrins-thuellin",
-      "aoste",
-      "bregnier-cordon"
+      "la-chapelle-de-la-tour"
     ],
     "neighborhoods": [
       "Clos Georges Danat"
@@ -8731,10 +8762,9 @@
       "saint-vulbas",
       "annoisin-chatelans",
       "saint-baudille-de-la-tour",
-      "la-balme-les-grottes",
       "leyrieu",
       "blyes",
-      "parmilieu"
+      "loyettes"
     ],
     "neighborhoods": [],
     "landmarks": [
@@ -8824,7 +8854,9 @@
       "les-haies",
       "chonas-l-amballan",
       "saint-cyr-sur-le-rhone",
-      "les-roches-de-condrieu"
+      "les-roches-de-condrieu",
+      "verin",
+      "echalas"
     ],
     "neighborhoods": [
       "But de Mont",
@@ -8875,7 +8907,7 @@
       "sonnay",
       "manthes",
       "moras-en-valloire",
-      "anneyron"
+      "agnin"
     ],
     "neighborhoods": [
       "Quartier Neuf",
@@ -8917,9 +8949,10 @@
       "vaulx-en-velin",
       "meyzieu",
       "chassieu",
-      "neyron",
       "villeurbanne",
-      "bron"
+      "bron",
+      "jonage",
+      "thil"
     ],
     "neighborhoods": [
       "Charpieu",
@@ -8980,8 +9013,7 @@
       "hauterives",
       "lapeyrouse-mornay",
       "epinouze",
-      "chateauneuf-de-galaure",
-      "montchenu"
+      "le-grand-serre"
     ],
     "neighborhoods": [
       "Les Ramus",
@@ -9019,9 +9051,9 @@
       "loyettes",
       "anthon",
       "balan",
-      "beligneux",
       "chavanoz",
-      "perouges"
+      "villette-d-anthon",
+      "blyes"
     ],
     "neighborhoods": [],
     "landmarks": [
@@ -9057,10 +9089,10 @@
     "nearbyCities": [
       "optevoz",
       "hieres-sur-amby",
-      "montalieu-vercieu",
       "annoisin-chatelans",
       "bouvesse-quirieu",
-      "parmilieu"
+      "courtenay",
+      "saint-vulbas"
     ],
     "neighborhoods": [],
     "landmarks": [
@@ -9101,7 +9133,7 @@
       "solaize",
       "oullins-pierre-benite",
       "saint-fons",
-      "brignais"
+      "vourles"
     ],
     "neighborhoods": [],
     "landmarks": [
@@ -9150,9 +9182,7 @@
       "arandon-passins",
       "le-bouchage",
       "creys-mepieu",
-      "lhuis",
-      "groslee-saint-benoit",
-      "briord"
+      "vezeronce-curtin"
     ],
     "neighborhoods": [
       "Domaine des Champagnes"
@@ -9185,11 +9215,11 @@
     "distanceKm": 31.5,
     "nearbyCities": [
       "hauterives",
-      "valherbasse",
       "marcollin",
       "lens-lestang",
       "thodure",
-      "montchenu"
+      "moras-en-valloire",
+      "roybon"
     ],
     "neighborhoods": [
       "Le Bourg"
@@ -9226,11 +9256,9 @@
       "villages-du-lac-de-paladru",
       "chirens",
       "charavines",
-      "massieu",
       "montferrat",
       "valencogne",
-      "saint-nicolas-de-macherin",
-      "saint-geoire-en-valdaine"
+      "oyeu"
     ],
     "neighborhoods": [],
     "landmarks": [
@@ -9264,8 +9292,7 @@
       "morestel",
       "saint-victor-de-morestel",
       "vezeronce-curtin",
-      "groslee-saint-benoit",
-      "lhuis"
+      "saint-sorlin-de-morestel"
     ],
     "neighborhoods": [
       "Le Chouvard"
@@ -9302,9 +9329,9 @@
       "saint-blaise-du-buis",
       "renage",
       "apprieu",
-      "charnecles",
       "colombe",
-      "izeaux"
+      "izeaux",
+      "la-murette"
     ],
     "neighborhoods": [],
     "landmarks": [],
@@ -9339,8 +9366,7 @@
       "vernaison",
       "ternay",
       "vourles",
-      "serezin-du-rhone",
-      "taluyers"
+      "serezin-du-rhone"
     ],
     "neighborhoods": [
       "Clos Porte",
@@ -9391,10 +9417,9 @@
       "rives",
       "renage",
       "izeaux",
-      "charnecles",
       "reaumont",
-      "vourey",
-      "tullins",
+      "saint-blaise-du-buis",
+      "colombe",
       "sillans"
     ],
     "neighborhoods": [
@@ -9431,10 +9456,10 @@
       "la-murette",
       "reaumont",
       "rives",
-      "saint-cassien",
       "charavines",
       "colombe",
-      "oyeu"
+      "chirens",
+      "beaucroissant"
     ],
     "neighborhoods": [],
     "landmarks": [
@@ -9467,10 +9492,11 @@
     "nearbyCities": [
       "les-abrets-en-dauphine",
       "saint-ondras",
-      "pressins",
       "montferrat",
       "saint-andre-le-gaz",
-      "valencogne"
+      "valencogne",
+      "le-passage",
+      "chimilin"
     ],
     "neighborhoods": [
       "centre village",
@@ -9507,9 +9533,9 @@
       "millery",
       "irigny",
       "solaize",
-      "brignais",
       "montagny",
-      "saint-genis-laval"
+      "saint-genis-laval",
+      "oullins-pierre-benite"
     ],
     "neighborhoods": [
       "Les Jardins d'Emy"
@@ -9552,9 +9578,7 @@
       "anjou",
       "sonnay",
       "jarcieu",
-      "chanas",
-      "anneyron",
-      "saint-rambert-d-albon"
+      "saint-sorlin-en-valloire"
     ],
     "neighborhoods": [
       "Champ du Perrier",
@@ -9591,11 +9615,10 @@
     "nearbyCities": [
       "le-bouchage",
       "corbelin",
-      "bregnier-cordon",
       "granieu",
       "brangues",
-      "aoste",
-      "groslee-saint-benoit"
+      "faverges-de-la-tour",
+      "saint-sorlin-de-morestel"
     ],
     "neighborhoods": [
       "La Platière",
@@ -9639,8 +9662,7 @@
       "saint-maurice-l-exil",
       "saint-prim",
       "cheyssieu",
-      "roussillon",
-      "le-peage-de-roussillon"
+      "roussillon"
     ],
     "neighborhoods": [
       "Mas de la Mûrière",
@@ -9678,12 +9700,11 @@
     "distanceKm": 32.4,
     "nearbyCities": [
       "grigny-sur-rhone",
-      "beauvallon",
       "echalas",
       "chasse-sur-rhone",
-      "saint-romain-en-gier",
       "ternay",
-      "loire-sur-rhone"
+      "loire-sur-rhone",
+      "montagny"
     ],
     "neighborhoods": [
       "Charbonnière",
@@ -9737,11 +9758,12 @@
     "nearbyCities": [
       "nievroz",
       "jons",
-      "dagneux",
       "villette-d-anthon",
-      "beligneux",
-      "bressolles",
-      "saint-maurice-de-gourdans"
+      "saint-maurice-de-gourdans",
+      "anthon",
+      "jonage",
+      "thil",
+      "saint-jean-de-niost"
     ],
     "neighborhoods": [
       "Lotissement Afu de Barbarel"
@@ -9774,10 +9796,10 @@
     "nearbyCities": [
       "charancieu",
       "saint-ondras",
-      "pressins",
       "saint-andre-le-gaz",
       "chimilin",
-      "le-passage"
+      "le-passage",
+      "montferrat"
     ],
     "neighborhoods": [],
     "landmarks": [
@@ -9813,10 +9835,8 @@
       "decines-charpieu",
       "villeurbanne",
       "bron",
-      "neyron",
       "chassieu",
-      "rillieux-la-pape",
-      "caluire-et-cuire"
+      "thil"
     ],
     "neighborhoods": [
       "La Balme",
@@ -9868,11 +9888,10 @@
     "nearbyCities": [
       "blyes",
       "hieres-sur-amby",
-      "la-balme-les-grottes",
       "saint-jean-de-niost",
       "loyettes",
-      "sainte-julie",
-      "charnoz-sur-ain"
+      "annoisin-chatelans",
+      "saint-baudille-de-la-tour"
     ],
     "neighborhoods": [],
     "landmarks": [
@@ -9906,7 +9925,6 @@
       "verin",
       "saint-clair-du-rhone",
       "condrieu",
-      "saint-michel-sur-rhone",
       "chonas-l-amballan",
       "saint-prim",
       "saint-alban-du-rhone",
@@ -9948,14 +9966,13 @@
     },
     "distanceKm": 32.7,
     "nearbyCities": [
-      "le-peage-de-roussillon",
       "saint-maurice-l-exil",
       "ville-sous-anjou",
       "clonas-sur-vareze",
-      "salaise-sur-sanne",
       "auberives-sur-vareze",
-      "saint-pierre-de-b-uf",
-      "sablons"
+      "cheyssieu",
+      "assieu",
+      "agnin"
     ],
     "neighborhoods": [],
     "landmarks": [
@@ -9993,13 +10010,12 @@
     },
     "distanceKm": 32.8,
     "nearbyCities": [
-      "briord",
       "saint-victor-de-morestel",
       "arandon-passins",
-      "lhuis",
       "bouvesse-quirieu",
       "courtenay",
-      "montagnieu-01"
+      "morestel",
+      "brangues"
     ],
     "neighborhoods": [],
     "landmarks": [
@@ -10034,9 +10050,8 @@
       "valencogne",
       "bilieu",
       "charancieu",
-      "saint-geoire-en-valdaine",
-      "massieu",
-      "velanne"
+      "saint-ondras",
+      "les-abrets-en-dauphine"
     ],
     "neighborhoods": [],
     "landmarks": [
@@ -10068,10 +10083,10 @@
       "saint-alban-du-rhone",
       "clonas-sur-vareze",
       "saint-prim",
-      "saint-michel-sur-rhone",
       "auberives-sur-vareze",
       "verin",
-      "chonas-l-amballan"
+      "chonas-l-amballan",
+      "condrieu"
     ],
     "neighborhoods": [
       "Chante-Perdrix",
@@ -10121,12 +10136,10 @@
     "nearbyCities": [
       "jons",
       "thil",
-      "dagneux",
       "balan",
-      "la-boisse",
       "jonage",
-      "beynost",
-      "bressolles"
+      "villette-d-anthon",
+      "meyzieu"
     ],
     "neighborhoods": [],
     "landmarks": [
@@ -10160,10 +10173,11 @@
       "moras-en-valloire",
       "manthes",
       "epinouze",
-      "chateauneuf-de-galaure",
       "lapeyrouse-mornay",
-      "anneyron",
-      "hauterives"
+      "jarcieu",
+      "lens-lestang",
+      "hauterives",
+      "bouge-chambalud"
     ],
     "neighborhoods": [
       "Vers Le Moulin",
@@ -10204,13 +10218,11 @@
     "distanceKm": 33,
     "nearbyCities": [
       "anjou",
-      "chanas",
       "bouge-chambalud",
-      "salaise-sur-sanne",
       "ville-sous-anjou",
       "sonnay",
-      "saint-rambert-d-albon",
-      "sablons"
+      "roussillon",
+      "epinouze"
     ],
     "neighborhoods": [
       "Lotissement Le Clos du Village",
@@ -10247,12 +10259,11 @@
     "distanceKm": 33,
     "nearbyCities": [
       "granieu",
-      "aoste",
       "la-batie-montgascon",
       "corbelin",
-      "romagnieu",
       "les-abrets-en-dauphine",
-      "saint-genix-les-villages"
+      "saint-andre-le-gaz",
+      "charancieu"
     ],
     "neighborhoods": [
       "centre village",
@@ -10287,13 +10298,12 @@
     },
     "distanceKm": 33.2,
     "nearbyCities": [
-      "montagnieu-01",
-      "montalieu-vercieu",
-      "serrieres-de-briord",
       "courtenay",
-      "briord",
       "creys-mepieu",
-      "saint-baudille-de-la-tour"
+      "saint-baudille-de-la-tour",
+      "optevoz",
+      "arandon-passins",
+      "soleymieu"
     ],
     "neighborhoods": [],
     "landmarks": [
@@ -10332,11 +10342,9 @@
       "verin",
       "les-roches-de-condrieu",
       "tupin-et-semons",
-      "la-chapelle-villars",
-      "saint-michel-sur-rhone",
       "chonas-l-amballan",
       "les-haies",
-      "chuyer"
+      "saint-clair-du-rhone"
     ],
     "neighborhoods": [
       "Croyez",
@@ -10389,13 +10397,13 @@
     },
     "distanceKm": 33.2,
     "nearbyCities": [
-      "beynost",
       "nievroz",
-      "la-boisse",
       "jonage",
-      "saint-maurice-de-beynost",
       "meyzieu",
-      "jons"
+      "jons",
+      "decines-charpieu",
+      "balan",
+      "vaulx-en-velin"
     ],
     "neighborhoods": [],
     "landmarks": [
@@ -10427,11 +10435,11 @@
     "distanceKm": 33.4,
     "nearbyCities": [
       "tupin-et-semons",
-      "la-chapelle-villars",
-      "longes",
       "condrieu",
       "echalas",
-      "treves"
+      "loire-sur-rhone",
+      "ampuis",
+      "verin"
     ],
     "neighborhoods": [
       "Champs Blancs",
@@ -10476,9 +10484,9 @@
       "charavines",
       "bilieu",
       "la-murette",
-      "massieu",
-      "voiron",
-      "saint-nicolas-de-macherin"
+      "saint-blaise-du-buis",
+      "apprieu",
+      "oyeu"
     ],
     "neighborhoods": [
       "Lotissement Les Mas de la Pagère"
@@ -10513,12 +10521,11 @@
     },
     "distanceKm": 33.5,
     "nearbyCities": [
-      "chevrieres",
-      "varacieux",
       "saint-pierre-de-bressieux",
       "viriville",
       "saint-simeon-de-bressieux",
-      "valherbasse"
+      "thodure",
+      "le-grand-serre"
     ],
     "neighborhoods": [],
     "landmarks": [
@@ -10550,13 +10557,11 @@
     "distanceKm": 33.5,
     "nearbyCities": [
       "saint-genis-laval",
-      "la-mulatiere",
       "saint-fons",
-      "sainte-foy-les-lyon",
       "irigny",
-      "chaponost",
+      "feyzin",
       "venissieux",
-      "francheville"
+      "charly"
     ],
     "neighborhoods": [
       "La Glacière",
@@ -10614,10 +10619,9 @@
     "nearbyCities": [
       "saint-maurice-de-gourdans",
       "blyes",
-      "charnoz-sur-ain",
       "loyettes",
       "saint-vulbas",
-      "perouges"
+      "balan"
     ],
     "neighborhoods": [],
     "landmarks": [
@@ -10654,13 +10658,11 @@
     },
     "distanceKm": 33.6,
     "nearbyCities": [
-      "aoste",
       "chimilin",
       "corbelin",
       "la-batie-montgascon",
-      "bregnier-cordon",
       "les-avenieres-veyrins-thuellin",
-      "saint-genix-les-villages"
+      "faverges-de-la-tour"
     ],
     "neighborhoods": [],
     "landmarks": [
@@ -10694,11 +10696,9 @@
       "moras-en-valloire",
       "lens-lestang",
       "le-grand-serre",
-      "chateauneuf-de-galaure",
       "manthes",
       "saint-sorlin-en-valloire",
-      "montchenu",
-      "valherbasse"
+      "marcollin"
     ],
     "neighborhoods": [
       "Sarasinière",
@@ -10742,12 +10742,10 @@
     "distanceKm": 33.7,
     "nearbyCities": [
       "charly",
-      "brignais",
       "millery",
       "montagny",
       "vernaison",
-      "orlienas",
-      "taluyers",
+      "irigny",
       "saint-genis-laval"
     ],
     "neighborhoods": [],
@@ -10789,12 +10787,9 @@
     "nearbyCities": [
       "oullins-pierre-benite",
       "irigny",
-      "brignais",
-      "chaponost",
       "vourles",
       "charly",
-      "saint-fons",
-      "la-mulatiere"
+      "saint-fons"
     ],
     "neighborhoods": [
       "Beaunant"
@@ -10840,11 +10835,11 @@
     "distanceKm": 33.8,
     "nearbyCities": [
       "vaulx-en-velin",
-      "caluire-et-cuire",
       "bron",
-      "lyon",
       "decines-charpieu",
-      "sathonay-camp"
+      "chassieu",
+      "venissieux",
+      "saint-fons"
     ],
     "neighborhoods": [
       "Buers",
@@ -10895,11 +10890,11 @@
     "distanceKm": 33.9,
     "nearbyCities": [
       "le-bouchage",
-      "groslee-saint-benoit",
       "saint-victor-de-morestel",
       "morestel",
-      "lhuis",
-      "les-avenieres-veyrins-thuellin"
+      "les-avenieres-veyrins-thuellin",
+      "vezeronce-curtin",
+      "creys-mepieu"
     ],
     "neighborhoods": [
       "Brieux"
@@ -10932,14 +10927,12 @@
     },
     "distanceKm": 33.9,
     "nearbyCities": [
-      "taluyers",
       "millery",
       "vourles",
       "grigny-sur-rhone",
       "charly",
-      "orlienas",
-      "saint-laurent-d-agny",
-      "mornant"
+      "ternay",
+      "givors"
     ],
     "neighborhoods": [
       "Montagny le Bas"
@@ -10982,13 +10975,11 @@
     "distanceKm": 34,
     "nearbyCities": [
       "saint-blaise-du-buis",
-      "saint-cassien",
       "reaumont",
-      "voiron",
       "apprieu",
       "chirens",
       "charavines",
-      "saint-nicolas-de-macherin"
+      "rives"
     ],
     "neighborhoods": [
       "Lotissement Plein Sud"
@@ -11017,14 +11008,11 @@
     },
     "distanceKm": 34.1,
     "nearbyCities": [
-      "saint-romain-en-gier",
-      "treves",
       "les-haies",
       "loire-sur-rhone",
       "givors",
-      "dargoire",
-      "beauvallon",
-      "tartaras"
+      "tupin-et-semons",
+      "saint-romain-en-gal"
     ],
     "neighborhoods": [
       "Gorgeat",
@@ -11066,8 +11054,6 @@
     },
     "distanceKm": 34.2,
     "nearbyCities": [
-      "saint-cassien",
-      "charnecles",
       "saint-blaise-du-buis",
       "la-murette",
       "rives",
@@ -11106,10 +11092,10 @@
     "nearbyCities": [
       "condrieu",
       "les-roches-de-condrieu",
-      "saint-michel-sur-rhone",
-      "chuyer",
-      "la-chapelle-villars",
-      "saint-clair-du-rhone"
+      "saint-clair-du-rhone",
+      "saint-alban-du-rhone",
+      "tupin-et-semons",
+      "les-haies"
     ],
     "neighborhoods": [],
     "landmarks": [],
@@ -11148,13 +11134,9 @@
     "distanceKm": 34.5,
     "nearbyCities": [
       "beaucroissant",
-      "vourey",
-      "charnecles",
       "rives",
       "reaumont",
-      "tullins",
-      "izeaux",
-      "moirans"
+      "izeaux"
     ],
     "neighborhoods": [
       "Lotissement L'Amandier"
@@ -11189,13 +11171,10 @@
     },
     "distanceKm": 34.6,
     "nearbyCities": [
-      "le-peage-de-roussillon",
       "roussillon",
-      "saint-pierre-de-b-uf",
       "clonas-sur-vareze",
       "saint-alban-du-rhone",
-      "malleval",
-      "salaise-sur-sanne"
+      "auberives-sur-vareze"
     ],
     "neighborhoods": [
       "Lotissement Beau Soleil",
@@ -11232,10 +11211,10 @@
     "nearbyCities": [
       "saint-vulbas",
       "saint-jean-de-niost",
-      "charnoz-sur-ain",
-      "sainte-julie",
-      "la-balme-les-grottes",
-      "hieres-sur-amby"
+      "hieres-sur-amby",
+      "loyettes",
+      "saint-maurice-de-gourdans",
+      "annoisin-chatelans"
     ],
     "neighborhoods": [],
     "landmarks": [
@@ -11268,603 +11247,13 @@
     "distanceKm": 34.7,
     "nearbyCities": [
       "saint-clair-du-rhone",
-      "chavanay",
       "clonas-sur-vareze",
-      "saint-michel-sur-rhone",
       "saint-maurice-l-exil",
       "les-roches-de-condrieu",
-      "malleval",
-      "saint-pierre-de-b-uf"
-    ],
-    "neighborhoods": [],
-    "landmarks": [],
-    "risks": [
-      "Inondation",
-      "Par une crue à débordement lent de cours d'eau",
-      "Par une crue torrentielle ou à montée rapide de cours d'eau",
-      "Séisme",
-      "Risque industriel",
-      "Effet thermique",
-      "Effet de surpression",
-      "Effet toxique",
-      "Rupture de barrage"
-    ],
-    "featured": false
-  },
-  {
-    "insee": "38012",
-    "name": "Aoste",
-    "slug": "aoste",
-    "zipCode": "38490",
-    "department": "38",
-    "departmentName": "Isère",
-    "region": "Auvergne-Rhône-Alpes",
-    "population": 2876,
-    "surface": 1001,
-    "coordinates": {
-      "latitude": 45.6015,
-      "longitude": 5.611
-    },
-    "distanceKm": 35.2,
-    "nearbyCities": [
-      "granieu",
-      "chimilin",
-      "bregnier-cordon",
-      "saint-genix-les-villages",
-      "corbelin",
-      "romagnieu",
-      "les-avenieres-veyrins-thuellin",
-      "belmont-tramonet"
-    ],
-    "neighborhoods": [
-      "Izelette Ouest",
-      "Le Maréval",
-      "Le Floréal",
-      "Le Pastoral",
-      "Les Charmilles"
-    ],
-    "landmarks": [
-      "Monument aux Morts"
-    ],
-    "risks": [
-      "Inondation",
-      "Par une crue à débordement lent de cours d'eau",
-      "Séisme",
-      "Rupture de barrage",
-      "Transport de marchandises dangereuses"
-    ],
-    "featured": false
-  },
-  {
-    "insee": "69142",
-    "name": "La Mulatière",
-    "slug": "la-mulatiere",
-    "zipCode": "69350",
-    "department": "69",
-    "departmentName": "Rhône",
-    "region": "Auvergne-Rhône-Alpes",
-    "population": 6534,
-    "surface": 184,
-    "coordinates": {
-      "latitude": 45.7338,
-      "longitude": 4.8118
-    },
-    "distanceKm": 35.2,
-    "nearbyCities": [
-      "sainte-foy-les-lyon",
-      "oullins-pierre-benite",
-      "lyon",
-      "francheville",
-      "saint-genis-laval",
-      "saint-fons"
-    ],
-    "neighborhoods": [],
-    "landmarks": [],
-    "risks": [
-      "Inondation",
-      "Par une crue à débordement lent de cours d'eau",
-      "Par une crue torrentielle ou à montée rapide de cours d'eau",
-      "Par ruissellement et coulée de boue",
-      "Par remontées de nappes naturelles",
-      "Séisme",
-      "Phénomène lié à l'atmosphère",
-      "Tempête et grains (vent)",
-      "Foudre",
-      "Grêle",
-      "Neige et pluies verglaçantes",
-      "Radon",
-      "Rupture de barrage",
-      "Transport de marchandises dangereuses"
-    ],
-    "featured": false
-  },
-  {
-    "insee": "38298",
-    "name": "Le Péage-de-Roussillon",
-    "slug": "le-peage-de-roussillon",
-    "zipCode": "38550",
-    "department": "38",
-    "departmentName": "Isère",
-    "region": "Auvergne-Rhône-Alpes",
-    "population": 6718,
-    "surface": 745,
-    "coordinates": {
-      "latitude": 45.3723,
-      "longitude": 4.7825
-    },
-    "distanceKm": 35.3,
-    "nearbyCities": [
-      "saint-maurice-l-exil",
-      "roussillon",
-      "saint-pierre-de-b-uf",
-      "salaise-sur-sanne",
-      "malleval",
-      "clonas-sur-vareze",
-      "sablons"
-    ],
-    "neighborhoods": [
-      "La Craz",
-      "Quartier des Préfabriquées"
-    ],
-    "landmarks": [],
-    "risks": [
-      "Inondation",
-      "Par une crue à débordement lent de cours d'eau",
-      "Par une crue torrentielle ou à montée rapide de cours d'eau",
-      "Séisme",
-      "Risque industriel",
-      "Effet thermique",
-      "Effet de surpression",
-      "Effet toxique",
-      "Rupture de barrage",
-      "Transport de marchandises dangereuses"
-    ],
-    "featured": false
-  },
-  {
-    "insee": "01064",
-    "name": "Briord",
-    "slug": "briord",
-    "zipCode": "01470",
-    "department": "01",
-    "departmentName": "Ain",
-    "region": "Auvergne-Rhône-Alpes",
-    "population": 1119,
-    "surface": 1232,
-    "coordinates": {
-      "latitude": 45.768,
-      "longitude": 5.4832
-    },
-    "distanceKm": 35.4,
-    "nearbyCities": [
-      "creys-mepieu",
-      "montagnieu-01",
-      "lhuis",
-      "bouvesse-quirieu",
-      "serrieres-de-briord",
-      "saint-victor-de-morestel"
-    ],
-    "neighborhoods": [],
-    "landmarks": [
-      "Cimetière gallo-romain et paléochrétien",
-      "Inscriptions Mérovingiennes"
-    ],
-    "risks": [
-      "Inondation",
-      "Par une crue à débordement lent de cours d'eau",
-      "Mouvement de terrain",
-      "Eboulement ou chutes de pierres et de blocs",
-      "Séisme",
-      "Nucléaire"
-    ],
-    "featured": false
-  },
-  {
-    "insee": "42265",
-    "name": "Saint-Michel-sur-Rhône",
-    "slug": "saint-michel-sur-rhone",
-    "zipCode": "42410",
-    "department": "42",
-    "departmentName": "Loire",
-    "region": "Auvergne-Rhône-Alpes",
-    "population": 888,
-    "surface": 586,
-    "coordinates": {
-      "latitude": 45.4436,
-      "longitude": 4.7339
-    },
-    "distanceKm": 35.4,
-    "nearbyCities": [
       "verin",
-      "les-roches-de-condrieu",
-      "chuyer",
-      "saint-alban-du-rhone",
-      "chavanay",
-      "saint-clair-du-rhone",
-      "condrieu",
-      "la-chapelle-villars"
+      "auberives-sur-vareze"
     ],
     "neighborhoods": [],
-    "landmarks": [],
-    "risks": [
-      "Inondation",
-      "Par une crue à débordement lent de cours d'eau",
-      "Mouvement de terrain",
-      "Glissement de terrain",
-      "Tassements différentiels",
-      "Séisme",
-      "Phénomène lié à l'atmosphère",
-      "Tempête et grains (vent)",
-      "Radon",
-      "Risque industriel",
-      "Effet thermique",
-      "Nucléaire",
-      "Rupture de barrage"
-    ],
-    "featured": false
-  },
-  {
-    "insee": "69123",
-    "name": "Lyon",
-    "slug": "lyon",
-    "zipCode": "69001",
-    "department": "69",
-    "departmentName": "Rhône",
-    "region": "Auvergne-Rhône-Alpes",
-    "population": 519127,
-    "surface": 4797,
-    "coordinates": {
-      "latitude": 45.758,
-      "longitude": 4.8351
-    },
-    "distanceKm": 35.5,
-    "nearbyCities": [
-      "la-mulatiere",
-      "sainte-foy-les-lyon",
-      "villeurbanne",
-      "caluire-et-cuire",
-      "bron",
-      "francheville"
-    ],
-    "neighborhoods": [
-      "2e Arrondissement",
-      "1er Arrondissement",
-      "4e Arrondissement",
-      "9e Arrondissement",
-      "3e Arrondissement",
-      "6e Arrondissement"
-    ],
-    "landmarks": [
-      "Fort de Vaise",
-      "Porte Neuve",
-      "Vestige sirène d'avertissement",
-      "Vestige du couvent des Carmes",
-      "Fort de Loyasse",
-      "fontaine lumineuse de la montée du Chemin-Neuf"
-    ],
-    "risks": [
-      "Inondation",
-      "Par une crue à débordement lent de cours d'eau",
-      "Par une crue torrentielle ou à montée rapide de cours d'eau",
-      "Par remontées de nappes naturelles",
-      "Séisme",
-      "Phénomène lié à l'atmosphère",
-      "Tempête et grains (vent)",
-      "Foudre",
-      "Grêle",
-      "Neige et pluies verglaçantes",
-      "Radon",
-      "Risque industriel",
-      "Effet thermique",
-      "Effet de surpression",
-      "Effet toxique",
-      "Rupture de barrage",
-      "Transport de marchandises dangereuses"
-    ],
-    "featured": true
-  },
-  {
-    "insee": "38222",
-    "name": "Massieu",
-    "slug": "massieu",
-    "zipCode": "38620",
-    "department": "38",
-    "departmentName": "Isère",
-    "region": "Auvergne-Rhône-Alpes",
-    "population": 773,
-    "surface": 1057,
-    "coordinates": {
-      "latitude": 45.438,
-      "longitude": 5.6017
-    },
-    "distanceKm": 35.6,
-    "nearbyCities": [
-      "saint-geoire-en-valdaine",
-      "saint-nicolas-de-macherin",
-      "bilieu",
-      "chirens",
-      "montferrat",
-      "voiron"
-    ],
-    "neighborhoods": [],
-    "landmarks": [
-      "Monument aux Morts"
-    ],
-    "risks": [
-      "Inondation",
-      "Par une crue à débordement lent de cours d'eau",
-      "Mouvement de terrain",
-      "Affaissements et effondrements d'origine anthropique (anciennes carrières souterraines, hors mines)",
-      "Séisme"
-    ],
-    "featured": false
-  },
-  {
-    "insee": "01043",
-    "name": "Beynost",
-    "slug": "beynost",
-    "zipCode": "01700",
-    "department": "01",
-    "departmentName": "Ain",
-    "region": "Auvergne-Rhône-Alpes",
-    "population": 5198,
-    "surface": 1069,
-    "coordinates": {
-      "latitude": 45.8359,
-      "longitude": 4.9964
-    },
-    "distanceKm": 35.6,
-    "nearbyCities": [
-      "saint-maurice-de-beynost",
-      "thil",
-      "la-boisse",
-      "miribel",
-      "neyron",
-      "nievroz"
-    ],
-    "neighborhoods": [],
-    "landmarks": [
-      "Croix de la rue Saint-Pierre",
-      "Monument aux morts de Beynost",
-      "Croix de l'église",
-      "Famille Rollet",
-      "Famille Gabrielle",
-      "Famille Mansuy"
-    ],
-    "risks": [
-      "Inondation",
-      "Par une crue à débordement lent de cours d'eau",
-      "Par une crue torrentielle ou à montée rapide de cours d'eau",
-      "Mouvement de terrain",
-      "Glissement de terrain",
-      "Séisme",
-      "Rupture de barrage",
-      "Transport de marchandises dangereuses"
-    ],
-    "featured": false
-  },
-  {
-    "insee": "38072",
-    "name": "Chanas",
-    "slug": "chanas",
-    "zipCode": "38150",
-    "department": "38",
-    "departmentName": "Isère",
-    "region": "Auvergne-Rhône-Alpes",
-    "population": 2706,
-    "surface": 1158,
-    "coordinates": {
-      "latitude": 45.3193,
-      "longitude": 4.8327
-    },
-    "distanceKm": 35.7,
-    "nearbyCities": [
-      "agnin",
-      "saint-rambert-d-albon",
-      "salaise-sur-sanne",
-      "sablons",
-      "bouge-chambalud",
-      "anjou",
-      "anneyron"
-    ],
-    "neighborhoods": [
-      "Les Jardins de Maud",
-      "Zone d'activités la Prat",
-      "ZI de Ventrebant",
-      "Zone artisanale de l'Aria",
-      "Le Village"
-    ],
-    "landmarks": [
-      "Monument aux Morts"
-    ],
-    "risks": [
-      "Inondation",
-      "Par une crue à débordement lent de cours d'eau",
-      "Par une crue torrentielle ou à montée rapide de cours d'eau",
-      "Par ruissellement et coulée de boue",
-      "Mouvement de terrain",
-      "Glissement de terrain",
-      "Séisme",
-      "Transport de marchandises dangereuses"
-    ],
-    "featured": false
-  },
-  {
-    "insee": "38084",
-    "name": "Charnècles",
-    "slug": "charnecles",
-    "zipCode": "38140",
-    "department": "38",
-    "departmentName": "Isère",
-    "region": "Auvergne-Rhône-Alpes",
-    "population": 1517,
-    "surface": 523,
-    "coordinates": {
-      "latitude": 45.3411,
-      "longitude": 5.5283
-    },
-    "distanceKm": 35.7,
-    "nearbyCities": [
-      "reaumont",
-      "saint-cassien",
-      "vourey",
-      "renage",
-      "moirans",
-      "rives",
-      "saint-jean-de-moirans",
-      "beaucroissant"
-    ],
-    "neighborhoods": [],
-    "landmarks": [],
-    "risks": [
-      "Séisme",
-      "Transport de marchandises dangereuses"
-    ],
-    "featured": false
-  },
-  {
-    "insee": "38247",
-    "name": "Montalieu-Vercieu",
-    "slug": "montalieu-vercieu",
-    "zipCode": "38390",
-    "department": "38",
-    "departmentName": "Isère",
-    "region": "Auvergne-Rhône-Alpes",
-    "population": 3510,
-    "surface": 892,
-    "coordinates": {
-      "latitude": 45.8143,
-      "longitude": 5.4036
-    },
-    "distanceKm": 35.7,
-    "nearbyCities": [
-      "porcieu-amblagnieu",
-      "serrieres-de-briord",
-      "bouvesse-quirieu",
-      "montagnieu-01",
-      "parmilieu",
-      "saint-baudille-de-la-tour",
-      "vertrieu"
-    ],
-    "neighborhoods": [],
-    "landmarks": [],
-    "risks": [
-      "Inondation",
-      "Par une crue à débordement lent de cours d'eau",
-      "Séisme",
-      "Rupture de barrage"
-    ],
-    "featured": false
-  },
-  {
-    "insee": "69027",
-    "name": "Brignais",
-    "slug": "brignais",
-    "zipCode": "69530",
-    "department": "69",
-    "departmentName": "Rhône",
-    "region": "Auvergne-Rhône-Alpes",
-    "population": 12503,
-    "surface": 1031,
-    "coordinates": {
-      "latitude": 45.6751,
-      "longitude": 4.7527
-    },
-    "distanceKm": 35.7,
-    "nearbyCities": [
-      "vourles",
-      "orlienas",
-      "charly",
-      "saint-genis-laval",
-      "chaponost",
-      "irigny",
-      "saint-laurent-d-agny"
-    ],
-    "neighborhoods": [],
-    "landmarks": [],
-    "risks": [
-      "Inondation",
-      "Par une crue torrentielle ou à montée rapide de cours d'eau",
-      "Par ruissellement et coulée de boue",
-      "Mouvement de terrain",
-      "Eboulement ou chutes de pierres et de blocs",
-      "Glissement de terrain",
-      "Séisme",
-      "Phénomène lié à l'atmosphère",
-      "Tempête et grains (vent)",
-      "Foudre",
-      "Grêle",
-      "Neige et pluies verglaçantes",
-      "Radon",
-      "Transport de marchandises dangereuses"
-    ],
-    "featured": true
-  },
-  {
-    "insee": "26210",
-    "name": "Valherbasse",
-    "slug": "valherbasse",
-    "zipCode": "26350",
-    "department": "26",
-    "departmentName": "Drôme",
-    "region": "Auvergne-Rhône-Alpes",
-    "population": 1005,
-    "surface": 4396,
-    "coordinates": {
-      "latitude": 45.2176,
-      "longitude": 5.1423
-    },
-    "distanceKm": 35.7,
-    "nearbyCities": [
-      "le-grand-serre",
-      "montchenu",
-      "hauterives",
-      "roybon",
-      "thodure",
-      "viriville"
-    ],
-    "neighborhoods": [],
-    "landmarks": [],
-    "risks": [
-      "Inondation",
-      "Par une crue à débordement lent de cours d'eau",
-      "Mouvement de terrain",
-      "Séisme"
-    ],
-    "featured": false
-  },
-  {
-    "insee": "38468",
-    "name": "Salaise-sur-Sanne",
-    "slug": "salaise-sur-sanne",
-    "zipCode": "38150",
-    "department": "38",
-    "departmentName": "Isère",
-    "region": "Auvergne-Rhône-Alpes",
-    "population": 4606,
-    "surface": 1619,
-    "coordinates": {
-      "latitude": 45.3432,
-      "longitude": 4.8028
-    },
-    "distanceKm": 35.8,
-    "nearbyCities": [
-      "sablons",
-      "chanas",
-      "le-peage-de-roussillon",
-      "roussillon",
-      "agnin",
-      "saint-maurice-l-exil",
-      "saint-rambert-d-albon"
-    ],
-    "neighborhoods": [
-      "Les Petites Balmes",
-      "ZI et Portuaire de Salaise-Sablons",
-      "Zone d'activités commerciale de Jonchain Nord",
-      "Zone d'activités de Champ Rolland",
-      "Le Port",
-      "Fontanes"
-    ],
     "landmarks": [],
     "risks": [
       "Inondation",
@@ -11875,2866 +11264,7 @@
       "Effet thermique",
       "Effet de surpression",
       "Effet toxique",
-      "Rupture de barrage",
-      "Transport de marchandises dangereuses"
-    ],
-    "featured": false
-  },
-  {
-    "insee": "01142",
-    "name": "Dagneux",
-    "slug": "dagneux",
-    "zipCode": "01120",
-    "department": "01",
-    "departmentName": "Ain",
-    "region": "Auvergne-Rhône-Alpes",
-    "population": 4778,
-    "surface": 683,
-    "coordinates": {
-      "latitude": 45.854,
-      "longitude": 5.0748
-    },
-    "distanceKm": 35.8,
-    "nearbyCities": [
-      "bressolles",
-      "nievroz",
-      "la-boisse",
-      "balan",
-      "pizay",
-      "beligneux",
-      "bourg-saint-christophe"
-    ],
-    "neighborhoods": [],
-    "landmarks": [
-      "Mémorial des 21 fusillés du 12 juin 1944 de Dagneux",
-      "Famille Braquy",
-      "Famille Polla",
-      "Famille Wurmser",
-      "Jeanne Renaud",
-      "Trauernde"
-    ],
-    "risks": [
-      "Inondation",
-      "Par une crue à débordement lent de cours d'eau",
-      "Par une crue torrentielle ou à montée rapide de cours d'eau",
-      "Mouvement de terrain",
-      "Glissement de terrain",
-      "Séisme",
-      "Nucléaire",
-      "Rupture de barrage",
-      "Transport de marchandises dangereuses"
-    ],
-    "featured": false
-  },
-  {
-    "insee": "38026",
-    "name": "La Balme-les-Grottes",
-    "slug": "la-balme-les-grottes",
-    "zipCode": "38390",
-    "department": "38",
-    "departmentName": "Isère",
-    "region": "Auvergne-Rhône-Alpes",
-    "population": 1146,
-    "surface": 1450,
-    "coordinates": {
-      "latitude": 45.8435,
-      "longitude": 5.3196
-    },
-    "distanceKm": 35.9,
-    "nearbyCities": [
-      "parmilieu",
-      "saint-vulbas",
-      "vertrieu",
-      "sainte-julie",
-      "hieres-sur-amby",
-      "blyes",
-      "porcieu-amblagnieu"
-    ],
-    "neighborhoods": [],
-    "landmarks": [
-      "Château d'Amblérieu (ruines)"
-    ],
-    "risks": [
-      "Inondation",
-      "Par une crue à débordement lent de cours d'eau",
-      "Mouvement de terrain",
-      "Affaissements et effondrements d'origine anthropique (anciennes carrières souterraines, hors mines)",
-      "Séisme",
       "Rupture de barrage"
-    ],
-    "featured": false
-  },
-  {
-    "insee": "38373",
-    "name": "Saint-Cassien",
-    "slug": "saint-cassien",
-    "zipCode": "38500",
-    "department": "38",
-    "departmentName": "Isère",
-    "region": "Auvergne-Rhône-Alpes",
-    "population": 1154,
-    "surface": 563,
-    "coordinates": {
-      "latitude": 45.3594,
-      "longitude": 5.5498
-    },
-    "distanceKm": 35.9,
-    "nearbyCities": [
-      "reaumont",
-      "charnecles",
-      "la-murette",
-      "voiron",
-      "saint-blaise-du-buis",
-      "saint-jean-de-moirans",
-      "moirans"
-    ],
-    "neighborhoods": [],
-    "landmarks": [
-      "Croix en Bois",
-      "Croix"
-    ],
-    "risks": [
-      "Inondation",
-      "Par ruissellement et coulée de boue",
-      "Séisme"
-    ],
-    "featured": false
-  },
-  {
-    "insee": "69241",
-    "name": "Taluyers",
-    "slug": "taluyers",
-    "zipCode": "69440",
-    "department": "69",
-    "departmentName": "Rhône",
-    "region": "Auvergne-Rhône-Alpes",
-    "population": 2686,
-    "surface": 812,
-    "coordinates": {
-      "latitude": 45.6343,
-      "longitude": 4.7265
-    },
-    "distanceKm": 35.9,
-    "nearbyCities": [
-      "montagny",
-      "orlienas",
-      "saint-laurent-d-agny",
-      "vourles",
-      "millery",
-      "mornant"
-    ],
-    "neighborhoods": [],
-    "landmarks": [
-      "Croix de Sainte-Agathe"
-    ],
-    "risks": [
-      "Inondation",
-      "Par une crue torrentielle ou à montée rapide de cours d'eau",
-      "Mouvement de terrain",
-      "Eboulement ou chutes de pierres et de blocs",
-      "Glissement de terrain",
-      "Séisme",
-      "Phénomène lié à l'atmosphère",
-      "Tempête et grains (vent)",
-      "Foudre",
-      "Grêle",
-      "Neige et pluies verglaçantes",
-      "Radon",
-      "Transport de marchandises dangereuses"
-    ],
-    "featured": false
-  },
-  {
-    "insee": "01376",
-    "name": "Saint-Maurice-de-Beynost",
-    "slug": "saint-maurice-de-beynost",
-    "zipCode": "01700",
-    "department": "01",
-    "departmentName": "Ain",
-    "region": "Auvergne-Rhône-Alpes",
-    "population": 4332,
-    "surface": 696,
-    "coordinates": {
-      "latitude": 45.8325,
-      "longitude": 4.9763
-    },
-    "distanceKm": 35.9,
-    "nearbyCities": [
-      "beynost",
-      "miribel",
-      "neyron",
-      "thil",
-      "la-boisse",
-      "rillieux-la-pape",
-      "sathonay-village"
-    ],
-    "neighborhoods": [
-      "Le Pilon"
-    ],
-    "landmarks": [
-      "Moulin du canal de Miribel",
-      "APPEL DU 18 JUIN 1940",
-      "Croix de la Commune",
-      "Croix des Andrés",
-      "Croix du Cimetière",
-      "monument aux morts"
-    ],
-    "risks": [
-      "Inondation",
-      "Par une crue à débordement lent de cours d'eau",
-      "Par une crue torrentielle ou à montée rapide de cours d'eau",
-      "Mouvement de terrain",
-      "Glissement de terrain",
-      "Séisme",
-      "Rupture de barrage",
-      "Transport de marchandises dangereuses"
-    ],
-    "featured": false
-  },
-  {
-    "insee": "69236",
-    "name": "Saint-Romain-en-Gier",
-    "slug": "saint-romain-en-gier",
-    "zipCode": "69700",
-    "department": "69",
-    "departmentName": "Rhône",
-    "region": "Auvergne-Rhône-Alpes",
-    "population": 600,
-    "surface": 404,
-    "coordinates": {
-      "latitude": 45.5637,
-      "longitude": 4.7065
-    },
-    "distanceKm": 36,
-    "nearbyCities": [
-      "echalas",
-      "dargoire",
-      "beauvallon",
-      "treves",
-      "tartaras",
-      "givors"
-    ],
-    "neighborhoods": [
-      "Le Canal",
-      "La Grange",
-      "Barmont"
-    ],
-    "landmarks": [],
-    "risks": [
-      "Inondation",
-      "Par une crue torrentielle ou à montée rapide de cours d'eau",
-      "Par ruissellement et coulée de boue",
-      "Mouvement de terrain",
-      "Eboulement ou chutes de pierres et de blocs",
-      "Glissement de terrain",
-      "Séisme",
-      "Phénomène lié à l'atmosphère",
-      "Tempête et grains (vent)",
-      "Foudre",
-      "Grêle",
-      "Neige et pluies verglaçantes",
-      "Radon",
-      "Transport de marchandises dangereuses"
-    ],
-    "featured": false
-  },
-  {
-    "insee": "01032",
-    "name": "Béligneux",
-    "slug": "beligneux",
-    "zipCode": "01360",
-    "department": "01",
-    "departmentName": "Ain",
-    "region": "Auvergne-Rhône-Alpes",
-    "population": 3535,
-    "surface": 1336,
-    "coordinates": {
-      "latitude": 45.8622,
-      "longitude": 5.1415
-    },
-    "distanceKm": 36.1,
-    "nearbyCities": [
-      "bourg-saint-christophe",
-      "perouges",
-      "bressolles",
-      "balan",
-      "pizay",
-      "dagneux",
-      "saint-maurice-de-gourdans",
-      "charnoz-sur-ain"
-    ],
-    "neighborhoods": [],
-    "landmarks": [],
-    "risks": [
-      "Séisme",
-      "Rupture de barrage",
-      "Transport de marchandises dangereuses"
-    ],
-    "featured": false
-  },
-  {
-    "insee": "42051",
-    "name": "La Chapelle-Villars",
-    "slug": "la-chapelle-villars",
-    "zipCode": "42410",
-    "department": "42",
-    "departmentName": "Loire",
-    "region": "Auvergne-Rhône-Alpes",
-    "population": 528,
-    "surface": 829,
-    "coordinates": {
-      "latitude": 45.4804,
-      "longitude": 4.7118
-    },
-    "distanceKm": 36.1,
-    "nearbyCities": [
-      "chuyer",
-      "condrieu",
-      "verin",
-      "longes",
-      "les-haies",
-      "saint-michel-sur-rhone"
-    ],
-    "neighborhoods": [],
-    "landmarks": [],
-    "risks": [
-      "Inondation",
-      "Par une crue torrentielle ou à montée rapide de cours d'eau",
-      "Séisme",
-      "Feu de forêt",
-      "Phénomène lié à l'atmosphère",
-      "Tempête et grains (vent)",
-      "Radon",
-      "Risque industriel",
-      "Effet thermique",
-      "Nucléaire",
-      "Affaissement minier",
-      "Effondrements localisés"
-    ],
-    "featured": false
-  },
-  {
-    "insee": "38323",
-    "name": "Pressins",
-    "slug": "pressins",
-    "zipCode": "38480",
-    "department": "38",
-    "departmentName": "Isère",
-    "region": "Auvergne-Rhône-Alpes",
-    "population": 1194,
-    "surface": 1018,
-    "coordinates": {
-      "latitude": 45.5271,
-      "longitude": 5.6318
-    },
-    "distanceKm": 36.2,
-    "nearbyCities": [
-      "le-pont-de-beauvoisin-38",
-      "saint-jean-d-avelanne",
-      "les-abrets-en-dauphine",
-      "le-pont-de-beauvoisin-73",
-      "charancieu",
-      "romagnieu",
-      "velanne",
-      "belmont-tramonet"
-    ],
-    "neighborhoods": [],
-    "landmarks": [
-      "Château Vieux",
-      "Oppidum",
-      "Fallamieux"
-    ],
-    "risks": [
-      "Inondation",
-      "Par une crue à débordement lent de cours d'eau",
-      "Séisme"
-    ],
-    "featured": false
-  },
-  {
-    "insee": "01049",
-    "name": "La Boisse",
-    "slug": "la-boisse",
-    "zipCode": "01120",
-    "department": "01",
-    "departmentName": "Ain",
-    "region": "Auvergne-Rhône-Alpes",
-    "population": 3449,
-    "surface": 942,
-    "coordinates": {
-      "latitude": 45.8483,
-      "longitude": 5.0262
-    },
-    "distanceKm": 36.2,
-    "nearbyCities": [
-      "beynost",
-      "thil",
-      "dagneux",
-      "nievroz",
-      "saint-maurice-de-beynost",
-      "bressolles",
-      "pizay"
-    ],
-    "neighborhoods": [],
-    "landmarks": [
-      "Le petit Casset",
-      "Prieuré de l'ordre de Saint-Ruf",
-      "croix de Saint-Alban"
-    ],
-    "risks": [
-      "Inondation",
-      "Par une crue à débordement lent de cours d'eau",
-      "Par une crue torrentielle ou à montée rapide de cours d'eau",
-      "Mouvement de terrain",
-      "Glissement de terrain",
-      "Séisme",
-      "Rupture de barrage",
-      "Transport de marchandises dangereuses"
-    ],
-    "featured": false
-  },
-  {
-    "insee": "01275",
-    "name": "Neyron",
-    "slug": "neyron",
-    "zipCode": "01700",
-    "department": "01",
-    "departmentName": "Ain",
-    "region": "Auvergne-Rhône-Alpes",
-    "population": 2421,
-    "surface": 530,
-    "coordinates": {
-      "latitude": 45.8204,
-      "longitude": 4.9356
-    },
-    "distanceKm": 36.2,
-    "nearbyCities": [
-      "miribel",
-      "rillieux-la-pape",
-      "saint-maurice-de-beynost",
-      "sathonay-village",
-      "sathonay-camp",
-      "vaulx-en-velin",
-      "beynost",
-      "decines-charpieu"
-    ],
-    "neighborhoods": [
-      "Sermenaz"
-    ],
-    "landmarks": [
-      "Redoute du Hameau de la Roche",
-      "Redoute de Seveillant",
-      "Mémorial Hélène et Victor Basch",
-      "Croix du Jubilé",
-      "Croix du cimetière de Neyron",
-      "Croix rue de l'Église"
-    ],
-    "risks": [
-      "Inondation",
-      "Par une crue à débordement lent de cours d'eau",
-      "Mouvement de terrain",
-      "Glissement de terrain",
-      "Séisme",
-      "Rupture de barrage",
-      "Transport de marchandises dangereuses"
-    ],
-    "featured": false
-  },
-  {
-    "insee": "69179",
-    "name": "Beauvallon",
-    "slug": "beauvallon",
-    "zipCode": "69700",
-    "department": "69",
-    "departmentName": "Rhône",
-    "region": "Auvergne-Rhône-Alpes",
-    "population": 4260,
-    "surface": 2461,
-    "coordinates": {
-      "latitude": 45.5898,
-      "longitude": 4.7041
-    },
-    "distanceKm": 36.5,
-    "nearbyCities": [
-      "saint-romain-en-gier",
-      "mornant",
-      "dargoire",
-      "givors",
-      "echalas",
-      "tartaras",
-      "saint-laurent-d-agny"
-    ],
-    "neighborhoods": [
-      "La Joannas"
-    ],
-    "landmarks": [
-      "Château de Chassagny",
-      "Croix Dumas",
-      "Croix Laudan",
-      "Croix Teillard"
-    ],
-    "risks": [
-      "Inondation",
-      "Par une crue torrentielle ou à montée rapide de cours d'eau",
-      "Par ruissellement et coulée de boue",
-      "Séisme",
-      "Phénomène lié à l'atmosphère",
-      "Tempête et grains (vent)",
-      "Foudre",
-      "Grêle",
-      "Neige et pluies verglaçantes",
-      "Radon",
-      "Transport de marchandises dangereuses"
-    ],
-    "featured": false
-  },
-  {
-    "insee": "69202",
-    "name": "Sainte-Foy-lès-Lyon",
-    "slug": "sainte-foy-les-lyon",
-    "zipCode": "69110",
-    "department": "69",
-    "departmentName": "Rhône",
-    "region": "Auvergne-Rhône-Alpes",
-    "population": 21692,
-    "surface": 684,
-    "coordinates": {
-      "latitude": 45.7362,
-      "longitude": 4.7926
-    },
-    "distanceKm": 36.5,
-    "nearbyCities": [
-      "la-mulatiere",
-      "francheville",
-      "oullins-pierre-benite",
-      "lyon",
-      "chaponost"
-    ],
-    "neighborhoods": [
-      "La Gravière",
-      "Beaunant",
-      "Les Balmes – Montray",
-      "La Plaine – Chantegrillet",
-      "Les Provinces – Chavril"
-    ],
-    "landmarks": [
-      "Mémorial 1914-1918 1939-1945",
-      "Famille Bocuze",
-      "Vincent Biétrix, dit Tancrède de Visan",
-      "Charles Gabriel Pravaz",
-      "Clair Tisseur",
-      "Léon Vallas"
-    ],
-    "risks": [
-      "Inondation",
-      "Par une crue à débordement lent de cours d'eau",
-      "Par une crue torrentielle ou à montée rapide de cours d'eau",
-      "Par ruissellement et coulée de boue",
-      "Séisme",
-      "Phénomène lié à l'atmosphère",
-      "Tempête et grains (vent)",
-      "Foudre",
-      "Grêle",
-      "Neige et pluies verglaçantes",
-      "Radon",
-      "Transport de marchandises dangereuses"
-    ],
-    "featured": true
-  },
-  {
-    "insee": "01058",
-    "name": "Brégnier-Cordon",
-    "slug": "bregnier-cordon",
-    "zipCode": "01300",
-    "department": "01",
-    "departmentName": "Ain",
-    "region": "Auvergne-Rhône-Alpes",
-    "population": 804,
-    "surface": 1126,
-    "coordinates": {
-      "latitude": 45.6406,
-      "longitude": 5.6174
-    },
-    "distanceKm": 36.8,
-    "nearbyCities": [
-      "aoste",
-      "les-avenieres-veyrins-thuellin",
-      "granieu",
-      "saint-genix-les-villages",
-      "corbelin",
-      "groslee-saint-benoit"
-    ],
-    "neighborhoods": [],
-    "landmarks": [
-      "Château de Cordon",
-      "Château de la Barre",
-      "Grotte de Lievrin",
-      "Monument aux Enfants d'Izieu de Brégnier-Cordon",
-      "Place de la Flamme Olympique",
-      "Albert Bendrihen"
-    ],
-    "risks": [
-      "Inondation",
-      "Par une crue à débordement lent de cours d'eau",
-      "Par une crue torrentielle ou à montée rapide de cours d'eau",
-      "Mouvement de terrain",
-      "Eboulement ou chutes de pierres et de blocs",
-      "Séisme",
-      "Transport de marchandises dangereuses"
-    ],
-    "featured": false
-  },
-  {
-    "insee": "26010",
-    "name": "Anneyron",
-    "slug": "anneyron",
-    "zipCode": "26140",
-    "department": "26",
-    "departmentName": "Drôme",
-    "region": "Auvergne-Rhône-Alpes",
-    "population": 4169,
-    "surface": 3659,
-    "coordinates": {
-      "latitude": 45.2718,
-      "longitude": 4.8892
-    },
-    "distanceKm": 36.8,
-    "nearbyCities": [
-      "saint-rambert-d-albon",
-      "bouge-chambalud",
-      "saint-sorlin-en-valloire",
-      "epinouze",
-      "chanas",
-      "chateauneuf-de-galaure"
-    ],
-    "neighborhoods": [
-      "Salton",
-      "Saint-Didier Et Groubon",
-      "Saint-Amour",
-      "Revicole",
-      "Plantay",
-      "Les Egaux"
-    ],
-    "landmarks": [
-      "Monument aux Morts",
-      "Stèle",
-      "Transat Lafuma"
-    ],
-    "risks": [
-      "Inondation",
-      "Par une crue à débordement lent de cours d'eau",
-      "Mouvement de terrain",
-      "Séisme",
-      "Risque industriel",
-      "Nucléaire",
-      "Transport de marchandises dangereuses"
-    ],
-    "featured": false
-  },
-  {
-    "insee": "38517",
-    "name": "Tullins",
-    "slug": "tullins",
-    "zipCode": "38210",
-    "department": "38",
-    "departmentName": "Isère",
-    "region": "Auvergne-Rhône-Alpes",
-    "population": 7624,
-    "surface": 2934,
-    "coordinates": {
-      "latitude": 45.2924,
-      "longitude": 5.4874
-    },
-    "distanceKm": 37,
-    "nearbyCities": [
-      "vourey",
-      "renage",
-      "beaucroissant",
-      "moirans",
-      "izeaux",
-      "notre-dame-de-l-osier"
-    ],
-    "neighborhoods": [
-      "Le Moulx",
-      "Les Balcons du Vercors",
-      "L'Orée du Bois",
-      "Le Clos de la Chevalerie",
-      "Lotissement les Roses",
-      "La Félie"
-    ],
-    "landmarks": [
-      "Monument aux Morts",
-      "Observatoire ornithologique Les Moïles",
-      "Belvédère du Clos des Chartreux",
-      "Roche Corbière"
-    ],
-    "risks": [
-      "Inondation",
-      "Par une crue à débordement lent de cours d'eau",
-      "Par ruissellement et coulée de boue",
-      "Séisme",
-      "Rupture de barrage",
-      "Transport de marchandises dangereuses"
-    ],
-    "featured": false
-  },
-  {
-    "insee": "01338",
-    "name": "Groslée-Saint-Benoit",
-    "slug": "groslee-saint-benoit",
-    "zipCode": "01300",
-    "department": "01",
-    "departmentName": "Ain",
-    "region": "Auvergne-Rhône-Alpes",
-    "population": 1227,
-    "surface": 2868,
-    "coordinates": {
-      "latitude": 45.7011,
-      "longitude": 5.5823
-    },
-    "distanceKm": 37,
-    "nearbyCities": [
-      "brangues",
-      "le-bouchage",
-      "lhuis",
-      "saint-victor-de-morestel",
-      "les-avenieres-veyrins-thuellin",
-      "bregnier-cordon"
-    ],
-    "neighborhoods": [
-      "Sous la Baise"
-    ],
-    "landmarks": [
-      "Point de vue sur la vallée du Rhône",
-      "Paul Bourde"
-    ],
-    "risks": [
-      "Inondation",
-      "Par une crue à débordement lent de cours d'eau",
-      "Par une crue torrentielle ou à montée rapide de cours d'eau",
-      "Mouvement de terrain",
-      "Eboulement ou chutes de pierres et de blocs",
-      "Glissement de terrain",
-      "Séisme"
-    ],
-    "featured": false
-  },
-  {
-    "insee": "42056",
-    "name": "Chavanay",
-    "slug": "chavanay",
-    "zipCode": "42410",
-    "department": "42",
-    "departmentName": "Loire",
-    "region": "Auvergne-Rhône-Alpes",
-    "population": 2884,
-    "surface": 1508,
-    "coordinates": {
-      "latitude": 45.4161,
-      "longitude": 4.7266
-    },
-    "distanceKm": 37,
-    "nearbyCities": [
-      "saint-alban-du-rhone",
-      "saint-michel-sur-rhone",
-      "malleval",
-      "saint-pierre-de-b-uf",
-      "chuyer"
-    ],
-    "neighborhoods": [
-      "La Grande Gorge",
-      "La Petite Gorge",
-      "Lotissement du Chemin Neuf"
-    ],
-    "landmarks": [
-      "Combe de Montélier"
-    ],
-    "risks": [
-      "Inondation",
-      "Par une crue à débordement lent de cours d'eau",
-      "Par une crue torrentielle ou à montée rapide de cours d'eau",
-      "Par ruissellement et coulée de boue",
-      "Mouvement de terrain",
-      "Eboulement ou chutes de pierres et de blocs",
-      "Glissement de terrain",
-      "Tassements différentiels",
-      "Séisme",
-      "Feu de forêt",
-      "Phénomène lié à l'atmosphère",
-      "Tempête et grains (vent)",
-      "Radon",
-      "Risque industriel",
-      "Effet thermique",
-      "Nucléaire",
-      "Rupture de barrage"
-    ],
-    "featured": false
-  },
-  {
-    "insee": "38295",
-    "name": "Parmilieu",
-    "slug": "parmilieu",
-    "zipCode": "38390",
-    "department": "38",
-    "departmentName": "Isère",
-    "region": "Auvergne-Rhône-Alpes",
-    "population": 723,
-    "surface": 1284,
-    "coordinates": {
-      "latitude": 45.8437,
-      "longitude": 5.3595
-    },
-    "distanceKm": 37.1,
-    "nearbyCities": [
-      "vertrieu",
-      "porcieu-amblagnieu",
-      "la-balme-les-grottes",
-      "montalieu-vercieu",
-      "saint-baudille-de-la-tour",
-      "hieres-sur-amby",
-      "sainte-julie",
-      "serrieres-de-briord"
-    ],
-    "neighborhoods": [],
-    "landmarks": [
-      "Monument aux Morts",
-      "Puits Jacob",
-      "Croix mission 1846 les habitants de la montagne",
-      "Croix du Serverin"
-    ],
-    "risks": [
-      "Mouvement de terrain",
-      "Affaissements et effondrements d'origine anthropique (anciennes carrières souterraines, hors mines)",
-      "Séisme",
-      "Rupture de barrage"
-    ],
-    "featured": false
-  },
-  {
-    "insee": "38523",
-    "name": "Varacieux",
-    "slug": "varacieux",
-    "zipCode": "38470",
-    "department": "38",
-    "departmentName": "Isère",
-    "region": "Auvergne-Rhône-Alpes",
-    "population": 881,
-    "surface": 1851,
-    "coordinates": {
-      "latitude": 45.2277,
-      "longitude": 5.3409
-    },
-    "distanceKm": 37.1,
-    "nearbyCities": [
-      "chevrieres",
-      "notre-dame-de-l-osier",
-      "roybon",
-      "saint-pierre-de-bressieux",
-      "saint-simeon-de-bressieux"
-    ],
-    "neighborhoods": [
-      "Chironnay",
-      "Lotissement Le Magnolia"
-    ],
-    "landmarks": [
-      "Ecomusée des Objets d'Antan",
-      "Calvaire"
-    ],
-    "risks": [
-      "Inondation",
-      "Par une crue à débordement lent de cours d'eau",
-      "Mouvement de terrain",
-      "Affaissements et effondrements d'origine anthropique (anciennes carrières souterraines, hors mines)",
-      "Séisme"
-    ],
-    "featured": false
-  },
-  {
-    "insee": "38563",
-    "name": "Voiron",
-    "slug": "voiron",
-    "zipCode": "38500",
-    "department": "38",
-    "departmentName": "Isère",
-    "region": "Auvergne-Rhône-Alpes",
-    "population": 21847,
-    "surface": 2209,
-    "coordinates": {
-      "latitude": 45.3805,
-      "longitude": 5.5869
-    },
-    "distanceKm": 37.1,
-    "nearbyCities": [
-      "la-murette",
-      "saint-nicolas-de-macherin",
-      "saint-cassien",
-      "chirens",
-      "saint-jean-de-moirans",
-      "massieu"
-    ],
-    "neighborhoods": [],
-    "landmarks": [
-      "Tour Barral",
-      "Monument aux Morts de Voiron",
-      "Statue de Notre-Dame de Vouise",
-      "Hommage à Pierre Ruibet",
-      "Vierge",
-      "Aux Victimes de la Barbarie Nazie et de la Milice"
-    ],
-    "risks": [
-      "Inondation",
-      "Par une crue à débordement lent de cours d'eau",
-      "Par une crue torrentielle ou à montée rapide de cours d'eau",
-      "Par ruissellement et coulée de boue",
-      "Mouvement de terrain",
-      "Affaissements et effondrements d'origine anthropique (anciennes carrières souterraines, hors mines)",
-      "Eboulement ou chutes de pierres et de blocs",
-      "Glissement de terrain",
-      "Séisme",
-      "Risque industriel",
-      "Effet thermique",
-      "Transport de marchandises dangereuses"
-    ],
-    "featured": true
-  },
-  {
-    "insee": "38566",
-    "name": "Vourey",
-    "slug": "vourey",
-    "zipCode": "38210",
-    "department": "38",
-    "departmentName": "Isère",
-    "region": "Auvergne-Rhône-Alpes",
-    "population": 1688,
-    "surface": 686,
-    "coordinates": {
-      "latitude": 45.3153,
-      "longitude": 5.5205
-    },
-    "distanceKm": 37.1,
-    "nearbyCities": [
-      "renage",
-      "charnecles",
-      "tullins",
-      "moirans",
-      "beaucroissant",
-      "saint-jean-de-moirans"
-    ],
-    "neighborhoods": [
-      "Lotissement de Comblouvat"
-    ],
-    "landmarks": [
-      "Monument aux Morts"
-    ],
-    "risks": [
-      "Inondation",
-      "Par une crue à débordement lent de cours d'eau",
-      "Par ruissellement et coulée de boue",
-      "Séisme",
-      "Rupture de barrage",
-      "Transport de marchandises dangereuses"
-    ],
-    "featured": false
-  },
-  {
-    "insee": "69252",
-    "name": "Trèves",
-    "slug": "treves",
-    "zipCode": "69420",
-    "department": "69",
-    "departmentName": "Rhône",
-    "region": "Auvergne-Rhône-Alpes",
-    "population": 712,
-    "surface": 763,
-    "coordinates": {
-      "latitude": 45.5358,
-      "longitude": 4.6918
-    },
-    "distanceKm": 37.1,
-    "nearbyCities": [
-      "tartaras",
-      "longes",
-      "saint-romain-en-gier",
-      "dargoire",
-      "echalas",
-      "les-haies"
-    ],
-    "neighborhoods": [
-      "Les Pierres Blanches"
-    ],
-    "landmarks": [
-      "La vierge Marie"
-    ],
-    "risks": [
-      "Inondation",
-      "Par une crue torrentielle ou à montée rapide de cours d'eau",
-      "Par ruissellement et coulée de boue",
-      "Mouvement de terrain",
-      "Eboulement ou chutes de pierres et de blocs",
-      "Glissement de terrain",
-      "Séisme",
-      "Phénomène lié à l'atmosphère",
-      "Tempête et grains (vent)",
-      "Foudre",
-      "Grêle",
-      "Neige et pluies verglaçantes",
-      "Radon",
-      "Transport de marchandises dangereuses"
-    ],
-    "featured": false
-  },
-  {
-    "insee": "01216",
-    "name": "Lhuis",
-    "slug": "lhuis",
-    "zipCode": "01680",
-    "department": "01",
-    "departmentName": "Ain",
-    "region": "Auvergne-Rhône-Alpes",
-    "population": 886,
-    "surface": 2465,
-    "coordinates": {
-      "latitude": 45.7469,
-      "longitude": 5.5398
-    },
-    "distanceKm": 37.1,
-    "nearbyCities": [
-      "briord",
-      "creys-mepieu",
-      "brangues",
-      "saint-victor-de-morestel",
-      "groslee-saint-benoit",
-      "le-bouchage"
-    ],
-    "neighborhoods": [
-      "Certelle-Sud"
-    ],
-    "landmarks": [
-      "Croix d'Ansolin",
-      "Louis Guigard",
-      "Roche Bidet"
-    ],
-    "risks": [
-      "Inondation",
-      "Par une crue à débordement lent de cours d'eau",
-      "Séisme"
-    ],
-    "featured": false
-  },
-  {
-    "insee": "01255",
-    "name": "Montagnieu",
-    "slug": "montagnieu-01",
-    "zipCode": "01470",
-    "department": "01",
-    "departmentName": "Ain",
-    "region": "Auvergne-Rhône-Alpes",
-    "population": 668,
-    "surface": 621,
-    "coordinates": {
-      "latitude": 45.802,
-      "longitude": 5.4598
-    },
-    "distanceKm": 37.1,
-    "nearbyCities": [
-      "serrieres-de-briord",
-      "bouvesse-quirieu",
-      "briord",
-      "montalieu-vercieu",
-      "porcieu-amblagnieu",
-      "creys-mepieu"
-    ],
-    "neighborhoods": [],
-    "landmarks": [],
-    "risks": [
-      "Inondation",
-      "Par une crue à débordement lent de cours d'eau",
-      "Mouvement de terrain",
-      "Eboulement ou chutes de pierres et de blocs",
-      "Glissement de terrain",
-      "Séisme"
-    ],
-    "featured": false
-  },
-  {
-    "insee": "01403",
-    "name": "Serrières-de-Briord",
-    "slug": "serrieres-de-briord",
-    "zipCode": "01470",
-    "department": "01",
-    "departmentName": "Ain",
-    "region": "Auvergne-Rhône-Alpes",
-    "population": 1317,
-    "surface": 852,
-    "coordinates": {
-      "latitude": 45.8129,
-      "longitude": 5.4424
-    },
-    "distanceKm": 37.2,
-    "nearbyCities": [
-      "montagnieu-01",
-      "montalieu-vercieu",
-      "bouvesse-quirieu",
-      "porcieu-amblagnieu",
-      "briord",
-      "parmilieu",
-      "vertrieu"
-    ],
-    "neighborhoods": [
-      "Le Petit Serrières"
-    ],
-    "landmarks": [
-      "Chapelle Saint-Léger",
-      "La Croix",
-      "Vierge de Chateland",
-      "Monument à la Révolution française"
-    ],
-    "risks": [
-      "Inondation",
-      "Par une crue à débordement lent de cours d'eau",
-      "Mouvement de terrain",
-      "Eboulement ou chutes de pierres et de blocs",
-      "Séisme"
-    ],
-    "featured": false
-  },
-  {
-    "insee": "38343",
-    "name": "Romagnieu",
-    "slug": "romagnieu",
-    "zipCode": "38480",
-    "department": "38",
-    "departmentName": "Isère",
-    "region": "Auvergne-Rhône-Alpes",
-    "population": 1753,
-    "surface": 1728,
-    "coordinates": {
-      "latitude": 45.5653,
-      "longitude": 5.6446
-    },
-    "distanceKm": 37.3,
-    "nearbyCities": [
-      "belmont-tramonet",
-      "le-pont-de-beauvoisin-38",
-      "le-pont-de-beauvoisin-73",
-      "pressins",
-      "chimilin",
-      "aoste",
-      "saint-genix-les-villages"
-    ],
-    "neighborhoods": [],
-    "landmarks": [
-      "Monument aux Morts"
-    ],
-    "risks": [
-      "Inondation",
-      "Par une crue à débordement lent de cours d'eau",
-      "Mouvement de terrain",
-      "Affaissements et effondrements d'origine anthropique (anciennes carrières souterraines, hors mines)",
-      "Séisme",
-      "Transport de marchandises dangereuses"
-    ],
-    "featured": false
-  },
-  {
-    "insee": "38386",
-    "name": "Saint-Geoire-en-Valdaine",
-    "slug": "saint-geoire-en-valdaine",
-    "zipCode": "38620",
-    "department": "38",
-    "departmentName": "Isère",
-    "region": "Auvergne-Rhône-Alpes",
-    "population": 2392,
-    "surface": 1671,
-    "coordinates": {
-      "latitude": 45.4628,
-      "longitude": 5.6335
-    },
-    "distanceKm": 37.3,
-    "nearbyCities": [
-      "velanne",
-      "massieu",
-      "montferrat",
-      "saint-jean-d-avelanne",
-      "saint-nicolas-de-macherin",
-      "bilieu"
-    ],
-    "neighborhoods": [
-      "Les Communaux"
-    ],
-    "landmarks": [
-      "Monument aux Morts"
-    ],
-    "risks": [
-      "Inondation",
-      "Par une crue à débordement lent de cours d'eau",
-      "Séisme"
-    ],
-    "featured": false
-  },
-  {
-    "insee": "69148",
-    "name": "Orliénas",
-    "slug": "orlienas",
-    "zipCode": "69530",
-    "department": "69",
-    "departmentName": "Rhône",
-    "region": "Auvergne-Rhône-Alpes",
-    "population": 2675,
-    "surface": 1040,
-    "coordinates": {
-      "latitude": 45.6609,
-      "longitude": 4.7207
-    },
-    "distanceKm": 37.3,
-    "nearbyCities": [
-      "brignais",
-      "taluyers",
-      "saint-laurent-d-agny",
-      "vourles",
-      "montagny",
-      "chaponost",
-      "mornant"
-    ],
-    "neighborhoods": [
-      "Jaloussieux",
-      "La Cognacière",
-      "Le Gontey",
-      "Les Barbières",
-      "Les Curallières",
-      "Trève de la Croix"
-    ],
-    "landmarks": [
-      "Croix de de Trêve de la Croix - 11",
-      "La Croix des Vignes",
-      "La Croix des Rameaux - n°13",
-      "Croix de la Balme",
-      "Croix du Boulard - n°04",
-      "Croix de la Bassette"
-    ],
-    "risks": [
-      "Inondation",
-      "Par une crue torrentielle ou à montée rapide de cours d'eau",
-      "Par ruissellement et coulée de boue",
-      "Mouvement de terrain",
-      "Eboulement ou chutes de pierres et de blocs",
-      "Glissement de terrain",
-      "Séisme",
-      "Phénomène lié à l'atmosphère",
-      "Tempête et grains (vent)",
-      "Foudre",
-      "Grêle",
-      "Neige et pluies verglaçantes",
-      "Radon",
-      "Transport de marchandises dangereuses"
-    ],
-    "featured": false
-  },
-  {
-    "insee": "01062",
-    "name": "Bressolles",
-    "slug": "bressolles",
-    "zipCode": "01360",
-    "department": "01",
-    "departmentName": "Ain",
-    "region": "Auvergne-Rhône-Alpes",
-    "population": 1028,
-    "surface": 766,
-    "coordinates": {
-      "latitude": 45.8714,
-      "longitude": 5.0984
-    },
-    "distanceKm": 37.4,
-    "nearbyCities": [
-      "pizay",
-      "dagneux",
-      "bourg-saint-christophe",
-      "beligneux",
-      "balan",
-      "nievroz",
-      "la-boisse",
-      "perouges"
-    ],
-    "neighborhoods": [],
-    "landmarks": [
-      "Monument aux morts"
-    ],
-    "risks": [
-      "Séisme",
-      "Transport de marchandises dangereuses"
-    ],
-    "featured": false
-  },
-  {
-    "insee": "26083",
-    "name": "Châteauneuf-de-Galaure",
-    "slug": "chateauneuf-de-galaure",
-    "zipCode": "26330",
-    "department": "26",
-    "departmentName": "Drôme",
-    "region": "Auvergne-Rhône-Alpes",
-    "population": 1804,
-    "surface": 1832,
-    "coordinates": {
-      "latitude": 45.2337,
-      "longitude": 4.9637
-    },
-    "distanceKm": 37.4,
-    "nearbyCities": [
-      "saint-sorlin-en-valloire",
-      "hauterives",
-      "moras-en-valloire",
-      "anneyron",
-      "montchenu",
-      "manthes"
-    ],
-    "neighborhoods": [
-      "Saint-Bonnet-Sud",
-      "Marrons Et Laurent",
-      "Les Merlières",
-      "Les Mendailles",
-      "Les Genthons",
-      "Les Doyats"
-    ],
-    "landmarks": [],
-    "risks": [
-      "Inondation",
-      "Par une crue à débordement lent de cours d'eau",
-      "Mouvement de terrain",
-      "Séisme",
-      "Risque industriel",
-      "Effet thermique",
-      "Effet de surpression",
-      "Transport de marchandises dangereuses"
-    ],
-    "featured": false
-  },
-  {
-    "insee": "38531",
-    "name": "Velanne",
-    "slug": "velanne",
-    "zipCode": "38620",
-    "department": "38",
-    "departmentName": "Isère",
-    "region": "Auvergne-Rhône-Alpes",
-    "population": 572,
-    "surface": 813,
-    "coordinates": {
-      "latitude": 45.4888,
-      "longitude": 5.6441
-    },
-    "distanceKm": 37.5,
-    "nearbyCities": [
-      "saint-jean-d-avelanne",
-      "saint-geoire-en-valdaine",
-      "pressins",
-      "le-pont-de-beauvoisin-38",
-      "montferrat",
-      "le-pont-de-beauvoisin-73"
-    ],
-    "neighborhoods": [],
-    "landmarks": [
-      "Monument aux morts"
-    ],
-    "risks": [
-      "Séisme"
-    ],
-    "featured": false
-  },
-  {
-    "insee": "42064",
-    "name": "Chuyer",
-    "slug": "chuyer",
-    "zipCode": "42410",
-    "department": "42",
-    "departmentName": "Loire",
-    "region": "Auvergne-Rhône-Alpes",
-    "population": 759,
-    "surface": 1164,
-    "coordinates": {
-      "latitude": 45.4531,
-      "longitude": 4.7017
-    },
-    "distanceKm": 37.5,
-    "nearbyCities": [
-      "saint-michel-sur-rhone",
-      "la-chapelle-villars",
-      "verin",
-      "chavanay",
-      "condrieu"
-    ],
-    "neighborhoods": [],
-    "landmarks": [],
-    "risks": [
-      "Séisme",
-      "Feu de forêt",
-      "Phénomène lié à l'atmosphère",
-      "Tempête et grains (vent)",
-      "Radon",
-      "Risque industriel",
-      "Effet thermique",
-      "Nucléaire"
-    ],
-    "featured": false
-  },
-  {
-    "insee": "42272",
-    "name": "Saint-Pierre-de-Bœuf",
-    "slug": "saint-pierre-de-b-uf",
-    "zipCode": "42520",
-    "department": "42",
-    "departmentName": "Loire",
-    "region": "Auvergne-Rhône-Alpes",
-    "population": 1712,
-    "surface": 599,
-    "coordinates": {
-      "latitude": 45.3797,
-      "longitude": 4.742
-    },
-    "distanceKm": 37.6,
-    "nearbyCities": [
-      "malleval",
-      "saint-maurice-l-exil",
-      "le-peage-de-roussillon",
-      "chavanay",
-      "saint-alban-du-rhone",
-      "roussillon"
-    ],
-    "neighborhoods": [
-      "La Dame",
-      "La Combe",
-      "Les Quatre Mas",
-      "Le Plat",
-      "Malignon",
-      "La Chana"
-    ],
-    "landmarks": [],
-    "risks": [
-      "Inondation",
-      "Par une crue à débordement lent de cours d'eau",
-      "Par une crue torrentielle ou à montée rapide de cours d'eau",
-      "Mouvement de terrain",
-      "Tassements différentiels",
-      "Séisme",
-      "Feu de forêt",
-      "Phénomène lié à l'atmosphère",
-      "Tempête et grains (vent)",
-      "Radon",
-      "Risque industriel",
-      "Effet thermique",
-      "Nucléaire",
-      "Rupture de barrage",
-      "Engins de guerre",
-      "Affaissement minier",
-      "Effondrements localisés"
-    ],
-    "featured": false
-  },
-  {
-    "insee": "38320",
-    "name": "Porcieu-Amblagnieu",
-    "slug": "porcieu-amblagnieu",
-    "zipCode": "38390",
-    "department": "38",
-    "departmentName": "Isère",
-    "region": "Auvergne-Rhône-Alpes",
-    "population": 1787,
-    "surface": 1594,
-    "coordinates": {
-      "latitude": 45.8373,
-      "longitude": 5.3982
-    },
-    "distanceKm": 37.7,
-    "nearbyCities": [
-      "montalieu-vercieu",
-      "parmilieu",
-      "vertrieu",
-      "serrieres-de-briord",
-      "la-balme-les-grottes",
-      "montagnieu-01"
-    ],
-    "neighborhoods": [],
-    "landmarks": [
-      "Monument aux Morts",
-      "Supports de vigne en pierre (à l'ancienne)"
-    ],
-    "risks": [
-      "Inondation",
-      "Par une crue à débordement lent de cours d'eau",
-      "Séisme",
-      "Rupture de barrage"
-    ],
-    "featured": false
-  },
-  {
-    "insee": "69119",
-    "name": "Longes",
-    "slug": "longes",
-    "zipCode": "69420",
-    "department": "69",
-    "departmentName": "Rhône",
-    "region": "Auvergne-Rhône-Alpes",
-    "population": 938,
-    "surface": 2403,
-    "coordinates": {
-      "latitude": 45.5083,
-      "longitude": 4.6861
-    },
-    "distanceKm": 37.7,
-    "nearbyCities": [
-      "treves",
-      "la-chapelle-villars",
-      "les-haies",
-      "tartaras",
-      "dargoire"
-    ],
-    "neighborhoods": [
-      "Le Château"
-    ],
-    "landmarks": [
-      "La-Croix-du-Trève",
-      "Vierge de Longes",
-      "Vierge du Mont Monnet",
-      "Croix de Crème"
-    ],
-    "risks": [
-      "Inondation",
-      "Par une crue torrentielle ou à montée rapide de cours d'eau",
-      "Par ruissellement et coulée de boue",
-      "Mouvement de terrain",
-      "Glissement de terrain",
-      "Séisme",
-      "Phénomène lié à l'atmosphère",
-      "Tempête et grains (vent)",
-      "Foudre",
-      "Grêle",
-      "Neige et pluies verglaçantes",
-      "Radon",
-      "Nucléaire",
-      "Transport de marchandises dangereuses"
-    ],
-    "featured": false
-  },
-  {
-    "insee": "01088",
-    "name": "Charnoz-sur-Ain",
-    "slug": "charnoz-sur-ain",
-    "zipCode": "01800",
-    "department": "01",
-    "departmentName": "Ain",
-    "region": "Auvergne-Rhône-Alpes",
-    "population": 951,
-    "surface": 660,
-    "coordinates": {
-      "latitude": 45.8756,
-      "longitude": 5.2251
-    },
-    "distanceKm": 37.7,
-    "nearbyCities": [
-      "perouges",
-      "blyes",
-      "saint-jean-de-niost",
-      "sainte-julie",
-      "beligneux",
-      "saint-vulbas",
-      "bourg-saint-christophe"
-    ],
-    "neighborhoods": [],
-    "landmarks": [
-      "Château Messimy"
-    ],
-    "risks": [
-      "Inondation",
-      "Par une crue à débordement lent de cours d'eau",
-      "Séisme",
-      "Nucléaire",
-      "Rupture de barrage",
-      "Transport de marchandises dangereuses"
-    ],
-    "featured": false
-  },
-  {
-    "insee": "38432",
-    "name": "Saint-Nicolas-de-Macherin",
-    "slug": "saint-nicolas-de-macherin",
-    "zipCode": "38500",
-    "department": "38",
-    "departmentName": "Isère",
-    "region": "Auvergne-Rhône-Alpes",
-    "population": 937,
-    "surface": 1064,
-    "coordinates": {
-      "latitude": 45.4057,
-      "longitude": 5.6152
-    },
-    "distanceKm": 37.9,
-    "nearbyCities": [
-      "voiron",
-      "massieu",
-      "chirens",
-      "la-murette",
-      "saint-geoire-en-valdaine",
-      "bilieu"
-    ],
-    "neighborhoods": [],
-    "landmarks": [
-      "Notre-Dame de la Croix",
-      "Monument aux Morts"
-    ],
-    "risks": [
-      "Inondation",
-      "Par une crue à débordement lent de cours d'eau",
-      "Par une crue torrentielle ou à montée rapide de cours d'eau",
-      "Par ruissellement et coulée de boue",
-      "Par remontées de nappes naturelles",
-      "Mouvement de terrain",
-      "Affaissements et effondrements d'origine anthropique (anciennes carrières souterraines, hors mines)",
-      "Eboulement ou chutes de pierres et de blocs",
-      "Glissement de terrain",
-      "Séisme"
-    ],
-    "featured": false
-  },
-  {
-    "insee": "69043",
-    "name": "Chaponost",
-    "slug": "chaponost",
-    "zipCode": "69630",
-    "department": "69",
-    "departmentName": "Rhône",
-    "region": "Auvergne-Rhône-Alpes",
-    "population": 9382,
-    "surface": 1626,
-    "coordinates": {
-      "latitude": 45.7089,
-      "longitude": 4.7452
-    },
-    "distanceKm": 37.9,
-    "nearbyCities": [
-      "francheville",
-      "brignais",
-      "saint-genis-laval",
-      "sainte-foy-les-lyon",
-      "oullins-pierre-benite",
-      "orlienas"
-    ],
-    "neighborhoods": [
-      "L'Étang"
-    ],
-    "landmarks": [
-      "La Madone"
-    ],
-    "risks": [
-      "Inondation",
-      "Par une crue à débordement lent de cours d'eau",
-      "Par une crue torrentielle ou à montée rapide de cours d'eau",
-      "Par ruissellement et coulée de boue",
-      "Mouvement de terrain",
-      "Glissement de terrain",
-      "Séisme",
-      "Phénomène lié à l'atmosphère",
-      "Tempête et grains (vent)",
-      "Foudre",
-      "Grêle",
-      "Neige et pluies verglaçantes",
-      "Radon",
-      "Transport de marchandises dangereuses"
-    ],
-    "featured": false
-  },
-  {
-    "insee": "01290",
-    "name": "Pérouges",
-    "slug": "perouges",
-    "zipCode": "01800",
-    "department": "01",
-    "departmentName": "Ain",
-    "region": "Auvergne-Rhône-Alpes",
-    "population": 1387,
-    "surface": 1932,
-    "coordinates": {
-      "latitude": 45.8789,
-      "longitude": 5.1791
-    },
-    "distanceKm": 37.9,
-    "nearbyCities": [
-      "bourg-saint-christophe",
-      "beligneux",
-      "charnoz-sur-ain",
-      "saint-jean-de-niost",
-      "bressolles",
-      "saint-maurice-de-gourdans",
-      "pizay"
-    ],
-    "neighborhoods": [],
-    "landmarks": [],
-    "risks": [
-      "Inondation",
-      "Par une crue torrentielle ou à montée rapide de cours d'eau",
-      "Mouvement de terrain",
-      "Glissement de terrain",
-      "Séisme",
-      "Rupture de barrage",
-      "Transport de marchandises dangereuses"
-    ],
-    "featured": false
-  },
-  {
-    "insee": "69034",
-    "name": "Caluire-et-Cuire",
-    "slug": "caluire-et-cuire",
-    "zipCode": "69300",
-    "department": "69",
-    "departmentName": "Rhône",
-    "region": "Auvergne-Rhône-Alpes",
-    "population": 43597,
-    "surface": 1044,
-    "coordinates": {
-      "latitude": 45.7986,
-      "longitude": 4.8494
-    },
-    "distanceKm": 38.1,
-    "nearbyCities": [
-      "sathonay-camp",
-      "villeurbanne",
-      "lyon",
-      "rillieux-la-pape",
-      "sathonay-village",
-      "vaulx-en-velin"
-    ],
-    "neighborhoods": [
-      "Bissardon",
-      "Saint-Clair",
-      "Montessuy",
-      "Cuire-le-Haut",
-      "Cuire-le-Bas",
-      "Le bourg"
-    ],
-    "landmarks": [
-      "Famille Jancert",
-      "La Croix-Rousse",
-      "Jean Moulin",
-      "Anne Passerat de La Chapelle",
-      "Espace du Souvenir Français",
-      "Francisque Eugène Rendu"
-    ],
-    "risks": [
-      "Inondation",
-      "Par une crue à débordement lent de cours d'eau",
-      "Par une crue torrentielle ou à montée rapide de cours d'eau",
-      "Par remontées de nappes naturelles",
-      "Mouvement de terrain",
-      "Affaissements et effondrements d'origine anthropique (anciennes carrières souterraines, hors mines)",
-      "Séisme",
-      "Phénomène lié à l'atmosphère",
-      "Tempête et grains (vent)",
-      "Foudre",
-      "Grêle",
-      "Neige et pluies verglaçantes",
-      "Radon",
-      "Rupture de barrage",
-      "Transport de marchandises dangereuses"
-    ],
-    "featured": true
-  },
-  {
-    "insee": "01249",
-    "name": "Miribel",
-    "slug": "miribel",
-    "zipCode": "01700",
-    "department": "01",
-    "departmentName": "Ain",
-    "region": "Auvergne-Rhône-Alpes",
-    "population": 10395,
-    "surface": 2446,
-    "coordinates": {
-      "latitude": 45.8444,
-      "longitude": 4.941
-    },
-    "distanceKm": 38.3,
-    "nearbyCities": [
-      "neyron",
-      "saint-maurice-de-beynost",
-      "rillieux-la-pape",
-      "sathonay-village",
-      "beynost",
-      "sathonay-camp"
-    ],
-    "neighborhoods": [
-      "Domaine des Printanières",
-      "Domaine de Miribel"
-    ],
-    "landmarks": [
-      "Calvaire-fontaine",
-      "Croix Pécoud",
-      "Croix Montée de la Perrière",
-      "Croix de Saint-Martin",
-      "Famille Brazier",
-      "Abbés Thomas et Loizeau"
-    ],
-    "risks": [
-      "Inondation",
-      "Par une crue à débordement lent de cours d'eau",
-      "Par une crue torrentielle ou à montée rapide de cours d'eau",
-      "Mouvement de terrain",
-      "Glissement de terrain",
-      "Séisme",
-      "Rupture de barrage",
-      "Transport de marchandises dangereuses"
-    ],
-    "featured": true
-  },
-  {
-    "insee": "26325",
-    "name": "Saint-Rambert-d'Albon",
-    "slug": "saint-rambert-d-albon",
-    "zipCode": "26140",
-    "department": "26",
-    "departmentName": "Drôme",
-    "region": "Auvergne-Rhône-Alpes",
-    "population": 7001,
-    "surface": 1335,
-    "coordinates": {
-      "latitude": 45.2883,
-      "longitude": 4.8299
-    },
-    "distanceKm": 38.3,
-    "nearbyCities": [
-      "chanas",
-      "anneyron",
-      "sablons",
-      "agnin",
-      "bouge-chambalud",
-      "salaise-sur-sanne"
-    ],
-    "neighborhoods": [
-      "Village Sud",
-      "Village Nord",
-      "Village Centre",
-      "Tulandière Nord",
-      "Les Parlants",
-      "Haut Terraly"
-    ],
-    "landmarks": [
-      "Monument aux morts",
-      "Château d'eau \"La Drome\"",
-      "Ancienne locomotive"
-    ],
-    "risks": [
-      "Inondation",
-      "Par une crue à débordement lent de cours d'eau",
-      "Mouvement de terrain",
-      "Séisme",
-      "Nucléaire",
-      "Rupture de barrage",
-      "Transport de marchandises dangereuses"
-    ],
-    "featured": false
-  },
-  {
-    "insee": "38278",
-    "name": "Notre-Dame-de-l'Osier",
-    "slug": "notre-dame-de-l-osier",
-    "zipCode": "38470",
-    "department": "38",
-    "departmentName": "Isère",
-    "region": "Auvergne-Rhône-Alpes",
-    "population": 535,
-    "surface": 854,
-    "coordinates": {
-      "latitude": 45.2384,
-      "longitude": 5.4112
-    },
-    "distanceKm": 38.4,
-    "nearbyCities": [
-      "varacieux",
-      "tullins",
-      "chevrieres",
-      "izeaux"
-    ],
-    "neighborhoods": [],
-    "landmarks": [
-      "Monument aux Morts",
-      "Croix de Françillon"
-    ],
-    "risks": [
-      "Séisme"
-    ],
-    "featured": false
-  },
-  {
-    "insee": "69286",
-    "name": "Rillieux-la-Pape",
-    "slug": "rillieux-la-pape",
-    "zipCode": "69140",
-    "department": "69",
-    "departmentName": "Rhône",
-    "region": "Auvergne-Rhône-Alpes",
-    "population": 31389,
-    "surface": 1455,
-    "coordinates": {
-      "latitude": 45.8265,
-      "longitude": 4.895
-    },
-    "distanceKm": 38.4,
-    "nearbyCities": [
-      "sathonay-camp",
-      "sathonay-village",
-      "neyron",
-      "miribel",
-      "caluire-et-cuire",
-      "vaulx-en-velin",
-      "saint-maurice-de-beynost"
-    ],
-    "neighborhoods": [
-      "La Roue"
-    ],
-    "landmarks": [
-      "Monument aux morts de Crépieux-la-Pape",
-      "Stèle des Martyrs",
-      "Totem",
-      "Belvédère"
-    ],
-    "risks": [
-      "Inondation",
-      "Par une crue à débordement lent de cours d'eau",
-      "Par une crue torrentielle ou à montée rapide de cours d'eau",
-      "Par ruissellement et coulée de boue",
-      "Par remontées de nappes naturelles",
-      "Mouvement de terrain",
-      "Affaissements et effondrements d'origine anthropique (anciennes carrières souterraines, hors mines)",
-      "Séisme",
-      "Phénomène lié à l'atmosphère",
-      "Tempête et grains (vent)",
-      "Foudre",
-      "Grêle",
-      "Neige et pluies verglaçantes",
-      "Radon",
-      "Risque industriel",
-      "Effet thermique",
-      "Rupture de barrage",
-      "Transport de marchandises dangereuses"
-    ],
-    "featured": true
-  },
-  {
-    "insee": "42132",
-    "name": "Malleval",
-    "slug": "malleval",
-    "zipCode": "42520",
-    "department": "42",
-    "departmentName": "Loire",
-    "region": "Auvergne-Rhône-Alpes",
-    "population": 648,
-    "surface": 516,
-    "coordinates": {
-      "latitude": 45.3842,
-      "longitude": 4.7264
-    },
-    "distanceKm": 38.4,
-    "nearbyCities": [
-      "saint-pierre-de-b-uf",
-      "chavanay",
-      "saint-maurice-l-exil",
-      "le-peage-de-roussillon",
-      "saint-alban-du-rhone"
-    ],
-    "neighborhoods": [],
-    "landmarks": [
-      "Vieux château de Roche Chauve",
-      "Grenier à sel",
-      "Commanderie",
-      "Maison de la Prébende",
-      "La Petite Sorbonne",
-      "Maison du Beffroi"
-    ],
-    "risks": [
-      "Inondation",
-      "Par une crue à débordement lent de cours d'eau",
-      "Par une crue torrentielle ou à montée rapide de cours d'eau",
-      "Par ruissellement et coulée de boue",
-      "Mouvement de terrain",
-      "Glissement de terrain",
-      "Tassements différentiels",
-      "Séisme",
-      "Feu de forêt",
-      "Phénomène lié à l'atmosphère",
-      "Tempête et grains (vent)",
-      "Radon",
-      "Risque industriel",
-      "Effet thermique",
-      "Nucléaire",
-      "Affaissement minier",
-      "Effondrements localisés"
-    ],
-    "featured": false
-  },
-  {
-    "insee": "38315",
-    "name": "Le Pont-de-Beauvoisin",
-    "slug": "le-pont-de-beauvoisin-38",
-    "zipCode": "38480",
-    "department": "38",
-    "departmentName": "Isère",
-    "region": "Auvergne-Rhône-Alpes",
-    "population": 3602,
-    "surface": 742,
-    "coordinates": {
-      "latitude": 45.5304,
-      "longitude": 5.6622
-    },
-    "distanceKm": 38.5,
-    "nearbyCities": [
-      "le-pont-de-beauvoisin-73",
-      "pressins",
-      "saint-jean-d-avelanne",
-      "belmont-tramonet",
-      "romagnieu",
-      "velanne"
-    ],
-    "neighborhoods": [],
-    "landmarks": [
-      "Musée de la Machine à Bois",
-      "Monument aux Morts",
-      "Gabriel Pravaz"
-    ],
-    "risks": [
-      "Inondation",
-      "Par une crue à débordement lent de cours d'eau",
-      "Mouvement de terrain",
-      "Affaissements et effondrements d'origine anthropique (anciennes carrières souterraines, hors mines)",
-      "Séisme",
-      "Transport de marchandises dangereuses"
-    ],
-    "featured": false
-  },
-  {
-    "insee": "38349",
-    "name": "Sablons",
-    "slug": "sablons",
-    "zipCode": "38550",
-    "department": "38",
-    "departmentName": "Isère",
-    "region": "Auvergne-Rhône-Alpes",
-    "population": 2346,
-    "surface": 1027,
-    "coordinates": {
-      "latitude": 45.3204,
-      "longitude": 4.785
-    },
-    "distanceKm": 38.5,
-    "nearbyCities": [
-      "salaise-sur-sanne",
-      "chanas",
-      "saint-rambert-d-albon",
-      "le-peage-de-roussillon",
-      "agnin",
-      "roussillon"
-    ],
-    "neighborhoods": [
-      "Les Catherines",
-      "Les Gaillards",
-      "Le Bourg",
-      "Champ du Cloitre",
-      "Les Granges"
-    ],
-    "landmarks": [
-      "Monument aux morts de Sabons"
-    ],
-    "risks": [
-      "Inondation",
-      "Par une crue à débordement lent de cours d'eau",
-      "Par une crue torrentielle ou à montée rapide de cours d'eau",
-      "Séisme",
-      "Risque industriel",
-      "Effet thermique",
-      "Effet de surpression",
-      "Effet toxique",
-      "Rupture de barrage"
-    ],
-    "featured": false
-  },
-  {
-    "insee": "01054",
-    "name": "Bourg-Saint-Christophe",
-    "slug": "bourg-saint-christophe",
-    "zipCode": "01800",
-    "department": "01",
-    "departmentName": "Ain",
-    "region": "Auvergne-Rhône-Alpes",
-    "population": 1562,
-    "surface": 900,
-    "coordinates": {
-      "latitude": 45.8842,
-      "longitude": 5.1393
-    },
-    "distanceKm": 38.5,
-    "nearbyCities": [
-      "beligneux",
-      "perouges",
-      "bressolles",
-      "pizay",
-      "dagneux",
-      "charnoz-sur-ain"
-    ],
-    "neighborhoods": [
-      "La Ruette",
-      "Mas Choquet"
-    ],
-    "landmarks": [
-      "Notre-Dame de la Côtière"
-    ],
-    "risks": [
-      "Séisme",
-      "Rupture de barrage",
-      "Transport de marchandises dangereuses"
-    ],
-    "featured": false
-  },
-  {
-    "insee": "42083",
-    "name": "Dargoire",
-    "slug": "dargoire",
-    "zipCode": "42800",
-    "department": "42",
-    "departmentName": "Loire",
-    "region": "Auvergne-Rhône-Alpes",
-    "population": 524,
-    "surface": 195,
-    "coordinates": {
-      "latitude": 45.5627,
-      "longitude": 4.6735
-    },
-    "distanceKm": 38.6,
-    "nearbyCities": [
-      "tartaras",
-      "saint-romain-en-gier",
-      "treves",
-      "beauvallon",
-      "echalas",
-      "mornant",
-      "longes"
-    ],
-    "neighborhoods": [
-      "Le But"
-    ],
-    "landmarks": [],
-    "risks": [
-      "Inondation",
-      "Par une crue torrentielle ou à montée rapide de cours d'eau",
-      "Mouvement de terrain",
-      "Eboulement ou chutes de pierres et de blocs",
-      "Glissement de terrain",
-      "Tassements différentiels",
-      "Séisme",
-      "Phénomène lié à l'atmosphère",
-      "Tempête et grains (vent)",
-      "Radon",
-      "Risque industriel",
-      "Effet thermique",
-      "Nucléaire",
-      "Rupture de barrage",
-      "Affaissement minier",
-      "Effondrements localisés",
-      "Tassements",
-      "Glissements ou mouvements de pente"
-    ],
-    "featured": false
-  },
-  {
-    "insee": "69292",
-    "name": "Sathonay-Camp",
-    "slug": "sathonay-camp",
-    "zipCode": "69580",
-    "department": "69",
-    "departmentName": "Rhône",
-    "region": "Auvergne-Rhône-Alpes",
-    "population": 7019,
-    "surface": 192,
-    "coordinates": {
-      "latitude": 45.8255,
-      "longitude": 4.8792
-    },
-    "distanceKm": 39,
-    "nearbyCities": [
-      "rillieux-la-pape",
-      "sathonay-village",
-      "caluire-et-cuire",
-      "neyron",
-      "miribel",
-      "villeurbanne"
-    ],
-    "neighborhoods": [],
-    "landmarks": [
-      "Arbre de la liberté",
-      "Mon Héros"
-    ],
-    "risks": [
-      "Inondation",
-      "Par une crue torrentielle ou à montée rapide de cours d'eau",
-      "Par ruissellement et coulée de boue",
-      "Mouvement de terrain",
-      "Affaissements et effondrements d'origine anthropique (anciennes carrières souterraines, hors mines)",
-      "Séisme",
-      "Phénomène lié à l'atmosphère",
-      "Tempête et grains (vent)",
-      "Foudre",
-      "Grêle",
-      "Neige et pluies verglaçantes",
-      "Radon",
-      "Transport de marchandises dangereuses"
-    ],
-    "featured": false
-  },
-  {
-    "insee": "38398",
-    "name": "Saint-Jean-d'Avelanne",
-    "slug": "saint-jean-d-avelanne",
-    "zipCode": "38480",
-    "department": "38",
-    "departmentName": "Isère",
-    "region": "Auvergne-Rhône-Alpes",
-    "population": 969,
-    "surface": 786,
-    "coordinates": {
-      "latitude": 45.5079,
-      "longitude": 5.6679
-    },
-    "distanceKm": 39.1,
-    "nearbyCities": [
-      "le-pont-de-beauvoisin-38",
-      "velanne",
-      "le-pont-de-beauvoisin-73",
-      "pressins",
-      "saint-geoire-en-valdaine",
-      "belmont-tramonet"
-    ],
-    "neighborhoods": [],
-    "landmarks": [
-      "Monument aux Morts"
-    ],
-    "risks": [
-      "Séisme"
-    ],
-    "featured": false
-  },
-  {
-    "insee": "69089",
-    "name": "Francheville",
-    "slug": "francheville",
-    "zipCode": "69340",
-    "department": "69",
-    "departmentName": "Rhône",
-    "region": "Auvergne-Rhône-Alpes",
-    "population": 15604,
-    "surface": 825,
-    "coordinates": {
-      "latitude": 45.7386,
-      "longitude": 4.7537
-    },
-    "distanceKm": 39.1,
-    "nearbyCities": [
-      "sainte-foy-les-lyon",
-      "chaponost",
-      "la-mulatiere",
-      "oullins-pierre-benite",
-      "lyon"
-    ],
-    "neighborhoods": [
-      "Le Châter"
-    ],
-    "landmarks": [
-      "Ancienne halte de Bel-Air",
-      "Ancienne halte de l'Etoile d'Alaï",
-      "Ancienne gare d'Alaï-Francheville"
-    ],
-    "risks": [
-      "Inondation",
-      "Par une crue à débordement lent de cours d'eau",
-      "Par une crue torrentielle ou à montée rapide de cours d'eau",
-      "Par ruissellement et coulée de boue",
-      "Séisme",
-      "Phénomène lié à l'atmosphère",
-      "Tempête et grains (vent)",
-      "Foudre",
-      "Grêle",
-      "Neige et pluies verglaçantes",
-      "Radon",
-      "Transport de marchandises dangereuses"
-    ],
-    "featured": true
-  },
-  {
-    "insee": "01366",
-    "name": "Sainte-Julie",
-    "slug": "sainte-julie",
-    "zipCode": "01150",
-    "department": "01",
-    "departmentName": "Ain",
-    "region": "Auvergne-Rhône-Alpes",
-    "population": 1094,
-    "surface": 1145,
-    "coordinates": {
-      "latitude": 45.8802,
-      "longitude": 5.2837
-    },
-    "distanceKm": 39.1,
-    "nearbyCities": [
-      "charnoz-sur-ain",
-      "blyes",
-      "la-balme-les-grottes",
-      "saint-vulbas",
-      "vertrieu",
-      "parmilieu"
-    ],
-    "neighborhoods": [],
-    "landmarks": [
-      "Château de Sainte-Julie"
-    ],
-    "risks": [
-      "Séisme",
-      "Nucléaire"
-    ],
-    "featured": false
-  },
-  {
-    "insee": "42307",
-    "name": "Tartaras",
-    "slug": "tartaras",
-    "zipCode": "42800",
-    "department": "42",
-    "departmentName": "Loire",
-    "region": "Auvergne-Rhône-Alpes",
-    "population": 958,
-    "surface": 398,
-    "coordinates": {
-      "latitude": 45.5536,
-      "longitude": 4.6658
-    },
-    "distanceKm": 39.1,
-    "nearbyCities": [
-      "dargoire",
-      "treves",
-      "saint-romain-en-gier",
-      "echalas",
-      "beauvallon",
-      "longes"
-    ],
-    "neighborhoods": [
-      "Les Bourelles",
-      "Roule",
-      "Croix Vieille"
-    ],
-    "landmarks": [
-      "Double Ecluse du Rocher Percé",
-      "Rocher percé"
-    ],
-    "risks": [
-      "Inondation",
-      "Par une crue torrentielle ou à montée rapide de cours d'eau",
-      "Mouvement de terrain",
-      "Glissement de terrain",
-      "Tassements différentiels",
-      "Séisme",
-      "Phénomène lié à l'atmosphère",
-      "Tempête et grains (vent)",
-      "Radon",
-      "Risque industriel",
-      "Effet thermique",
-      "Nucléaire",
-      "Rupture de barrage",
-      "Engins de guerre",
-      "Affaissement minier",
-      "Effondrements localisés",
-      "Tassements",
-      "Glissements ou mouvements de pente"
-    ],
-    "featured": false
-  },
-  {
-    "insee": "69141",
-    "name": "Mornant",
-    "slug": "mornant",
-    "zipCode": "69440",
-    "department": "69",
-    "departmentName": "Rhône",
-    "region": "Auvergne-Rhône-Alpes",
-    "population": 6282,
-    "surface": 1579,
-    "coordinates": {
-      "latitude": 45.6162,
-      "longitude": 4.6747
-    },
-    "distanceKm": 39.3,
-    "nearbyCities": [
-      "saint-laurent-d-agny",
-      "beauvallon",
-      "taluyers",
-      "dargoire",
-      "orlienas",
-      "montagny"
-    ],
-    "neighborhoods": [
-      "Germany",
-      "La Grange Dodieu",
-      "La Guillotière",
-      "La Gare",
-      "Le Calichet",
-      "Le Peu"
-    ],
-    "landmarks": [
-      "Aqueduc romain du Gier",
-      "Maison de pays",
-      "Croix de l'Orémus",
-      "Ancienne gare de Mornant"
-    ],
-    "risks": [
-      "Inondation",
-      "Par une crue torrentielle ou à montée rapide de cours d'eau",
-      "Par ruissellement et coulée de boue",
-      "Mouvement de terrain",
-      "Glissement de terrain",
-      "Séisme",
-      "Phénomène lié à l'atmosphère",
-      "Tempête et grains (vent)",
-      "Foudre",
-      "Grêle",
-      "Neige et pluies verglaçantes",
-      "Radon",
-      "Transport de marchandises dangereuses"
-    ],
-    "featured": false
-  },
-  {
-    "insee": "38239",
-    "name": "Moirans",
-    "slug": "moirans",
-    "zipCode": "38430",
-    "department": "38",
-    "departmentName": "Isère",
-    "region": "Auvergne-Rhône-Alpes",
-    "population": 7818,
-    "surface": 2002,
-    "coordinates": {
-      "latitude": 45.3227,
-      "longitude": 5.5676
-    },
-    "distanceKm": 39.4,
-    "nearbyCities": [
-      "saint-jean-de-moirans",
-      "charnecles",
-      "vourey",
-      "saint-cassien",
-      "renage",
-      "tullins"
-    ],
-    "neighborhoods": [
-      "Lotissement La Cerisaie",
-      "Résidence La Chartreuse",
-      "Lotissement Bellecote",
-      "Lotissement La Pérelle",
-      "Lotissement de la Goyette"
-    ],
-    "landmarks": [],
-    "risks": [
-      "Inondation",
-      "Par une crue à débordement lent de cours d'eau",
-      "Par une crue torrentielle ou à montée rapide de cours d'eau",
-      "Par ruissellement et coulée de boue",
-      "Séisme",
-      "Risque industriel",
-      "Effet de surpression",
-      "Rupture de barrage",
-      "Transport de marchandises dangereuses"
-    ],
-    "featured": false
-  },
-  {
-    "insee": "69219",
-    "name": "Saint-Laurent-d'Agny",
-    "slug": "saint-laurent-d-agny",
-    "zipCode": "69440",
-    "department": "69",
-    "departmentName": "Rhône",
-    "region": "Auvergne-Rhône-Alpes",
-    "population": 2111,
-    "surface": 1065,
-    "coordinates": {
-      "latitude": 45.6406,
-      "longitude": 4.6828
-    },
-    "distanceKm": 39.4,
-    "nearbyCities": [
-      "mornant",
-      "taluyers",
-      "orlienas",
-      "montagny",
-      "beauvallon",
-      "brignais"
-    ],
-    "neighborhoods": [
-      "Clos Bourbon",
-      "Grand Prost",
-      "L'Orme",
-      "La Blancherie",
-      "La Matazine",
-      "Le Bourg"
-    ],
-    "landmarks": [
-      "Château Le Clos Bourbon",
-      "Ancienne gare de Saint-Laurent-d'Agny"
-    ],
-    "risks": [
-      "Inondation",
-      "Par une crue torrentielle ou à montée rapide de cours d'eau",
-      "Par ruissellement et coulée de boue",
-      "Mouvement de terrain",
-      "Glissement de terrain",
-      "Séisme",
-      "Phénomène lié à l'atmosphère",
-      "Tempête et grains (vent)",
-      "Foudre",
-      "Grêle",
-      "Neige et pluies verglaçantes",
-      "Radon",
-      "Transport de marchandises dangereuses"
-    ],
-    "featured": false
-  },
-  {
-    "insee": "38099",
-    "name": "Chevrières",
-    "slug": "chevrieres",
-    "zipCode": "38160",
-    "department": "38",
-    "departmentName": "Isère",
-    "region": "Auvergne-Rhône-Alpes",
-    "population": 742,
-    "surface": 1646,
-    "coordinates": {
-      "latitude": 45.1949,
-      "longitude": 5.2947
-    },
-    "distanceKm": 39.5,
-    "nearbyCities": [
-      "varacieux",
-      "roybon",
-      "notre-dame-de-l-osier",
-      "saint-pierre-de-bressieux"
-    ],
-    "neighborhoods": [],
-    "landmarks": [
-      "Château de Blagneux",
-      "Monument aux Morts"
-    ],
-    "risks": [
-      "Inondation",
-      "Par une crue à débordement lent de cours d'eau",
-      "Mouvement de terrain",
-      "Affaissements et effondrements d'origine anthropique (anciennes carrières souterraines, hors mines)",
-      "Séisme"
-    ],
-    "featured": false
-  },
-  {
-    "insee": "01297",
-    "name": "Pizay",
-    "slug": "pizay",
-    "zipCode": "01120",
-    "department": "01",
-    "departmentName": "Ain",
-    "region": "Auvergne-Rhône-Alpes",
-    "population": 937,
-    "surface": 1122,
-    "coordinates": {
-      "latitude": 45.8906,
-      "longitude": 5.0901
-    },
-    "distanceKm": 39.6,
-    "nearbyCities": [
-      "bressolles",
-      "bourg-saint-christophe",
-      "dagneux",
-      "beligneux",
-      "la-boisse",
-      "perouges"
-    ],
-    "neighborhoods": [],
-    "landmarks": [
-      "Croix Martel",
-      "Notre-Dame de Pizay"
-    ],
-    "risks": [
-      "Séisme",
-      "Transport de marchandises dangereuses"
-    ],
-    "featured": false
-  },
-  {
-    "insee": "73039",
-    "name": "Belmont-Tramonet",
-    "slug": "belmont-tramonet",
-    "zipCode": "73330",
-    "department": "73",
-    "departmentName": "Savoie",
-    "region": "Auvergne-Rhône-Alpes",
-    "population": 505,
-    "surface": 546,
-    "coordinates": {
-      "latitude": 45.5656,
-      "longitude": 5.6752
-    },
-    "distanceKm": 39.6,
-    "nearbyCities": [
-      "romagnieu",
-      "le-pont-de-beauvoisin-73",
-      "le-pont-de-beauvoisin-38",
-      "saint-genix-les-villages",
-      "pressins",
-      "aoste",
-      "saint-jean-d-avelanne"
-    ],
-    "neighborhoods": [],
-    "landmarks": [],
-    "risks": [
-      "Inondation",
-      "Séisme",
-      "Phénomène lié à l'atmosphère",
-      "Risque industriel",
-      "Transport de marchandises dangereuses"
-    ],
-    "featured": false
-  },
-  {
-    "insee": "38400",
-    "name": "Saint-Jean-de-Moirans",
-    "slug": "saint-jean-de-moirans",
-    "zipCode": "38430",
-    "department": "38",
-    "departmentName": "Isère",
-    "region": "Auvergne-Rhône-Alpes",
-    "population": 3620,
-    "surface": 652,
-    "coordinates": {
-      "latitude": 45.3338,
-      "longitude": 5.5848
-    },
-    "distanceKm": 39.7,
-    "nearbyCities": [
-      "moirans",
-      "saint-cassien",
-      "charnecles",
-      "voiron",
-      "vourey"
-    ],
-    "neighborhoods": [],
-    "landmarks": [
-      "Croix sur muret",
-      "Croix de la Manche",
-      "Croix du pré Billoud",
-      "Croix de l'église",
-      "Croix de la Mirabelle",
-      "Croix de cimetière"
-    ],
-    "risks": [
-      "Inondation",
-      "Par une crue à débordement lent de cours d'eau",
-      "Par une crue torrentielle ou à montée rapide de cours d'eau",
-      "Par ruissellement et coulée de boue",
-      "Séisme",
-      "Rupture de barrage",
-      "Transport de marchandises dangereuses"
-    ],
-    "featured": false
-  },
-  {
-    "insee": "73236",
-    "name": "Saint-Genix-les-Villages",
-    "slug": "saint-genix-les-villages",
-    "zipCode": "73240",
-    "department": "73",
-    "departmentName": "Savoie",
-    "region": "Auvergne-Rhône-Alpes",
-    "population": 3095,
-    "surface": 2535,
-    "coordinates": {
-      "latitude": 45.6102,
-      "longitude": 5.6703
-    },
-    "distanceKm": 39.9,
-    "nearbyCities": [
-      "aoste",
-      "belmont-tramonet",
-      "bregnier-cordon",
-      "romagnieu",
-      "granieu",
-      "chimilin"
-    ],
-    "neighborhoods": [
-      "Gresin"
-    ],
-    "landmarks": [
-      "Le Repaire Louis Mandrin"
-    ],
-    "risks": [
-      "Inondation",
-      "Séisme",
-      "Phénomène lié à l'atmosphère",
-      "Transport de marchandises dangereuses"
-    ],
-    "featured": false
-  },
-  {
-    "insee": "26194",
-    "name": "Montchenu",
-    "slug": "montchenu",
-    "zipCode": "26350",
-    "department": "26",
-    "departmentName": "Drôme",
-    "region": "Auvergne-Rhône-Alpes",
-    "population": 605,
-    "surface": 1652,
-    "coordinates": {
-      "latitude": 45.1908,
-      "longitude": 5.0419
-    },
-    "distanceKm": 39.9,
-    "nearbyCities": [
-      "hauterives",
-      "chateauneuf-de-galaure",
-      "valherbasse",
-      "le-grand-serre",
-      "moras-en-valloire",
-      "lens-lestang"
-    ],
-    "neighborhoods": [
-      "Champ Billot",
-      "Côte de la Dame",
-      "La Balives",
-      "La Feta",
-      "La Grande Maison",
-      "La Léonarde"
-    ],
-    "landmarks": [
-      "Vierge"
-    ],
-    "risks": [
-      "Inondation",
-      "Mouvement de terrain",
-      "Séisme",
-      "Transport de marchandises dangereuses"
-    ],
-    "featured": false
-  },
-  {
-    "insee": "38539",
-    "name": "Vertrieu",
-    "slug": "vertrieu",
-    "zipCode": "38390",
-    "department": "38",
-    "departmentName": "Isère",
-    "region": "Auvergne-Rhône-Alpes",
-    "population": 608,
-    "surface": 445,
-    "coordinates": {
-      "latitude": 45.8692,
-      "longitude": 5.3703
-    },
-    "distanceKm": 40,
-    "nearbyCities": [
-      "parmilieu",
-      "porcieu-amblagnieu",
-      "la-balme-les-grottes",
-      "montalieu-vercieu",
-      "sainte-julie",
-      "serrieres-de-briord"
-    ],
-    "neighborhoods": [],
-    "landmarks": [
-      "Château Neuf"
-    ],
-    "risks": [
-      "Inondation",
-      "Par une crue à débordement lent de cours d'eau",
-      "Mouvement de terrain",
-      "Affaissements et effondrements d'origine anthropique (anciennes carrières souterraines, hors mines)",
-      "Séisme",
-      "Rupture de barrage"
-    ],
-    "featured": false
-  },
-  {
-    "insee": "69293",
-    "name": "Sathonay-Village",
-    "slug": "sathonay-village",
-    "zipCode": "69580",
-    "department": "69",
-    "departmentName": "Rhône",
-    "region": "Auvergne-Rhône-Alpes",
-    "population": 2412,
-    "surface": 511,
-    "coordinates": {
-      "latitude": 45.8394,
-      "longitude": 4.8858
-    },
-    "distanceKm": 40,
-    "nearbyCities": [
-      "rillieux-la-pape",
-      "sathonay-camp",
-      "miribel",
-      "neyron",
-      "caluire-et-cuire",
-      "saint-maurice-de-beynost"
-    ],
-    "neighborhoods": [],
-    "landmarks": [],
-    "risks": [
-      "Inondation",
-      "Par une crue torrentielle ou à montée rapide de cours d'eau",
-      "Par ruissellement et coulée de boue",
-      "Séisme",
-      "Phénomène lié à l'atmosphère",
-      "Tempête et grains (vent)",
-      "Foudre",
-      "Grêle",
-      "Neige et pluies verglaçantes",
-      "Radon",
-      "Transport de marchandises dangereuses"
-    ],
-    "featured": false
-  },
-  {
-    "insee": "73204",
-    "name": "Le Pont-de-Beauvoisin",
-    "slug": "le-pont-de-beauvoisin-73",
-    "zipCode": "73330",
-    "department": "73",
-    "departmentName": "Savoie",
-    "region": "Auvergne-Rhône-Alpes",
-    "population": 2124,
-    "surface": 185,
-    "coordinates": {
-      "latitude": 45.5358,
-      "longitude": 5.6807
-    },
-    "distanceKm": 40,
-    "nearbyCities": [
-      "le-pont-de-beauvoisin-38",
-      "saint-jean-d-avelanne",
-      "belmont-tramonet",
-      "pressins",
-      "romagnieu",
-      "velanne"
-    ],
-    "neighborhoods": [
-      "Clos du Château"
-    ],
-    "landmarks": [],
-    "risks": [
-      "Inondation",
-      "Séisme",
-      "Phénomène lié à l'atmosphère",
-      "Transport de marchandises dangereuses"
     ],
     "featured": false
   }
