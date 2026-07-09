@@ -18,9 +18,9 @@ export function getRelatedCities(
     return cities.slice(0, limit);
   }
 
-  // nearbyCities prioritaires
+  // nearbyCities prioritaires (nearbyCities contient des slugs, pas des noms)
   const nearby = cities.filter((city) =>
-    currentCity.nearbyCities?.includes(city.name)
+    currentCity.nearbyCities?.includes(city.slug)
   );
 
   // villes même département

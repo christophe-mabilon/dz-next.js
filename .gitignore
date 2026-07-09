@@ -41,3 +41,6 @@ pnpm-lock.yaml
 # Misc
 .vercel
 .turbo
+
+# Caches de build locaux (API villes)
+data/.cache/

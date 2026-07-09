@@ -1,0 +1,2224 @@
+[
+  {
+    "slug": "bourgoin-jallieu",
+    "name": "Bourgoin-Jallieu",
+    "zipCode": "38300",
+    "featured": true,
+    "nearbyCities": [
+      "l-isle-d-abeau",
+      "villefontaine",
+      "nivolas-vermelle",
+      "la-verpilliere"
+    ],
+    "fallback": {
+      "neighborhoods": [
+        "Champaret",
+        "Mozas",
+        "Pré-Bénit",
+        "Centre-ville"
+      ],
+      "landmarks": [
+        "gare SNCF",
+        "centre-ville",
+        "zone commerciale"
+      ]
+    }
+  },
+  {
+    "slug": "vienne",
+    "name": "Vienne",
+    "zipCode": "38200",
+    "featured": true,
+    "nearbyCities": [
+      "condrieu",
+      "chasse-sur-rhone",
+      "pont-eveque",
+      "estrablin"
+    ],
+    "fallback": {
+      "neighborhoods": [
+        "Centre historique",
+        "Estressin",
+        "Malissol",
+        "Mont Salomon"
+      ],
+      "landmarks": [
+        "Temple d’Auguste",
+        "Théâtre antique",
+        "centre-ville historique"
+      ]
+    }
+  },
+  {
+    "slug": "villefontaine",
+    "name": "Villefontaine",
+    "zipCode": "38090",
+    "nearbyCities": [
+      "l-isle-d-abeau",
+      "vaulx-milieu",
+      "la-verpilliere",
+      "saint-quentin-fallavier"
+    ],
+    "fallback": {
+      "neighborhoods": [
+        "Les Roches",
+        "Servenoble",
+        "Saint-Bonnet"
+      ],
+      "landmarks": [
+        "centre-ville",
+        "zones résidentielles"
+      ]
+    }
+  },
+  {
+    "slug": "l-isle-d-abeau",
+    "name": "L'Isle-d'Abeau",
+    "zipCode": "38080",
+    "featured": true,
+    "nearbyCities": [
+      "bourgoin-jallieu",
+      "villefontaine",
+      "nivolas-vermelle",
+      "la-verpilliere"
+    ],
+    "fallback": {
+      "neighborhoods": [
+        "Pierre Louve",
+        "Triforium",
+        "Centre-ville"
+      ],
+      "landmarks": [
+        "centre commercial",
+        "gare SNCF"
+      ]
+    }
+  },
+  {
+    "slug": "saint-quentin-fallavier",
+    "name": "Saint-Quentin-Fallavier",
+    "zipCode": "38070",
+    "featured": true,
+    "nearbyCities": [
+      "la-verpilliere",
+      "villefontaine",
+      "l-isle-d-abeau",
+      "heyrieux",
+      "vaulx-milieu"
+    ],
+    "fallback": {
+      "neighborhoods": [
+        "centre-ville",
+        "zones pavillonnaires"
+      ],
+      "landmarks": [
+        "zone industrielle",
+        "centre-ville"
+      ]
+    }
+  },
+  {
+    "slug": "la-verpilliere",
+    "name": "La Verpillière",
+    "zipCode": "38290",
+    "featured": true,
+    "nearbyCities": [
+      "villefontaine",
+      "saint-quentin-fallavier",
+      "l-isle-d-abeau",
+      "heyrieux"
+    ],
+    "fallback": {
+      "neighborhoods": [
+        "centre-ville",
+        "quartiers résidentiels",
+        "zones pavillonnaires"
+      ],
+      "landmarks": [
+        "gare SNCF",
+        "centre-ville",
+        "zones pavillonnaires"
+      ]
+    }
+  },
+  {
+    "slug": "la-tour-du-pin",
+    "name": "La Tour-du-Pin",
+    "zipCode": "38110",
+    "featured": true,
+    "nearbyCities": [
+      "bourgoin-jallieu",
+      "saint-jean-de-bournay",
+      "cessieu",
+      "saint-clair-de-la-tour",
+      "rochetoirin"
+    ],
+    "fallback": {
+      "neighborhoods": [
+        "centre-ville",
+        "quartiers résidentiels"
+      ],
+      "landmarks": [
+        "centre-ville",
+        "gare SNCF"
+      ]
+    }
+  },
+  {
+    "slug": "saint-jean-de-bournay",
+    "name": "Saint-Jean-de-Bournay",
+    "zipCode": "38440",
+    "featured": true,
+    "nearbyCities": [
+      "artas",
+      "bourgoin-jallieu",
+      "meyrieu-les-etangs",
+      "chatonnay"
+    ],
+    "fallback": {
+      "neighborhoods": [
+        "centre-ville",
+        "zones pavillonnaires"
+      ],
+      "landmarks": [
+        "centre historique",
+        "place du village"
+      ]
+    }
+  },
+  {
+    "slug": "artas",
+    "name": "Artas",
+    "zipCode": "38440",
+    "featured": true,
+    "nearbyCities": [
+      "saint-jean-de-bournay",
+      "bourgoin-jallieu",
+      "charantonnay",
+      "diemoz"
+    ],
+    "fallback": {
+      "neighborhoods": [
+        "centre village",
+        "zones résidentielles"
+      ],
+      "landmarks": [
+        "centre du village"
+      ]
+    }
+  },
+  {
+    "slug": "heyrieux",
+    "name": "Heyrieux",
+    "zipCode": "38540",
+    "featured": true,
+    "nearbyCities": [
+      "saint-quentin-fallavier",
+      "villefontaine",
+      "diemoz",
+      "la-verpilliere",
+      "saint-pierre-de-chandieu"
+    ],
+    "fallback": {
+      "neighborhoods": [
+        "centre-ville",
+        "quartiers résidentiels",
+        "zones pavillonnaires"
+      ],
+      "landmarks": [
+        "centre du village",
+        "zones pavillonnaires"
+      ]
+    }
+  },
+  {
+    "slug": "tignieu-jameyzieu",
+    "name": "Tignieu-Jameyzieu",
+    "zipCode": "38230",
+    "nearbyCities": [
+      "pont-de-cheruy",
+      "charvieu-chavagneux",
+      "cremieu",
+      "janneyrias"
+    ],
+    "fallback": {
+      "neighborhoods": [
+        "centre-ville",
+        "zones résidentielles"
+      ],
+      "landmarks": [
+        "centre commercial",
+        "zones résidentielles"
+      ]
+    }
+  },
+  {
+    "slug": "nivolas-vermelle",
+    "name": "Nivolas-Vermelle",
+    "zipCode": "38300",
+    "nearbyCities": [
+      "bourgoin-jallieu",
+      "l-isle-d-abeau",
+      "ruy-montceau",
+      "domarin",
+      "saint-alban-de-roche"
+    ],
+    "fallback": {
+      "neighborhoods": [
+        "centre village",
+        "zones résidentielles"
+      ],
+      "landmarks": [
+        "centre du village"
+      ]
+    }
+  },
+  {
+    "slug": "vaulx-milieu",
+    "name": "Vaulx-Milieu",
+    "zipCode": "38090",
+    "nearbyCities": [
+      "villefontaine",
+      "l-isle-d-abeau",
+      "la-verpilliere",
+      "saint-quentin-fallavier",
+      "frontonas"
+    ],
+    "fallback": {
+      "neighborhoods": [
+        "centre village",
+        "quartiers résidentiels"
+      ],
+      "landmarks": [
+        "centre du village"
+      ]
+    }
+  },
+  {
+    "slug": "diemoz",
+    "name": "Diémoz",
+    "zipCode": "38790",
+    "nearbyCities": [
+      "heyrieux",
+      "saint-quentin-fallavier",
+      "bonnefamille",
+      "artas"
+    ],
+    "fallback": {
+      "neighborhoods": [
+        "centre village",
+        "quartiers résidentiels"
+      ],
+      "landmarks": [
+        "centre du village",
+        "zones pavillonnaires"
+      ]
+    }
+  },
+  {
+    "slug": "frontonas",
+    "name": "Frontonas",
+    "zipCode": "38290",
+    "nearbyCities": [
+      "l-isle-d-abeau",
+      "vaulx-milieu",
+      "villefontaine",
+      "la-verpilliere"
+    ],
+    "fallback": {
+      "neighborhoods": [
+        "centre village",
+        "zones résidentielles"
+      ],
+      "landmarks": [
+        "centre du village"
+      ]
+    }
+  },
+  {
+    "slug": "roche",
+    "name": "Roche",
+    "zipCode": "38090",
+    "nearbyCities": [
+      "bourgoin-jallieu",
+      "nivolas-vermelle",
+      "artas",
+      "domarin"
+    ],
+    "fallback": {
+      "neighborhoods": [
+        "centre village",
+        "quartiers résidentiels"
+      ],
+      "landmarks": [
+        "centre du village"
+      ]
+    }
+  },
+  {
+    "slug": "bonnefamille",
+    "name": "Bonnefamille",
+    "zipCode": "38090",
+    "nearbyCities": [
+      "heyrieux",
+      "diemoz",
+      "saint-quentin-fallavier"
+    ],
+    "fallback": {
+      "neighborhoods": [
+        "centre village",
+        "zones pavillonnaires"
+      ],
+      "landmarks": [
+        "centre du village"
+      ]
+    }
+  },
+  {
+    "slug": "four",
+    "name": "Four",
+    "zipCode": "38080",
+    "nearbyCities": [
+      "saint-jean-de-bournay",
+      "artas",
+      "succieu",
+      "cessieu"
+    ],
+    "fallback": {
+      "neighborhoods": [
+        "centre village",
+        "zones résidentielles"
+      ],
+      "landmarks": [
+        "centre du village"
+      ]
+    }
+  },
+  {
+    "slug": "succieu",
+    "name": "Succieu",
+    "zipCode": "38300",
+    "nearbyCities": [
+      "bourgoin-jallieu",
+      "four",
+      "cessieu",
+      "ruy-montceau"
+    ],
+    "fallback": {
+      "neighborhoods": [
+        "centre village",
+        "zones rurales"
+      ],
+      "landmarks": [
+        "centre du village"
+      ]
+    }
+  },
+  {
+    "slug": "ruy-montceau",
+    "name": "Ruy-Montceau",
+    "zipCode": "38300",
+    "nearbyCities": [
+      "bourgoin-jallieu",
+      "nivolas-vermelle",
+      "succieu",
+      "cessieu",
+      "domarin"
+    ],
+    "fallback": {
+      "neighborhoods": [
+        "centre-ville",
+        "quartiers résidentiels"
+      ],
+      "landmarks": [
+        "centre-ville"
+      ]
+    }
+  },
+  {
+    "slug": "meyrieu-les-etangs",
+    "name": "Meyrieu-les-Étangs",
+    "zipCode": "38440",
+    "nearbyCities": [
+      "artas",
+      "saint-jean-de-bournay",
+      "villeneuve-de-marc",
+      "savas-mepin"
+    ],
+    "fallback": {
+      "neighborhoods": [
+        "centre village",
+        "zones rurales"
+      ],
+      "landmarks": [
+        "étangs",
+        "centre du village"
+      ]
+    }
+  },
+  {
+    "slug": "villeneuve-de-marc",
+    "name": "Villeneuve-de-Marc",
+    "zipCode": "38440",
+    "nearbyCities": [
+      "meyrieu-les-etangs",
+      "saint-jean-de-bournay",
+      "artas",
+      "savas-mepin"
+    ],
+    "fallback": {
+      "neighborhoods": [
+        "centre village",
+        "zones rurales"
+      ],
+      "landmarks": [
+        "centre du village"
+      ]
+    }
+  },
+  {
+    "slug": "chatonnay",
+    "name": "Chatonnay",
+    "zipCode": "38440",
+    "nearbyCities": [
+      "saint-jean-de-bournay",
+      "artas",
+      "villeneuve-de-marc"
+    ],
+    "fallback": {
+      "neighborhoods": [
+        "centre-ville",
+        "zones résidentielles"
+      ],
+      "landmarks": [
+        "centre du village"
+      ]
+    }
+  },
+  {
+    "slug": "cessieu",
+    "name": "Cessieu",
+    "zipCode": "38110",
+    "nearbyCities": [
+      "la-tour-du-pin",
+      "rochetoirin",
+      "saint-clair-de-la-tour",
+      "ruy-montceau"
+    ],
+    "fallback": {
+      "neighborhoods": [
+        "centre-ville",
+        "quartiers résidentiels"
+      ],
+      "landmarks": [
+        "centre du village"
+      ]
+    }
+  },
+  {
+    "slug": "rochetoirin",
+    "name": "Rochetoirin",
+    "zipCode": "38110",
+    "nearbyCities": [
+      "la-tour-du-pin",
+      "cessieu",
+      "saint-clair-de-la-tour"
+    ],
+    "fallback": {
+      "neighborhoods": [
+        "centre village",
+        "zones rurales"
+      ],
+      "landmarks": [
+        "centre du village"
+      ]
+    }
+  },
+  {
+    "slug": "saint-clair-de-la-tour",
+    "name": "Saint-Clair-de-la-Tour",
+    "zipCode": "38110",
+    "nearbyCities": [
+      "la-tour-du-pin",
+      "rochetoirin",
+      "cessieu"
+    ],
+    "fallback": {
+      "neighborhoods": [
+        "centre-ville",
+        "zones résidentielles"
+      ],
+      "landmarks": [
+        "centre-ville"
+      ]
+    }
+  },
+  {
+    "slug": "grenay",
+    "name": "Grenay",
+    "zipCode": "38540",
+    "nearbyCities": [
+      "heyrieux",
+      "diemoz",
+      "saint-quentin-fallavier",
+      "valencin"
+    ],
+    "fallback": {
+      "neighborhoods": [
+        "centre village",
+        "zones pavillonnaires"
+      ],
+      "landmarks": [
+        "centre du village"
+      ]
+    }
+  },
+  {
+    "slug": "valencin",
+    "name": "Valencin",
+    "zipCode": "38540",
+    "nearbyCities": [
+      "heyrieux",
+      "grenay",
+      "diemoz"
+    ],
+    "fallback": {
+      "neighborhoods": [
+        "centre village",
+        "quartiers résidentiels"
+      ],
+      "landmarks": [
+        "centre du village"
+      ]
+    }
+  },
+  {
+    "slug": "chamagnieu",
+    "name": "Chamagnieu",
+    "zipCode": "38460",
+    "nearbyCities": [
+      "frontonas",
+      "tignieu-jameyzieu",
+      "charvieu-chavagneux",
+      "pont-de-cheruy"
+    ],
+    "fallback": {
+      "neighborhoods": [
+        "centre village",
+        "zones résidentielles"
+      ],
+      "landmarks": [
+        "centre du village"
+      ]
+    }
+  },
+  {
+    "slug": "pont-de-cheruy",
+    "name": "Pont-de-Chéruy",
+    "zipCode": "38230",
+    "nearbyCities": [
+      "tignieu-jameyzieu",
+      "charvieu-chavagneux",
+      "meyzieu",
+      "chamagnieu"
+    ],
+    "fallback": {
+      "neighborhoods": [
+        "centre-ville",
+        "zones résidentielles"
+      ],
+      "landmarks": [
+        "centre-ville",
+        "zones commerciales"
+      ]
+    }
+  },
+  {
+    "slug": "meyzieu",
+    "name": "Meyzieu",
+    "zipCode": "69330",
+    "nearbyCities": [
+      "decines-charpieu",
+      "genas",
+      "jonage",
+      "pusignan"
+    ],
+    "fallback": {
+      "neighborhoods": [
+        "centre-ville",
+        "Les Plantées",
+        "Le Carreau",
+        "zones pavillonnaires"
+      ],
+      "landmarks": [
+        "Grand Large",
+        "centre-ville",
+        "zones commerciales"
+      ]
+    }
+  },
+  {
+    "slug": "decines-charpieu",
+    "name": "Décines-Charpieu",
+    "zipCode": "69150",
+    "nearbyCities": [
+      "meyzieu",
+      "chassieu",
+      "vaulx-en-velin",
+      "villeurbanne"
+    ],
+    "fallback": {
+      "neighborhoods": [
+        "centre-ville",
+        "Charpieu",
+        "Cornavent"
+      ],
+      "landmarks": [
+        "Groupama Stadium",
+        "centre-ville"
+      ]
+    }
+  },
+  {
+    "slug": "genas",
+    "name": "Genas",
+    "zipCode": "69740",
+    "nearbyCities": [
+      "meyzieu",
+      "chassieu",
+      "saint-bonnet-de-mure",
+      "saint-laurent-de-mure"
+    ],
+    "fallback": {
+      "neighborhoods": [
+        "centre-ville",
+        "quartiers résidentiels"
+      ],
+      "landmarks": [
+        "centre-ville",
+        "zones commerciales"
+      ]
+    }
+  },
+  {
+    "slug": "saint-priest",
+    "name": "Saint-Priest",
+    "zipCode": "69800",
+    "nearbyCities": [
+      "bron",
+      "mions",
+      "corbas",
+      "genas"
+    ],
+    "fallback": {
+      "neighborhoods": [
+        "centre-ville",
+        "Manissieux",
+        "Bel Air",
+        "zones résidentielles"
+      ],
+      "landmarks": [
+        "centre-ville",
+        "zones industrielles"
+      ]
+    }
+  },
+  {
+    "slug": "bron",
+    "name": "Bron",
+    "zipCode": "69500",
+    "nearbyCities": [
+      "villeurbanne",
+      "saint-priest",
+      "chassieu",
+      "lyon"
+    ],
+    "fallback": {
+      "neighborhoods": [
+        "centre-ville",
+        "Terraillon",
+        "Parilly",
+        "zones résidentielles"
+      ],
+      "landmarks": [
+        "Parc de Parilly",
+        "centre-ville",
+        "zones commerciales"
+      ]
+    }
+  },
+  {
+    "slug": "mions",
+    "name": "Mions",
+    "zipCode": "69780",
+    "nearbyCities": [
+      "saint-priest",
+      "corbas",
+      "chaponnay",
+      "saint-pierre-de-chandieu"
+    ],
+    "fallback": {
+      "neighborhoods": [
+        "centre-ville",
+        "quartiers résidentiels",
+        "zones pavillonnaires"
+      ],
+      "landmarks": [
+        "centre-ville",
+        "zones commerciales"
+      ]
+    }
+  },
+  {
+    "slug": "corbas",
+    "name": "Corbas",
+    "zipCode": "69960",
+    "nearbyCities": [
+      "mions",
+      "saint-priest",
+      "venissieux",
+      "feyzin"
+    ],
+    "fallback": {
+      "neighborhoods": [
+        "centre-ville",
+        "zones résidentielles"
+      ],
+      "landmarks": [
+        "centre-ville",
+        "zones industrielles"
+      ]
+    }
+  },
+  {
+    "slug": "chassieu",
+    "name": "Chassieu",
+    "zipCode": "69680",
+    "nearbyCities": [
+      "meyzieu",
+      "decines-charpieu",
+      "genas",
+      "saint-priest"
+    ],
+    "fallback": {
+      "neighborhoods": [
+        "centre-ville",
+        "quartiers résidentiels"
+      ],
+      "landmarks": [
+        "centre-ville",
+        "zones pavillonnaires"
+      ]
+    }
+  },
+  {
+    "slug": "villeurbanne",
+    "name": "Villeurbanne",
+    "zipCode": "69100",
+    "nearbyCities": [
+      "lyon",
+      "bron",
+      "vaulx-en-velin",
+      "decines-charpieu",
+      "chassieu"
+    ],
+    "fallback": {
+      "neighborhoods": [
+        "Gratte-Ciel",
+        "Cusset",
+        "Charpennes",
+        "Croix-Luizet"
+      ],
+      "landmarks": [
+        "Gratte-Ciel",
+        "campus universitaire",
+        "centre-ville"
+      ]
+    }
+  },
+  {
+    "slug": "lyon",
+    "name": "Lyon",
+    "zipCode": "69000",
+    "nearbyCities": [
+      "villeurbanne",
+      "bron",
+      "venissieux",
+      "saint-priest"
+    ],
+    "fallback": {
+      "neighborhoods": [
+        "Croix-Rousse",
+        "Part-Dieu",
+        "Monplaisir",
+        "Confluence"
+      ],
+      "landmarks": [
+        "Part-Dieu",
+        "Vieux Lyon",
+        "Confluence"
+      ]
+    }
+  },
+  {
+    "slug": "venissieux",
+    "name": "Vénissieux",
+    "zipCode": "69200",
+    "nearbyCities": [
+      "saint-priest",
+      "bron",
+      "corbas",
+      "lyon"
+    ],
+    "fallback": {
+      "neighborhoods": [
+        "Minguettes",
+        "Parilly",
+        "centre-ville"
+      ],
+      "landmarks": [
+        "Parc de Parilly",
+        "centre-ville"
+      ]
+    }
+  },
+  {
+    "slug": "vaulx-en-velin",
+    "name": "Vaulx-en-Velin",
+    "zipCode": "69120",
+    "nearbyCities": [
+      "villeurbanne",
+      "decines-charpieu",
+      "bron",
+      "meyzieu"
+    ],
+    "fallback": {
+      "neighborhoods": [
+        "centre-ville",
+        "La Soie",
+        "Mas du Taureau"
+      ],
+      "landmarks": [
+        "Carré de Soie",
+        "centre-ville"
+      ]
+    }
+  },
+  {
+    "slug": "charvieu-chavagneux",
+    "name": "Charvieu-Chavagneux",
+    "zipCode": "38230",
+    "nearbyCities": [
+      "pont-de-cheruy",
+      "tignieu-jameyzieu",
+      "meyzieu",
+      "villette-d-anthon",
+      "chamagnieu"
+    ],
+    "fallback": {
+      "neighborhoods": [
+        "centre-ville",
+        "quartiers résidentiels",
+        "zones pavillonnaires"
+      ],
+      "landmarks": [
+        "centre-ville",
+        "zones commerciales"
+      ]
+    }
+  },
+  {
+    "slug": "villette-d-anthon",
+    "name": "Villette-d’Anthon",
+    "zipCode": "38280",
+    "nearbyCities": [
+      "charvieu-chavagneux",
+      "meyzieu",
+      "pusignan",
+      "tignieu-jameyzieu"
+    ],
+    "fallback": {
+      "neighborhoods": [
+        "centre-ville",
+        "zones résidentielles"
+      ],
+      "landmarks": [
+        "centre-ville",
+        "canal de Jonage"
+      ]
+    }
+  },
+  {
+    "slug": "pusignan",
+    "name": "Pusignan",
+    "zipCode": "69330",
+    "nearbyCities": [
+      "meyzieu",
+      "genas",
+      "villette-d-anthon",
+      "janneyrias",
+      "jonage"
+    ],
+    "fallback": {
+      "neighborhoods": [
+        "centre-ville",
+        "zones pavillonnaires"
+      ],
+      "landmarks": [
+        "centre-ville",
+        "zones résidentielles"
+      ]
+    }
+  },
+  {
+    "slug": "jonage",
+    "name": "Jonage",
+    "zipCode": "69330",
+    "nearbyCities": [
+      "meyzieu",
+      "pusignan",
+      "jons",
+      "decines-charpieu"
+    ],
+    "fallback": {
+      "neighborhoods": [
+        "centre-ville",
+        "zones résidentielles"
+      ],
+      "landmarks": [
+        "Grand Large",
+        "canal de Jonage"
+      ]
+    }
+  },
+  {
+    "slug": "jons",
+    "name": "Jons",
+    "zipCode": "69330",
+    "nearbyCities": [
+      "jonage",
+      "pusignan",
+      "meyzieu",
+      "villette-d-anthon",
+      "janneyrias"
+    ],
+    "fallback": {
+      "neighborhoods": [
+        "centre village",
+        "zones résidentielles"
+      ],
+      "landmarks": [
+        "canal de Jonage",
+        "centre du village"
+      ]
+    }
+  },
+  {
+    "slug": "janneyrias",
+    "name": "Janneyrias",
+    "zipCode": "38280",
+    "nearbyCities": [
+      "pusignan",
+      "villette-d-anthon",
+      "charvieu-chavagneux",
+      "pont-de-cheruy"
+    ],
+    "fallback": {
+      "neighborhoods": [
+        "centre village",
+        "zones résidentielles"
+      ],
+      "landmarks": [
+        "centre du village"
+      ]
+    }
+  },
+  {
+    "slug": "saint-bonnet-de-mure",
+    "name": "Saint-Bonnet-de-Mure",
+    "zipCode": "69720",
+    "nearbyCities": [
+      "genas",
+      "saint-laurent-de-mure",
+      "mions",
+      "pusignan"
+    ],
+    "fallback": {
+      "neighborhoods": [
+        "centre-ville",
+        "quartiers résidentiels"
+      ],
+      "landmarks": [
+        "centre-ville",
+        "zones commerciales"
+      ]
+    }
+  },
+  {
+    "slug": "saint-laurent-de-mure",
+    "name": "Saint-Laurent-de-Mure",
+    "zipCode": "69720",
+    "nearbyCities": [
+      "saint-bonnet-de-mure",
+      "genas",
+      "pusignan",
+      "colombier-saugnieu",
+      "janneyrias"
+    ],
+    "fallback": {
+      "neighborhoods": [
+        "centre-ville",
+        "zones pavillonnaires"
+      ],
+      "landmarks": [
+        "centre-ville",
+        "zones résidentielles"
+      ]
+    }
+  },
+  {
+    "slug": "chaponnay",
+    "name": "Chaponnay",
+    "zipCode": "69970",
+    "nearbyCities": [
+      "mions",
+      "marennes",
+      "corbas",
+      "saint-pierre-de-chandieu"
+    ],
+    "fallback": {
+      "neighborhoods": [
+        "centre-ville",
+        "zones résidentielles",
+        "quartiers pavillonnaires"
+      ],
+      "landmarks": [
+        "centre-ville",
+        "zones commerciales"
+      ]
+    }
+  },
+  {
+    "slug": "saint-pierre-de-chandieu",
+    "name": "Saint-Pierre-de-Chandieu",
+    "zipCode": "69780",
+    "nearbyCities": [
+      "chaponnay",
+      "valencin",
+      "grenay",
+      "mions",
+      "heyrieux"
+    ],
+    "fallback": {
+      "neighborhoods": [
+        "centre-ville",
+        "zones résidentielles"
+      ],
+      "landmarks": [
+        "centre-ville",
+        "zones pavillonnaires"
+      ]
+    }
+  },
+  {
+    "slug": "colombier-saugnieu",
+    "name": "Colombier-Saugnieu",
+    "zipCode": "69124",
+    "nearbyCities": [
+      "saint-laurent-de-mure",
+      "pusignan",
+      "genas",
+      "satolas-et-bonce",
+      "janneyrias"
+    ],
+    "fallback": {
+      "neighborhoods": [
+        "centre village",
+        "zones résidentielles"
+      ],
+      "landmarks": [
+        "Aéroport Lyon-Saint-Exupéry",
+        "centre du village"
+      ]
+    }
+  },
+  {
+    "slug": "satolas-et-bonce",
+    "name": "Satolas-et-Bonce",
+    "zipCode": "38290",
+    "nearbyCities": [
+      "colombier-saugnieu",
+      "frontonas",
+      "la-verpilliere",
+      "chamagnieu"
+    ],
+    "fallback": {
+      "neighborhoods": [
+        "centre village",
+        "zones résidentielles"
+      ],
+      "landmarks": [
+        "centre du village",
+        "zones logistiques"
+      ]
+    }
+  },
+  {
+    "slug": "chasse-sur-rhone",
+    "name": "Chasse-sur-Rhône",
+    "zipCode": "38670",
+    "nearbyCities": [
+      "vienne",
+      "seyssuel",
+      "givors",
+      "ternay"
+    ],
+    "fallback": {
+      "neighborhoods": [
+        "centre-ville",
+        "zones résidentielles",
+        "quartiers pavillonnaires"
+      ],
+      "landmarks": [
+        "zone industrielle",
+        "centre-ville",
+        "bord du Rhône"
+      ]
+    }
+  },
+  {
+    "slug": "seyssuel",
+    "name": "Seyssuel",
+    "zipCode": "38200",
+    "nearbyCities": [
+      "vienne",
+      "chasse-sur-rhone",
+      "estrablin",
+      "reventin-vaugris"
+    ],
+    "fallback": {
+      "neighborhoods": [
+        "centre village",
+        "zones résidentielles"
+      ],
+      "landmarks": [
+        "centre du village",
+        "vignobles"
+      ]
+    }
+  },
+  {
+    "slug": "estrablin",
+    "name": "Estrablin",
+    "zipCode": "38780",
+    "nearbyCities": [
+      "vienne",
+      "seyssuel",
+      "pont-eveque"
+    ],
+    "fallback": {
+      "neighborhoods": [
+        "centre-ville",
+        "zones pavillonnaires"
+      ],
+      "landmarks": [
+        "centre-ville",
+        "zones rurales"
+      ]
+    }
+  },
+  {
+    "slug": "pont-eveque",
+    "name": "Pont-Évêque",
+    "zipCode": "38780",
+    "nearbyCities": [
+      "vienne",
+      "estrablin",
+      "seyssuel"
+    ],
+    "fallback": {
+      "neighborhoods": [
+        "centre-ville",
+        "quartiers résidentiels"
+      ],
+      "landmarks": [
+        "centre-ville",
+        "zones commerciales"
+      ]
+    }
+  },
+  {
+    "slug": "reventin-vaugris",
+    "name": "Reventin-Vaugris",
+    "zipCode": "38121",
+    "nearbyCities": [
+      "vienne",
+      "chasse-sur-rhone",
+      "ampuis"
+    ],
+    "fallback": {
+      "neighborhoods": [
+        "centre village",
+        "zones résidentielles"
+      ],
+      "landmarks": [
+        "centre du village",
+        "bord du Rhône"
+      ]
+    }
+  },
+  {
+    "slug": "ampuis",
+    "name": "Ampuis",
+    "zipCode": "69420",
+    "nearbyCities": [
+      "condrieu",
+      "seyssuel",
+      "vienne",
+      "reventin-vaugris"
+    ],
+    "fallback": {
+      "neighborhoods": [
+        "centre village",
+        "zones résidentielles"
+      ],
+      "landmarks": [
+        "vignobles Côte-Rôtie",
+        "centre du village"
+      ]
+    }
+  },
+  {
+    "slug": "condrieu",
+    "name": "Condrieu",
+    "zipCode": "69420",
+    "nearbyCities": [
+      "ampuis",
+      "vienne"
+    ],
+    "fallback": {
+      "neighborhoods": [
+        "centre-ville",
+        "bord du Rhône"
+      ],
+      "landmarks": [
+        "port de plaisance",
+        "vignobles",
+        "centre-ville"
+      ]
+    }
+  },
+  {
+    "slug": "givors",
+    "name": "Givors",
+    "zipCode": "69700",
+    "nearbyCities": [
+      "chasse-sur-rhone",
+      "grigny",
+      "ternay"
+    ],
+    "fallback": {
+      "neighborhoods": [
+        "centre-ville",
+        "Les Vernes",
+        "Bans"
+      ],
+      "landmarks": [
+        "centre-ville",
+        "bord du Rhône",
+        "zones commerciales"
+      ]
+    }
+  },
+  {
+    "slug": "grigny",
+    "name": "Grigny",
+    "zipCode": "69520",
+    "nearbyCities": [
+      "givors",
+      "ternay",
+      "feyzin",
+      "solaize"
+    ],
+    "fallback": {
+      "neighborhoods": [
+        "centre-ville",
+        "zones résidentielles",
+        "quartiers pavillonnaires"
+      ],
+      "landmarks": [
+        "bord du Rhône",
+        "centre-ville"
+      ]
+    }
+  },
+  {
+    "slug": "ternay",
+    "name": "Ternay",
+    "zipCode": "69360",
+    "nearbyCities": [
+      "givors",
+      "grigny",
+      "solaize",
+      "communay"
+    ],
+    "fallback": {
+      "neighborhoods": [
+        "centre-ville",
+        "zones résidentielles"
+      ],
+      "landmarks": [
+        "centre-ville",
+        "zones pavillonnaires"
+      ]
+    }
+  },
+  {
+    "slug": "feyzin",
+    "name": "Feyzin",
+    "zipCode": "69320",
+    "nearbyCities": [
+      "venissieux",
+      "corbas",
+      "solaize",
+      "saint-fons"
+    ],
+    "fallback": {
+      "neighborhoods": [
+        "centre-ville",
+        "quartiers résidentiels"
+      ],
+      "landmarks": [
+        "centre-ville",
+        "bord du Rhône"
+      ]
+    }
+  },
+  {
+    "slug": "saint-fons",
+    "name": "Saint-Fons",
+    "zipCode": "69190",
+    "nearbyCities": [
+      "feyzin",
+      "venissieux",
+      "lyon"
+    ],
+    "fallback": {
+      "neighborhoods": [
+        "centre-ville",
+        "zones résidentielles"
+      ],
+      "landmarks": [
+        "centre-ville",
+        "zones industrielles"
+      ]
+    }
+  },
+  {
+    "slug": "solaize",
+    "name": "Solaize",
+    "zipCode": "69360",
+    "nearbyCities": [
+      "feyzin",
+      "ternay",
+      "communay"
+    ],
+    "fallback": {
+      "neighborhoods": [
+        "centre-ville",
+        "zones résidentielles",
+        "quartiers pavillonnaires"
+      ],
+      "landmarks": [
+        "centre-ville",
+        "bord du Rhône"
+      ]
+    }
+  },
+  {
+    "slug": "communay",
+    "name": "Communay",
+    "zipCode": "69360",
+    "nearbyCities": [
+      "ternay",
+      "solaize"
+    ],
+    "fallback": {
+      "neighborhoods": [
+        "centre-ville",
+        "zones résidentielles"
+      ],
+      "landmarks": [
+        "centre-ville",
+        "zones résidentielles"
+      ]
+    }
+  },
+  {
+    "slug": "marennes",
+    "name": "Marennes",
+    "zipCode": "69970",
+    "nearbyCities": [
+      "chaponnay",
+      "communay",
+      "simandres",
+      "mions"
+    ],
+    "fallback": {
+      "neighborhoods": [
+        "centre village",
+        "zones résidentielles"
+      ],
+      "landmarks": [
+        "centre du village"
+      ]
+    }
+  },
+  {
+    "slug": "simandres",
+    "name": "Simandres",
+    "zipCode": "69360",
+    "nearbyCities": [
+      "marennes",
+      "communay",
+      "corbas",
+      "solaize"
+    ],
+    "fallback": {
+      "neighborhoods": [
+        "centre village",
+        "zones pavillonnaires"
+      ],
+      "landmarks": [
+        "centre du village"
+      ]
+    }
+  },
+  {
+    "slug": "meyrieu-les-etangs",
+    "name": "Meyrieu-les-Étangs",
+    "zipCode": "38440",
+    "nearbyCities": [
+      "artas",
+      "saint-jean-de-bournay",
+      "villeneuve-de-marc",
+      "charantonnay",
+      "savas-mepin"
+    ],
+    "fallback": {
+      "neighborhoods": [
+        "centre village",
+        "zones rurales"
+      ],
+      "landmarks": [
+        "étangs",
+        "centre du village"
+      ]
+    }
+  },
+  {
+    "slug": "charantonnay",
+    "name": "Charantonnay",
+    "zipCode": "38790",
+    "nearbyCities": [
+      "artas",
+      "saint-jean-de-bournay",
+      "heyrieux",
+      "meyrieu-les-etangs"
+    ],
+    "fallback": {
+      "neighborhoods": [
+        "centre village",
+        "zones pavillonnaires"
+      ],
+      "landmarks": [
+        "centre du village"
+      ]
+    }
+  },
+  {
+    "slug": "savas-mepin",
+    "name": "Savas-Mépin",
+    "zipCode": "38440",
+    "nearbyCities": [
+      "artas",
+      "saint-jean-de-bournay",
+      "meyrieu-les-etangs",
+      "villeneuve-de-marc"
+    ],
+    "fallback": {
+      "neighborhoods": [
+        "centre village",
+        "zones rurales"
+      ],
+      "landmarks": [
+        "centre du village"
+      ]
+    }
+  },
+  {
+    "slug": "commelle",
+    "name": "Commelle",
+    "zipCode": "38260",
+    "nearbyCities": [
+      "la-cote-saint-andre",
+      "faramans",
+      "ornacieux-balbins"
+    ],
+    "fallback": {
+      "neighborhoods": [
+        "centre village",
+        "zones rurales"
+      ],
+      "landmarks": [
+        "centre du village"
+      ]
+    }
+  },
+  {
+    "slug": "tramole",
+    "name": "Tramolé",
+    "zipCode": "38300",
+    "nearbyCities": [
+      "artas",
+      "saint-jean-de-bournay",
+      "meyrieu-les-etangs",
+      "succieu"
+    ],
+    "fallback": {
+      "neighborhoods": [
+        "centre village",
+        "zones rurales"
+      ],
+      "landmarks": [
+        "centre du village"
+      ]
+    }
+  },
+  {
+    "slug": "succieu",
+    "name": "Succieu",
+    "zipCode": "38300",
+    "nearbyCities": [
+      "tramole",
+      "bourgoin-jallieu",
+      "cessieu",
+      "ruy-montceau"
+    ],
+    "fallback": {
+      "neighborhoods": [
+        "centre village",
+        "zones rurales"
+      ],
+      "landmarks": [
+        "centre du village"
+      ]
+    }
+  },
+  {
+    "slug": "ruy-montceau",
+    "name": "Ruy-Montceau",
+    "zipCode": "38300",
+    "nearbyCities": [
+      "bourgoin-jallieu",
+      "succieu",
+      "nivolas-vermelle",
+      "saint-savin"
+    ],
+    "fallback": {
+      "neighborhoods": [
+        "centre-ville",
+        "quartiers résidentiels",
+        "zones pavillonnaires"
+      ],
+      "landmarks": [
+        "centre-ville",
+        "zones résidentielles"
+      ]
+    }
+  },
+  {
+    "slug": "saint-savin",
+    "name": "Saint-Savin",
+    "zipCode": "38300",
+    "nearbyCities": [
+      "ruy-montceau",
+      "bourgoin-jallieu",
+      "succieu",
+      "nivolas-vermelle"
+    ],
+    "fallback": {
+      "neighborhoods": [
+        "centre-ville",
+        "zones résidentielles"
+      ],
+      "landmarks": [
+        "centre-ville",
+        "zones pavillonnaires"
+      ]
+    }
+  },
+  {
+    "slug": "nivolas-vermelle",
+    "name": "Nivolas-Vermelle",
+    "zipCode": "38300",
+    "nearbyCities": [
+      "bourgoin-jallieu",
+      "ruy-montceau",
+      "cessieu",
+      "domarin"
+    ],
+    "fallback": {
+      "neighborhoods": [
+        "centre-ville",
+        "zones résidentielles",
+        "quartiers pavillonnaires"
+      ],
+      "landmarks": [
+        "centre-ville",
+        "zones commerciales"
+      ]
+    }
+  },
+  {
+    "slug": "domarin",
+    "name": "Domarin",
+    "zipCode": "38300",
+    "nearbyCities": [
+      "bourgoin-jallieu",
+      "l-isle-d-abeau",
+      "maubec",
+      "nivolas-vermelle"
+    ],
+    "fallback": {
+      "neighborhoods": [
+        "centre-ville",
+        "zones résidentielles"
+      ],
+      "landmarks": [
+        "centre-ville"
+      ]
+    }
+  },
+  {
+    "slug": "maubec",
+    "name": "Maubec",
+    "zipCode": "38300",
+    "nearbyCities": [
+      "domarin",
+      "bourgoin-jallieu",
+      "saint-alban-de-roche"
+    ],
+    "fallback": {
+      "neighborhoods": [
+        "centre village",
+        "zones pavillonnaires"
+      ],
+      "landmarks": [
+        "centre du village"
+      ]
+    }
+  },
+  {
+    "slug": "saint-alban-de-roche",
+    "name": "Saint-Alban-de-Roche",
+    "zipCode": "38080",
+    "nearbyCities": [
+      "l-isle-d-abeau",
+      "maubec",
+      "bourgoin-jallieu",
+      "villefontaine",
+      "nivolas-vermelle"
+    ],
+    "fallback": {
+      "neighborhoods": [
+        "centre-ville",
+        "zones résidentielles"
+      ],
+      "landmarks": [
+        "centre-ville"
+      ]
+    }
+  },
+  {
+    "slug": "les-epares",
+    "name": "Les Éparres",
+    "zipCode": "38300",
+    "nearbyCities": [
+      "bourgoin-jallieu",
+      "ruy-montceau",
+      "saint-chef",
+      "succieu"
+    ],
+    "fallback": {
+      "neighborhoods": [
+        "centre village",
+        "zones rurales"
+      ],
+      "landmarks": [
+        "centre du village"
+      ]
+    }
+  },
+  {
+    "slug": "saint-chef",
+    "name": "Saint-Chef",
+    "zipCode": "38890",
+    "nearbyCities": [
+      "saint-chef",
+      "morestel",
+      "trept",
+      "cremieu"
+    ],
+    "fallback": {
+      "neighborhoods": [
+        "centre-ville",
+        "zones résidentielles"
+      ],
+      "landmarks": [
+        "Abbaye de Saint-Chef",
+        "centre-ville"
+      ]
+    }
+  },
+  {
+    "slug": "salagnon",
+    "name": "Salagnon",
+    "zipCode": "38890",
+    "nearbyCities": [
+      "saint-chef",
+      "morestel",
+      "trept"
+    ],
+    "fallback": {
+      "neighborhoods": [
+        "centre village",
+        "zones rurales"
+      ],
+      "landmarks": [
+        "centre du village"
+      ]
+    }
+  },
+  {
+    "slug": "trept",
+    "name": "Trept",
+    "zipCode": "38460",
+    "nearbyCities": [
+      "saint-chef",
+      "cremieu",
+      "salagnon",
+      "chamagnieu"
+    ],
+    "fallback": {
+      "neighborhoods": [
+        "centre-ville",
+        "zones pavillonnaires"
+      ],
+      "landmarks": [
+        "centre-ville"
+      ]
+    }
+  },
+  {
+    "slug": "cremieu",
+    "name": "Crémieu",
+    "zipCode": "38460",
+    "nearbyCities": [
+      "trept",
+      "chamagnieu",
+      "tignieu-jameyzieu"
+    ],
+    "fallback": {
+      "neighborhoods": [
+        "centre historique",
+        "zones résidentielles"
+      ],
+      "landmarks": [
+        "cité médiévale",
+        "halles de Crémieu"
+      ]
+    }
+  },
+  {
+    "slug": "morestel",
+    "name": "Morestel",
+    "zipCode": "38510",
+    "nearbyCities": [
+      "saint-chef",
+      "salagnon",
+      "dolomieu"
+    ],
+    "fallback": {
+      "neighborhoods": [
+        "centre-ville",
+        "quartiers résidentiels"
+      ],
+      "landmarks": [
+        "vieille ville",
+        "centre-ville"
+      ]
+    }
+  },
+  {
+    "slug": "dolomieu",
+    "name": "Dolomieu",
+    "zipCode": "38110",
+    "nearbyCities": [
+      "morestel",
+      "la-tour-du-pin",
+      "saint-clair-de-la-tour",
+      "la-batie-montgascon"
+    ],
+    "fallback": {
+      "neighborhoods": [
+        "centre-ville",
+        "zones résidentielles"
+      ],
+      "landmarks": [
+        "centre-ville"
+      ]
+    }
+  },
+  {
+    "slug": "les-avenieres-veyrins-thuellin",
+    "name": "Les Avenières Veyrins-Thuellin",
+    "zipCode": "38630",
+    "nearbyCities": [
+      "morestel",
+      "dolomieu",
+      "aoste",
+      "saint-genix-les-villages"
+    ],
+    "fallback": {
+      "neighborhoods": [
+        "centre-ville",
+        "zones pavillonnaires"
+      ],
+      "landmarks": [
+        "Walibi Rhône-Alpes",
+        "centre-ville"
+      ]
+    }
+  },
+  {
+    "slug": "aoste",
+    "name": "Aoste",
+    "zipCode": "38490",
+    "nearbyCities": [
+      "saint-genix-les-villages",
+      "la-batie-montgascon",
+      "morestel"
+    ],
+    "fallback": {
+      "neighborhoods": [
+        "centre-ville",
+        "zones résidentielles"
+      ],
+      "landmarks": [
+        "centre-ville",
+        "zones commerciales"
+      ]
+    }
+  },
+  {
+    "slug": "la-batie-montgascon",
+    "name": "La Bâtie-Montgascon",
+    "zipCode": "38110",
+    "nearbyCities": [
+      "aoste",
+      "dolomieu",
+      "la-tour-du-pin",
+      "les-abrets"
+    ],
+    "fallback": {
+      "neighborhoods": [
+        "centre village",
+        "zones rurales"
+      ],
+      "landmarks": [
+        "centre du village"
+      ]
+    }
+  },
+  {
+    "slug": "saint-genix-les-villages",
+    "name": "Saint-Genix-les-Villages",
+    "zipCode": "73240",
+    "nearbyCities": [
+      "aoste",
+      "le-pont-de-beauvoisin",
+      "les-abrets"
+    ],
+    "fallback": {
+      "neighborhoods": [
+        "centre-ville",
+        "zones résidentielles"
+      ],
+      "landmarks": [
+        "centre-ville",
+        "bord du Rhône"
+      ]
+    }
+  },
+  {
+    "slug": "le-pont-de-beauvoisin",
+    "name": "Le Pont-de-Beauvoisin",
+    "zipCode": "38480",
+    "nearbyCities": [
+      "saint-genix-les-villages",
+      "aoste",
+      "les-abrets"
+    ],
+    "fallback": {
+      "neighborhoods": [
+        "centre-ville",
+        "zones résidentielles"
+      ],
+      "landmarks": [
+        "centre-ville",
+        "pont historique"
+      ]
+    }
+  },
+  {
+    "slug": "les-abrets",
+    "name": "Les Abrets",
+    "zipCode": "38490",
+    "nearbyCities": [
+      "le-pont-de-beauvoisin",
+      "aoste",
+      "fitilieu",
+      "charancieu",
+      "chimilin"
+    ],
+    "fallback": {
+      "neighborhoods": [
+        "centre-ville",
+        "zones résidentielles",
+        "quartiers pavillonnaires"
+      ],
+      "landmarks": [
+        "centre-ville",
+        "zones commerciales"
+      ]
+    }
+  },
+  {
+    "slug": "charancieu",
+    "name": "Charancieu",
+    "zipCode": "38490",
+    "nearbyCities": [
+      "les-abrets",
+      "aoste",
+      "le-pont-de-beauvoisin",
+      "fitilieu"
+    ],
+    "fallback": {
+      "neighborhoods": [
+        "centre village",
+        "zones rurales"
+      ],
+      "landmarks": [
+        "centre du village"
+      ]
+    }
+  },
+  {
+    "slug": "fitilieu",
+    "name": "Fitilieu",
+    "zipCode": "38490",
+    "nearbyCities": [
+      "les-abrets",
+      "charancieu",
+      "aoste"
+    ],
+    "fallback": {
+      "neighborhoods": [
+        "centre village",
+        "zones résidentielles"
+      ],
+      "landmarks": [
+        "centre du village"
+      ]
+    }
+  },
+  {
+    "slug": "chimilin",
+    "name": "Chimilin",
+    "zipCode": "38490",
+    "nearbyCities": [
+      "les-abrets",
+      "le-pont-de-beauvoisin",
+      "aoste"
+    ],
+    "fallback": {
+      "neighborhoods": [
+        "centre village",
+        "zones pavillonnaires"
+      ],
+      "landmarks": [
+        "centre du village"
+      ]
+    }
+  },
+  {
+    "slug": "la-cote-saint-andre",
+    "name": "La Côte-Saint-André",
+    "zipCode": "38260",
+    "nearbyCities": [
+      "commelle",
+      "gillonnay",
+      "ornacieux-balbins"
+    ],
+    "fallback": {
+      "neighborhoods": [
+        "centre-ville",
+        "quartiers résidentiels"
+      ],
+      "landmarks": [
+        "Château Louis XI",
+        "centre-ville",
+        "Halle médiévale"
+      ]
+    }
+  },
+  {
+    "slug": "gillonnay",
+    "name": "Gillonnay",
+    "zipCode": "38260",
+    "nearbyCities": [
+      "la-cote-saint-andre",
+      "saint-etienne-de-saint-geoirs",
+      "brezins",
+      "faramans"
+    ],
+    "fallback": {
+      "neighborhoods": [
+        "centre village",
+        "zones rurales"
+      ],
+      "landmarks": [
+        "centre du village"
+      ]
+    }
+  },
+  {
+    "slug": "saint-etienne-de-saint-geoirs",
+    "name": "Saint-Étienne-de-Saint-Geoirs",
+    "zipCode": "38590",
+    "nearbyCities": [
+      "gillonnay",
+      "brezins",
+      "la-cote-saint-andre"
+    ],
+    "fallback": {
+      "neighborhoods": [
+        "centre-ville",
+        "zones résidentielles"
+      ],
+      "landmarks": [
+        "aéroport Grenoble-Alpes-Isère",
+        "centre-ville"
+      ]
+    }
+  },
+  {
+    "slug": "brezins",
+    "name": "Brézins",
+    "zipCode": "38590",
+    "nearbyCities": [
+      "saint-etienne-de-saint-geoirs",
+      "gillonnay",
+      "la-cote-saint-andre"
+    ],
+    "fallback": {
+      "neighborhoods": [
+        "centre village",
+        "zones pavillonnaires"
+      ],
+      "landmarks": [
+        "centre du village"
+      ]
+    }
+  },
+  {
+    "slug": "ornacieux-balbins",
+    "name": "Ornacieux-Balbins",
+    "zipCode": "38260",
+    "nearbyCities": [
+      "la-cote-saint-andre",
+      "gillonnay",
+      "faramans",
+      "mottier"
+    ],
+    "fallback": {
+      "neighborhoods": [
+        "centre village",
+        "zones rurales"
+      ],
+      "landmarks": [
+        "centre du village"
+      ]
+    }
+  },
+  {
+    "slug": "faramans",
+    "name": "Faramans",
+    "zipCode": "38260",
+    "nearbyCities": [
+      "la-cote-saint-andre",
+      "ornacieux-balbins",
+      "mottier",
+      "gillonnay"
+    ],
+    "fallback": {
+      "neighborhoods": [
+        "centre village",
+        "zones rurales"
+      ],
+      "landmarks": [
+        "centre du village"
+      ]
+    }
+  },
+  {
+    "slug": "mottier",
+    "name": "Mottier",
+    "zipCode": "38260",
+    "nearbyCities": [
+      "faramans",
+      "la-cote-saint-andre",
+      "champier",
+      "ornacieux-balbins"
+    ],
+    "fallback": {
+      "neighborhoods": [
+        "centre village",
+        "zones rurales"
+      ],
+      "landmarks": [
+        "centre du village"
+      ]
+    }
+  },
+  {
+    "slug": "champier",
+    "name": "Champier",
+    "zipCode": "38260",
+    "nearbyCities": [
+      "mottier",
+      "la-cote-saint-andre",
+      "gillonnay"
+    ],
+    "fallback": {
+      "neighborhoods": [
+        "centre-ville",
+        "zones résidentielles"
+      ],
+      "landmarks": [
+        "centre-ville"
+      ]
+    }
+  }
+]

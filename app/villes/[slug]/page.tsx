@@ -1,13 +1,18 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { Metadata } from "next";
-import { ArrowRight, Phone } from "lucide-react";
+import { ArrowRight, MapPin, Phone } from "lucide-react";
 import { cities, getCityBySlug } from "@/data/cities";
 import { services } from "@/data/services";
+import { getRelatedCities } from "@/lib/getRelatedCities";
+import { formatPopulation } from "@/lib/format";
 import HeroSection from "@/components/sections/hero/HeroSection";
 import {
   generateMetadata as generatePageMetadata,
   generateLocalBusinessSchema,
+  generateFAQSchema,
+  generateBreadcrumbSchema,
+  generateCitySchema,
 } from "@/lib/seo";
 import { siteConfig } from "@/data/config";
 
@@ -37,7 +42,7 @@ export async function generateMetadata(
 
   return generatePageMetadata(
     `Maçonnerie & Terrassement à ${city.name} (${city.zipCode}) | DZ Maçonnerie`,
-    `Expert en maçonnerie générale, rénovation et terrassement à ${city.name}. Devis gratuit, garantie décennale.`,
+    city.description,
     `/villes/${city.slug}`,
     `${siteConfig.siteUrl}/og-city.jpg`,
   );
@@ -51,27 +56,58 @@ export default async function CityPage(props: CityPageProps) {
     notFound();
   }
 
+  const nearby = getRelatedCities(city.slug, 8);
+  const population = formatPopulation(city.population);
+  const phone = business.phone.replace("+33", "0");
+  const cityUrl = `${siteConfig.siteUrl}/villes/${city.slug}`;
+
+  const breadcrumbs = [
+    { name: "Accueil", url: "/" },
+    { name: "Villes", url: "/villes" },
+    { name: city.name, url: `/villes/${city.slug}` },
+  ];
+
   return (
     <>
-      {/* Schema */}
+      {/* Schema.org */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify(generateLocalBusinessSchema()),
         }}
       />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(generateCitySchema(city.name, cityUrl)),
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(generateBreadcrumbSchema(breadcrumbs)),
+        }}
+      />
+      {city.faq && city.faq.length > 0 && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(generateFAQSchema(city.faq)),
+          }}
+        />
+      )}
 
       {/* HERO */}
       <HeroSection
         badge={`${city.zipCode} • ${city.region}`}
         title="Maçonnerie à"
         highlight={city.name}
-        description={`Services professionnels de maçonnerie générale, rénovation, extension et terrassement à ${city.name}. Plus de 10 ans d'expertise au service de vos projets.`}
+        description={city.introduction || city.description}
         image="/images/realisations/artisan-macon-bourgoin-jallieu-terrasse-gres-cerame-dz-maconnerie-terrassement.webp"
         imageAlt={`Maçonnerie à ${city.name}`}
         primaryButtonText="Demander un devis"
         primaryButtonHref="/contact"
-        secondaryButtonText={business.phone.replace("+33", "0")}
+        secondaryButtonText={phone}
         secondaryButtonHref="/contact"
         cards={[
           {
@@ -108,6 +144,15 @@ export default async function CityPage(props: CityPageProps) {
               </Link>
             </li>
             <li className="select-none px-1 text-gray-400">/</li>
+            <li>
+              <Link
+                href="/villes"
+                className="transition hover:text-primary-600 hover:underline"
+              >
+                Villes
+              </Link>
+            </li>
+            <li className="select-none px-1 text-gray-400">/</li>
             <li className="font-medium text-gray-800" aria-current="page">
               {city.name}
             </li>
@@ -118,43 +163,111 @@ export default async function CityPage(props: CityPageProps) {
       {/* Content */}
       <section className="section-padding bg-white">
         <div className="mx-auto max-w-8xl px-6 lg:px-8">
+          {/* Intro */}
           <div className="mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-6">
+            <h2 className="mb-6 text-3xl font-bold text-gray-900">
               Maçon expert à {city.name}
             </h2>
-            <p className="text-base text-gray-700 leading-relaxed mb-6">
-              ${business.name} est votre partenaire de confiance pour tous vos
-              projets de maçonnerie à {city.name} ({city.zipCode}
-              ). Basés à Artas, nous intervenons dans la région {
-                city.region
-              }{" "}
-              avec une équipe de professionnels qualifiés et expérimentés.
+            <p className="mb-6 text-base leading-relaxed text-gray-700">
+              {city.introduction}
             </p>
-            <p className="text-base text-gray-700 leading-relaxed">
-              Depuis plus de 10 ans, nous réalisons des projets de construction,
-              rénovation et extension pour des particuliers et des
-              professionnels. Chaque chantier est suivi avec rigueur pour
-              garantir votre satisfaction.
+            <p className="text-base leading-relaxed text-gray-700">
+              {business.name} est votre partenaire de confiance pour tous vos
+              projets de maçonnerie à {city.name} ({city.zipCode}). Basés à{" "}
+              {business.city}, nous intervenons dans la région {city.region} avec
+              une équipe de professionnels qualifiés et expérimentés.
             </p>
           </div>
 
-          {/* Services in this city */}
+          {/* Données locales */}
+          <div className="mb-12 grid grid-cols-2 gap-4 md:grid-cols-4">
+            {population && (
+              <div className="rounded-lg border border-gray-200 bg-gray-50 p-4">
+                <div className="text-2xl font-bold text-primary-600">
+                  {city.population?.toLocaleString("fr-FR")}
+                </div>
+                <div className="text-sm text-gray-600">habitants</div>
+              </div>
+            )}
+            <div className="rounded-lg border border-gray-200 bg-gray-50 p-4">
+              <div className="text-2xl font-bold text-primary-600">
+                {city.zipCode}
+              </div>
+              <div className="text-sm text-gray-600">code postal</div>
+            </div>
+            {city.surface && (
+              <div className="rounded-lg border border-gray-200 bg-gray-50 p-4">
+                <div className="text-2xl font-bold text-primary-600">
+                  {city.surface.toLocaleString("fr-FR")}
+                </div>
+                <div className="text-sm text-gray-600">hectares</div>
+              </div>
+            )}
+            <div className="rounded-lg border border-gray-200 bg-gray-50 p-4">
+              <div className="text-2xl font-bold text-primary-600">10+</div>
+              <div className="text-sm text-gray-600">ans d'expérience</div>
+            </div>
+          </div>
+
+          {/* Quartiers desservis */}
+          {city.neighborhoods && city.neighborhoods.length > 0 && (
+            <div className="mb-12">
+              <h2 className="mb-6 text-2xl font-bold text-gray-900">
+                Quartiers desservis à {city.name}
+              </h2>
+              <div className="flex flex-wrap gap-2">
+                {city.neighborhoods.map((n) => (
+                  <span
+                    key={n}
+                    className="inline-flex items-center gap-1 rounded-full border border-primary-200 bg-primary-50 px-3 py-1 text-sm text-primary-700"
+                  >
+                    <MapPin className="h-3.5 w-3.5" />
+                    {n}
+                  </span>
+                ))}
+              </div>
+            </div>
+          )}
+
+          {/* Spécificités du terrain */}
+          {((city.terrainTypes && city.terrainTypes.length > 0) ||
+            (city.commonIssues && city.commonIssues.length > 0)) && (
+            <div className="mb-12 rounded-xl border border-amber-200 bg-amber-50 p-8">
+              <h2 className="mb-4 text-2xl font-bold text-gray-900">
+                Spécificités du terrain à {city.name}
+              </h2>
+              {city.terrainTypes && city.terrainTypes.length > 0 && (
+                <p className="mb-3 text-gray-700">
+                  <strong>Terrain :</strong> {city.terrainTypes.join(", ")}.
+                </p>
+              )}
+              {city.commonIssues && city.commonIssues.length > 0 && (
+                <p className="text-gray-700">
+                  <strong>Points de vigilance :</strong>{" "}
+                  {city.commonIssues.join(", ")}. Nous adaptons fondations,
+                  drainage et mise en œuvre du béton en conséquence.
+                </p>
+              )}
+            </div>
+          )}
+
+          {/* Services */}
           <div className="mb-12">
-            <h2 className="text-2xl font-bold text-gray-900 mb-8">
+            <h2 className="mb-8 text-2xl font-bold text-gray-900">
               Services à {city.name}
             </h2>
-            <p className="text-gray-600 mb-6">
-              Nous proposons une gamme complète de services maçonnerie adaptés à
-              vos besoins à {city.name}.
+            <p className="mb-6 text-gray-600">
+              Nous proposons une gamme complète de services de maçonnerie
+              adaptés à vos besoins à {city.name}.
             </p>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
               {services.map((service) => (
                 <Link
                   key={service.slug}
                   href={`/services/${service.slug}/${city.slug}`}
-                  className="group p-4 border border-gray-200 rounded-lg hover:border-primary-600 hover:bg-primary-50 transition-all"
+                  className="group rounded-lg border border-gray-200 p-4 transition-all hover:border-primary-600 hover:bg-primary-50"
                 >
-                  <h3 className="font-semibold text-gray-900 group-hover:text-primary-600 transition-colors mb-2">
+                  <h3 className="mb-2 font-semibold text-gray-900 transition-colors group-hover:text-primary-600">
                     {service.name}
                   </h3>
                   <p className="text-sm text-gray-600">{service.description}</p>
@@ -163,141 +276,91 @@ export default async function CityPage(props: CityPageProps) {
             </div>
           </div>
 
-          {/* Why Choose Us */}
-          <div className="mb-12">
-            <h2 className="text-2xl font-bold text-gray-900 mb-8">
-              Pourquoi nous choisir à {city.name} ?
-            </h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              {[
-                {
-                  title: "Expertise locale",
-                  desc: "Nous connaissons parfaitement la région et ses spécificités",
-                },
-                {
-                  title: "Professionnalisme",
-                  desc: "Équipe qualifiée avec garantie décennale",
-                },
-                {
-                  title: "Réactivité",
-                  desc: "Intervention rapide à {city.name} et ses environs",
-                },
-                {
-                  title: "Transparence",
-                  desc: "Devis gratuit et sans engagement",
-                },
-              ].map((item, idx) => (
-                <div
-                  key={idx}
-                  className="p-6 bg-gray-50 rounded-lg border border-gray-200 hover:border-primary-600 hover:bg-primary-50 transition-all"
-                >
-                  <h3 className="font-semibold text-gray-900 mb-2">
-                    {item.title}
-                  </h3>
-                  <p className="text-gray-700">{item.desc}</p>
-                </div>
-              ))}
+          {/* Points de repère */}
+          {city.landmarks && city.landmarks.length > 0 && (
+            <div className="mb-12">
+              <h2 className="mb-4 text-2xl font-bold text-gray-900">
+                Points de repère à {city.name}
+              </h2>
+              <p className="text-gray-700">
+                Nous intervenons à proximité de {city.landmarks.join(", ")}.
+              </p>
             </div>
-          </div>
+          )}
 
-          {/* Service Area */}
-          <div className="bg-primary-50 p-8 rounded-xl border border-primary-200 mb-12">
-            <h2 className="text-2xl font-bold text-gray-900 mb-4">
-              Zone d'intervention
-            </h2>
-            <p className="text-gray-700 mb-4">
-              Basés à Artas, nous intervenons à {city.name} et dans toute la
-              région {city.region}.
-            </p>
-            <p className="text-gray-700">
-              <strong>Code postal :</strong> {city.zipCode}
-              <br />
-              <strong>Région :</strong> {city.region}
-            </p>
-          </div>
+          {/* Zone d'intervention / villes voisines (maillage) */}
+          {nearby.length > 0 && (
+            <div className="mb-12 rounded-xl border border-primary-200 bg-primary-50 p-8">
+              <h2 className="mb-4 text-2xl font-bold text-gray-900">
+                Zone d'intervention autour de {city.name}
+              </h2>
+              <p className="mb-6 text-gray-700">
+                Basés à {business.city}, nous intervenons à {city.name} et dans
+                les communes voisines :
+              </p>
+              <div className="flex flex-wrap gap-2">
+                {nearby.map((n) => (
+                  <Link
+                    key={n.slug}
+                    href={`/villes/${n.slug}`}
+                    className="inline-flex items-center gap-1 rounded-full border border-primary-300 bg-white px-3 py-1 text-sm text-primary-700 transition hover:bg-primary-100"
+                  >
+                    Maçon à {n.name}
+                  </Link>
+                ))}
+              </div>
+            </div>
+          )}
 
           {/* FAQ */}
-          <div className="bg-gray-50 p-8 rounded-xl border border-gray-200">
-            <h2 className="text-2xl font-bold text-gray-900 mb-8">
-              Questions fréquentes
-            </h2>
-            <div className="space-y-8">
-              <div>
-                <h3 className="text-base font-semibold text-gray-900 mb-3">
-                  Intervenez-vous à {city.name} ?
-                </h3>
-                <p className="text-gray-700">
-                  Oui, {city.name} est dans notre zone d'intervention. Nous y
-                  réalisons régulièrement des chantiers de maçonnerie générale,
-                  rénovation et extension.
-                </p>
-              </div>
-              <div className="border-t border-gray-200 pt-6">
-                <h3 className="text-base font-semibold text-gray-900 mb-3">
-                  Quel est le coût d'une intervention ?
-                </h3>
-                <p className="text-gray-700">
-                  Le coût dépend de votre projet. Nous vous proposerons un devis
-                  détaillé et personnalisé lors d'une visite gratuite.
-                </p>
-              </div>
-              <div className="border-t border-gray-200 pt-6">
-                <h3 className="text-base font-semibold text-gray-900 mb-3">
-                  Comment prendre contact ?
-                </h3>
-                <p className="text-gray-700">
-                  Vous pouvez nous appeler au{" "}
-                  {business.phone.replace("+33", "0")} ou remplir notre
-                  formulaire de contact. Nous vous répondons sous 24h.
-                </p>
+          {city.faq && city.faq.length > 0 && (
+            <div className="rounded-xl border border-gray-200 bg-gray-50 p-8">
+              <h2 className="mb-8 text-2xl font-bold text-gray-900">
+                Questions fréquentes — {city.name}
+              </h2>
+              <div className="space-y-8">
+                {city.faq.map((item, idx) => (
+                  <div
+                    key={idx}
+                    className={idx > 0 ? "border-t border-gray-200 pt-6" : ""}
+                  >
+                    <h3 className="mb-3 text-base font-semibold text-gray-900">
+                      {item.question}
+                    </h3>
+                    <p className="text-gray-700">{item.answer}</p>
+                  </div>
+                ))}
               </div>
             </div>
-          </div>
-        </div>
-      </section>
-
-      {/* CTA Box */}
-      <section className="section-padding bg-gradient-to-r from-primary-50 to-primary-100">
-        <div className="mx-auto max-w-8xl px-6 lg:px-8">
-          <div className="bg-white p-8 rounded-xl border-2 border-primary-200 shadow-lg">
-            <h2 className="text-2xl font-bold text-gray-900 mb-4">
-              Vous avez un projet à {city.name} ?
-            </h2>
-            <p className="text-gray-700 mb-8">
-              Contactez DZ Maçonnerie pour un devis gratuit. Notre équipe vous
-              répondra sous 24h.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4">
-              <Link href="/contact" className="btn-primary">
-                Demander un devis <ArrowRight className="ml-2 w-4 h-4" />
-              </Link>
-              <a
-                href="/contact"
-                className="btn-secondary border-primary-600 text-primary-600"
-              >
-                <Phone className="w-4 h-4 mr-2" />
-                {business.phone.replace("+33", "0")}
-              </a>
-            </div>
-          </div>
+          )}
         </div>
       </section>
 
       {/* Final CTA */}
-      <section className="hero-gradient py-16 md:py-24 text-white">
-        <div className="mx-auto max-w-8xl px-6 lg:px-8 text-center">
-          <h2 className="text-4xl md:text-5xl font-bold mb-4 leading-tight">
-            Maçon professionnel à {city.name}
+      <section className="hero-gradient py-16 text-white md:py-24">
+        <div className="mx-auto max-w-8xl px-6 text-center lg:px-8">
+          <h2 className="mb-4 text-4xl font-bold leading-tight md:text-5xl">
+            Un projet de maçonnerie à {city.name} ?
           </h2>
-          <p className="text-xl text-primary-50 mb-8 max-w-2xl mx-auto">
-            DZ Maçonnerie réalise tous vos projets avec expertise et garantie
+          <p className="mx-auto mb-8 max-w-2xl text-xl text-primary-50">
+            DZ Maçonnerie réalise tous vos travaux avec expertise et garantie
+            décennale. Devis gratuit sous 24h.
           </p>
-          <Link
-            href="/contact"
-            className="btn-primary bg-white text-primary-600 hover:bg-gray-100"
-          >
-            Demander un devis <ArrowRight className="ml-2 w-4 h-4" />
-          </Link>
+          <div className="flex flex-col justify-center gap-4 sm:flex-row">
+            <Link
+              href="/contact"
+              className="btn-primary bg-white text-primary-600 hover:bg-gray-100"
+            >
+              Demander un devis <ArrowRight className="ml-2 h-4 w-4" />
+            </Link>
+            <a
+              href={`tel:${business.phone}`}
+              className="btn-secondary border-white text-white"
+            >
+              <Phone className="mr-2 h-4 w-4" />
+              {phone}
+            </a>
+          </div>
         </div>
       </section>
     </>

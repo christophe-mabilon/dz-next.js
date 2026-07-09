@@ -73,6 +73,9 @@ export type Service = {
 export type City = {
   id: string;
 
+  /** Code INSEE de la commune (identifiant officiel, sert aussi de clé d'enrichissement API) */
+  insee?: string;
+
   slug: string;
 
   name: string;
@@ -97,7 +100,11 @@ export type City = {
 
   relatedKeywords?: string[];
 
-  population?: string;
+  /** Population légale INSEE (nombre brut, ex. 30151). Formatée à l'affichage via formatPopulation(). */
+  population?: number;
+
+  /** Superficie de la commune en hectares (source geo.api.gouv.fr) */
+  surface?: number;
 
   coordinates?: GeoCoordinates;
 
