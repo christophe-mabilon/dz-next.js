@@ -1,11 +1,11 @@
 import type { MetadataRoute } from "next";
-
+import { siteConfig } from "@/data/config";
 import { services } from "@/data/services";
 import { articles } from "@/data/blog";
 import { realisations } from "@/data/realisations";
 import { cities } from "@/data/cities";
 
-const BASE_URL = "https://www.dzmaconnerie.fr";
+const BASE_URL = `${siteConfig}`;
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const staticPages = [

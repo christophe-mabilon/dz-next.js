@@ -23,7 +23,7 @@ export default function PolitiqueConfidentialite() {
         title="Politique de"
         highlight="Confidentialité"
         description={`Consultez la politique de confidentialité de ${business.name} concernant la collecte, l'utilisation et la protection des données personnelles.`}
-        image="/images/realisations/chantier_maçonnerie.avif"
+        image="/images/realisations/artisan-macon-bourgoin-jallieu-terrasse-gres-cerame-dz-maconnerie-terrassement.webp"
         imageAlt={`Politique de confidentialité ${business.name}`}
         primaryButtonText="Nous contacter"
         primaryButtonHref="/contact"

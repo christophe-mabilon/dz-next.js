@@ -26,12 +26,12 @@ export function Footer() {
               <span className="block text-primary-400">TERRASSEMENT</span>
             </h3>
 
-            <p className="mb-6 leading-relaxed text-gray-400">
+            <p className="mb-6 leading-relaxed text-white-400">
               Entreprise de maçonnerie générale, terrassement et rénovation à{" "}
               {business.city} et dans toute l&apos;Isère.
             </p>
 
-            <p className="leading-relaxed text-gray-500">
+            <p className="leading-relaxed text-white-500">
               Plus de 10 ans d&apos;expérience dans les travaux de maçonnerie,
               dalle béton, extension maison, ouverture mur porteur et
               aménagement extérieur.
@@ -53,7 +53,7 @@ export function Footer() {
               <li>
                 <Link
                   href="/services/maconnerie-neuf"
-                  className="flex items-center gap-2 text-gray-400 transition hover:text-primary-400"
+                  className="flex items-center gap-2 text-white-400 transition hover:text-primary-400"
                 >
                   <Hammer className="h-4 w-4" />
                   Maçonnerie générale
@@ -63,7 +63,7 @@ export function Footer() {
               <li>
                 <Link
                   href="/services/terrassement"
-                  className="flex items-center gap-2 text-gray-400 transition hover:text-primary-400"
+                  className="flex items-center gap-2 text-white-400 transition hover:text-primary-400"
                 >
                   <Hammer className="h-4 w-4" />
                   Terrassement
@@ -73,7 +73,7 @@ export function Footer() {
               <li>
                 <Link
                   href="/services/extension-maison"
-                  className="flex items-center gap-2 text-gray-400 transition hover:text-primary-400"
+                  className="flex items-center gap-2 text-white-400 transition hover:text-primary-400"
                 >
                   <Hammer className="h-4 w-4" />
                   Extension maison
@@ -83,7 +83,7 @@ export function Footer() {
               <li>
                 <Link
                   href="/services/renovation-maconnerie"
-                  className="flex items-center gap-2 text-gray-400 transition hover:text-primary-400"
+                  className="flex items-center gap-2 text-white-400 transition hover:text-primary-400"
                 >
                   <Hammer className="h-4 w-4" />
                   Rénovation
@@ -93,7 +93,7 @@ export function Footer() {
               <li>
                 <Link
                   href="/services/dalle-beton"
-                  className="flex items-center gap-2 text-gray-400 transition hover:text-primary-400"
+                  className="flex items-center gap-2 text-white-400 transition hover:text-primary-400"
                 >
                   <Hammer className="h-4 w-4" />
                   Dalle béton
@@ -144,11 +144,11 @@ export function Footer() {
                 <MapPin className="mt-1 h-5 w-5 flex-shrink-0 text-primary-400" />
 
                 <div>
-                  <p className="mb-1 text-sm text-gray-500">Adresse</p>
+                  <p className="mb-1 text-sm text-white-500">Adresse</p>
 
                   <p className="font-medium text-white">{business.address}</p>
 
-                  <p className="text-gray-400">
+                  <p className="text-white-400">
                     {business.zipCode} {business.city}
                   </p>
                 </div>
@@ -159,7 +159,7 @@ export function Footer() {
                 <Phone className="mt-1 h-5 w-5 flex-shrink-0 text-primary-400" />
 
                 <div>
-                  <p className="mb-1 text-sm text-gray-500">Téléphone</p>
+                  <p className="mb-1 text-sm text-white-500">Téléphone</p>
 
                   <a
                     href="/contact"
@@ -175,7 +175,7 @@ export function Footer() {
                 <Mail className="mt-1 h-5 w-5 flex-shrink-0 text-primary-400" />
 
                 <div>
-                  <p className="mb-1 text-sm text-gray-500">Email</p>
+                  <p className="mb-1 text-sm text-white-500">Email</p>
 
                   <a
                     href="/contact"
@@ -247,7 +247,7 @@ export function Footer() {
 
         {/* SEO TEXT */}
         <div className="mt-16 border-t border-gray-800 pt-10">
-          <p className="mx-auto max-w-5xl text-center text-sm leading-relaxed text-gray-500">
+          <p className="mx-auto max-w-12xl text-center text-sm leading-relaxed text-white-500">
             {business.name} intervient pour tous vos travaux de maçonnerie
             générale, terrassement, rénovation, dalle béton, ouverture mur
             porteur et extension maison à Bourgoin-Jallieu, Artas,
@@ -257,7 +257,7 @@ export function Footer() {
         </div>
 
         {/* BOTTOM */}
-        <div className="mt-10 flex flex-col items-center justify-between gap-6 border-t border-gray-800 pt-8 text-sm text-gray-500 md:flex-row">
+        <div className="mt-10 flex flex-col items-center justify-between gap-6 border-t border-gray-800 pt-8 text-sm text-white-500 md:flex-row">
           <p>
             © {new Date().getFullYear()} {business.name} - Tous droits réservés.
           </p>

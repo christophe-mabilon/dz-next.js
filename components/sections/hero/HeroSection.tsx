@@ -88,7 +88,7 @@ export default function HeroSection({
       description: "Réponse rapide sous 24h pour votre projet.",
     },
   ],
-  overlayOpacity = "bg-black/60",
+  overlayOpacity = "bg-black/30",
   className = "",
   heightClass = "min-h-[700px] flex items-center",
 }: HeroSectionProps) {

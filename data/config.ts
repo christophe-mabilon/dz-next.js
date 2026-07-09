@@ -2,80 +2,76 @@ import { SiteConfig } from "@/types";
 export const openingHoursSpecification = [
   {
     dayOfWeek: "Monday",
-    opens: "09:00",
-    closes: "17:00",
+    opens: "08:00",
+    closes: "18:00",
   },
 
   {
     dayOfWeek: "Tuesday",
-    opens: "09:00",
-    closes: "17:00",
+    opens: "08:00",
+    closes: "18:00",
   },
 
   {
     dayOfWeek: "Wednesday",
-    opens: "09:00",
-    closes: "17:00",
+    opens: "08:00",
+    closes: "18:00",
   },
 
   {
     dayOfWeek: "Thursday",
-    opens: "09:00",
-    closes: "17:00",
+    opens: "08:00",
+    closes: "18:00",
   },
 
   {
     dayOfWeek: "Friday",
-    opens: "09:00",
-    closes: "17:00",
+    opens: "08:00",
+    closes: "18:00",
   },
 ];
 
 export const openingHoursDisplay = [
   {
     day: "Lundi",
-    hours: "09h00 - 17h00",
+    hours: "08h00 - 18h00",
   },
 
   {
     day: "Mardi",
-    hours: "09h00 - 17h00",
+    hours: "08h00 - 18h00",
   },
 
   {
     day: "Mercredi",
-    hours: "09h00 - 17h00",
+    hours: "08h00 - 18h00",
   },
 
   {
     day: "Jeudi",
-    hours: "09h00 - 17h00",
+    hours: "08h00 - 18h00",
   },
 
   {
     day: "Vendredi",
-    hours: "09h00 - 17h00",
+    hours: "08h00 - 18h00",
   },
 ];
 export const siteConfig: SiteConfig = {
   siteName: "DZ Maçonnerie & Terrassement",
   siteDescription:
-    "Entreprise de maçonnerie à Artas et Bourgoin-Jallieu spécialisée en maçonnerie générale, rénovation, terrassement, dalle béton et extension maison. Devis gratuit et garantie décennale.",
+    "Entreprise de maçonnerie générale située à Artas près de Bourgoin-Jallieu. Construction, rénovation, extension de maison, terrassement, fondations, terrasses, murs porteurs avec IPN, piscines maçonnées et aménagements extérieurs. Devis gratuit et garantie décennale.",
 
   siteUrl: "https://www.dzmaconnerie38.fr",
-
   ogImage: "/og-image.jpg",
-
   locale: "fr_FR",
-
   business: {
     name: "DZ Maçonnerie & Terrassement",
-
     legalName: "DZ Maçonnerie & Terrassement",
     description:
-      "Expert en maçonnerie générale, terrassement, dalle béton, rénovation et extension maison en Isère.",
+      "Entreprise spécialisée en maçonnerie générale, construction, rénovation, terrassement, fondations, dalles béton, terrasses, murs porteurs avec pose d'IPN, piscines maçonnées et aménagements extérieurs en Nord-Isère.",
 
-    phone: "+336.88.14.42.57",
+    phone: "+33688144257",
 
     email: "dz.maconnerie38@gmail.com",
 
@@ -99,23 +95,28 @@ export const siteConfig: SiteConfig = {
 
     serviceArea: [
       "Artas",
-
       "Bourgoin-Jallieu",
-
       "Vienne",
-
       "Villefontaine",
-
       "L'Isle-d'Abeau",
-
       "La Verpillière",
-
       "Saint-Jean-de-Bournay",
-
       "Heyrieux",
-
       "La Tour-du-Pin",
-
+      "Domarin",
+      "Maubec",
+      "Nivolas-Vermelle",
+      "Saint-Savin",
+      "Châtonnay",
+      "Charantonnay",
+      "Meyrié",
+      "Culin",
+      "Les Éparres",
+      "Ruy-Montceau",
+      "Saint-Quentin-Fallavier",
+      "Diémoz",
+      "Frontonas",
+      "Four",
       "Nord-Isère",
     ],
 
@@ -141,7 +142,7 @@ export const defaultMetadata = {
 export const SEO_CONFIG = {
   titleTemplate: `%s | ${siteConfig.siteName}`,
 
-  defaultTitle: siteConfig.siteName,
+  defaultTitle: `Artisan maçon à Bourgoin-Jallieu | ${siteConfig.siteName}`,
 
   description: siteConfig.siteDescription,
 

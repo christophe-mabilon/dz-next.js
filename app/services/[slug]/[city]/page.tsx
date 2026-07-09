@@ -98,7 +98,7 @@ export default async function CombinedServiceCityPage(
         title={service.name}
         highlight={`à ${cityData.name}`}
         description={`${service.description} à ${cityData.name} (${cityData.zipCode}). Service professionnel avec devis gratuit et garantie décennale.`}
-        image="/images/realisations/chantier_maçonnerie.avif"
+        image="/images/realisations/artisan-macon-bourgoin-jallieu-terrasse-gres-cerame-dz-maconnerie-terrassement.webp"
         imageAlt={`${service.name} à ${cityData.name}`}
         primaryButtonText="Demander un devis"
         primaryButtonHref="/contact"

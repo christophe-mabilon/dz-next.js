@@ -4,7 +4,7 @@ import { Footer } from "@/components/Footer";
 import { siteConfig } from "@/data/config";
 import { generateLocalBusinessSchema, generateWebSiteSchema } from "@/lib/seo";
 import { Inter } from "next/font/google";
-import './globals.css';
+import "./globals.css";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -20,21 +20,37 @@ export const viewport: Viewport = {
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.siteUrl),
+
   title: {
-    default: `${siteConfig.siteName} | Maçonnerie générale, rénovation, terrassement`,
+    default: `Artisan maçon à Bourgoin-Jallieu | Maçonnerie, terrassement & rénovation | ${siteConfig.siteName}`,
     template: `%s | ${siteConfig.siteName}`,
   },
   description: siteConfig.siteDescription,
   keywords: [
-    "maçon",
-    "maçonnerie",
-    "rénovation",
-    "terrassement",
-    "extension maison",
-    "Artas",
-    "Bourgoin-Jallieu",
-    "Vienne",
-    "Isère",
+    "artisan maçon Bourgoin-Jallieu",
+    "maçon Bourgoin-Jallieu",
+    "maçon Artas",
+    "entreprise de maçonnerie Isère",
+    "terrassement Bourgoin-Jallieu",
+    "terrasse béton",
+    "terrasse sur plots",
+    "dalle béton",
+    "fondation maison",
+    "extension de maison",
+    "ouverture mur porteur",
+    "pose IPN",
+    "mur de soutènement",
+    "garage en maçonnerie",
+    "piscine maçonnée",
+    "aménagement extérieur",
+    "Nord-Isère",
+    "maçon Nord-Isère",
+    "entreprise de terrassement",
+    "construction maison",
+    "rénovation maison",
+    "maçon Vienne",
+    "maçon Villefontaine",
+    "maçon L'Isle-d'Abeau",
   ],
   authors: [{ name: siteConfig.business.name }],
   creator: siteConfig.business.name,
@@ -59,7 +75,7 @@ export const metadata: Metadata = {
     locale: siteConfig.locale,
     url: siteConfig.siteUrl,
     siteName: siteConfig.siteName,
-    title: siteConfig.siteName,
+    title: `Artisan maçon à Bourgoin-Jallieu | Maçonnerie, terrassement & rénovation | ${siteConfig.siteName}`,
     description: siteConfig.siteDescription,
     images: [
       {
@@ -72,12 +88,12 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: siteConfig.siteName,
+    title: `Artisan maçon à Bourgoin-Jallieu | Maçonnerie, terrassement & rénovation | ${siteConfig.siteName}`,
     description: siteConfig.siteDescription,
     images: [siteConfig.ogImage],
   },
   verification: {
-    google: "YOUR_GOOGLE_VERIFICATION_CODE", // À remplacer
+    //google: "YOUR_GOOGLE_VERIFICATION_CODE", // À remplacer
   },
 };
 
@@ -110,7 +126,7 @@ export default function RootLayout({
         />
       </head>
 
-     <body className={`${inter.className} bg-white text-gray-900 antialiased`}>
+      <body className={`${inter.className} bg-white text-gray-900 antialiased`}>
         <Header />
         <main className="min-h-screen">{children}</main>
         <Footer />

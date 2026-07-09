@@ -42,7 +42,8 @@ export const metadata: Metadata = {
   },
 };
 
-const FALLBACK_IMAGE = "/images/realisations/chantier_maçonnerie.avif";
+const FALLBACK_IMAGE =
+  "/images/realisations/artisan-macon-bourgoin-jallieu-terrasse-gres-cerame-dz-maconnerie-terrassement.webp";
 
 export default function RealisationsPage() {
   const schema = {
@@ -80,7 +81,7 @@ export default function RealisationsPage() {
         title="Nos"
         highlight="Réalisations"
         description={`Découvrez plusieurs chantiers réalisés par ${business.name} : dalle béton, terrassement, rénovation, extension maison et maçonnerie générale dans toute l'Isère.`}
-        image="/images/realisations/chantier_maçonnerie.avif"
+        image="/images/realisations/artisan-macon-bourgoin-jallieu-terrasse-gres-cerame-dz-maconnerie-terrassement.webp"
         imageAlt={`Réalisations maçonnerie et terrassement en Nord-Isère — ${business.name}`}
         primaryButtonText="Demander un devis"
         primaryButtonHref="/contact"
@@ -106,11 +107,17 @@ export default function RealisationsPage() {
       />
 
       {/* BREADCRUMBS */}
-      <nav aria-label="Fil d'Ariane" className="border-b border-gray-100 bg-gray-50 py-3">
+      <nav
+        aria-label="Fil d'Ariane"
+        className="border-b border-gray-100 bg-gray-50 py-3"
+      >
         <div className="mx-auto lg:px-8">
           <ol className="flex flex-wrap items-center gap-1 text-sm text-gray-500">
             <li>
-              <Link href="/" className="transition hover:text-primary-600 hover:underline">
+              <Link
+                href="/"
+                className="transition hover:text-primary-600 hover:underline"
+              >
                 Accueil
               </Link>
             </li>
@@ -130,9 +137,9 @@ export default function RealisationsPage() {
               Des chantiers réels réalisés en Nord-Isère
             </h2>
             <p className="mt-6 text-base leading-8 text-zinc-600">
-              {business.name} accompagne les particuliers et professionnels
-              pour leurs travaux de maçonnerie, terrassement, rénovation,
-              création de dalle béton et extension de maison.
+              {business.name} accompagne les particuliers et professionnels pour
+              leurs travaux de maçonnerie, terrassement, rénovation, création de
+              dalle béton et extension de maison.
             </p>
             <p className="mt-4 text-base leading-8 text-zinc-600">
               Retrouvez ici plusieurs exemples de réalisations avec photos,
@@ -166,8 +173,12 @@ export default function RealisationsPage() {
                       <span className="inline-flex rounded-full bg-white/20 px-3 py-1 text-xs font-medium backdrop-blur">
                         {project.service}
                       </span>
-                      <h2 className="mt-3 text-2xl font-bold">{project.title}</h2>
-                      <p className="mt-2 text-sm text-zinc-200">{project.city}</p>
+                      <h2 className="mt-3 text-2xl font-bold">
+                        {project.title}
+                      </h2>
+                      <p className="mt-2 text-sm text-zinc-200">
+                        {project.city}
+                      </p>
                     </div>
                   </div>
 

@@ -1,9 +1,11 @@
 import Image from "next/image";
 import { notFound } from "next/navigation";
 import Link from "next/link";
+import { Metadata } from "next";
 import HeroSection from "@/components/sections/hero/HeroSection";
 import { realisations } from "@/data/realisations";
 import { siteConfig } from "@/data/config";
+import { generateMetadata as generatePageMetadata } from "@/lib/seo";
 
 const { business } = siteConfig;
 
@@ -13,6 +15,17 @@ type Props = {
 
 export async function generateStaticParams() {
   return realisations.map((r) => ({ slug: r.slug }));
+}
+
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { slug } = await params;
+  const realisation = realisations.find((r) => r.slug === slug);
+  if (!realisation) return {};
+  return generatePageMetadata(
+    `${realisation.title} | DZ Maçonnerie`,
+    realisation.description,
+    `/realisations/${slug}`,
+  );
 }
 
 export default async function RealisationDetailPage({ params }: Props) {
@@ -30,32 +43,59 @@ export default async function RealisationDetailPage({ params }: Props) {
         badge={`${realisation.service} • ${realisation.city} • ${realisation.date}`}
         title={realisation.title}
         description={realisation.description}
-        image="/images/realisations/chantier_maçonnerie.avif"
+        image="/images/realisations/artisan-macon-bourgoin-jallieu-terrasse-gres-cerame-dz-maconnerie-terrassement.webp"
         imageAlt={realisation.images[0]?.alt || realisation.title}
         primaryButtonText="Demander un devis"
         primaryButtonHref="/contact"
         secondaryButtonText={business.phone.replace("+33", "0")}
         secondaryButtonHref="/contact"
         cards={[
-          { icon: "hammer", title: realisation.service, description: `Chantier réalisé à ${realisation.city}.` },
-          { icon: "shield", title: "Garantie décennale", description: "Travaux assurés et durables." },
-          { icon: "star", title: "Devis gratuit", description: "Réponse rapide sous 24h." },
+          {
+            icon: "hammer",
+            title: realisation.service,
+            description: `Chantier réalisé à ${realisation.city}.`,
+          },
+          {
+            icon: "shield",
+            title: "Garantie décennale",
+            description: "Travaux assurés et durables.",
+          },
+          {
+            icon: "star",
+            title: "Devis gratuit",
+            description: "Réponse rapide sous 24h.",
+          },
         ]}
       />
 
       {/* BREADCRUMBS */}
-      <nav aria-label="Fil d'Ariane" className="border-b border-gray-100 bg-gray-50 py-3">
+      <nav
+        aria-label="Fil d'Ariane"
+        className="border-b border-gray-100 bg-gray-50 py-3"
+      >
         <div className="mx-auto lg:px-8">
           <ol className="flex flex-wrap items-center gap-1 text-sm text-gray-500">
             <li>
-              <Link href="/" className="transition hover:text-primary-600 hover:underline">Accueil</Link>
+              <Link
+                href="/"
+                className="transition hover:text-primary-600 hover:underline"
+              >
+                Accueil
+              </Link>
             </li>
             <li className="select-none px-1 text-gray-400">/</li>
             <li>
-              <Link href="/realisations" className="transition hover:text-primary-600 hover:underline">Réalisations</Link>
+              <Link
+                href="/realisations"
+                className="transition hover:text-primary-600 hover:underline"
+              >
+                Réalisations
+              </Link>
             </li>
             <li className="select-none px-1 text-gray-400">/</li>
-            <li className="font-medium text-gray-800" aria-current="page">{realisation.title}</li>
+            <li className="font-medium text-gray-800" aria-current="page">
+              {realisation.title}
+            </li>
           </ol>
         </div>
       </nav>
@@ -67,9 +107,14 @@ export default async function RealisationDetailPage({ params }: Props) {
             <h2 className="mb-6 text-xl font-bold text-gray-900">
               Photos du chantier
             </h2>
-            <div className={`grid gap-4 ${galleryImages.length === 1 ? "grid-cols-1" : "grid-cols-1 sm:grid-cols-2"}`}>
+            <div
+              className={`grid gap-4 ${galleryImages.length === 1 ? "grid-cols-1" : "grid-cols-1 sm:grid-cols-2"}`}
+            >
               {galleryImages.map((img, i) => (
-                <div key={i} className="relative overflow-hidden rounded-2xl aspect-video bg-gray-200">
+                <div
+                  key={i}
+                  className="relative overflow-hidden rounded-2xl aspect-video bg-gray-200"
+                >
                   <Image
                     src={img.src}
                     alt={img.alt}
@@ -96,7 +141,9 @@ export default async function RealisationDetailPage({ params }: Props) {
 
           {realisation.materials && realisation.materials.length > 0 && (
             <div className="mt-10">
-              <h2 className="mb-4 text-xl font-bold text-gray-900">Matériaux utilisés</h2>
+              <h2 className="mb-4 text-xl font-bold text-gray-900">
+                Matériaux utilisés
+              </h2>
               <div className="flex flex-wrap gap-2">
                 {realisation.materials.map((m) => (
                   <span

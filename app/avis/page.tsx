@@ -50,7 +50,7 @@ export default function AvisPage() {
         title="Avis"
         highlight="de nos clients"
         description={`Découvrez les témoignages de clients ayant fait confiance à ${business.name} pour leurs travaux de maçonnerie, rénovation, terrassement et extension maison en Isère et dans le Nord-Isère.`}
-        image="/images/realisations/chantier_maçonnerie.avif"
+        image="/images/realisations/artisan-macon-bourgoin-jallieu-terrasse-gres-cerame-dz-maconnerie-terrassement.webp"
         imageAlt={`Avis clients ${business.name}`}
         primaryButtonText="Demander un devis"
         primaryButtonHref="/contact"

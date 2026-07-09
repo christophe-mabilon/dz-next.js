@@ -28,7 +28,7 @@ export default function VillesPage() {
         title="Nos"
         highlight="Secteurs d'intervention"
         description={`${business.name} intervient dans plus de ${cities.length} communes autour d'Artas et Bourgoin-Jallieu pour tous vos travaux de maçonnerie, terrassement et rénovation.`}
-        image="/images/realisations/chantier_maçonnerie.avif"
+        image="/images/realisations/artisan-macon-bourgoin-jallieu-terrasse-gres-cerame-dz-maconnerie-terrassement.webp"
         imageAlt="Secteurs d'intervention DZ Maçonnerie en Isère"
         primaryButtonText="Demander un devis"
         primaryButtonHref="/contact"

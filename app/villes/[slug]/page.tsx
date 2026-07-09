@@ -67,7 +67,7 @@ export default async function CityPage(props: CityPageProps) {
         title="Maçonnerie à"
         highlight={city.name}
         description={`Services professionnels de maçonnerie générale, rénovation, extension et terrassement à ${city.name}. Plus de 10 ans d'expertise au service de vos projets.`}
-        image="/images/realisations/chantier_maçonnerie.avif"
+        image="/images/realisations/artisan-macon-bourgoin-jallieu-terrasse-gres-cerame-dz-maconnerie-terrassement.webp"
         imageAlt={`Maçonnerie à ${city.name}`}
         primaryButtonText="Demander un devis"
         primaryButtonHref="/contact"

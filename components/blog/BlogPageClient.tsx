@@ -51,7 +51,7 @@ export default function BlogPageClient() {
         title="Blog"
         highlight="Maçonnerie"
         description={`Découvrez nos conseils en maçonnerie, rénovation, terrassement, dalle béton et extension maison pour réussir vos travaux en Isère et dans le Nord-Isère.`}
-        image="/images/realisations/chantier_maçonnerie.avif"
+        image="/images/realisations/artisan-macon-bourgoin-jallieu-terrasse-gres-cerame-dz-maconnerie-terrassement.webp"
         imageAlt={`Blog maçonnerie ${business.name}`}
         primaryButtonText="Demander un devis"
         primaryButtonHref="/contact"

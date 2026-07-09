@@ -23,7 +23,7 @@ export default function ConditionsUtilisation() {
         title="Conditions"
         highlight="D'utilisation"
         description={`Consultez les conditions générales d'utilisation du site ${business.name} ainsi que les règles applicables à la navigation et à l'utilisation des contenus.`}
-        image="/images/realisations/chantier_maçonnerie.avif"
+        image="/images/realisations/artisan-macon-bourgoin-jallieu-terrasse-gres-cerame-dz-maconnerie-terrassement.webp"
         imageAlt={`Conditions d'utilisation ${business.name}`}
         primaryButtonText="Nous contacter"
         primaryButtonHref="/contact"
@@ -85,9 +85,9 @@ export default function ConditionsUtilisation() {
             </h2>
 
             <p className="max-w-4xl text-base leading-relaxed text-gray-600">
-              L&apos;utilisation du site {business.name} implique l&apos;acceptation
-              pleine et entière des présentes conditions générales
-              d&apos;utilisation.
+              L&apos;utilisation du site {business.name} implique
+              l&apos;acceptation pleine et entière des présentes conditions
+              générales d&apos;utilisation.
             </p>
           </div>
 
@@ -173,9 +173,9 @@ export default function ConditionsUtilisation() {
               </h3>
 
               <p className="text-base leading-relaxed text-gray-600">
-                {business.name} ne saurait être tenu responsable d&apos;éventuels
-                dommages liés à l&apos;utilisation du site ou à une interruption
-                temporaire des services.
+                {business.name} ne saurait être tenu responsable
+                d&apos;éventuels dommages liés à l&apos;utilisation du site ou à
+                une interruption temporaire des services.
               </p>
             </div>
 

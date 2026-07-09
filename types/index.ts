@@ -101,7 +101,9 @@ export type City = {
 
   coordinates?: GeoCoordinates;
 
-  nearbyCities?: string[];
+  nearbyCities?: string[];      // slugs des communes voisines
+  seoCities?: string[];         // grandes villes stratégiques
+  priorityCities?: string[];    // villes à pousser en priorité
 
   neighborhoods?: string[];
 
@@ -124,6 +126,7 @@ export type City = {
   contentBlocks?: SeoContentBlock[];
 
   featured?: boolean;
+ 
 };
 
 export type ProjectRealization = {

@@ -4,7 +4,11 @@
       "Bash(node -e \"const {articles} = require\\('./data/blog.ts'\\); console.log\\('Articles:', articles?.length\\)\")",
       "Bash(npx tsc *)",
       "Bash(git add *)",
-      "Bash(git commit -m ' *)"
+      "Bash(git commit -m ' *)",
+      "PowerShell(netstat -ano)",
+      "PowerShell(Get-Process -Id 6880 -ErrorAction SilentlyContinue)",
+      "PowerShell(try { $r = Invoke-WebRequest -Uri \"http://localhost:3001/\" -TimeoutSec 30 -UseBasicParsing; $r.StatusCode } catch { $_.Exception.Message })",
+      "PowerShell(Stop-Process -Id 4616, 6880 -Force -ErrorAction SilentlyContinue)"
     ]
   }
 }

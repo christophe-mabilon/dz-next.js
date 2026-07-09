@@ -25,8 +25,8 @@ export default function ServicesPage() {
         badge="Services • Bourgoin-Jallieu • Nord-Isère"
         title="Nos"
         highlight="Services"
-        description="${business.name} vous accompagne pour vos travaux de maçonnerie générale, terrassement, dalle béton, rénovation, extension maison et ouverture mur porteur dans toute l’Isère."
-        image="/images/realisations/chantier_maçonnerie.avif"
+        description={`${business.name} réalise vos travaux de maçonnerie générale, terrassement, fondations, dalles béton, extensions de maison, murs porteurs avec pose d'IPN, terrasses et rénovations à Bourgoin-Jallieu, Artas et dans tout le Nord-Isère.`}
+        image="/images/realisations/artisan-macon-bourgoin-jallieu-terrasse-gres-cerame-dz-maconnerie-terrassement.webp"
         imageAlt="Services de maçonnerie et terrassement en Nord-Isère"
         primaryButtonText="Demander un devis"
         primaryButtonHref="/contact"
@@ -373,8 +373,8 @@ export default function ServicesPage() {
 
           <div className="space-y-6 leading-relaxed text-gray-600">
             <p>
-              {business.name} accompagne les particuliers et professionnels
-              pour tous leurs travaux de maçonnerie générale à Bourgoin-Jallieu,
+              {business.name} accompagne les particuliers et professionnels pour
+              tous leurs travaux de maçonnerie générale à Bourgoin-Jallieu,
               Artas, Villefontaine, Vienne et dans toute l’Isère.
             </p>
 
@@ -404,7 +404,7 @@ export default function ServicesPage() {
           </h2>
 
           <p className="mx-auto mb-10 max-w-2xl text-xl text-primary-50">
-            Contactez ${business.name} pour discuter de votre projet en Isère.
+            Contactez {business.name} pour discuter de votre projet en Isère.
           </p>
 
           <div className="flex flex-col items-center justify-center gap-4 sm:flex-row">

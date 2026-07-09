@@ -1,22 +1,23 @@
-// app/page.tsx
 import { cities } from "@/data/cities";
 import Image from "next/image";
 import Link from "next/link";
+import { Metadata } from "next";
 import { ArrowRight, CheckCircle2, Phone } from "lucide-react";
 import HeroSection from "@/components/sections/hero/HeroSection";
 import { siteConfig } from "@/data/config";
 
 const { business } = siteConfig;
 
-export const metadata = {
-  title: "Maçon à Bourgoin-Jallieu | Terrassement & Rénovation en Nord-Isère",
+export const metadata: Metadata = {
+  title:
+    "Artisan Maçon à Bourgoin-Jallieu | Construction, Rénovation & Terrassement | DZ Maçonnerie & Terrassement",
   description:
     "Entreprise de maçonnerie à Bourgoin-Jallieu et en Isère. Terrassement, dalle béton, ouverture mur porteur, rénovation et extension maison. Devis gratuit sous 24h.",
   alternates: {
     canonical: "https://www.dzmaconnerie38.fr",
   },
   openGraph: {
-    title: "${business.name} - Maçon à Bourgoin-Jallieu",
+    title: `Artisan maçon à Bourgoin-Jallieu | Construction, rénovation & terrassement | ${business.name}`,
     description:
       "Travaux de maçonnerie, terrassement, rénovation et extension en Isère.",
     url: "https://www.dzmaconnerie38.fr",
@@ -28,7 +29,7 @@ export const metadata = {
         url: "/images/og-home.jpg",
         width: 1200,
         height: 630,
-        alt: "${business.name}",
+        alt: "DZ Maçonnerie & Terrassement",
       },
     ],
   },
@@ -37,19 +38,20 @@ export const metadata = {
 const services = [
   {
     title: "Maçonnerie générale",
-    description: "Construction et rénovation en maçonnerie.",
+    description:
+      "Artisan maçon à Artas près de Bourgoin-Jallieu. Construction, rénovation, extension de maison, terrassement, fondations, terrasses, murs porteurs, piscines et aménagements extérieurs. Devis gratuit.",
     href: "/services/maconnerie-generale",
   },
   {
     title: "Terrassement",
     description:
-      "Préparation de terrain, fondations et nivellement pour tous vos projets.",
+      "Terrassement, décaissement, nivellement, évacuation des terres, préparation de terrain et fondations pour maison, terrasse, piscine et garage.",
     href: "/services/terrassement",
   },
   {
     title: "Dalle béton",
     description:
-      "Création de dalles béton solides pour terrasse, maison, garage et piscine.",
+      "Création de dalle béton armée pour terrasse, garage, maison, piscine, extension et bâtiment industriel.",
     href: "/services/dalle-beton",
   },
   {
@@ -60,7 +62,8 @@ const services = [
   },
   {
     title: "Extension maison",
-    description: "Agrandissement et extension de maison sur mesure en Isère.",
+    description:
+      "Construction d'extension de maison en parpaing, béton ou brique avec fondations et dalle béton.",
     href: "/services/extension-maison",
   },
   {
@@ -81,7 +84,7 @@ export default function HomePage() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
-            name: "${business.name}",
+            name: business.name,
             image: "https://www.dzmaconnerie38.fr/images/og-home.jpg",
             url: "https://www.dzmaconnerie38.fr",
             telephone: "+33688144257",
@@ -102,12 +105,12 @@ export default function HomePage() {
       />
       {/* HERO */}
       <HeroSection
-        badge="Bourgoin-Jallieu • Artas • Isère"
-        title="DZ Maçonnerie &"
-        highlight="Terrassement"
-        description="Entreprise de maçonnerie à Bourgoin-Jallieu spécialisée en terrassement, dalle béton, rénovation, extension maison et ouverture mur porteur dans toute l’Isère."
-        image="/images/realisations/chantier_maçonnerie.avif"
-        imageAlt="Rénovation chantier béton réalisée à Bourgoin-Jallieu par ${business.name}"
+        badge="Artisan maçon • Bourgoin-Jallieu • Nord-Isère"
+        title="Artisan Maçon"
+        highlight="Bourgoin-Jallieu"
+        description="Entreprise de maçonnerie générale située à Artas, près de Bourgoin-Jallieu, spécialisée dans la construction, la rénovation, les extensions de maison, les terrasses, le terrassement, les fondations, les dalles béton et l'ouverture de murs porteurs. Déplacement dans tout le Nord-Isère."
+        image="/images/realisations/artisan-macon-bourgoin-jallieu-terrasse-gres-cerame-dz-maconnerie-terrassement.webp"
+        imageAlt={`Réalisation de maçonnerie à Bourgoin-Jallieu par ${business.name}`}
         primaryButtonText="Demander un devis"
         primaryButtonHref="/contact"
         secondaryButtonText={business.phone.replace("+33", "0")}
@@ -190,7 +193,7 @@ export default function HomePage() {
           <div className="relative h-[500px] overflow-hidden rounded-3xl">
             <Image
               src="/images/chantiers/artisan-macon.webp"
-              alt="Travaux de maçonnerie en Isère"
+              alt="Artisan maçon réalisant des travaux de maçonnerie générale près de Bourgoin-Jallieu en Isère"
               fill
               className="object-cover object-[65%_center] md:object-center transition duration-500 hover:scale-105"
             />
@@ -416,8 +419,8 @@ export default function HomePage() {
 
           <div className="space-y-6 leading-relaxed text-gray-600">
             <p>
-              {business.name} accompagne les particuliers et professionnels
-              pour tous leurs travaux de maçonnerie générale à Bourgoin-Jallieu,
+              {business.name} accompagne les particuliers et professionnels pour
+              tous leurs travaux de maçonnerie générale à Bourgoin-Jallieu,
               Artas, Villefontaine, Vienne et dans toute l’Isère.
             </p>
 

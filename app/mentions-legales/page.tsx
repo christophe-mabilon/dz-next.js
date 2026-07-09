@@ -25,7 +25,7 @@ export default function MentionsLegales() {
         title="Mentions"
         highlight="Légales"
         description={`Consultez les informations légales et les conditions d’utilisation du site ${business.name}.`}
-        image="/images/realisations/chantier_maçonnerie.avif"
+        image="/images/realisations/artisan-macon-bourgoin-jallieu-terrasse-gres-cerame-dz-maconnerie-terrassement.webp"
         imageAlt={`Mentions légales ${business.name}`}
         primaryButtonText="Nous contacter"
         primaryButtonHref="/contact"

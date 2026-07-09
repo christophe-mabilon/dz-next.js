@@ -1,5 +1,5 @@
 import type { MetadataRoute } from "next";
-
+import { siteConfig } from "@/data/config";
 export default function robots(): MetadataRoute.Robots {
   return {
     rules: [
@@ -14,6 +14,6 @@ export default function robots(): MetadataRoute.Robots {
       },
     ],
 
-    sitemap: "https://www.dzmaconnerie.fr/sitemap.xml",
+    sitemap: `${siteConfig}/sitemap.xml`,
   };
 }

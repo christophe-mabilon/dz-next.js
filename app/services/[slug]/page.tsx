@@ -85,7 +85,7 @@ export default async function ServicePage(props: ServicePageProps) {
         badge={`Services • ${business.city} • Nord-Isère`}
         title={service.name}
         description={service.description}
-        image="/images/realisations/chantier_maçonnerie.avif"
+        image="/images/realisations/artisan-macon-bourgoin-jallieu-terrasse-gres-cerame-dz-maconnerie-terrassement.webp"
         imageAlt={service.name}
         primaryButtonText="Demander un devis"
         primaryButtonHref="/contact"

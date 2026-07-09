@@ -99,12 +99,12 @@ export default function ContactPage() {
         title="Contactez"
         highlight="DZ Maçonnerie"
         description={`Besoin d’un devis pour vos travaux de maçonnerie, terrassement, dalle béton, rénovation ou extension maison en Isère ? Contactez ${business.name} pour une réponse rapide.`}
-        image="/images/realisations/chantier_maçonnerie.avif"
+        image="/images/realisations/artisan-macon-bourgoin-jallieu-terrasse-gres-cerame-dz-maconnerie-terrassement.webp"
         imageAlt={`Contact ${business.name}`}
         primaryButtonText="Demander un devis"
         primaryButtonHref="/contact"
         secondaryButtonText={business.phone.replace("+33", "0")}
-                cards={[
+        cards={[
           {
             icon: "hammer",
             title: "Devis gratuit",
@@ -239,7 +239,9 @@ export default function ContactPage() {
 
                     <div className="space-y-1 text-gray-700">
                       {business.openingHoursDisplay?.map((hour) => (
-                        <p key={hour.day}>{hour.day}: {hour.hours}</p>
+                        <p key={hour.day}>
+                          {hour.day}: {hour.hours}
+                        </p>
                       ))}
                     </div>
                   </div>
