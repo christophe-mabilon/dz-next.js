@@ -55,7 +55,7 @@ export function generateLocalBusinessSchema() {
     url: siteConfig.siteUrl,
 
     image: [
-      `${siteConfig.siteUrl}/og-image.jpg`,
+      `${siteConfig.siteUrl}/images/og-image.jpg`,
       `${siteConfig.siteUrl}/images/hero/hero-maconnerie.avif`,
     ],
 

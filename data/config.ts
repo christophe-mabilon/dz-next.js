@@ -63,7 +63,7 @@ export const siteConfig: SiteConfig = {
     "Entreprise de maçonnerie générale située à Artas près de Bourgoin-Jallieu. Construction, rénovation, extension de maison, terrassement, fondations, terrasses, murs porteurs avec IPN, piscines maçonnées et aménagements extérieurs. Devis gratuit et garantie décennale.",
 
   siteUrl: "https://www.dzmaconnerie38.fr",
-  ogImage: "/og-image.jpg",
+  ogImage: "/images/og-image.jpg",
   locale: "fr_FR",
   business: {
     name: "DZ Maçonnerie & Terrassement",
