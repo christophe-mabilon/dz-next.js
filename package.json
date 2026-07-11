@@ -12,7 +12,8 @@
     "check-all": "npm run type-check && npm run lint",
     "cities:enrich": "node scripts/enrich-cities.mjs",
     "cities:build": "node scripts/build-cities.mjs",
-    "cities:all": "node scripts/enrich-cities.mjs && node scripts/build-cities.mjs"
+    "cities:all": "node scripts/enrich-cities.mjs && node scripts/build-cities.mjs",
+    "reviews:fetch": "node scripts/fetch-reviews.mjs"
   },
   "dependencies": {
     "@tailwindcss/typography": "^0.5.19",

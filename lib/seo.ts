@@ -2,6 +2,7 @@ import { Metadata } from "next";
 import { siteConfig } from "@/data/config";
 import { services } from "@/data/services";
 import { reviews } from "@/data/reviews";
+import reviewsLive from "@/data/reviews-live.json";
 
 export function generateMetadata(
   title: string,
@@ -46,13 +47,26 @@ export function generateMetadata(
 // LocalBusiness Schema (nœud central du graphe, référencé partout via @id)
 export const BUSINESS_ID = `${siteConfig.siteUrl}/#business`;
 
+// Note et volume d'avis : données Google live (scripts/fetch-reviews.mjs)
+// en priorité, sinon calcul depuis les avis manuels de data/reviews.ts.
+export function getRatingSummary() {
+  if (reviewsLive.ratingValue && reviewsLive.reviewCount) {
+    return {
+      ratingValue: String(reviewsLive.ratingValue),
+      reviewCount: String(reviewsLive.reviewCount),
+    };
+  }
+  if (!reviews.length) return undefined;
+  return {
+    ratingValue: (
+      reviews.reduce((sum, r) => sum + (r.rating ?? 5), 0) / reviews.length
+    ).toFixed(1),
+    reviewCount: String(reviews.length),
+  };
+}
+
 export function generateLocalBusinessSchema() {
-  // note moyenne calculée depuis les avis réels
-  const ratingValue = reviews.length
-    ? (
-        reviews.reduce((sum, r) => sum + (r.rating ?? 5), 0) / reviews.length
-      ).toFixed(1)
-    : undefined;
+  const rating = getRatingSummary();
 
   return {
     "@context": "https://schema.org",
@@ -150,13 +164,13 @@ export function generateLocalBusinessSchema() {
       })),
     },
 
-    aggregateRating: ratingValue
+    aggregateRating: rating
       ? {
           "@type": "AggregateRating",
-          ratingValue,
+          ratingValue: rating.ratingValue,
           bestRating: "5",
           worstRating: "1",
-          reviewCount: String(reviews.length),
+          reviewCount: rating.reviewCount,
         }
       : undefined,
 
@@ -322,17 +336,19 @@ export function generateReviewsSchema(
       reviewBody: r.text,
       ...(r.service ? { about: r.service } : {}),
     })),
-    aggregateRating: items.length
-      ? {
+    // note/volume : Google live si dispo (getRatingSummary), sinon la liste affichée
+    aggregateRating: (() => {
+      const rating = getRatingSummary();
+      if (rating)
+        return {
           "@type": "AggregateRating",
-          ratingValue: (
-            items.reduce((s, r) => s + r.rating, 0) / items.length
-          ).toFixed(1),
+          ratingValue: rating.ratingValue,
           bestRating: "5",
           worstRating: "1",
-          reviewCount: String(items.length),
-        }
-      : undefined,
+          reviewCount: rating.reviewCount,
+        };
+      return undefined;
+    })(),
   };
 }
 

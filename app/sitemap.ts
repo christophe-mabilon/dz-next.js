@@ -20,6 +20,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/blog",
     "/avis",
     "/villes",
+    "/a-propos",
+    "/partenaires",
     "/mentions-legales",
     "/politique-confidentialite",
     "/conditions",

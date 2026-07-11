@@ -33,6 +33,7 @@ export function Header() {
     { href: "/services", label: "Services" },
     { href: "/realisations", label: "Réalisations" },
     { href: "/avis", label: "Avis clients" },
+    { href: "/a-propos", label: "À propos" },
     { href: "/blog", label: "Blog" },
     { href: "/contact", label: "Contact" },
   ];
