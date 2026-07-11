@@ -471,11 +471,12 @@ export default function AvisPage() {
               Un projet bien préparé, c&apos;est un chantier réussi.
             </p>
             <p className="mx-auto mb-8 max-w-8xl text-lg text-gray-600">
-              Nous prenons le temps d&apos;étudier votre demande sur place afin de vous proposer un <strong>devis précis, gratuit et sans engagement</strong>, accompagné de conseils adaptés à votre projet.
+              Nous prenons le temps d&apos;étudier votre demande sur place afin
+              de vous proposer un{" "}
+              <strong>devis précis, gratuit et sans engagement</strong>,
+              accompagné de conseils adaptés à votre projet.
             </p>
-            <p className="mb-5">
-              <strong>Vous ne risquez rien, sauf d'être convaincu.</strong>
-            </p>
+
             <div className="flex flex-col items-center justify-center gap-4 sm:flex-row">
               <Link
                 href="/contact"
