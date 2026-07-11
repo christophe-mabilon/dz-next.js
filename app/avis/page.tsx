@@ -125,6 +125,15 @@ export default function AvisPage() {
       {/* STATS */}
       <section className="section-padding bg-white">
         <div className="mx-auto max-w-8xl px-6 lg:px-8">
+          <div className="mb-12 text-center">
+            <h2 className="mb-3 text-3xl font-black text-gray-900">
+              La confiance de nos clients en quelques chiffres
+            </h2>
+            <p className="mx-auto max-w-2xl text-gray-600">
+              Des chiffres qui ne mentent pas : ils sont le reflet direct des
+              avis laissés par nos clients en Nord-Isère.
+            </p>
+          </div>
           <div className="mb-12 grid grid-cols-2 gap-6 lg:grid-cols-4">
             {stats.map((stat, idx) => (
               <div
