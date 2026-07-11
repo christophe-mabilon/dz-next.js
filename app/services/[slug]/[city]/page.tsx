@@ -409,7 +409,11 @@ export default async function CombinedServiceCityPage(
         </div>
       </section>
 
-      <DynamicFooter currentCitySlug={cityData.slug} />
+      <DynamicFooter
+        currentCitySlug={cityData.slug}
+        serviceSlug={service.slug}
+        serviceName={service.name}
+      />
     </>
   );
 }
