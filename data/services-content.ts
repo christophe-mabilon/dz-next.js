@@ -1,0 +1,313 @@
+import { SeoFaq } from "@/types";
+
+/**
+ * Contenu éditorial spécifique par service : FAQ métier + avantages.
+ * Rédigé à la main (pas de template) pour que chaque page service ait un
+ * contenu réellement distinct — clé anti-duplication et rich snippets FAQ.
+ */
+
+export const serviceFaqs: Record<string, SeoFaq[]> = {
+  "maconnerie-neuf": [
+    {
+      question: "Quelles normes respectez-vous pour une construction neuve ?",
+      answer:
+        "Nos constructions respectent les DTU maçonnerie (20.1, 13.3), la réglementation environnementale RE2020 et les règles parasismiques applicables en Isère (zone de sismicité 3 modérée). Chaque chantier démarre par une étude de sol conforme.",
+    },
+    {
+      question: "Réalisez-vous uniquement le gros œuvre ou aussi le clos couvert ?",
+      answer:
+        "Nous réalisons le gros œuvre complet : fondations, soubassement, élévation des murs, planchers et chaînages. Nous pouvons livrer hors d'eau hors d'air en coordination avec charpentier et menuisier partenaires.",
+    },
+    {
+      question: "Quel délai pour le gros œuvre d'une maison individuelle ?",
+      answer:
+        "Comptez généralement 3 à 5 mois pour le gros œuvre d'une maison de plain-pied de 100 m², selon la complexité du terrain et la météo. Un planning précis est remis avec le devis.",
+    },
+    {
+      question: "Travaillez-vous avec des constructeurs ou uniquement des particuliers ?",
+      answer:
+        "Les deux : nous intervenons en direct pour les particuliers qui font construire en maîtrise d'œuvre, et en sous-traitance gros œuvre pour des constructeurs et architectes du Nord-Isère.",
+    },
+  ],
+  "renovation-maconnerie": [
+    {
+      question: "Pouvez-vous rénover des murs en pisé, fréquents dans le Nord-Isère ?",
+      answer:
+        "Oui. Le bâti ancien du Nord-Isère compte beaucoup de constructions en pisé (terre crue). Nous utilisons des enduits à la chaux respirants et évitons le ciment qui piège l'humidité et dégrade ces murs.",
+    },
+    {
+      question: "Comment traitez-vous les fissures sur une façade ?",
+      answer:
+        "Nous diagnostiquons d'abord l'origine (retrait-gonflement des argiles, tassement, défaut de chaînage). Selon le cas : agrafage, reprise en sous-œuvre, joint de dilatation, puis réfection de l'enduit. Une fissure évolutive justifie un suivi avant réparation.",
+    },
+    {
+      question: "Faut-il une autorisation pour un ravalement de façade ?",
+      answer:
+        "Un ravalement à l'identique nécessite une déclaration préalable dans la plupart des communes. Si l'aspect change (couleur, enduit), consultez le PLU. Nous vous aidons à préparer le dossier.",
+    },
+    {
+      question: "Quel prix au m² pour un enduit de façade ?",
+      answer:
+        "Selon l'état du support et la finition (grattée, talochée, projetée), comptez généralement entre 40 et 80 €/m² fourniture et pose. Le devis après visite est gratuit et détaillé poste par poste.",
+    },
+  ],
+  "agrandissement-maison": [
+    {
+      question: "Permis de construire ou déclaration préalable pour agrandir ?",
+      answer:
+        "Jusqu'à 40 m² d'emprise en zone urbaine avec PLU, une déclaration préalable suffit ; au-delà, permis de construire. Si la surface totale dépasse 150 m² après travaux, le recours à un architecte devient obligatoire.",
+    },
+    {
+      question: "Une surélévation est-elle possible sur ma maison ?",
+      answer:
+        "Cela dépend de la capacité des fondations et murs porteurs à reprendre la charge. Nous réalisons une étude de structure préalable ; si nécessaire, un renforcement des fondations est chiffré dans le devis.",
+    },
+    {
+      question: "Quel budget pour un agrandissement de 30 m² ?",
+      answer:
+        "En gros œuvre, comptez généralement 1 200 à 1 800 €/m² selon le terrain, l'accès et la complexité de la jonction avec l'existant. Une surélévation coûte davantage qu'une extension au sol.",
+    },
+    {
+      question: "Peut-on habiter la maison pendant les travaux ?",
+      answer:
+        "Oui dans la grande majorité des cas : l'ouverture vers l'existant est réalisée en fin de chantier, ce qui limite poussière et nuisances au strict minimum.",
+    },
+  ],
+  "extension-maison": [
+    {
+      question: "Comment garantir la liaison entre l'extension et la maison ?",
+      answer:
+        "La jonction est le point critique : nous désolidarisons les fondations (joint de rupture) pour éviter les fissures liées aux tassements différentiels, et nous soignons l'étanchéité et le raccord de toiture.",
+    },
+    {
+      question: "L'extension doit-elle avoir les mêmes fondations que la maison ?",
+      answer:
+        "Pas nécessairement : les fondations de l'extension sont dimensionnées d'après l'étude de sol récente. Sur terrain argileux, fréquent en Nord-Isère, elles descendent souvent plus profond que celles de l'existant.",
+    },
+    {
+      question: "Extension en parpaing ou en brique ?",
+      answer:
+        "Les deux se pratiquent. Le parpaing offre le meilleur rapport solidité/prix ; la brique apporte une meilleure inertie. Nous conseillons selon le bâti existant, la performance visée et votre budget.",
+    },
+    {
+      question: "Quelle durée de chantier pour une extension de 20-30 m² ?",
+      answer:
+        "Le gros œuvre demande en général 6 à 10 semaines : terrassement, fondations, élévation, plancher/toiture, jonction. Les finitions intérieures s'ajoutent selon les corps d'état choisis.",
+    },
+  ],
+  "piscine-terrasse": [
+    {
+      question: "Réalisez-vous la piscine complète ou uniquement le bassin maçonné ?",
+      answer:
+        "Nous réalisons le terrassement, le bassin béton (radier + murs banchés ou blocs à bancher), les plages et la terrasse. L'étanchéité, le liner et la filtration sont posés par nos pisciniers partenaires.",
+    },
+    {
+      question: "Quelle terrasse autour d'une piscine : béton, bois, carrelage ?",
+      answer:
+        "Le béton (désactivé, balayé ou drainant) est antidérapant, durable et sans entretien — idéal en plage de piscine. Le grès cérame sur plots est une belle alternative. Nous chiffrons les deux options.",
+    },
+    {
+      question: "Faut-il un permis pour une piscine enterrée ?",
+      answer:
+        "De 10 à 100 m² de bassin, une déclaration préalable suffit dans la plupart des cas. Un abri de plus de 1,80 m de haut ou un bassin de plus de 100 m² exigent un permis de construire.",
+    },
+    {
+      question: "Quelle est la meilleure période pour construire une piscine ?",
+      answer:
+        "L'automne et l'hiver : le terrassement se planifie plus facilement, et la piscine est prête pour l'été. Les sols du Nord-Isère se prêtent bien aux chantiers hors gel.",
+    },
+  ],
+  "clotures-murs": [
+    {
+      question: "Quelle hauteur maximale pour un mur de clôture ?",
+      answer:
+        "La règle générale du Code civil prévoit 2,60 m dans les communes de moins de 50 000 habitants, mais le PLU local peut fixer d'autres limites. Nous vérifions systématiquement les règles de votre commune avant le devis.",
+    },
+    {
+      question: "Mur de soutènement : quelles précautions sur terrain en pente ?",
+      answer:
+        "Un mur de soutènement reprend la poussée des terres : il exige un dimensionnement béton armé, un drainage à l'arrière (drain + barbacanes) et des fondations adaptées. C'est un ouvrage technique que nous calculons, pas un simple mur.",
+    },
+    {
+      question: "Quel prix au mètre linéaire pour un mur de clôture ?",
+      answer:
+        "Pour un mur parpaing enduit de 1,60 à 2 m de haut, comptez généralement 150 à 300 €/ml selon fondation, hauteur et finition. Un mur de soutènement se chiffre après étude, la poussée des terres changeant tout.",
+    },
+    {
+      question: "La clôture doit-elle être déclarée en mairie ?",
+      answer:
+        "Dans la plupart des communes dotées d'un PLU, l'édification d'une clôture est soumise à déclaration préalable. Nous fournissons les plans nécessaires au dossier.",
+    },
+  ],
+  terrassement: [
+    {
+      question: "Quels engins utilisez-vous pour le terrassement ?",
+      answer:
+        "Mini-pelles de 1,8 à 8 tonnes selon l'accès, avec godets adaptés. Les accès étroits (moins de 2 m) ne sont pas un obstacle : nos mini-pelles passent par un portillon de jardin.",
+    },
+    {
+      question: "Que faites-vous des terres excavées ?",
+      answer:
+        "Trois options chiffrées au devis : réutilisation sur place (remblais, nivellement), régalage sur votre terrain, ou évacuation en filière agréée. L'évacuation représente souvent 30 à 40 % du budget terrassement.",
+    },
+    {
+      question: "Le terrassement est-il possible en hiver ?",
+      answer:
+        "Oui, sauf sol gelé en profondeur ou fortes pluies prolongées. Les terres argileuses du Nord-Isère se travaillent d'ailleurs mieux hors période de saturation en eau.",
+    },
+    {
+      question: "Réalisez-vous les VRD (tranchées, réseaux, assainissement) ?",
+      answer:
+        "Oui : tranchées de réseaux (eau, électricité, télécom), assainissement individuel ou raccordement au collectif, drainage périphérique et gestion des eaux pluviales.",
+    },
+  ],
+  "abri-de-jardin": [
+    {
+      question: "Quelle dalle pour un abri de jardin ?",
+      answer:
+        "Une dalle béton de 10 à 12 cm d'épaisseur, ferraillée, sur hérisson de graves compactées, avec un débord de 5 cm environ. Elle garantit la planéité et protège l'abri des remontées d'humidité.",
+    },
+    {
+      question: "Un abri de jardin nécessite-t-il une autorisation ?",
+      answer:
+        "Jusqu'à 5 m² : rien. De 5 à 20 m² : déclaration préalable. Au-delà de 20 m² : permis de construire. Attention aussi à la taxe d'aménagement, calculée dès 5 m².",
+    },
+    {
+      question: "Construisez-vous des abris maçonnés en dur ?",
+      answer:
+        "Oui : murs parpaing enduits, sur dalle béton, avec charpente simple. Plus durable qu'un abri bois et sans entretien, il peut aussi servir d'atelier ou de local technique piscine.",
+    },
+    {
+      question: "Quel délai pour une dalle d'abri de jardin ?",
+      answer:
+        "Le chantier type (terrassement, coffrage, ferraillage, coulage) se fait en 2 à 3 jours, plus 2 à 4 semaines de séchage avant le montage de l'abri selon la saison.",
+    },
+  ],
+  "dalle-beton": [
+    {
+      question: "Quelle épaisseur pour une dalle béton ?",
+      answer:
+        "12 cm pour une terrasse piétonne, 15 cm pour un garage ou un accès véhicule, avec treillis soudé adapté et béton dosé à 350 kg/m³. Sur les argiles du Nord-Isère, la préparation du support est aussi importante que la dalle elle-même.",
+    },
+    {
+      question: "Combien de temps de séchage avant utilisation ?",
+      answer:
+        "Circulation piétonne après 48-72 h, montage de cloisons après 1 semaine, résistance complète à 28 jours. Pour un carrelage, attendez 4 à 8 semaines selon l'épaisseur et la saison.",
+    },
+    {
+      question: "Dalle qui fissure : comment l'éviter ?",
+      answer:
+        "Support compacté, béton correctement dosé, treillis positionné à mi-épaisseur, joints de fractionnement tous les 20-25 m² et cure par temps chaud. Ce sont ces règles de l'art qui font la différence à 10 ans.",
+    },
+    {
+      question: "Quel prix au m² pour une dalle béton ?",
+      answer:
+        "Comptez généralement 60 à 90 €/m² pose comprise pour une dalle standard, davantage pour un béton décoratif (désactivé, quartz…) ou un accès difficile nécessitant une pompe à béton.",
+    },
+  ],
+  "dalles-sur-plot": [
+    {
+      question: "Quels avantages des dalles sur plots par rapport à une dalle béton ?",
+      answer:
+        "Pose sans colle ni joint, démontable, parfaite planéité même sur support irrégulier, et l'eau s'évacue dessous : pas de flaque ni de gel en surface. Idéal sur une étanchéité de toit-terrasse qu'il ne faut pas percer.",
+    },
+    {
+      question: "Sur quel support poser des dalles sur plots ?",
+      answer:
+        "Dalle béton existante, étanchéité de toiture-terrasse, ou lit de graves compactées. Les plots réglables (de 8 à 200 mm et plus) rattrapent les pentes et niveaux.",
+    },
+    {
+      question: "Grès cérame ou bois pour la finition ?",
+      answer:
+        "Le grès cérame 20 mm est ingélif, antidérapant et sans entretien — le choix le plus durable. Les lames bois ou composite se posent sur la même structure de plots avec lambourdes.",
+    },
+    {
+      question: "Les dalles sur plots conviennent-elles autour d'une piscine ?",
+      answer:
+        "Oui, à condition de choisir un grès cérame antidérapant (classement R11/C) et de soigner les rives. L'évacuation de l'eau sous les dalles évite les zones glissantes.",
+    },
+  ],
+};
+
+export const serviceBenefits: Record<string, string[]> = {
+  "maconnerie-neuf": [
+    "Étude de sol et fondations dimensionnées (zone sismique 3)",
+    "Respect des DTU et de la RE2020",
+    "Gros œuvre complet : fondations, murs, planchers, chaînages",
+    "Coordination possible jusqu'au hors d'eau hors d'air",
+    "Planning contractuel remis avec le devis",
+    "Garantie décennale sur la structure",
+  ],
+  "renovation-maconnerie": [
+    "Expérience du bâti ancien du Nord-Isère (pisé, pierre, mollasse)",
+    "Enduits chaux respirants adaptés aux murs anciens",
+    "Diagnostic fissures avant toute réparation",
+    "Accompagnement déclaration préalable de ravalement",
+    "Reprise en sous-œuvre maîtrisée",
+    "Garantie décennale sur les travaux structurels",
+  ],
+  "agrandissement-maison": [
+    "Étude de faisabilité structure avant engagement",
+    "Accompagnement permis de construire / DP",
+    "Surélévation ou extension au sol selon votre terrain",
+    "Jonction à l'existant sans désordre (joint de rupture)",
+    "Maison habitable pendant le chantier",
+    "Garantie décennale sur l'ouvrage complet",
+  ],
+  "extension-maison": [
+    "Fondations dimensionnées d'après étude de sol récente",
+    "Joint de rupture anti-fissures à la jonction",
+    "Parpaing ou brique selon bâti existant et budget",
+    "Gros œuvre en 6 à 10 semaines (20-30 m²)",
+    "Intégration architecturale soignée",
+    "Garantie décennale",
+  ],
+  "piscine-terrasse": [
+    "Bassin béton armé : radier et murs banchés",
+    "Terrassement et évacuation des terres inclus",
+    "Plages antidérapantes : désactivé, balayé, grès cérame",
+    "Coordination avec pisciniers partenaires",
+    "Chantier planifié hors saison pour un été dans l'eau",
+    "Garantie décennale sur la structure du bassin",
+  ],
+  "clotures-murs": [
+    "Vérification du PLU et des limites avant travaux",
+    "Murs de soutènement calculés (drainage, béton armé)",
+    "Fondations hors gel systématiques",
+    "Finitions enduit ou couvertine au choix",
+    "Dossier de déclaration préalable fourni",
+    "Garantie décennale sur les ouvrages",
+  ],
+  terrassement: [
+    "Mini-pelles adaptées aux accès étroits (dès 90 cm)",
+    "Devis distinguant réutilisation et évacuation des terres",
+    "Connaissance des sols argileux du Nord-Isère",
+    "VRD : tranchées, assainissement, eaux pluviales",
+    "Nivellement laser et fonds de forme compactés",
+    "Intervention rapide, y compris en hiver",
+  ],
+  "abri-de-jardin": [
+    "Dalle ferraillée sur hérisson compacté",
+    "Conseil autorisation (DP dès 5 m²) et taxe d'aménagement",
+    "Abris maçonnés en dur possibles",
+    "Chantier dalle en 2-3 jours",
+    "Implantation au cordeau et niveau laser",
+    "Devis gratuit sous 24h",
+  ],
+  "dalle-beton": [
+    "Épaisseur et ferraillage adaptés à l'usage (12-15 cm)",
+    "Béton dosé 350 kg/m³, joints de fractionnement",
+    "Support compacté : la garantie anti-fissures",
+    "Finitions : lissée, balayée, désactivée, quartz",
+    "Pompe à béton pour les accès difficiles",
+    "Garantie décennale",
+  ],
+  "dalles-sur-plot": [
+    "Pose sans percer l'étanchéité (toit-terrasse)",
+    "Plots réglables : rattrapage de pente parfait",
+    "Grès cérame 20 mm ingélif et antidérapant",
+    "Démontable pour accès aux réseaux",
+    "Évacuation de l'eau sous les dalles",
+    "Pose rapide et sans temps de séchage",
+  ],
+};

@@ -6,11 +6,13 @@ import { services, getServiceBySlug } from "@/data/services";
 import { cities } from "@/data/cities";
 import { articles } from "@/data/blog";
 import { getServiceArticles } from "@/lib/blogLinks";
+import { serviceFaqs, serviceBenefits } from "@/data/services-content";
 import HeroSection from "@/components/sections/hero/HeroSection";
 import {
   generateMetadata as generatePageMetadata,
   generateServiceSchema,
   generateBreadcrumbSchema,
+  generateFAQSchema,
 } from "@/lib/seo";
 import { siteConfig } from "@/data/config";
 
@@ -60,6 +62,17 @@ export default async function ServicePage(props: ServicePageProps) {
     { name: service.name, url: `/services/${service.slug}` },
   ];
 
+  const benefits = serviceBenefits[service.slug] ?? [
+    "Expertise reconnue depuis 10 ans",
+    "Équipe qualifiée et expérimentée",
+    "Garantie décennale",
+    "Respect des délais et du budget",
+    "Nettoyage du chantier inclus",
+    "Devis gratuit sans engagement",
+  ];
+
+  const faqs = serviceFaqs[service.slug] ?? [];
+
   return (
     <>
       {/* Schema */}
@@ -75,6 +88,14 @@ export default async function ServicePage(props: ServicePageProps) {
           ),
         }}
       />
+      {faqs.length > 0 && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(generateFAQSchema(faqs)),
+          }}
+        />
+      )}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
@@ -162,14 +183,7 @@ export default async function ServicePage(props: ServicePageProps) {
               Avantages de notre service
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 ">
-              {[
-                "Expertise reconnue depuis 10 ans",
-                "Équipe qualifiée et expérimentée",
-                "Garantie décennale",
-                "Respect des délais et du budget",
-                "Nettoyage du chantier inclus",
-                "Devis gratuit sans engagement",
-              ].map((benefit, idx) => (
+              {benefits.map((benefit, idx) => (
                 <div
                   key={idx}
                   className="
@@ -260,40 +274,39 @@ export default async function ServicePage(props: ServicePageProps) {
         <div className="mx-auto max-w-8xl px-6 lg:px-8">
           <div className="bg-gray-50 p-8 rounded-xl border border-gray-200">
             <h2 className="text-2xl font-bold text-gray-900 mb-8">
-              Questions fréquentes
+              Questions fréquentes — {service.name.toLowerCase()}
             </h2>
             <div className="space-y-8">
-              <div>
-                <h3 className="text-base font-semibold text-gray-900 mb-3">
-                  Quel est le délai de réalisation ?
-                </h3>
-                <p className="text-gray-700">
-                  Le délai dépend de l'importance et la complexité du chantier.
-                  Lors de notre visite gratuite, nous vous proposerons un
-                  planning détaillé et réaliste pour votre projet.
-                </p>
-              </div>
-              <div className="border-t border-gray-200 pt-6">
-                <h3 className="text-base font-semibold text-gray-900 mb-3">
-                  Disposez-vous d'assurances ?
-                </h3>
-                <p className="text-gray-700">
-                  Oui, nous bénéficions d'une garantie décennale et d'une
-                  assurance responsabilité civile professionnelle. Ces
-                  certifications garantissent la qualité et la fiabilité de nos
-                  prestations.
-                </p>
-              </div>
-              <div className="border-t border-gray-200 pt-6">
-                <h3 className="text-base font-semibold text-gray-900 mb-3">
-                  Puis-je obtenir un devis rapidement ?
-                </h3>
-                <p className="text-gray-700">
-                  Absolument ! Nous répondons à toutes les demandes sous 24h.
-                  Une visite gratuite sans engagement peut être organisée selon
-                  vos disponibilités.
-                </p>
-              </div>
+              {(faqs.length > 0
+                ? faqs
+                : [
+                    {
+                      question: "Quel est le délai de réalisation ?",
+                      answer:
+                        "Le délai dépend de l'importance et la complexité du chantier. Lors de notre visite gratuite, nous vous proposerons un planning détaillé et réaliste pour votre projet.",
+                    },
+                    {
+                      question: "Disposez-vous d'assurances ?",
+                      answer:
+                        "Oui, nous bénéficions d'une garantie décennale et d'une assurance responsabilité civile professionnelle.",
+                    },
+                    {
+                      question: "Puis-je obtenir un devis rapidement ?",
+                      answer:
+                        "Absolument ! Nous répondons à toutes les demandes sous 24h. Une visite gratuite sans engagement peut être organisée selon vos disponibilités.",
+                    },
+                  ]
+              ).map((faq, idx) => (
+                <div
+                  key={idx}
+                  className={idx > 0 ? "border-t border-gray-200 pt-6" : undefined}
+                >
+                  <h3 className="text-base font-semibold text-gray-900 mb-3">
+                    {faq.question}
+                  </h3>
+                  <p className="text-gray-700">{faq.answer}</p>
+                </div>
+              ))}
             </div>
           </div>
         </div>
