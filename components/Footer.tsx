@@ -8,8 +8,19 @@ import {
   ShieldCheck,
 } from "lucide-react";
 
-import { getRelatedCities } from "@/lib/getRelatedCities";
+import { cities } from "@/data/cities";
 import { siteConfig } from "@/data/config";
+
+// grandes villes stratégiques du secteur (mêmes liens sur tout le site) :
+// l'Isère (marché cœur) d'abord, puis les grandes villes du Rhône
+const footerCities = cities
+  .filter((c) => c.featured)
+  .sort(
+    (a, b) =>
+      Number(b.department === "38") - Number(a.department === "38") ||
+      (b.population ?? 0) - (a.population ?? 0),
+  )
+  .slice(0, 8);
 
 export function Footer() {
   const { business } = siteConfig;
@@ -105,13 +116,11 @@ export function Footer() {
           {/* ZONES */}
           <div>
             <h4 className="mb-6 text-base font-bold text-white">
-              Nos interventions en Isère
+              Nos principales zones d&apos;intervention
             </h4>
 
             <ul className="flex flex-wrap gap-3">
-              {getRelatedCities()
-                .slice(0, 8)
-                .map((city) => (
+              {footerCities.map((city) => (
                   <Link
                     key={city.slug}
                     href={`/villes/${city.slug}`}
@@ -132,6 +141,16 @@ export function Footer() {
                   </Link>
                 ))}
             </ul>
+
+            <p className="mt-5">
+              <Link
+                href="/villes"
+                className="inline-flex items-center gap-1 text-sm text-primary-400 transition hover:text-primary-300"
+              >
+                Voir les {cities.length} communes couvertes
+                <ArrowRight className="h-4 w-4" />
+              </Link>
+            </p>
           </div>
 
           {/* CONTACT */}
