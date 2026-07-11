@@ -148,7 +148,9 @@ export function Header() {
                 aria-label={`Téléphoner à ${business.name}`}
                 className="hidden items-center gap-3 rounded-xl bg-primary-500 px-5 py-3 font-semibold text-white transition hover:bg-primary-600 md:flex"
               >
-                <Phone className="h-4 w-4" />
+                <span className="flex h-9 w-9 flex-shrink-0 items-center justify-center rounded-full bg-primary-700 shadow-lg shadow-primary-900/40">
+                  <Phone className="h-4 w-4" />
+                </span>
 
                 <div className="flex flex-col leading-none">
                   <span className="text-xs text-primary-100">
