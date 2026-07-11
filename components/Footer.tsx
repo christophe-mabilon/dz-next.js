@@ -10,6 +10,7 @@ import {
 } from "lucide-react";
 
 import { cities } from "@/data/cities";
+import { services } from "@/data/services";
 import { siteConfig } from "@/data/config";
 
 // grandes villes stratégiques du secteur (mêmes liens sur tout le site) :
@@ -62,56 +63,28 @@ export function Footer() {
             </h4>
 
             <ul className="space-y-4 text-sm">
-              <li>
-                <Link
-                  href="/services/maconnerie-neuf"
-                  className="flex items-center gap-2 text-white-400 transition hover:text-primary-400"
-                >
-                  <Hammer className="h-4 w-4" />
-                  Maçonnerie générale
-                </Link>
-              </li>
-
-              <li>
-                <Link
-                  href="/services/terrassement"
-                  className="flex items-center gap-2 text-white-400 transition hover:text-primary-400"
-                >
-                  <Hammer className="h-4 w-4" />
-                  Terrassement
-                </Link>
-              </li>
-
-              <li>
-                <Link
-                  href="/services/extension-maison"
-                  className="flex items-center gap-2 text-white-400 transition hover:text-primary-400"
-                >
-                  <Hammer className="h-4 w-4" />
-                  Extension maison
-                </Link>
-              </li>
-
-              <li>
-                <Link
-                  href="/services/renovation-maconnerie"
-                  className="flex items-center gap-2 text-white-400 transition hover:text-primary-400"
-                >
-                  <Hammer className="h-4 w-4" />
-                  Rénovation
-                </Link>
-              </li>
-
-              <li>
-                <Link
-                  href="/services/dalle-beton"
-                  className="flex items-center gap-2 text-white-400 transition hover:text-primary-400"
-                >
-                  <Hammer className="h-4 w-4" />
-                  Dalle béton
-                </Link>
-              </li>
+              {services.map((service) => (
+                <li key={service.slug}>
+                  <Link
+                    href={`/services/${service.slug}`}
+                    className="flex items-center gap-2 text-white-400 transition hover:text-primary-400"
+                  >
+                    <Hammer className="h-4 w-4 flex-shrink-0" />
+                    {service.name}
+                  </Link>
+                </li>
+              ))}
             </ul>
+
+            <p className="mt-5">
+              <Link
+                href="/services"
+                className="inline-flex items-center gap-1 text-sm text-primary-400 transition hover:text-primary-300"
+              >
+                Tous nos services
+                <ArrowRight className="h-4 w-4" />
+              </Link>
+            </p>
           </div>
 
           {/* ZONES */}
