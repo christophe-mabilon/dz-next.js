@@ -4,6 +4,10 @@ import Image from "next/image";
 import { realisations } from "@/data/realisations";
 import HeroSection from "@/components/sections/hero/HeroSection";
 import { siteConfig } from "@/data/config";
+import {
+  generateCollectionSchema,
+  generateBreadcrumbSchema,
+} from "@/lib/seo";
 
 const { business } = siteConfig;
 const SITE_URL = siteConfig.siteUrl;
@@ -23,7 +27,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: `${SITE_URL}/images/og/realisations-og.jpg`,
+        url: `${SITE_URL}/images/og-image.jpg`,
         width: 1200,
         height: 630,
         alt: `Réalisations ${business.name}`,
@@ -34,7 +38,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: `Réalisations maçonnerie et terrassement en Nord-Isère | ${business.name}`,
     description: `Découvrez plusieurs chantiers réalisés par ${business.name}.`,
-    images: [`${SITE_URL}/images/og/realisations-og.jpg`],
+    images: [`${SITE_URL}/images/og-image.jpg`],
   },
   robots: {
     index: true,
@@ -46,33 +50,35 @@ const FALLBACK_IMAGE =
   "/images/realisations/artisan-macon-bourgoin-jallieu-terrasse-gres-cerame-dz-maconnerie-terrassement.webp";
 
 export default function RealisationsPage() {
-  const schema = {
-    "@context": "https://schema.org",
-    "@type": "CollectionPage",
-    name: `Réalisations ${business.name}`,
-    description: `Découvrez les chantiers réalisés par ${business.name} en Nord-Isère.`,
-    url: `${SITE_URL}/realisations`,
-    mainEntity: realisations.map((project) => ({
-      "@type": "ConstructionProject",
-      name: project.title,
-      description: project.description,
-      url: `${SITE_URL}/realisations/${project.slug}`,
-      image: project.images?.[0]
-        ? `${SITE_URL}${project.images[0].src}`
-        : undefined,
-      location: {
-        "@type": "Place",
-        name: project.city,
-      },
-    })),
-  };
-
   return (
     <main className="bg-white">
-      {/* SCHEMA */}
+      {/* SCHEMA (types schema.org valides uniquement) */}
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(
+            generateCollectionSchema(
+              `Réalisations ${business.name}`,
+              `Découvrez les chantiers réalisés par ${business.name} en Nord-Isère.`,
+              "/realisations",
+              realisations.map((p) => ({
+                name: p.title,
+                url: `/realisations/${p.slug}`,
+              })),
+            ),
+          ),
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(
+            generateBreadcrumbSchema([
+              { name: "Accueil", url: "/" },
+              { name: "Réalisations", url: "/realisations" },
+            ]),
+          ),
+        }}
       />
 
       {/* HERO */}

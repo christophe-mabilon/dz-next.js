@@ -6,7 +6,11 @@ import { services, getServiceBySlug } from "@/data/services";
 import { cities } from "@/data/cities";
 import { articles } from "@/data/blog";
 import { getServiceArticles } from "@/lib/blogLinks";
-import { serviceFaqs, serviceBenefits } from "@/data/services-content";
+import {
+  serviceFaqs,
+  serviceBenefits,
+  serviceEditorial,
+} from "@/data/services-content";
 import HeroSection from "@/components/sections/hero/HeroSection";
 import {
   generateMetadata as generatePageMetadata,
@@ -176,6 +180,25 @@ export default async function ServicePage(props: ServicePageProps) {
               {service.longDescription}
             </p>
           </div>
+
+          {/* Contenu éditorial spécifique au service */}
+          {(serviceEditorial[service.slug] ?? []).map((block) => (
+            <div key={block.title} className="mb-12">
+              <h2 className="mb-5 text-2xl font-bold text-gray-900">
+                {block.title}
+              </h2>
+              <div className="space-y-4">
+                {block.paragraphs.map((p, i) => (
+                  <p
+                    key={i}
+                    className="text-base leading-relaxed text-gray-700"
+                  >
+                    {p}
+                  </p>
+                ))}
+              </div>
+            </div>
+          ))}
 
           {/* Benefits */}
           <div className="mb-16">

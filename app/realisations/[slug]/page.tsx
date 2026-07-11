@@ -10,6 +10,13 @@ import {
   generateRealisationSchema,
   generateBreadcrumbSchema,
 } from "@/lib/seo";
+import {
+  materialsGlossary,
+  realisationServiceSlug,
+} from "@/data/realisations-content";
+import { services } from "@/data/services";
+import { getRelatedCities } from "@/lib/getRelatedCities";
+import { cities } from "@/data/cities";
 
 const { business } = siteConfig;
 
@@ -165,21 +172,83 @@ export default async function RealisationDetailPage({ params }: Props) {
 
           {realisation.materials && realisation.materials.length > 0 && (
             <div className="mt-10">
-              <h2 className="mb-4 text-xl font-bold text-gray-900">
-                Matériaux utilisés
+              <h2 className="mb-2 text-xl font-bold text-gray-900">
+                Matériaux et techniques : pourquoi ces choix ?
               </h2>
-              <div className="flex flex-wrap gap-2">
+              <p className="mb-6 text-gray-600">
+                Chaque matériau de ce chantier a été choisi pour une raison
+                précise. Voici lesquelles :
+              </p>
+              <dl className="grid gap-4 sm:grid-cols-2">
                 {realisation.materials.map((m) => (
-                  <span
+                  <div
                     key={m}
-                    className="rounded-full bg-primary-50 px-4 py-1.5 text-sm font-medium text-primary-700 border border-primary-200"
+                    className="rounded-xl border border-gray-200 bg-gray-50 p-4"
                   >
-                    {m}
-                  </span>
+                    <dt className="mb-1 font-semibold text-primary-700">{m}</dt>
+                    {materialsGlossary[m] && (
+                      <dd className="text-sm leading-relaxed text-gray-600">
+                        {materialsGlossary[m]}
+                      </dd>
+                    )}
+                  </div>
                 ))}
-              </div>
+              </dl>
             </div>
           )}
+
+          {/* Service associé + maillage local */}
+          {(() => {
+            const svcSlug = realisationServiceSlug[realisation.service];
+            const svc = services.find((s) => s.slug === svcSlug);
+            if (!svc) return null;
+            const cityMatch = cities.find(
+              (c) =>
+                c.name.localeCompare(realisation.city, "fr", {
+                  sensitivity: "base",
+                }) === 0,
+            );
+            const nearby = cityMatch
+              ? getRelatedCities(cityMatch.slug, 4)
+              : [];
+            return (
+              <div className="mt-12 rounded-2xl border border-gray-200 bg-gray-50 p-8">
+                <h2 className="mb-3 text-2xl font-bold text-gray-900">
+                  Ce savoir-faire près de chez vous
+                </h2>
+                <p className="mb-5 text-gray-600">
+                  Ce chantier illustre notre expertise en{" "}
+                  {svc.name.toLowerCase()}. Découvrez ce service en détail, ou
+                  directement pour votre commune :
+                </p>
+                <div className="flex flex-wrap gap-3">
+                  <Link
+                    href={`/services/${svc.slug}`}
+                    className="inline-flex items-center rounded-xl bg-primary-600 px-5 py-2.5 font-semibold text-white transition hover:bg-primary-700"
+                  >
+                    {svc.name} →
+                  </Link>
+                  {cityMatch && (
+                    <Link
+                      href={`/services/${svc.slug}/${cityMatch.slug}`}
+                      className="inline-flex items-center rounded-full border border-primary-300 bg-white px-4 py-2 text-sm text-primary-700 transition hover:bg-primary-50"
+                    >
+                      {svc.name} {realisation.city}
+                    </Link>
+                  )}
+                  {nearby.slice(0, 3).map((c) => (
+                    <Link
+                      key={c.slug}
+                      href={`/services/${svc.slug}/${c.slug}`}
+                      className="inline-flex items-center rounded-full border border-primary-300 bg-white px-4 py-2 text-sm text-primary-700 transition hover:bg-primary-50"
+                    >
+                      {svc.name} {c.name}
+                    </Link>
+                  ))}
+                </div>
+              </div>
+            );
+          })()}
 
           {/* CTA */}
           <div className="mt-12 rounded-2xl bg-primary-600 p-8 text-white">

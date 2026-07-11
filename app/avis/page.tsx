@@ -149,18 +149,12 @@ export default function AvisPage() {
             ))}
           </div>
 
-          {/* GOOGLE REVIEWS */}
+        </div>
+      </section>
 
-          {/* RATING OVERVIEW */}
-          <div
-            className="
-              border border-white/10
-              bg-gray-950
-              p-8
-              text-white
-              shadow-2xl
-            "
-          >
+      {/* GOOGLE REVIEWS — RATING OVERVIEW pleine largeur */}
+      <section className="bg-gray-950 py-16 text-white md:py-20">
+        <div className="mx-auto max-w-8xl px-6 lg:px-8">
             <div className="mb-4 text-center">
               <p
                 className="
@@ -409,6 +403,45 @@ export default function AvisPage() {
                 </div>
               </div>
             </div>
+        </div>
+      </section>
+
+      {/* NOTRE ENGAGEMENT QUALITÉ */}
+      <section className="section-padding bg-white">
+        <div className="mx-auto max-w-8xl px-6 lg:px-8">
+          <div className="mx-auto max-w-3xl text-center">
+            <p className="mb-3 text-lg font-semibold uppercase tracking-wide text-primary-600">
+              La qualité est notre fondation !
+            </p>
+            <h2 className="mb-6 text-3xl font-black text-gray-900">
+              La satisfaction de nos clients, notre meilleure publicité
+            </h2>
+          </div>
+          <div className="mx-auto max-w-3xl space-y-5 text-base leading-relaxed text-gray-700">
+            <p>
+              Notre slogan n&apos;est pas un simple jeu de mots de maçon : en
+              maçonnerie comme en relation client, tout repose sur des
+              fondations solides. Un chantier réussi commence par une écoute
+              attentive de votre projet, un devis transparent où chaque poste
+              est expliqué, et des engagements que nous tenons — sur la
+              qualité comme sur les délais.
+            </p>
+            <p>
+              Chaque avis publié sur cette page est celui d&apos;un vrai
+              client, pour un vrai chantier réalisé à Artas, Bourgoin-Jallieu,
+              Vienne ou ailleurs en Nord-Isère. Nous n&apos;avons rien à
+              maquiller : notre travail est visible, vérifiable, et il parle
+              pour nous. C&apos;est aussi pour cela que nous vous invitons à
+              consulter nos avis directement sur Google.
+            </p>
+            <p>
+              La satisfaction client n&apos;est pas un objectif marketing,
+              c&apos;est notre modèle économique : un artisan local vit de sa
+              réputation et des recommandations de ses clients. Chaque
+              chantier que nous livrons doit pouvoir devenir notre meilleure
+              carte de visite — celle que vous montrerez à vos voisins, votre
+              famille, vos collègues.
+            </p>
           </div>
         </div>
       </section>

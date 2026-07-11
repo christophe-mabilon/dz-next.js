@@ -85,7 +85,7 @@ export function generateLocalBusinessSchema() {
 
     priceRange: siteConfig.business.priceRange || "€€",
 
-    slogan: "Entreprise de maçonnerie et terrassement en Nord-Isère",
+    slogan: "La qualité est notre fondation !",
 
     knowsLanguage: "fr",
 
@@ -528,29 +528,5 @@ export function generateServiceFaq(service: string, city: string) {
   ];
 }
 
-export function generateProjectSchema(
-  title: string,
-  description: string,
-  image: string,
-  city: string,
-  url: string,
-) {
-  return {
-    "@context": "https://schema.org",
-
-    "@type": "ConstructionProject",
-
-    name: title,
-
-    description,
-
-    image,
-
-    url,
-
-    location: {
-      "@type": "City",
-      name: city,
-    },
-  };
-}
+// (generateProjectSchema supprimé : "ConstructionProject" n'est pas un type
+// schema.org valide — utiliser generateRealisationSchema à la place)
