@@ -428,19 +428,25 @@ export default function AvisPage() {
           <div className="mx-auto max-w-8xl space-y-5 text-base leading-relaxed text-gray-700">
             <p>
               Notre slogan n&apos;est pas un simple jeu de mots de maçon : en
-              maçonnerie comme en relation client, <strong>tout repose sur des fondations solides</strong>.{" "}
+              maçonnerie comme en relation client,{" "}
+              <strong>tout repose sur des fondations solides</strong>.{" "}
             </p>
             <p>
               Un chantier réussi commence par une écoute attentive de votre
-              projet, un <strong>devis transparent où chaque poste est expliqué</strong>, et des <strong>engagements que nous tenons</strong> — sur la qualité comme sur les délais.
+              projet, un{" "}
+              <strong>devis transparent où chaque poste est expliqué</strong>,
+              et des <strong>engagements que nous tenons</strong> — sur la
+              qualité comme sur les délais.
             </p>
             <p>
-              Chaque avis publié sur cette page est celui d&apos;un <strong>vrai client, pour un vrai chantier</strong> réalisé à Artas, Bourgoin-Jallieu, Vienne ou
-              ailleurs en Nord-Isère.
+              Chaque avis publié sur cette page est celui d&apos;un{" "}
+              <strong>vrai client, pour un vrai chantier</strong> réalisé à
+              Artas, Bourgoin-Jallieu, Vienne ou ailleurs en Nord-Isère.
             </p>
             <p>
               {" "}
-              Nous n&apos;avons rien à maquiller : notre travail est <strong>visible, vérifiable</strong>, et il parle pour nous.
+              Nous n&apos;avons rien à maquiller : notre travail est{" "}
+              <strong>visible, vérifiable</strong>, et il parle pour nous.
             </p>
             <p>
               C&apos;est aussi pour cela que nous vous invitons à consulter nos
@@ -448,29 +454,28 @@ export default function AvisPage() {
             </p>
             <p>
               La satisfaction client n&apos;est pas un objectif marketing,
-              <strong>c&apos;est notre modèle économique</strong> : un artisan local vit de sa
-              réputation et des recommandations de ses clients.
+              <strong>c&apos;est notre modèle économique</strong> : un artisan
+              local vit de sa réputation et des recommandations de ses clients.
             </p>
             <p>
               {" "}
-              Chaque chantier que nous livrons doit pouvoir devenir notre <strong>meilleure carte de visite</strong> — celle que vous montrerez à vos
-              voisins, votre famille, vos collègues.
+              Chaque chantier que nous livrons doit pouvoir devenir notre{" "}
+              <strong>meilleure carte de visite</strong> — celle que vous
+              montrerez à vos voisins, votre famille, vos collègues.
             </p>
           </div>
 
           {/* CTA */}
           <div className="mt-12 text-center">
-            <p className="mx-auto mb-2 max-w-8xl text-2xl font-black text-gray-900">
-              Votre projet mérite le même soin que ces chantiers.
+            <p className="mx-auto mb-2 max-w-8xl text-2xl font-black text-primary-600">
+              Un projet bien préparé, c&apos;est un chantier réussi.
             </p>
             <p className="mx-auto mb-8 max-w-8xl text-lg text-gray-600">
-              Visite sur place et devis détaillé <strong>gratuits</strong> :
-              sous 48h, vous saurez exactement ce que coûte votre projet — et
-              pourquoi.
+              Nous prenons le temps d&apos;étudier votre demande sur place afin de vous proposer un <strong>devis précis, gratuit et sans engagement</strong>, accompagné de conseils adaptés à votre projet.
             </p>
-            <strong className="mb-5">
-              Vous ne risquez rien, sauf d&apos;être convaincu.
-            </strong>
+            <p className="mb-5">
+              <strong>Vous ne risquez rien, sauf d'être convaincu.</strong>
+            </p>
             <div className="flex flex-col items-center justify-center gap-4 sm:flex-row">
               <Link
                 href="/contact"
