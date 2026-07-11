@@ -153,7 +153,7 @@ export function Header() {
                 </span>
 
                 <div className="flex flex-col leading-none">
-                  <span className="text-xs text-primary-100">
+                  <span className="text-xs text-white">
                     Devis gratuit
                   </span>
 
