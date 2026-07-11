@@ -127,7 +127,16 @@ export function introduction(c) {
   const terrain = c.commonIssues?.length
     ? ` Les terrains locaux présentent des enjeux de ${list(c.commonIssues, 2)}, que nous intégrons dès l'étude.`
     : "";
-  return `${intro} pour vos travaux de maçonnerie générale, terrassement, extension et rénovation.${hoods}${lm}${terrain}`
+  const scope = pick(
+    [
+      ` pour vos travaux de maçonnerie générale, terrassement, extension et rénovation.`,
+      ` pour tous vos projets de gros œuvre : dalle béton, murs, extension, terrassement.`,
+      ` pour vos chantiers de maçonnerie : terrasse, clôture, rénovation, terrassement.`,
+      ` pour vos travaux d'extension, de dalle béton, de murs et de terrassement.`,
+    ],
+    c.slug + "scope",
+  );
+  return `${intro}${scope}${hoods}${lm}${terrain}`
     .replace(/\s+/g, " ")
     .trim();
 }
@@ -150,24 +159,59 @@ export function faq(c) {
   const hood = c.neighborhoods?.length ? ` et notamment à ${list(c.neighborhoods, 3)}` : "";
   out.push({
     question: `Intervenez-vous à ${c.name} ?`,
-    answer: `Oui, DZ Maçonnerie intervient dans toute la commune de ${c.name}${hood}, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet.`,
+    answer: pick(
+      [
+        `Oui, DZ Maçonnerie intervient dans toute la commune de ${c.name}${hood}, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet.`,
+        `Oui, ${c.name}${hood} fait pleinement partie de notre zone d'intervention. Notre atelier est à Artas : la visite d'évaluation et le devis sont gratuits.`,
+        `Absolument : nous couvrons ${c.name}${hood} comme l'ensemble des communes alentour. Le déplacement pour l'étude de votre projet est offert.`,
+      ],
+      c.slug + "faq1",
+    ),
   });
 
   if (c.commonIssues?.length) {
     out.push({
-      question: `Quelles précautions pour construire à ${c.name} ?`,
-      answer: `Le secteur ${de(c.name)} peut présenter des enjeux de ${list(c.commonIssues, 2)}. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain.`,
+      question: pick(
+        [
+          `Quelles précautions pour construire à ${c.name} ?`,
+          `Y a-t-il des contraintes de terrain à ${c.name} ?`,
+          `Le terrain ${de(c.name)} pose-t-il des difficultés pour construire ?`,
+        ],
+        c.slug + "faq2q",
+      ),
+      answer: pick(
+        [
+          `Le secteur ${de(c.name)} peut présenter des enjeux de ${list(c.commonIssues, 2)}. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain.`,
+          `Oui, il faut composer avec ${list(c.commonIssues, 2)}. C'est pourquoi chaque chantier ${de(c.name)} démarre par une analyse du sol, qui guide le choix des fondations et du drainage.`,
+          `Les points de vigilance locaux sont ${list(c.commonIssues, 2)}. Nos techniques de gros œuvre en tiennent compte dès la conception, et le devis intègre ces spécificités.`,
+        ],
+        c.slug + "faq2",
+      ),
     });
   }
 
   out.push({
     question: `Quels travaux de maçonnerie réalisez-vous à ${c.name} ?`,
-    answer: `À ${c.name}, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet.`,
+    answer: pick(
+      [
+        `À ${c.name}, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet.`,
+        `Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à ${c.name}.`,
+        `Nos équipes interviennent à ${c.name} pour le terrassement, les fondations, les dalles béton, les murs, les extensions de maison et la rénovation.`,
+      ],
+      c.slug + "faq3",
+    ),
   });
 
   out.push({
     question: `Proposez-vous un devis gratuit à ${c.name} ?`,
-    answer: `Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à ${c.name}.`,
+    answer: pick(
+      [
+        `Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à ${c.name}.`,
+        `Oui : demande par téléphone ou via le formulaire, réponse sous 24h et visite sur place offerte à ${c.name}.`,
+        `Bien sûr, l'étude et le chiffrage de votre projet à ${c.name} sont entièrement gratuits, sans aucun engagement.`,
+      ],
+      c.slug + "faq4",
+    ),
   });
 
   return out;

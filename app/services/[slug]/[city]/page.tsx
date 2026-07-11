@@ -9,8 +9,11 @@ import { cities, getCityBySlug } from "@/data/cities";
 import {
   generateMetadata as generatePageMetadata,
   generateServiceSchema,
+  generateFAQSchema,
 } from "@/lib/seo";
+import { getRealisationsNearCity } from "@/lib/realisationLinks";
 import { siteConfig } from "@/data/config";
+import { deVille } from "@/lib/format";
 import { generateSeoTitle, generateSeoDescription } from "@/lib/seo-generators";
 import { generateLocalIntroduction } from "@/lib/seo-generators";
 import { generateSeoFaqs } from "@/lib/seo-generators";
@@ -67,6 +70,7 @@ export default async function CombinedServiceCityPage(
   if (!service || !cityData) notFound();
 
   const faqItems = generateSeoFaqs(service, cityData);
+  const nearbyWorks = getRealisationsNearCity(cityData.slug, 2);
   const gallery =
     service.galleryImages ?? (service.image ? [service.image] : []);
   const steps = service.processSteps ?? [
@@ -89,6 +93,12 @@ export default async function CombinedServiceCityPage(
               `${siteConfig.siteUrl}/services/${service.slug}/${cityData.slug}`,
             ),
           ),
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(generateFAQSchema(faqItems)),
         }}
       />
 
@@ -408,6 +418,47 @@ export default async function CombinedServiceCityPage(
           </Link>
         </div>
       </section>
+
+      {/* Réalisations proches (preuve locale) */}
+      {nearbyWorks.length > 0 && (
+        <section className="section-padding bg-gray-50">
+          <div className="mx-auto max-w-8xl px-6 lg:px-8">
+            <h2 className="mb-8 text-2xl font-bold text-gray-900">
+              Nos chantiers dans le secteur {deVille(cityData.name)}
+            </h2>
+            <div className="grid grid-cols-1 gap-6 sm:grid-cols-2">
+              {nearbyWorks.map(({ realisation, distanceKm }) => (
+                <Link
+                  key={realisation.slug}
+                  href={`/realisations/${realisation.slug}`}
+                  className="group flex gap-5 rounded-2xl border border-gray-200 bg-white p-5 shadow-sm transition hover:shadow-md"
+                >
+                  {realisation.images?.[0] && (
+                    <div className="relative h-24 w-32 flex-shrink-0 overflow-hidden rounded-xl">
+                      <Image
+                        src={realisation.images[0].src}
+                        alt={realisation.images[0].alt}
+                        fill
+                        className="object-cover transition duration-300 group-hover:scale-105"
+                      />
+                    </div>
+                  )}
+                  <div>
+                    <h3 className="font-bold leading-snug text-gray-900 group-hover:text-primary-600">
+                      {realisation.title}
+                    </h3>
+                    <p className="mt-1 text-sm text-gray-500">
+                      {realisation.city}
+                      {distanceKm > 0 && ` — à ${distanceKm} km`} •{" "}
+                      {realisation.date}
+                    </p>
+                  </div>
+                </Link>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
 
       <DynamicFooter
         currentCitySlug={cityData.slug}

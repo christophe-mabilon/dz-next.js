@@ -1,4 +1,5 @@
 import { City, Service, SeoFaq } from "@/types";
+import { deVille } from "@/lib/format";
 
 function getStableIndex(seed: string, length: number): number {
   const hash = seed
@@ -10,6 +11,13 @@ function getStableIndex(seed: string, length: number): number {
 
 function pickTemplate(templates: string[], seed: string): string {
   return templates[getStableIndex(seed, templates.length)];
+}
+
+// "a, b et c" (max n éléments)
+function listFr(items: string[] | undefined, max = 3): string {
+  const a = (items ?? []).slice(0, max);
+  if (a.length <= 1) return a[0] ?? "";
+  return a.slice(0, -1).join(", ") + " et " + a[a.length - 1];
 }
 
 /**
@@ -168,55 +176,49 @@ export function generateLocalIntroduction(
   service: Service,
   city: City,
 ): string {
+  const svc = service.name.toLowerCase();
+  const pop = city.population
+    ? `, commune de ${city.population.toLocaleString("fr-FR")} habitants`
+    : "";
+
   const introBlocks = [
-    `DZ Maçonnerie intervient à ${city.name} pour tous vos travaux de ${service.name.toLowerCase()}.`,
+    `DZ Maçonnerie intervient à ${city.name}${pop ? ` (${city.zipCode})${pop}` : ""}, pour tous vos travaux de ${svc}.`,
 
-    `Notre entreprise accompagne les habitants de ${city.name} pour leurs projets de ${service.name.toLowerCase()}.`,
+    `Notre entreprise accompagne les habitants ${deVille(city.name)}${pop} pour leurs projets de ${svc}.`,
 
-    `Vous recherchez un artisan spécialisé en ${service.name.toLowerCase()} à ${city.name} ?`,
+    `Vous recherchez un artisan spécialisé en ${svc} à ${city.name}${pop ? ` (${city.zipCode})` : ""} ? DZ Maçonnerie, basée à Artas, intervient dans toute la commune.`,
 
-    `DZ Maçonnerie réalise des prestations de ${service.name.toLowerCase()} à ${city.name} pour particuliers et professionnels.`,
+    `DZ Maçonnerie réalise des prestations de ${svc} à ${city.name}${pop} pour particuliers et professionnels.`,
   ];
 
-  const experienceBlocks = [
-    `Avec plus de 10 ans d’expérience dans le bâtiment, nous accompagnons tous types de projets.`,
+  // quartiers réels (OSM) — spécifique à chaque commune
+  const hoods = city.neighborhoods?.length
+    ? ` Nous intervenons dans tous les quartiers, notamment ${listFr(city.neighborhoods, 3)}.`
+    : "";
 
-    `Notre équipe intervient rapidement dans toute la région ${city.region}.`,
+  // contraintes réelles du terrain (Géorisques) croisées avec le service
+  const issues = city.commonIssues?.length
+    ? pickTemplate(
+        [
+          ` À ${city.name}, les terrains exigent une attention particulière : ${listFr(city.commonIssues, 2)}. Nous en tenons compte dès l'étude de votre projet de ${svc}.`,
 
-    `Nous réalisons des travaux sur mesure adaptés à votre terrain et votre budget.`,
+          ` Le secteur présente des enjeux de ${listFr(city.commonIssues, 2)} — notre équipe adapte les techniques de ${svc} en conséquence.`,
 
-    `Chaque chantier bénéficie d’un suivi personnalisé et d’une garantie décennale.`,
-  ];
-
-  const projectBlocks = [
-    `Nous réalisons régulièrement des terrasses béton, extensions maison et rénovations dans le secteur de ${city.name}.`,
-
-    `Nos prestations couvrent le gros œuvre, la rénovation et les aménagements extérieurs.`,
-
-    `Nous intervenons aussi pour les garages, murs de clôture et travaux de terrassement.`,
-
-    `Nos solutions sont adaptées aux maisons individuelles et terrains de la région.`,
-  ];
+          ` Particularité locale : ${listFr(city.commonIssues, 2)}. Chaque chantier de ${svc} démarre par une analyse du terrain.`,
+        ],
+        `${service.slug}-${city.slug}-issues`,
+      )
+    : "";
 
   const guaranteeBlocks = [
-    `Tous nos travaux sont couverts par une garantie décennale.`,
+    ` Tous nos travaux sont couverts par une garantie décennale, avec devis gratuit sous 24h.`,
 
-    `Nous proposons un devis gratuit et sans engagement.`,
+    ` Devis gratuit et sans engagement, garantie décennale sur l'ensemble du chantier.`,
 
-    `Notre équipe vous accompagne de l’étude du projet jusqu’à la livraison du chantier.`,
-
-    `Nous privilégions des matériaux de qualité et des finitions durables.`,
+    ` Notre équipe vous accompagne de l'étude du projet jusqu'à la livraison, garantie décennale incluse.`,
   ];
 
-  return `
-    ${pickTemplate(introBlocks, `${service.slug}-${city.slug}-intro`)}
-
-    ${pickTemplate(experienceBlocks, `${service.slug}-${city.slug}-experience`)}
-
-    ${pickTemplate(projectBlocks, `${service.slug}-${city.slug}-project`)}
-
-    ${pickTemplate(guaranteeBlocks, `${service.slug}-${city.slug}-guarantee`)}
-  `
+  return `${pickTemplate(introBlocks, `${service.slug}-${city.slug}-intro`)}${hoods}${issues}${pickTemplate(guaranteeBlocks, `${service.slug}-${city.slug}-guarantee`)}`
     .replace(/\s+/g, " ")
     .trim();
 }
@@ -241,29 +243,52 @@ export function generateSeoFaqs(service: Service, city?: City): SeoFaq[] {
     ];
   }
 
-  return [
+  const svc = service.name.toLowerCase();
+  const faqs: SeoFaq[] = [
     {
-      question: `Intervenez-vous à ${city.name} ?`,
+      question: `Intervenez-vous à ${city.name} pour des travaux de ${svc} ?`,
 
-      answer: `Oui, notre entreprise intervient à ${city.name} et dans les communes voisines pour tous types de travaux de ${service.name.toLowerCase()}.`,
-    },
-
-    {
-      question: `Quels travaux de ${service.name.toLowerCase()} réalisez-vous à ${city.name} ?`,
-
-      answer: `Nous réalisons des travaux de rénovation, terrassement, dalle béton, extension maison et gros œuvre à ${city.name}.`,
-    },
-
-    {
-      question: `Proposez-vous un devis gratuit à ${city.name} ?`,
-
-      answer: `Oui, nous proposons un devis gratuit et sans engagement pour tous vos projets à ${city.name}.`,
-    },
-
-    {
-      question: `Disposez-vous d’une garantie décennale ?`,
-
-      answer: `Oui, tous nos travaux sont couverts par une garantie décennale professionnelle.`,
+      answer: `Oui, DZ Maçonnerie (basée à Artas) intervient à ${city.name}${city.zipCode ? ` (${city.zipCode})` : ""} et dans les communes voisines pour tous types de travaux de ${svc}. Déplacement et devis gratuits.`,
     },
   ];
+
+  // question terrain — données Géorisques propres à la commune
+  if (city.commonIssues?.length) {
+    faqs.push({
+      question: `Quelles précautions pour ${svc ? `un chantier de ${svc}` : "construire"} à ${city.name} ?`,
+
+      answer: `Le secteur ${deVille(city.name)} présente des enjeux de ${listFr(city.commonIssues, 2)}${city.terrainTypes?.length ? ` (${listFr(city.terrainTypes, 2)})` : ""}. Nous adaptons fondations, drainage et mise en œuvre en conséquence, après étude du terrain.`,
+    });
+  }
+
+  // question quartiers — noms réels OSM
+  if (city.neighborhoods?.length) {
+    faqs.push({
+      question: `Intervenez-vous dans tous les quartiers ${deVille(city.name)} ?`,
+
+      answer: `Oui, nous couvrons l'ensemble de la commune : ${listFr(city.neighborhoods, 4)}… Aucun secteur ${deVille(city.name)} n'est hors zone.`,
+    });
+  }
+
+  faqs.push(
+    {
+      question: pickTemplate(
+        [
+          `Proposez-vous un devis gratuit à ${city.name} ?`,
+          `Combien coûtent des travaux de ${svc} à ${city.name} ?`,
+        ],
+        `${service.slug}-${city.slug}-faq-devis`,
+      ),
+
+      answer: `Chaque projet étant unique, nous établissons un devis gratuit et sans engagement sous 24h, après visite sur place à ${city.name}.`,
+    },
+
+    {
+      question: `Disposez-vous d'une garantie décennale ?`,
+
+      answer: `Oui, tous nos travaux de ${svc} sont couverts par une garantie décennale et une assurance responsabilité civile professionnelle.`,
+    },
+  );
+
+  return faqs;
 }

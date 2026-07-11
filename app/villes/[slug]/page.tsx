@@ -324,13 +324,10 @@ export default async function CityPage(props: CityPageProps) {
                         <h3 className="mb-1 font-bold leading-snug text-gray-900 group-hover:text-primary-600">
                           {realisation.title}
                         </h3>
-                        <p className="mb-2 text-sm text-gray-500">
+                        <p className="mb-2 flex-1 text-sm text-gray-500">
                           {realisation.city}
                           {distanceKm > 0 && ` — à ${distanceKm} km`} •{" "}
                           {realisation.date}
-                        </p>
-                        <p className="line-clamp-2 flex-1 text-sm text-gray-600">
-                          {realisation.description}
                         </p>
                         <span className="mt-3 text-sm font-semibold text-primary-600">
                           Voir le chantier →

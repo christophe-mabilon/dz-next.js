@@ -20,7 +20,7 @@ export const cities: City[] = [
       "longitude": 5.1676
     },
     "description": "Spécialiste gros œuvre à Artas (Isère, 1 799 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "DZ Maçonnerie intervient à Artas (1 799 habitants, Isère) pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Nous couvrons notamment L'Aberay. Le secteur compte des repères comme L'Homme debout et Artas, Berceau de la Fête des Mères, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "DZ Maçonnerie intervient à Artas (1 799 habitants, Isère) pour vos travaux d'extension, de dalle béton, de murs et de terrassement. Nous couvrons notamment L'Aberay. Le secteur compte des repères comme L'Homme debout et Artas, Berceau de la Fête des Mères, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Artas",
       "maçonnerie Artas",
@@ -78,7 +78,7 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Artas ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Artas et notamment à L'Aberay, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Absolument : nous couvrons Artas et notamment à L'Aberay comme l'ensemble des communes alentour. Le déplacement pour l'étude de votre projet est offert."
       },
       {
         "question": "Quelles précautions pour construire à Artas ?",
@@ -86,11 +86,11 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Artas ?",
-        "answer": "À Artas, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Artas."
       },
       {
         "question": "Proposez-vous un devis gratuit à Artas ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Artas."
+        "answer": "Bien sûr, l'étude et le chiffrage de votre projet à Artas sont entièrement gratuits, sans aucun engagement."
       }
     ]
   },
@@ -168,19 +168,19 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Meyrieu-les-Étangs ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Meyrieu-les-Étangs et notamment à centre village et zones rurales, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Absolument : nous couvrons Meyrieu-les-Étangs et notamment à centre village et zones rurales comme l'ensemble des communes alentour. Le déplacement pour l'étude de votre projet est offert."
       },
       {
-        "question": "Quelles précautions pour construire à Meyrieu-les-Étangs ?",
+        "question": "Y a-t-il des contraintes de terrain à Meyrieu-les-Étangs ?",
         "answer": "Le secteur de Meyrieu-les-Étangs peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Meyrieu-les-Étangs ?",
-        "answer": "À Meyrieu-les-Étangs, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Meyrieu-les-Étangs."
       },
       {
         "question": "Proposez-vous un devis gratuit à Meyrieu-les-Étangs ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Meyrieu-les-Étangs."
+        "answer": "Bien sûr, l'étude et le chiffrage de votre projet à Meyrieu-les-Étangs sont entièrement gratuits, sans aucun engagement."
       }
     ]
   },
@@ -200,7 +200,7 @@ export const cities: City[] = [
       "longitude": 5.1171
     },
     "description": "Maçonnerie et terrassement à Charantonnay (Isère, 2 019 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "DZ Maçonnerie met son savoir-faire au service des habitants de Charantonnay (2 019 habitants, Isère) pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Nous couvrons notamment centre village et zones pavillonnaires. Le secteur compte des repères comme point de vue de l'église, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "DZ Maçonnerie met son savoir-faire au service des habitants de Charantonnay (2 019 habitants, Isère) pour vos chantiers de maçonnerie : terrasse, clôture, rénovation, terrassement. Nous couvrons notamment centre village et zones pavillonnaires. Le secteur compte des repères comme point de vue de l'église, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Charantonnay",
       "maçonnerie Charantonnay",
@@ -257,11 +257,11 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Charantonnay ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Charantonnay et notamment à centre village et zones pavillonnaires, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Oui, Charantonnay et notamment à centre village et zones pavillonnaires fait pleinement partie de notre zone d'intervention. Notre atelier est à Artas : la visite d'évaluation et le devis sont gratuits."
       },
       {
         "question": "Quelles précautions pour construire à Charantonnay ?",
-        "answer": "Le secteur de Charantonnay peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "answer": "Les points de vigilance locaux sont drainage et gestion des eaux pluviales. Nos techniques de gros œuvre en tiennent compte dès la conception, et le devis intègre ces spécificités."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Charantonnay ?",
@@ -269,7 +269,7 @@ export const cities: City[] = [
       },
       {
         "question": "Proposez-vous un devis gratuit à Charantonnay ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Charantonnay."
+        "answer": "Oui : demande par téléphone ou via le formulaire, réponse sous 24h et visite sur place offerte à Charantonnay."
       }
     ]
   },
@@ -289,7 +289,7 @@ export const cities: City[] = [
       "longitude": 5.2194
     },
     "description": "Artisan maçon à Crachier (Isère, 600 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "À Crachier (600 habitants, Isère), DZ Maçonnerie vous accompagne pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Nous couvrons notamment Culty. Les terrains locaux présentent des enjeux de conception parasismique, que nous intégrons dès l'étude.",
+    "introduction": "À Crachier (600 habitants, Isère), DZ Maçonnerie vous accompagne pour tous vos projets de gros œuvre : dalle béton, murs, extension, terrassement. Nous couvrons notamment Culty. Les terrains locaux présentent des enjeux de conception parasismique, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Crachier",
       "maçonnerie Crachier",
@@ -347,11 +347,11 @@ export const cities: City[] = [
       },
       {
         "question": "Quelles précautions pour construire à Crachier ?",
-        "answer": "Le secteur de Crachier peut présenter des enjeux de conception parasismique. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "answer": "Oui, il faut composer avec conception parasismique. C'est pourquoi chaque chantier de Crachier démarre par une analyse du sol, qui guide le choix des fondations et du drainage."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Crachier ?",
-        "answer": "À Crachier, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Nos équipes interviennent à Crachier pour le terrassement, les fondations, les dalles béton, les murs, les extensions de maison et la rénovation."
       },
       {
         "question": "Proposez-vous un devis gratuit à Crachier ?",
@@ -375,7 +375,7 @@ export const cities: City[] = [
       "longitude": 5.196
     },
     "description": "Maçonnerie et terrassement à Four (Isère, 1 673 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "DZ Maçonnerie met son savoir-faire au service des habitants de Four (1 673 habitants, Isère) pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Nous couvrons notamment centre village et zones résidentielles. Le secteur compte des repères comme centre du village, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de conception parasismique, que nous intégrons dès l'étude.",
+    "introduction": "DZ Maçonnerie met son savoir-faire au service des habitants de Four (1 673 habitants, Isère) pour vos chantiers de maçonnerie : terrasse, clôture, rénovation, terrassement. Nous couvrons notamment centre village et zones résidentielles. Le secteur compte des repères comme centre du village, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de conception parasismique, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Four",
       "maçonnerie Four",
@@ -430,19 +430,19 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Four ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Four et notamment à centre village et zones résidentielles, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Absolument : nous couvrons Four et notamment à centre village et zones résidentielles comme l'ensemble des communes alentour. Le déplacement pour l'étude de votre projet est offert."
       },
       {
-        "question": "Quelles précautions pour construire à Four ?",
+        "question": "Y a-t-il des contraintes de terrain à Four ?",
         "answer": "Le secteur de Four peut présenter des enjeux de conception parasismique. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Four ?",
-        "answer": "À Four, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Four."
       },
       {
         "question": "Proposez-vous un devis gratuit à Four ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Four."
+        "answer": "Bien sûr, l'étude et le chiffrage de votre projet à Four sont entièrement gratuits, sans aucun engagement."
       }
     ]
   },
@@ -462,7 +462,7 @@ export const cities: City[] = [
       "longitude": 5.2151
     },
     "description": "Maçonnerie et terrassement à Chèzeneuve (Isère, 654 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "DZ Maçonnerie met son savoir-faire au service des habitants de Chèzeneuve (654 habitants, Isère) pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Le secteur compte des repères comme table d'orientation, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de conception parasismique, que nous intégrons dès l'étude.",
+    "introduction": "DZ Maçonnerie met son savoir-faire au service des habitants de Chèzeneuve (654 habitants, Isère) pour vos chantiers de maçonnerie : terrasse, clôture, rénovation, terrassement. Le secteur compte des repères comme table d'orientation, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de conception parasismique, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Chèzeneuve",
       "maçonnerie Chèzeneuve",
@@ -516,19 +516,19 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Chèzeneuve ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Chèzeneuve, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Absolument : nous couvrons Chèzeneuve comme l'ensemble des communes alentour. Le déplacement pour l'étude de votre projet est offert."
       },
       {
-        "question": "Quelles précautions pour construire à Chèzeneuve ?",
+        "question": "Le terrain de Chèzeneuve pose-t-il des difficultés pour construire ?",
         "answer": "Le secteur de Chèzeneuve peut présenter des enjeux de conception parasismique. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Chèzeneuve ?",
-        "answer": "À Chèzeneuve, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Chèzeneuve."
       },
       {
         "question": "Proposez-vous un devis gratuit à Chèzeneuve ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Chèzeneuve."
+        "answer": "Bien sûr, l'étude et le chiffrage de votre projet à Chèzeneuve sont entièrement gratuits, sans aucun engagement."
       }
     ]
   },
@@ -548,7 +548,7 @@ export const cities: City[] = [
       "longitude": 5.1557
     },
     "description": "Artisan maçon à Roche (Isère, 2 196 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "À Roche (2 196 habitants, Isère), DZ Maçonnerie vous accompagne pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Nous couvrons notamment Saint-Bonnet et Vaugelas. Le secteur compte des repères comme Pierre à cupules et La Croix Châtain, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de conception parasismique, que nous intégrons dès l'étude.",
+    "introduction": "À Roche (2 196 habitants, Isère), DZ Maçonnerie vous accompagne pour tous vos projets de gros œuvre : dalle béton, murs, extension, terrassement. Nous couvrons notamment Saint-Bonnet et Vaugelas. Le secteur compte des repères comme Pierre à cupules et La Croix Châtain, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de conception parasismique, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Roche",
       "maçonnerie Roche",
@@ -606,19 +606,19 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Roche ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Roche et notamment à Saint-Bonnet et Vaugelas, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Absolument : nous couvrons Roche et notamment à Saint-Bonnet et Vaugelas comme l'ensemble des communes alentour. Le déplacement pour l'étude de votre projet est offert."
       },
       {
-        "question": "Quelles précautions pour construire à Roche ?",
+        "question": "Y a-t-il des contraintes de terrain à Roche ?",
         "answer": "Le secteur de Roche peut présenter des enjeux de conception parasismique. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Roche ?",
-        "answer": "À Roche, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Roche."
       },
       {
         "question": "Proposez-vous un devis gratuit à Roche ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Roche."
+        "answer": "Bien sûr, l'étude et le chiffrage de votre projet à Roche sont entièrement gratuits, sans aucun engagement."
       }
     ]
   },
@@ -638,7 +638,7 @@ export const cities: City[] = [
       "longitude": 5.145
     },
     "description": "Spécialiste gros œuvre à Saint-Jean-de-Bournay (Isère, 4 843 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "DZ Maçonnerie intervient à Saint-Jean-de-Bournay (4 843 habitants, Isère) pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Nous couvrons notamment Lotissement Le Domaine, Lotissement du Château et Lotissement Maisons Bouvier. Le secteur compte des repères comme Jean Devron, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "DZ Maçonnerie intervient à Saint-Jean-de-Bournay (4 843 habitants, Isère) pour vos travaux d'extension, de dalle béton, de murs et de terrassement. Nous couvrons notamment Lotissement Le Domaine, Lotissement du Château et Lotissement Maisons Bouvier. Le secteur compte des repères comme Jean Devron, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Saint-Jean-de-Bournay",
       "maçonnerie Saint-Jean-de-Bournay",
@@ -699,19 +699,19 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Saint-Jean-de-Bournay ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Saint-Jean-de-Bournay et notamment à Lotissement Le Domaine, Lotissement du Château et Lotissement Maisons Bouvier, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Absolument : nous couvrons Saint-Jean-de-Bournay et notamment à Lotissement Le Domaine, Lotissement du Château et Lotissement Maisons Bouvier comme l'ensemble des communes alentour. Le déplacement pour l'étude de votre projet est offert."
       },
       {
-        "question": "Quelles précautions pour construire à Saint-Jean-de-Bournay ?",
+        "question": "Y a-t-il des contraintes de terrain à Saint-Jean-de-Bournay ?",
         "answer": "Le secteur de Saint-Jean-de-Bournay peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Saint-Jean-de-Bournay ?",
-        "answer": "À Saint-Jean-de-Bournay, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Saint-Jean-de-Bournay."
       },
       {
         "question": "Proposez-vous un devis gratuit à Saint-Jean-de-Bournay ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Saint-Jean-de-Bournay."
+        "answer": "Bien sûr, l'étude et le chiffrage de votre projet à Saint-Jean-de-Bournay sont entièrement gratuits, sans aucun engagement."
       }
     ]
   },
@@ -731,7 +731,7 @@ export const cities: City[] = [
       "longitude": 5.236
     },
     "description": "Artisan maçon à Saint-Agnin-sur-Bion (Isère, 1 187 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "À Saint-Agnin-sur-Bion (1 187 habitants, Isère), DZ Maçonnerie vous accompagne pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Nous couvrons notamment Le Boutat, Chapounoux et L'Orme. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "À Saint-Agnin-sur-Bion (1 187 habitants, Isère), DZ Maçonnerie vous accompagne pour tous vos projets de gros œuvre : dalle béton, murs, extension, terrassement. Nous couvrons notamment Le Boutat, Chapounoux et L'Orme. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Saint-Agnin-sur-Bion",
       "maçonnerie Saint-Agnin-sur-Bion",
@@ -792,7 +792,7 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Saint-Agnin-sur-Bion ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Saint-Agnin-sur-Bion et notamment à Le Boutat, Chapounoux et L'Orme, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Absolument : nous couvrons Saint-Agnin-sur-Bion et notamment à Le Boutat, Chapounoux et L'Orme comme l'ensemble des communes alentour. Le déplacement pour l'étude de votre projet est offert."
       },
       {
         "question": "Quelles précautions pour construire à Saint-Agnin-sur-Bion ?",
@@ -800,11 +800,11 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Saint-Agnin-sur-Bion ?",
-        "answer": "À Saint-Agnin-sur-Bion, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Saint-Agnin-sur-Bion."
       },
       {
         "question": "Proposez-vous un devis gratuit à Saint-Agnin-sur-Bion ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Saint-Agnin-sur-Bion."
+        "answer": "Bien sûr, l'étude et le chiffrage de votre projet à Saint-Agnin-sur-Bion sont entièrement gratuits, sans aucun engagement."
       }
     ]
   },
@@ -824,7 +824,7 @@ export const cities: City[] = [
       "longitude": 5.2493
     },
     "description": "Artisan maçon à Culin (Isère, 790 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "À Culin (790 habitants, Isère), DZ Maçonnerie vous accompagne pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Les terrains locaux présentent des enjeux de conception parasismique, que nous intégrons dès l'étude.",
+    "introduction": "À Culin (790 habitants, Isère), DZ Maçonnerie vous accompagne pour tous vos projets de gros œuvre : dalle béton, murs, extension, terrassement. Les terrains locaux présentent des enjeux de conception parasismique, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Culin",
       "maçonnerie Culin",
@@ -876,7 +876,7 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Culin ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Culin, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Absolument : nous couvrons Culin comme l'ensemble des communes alentour. Le déplacement pour l'étude de votre projet est offert."
       },
       {
         "question": "Quelles précautions pour construire à Culin ?",
@@ -884,11 +884,11 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Culin ?",
-        "answer": "À Culin, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Culin."
       },
       {
         "question": "Proposez-vous un devis gratuit à Culin ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Culin."
+        "answer": "Bien sûr, l'étude et le chiffrage de votre projet à Culin sont entièrement gratuits, sans aucun engagement."
       }
     ]
   },
@@ -908,7 +908,7 @@ export const cities: City[] = [
       "longitude": 5.089
     },
     "description": "Maçonnerie et terrassement à Saint-Georges-d'Espéranche (Isère, 3 545 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "DZ Maçonnerie met son savoir-faire au service des habitants de Saint-Georges-d'Espéranche (3 545 habitants, Isère) pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Nous couvrons notamment Fond de Ville, Le Bourg et Les Terreaux. Le secteur compte des repères comme table d'orientation, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "DZ Maçonnerie met son savoir-faire au service des habitants de Saint-Georges-d'Espéranche (3 545 habitants, Isère) pour vos chantiers de maçonnerie : terrasse, clôture, rénovation, terrassement. Nous couvrons notamment Fond de Ville, Le Bourg et Les Terreaux. Le secteur compte des repères comme table d'orientation, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Saint-Georges-d'Espéranche",
       "maçonnerie Saint-Georges-d'Espéranche",
@@ -970,11 +970,11 @@ export const cities: City[] = [
       },
       {
         "question": "Quelles précautions pour construire à Saint-Georges-d'Espéranche ?",
-        "answer": "Le secteur de Saint-Georges-d'Espéranche peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "answer": "Oui, il faut composer avec drainage et gestion des eaux pluviales. C'est pourquoi chaque chantier de Saint-Georges-d'Espéranche démarre par une analyse du sol, qui guide le choix des fondations et du drainage."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Saint-Georges-d'Espéranche ?",
-        "answer": "À Saint-Georges-d'Espéranche, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Nos équipes interviennent à Saint-Georges-d'Espéranche pour le terrassement, les fondations, les dalles béton, les murs, les extensions de maison et la rénovation."
       },
       {
         "question": "Proposez-vous un devis gratuit à Saint-Georges-d'Espéranche ?",
@@ -998,7 +998,7 @@ export const cities: City[] = [
       "longitude": 5.2354
     },
     "description": "Artisan maçon à Sainte-Anne-sur-Gervonde (Isère, 759 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "À Sainte-Anne-sur-Gervonde (759 habitants, Isère), DZ Maçonnerie vous accompagne pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Le secteur compte des repères comme Monument aux Morts, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "À Sainte-Anne-sur-Gervonde (759 habitants, Isère), DZ Maçonnerie vous accompagne pour tous vos projets de gros œuvre : dalle béton, murs, extension, terrassement. Le secteur compte des repères comme Monument aux Morts, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Sainte-Anne-sur-Gervonde",
       "maçonnerie Sainte-Anne-sur-Gervonde",
@@ -1052,19 +1052,19 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Sainte-Anne-sur-Gervonde ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Sainte-Anne-sur-Gervonde, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Absolument : nous couvrons Sainte-Anne-sur-Gervonde comme l'ensemble des communes alentour. Le déplacement pour l'étude de votre projet est offert."
       },
       {
-        "question": "Quelles précautions pour construire à Sainte-Anne-sur-Gervonde ?",
+        "question": "Le terrain de Sainte-Anne-sur-Gervonde pose-t-il des difficultés pour construire ?",
         "answer": "Le secteur de Sainte-Anne-sur-Gervonde peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Sainte-Anne-sur-Gervonde ?",
-        "answer": "À Sainte-Anne-sur-Gervonde, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Sainte-Anne-sur-Gervonde."
       },
       {
         "question": "Proposez-vous un devis gratuit à Sainte-Anne-sur-Gervonde ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Sainte-Anne-sur-Gervonde."
+        "answer": "Bien sûr, l'étude et le chiffrage de votre projet à Sainte-Anne-sur-Gervonde sont entièrement gratuits, sans aucun engagement."
       }
     ]
   },
@@ -1084,7 +1084,7 @@ export const cities: City[] = [
       "longitude": 5.0807
     },
     "description": "Spécialiste gros œuvre à Beauvoir-de-Marc (Isère, 1 098 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "DZ Maçonnerie intervient à Beauvoir-de-Marc (1 098 habitants, Isère) pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Nous couvrons notamment Combe Blondin, Bourvilan et Le Village. Le secteur compte des repères comme Statue de la Vierge, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "DZ Maçonnerie intervient à Beauvoir-de-Marc (1 098 habitants, Isère) pour vos travaux d'extension, de dalle béton, de murs et de terrassement. Nous couvrons notamment Combe Blondin, Bourvilan et Le Village. Le secteur compte des repères comme Statue de la Vierge, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Beauvoir-de-Marc",
       "maçonnerie Beauvoir-de-Marc",
@@ -1149,12 +1149,12 @@ export const cities: City[] = [
         "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Beauvoir-de-Marc et notamment à Combe Blondin, Bourvilan et Le Village, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
       },
       {
-        "question": "Quelles précautions pour construire à Beauvoir-de-Marc ?",
-        "answer": "Le secteur de Beauvoir-de-Marc peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "question": "Y a-t-il des contraintes de terrain à Beauvoir-de-Marc ?",
+        "answer": "Oui, il faut composer avec drainage et gestion des eaux pluviales. C'est pourquoi chaque chantier de Beauvoir-de-Marc démarre par une analyse du sol, qui guide le choix des fondations et du drainage."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Beauvoir-de-Marc ?",
-        "answer": "À Beauvoir-de-Marc, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Nos équipes interviennent à Beauvoir-de-Marc pour le terrassement, les fondations, les dalles béton, les murs, les extensions de maison et la rénovation."
       },
       {
         "question": "Proposez-vous un devis gratuit à Beauvoir-de-Marc ?",
@@ -1237,19 +1237,19 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Saint-Alban-de-Roche ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Saint-Alban-de-Roche et notamment à Résidence de Gramond, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Absolument : nous couvrons Saint-Alban-de-Roche et notamment à Résidence de Gramond comme l'ensemble des communes alentour. Le déplacement pour l'étude de votre projet est offert."
       },
       {
-        "question": "Quelles précautions pour construire à Saint-Alban-de-Roche ?",
+        "question": "Y a-t-il des contraintes de terrain à Saint-Alban-de-Roche ?",
         "answer": "Le secteur de Saint-Alban-de-Roche peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Saint-Alban-de-Roche ?",
-        "answer": "À Saint-Alban-de-Roche, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Saint-Alban-de-Roche."
       },
       {
         "question": "Proposez-vous un devis gratuit à Saint-Alban-de-Roche ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Saint-Alban-de-Roche."
+        "answer": "Bien sûr, l'étude et le chiffrage de votre projet à Saint-Alban-de-Roche sont entièrement gratuits, sans aucun engagement."
       }
     ]
   },
@@ -1269,7 +1269,7 @@ export const cities: City[] = [
       "longitude": 5.2583
     },
     "description": "Artisan maçon à Maubec (Isère, 1 930 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "À Maubec (1 930 habitants, Isère), DZ Maçonnerie vous accompagne pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Nous couvrons notamment Clos de la Garine. Le secteur compte des repères comme Calvaire de Grand Croix et Calvaire, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "À Maubec (1 930 habitants, Isère), DZ Maçonnerie vous accompagne pour tous vos projets de gros œuvre : dalle béton, murs, extension, terrassement. Nous couvrons notamment Clos de la Garine. Le secteur compte des repères comme Calvaire de Grand Croix et Calvaire, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Maubec",
       "maçonnerie Maubec",
@@ -1330,19 +1330,19 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Maubec ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Maubec et notamment à Clos de la Garine, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Absolument : nous couvrons Maubec et notamment à Clos de la Garine comme l'ensemble des communes alentour. Le déplacement pour l'étude de votre projet est offert."
       },
       {
-        "question": "Quelles précautions pour construire à Maubec ?",
+        "question": "Y a-t-il des contraintes de terrain à Maubec ?",
         "answer": "Le secteur de Maubec peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Maubec ?",
-        "answer": "À Maubec, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Maubec."
       },
       {
         "question": "Proposez-vous un devis gratuit à Maubec ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Maubec."
+        "answer": "Bien sûr, l'étude et le chiffrage de votre projet à Maubec sont entièrement gratuits, sans aucun engagement."
       }
     ]
   },
@@ -1362,7 +1362,7 @@ export const cities: City[] = [
       "longitude": 5.2225
     },
     "description": "Artisan maçon à Châtonnay (Isère, 2 009 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "À Châtonnay (2 009 habitants, Isère), DZ Maçonnerie vous accompagne pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Nous couvrons notamment Le Ginet et Le Bourg. Le secteur compte des repères comme Calvaire et Croix de Vollandière, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "À Châtonnay (2 009 habitants, Isère), DZ Maçonnerie vous accompagne pour tous vos projets de gros œuvre : dalle béton, murs, extension, terrassement. Nous couvrons notamment Le Ginet et Le Bourg. Le secteur compte des repères comme Calvaire et Croix de Vollandière, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Châtonnay",
       "maçonnerie Châtonnay",
@@ -1424,11 +1424,11 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Châtonnay ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Châtonnay et notamment à Le Ginet et Le Bourg, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Oui, Châtonnay et notamment à Le Ginet et Le Bourg fait pleinement partie de notre zone d'intervention. Notre atelier est à Artas : la visite d'évaluation et le devis sont gratuits."
       },
       {
-        "question": "Quelles précautions pour construire à Châtonnay ?",
-        "answer": "Le secteur de Châtonnay peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "question": "Y a-t-il des contraintes de terrain à Châtonnay ?",
+        "answer": "Les points de vigilance locaux sont drainage et gestion des eaux pluviales. Nos techniques de gros œuvre en tiennent compte dès la conception, et le devis intègre ces spécificités."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Châtonnay ?",
@@ -1436,7 +1436,7 @@ export const cities: City[] = [
       },
       {
         "question": "Proposez-vous un devis gratuit à Châtonnay ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Châtonnay."
+        "answer": "Oui : demande par téléphone ou via le formulaire, réponse sous 24h et visite sur place offerte à Châtonnay."
       }
     ]
   },
@@ -1519,12 +1519,12 @@ export const cities: City[] = [
         "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Domarin et notamment à centre-ville et zones résidentielles, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
       },
       {
-        "question": "Quelles précautions pour construire à Domarin ?",
-        "answer": "Le secteur de Domarin peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "question": "Y a-t-il des contraintes de terrain à Domarin ?",
+        "answer": "Oui, il faut composer avec drainage et gestion des eaux pluviales. C'est pourquoi chaque chantier de Domarin démarre par une analyse du sol, qui guide le choix des fondations et du drainage."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Domarin ?",
-        "answer": "À Domarin, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Nos équipes interviennent à Domarin pour le terrassement, les fondations, les dalles béton, les murs, les extensions de maison et la rénovation."
       },
       {
         "question": "Proposez-vous un devis gratuit à Domarin ?",
@@ -1548,7 +1548,7 @@ export const cities: City[] = [
       "longitude": 5.1087
     },
     "description": "Maçonnerie et terrassement à Bonnefamille (Isère, 1 114 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "DZ Maçonnerie met son savoir-faire au service des habitants de Bonnefamille (1 114 habitants, Isère) pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Nous couvrons notamment Lotissement Le Clos des Sorbiers. Le secteur compte des repères comme Point de vue de Ponas, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de conception parasismique, que nous intégrons dès l'étude.",
+    "introduction": "DZ Maçonnerie met son savoir-faire au service des habitants de Bonnefamille (1 114 habitants, Isère) pour vos chantiers de maçonnerie : terrasse, clôture, rénovation, terrassement. Nous couvrons notamment Lotissement Le Clos des Sorbiers. Le secteur compte des repères comme Point de vue de Ponas, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de conception parasismique, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Bonnefamille",
       "maçonnerie Bonnefamille",
@@ -1603,11 +1603,11 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Bonnefamille ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Bonnefamille et notamment à Lotissement Le Clos des Sorbiers, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Oui, Bonnefamille et notamment à Lotissement Le Clos des Sorbiers fait pleinement partie de notre zone d'intervention. Notre atelier est à Artas : la visite d'évaluation et le devis sont gratuits."
       },
       {
-        "question": "Quelles précautions pour construire à Bonnefamille ?",
-        "answer": "Le secteur de Bonnefamille peut présenter des enjeux de conception parasismique. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "question": "Le terrain de Bonnefamille pose-t-il des difficultés pour construire ?",
+        "answer": "Les points de vigilance locaux sont conception parasismique. Nos techniques de gros œuvre en tiennent compte dès la conception, et le devis intègre ces spécificités."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Bonnefamille ?",
@@ -1615,7 +1615,7 @@ export const cities: City[] = [
       },
       {
         "question": "Proposez-vous un devis gratuit à Bonnefamille ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Bonnefamille."
+        "answer": "Oui : demande par téléphone ou via le formulaire, réponse sous 24h et visite sur place offerte à Bonnefamille."
       }
     ]
   },
@@ -1635,7 +1635,7 @@ export const cities: City[] = [
       "longitude": 5.2656
     },
     "description": "Maçonnerie et terrassement à Tramolé (Isère, 810 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "DZ Maçonnerie met son savoir-faire au service des habitants de Tramolé (810 habitants, Isère) pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Nous couvrons notamment centre village et zones rurales. Le secteur compte des repères comme centre du village, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de conception parasismique, que nous intégrons dès l'étude.",
+    "introduction": "DZ Maçonnerie met son savoir-faire au service des habitants de Tramolé (810 habitants, Isère) pour vos chantiers de maçonnerie : terrasse, clôture, rénovation, terrassement. Nous couvrons notamment centre village et zones rurales. Le secteur compte des repères comme centre du village, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de conception parasismique, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Tramolé",
       "maçonnerie Tramolé",
@@ -1691,19 +1691,19 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Tramolé ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Tramolé et notamment à centre village et zones rurales, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Absolument : nous couvrons Tramolé et notamment à centre village et zones rurales comme l'ensemble des communes alentour. Le déplacement pour l'étude de votre projet est offert."
       },
       {
-        "question": "Quelles précautions pour construire à Tramolé ?",
+        "question": "Y a-t-il des contraintes de terrain à Tramolé ?",
         "answer": "Le secteur de Tramolé peut présenter des enjeux de conception parasismique. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Tramolé ?",
-        "answer": "À Tramolé, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Tramolé."
       },
       {
         "question": "Proposez-vous un devis gratuit à Tramolé ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Tramolé."
+        "answer": "Bien sûr, l'étude et le chiffrage de votre projet à Tramolé sont entièrement gratuits, sans aucun engagement."
       }
     ]
   },
@@ -1790,11 +1790,11 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Diémoz ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Diémoz et notamment à Lotissement La Grimaudière, Lotissement les Granges Neuves et Lotissement les Portes de Diemoz, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Oui, Diémoz et notamment à Lotissement La Grimaudière, Lotissement les Granges Neuves et Lotissement les Portes de Diemoz fait pleinement partie de notre zone d'intervention. Notre atelier est à Artas : la visite d'évaluation et le devis sont gratuits."
       },
       {
-        "question": "Quelles précautions pour construire à Diémoz ?",
-        "answer": "Le secteur de Diémoz peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "question": "Y a-t-il des contraintes de terrain à Diémoz ?",
+        "answer": "Les points de vigilance locaux sont drainage et gestion des eaux pluviales. Nos techniques de gros œuvre en tiennent compte dès la conception, et le devis intègre ces spécificités."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Diémoz ?",
@@ -1802,7 +1802,7 @@ export const cities: City[] = [
       },
       {
         "question": "Proposez-vous un devis gratuit à Diémoz ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Diémoz."
+        "answer": "Oui : demande par téléphone ou via le formulaire, réponse sous 24h et visite sur place offerte à Diémoz."
       }
     ]
   },
@@ -1889,11 +1889,11 @@ export const cities: City[] = [
       },
       {
         "question": "Quelles précautions pour construire à Villefontaine ?",
-        "answer": "Le secteur de Villefontaine peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "answer": "Oui, il faut composer avec drainage et gestion des eaux pluviales. C'est pourquoi chaque chantier de Villefontaine démarre par une analyse du sol, qui guide le choix des fondations et du drainage."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Villefontaine ?",
-        "answer": "À Villefontaine, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Nos équipes interviennent à Villefontaine pour le terrassement, les fondations, les dalles béton, les murs, les extensions de maison et la rénovation."
       },
       {
         "question": "Proposez-vous un devis gratuit à Villefontaine ?",
@@ -1982,11 +1982,11 @@ export const cities: City[] = [
       },
       {
         "question": "Quelles précautions pour construire à Vaulx-Milieu ?",
-        "answer": "Le secteur de Vaulx-Milieu peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "answer": "Oui, il faut composer avec drainage et gestion des eaux pluviales. C'est pourquoi chaque chantier de Vaulx-Milieu démarre par une analyse du sol, qui guide le choix des fondations et du drainage."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Vaulx-Milieu ?",
-        "answer": "À Vaulx-Milieu, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Nos équipes interviennent à Vaulx-Milieu pour le terrassement, les fondations, les dalles béton, les murs, les extensions de maison et la rénovation."
       },
       {
         "question": "Proposez-vous un devis gratuit à Vaulx-Milieu ?",
@@ -2010,7 +2010,7 @@ export const cities: City[] = [
       "longitude": 5.0638
     },
     "description": "Maçonnerie et terrassement à Savas-Mépin (Isère, 883 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "DZ Maçonnerie met son savoir-faire au service des habitants de Savas-Mépin (883 habitants, Isère) pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Nous couvrons notamment Lotissement La Moudronnière, La Fromentière et Lotissement de la Prairie. Le secteur compte des repères comme centre du village, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "DZ Maçonnerie met son savoir-faire au service des habitants de Savas-Mépin (883 habitants, Isère) pour vos chantiers de maçonnerie : terrasse, clôture, rénovation, terrassement. Nous couvrons notamment Lotissement La Moudronnière, La Fromentière et Lotissement de la Prairie. Le secteur compte des repères comme centre du village, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Savas-Mépin",
       "maçonnerie Savas-Mépin",
@@ -2072,11 +2072,11 @@ export const cities: City[] = [
       },
       {
         "question": "Quelles précautions pour construire à Savas-Mépin ?",
-        "answer": "Le secteur de Savas-Mépin peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "answer": "Oui, il faut composer avec drainage et gestion des eaux pluviales. C'est pourquoi chaque chantier de Savas-Mépin démarre par une analyse du sol, qui guide le choix des fondations et du drainage."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Savas-Mépin ?",
-        "answer": "À Savas-Mépin, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Nos équipes interviennent à Savas-Mépin pour le terrassement, les fondations, les dalles béton, les murs, les extensions de maison et la rénovation."
       },
       {
         "question": "Proposez-vous un devis gratuit à Savas-Mépin ?",
@@ -2100,7 +2100,7 @@ export const cities: City[] = [
       "longitude": 5.1202
     },
     "description": "Artisan maçon à Villeneuve-de-Marc (Isère, 1 154 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "À Villeneuve-de-Marc (1 154 habitants, Isère), DZ Maçonnerie vous accompagne pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Nous couvrons notamment Lotissement les Mésanges et Lotissement Le Poyat. Le secteur compte des repères comme Monument aux Morts, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "À Villeneuve-de-Marc (1 154 habitants, Isère), DZ Maçonnerie vous accompagne pour tous vos projets de gros œuvre : dalle béton, murs, extension, terrassement. Nous couvrons notamment Lotissement les Mésanges et Lotissement Le Poyat. Le secteur compte des repères comme Monument aux Morts, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Villeneuve-de-Marc",
       "maçonnerie Villeneuve-de-Marc",
@@ -2162,12 +2162,12 @@ export const cities: City[] = [
         "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Villeneuve-de-Marc et notamment à Lotissement les Mésanges et Lotissement Le Poyat, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
       },
       {
-        "question": "Quelles précautions pour construire à Villeneuve-de-Marc ?",
-        "answer": "Le secteur de Villeneuve-de-Marc peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "question": "Le terrain de Villeneuve-de-Marc pose-t-il des difficultés pour construire ?",
+        "answer": "Oui, il faut composer avec drainage et gestion des eaux pluviales. C'est pourquoi chaque chantier de Villeneuve-de-Marc démarre par une analyse du sol, qui guide le choix des fondations et du drainage."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Villeneuve-de-Marc ?",
-        "answer": "À Villeneuve-de-Marc, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Nos équipes interviennent à Villeneuve-de-Marc pour le terrassement, les fondations, les dalles béton, les murs, les extensions de maison et la rénovation."
       },
       {
         "question": "Proposez-vous un devis gratuit à Villeneuve-de-Marc ?",
@@ -2191,7 +2191,7 @@ export const cities: City[] = [
       "longitude": 5.2834
     },
     "description": "Spécialiste gros œuvre à Meyrié (Isère, 1 096 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "DZ Maçonnerie intervient à Meyrié (1 096 habitants, Isère) pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Le secteur compte des repères comme Monument aux morts, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "DZ Maçonnerie intervient à Meyrié (1 096 habitants, Isère) pour vos travaux d'extension, de dalle béton, de murs et de terrassement. Le secteur compte des repères comme Monument aux morts, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Meyrié",
       "maçonnerie Meyrié",
@@ -2247,11 +2247,11 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Meyrié ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Meyrié, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Oui, Meyrié fait pleinement partie de notre zone d'intervention. Notre atelier est à Artas : la visite d'évaluation et le devis sont gratuits."
       },
       {
-        "question": "Quelles précautions pour construire à Meyrié ?",
-        "answer": "Le secteur de Meyrié peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "question": "Y a-t-il des contraintes de terrain à Meyrié ?",
+        "answer": "Les points de vigilance locaux sont drainage et gestion des eaux pluviales. Nos techniques de gros œuvre en tiennent compte dès la conception, et le devis intègre ces spécificités."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Meyrié ?",
@@ -2259,7 +2259,7 @@ export const cities: City[] = [
       },
       {
         "question": "Proposez-vous un devis gratuit à Meyrié ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Meyrié."
+        "answer": "Oui : demande par téléphone ou via le formulaire, réponse sous 24h et visite sur place offerte à Meyrié."
       }
     ]
   },
@@ -2279,7 +2279,7 @@ export const cities: City[] = [
       "longitude": 5.2908
     },
     "description": "Spécialiste gros œuvre à Les Éparres (Isère, 1 028 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "DZ Maçonnerie intervient à Les Éparres (1 028 habitants, Isère) pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "DZ Maçonnerie intervient à Les Éparres (1 028 habitants, Isère) pour vos travaux d'extension, de dalle béton, de murs et de terrassement. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Les Éparres",
       "maçonnerie Les Éparres",
@@ -2337,12 +2337,12 @@ export const cities: City[] = [
         "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Les Éparres, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
       },
       {
-        "question": "Quelles précautions pour construire à Les Éparres ?",
-        "answer": "Le secteur de Les Éparres peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "question": "Le terrain de Les Éparres pose-t-il des difficultés pour construire ?",
+        "answer": "Oui, il faut composer avec drainage et gestion des eaux pluviales. C'est pourquoi chaque chantier de Les Éparres démarre par une analyse du sol, qui guide le choix des fondations et du drainage."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Les Éparres ?",
-        "answer": "À Les Éparres, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Nos équipes interviennent à Les Éparres pour le terrassement, les fondations, les dalles béton, les murs, les extensions de maison et la rénovation."
       },
       {
         "question": "Proposez-vous un devis gratuit à Les Éparres ?",
@@ -2366,7 +2366,7 @@ export const cities: City[] = [
       "longitude": 5.2234
     },
     "description": "Maçonnerie et terrassement à L'Isle-d'Abeau (Isère, 17 515 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "DZ Maçonnerie met son savoir-faire au service des habitants de L'Isle-d'Abeau (17 515 habitants, Isère) pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Nous couvrons notamment Clos des Casaliers et Quartier des Trois Vallons. Le secteur compte des repères comme Établissement antique du Gua, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "DZ Maçonnerie met son savoir-faire au service des habitants de L'Isle-d'Abeau (17 515 habitants, Isère) pour vos chantiers de maçonnerie : terrasse, clôture, rénovation, terrassement. Nous couvrons notamment Clos des Casaliers et Quartier des Trois Vallons. Le secteur compte des repères comme Établissement antique du Gua, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon L'Isle-d'Abeau",
       "maçonnerie L'Isle-d'Abeau",
@@ -2428,12 +2428,12 @@ export const cities: City[] = [
         "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de L'Isle-d'Abeau et notamment à Clos des Casaliers et Quartier des Trois Vallons, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
       },
       {
-        "question": "Quelles précautions pour construire à L'Isle-d'Abeau ?",
-        "answer": "Le secteur de L'Isle-d'Abeau peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "question": "Le terrain de L'Isle-d'Abeau pose-t-il des difficultés pour construire ?",
+        "answer": "Oui, il faut composer avec drainage et gestion des eaux pluviales. C'est pourquoi chaque chantier de L'Isle-d'Abeau démarre par une analyse du sol, qui guide le choix des fondations et du drainage."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à L'Isle-d'Abeau ?",
-        "answer": "À L'Isle-d'Abeau, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Nos équipes interviennent à L'Isle-d'Abeau pour le terrassement, les fondations, les dalles béton, les murs, les extensions de maison et la rénovation."
       },
       {
         "question": "Proposez-vous un devis gratuit à L'Isle-d'Abeau ?",
@@ -2521,11 +2521,11 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Bourgoin-Jallieu ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Bourgoin-Jallieu et notamment à Lotissement Champ du Pin et Mozas, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Oui, Bourgoin-Jallieu et notamment à Lotissement Champ du Pin et Mozas fait pleinement partie de notre zone d'intervention. Notre atelier est à Artas : la visite d'évaluation et le devis sont gratuits."
       },
       {
-        "question": "Quelles précautions pour construire à Bourgoin-Jallieu ?",
-        "answer": "Le secteur de Bourgoin-Jallieu peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "question": "Y a-t-il des contraintes de terrain à Bourgoin-Jallieu ?",
+        "answer": "Les points de vigilance locaux sont drainage et gestion des eaux pluviales. Nos techniques de gros œuvre en tiennent compte dès la conception, et le devis intègre ces spécificités."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Bourgoin-Jallieu ?",
@@ -2533,7 +2533,7 @@ export const cities: City[] = [
       },
       {
         "question": "Proposez-vous un devis gratuit à Bourgoin-Jallieu ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Bourgoin-Jallieu."
+        "answer": "Oui : demande par téléphone ou via le formulaire, réponse sous 24h et visite sur place offerte à Bourgoin-Jallieu."
       }
     ]
   },
@@ -2553,7 +2553,7 @@ export const cities: City[] = [
       "longitude": 5.0303
     },
     "description": "Maçonnerie et terrassement à Oytier-Saint-Oblas (Isère, 1 743 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "DZ Maçonnerie met son savoir-faire au service des habitants d'Oytier-Saint-Oblas (1 743 habitants, Isère) pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Nous couvrons notamment Lotissement Le Bonnon, Lotissement Les Peupliers et Le Village. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "DZ Maçonnerie met son savoir-faire au service des habitants d'Oytier-Saint-Oblas (1 743 habitants, Isère) pour vos chantiers de maçonnerie : terrasse, clôture, rénovation, terrassement. Nous couvrons notamment Lotissement Le Bonnon, Lotissement Les Peupliers et Le Village. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Oytier-Saint-Oblas",
       "maçonnerie Oytier-Saint-Oblas",
@@ -2613,12 +2613,12 @@ export const cities: City[] = [
         "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Oytier-Saint-Oblas et notamment à Lotissement Le Bonnon, Lotissement Les Peupliers et Le Village, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
       },
       {
-        "question": "Quelles précautions pour construire à Oytier-Saint-Oblas ?",
-        "answer": "Le secteur d'Oytier-Saint-Oblas peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "question": "Le terrain d'Oytier-Saint-Oblas pose-t-il des difficultés pour construire ?",
+        "answer": "Oui, il faut composer avec drainage et gestion des eaux pluviales. C'est pourquoi chaque chantier d'Oytier-Saint-Oblas démarre par une analyse du sol, qui guide le choix des fondations et du drainage."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Oytier-Saint-Oblas ?",
-        "answer": "À Oytier-Saint-Oblas, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Nos équipes interviennent à Oytier-Saint-Oblas pour le terrassement, les fondations, les dalles béton, les murs, les extensions de maison et la rénovation."
       },
       {
         "question": "Proposez-vous un devis gratuit à Oytier-Saint-Oblas ?",
@@ -2696,11 +2696,11 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Eclose-Badinières ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Eclose-Badinières, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Oui, Eclose-Badinières fait pleinement partie de notre zone d'intervention. Notre atelier est à Artas : la visite d'évaluation et le devis sont gratuits."
       },
       {
-        "question": "Quelles précautions pour construire à Eclose-Badinières ?",
-        "answer": "Le secteur d'Eclose-Badinières peut présenter des enjeux de conception parasismique. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "question": "Y a-t-il des contraintes de terrain à Eclose-Badinières ?",
+        "answer": "Les points de vigilance locaux sont conception parasismique. Nos techniques de gros œuvre en tiennent compte dès la conception, et le devis intègre ces spécificités."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Eclose-Badinières ?",
@@ -2708,7 +2708,7 @@ export const cities: City[] = [
       },
       {
         "question": "Proposez-vous un devis gratuit à Eclose-Badinières ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Eclose-Badinières."
+        "answer": "Oui : demande par téléphone ou via le formulaire, réponse sous 24h et visite sur place offerte à Eclose-Badinières."
       }
     ]
   },
@@ -2728,7 +2728,7 @@ export const cities: City[] = [
       "longitude": 5.1494
     },
     "description": "Artisan maçon à La Verpillière (Isère, 7 786 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "À La Verpillière (7 786 habitants, Isère), DZ Maçonnerie vous accompagne pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Nous couvrons notamment L'Ilate Sud, Lotissement Le Parc de Saint-Cyr et Résidence du Clos. Le secteur compte des repères comme gare SNCF et centre-ville, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "À La Verpillière (7 786 habitants, Isère), DZ Maçonnerie vous accompagne pour tous vos projets de gros œuvre : dalle béton, murs, extension, terrassement. Nous couvrons notamment L'Ilate Sud, Lotissement Le Parc de Saint-Cyr et Résidence du Clos. Le secteur compte des repères comme gare SNCF et centre-ville, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon La Verpillière",
       "maçonnerie La Verpillière",
@@ -2794,12 +2794,12 @@ export const cities: City[] = [
         "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de La Verpillière et notamment à L'Ilate Sud, Lotissement Le Parc de Saint-Cyr et Résidence du Clos, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
       },
       {
-        "question": "Quelles précautions pour construire à La Verpillière ?",
-        "answer": "Le secteur de La Verpillière peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "question": "Y a-t-il des contraintes de terrain à La Verpillière ?",
+        "answer": "Oui, il faut composer avec drainage et gestion des eaux pluviales. C'est pourquoi chaque chantier de La Verpillière démarre par une analyse du sol, qui guide le choix des fondations et du drainage."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à La Verpillière ?",
-        "answer": "À La Verpillière, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Nos équipes interviennent à La Verpillière pour le terrassement, les fondations, les dalles béton, les murs, les extensions de maison et la rénovation."
       },
       {
         "question": "Proposez-vous un devis gratuit à La Verpillière ?",
@@ -2823,7 +2823,7 @@ export const cities: City[] = [
       "longitude": 5.3084
     },
     "description": "Spécialiste gros œuvre à Nivolas-Vermelle (Isère, 2 706 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "DZ Maçonnerie intervient à Nivolas-Vermelle (2 706 habitants, Isère) pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Nous couvrons notamment ZA du Vernay. Le secteur compte des repères comme Monument aux Morts, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "DZ Maçonnerie intervient à Nivolas-Vermelle (2 706 habitants, Isère) pour vos travaux d'extension, de dalle béton, de murs et de terrassement. Nous couvrons notamment ZA du Vernay. Le secteur compte des repères comme Monument aux Morts, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Nivolas-Vermelle",
       "maçonnerie Nivolas-Vermelle",
@@ -2881,19 +2881,19 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Nivolas-Vermelle ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Nivolas-Vermelle et notamment à ZA du Vernay, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Absolument : nous couvrons Nivolas-Vermelle et notamment à ZA du Vernay comme l'ensemble des communes alentour. Le déplacement pour l'étude de votre projet est offert."
       },
       {
-        "question": "Quelles précautions pour construire à Nivolas-Vermelle ?",
+        "question": "Le terrain de Nivolas-Vermelle pose-t-il des difficultés pour construire ?",
         "answer": "Le secteur de Nivolas-Vermelle peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Nivolas-Vermelle ?",
-        "answer": "À Nivolas-Vermelle, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Nivolas-Vermelle."
       },
       {
         "question": "Proposez-vous un devis gratuit à Nivolas-Vermelle ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Nivolas-Vermelle."
+        "answer": "Bien sûr, l'étude et le chiffrage de votre projet à Nivolas-Vermelle sont entièrement gratuits, sans aucun engagement."
       }
     ]
   },
@@ -2913,7 +2913,7 @@ export const cities: City[] = [
       "longitude": 5.0608
     },
     "description": "Spécialiste gros œuvre à Meyssiez (Isère, 671 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "DZ Maçonnerie intervient à Meyssiez (671 habitants, Isère) pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Nous couvrons notamment Chez Roussillon, Bardiniere et Pre Neuf. Le secteur compte des repères comme Monument aux Morts, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "DZ Maçonnerie intervient à Meyssiez (671 habitants, Isère) pour vos travaux d'extension, de dalle béton, de murs et de terrassement. Nous couvrons notamment Chez Roussillon, Bardiniere et Pre Neuf. Le secteur compte des repères comme Monument aux Morts, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Meyssiez",
       "maçonnerie Meyssiez",
@@ -2976,19 +2976,19 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Meyssiez ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Meyssiez et notamment à Chez Roussillon, Bardiniere et Pre Neuf, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Absolument : nous couvrons Meyssiez et notamment à Chez Roussillon, Bardiniere et Pre Neuf comme l'ensemble des communes alentour. Le déplacement pour l'étude de votre projet est offert."
       },
       {
-        "question": "Quelles précautions pour construire à Meyssiez ?",
+        "question": "Y a-t-il des contraintes de terrain à Meyssiez ?",
         "answer": "Le secteur de Meyssiez peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Meyssiez ?",
-        "answer": "À Meyssiez, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Meyssiez."
       },
       {
         "question": "Proposez-vous un devis gratuit à Meyssiez ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Meyssiez."
+        "answer": "Bien sûr, l'étude et le chiffrage de votre projet à Meyssiez sont entièrement gratuits, sans aucun engagement."
       }
     ]
   },
@@ -3008,7 +3008,7 @@ export const cities: City[] = [
       "longitude": 5.0181
     },
     "description": "Spécialiste gros œuvre à Moidieu-Détourbe (Isère, 1 978 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "DZ Maçonnerie intervient à Moidieu-Détourbe (1 978 habitants, Isère) pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Nous couvrons notamment Lotissement Château Grillet. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "DZ Maçonnerie intervient à Moidieu-Détourbe (1 978 habitants, Isère) pour vos travaux d'extension, de dalle béton, de murs et de terrassement. Nous couvrons notamment Lotissement Château Grillet. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Moidieu-Détourbe",
       "maçonnerie Moidieu-Détourbe",
@@ -3063,19 +3063,19 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Moidieu-Détourbe ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Moidieu-Détourbe et notamment à Lotissement Château Grillet, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Absolument : nous couvrons Moidieu-Détourbe et notamment à Lotissement Château Grillet comme l'ensemble des communes alentour. Le déplacement pour l'étude de votre projet est offert."
       },
       {
-        "question": "Quelles précautions pour construire à Moidieu-Détourbe ?",
+        "question": "Le terrain de Moidieu-Détourbe pose-t-il des difficultés pour construire ?",
         "answer": "Le secteur de Moidieu-Détourbe peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Moidieu-Détourbe ?",
-        "answer": "À Moidieu-Détourbe, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Moidieu-Détourbe."
       },
       {
         "question": "Proposez-vous un devis gratuit à Moidieu-Détourbe ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Moidieu-Détourbe."
+        "answer": "Bien sûr, l'étude et le chiffrage de votre projet à Moidieu-Détourbe sont entièrement gratuits, sans aucun engagement."
       }
     ]
   },
@@ -3095,7 +3095,7 @@ export const cities: City[] = [
       "longitude": 5.1128
     },
     "description": "Spécialiste gros œuvre à Saint-Quentin-Fallavier (Isère, 6 189 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "DZ Maçonnerie intervient à Saint-Quentin-Fallavier (6 189 habitants, Isère) pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Nous couvrons notamment Les Charretons. Le secteur compte des repères comme Château de Fallavier et Musée de la vie rurale, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "DZ Maçonnerie intervient à Saint-Quentin-Fallavier (6 189 habitants, Isère) pour vos travaux d'extension, de dalle béton, de murs et de terrassement. Nous couvrons notamment Les Charretons. Le secteur compte des repères comme Château de Fallavier et Musée de la vie rurale, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Saint-Quentin-Fallavier",
       "maçonnerie Saint-Quentin-Fallavier",
@@ -3157,19 +3157,19 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Saint-Quentin-Fallavier ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Saint-Quentin-Fallavier et notamment à Les Charretons, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Absolument : nous couvrons Saint-Quentin-Fallavier et notamment à Les Charretons comme l'ensemble des communes alentour. Le déplacement pour l'étude de votre projet est offert."
       },
       {
-        "question": "Quelles précautions pour construire à Saint-Quentin-Fallavier ?",
+        "question": "Y a-t-il des contraintes de terrain à Saint-Quentin-Fallavier ?",
         "answer": "Le secteur de Saint-Quentin-Fallavier peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Saint-Quentin-Fallavier ?",
-        "answer": "À Saint-Quentin-Fallavier, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Saint-Quentin-Fallavier."
       },
       {
         "question": "Proposez-vous un devis gratuit à Saint-Quentin-Fallavier ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Saint-Quentin-Fallavier."
+        "answer": "Bien sûr, l'étude et le chiffrage de votre projet à Saint-Quentin-Fallavier sont entièrement gratuits, sans aucun engagement."
       }
     ]
   },
@@ -3189,7 +3189,7 @@ export const cities: City[] = [
       "longitude": 5.1844
     },
     "description": "Maçonnerie et terrassement à Frontonas (Isère, 2 123 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "DZ Maçonnerie met son savoir-faire au service des habitants de Frontonas (2 123 habitants, Isère) pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Nous couvrons notamment centre village et zones résidentielles. Le secteur compte des repères comme Château Saint-Julien, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "DZ Maçonnerie met son savoir-faire au service des habitants de Frontonas (2 123 habitants, Isère) pour vos chantiers de maçonnerie : terrasse, clôture, rénovation, terrassement. Nous couvrons notamment centre village et zones résidentielles. Le secteur compte des repères comme Château Saint-Julien, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Frontonas",
       "maçonnerie Frontonas",
@@ -3249,11 +3249,11 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Frontonas ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Frontonas et notamment à centre village et zones résidentielles, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Oui, Frontonas et notamment à centre village et zones résidentielles fait pleinement partie de notre zone d'intervention. Notre atelier est à Artas : la visite d'évaluation et le devis sont gratuits."
       },
       {
-        "question": "Quelles précautions pour construire à Frontonas ?",
-        "answer": "Le secteur de Frontonas peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "question": "Y a-t-il des contraintes de terrain à Frontonas ?",
+        "answer": "Les points de vigilance locaux sont drainage et gestion des eaux pluviales. Nos techniques de gros œuvre en tiennent compte dès la conception, et le devis intègre ces spécificités."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Frontonas ?",
@@ -3261,7 +3261,7 @@ export const cities: City[] = [
       },
       {
         "question": "Proposez-vous un devis gratuit à Frontonas ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Frontonas."
+        "answer": "Oui : demande par téléphone ou via le formulaire, réponse sous 24h et visite sur place offerte à Frontonas."
       }
     ]
   },
@@ -3281,7 +3281,7 @@ export const cities: City[] = [
       "longitude": 5.2153
     },
     "description": "Maçonnerie et terrassement à Porte-des-Bonnevaux (Isère, 2 099 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "DZ Maçonnerie met son savoir-faire au service des habitants de Porte-des-Bonnevaux (2 099 habitants, Isère) pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Nous couvrons notamment Arzay, Commelle et Nantoin. Le secteur compte des repères comme Mémorial et Monument aux Morts, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "DZ Maçonnerie met son savoir-faire au service des habitants de Porte-des-Bonnevaux (2 099 habitants, Isère) pour vos chantiers de maçonnerie : terrasse, clôture, rénovation, terrassement. Nous couvrons notamment Arzay, Commelle et Nantoin. Le secteur compte des repères comme Mémorial et Monument aux Morts, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Porte-des-Bonnevaux",
       "maçonnerie Porte-des-Bonnevaux",
@@ -3345,11 +3345,11 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Porte-des-Bonnevaux ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Porte-des-Bonnevaux et notamment à Arzay, Commelle et Nantoin, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Oui, Porte-des-Bonnevaux et notamment à Arzay, Commelle et Nantoin fait pleinement partie de notre zone d'intervention. Notre atelier est à Artas : la visite d'évaluation et le devis sont gratuits."
       },
       {
         "question": "Quelles précautions pour construire à Porte-des-Bonnevaux ?",
-        "answer": "Le secteur de Porte-des-Bonnevaux peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "answer": "Les points de vigilance locaux sont drainage et gestion des eaux pluviales. Nos techniques de gros œuvre en tiennent compte dès la conception, et le devis intègre ces spécificités."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Porte-des-Bonnevaux ?",
@@ -3357,7 +3357,7 @@ export const cities: City[] = [
       },
       {
         "question": "Proposez-vous un devis gratuit à Porte-des-Bonnevaux ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Porte-des-Bonnevaux."
+        "answer": "Oui : demande par téléphone ou via le formulaire, réponse sous 24h et visite sur place offerte à Porte-des-Bonnevaux."
       }
     ]
   },
@@ -3377,7 +3377,7 @@ export const cities: City[] = [
       "longitude": 5.2861
     },
     "description": "Artisan maçon à Champier (Isère, 1 582 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "À Champier (1 582 habitants, Isère), DZ Maçonnerie vous accompagne pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Nous couvrons notamment centre-ville et zones résidentielles. Le secteur compte des repères comme centre-ville, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "À Champier (1 582 habitants, Isère), DZ Maçonnerie vous accompagne pour tous vos projets de gros œuvre : dalle béton, murs, extension, terrassement. Nous couvrons notamment centre-ville et zones résidentielles. Le secteur compte des repères comme centre-ville, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Champier",
       "maçonnerie Champier",
@@ -3441,11 +3441,11 @@ export const cities: City[] = [
       },
       {
         "question": "Quelles précautions pour construire à Champier ?",
-        "answer": "Le secteur de Champier peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "answer": "Oui, il faut composer avec drainage et gestion des eaux pluviales. C'est pourquoi chaque chantier de Champier démarre par une analyse du sol, qui guide le choix des fondations et du drainage."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Champier ?",
-        "answer": "À Champier, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Nos équipes interviennent à Champier pour le terrassement, les fondations, les dalles béton, les murs, les extensions de maison et la rénovation."
       },
       {
         "question": "Proposez-vous un devis gratuit à Champier ?",
@@ -3469,7 +3469,7 @@ export const cities: City[] = [
       "longitude": 5.3318
     },
     "description": "Maçonnerie et terrassement à Châteauvilain (Isère, 737 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "DZ Maçonnerie met son savoir-faire au service des habitants de Châteauvilain (737 habitants, Isère) pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Le secteur compte des repères comme Monument aux Morts, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de stabilité des sols et conception parasismique, que nous intégrons dès l'étude.",
+    "introduction": "DZ Maçonnerie met son savoir-faire au service des habitants de Châteauvilain (737 habitants, Isère) pour vos chantiers de maçonnerie : terrasse, clôture, rénovation, terrassement. Le secteur compte des repères comme Monument aux Morts, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de stabilité des sols et conception parasismique, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Châteauvilain",
       "maçonnerie Châteauvilain",
@@ -3527,11 +3527,11 @@ export const cities: City[] = [
       },
       {
         "question": "Quelles précautions pour construire à Châteauvilain ?",
-        "answer": "Le secteur de Châteauvilain peut présenter des enjeux de stabilité des sols et conception parasismique. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "answer": "Oui, il faut composer avec stabilité des sols et conception parasismique. C'est pourquoi chaque chantier de Châteauvilain démarre par une analyse du sol, qui guide le choix des fondations et du drainage."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Châteauvilain ?",
-        "answer": "À Châteauvilain, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Nos équipes interviennent à Châteauvilain pour le terrassement, les fondations, les dalles béton, les murs, les extensions de maison et la rénovation."
       },
       {
         "question": "Proposez-vous un devis gratuit à Châteauvilain ?",
@@ -3555,7 +3555,7 @@ export const cities: City[] = [
       "longitude": 5.0579
     },
     "description": "Spécialiste gros œuvre à Heyrieux (Isère, 4 956 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "DZ Maçonnerie intervient à Heyrieux (4 956 habitants, Isère) pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Nous couvrons notamment Lotissement Le Gouret, Résidence Les Bosquets et Lotissement Les Mésanges. Le secteur compte des repères comme Château de Maille et Monument aux Morts, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "DZ Maçonnerie intervient à Heyrieux (4 956 habitants, Isère) pour vos travaux d'extension, de dalle béton, de murs et de terrassement. Nous couvrons notamment Lotissement Le Gouret, Résidence Les Bosquets et Lotissement Les Mésanges. Le secteur compte des repères comme Château de Maille et Monument aux Morts, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Heyrieux",
       "maçonnerie Heyrieux",
@@ -3618,11 +3618,11 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Heyrieux ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Heyrieux et notamment à Lotissement Le Gouret, Résidence Les Bosquets et Lotissement Les Mésanges, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Oui, Heyrieux et notamment à Lotissement Le Gouret, Résidence Les Bosquets et Lotissement Les Mésanges fait pleinement partie de notre zone d'intervention. Notre atelier est à Artas : la visite d'évaluation et le devis sont gratuits."
       },
       {
         "question": "Quelles précautions pour construire à Heyrieux ?",
-        "answer": "Le secteur d'Heyrieux peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "answer": "Les points de vigilance locaux sont drainage et gestion des eaux pluviales. Nos techniques de gros œuvre en tiennent compte dès la conception, et le devis intègre ces spécificités."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Heyrieux ?",
@@ -3630,7 +3630,7 @@ export const cities: City[] = [
       },
       {
         "question": "Proposez-vous un devis gratuit à Heyrieux ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Heyrieux."
+        "answer": "Oui : demande par téléphone ou via le formulaire, réponse sous 24h et visite sur place offerte à Heyrieux."
       }
     ]
   },
@@ -3650,7 +3650,7 @@ export const cities: City[] = [
       "longitude": 5.0259
     },
     "description": "Maçonnerie et terrassement à Valencin (Isère, 2 878 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "DZ Maçonnerie met son savoir-faire au service des habitants de Valencin (2 878 habitants, Isère) pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Nous couvrons notamment Lotissement Clos Villeneuve, Les Gounaches et La Combe. Le secteur compte des repères comme Monument aux Morts, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "DZ Maçonnerie met son savoir-faire au service des habitants de Valencin (2 878 habitants, Isère) pour vos chantiers de maçonnerie : terrasse, clôture, rénovation, terrassement. Nous couvrons notamment Lotissement Clos Villeneuve, Les Gounaches et La Combe. Le secteur compte des repères comme Monument aux Morts, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Valencin",
       "maçonnerie Valencin",
@@ -3711,19 +3711,19 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Valencin ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Valencin et notamment à Lotissement Clos Villeneuve, Les Gounaches et La Combe, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Absolument : nous couvrons Valencin et notamment à Lotissement Clos Villeneuve, Les Gounaches et La Combe comme l'ensemble des communes alentour. Le déplacement pour l'étude de votre projet est offert."
       },
       {
-        "question": "Quelles précautions pour construire à Valencin ?",
+        "question": "Y a-t-il des contraintes de terrain à Valencin ?",
         "answer": "Le secteur de Valencin peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Valencin ?",
-        "answer": "À Valencin, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Valencin."
       },
       {
         "question": "Proposez-vous un devis gratuit à Valencin ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Valencin."
+        "answer": "Bien sûr, l'étude et le chiffrage de votre projet à Valencin sont entièrement gratuits, sans aucun engagement."
       }
     ]
   },
@@ -3743,7 +3743,7 @@ export const cities: City[] = [
       "longitude": 5.0077
     },
     "description": "Maçonnerie et terrassement à Saint-Just-Chaleyssin (Isère, 2 695 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "DZ Maçonnerie met son savoir-faire au service des habitants de Saint-Just-Chaleyssin (2 695 habitants, Isère) pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Nous couvrons notamment Lotissement Le Plan, Lotissement de La Sévenne et Le Chanoz. Le secteur compte des repères comme Croix de Nantes et Pierre du cadeau pour l'éternité, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "DZ Maçonnerie met son savoir-faire au service des habitants de Saint-Just-Chaleyssin (2 695 habitants, Isère) pour vos chantiers de maçonnerie : terrasse, clôture, rénovation, terrassement. Nous couvrons notamment Lotissement Le Plan, Lotissement de La Sévenne et Le Chanoz. Le secteur compte des repères comme Croix de Nantes et Pierre du cadeau pour l'éternité, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Saint-Just-Chaleyssin",
       "maçonnerie Saint-Just-Chaleyssin",
@@ -3808,12 +3808,12 @@ export const cities: City[] = [
         "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Saint-Just-Chaleyssin et notamment à Lotissement Le Plan, Lotissement de La Sévenne et Le Chanoz, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
       },
       {
-        "question": "Quelles précautions pour construire à Saint-Just-Chaleyssin ?",
-        "answer": "Le secteur de Saint-Just-Chaleyssin peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "question": "Le terrain de Saint-Just-Chaleyssin pose-t-il des difficultés pour construire ?",
+        "answer": "Oui, il faut composer avec drainage et gestion des eaux pluviales. C'est pourquoi chaque chantier de Saint-Just-Chaleyssin démarre par une analyse du sol, qui guide le choix des fondations et du drainage."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Saint-Just-Chaleyssin ?",
-        "answer": "À Saint-Just-Chaleyssin, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Nos équipes interviennent à Saint-Just-Chaleyssin pour le terrassement, les fondations, les dalles béton, les murs, les extensions de maison et la rénovation."
       },
       {
         "question": "Proposez-vous un devis gratuit à Saint-Just-Chaleyssin ?",
@@ -3837,7 +3837,7 @@ export const cities: City[] = [
       "longitude": 5.3416
     },
     "description": "Artisan maçon à Succieu (Isère, 777 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "À Succieu (777 habitants, Isère), DZ Maçonnerie vous accompagne pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Nous couvrons notamment Le Pré Vert. Le secteur compte des repères comme Croix et Monument aux Morts, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "À Succieu (777 habitants, Isère), DZ Maçonnerie vous accompagne pour tous vos projets de gros œuvre : dalle béton, murs, extension, terrassement. Nous couvrons notamment Le Pré Vert. Le secteur compte des repères comme Croix et Monument aux Morts, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Succieu",
       "maçonnerie Succieu",
@@ -3898,19 +3898,19 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Succieu ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Succieu et notamment à Le Pré Vert, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Absolument : nous couvrons Succieu et notamment à Le Pré Vert comme l'ensemble des communes alentour. Le déplacement pour l'étude de votre projet est offert."
       },
       {
-        "question": "Quelles précautions pour construire à Succieu ?",
+        "question": "Y a-t-il des contraintes de terrain à Succieu ?",
         "answer": "Le secteur de Succieu peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Succieu ?",
-        "answer": "À Succieu, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Succieu."
       },
       {
         "question": "Proposez-vous un devis gratuit à Succieu ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Succieu."
+        "answer": "Bien sûr, l'étude et le chiffrage de votre projet à Succieu sont entièrement gratuits, sans aucun engagement."
       }
     ]
   },
@@ -3930,7 +3930,7 @@ export const cities: City[] = [
       "longitude": 5.2419
     },
     "description": "Artisan maçon à Saint-Marcel-Bel-Accueil (Isère, 1 505 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "À Saint-Marcel-Bel-Accueil (1 505 habitants, Isère), DZ Maçonnerie vous accompagne pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "À Saint-Marcel-Bel-Accueil (1 505 habitants, Isère), DZ Maçonnerie vous accompagne pour tous vos projets de gros œuvre : dalle béton, murs, extension, terrassement. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Saint-Marcel-Bel-Accueil",
       "maçonnerie Saint-Marcel-Bel-Accueil",
@@ -3982,19 +3982,19 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Saint-Marcel-Bel-Accueil ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Saint-Marcel-Bel-Accueil, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Absolument : nous couvrons Saint-Marcel-Bel-Accueil comme l'ensemble des communes alentour. Le déplacement pour l'étude de votre projet est offert."
       },
       {
-        "question": "Quelles précautions pour construire à Saint-Marcel-Bel-Accueil ?",
+        "question": "Y a-t-il des contraintes de terrain à Saint-Marcel-Bel-Accueil ?",
         "answer": "Le secteur de Saint-Marcel-Bel-Accueil peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Saint-Marcel-Bel-Accueil ?",
-        "answer": "À Saint-Marcel-Bel-Accueil, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Saint-Marcel-Bel-Accueil."
       },
       {
         "question": "Proposez-vous un devis gratuit à Saint-Marcel-Bel-Accueil ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Saint-Marcel-Bel-Accueil."
+        "answer": "Bien sûr, l'étude et le chiffrage de votre projet à Saint-Marcel-Bel-Accueil sont entièrement gratuits, sans aucun engagement."
       }
     ]
   },
@@ -4014,7 +4014,7 @@ export const cities: City[] = [
       "longitude": 5.3159
     },
     "description": "Artisan maçon à Flachères (Isère, 579 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "À Flachères (579 habitants, Isère), DZ Maçonnerie vous accompagne pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Les terrains locaux présentent des enjeux de conception parasismique, que nous intégrons dès l'étude.",
+    "introduction": "À Flachères (579 habitants, Isère), DZ Maçonnerie vous accompagne pour tous vos projets de gros œuvre : dalle béton, murs, extension, terrassement. Les terrains locaux présentent des enjeux de conception parasismique, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Flachères",
       "maçonnerie Flachères",
@@ -4068,12 +4068,12 @@ export const cities: City[] = [
         "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Flachères, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
       },
       {
-        "question": "Quelles précautions pour construire à Flachères ?",
-        "answer": "Le secteur de Flachères peut présenter des enjeux de conception parasismique. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "question": "Le terrain de Flachères pose-t-il des difficultés pour construire ?",
+        "answer": "Oui, il faut composer avec conception parasismique. C'est pourquoi chaque chantier de Flachères démarre par une analyse du sol, qui guide le choix des fondations et du drainage."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Flachères ?",
-        "answer": "À Flachères, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Nos équipes interviennent à Flachères pour le terrassement, les fondations, les dalles béton, les murs, les extensions de maison et la rénovation."
       },
       {
         "question": "Proposez-vous un devis gratuit à Flachères ?",
@@ -4097,7 +4097,7 @@ export const cities: City[] = [
       "longitude": 4.9881
     },
     "description": "Artisan maçon à Septème (Isère, 2 186 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "À Septème (2 186 habitants, Isère), DZ Maçonnerie vous accompagne pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Le secteur compte des repères comme 9 8, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "À Septème (2 186 habitants, Isère), DZ Maçonnerie vous accompagne pour tous vos projets de gros œuvre : dalle béton, murs, extension, terrassement. Le secteur compte des repères comme 9 8, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Septème",
       "maçonnerie Septème",
@@ -4152,19 +4152,19 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Septème ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Septème, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Absolument : nous couvrons Septème comme l'ensemble des communes alentour. Le déplacement pour l'étude de votre projet est offert."
       },
       {
-        "question": "Quelles précautions pour construire à Septème ?",
+        "question": "Y a-t-il des contraintes de terrain à Septème ?",
         "answer": "Le secteur de Septème peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Septème ?",
-        "answer": "À Septème, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Septème."
       },
       {
         "question": "Proposez-vous un devis gratuit à Septème ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Septème."
+        "answer": "Bien sûr, l'étude et le chiffrage de votre projet à Septème sont entièrement gratuits, sans aucun engagement."
       }
     ]
   },
@@ -4184,7 +4184,7 @@ export const cities: City[] = [
       "longitude": 5.3483
     },
     "description": "Artisan maçon à Sérézin-de-la-Tour (Isère, 1 135 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "À Sérézin-de-la-Tour (1 135 habitants, Isère), DZ Maçonnerie vous accompagne pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "À Sérézin-de-la-Tour (1 135 habitants, Isère), DZ Maçonnerie vous accompagne pour tous vos projets de gros œuvre : dalle béton, murs, extension, terrassement. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Sérézin-de-la-Tour",
       "maçonnerie Sérézin-de-la-Tour",
@@ -4238,11 +4238,11 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Sérézin-de-la-Tour ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Sérézin-de-la-Tour, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Oui, Sérézin-de-la-Tour fait pleinement partie de notre zone d'intervention. Notre atelier est à Artas : la visite d'évaluation et le devis sont gratuits."
       },
       {
-        "question": "Quelles précautions pour construire à Sérézin-de-la-Tour ?",
-        "answer": "Le secteur de Sérézin-de-la-Tour peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "question": "Y a-t-il des contraintes de terrain à Sérézin-de-la-Tour ?",
+        "answer": "Les points de vigilance locaux sont drainage et gestion des eaux pluviales. Nos techniques de gros œuvre en tiennent compte dès la conception, et le devis intègre ces spécificités."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Sérézin-de-la-Tour ?",
@@ -4250,7 +4250,7 @@ export const cities: City[] = [
       },
       {
         "question": "Proposez-vous un devis gratuit à Sérézin-de-la-Tour ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Sérézin-de-la-Tour."
+        "answer": "Oui : demande par téléphone ou via le formulaire, réponse sous 24h et visite sur place offerte à Sérézin-de-la-Tour."
       }
     ]
   },
@@ -4270,7 +4270,7 @@ export const cities: City[] = [
       "longitude": 4.9977
     },
     "description": "Maçonnerie et terrassement à Eyzin-Pinet (Isère, 2 285 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "DZ Maçonnerie met son savoir-faire au service des habitants d'Eyzin-Pinet (2 285 habitants, Isère) pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Nous couvrons notamment Les Cartalettes, Chez Durieu et Le Bourin. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "DZ Maçonnerie met son savoir-faire au service des habitants d'Eyzin-Pinet (2 285 habitants, Isère) pour vos chantiers de maçonnerie : terrasse, clôture, rénovation, terrassement. Nous couvrons notamment Les Cartalettes, Chez Durieu et Le Bourin. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Eyzin-Pinet",
       "maçonnerie Eyzin-Pinet",
@@ -4331,11 +4331,11 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Eyzin-Pinet ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Eyzin-Pinet et notamment à Les Cartalettes, Chez Durieu et Le Bourin, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Oui, Eyzin-Pinet et notamment à Les Cartalettes, Chez Durieu et Le Bourin fait pleinement partie de notre zone d'intervention. Notre atelier est à Artas : la visite d'évaluation et le devis sont gratuits."
       },
       {
-        "question": "Quelles précautions pour construire à Eyzin-Pinet ?",
-        "answer": "Le secteur d'Eyzin-Pinet peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "question": "Le terrain d'Eyzin-Pinet pose-t-il des difficultés pour construire ?",
+        "answer": "Les points de vigilance locaux sont drainage et gestion des eaux pluviales. Nos techniques de gros œuvre en tiennent compte dès la conception, et le devis intègre ces spécificités."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Eyzin-Pinet ?",
@@ -4343,7 +4343,7 @@ export const cities: City[] = [
       },
       {
         "question": "Proposez-vous un devis gratuit à Eyzin-Pinet ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Eyzin-Pinet."
+        "answer": "Oui : demande par téléphone ou via le formulaire, réponse sous 24h et visite sur place offerte à Eyzin-Pinet."
       }
     ]
   },
@@ -4363,7 +4363,7 @@ export const cities: City[] = [
       "longitude": 5.3482
     },
     "description": "Spécialiste gros œuvre à Ruy-Montceau (Isère, 4 805 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "DZ Maçonnerie intervient à Ruy-Montceau (4 805 habitants, Isère) pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Nous couvrons notamment Grand Termen et Sunière. Le secteur compte des repères comme centre-ville et zones résidentielles, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "DZ Maçonnerie intervient à Ruy-Montceau (4 805 habitants, Isère) pour vos travaux d'extension, de dalle béton, de murs et de terrassement. Nous couvrons notamment Grand Termen et Sunière. Le secteur compte des repères comme centre-ville et zones résidentielles, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Ruy-Montceau",
       "maçonnerie Ruy-Montceau",
@@ -4428,11 +4428,11 @@ export const cities: City[] = [
       },
       {
         "question": "Quelles précautions pour construire à Ruy-Montceau ?",
-        "answer": "Le secteur de Ruy-Montceau peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "answer": "Oui, il faut composer avec drainage et gestion des eaux pluviales. C'est pourquoi chaque chantier de Ruy-Montceau démarre par une analyse du sol, qui guide le choix des fondations et du drainage."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Ruy-Montceau ?",
-        "answer": "À Ruy-Montceau, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Nos équipes interviennent à Ruy-Montceau pour le terrassement, les fondations, les dalles béton, les murs, les extensions de maison et la rénovation."
       },
       {
         "question": "Proposez-vous un devis gratuit à Ruy-Montceau ?",
@@ -4518,11 +4518,11 @@ export const cities: City[] = [
       },
       {
         "question": "Quelles précautions pour construire à Grenay ?",
-        "answer": "Le secteur de Grenay peut présenter des enjeux de conception parasismique. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "answer": "Oui, il faut composer avec conception parasismique. C'est pourquoi chaque chantier de Grenay démarre par une analyse du sol, qui guide le choix des fondations et du drainage."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Grenay ?",
-        "answer": "À Grenay, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Nos équipes interviennent à Grenay pour le terrassement, les fondations, les dalles béton, les murs, les extensions de maison et la rénovation."
       },
       {
         "question": "Proposez-vous un devis gratuit à Grenay ?",
@@ -4601,12 +4601,12 @@ export const cities: City[] = [
         "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Panossas, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
       },
       {
-        "question": "Quelles précautions pour construire à Panossas ?",
-        "answer": "Le secteur de Panossas peut présenter des enjeux de conception parasismique. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "question": "Le terrain de Panossas pose-t-il des difficultés pour construire ?",
+        "answer": "Oui, il faut composer avec conception parasismique. C'est pourquoi chaque chantier de Panossas démarre par une analyse du sol, qui guide le choix des fondations et du drainage."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Panossas ?",
-        "answer": "À Panossas, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Nos équipes interviennent à Panossas pour le terrassement, les fondations, les dalles béton, les murs, les extensions de maison et la rénovation."
       },
       {
         "question": "Proposez-vous un devis gratuit à Panossas ?",
@@ -4630,7 +4630,7 @@ export const cities: City[] = [
       "longitude": 5.3216
     },
     "description": "Spécialiste gros œuvre à Saint-Savin (Isère, 4 323 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "DZ Maçonnerie intervient à Saint-Savin (4 323 habitants, Isère) pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Nous couvrons notamment La Grande Charrière. Le secteur compte des repères comme Maison forte du Mollard et Fin de la Guerre d'Algérie, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "DZ Maçonnerie intervient à Saint-Savin (4 323 habitants, Isère) pour vos travaux d'extension, de dalle béton, de murs et de terrassement. Nous couvrons notamment La Grande Charrière. Le secteur compte des repères comme Maison forte du Mollard et Fin de la Guerre d'Algérie, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Saint-Savin",
       "maçonnerie Saint-Savin",
@@ -4690,11 +4690,11 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Saint-Savin ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Saint-Savin et notamment à La Grande Charrière, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Oui, Saint-Savin et notamment à La Grande Charrière fait pleinement partie de notre zone d'intervention. Notre atelier est à Artas : la visite d'évaluation et le devis sont gratuits."
       },
       {
-        "question": "Quelles précautions pour construire à Saint-Savin ?",
-        "answer": "Le secteur de Saint-Savin peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "question": "Le terrain de Saint-Savin pose-t-il des difficultés pour construire ?",
+        "answer": "Les points de vigilance locaux sont drainage et gestion des eaux pluviales. Nos techniques de gros œuvre en tiennent compte dès la conception, et le devis intègre ces spécificités."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Saint-Savin ?",
@@ -4702,7 +4702,7 @@ export const cities: City[] = [
       },
       {
         "question": "Proposez-vous un devis gratuit à Saint-Savin ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Saint-Savin."
+        "answer": "Oui : demande par téléphone ou via le formulaire, réponse sous 24h et visite sur place offerte à Saint-Savin."
       }
     ]
   },
@@ -4722,7 +4722,7 @@ export const cities: City[] = [
       "longitude": 5.0267
     },
     "description": "Artisan maçon à Cour-et-Buis (Isère, 920 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "À Cour-et-Buis (920 habitants, Isère), DZ Maçonnerie vous accompagne pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Le secteur compte des repères comme Monument aux Morts, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "À Cour-et-Buis (920 habitants, Isère), DZ Maçonnerie vous accompagne pour tous vos projets de gros œuvre : dalle béton, murs, extension, terrassement. Le secteur compte des repères comme Monument aux Morts, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Cour-et-Buis",
       "maçonnerie Cour-et-Buis",
@@ -4779,19 +4779,19 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Cour-et-Buis ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Cour-et-Buis, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Absolument : nous couvrons Cour-et-Buis comme l'ensemble des communes alentour. Le déplacement pour l'étude de votre projet est offert."
       },
       {
-        "question": "Quelles précautions pour construire à Cour-et-Buis ?",
+        "question": "Y a-t-il des contraintes de terrain à Cour-et-Buis ?",
         "answer": "Le secteur de Cour-et-Buis peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Cour-et-Buis ?",
-        "answer": "À Cour-et-Buis, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Cour-et-Buis."
       },
       {
         "question": "Proposez-vous un devis gratuit à Cour-et-Buis ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Cour-et-Buis."
+        "answer": "Bien sûr, l'étude et le chiffrage de votre projet à Cour-et-Buis sont entièrement gratuits, sans aucun engagement."
       }
     ]
   },
@@ -4873,11 +4873,11 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Estrablin ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Estrablin et notamment à Lotissement Donce, Lotissement Clos des Bruyères et Lotissement Les Hauts du Michalin, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Oui, Estrablin et notamment à Lotissement Donce, Lotissement Clos des Bruyères et Lotissement Les Hauts du Michalin fait pleinement partie de notre zone d'intervention. Notre atelier est à Artas : la visite d'évaluation et le devis sont gratuits."
       },
       {
-        "question": "Quelles précautions pour construire à Estrablin ?",
-        "answer": "Le secteur d'Estrablin peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "question": "Y a-t-il des contraintes de terrain à Estrablin ?",
+        "answer": "Les points de vigilance locaux sont drainage et gestion des eaux pluviales. Nos techniques de gros œuvre en tiennent compte dès la conception, et le devis intègre ces spécificités."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Estrablin ?",
@@ -4885,7 +4885,7 @@ export const cities: City[] = [
       },
       {
         "question": "Proposez-vous un devis gratuit à Estrablin ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Estrablin."
+        "answer": "Oui : demande par téléphone ou via le formulaire, réponse sous 24h et visite sur place offerte à Estrablin."
       }
     ]
   },
@@ -4905,7 +4905,7 @@ export const cities: City[] = [
       "longitude": 5.2785
     },
     "description": "Spécialiste gros œuvre à Vénérieu (Isère, 968 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "DZ Maçonnerie intervient à Vénérieu (968 habitants, Isère) pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "DZ Maçonnerie intervient à Vénérieu (968 habitants, Isère) pour vos travaux d'extension, de dalle béton, de murs et de terrassement. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Vénérieu",
       "maçonnerie Vénérieu",
@@ -4961,11 +4961,11 @@ export const cities: City[] = [
       },
       {
         "question": "Quelles précautions pour construire à Vénérieu ?",
-        "answer": "Le secteur de Vénérieu peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "answer": "Oui, il faut composer avec drainage et gestion des eaux pluviales. C'est pourquoi chaque chantier de Vénérieu démarre par une analyse du sol, qui guide le choix des fondations et du drainage."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Vénérieu ?",
-        "answer": "À Vénérieu, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Nos équipes interviennent à Vénérieu pour le terrassement, les fondations, les dalles béton, les murs, les extensions de maison et la rénovation."
       },
       {
         "question": "Proposez-vous un devis gratuit à Vénérieu ?",
@@ -5045,11 +5045,11 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Biol ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Biol, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Oui, Biol fait pleinement partie de notre zone d'intervention. Notre atelier est à Artas : la visite d'évaluation et le devis sont gratuits."
       },
       {
         "question": "Quelles précautions pour construire à Biol ?",
-        "answer": "Le secteur de Biol peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "answer": "Les points de vigilance locaux sont drainage et gestion des eaux pluviales. Nos techniques de gros œuvre en tiennent compte dès la conception, et le devis intègre ces spécificités."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Biol ?",
@@ -5057,7 +5057,7 @@ export const cities: City[] = [
       },
       {
         "question": "Proposez-vous un devis gratuit à Biol ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Biol."
+        "answer": "Oui : demande par téléphone ou via le formulaire, réponse sous 24h et visite sur place offerte à Biol."
       }
     ]
   },
@@ -5139,19 +5139,19 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Ornacieux-Balbins ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Ornacieux-Balbins et notamment à Balbins et Ornacieux, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Absolument : nous couvrons Ornacieux-Balbins et notamment à Balbins et Ornacieux comme l'ensemble des communes alentour. Le déplacement pour l'étude de votre projet est offert."
       },
       {
-        "question": "Quelles précautions pour construire à Ornacieux-Balbins ?",
+        "question": "Y a-t-il des contraintes de terrain à Ornacieux-Balbins ?",
         "answer": "Le secteur d'Ornacieux-Balbins peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Ornacieux-Balbins ?",
-        "answer": "À Ornacieux-Balbins, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Ornacieux-Balbins."
       },
       {
         "question": "Proposez-vous un devis gratuit à Ornacieux-Balbins ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Ornacieux-Balbins."
+        "answer": "Bien sûr, l'étude et le chiffrage de votre projet à Ornacieux-Balbins sont entièrement gratuits, sans aucun engagement."
       }
     ]
   },
@@ -5171,7 +5171,7 @@ export const cities: City[] = [
       "longitude": 5.1218
     },
     "description": "Spécialiste gros œuvre à Satolas-et-Bonce (Isère, 2 532 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "DZ Maçonnerie intervient à Satolas-et-Bonce (2 532 habitants, Isère) pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Nous couvrons notamment La Ruette, Haut-Bonce et Bas-Bonce. Le secteur compte des repères comme Monument aux Morts et Croix de l'Eperon, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "DZ Maçonnerie intervient à Satolas-et-Bonce (2 532 habitants, Isère) pour vos travaux d'extension, de dalle béton, de murs et de terrassement. Nous couvrons notamment La Ruette, Haut-Bonce et Bas-Bonce. Le secteur compte des repères comme Monument aux Morts et Croix de l'Eperon, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Satolas-et-Bonce",
       "maçonnerie Satolas-et-Bonce",
@@ -5233,11 +5233,11 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Satolas-et-Bonce ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Satolas-et-Bonce et notamment à La Ruette, Haut-Bonce et Bas-Bonce, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Oui, Satolas-et-Bonce et notamment à La Ruette, Haut-Bonce et Bas-Bonce fait pleinement partie de notre zone d'intervention. Notre atelier est à Artas : la visite d'évaluation et le devis sont gratuits."
       },
       {
-        "question": "Quelles précautions pour construire à Satolas-et-Bonce ?",
-        "answer": "Le secteur de Satolas-et-Bonce peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "question": "Le terrain de Satolas-et-Bonce pose-t-il des difficultés pour construire ?",
+        "answer": "Les points de vigilance locaux sont drainage et gestion des eaux pluviales. Nos techniques de gros œuvre en tiennent compte dès la conception, et le devis intègre ces spécificités."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Satolas-et-Bonce ?",
@@ -5245,7 +5245,7 @@ export const cities: City[] = [
       },
       {
         "question": "Proposez-vous un devis gratuit à Satolas-et-Bonce ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Satolas-et-Bonce."
+        "answer": "Oui : demande par téléphone ou via le formulaire, réponse sous 24h et visite sur place offerte à Satolas-et-Bonce."
       }
     ]
   },
@@ -5265,7 +5265,7 @@ export const cities: City[] = [
       "longitude": 5.3746
     },
     "description": "Artisan maçon à Cessieu (Isère, 3 259 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "À Cessieu (3 259 habitants, Isère), DZ Maçonnerie vous accompagne pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Nous couvrons notamment Clos du Moulin. Le secteur compte des repères comme Monument aux Morts, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "À Cessieu (3 259 habitants, Isère), DZ Maçonnerie vous accompagne pour tous vos projets de gros œuvre : dalle béton, murs, extension, terrassement. Nous couvrons notamment Clos du Moulin. Le secteur compte des repères comme Monument aux Morts, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Cessieu",
       "maçonnerie Cessieu",
@@ -5323,19 +5323,19 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Cessieu ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Cessieu et notamment à Clos du Moulin, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Absolument : nous couvrons Cessieu et notamment à Clos du Moulin comme l'ensemble des communes alentour. Le déplacement pour l'étude de votre projet est offert."
       },
       {
-        "question": "Quelles précautions pour construire à Cessieu ?",
+        "question": "Y a-t-il des contraintes de terrain à Cessieu ?",
         "answer": "Le secteur de Cessieu peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Cessieu ?",
-        "answer": "À Cessieu, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Cessieu."
       },
       {
         "question": "Proposez-vous un devis gratuit à Cessieu ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Cessieu."
+        "answer": "Bien sûr, l'étude et le chiffrage de votre projet à Cessieu sont entièrement gratuits, sans aucun engagement."
       }
     ]
   },
@@ -5355,7 +5355,7 @@ export const cities: City[] = [
       "longitude": 5.3602
     },
     "description": "Spécialiste gros œuvre à Belmont (Isère, 636 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "DZ Maçonnerie intervient à Belmont (636 habitants, Isère) pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Les terrains locaux présentent des enjeux de conception parasismique, que nous intégrons dès l'étude.",
+    "introduction": "DZ Maçonnerie intervient à Belmont (636 habitants, Isère) pour vos travaux d'extension, de dalle béton, de murs et de terrassement. Les terrains locaux présentent des enjeux de conception parasismique, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Belmont",
       "maçonnerie Belmont",
@@ -5409,12 +5409,12 @@ export const cities: City[] = [
         "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Belmont, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
       },
       {
-        "question": "Quelles précautions pour construire à Belmont ?",
-        "answer": "Le secteur de Belmont peut présenter des enjeux de conception parasismique. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "question": "Y a-t-il des contraintes de terrain à Belmont ?",
+        "answer": "Oui, il faut composer avec conception parasismique. C'est pourquoi chaque chantier de Belmont démarre par une analyse du sol, qui guide le choix des fondations et du drainage."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Belmont ?",
-        "answer": "À Belmont, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Nos équipes interviennent à Belmont pour le terrassement, les fondations, les dalles béton, les murs, les extensions de maison et la rénovation."
       },
       {
         "question": "Proposez-vous un devis gratuit à Belmont ?",
@@ -5438,7 +5438,7 @@ export const cities: City[] = [
       "longitude": 5.1679
     },
     "description": "Maçonnerie et terrassement à Chamagnieu (Isère, 1 822 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "DZ Maçonnerie met son savoir-faire au service des habitants de Chamagnieu (1 822 habitants, Isère) pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Nous couvrons notamment centre village et zones résidentielles. Le secteur compte des repères comme centre du village, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "DZ Maçonnerie met son savoir-faire au service des habitants de Chamagnieu (1 822 habitants, Isère) pour vos chantiers de maçonnerie : terrasse, clôture, rénovation, terrassement. Nous couvrons notamment centre village et zones résidentielles. Le secteur compte des repères comme centre du village, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Chamagnieu",
       "maçonnerie Chamagnieu",
@@ -5497,11 +5497,11 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Chamagnieu ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Chamagnieu et notamment à centre village et zones résidentielles, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Oui, Chamagnieu et notamment à centre village et zones résidentielles fait pleinement partie de notre zone d'intervention. Notre atelier est à Artas : la visite d'évaluation et le devis sont gratuits."
       },
       {
-        "question": "Quelles précautions pour construire à Chamagnieu ?",
-        "answer": "Le secteur de Chamagnieu peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "question": "Y a-t-il des contraintes de terrain à Chamagnieu ?",
+        "answer": "Les points de vigilance locaux sont drainage et gestion des eaux pluviales. Nos techniques de gros œuvre en tiennent compte dès la conception, et le devis intègre ces spécificités."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Chamagnieu ?",
@@ -5509,7 +5509,7 @@ export const cities: City[] = [
       },
       {
         "question": "Proposez-vous un devis gratuit à Chamagnieu ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Chamagnieu."
+        "answer": "Oui : demande par téléphone ou via le formulaire, réponse sous 24h et visite sur place offerte à Chamagnieu."
       }
     ]
   },
@@ -5529,7 +5529,7 @@ export const cities: City[] = [
       "longitude": 5.3814
     },
     "description": "Spécialiste gros œuvre à Saint-Victor-de-Cessieu (Isère, 2 148 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "DZ Maçonnerie intervient à Saint-Victor-de-Cessieu (2 148 habitants, Isère) pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Nous couvrons notamment Le Buis, Grand Champ et Lotissement Vignes. Le secteur compte des repères comme Château de Vallin et Fauteuil du seigneur, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "DZ Maçonnerie intervient à Saint-Victor-de-Cessieu (2 148 habitants, Isère) pour vos travaux d'extension, de dalle béton, de murs et de terrassement. Nous couvrons notamment Le Buis, Grand Champ et Lotissement Vignes. Le secteur compte des repères comme Château de Vallin et Fauteuil du seigneur, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Saint-Victor-de-Cessieu",
       "maçonnerie Saint-Victor-de-Cessieu",
@@ -5592,11 +5592,11 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Saint-Victor-de-Cessieu ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Saint-Victor-de-Cessieu et notamment à Le Buis, Grand Champ et Lotissement Vignes, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Oui, Saint-Victor-de-Cessieu et notamment à Le Buis, Grand Champ et Lotissement Vignes fait pleinement partie de notre zone d'intervention. Notre atelier est à Artas : la visite d'évaluation et le devis sont gratuits."
       },
       {
         "question": "Quelles précautions pour construire à Saint-Victor-de-Cessieu ?",
-        "answer": "Le secteur de Saint-Victor-de-Cessieu peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "answer": "Les points de vigilance locaux sont drainage et gestion des eaux pluviales. Nos techniques de gros œuvre en tiennent compte dès la conception, et le devis intègre ces spécificités."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Saint-Victor-de-Cessieu ?",
@@ -5604,7 +5604,7 @@ export const cities: City[] = [
       },
       {
         "question": "Proposez-vous un devis gratuit à Saint-Victor-de-Cessieu ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Saint-Victor-de-Cessieu."
+        "answer": "Oui : demande par téléphone ou via le formulaire, réponse sous 24h et visite sur place offerte à Saint-Victor-de-Cessieu."
       }
     ]
   },
@@ -5624,7 +5624,7 @@ export const cities: City[] = [
       "longitude": 5.3355
     },
     "description": "Spécialiste gros œuvre à Eydoche (Isère, 543 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "DZ Maçonnerie intervient à Eydoche (543 habitants, Isère) pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Le secteur compte des repères comme Monument aux Morts, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de conception parasismique, que nous intégrons dès l'étude.",
+    "introduction": "DZ Maçonnerie intervient à Eydoche (543 habitants, Isère) pour vos travaux d'extension, de dalle béton, de murs et de terrassement. Le secteur compte des repères comme Monument aux Morts, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de conception parasismique, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Eydoche",
       "maçonnerie Eydoche",
@@ -5676,11 +5676,11 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Eydoche ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Eydoche, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Oui, Eydoche fait pleinement partie de notre zone d'intervention. Notre atelier est à Artas : la visite d'évaluation et le devis sont gratuits."
       },
       {
         "question": "Quelles précautions pour construire à Eydoche ?",
-        "answer": "Le secteur d'Eydoche peut présenter des enjeux de conception parasismique. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "answer": "Les points de vigilance locaux sont conception parasismique. Nos techniques de gros œuvre en tiennent compte dès la conception, et le devis intègre ces spécificités."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Eydoche ?",
@@ -5688,7 +5688,7 @@ export const cities: City[] = [
       },
       {
         "question": "Proposez-vous un devis gratuit à Eydoche ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Eydoche."
+        "answer": "Oui : demande par téléphone ou via le formulaire, réponse sous 24h et visite sur place offerte à Eydoche."
       }
     ]
   },
@@ -5708,7 +5708,7 @@ export const cities: City[] = [
       "longitude": 5.1548
     },
     "description": "Artisan maçon à Faramans (Isère, 1 143 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "À Faramans (1 143 habitants, Isère), DZ Maçonnerie vous accompagne pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Nous couvrons notamment centre village et zones rurales. Le secteur compte des repères comme Croix, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "À Faramans (1 143 habitants, Isère), DZ Maçonnerie vous accompagne pour tous vos projets de gros œuvre : dalle béton, murs, extension, terrassement. Nous couvrons notamment centre village et zones rurales. Le secteur compte des repères comme Croix, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Faramans",
       "maçonnerie Faramans",
@@ -5771,12 +5771,12 @@ export const cities: City[] = [
         "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Faramans et notamment à centre village et zones rurales, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
       },
       {
-        "question": "Quelles précautions pour construire à Faramans ?",
-        "answer": "Le secteur de Faramans peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "question": "Y a-t-il des contraintes de terrain à Faramans ?",
+        "answer": "Oui, il faut composer avec drainage et gestion des eaux pluviales. C'est pourquoi chaque chantier de Faramans démarre par une analyse du sol, qui guide le choix des fondations et du drainage."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Faramans ?",
-        "answer": "À Faramans, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Nos équipes interviennent à Faramans pour le terrassement, les fondations, les dalles béton, les murs, les extensions de maison et la rénovation."
       },
       {
         "question": "Proposez-vous un devis gratuit à Faramans ?",
@@ -5800,7 +5800,7 @@ export const cities: City[] = [
       "longitude": 4.9627
     },
     "description": "Maçonnerie et terrassement à Luzinay (Isère, 2 416 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "DZ Maçonnerie met son savoir-faire au service des habitants de Luzinay (2 416 habitants, Isère) pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Nous couvrons notamment Lotissement La Garenne, Lotissement Le Clos de Luzin et Lotissement Les Jardins de Pradine. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "DZ Maçonnerie met son savoir-faire au service des habitants de Luzinay (2 416 habitants, Isère) pour vos chantiers de maçonnerie : terrasse, clôture, rénovation, terrassement. Nous couvrons notamment Lotissement La Garenne, Lotissement Le Clos de Luzin et Lotissement Les Jardins de Pradine. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Luzinay",
       "maçonnerie Luzinay",
@@ -5861,19 +5861,19 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Luzinay ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Luzinay et notamment à Lotissement La Garenne, Lotissement Le Clos de Luzin et Lotissement Les Jardins de Pradine, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Absolument : nous couvrons Luzinay et notamment à Lotissement La Garenne, Lotissement Le Clos de Luzin et Lotissement Les Jardins de Pradine comme l'ensemble des communes alentour. Le déplacement pour l'étude de votre projet est offert."
       },
       {
-        "question": "Quelles précautions pour construire à Luzinay ?",
+        "question": "Y a-t-il des contraintes de terrain à Luzinay ?",
         "answer": "Le secteur de Luzinay peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Luzinay ?",
-        "answer": "À Luzinay, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Luzinay."
       },
       {
         "question": "Proposez-vous un devis gratuit à Luzinay ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Luzinay."
+        "answer": "Bien sûr, l'étude et le chiffrage de votre projet à Luzinay sont entièrement gratuits, sans aucun engagement."
       }
     ]
   },
@@ -5952,7 +5952,7 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Mottier ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Mottier et notamment à centre village et zones rurales, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Absolument : nous couvrons Mottier et notamment à centre village et zones rurales comme l'ensemble des communes alentour. Le déplacement pour l'étude de votre projet est offert."
       },
       {
         "question": "Quelles précautions pour construire à Mottier ?",
@@ -5960,11 +5960,11 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Mottier ?",
-        "answer": "À Mottier, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Mottier."
       },
       {
         "question": "Proposez-vous un devis gratuit à Mottier ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Mottier."
+        "answer": "Bien sûr, l'étude et le chiffrage de votre projet à Mottier sont entièrement gratuits, sans aucun engagement."
       }
     ]
   },
@@ -5984,7 +5984,7 @@ export const cities: City[] = [
       "longitude": 5.1134
     },
     "description": "Artisan maçon à Pommier-de-Beaurepaire (Isère, 731 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "À Pommier-de-Beaurepaire (731 habitants, Isère), DZ Maçonnerie vous accompagne pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Nous couvrons notamment Les Brosses, Les Bruyères et Belmont. Le secteur compte des repères comme Monument aux Morts, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "À Pommier-de-Beaurepaire (731 habitants, Isère), DZ Maçonnerie vous accompagne pour tous vos projets de gros œuvre : dalle béton, murs, extension, terrassement. Nous couvrons notamment Les Brosses, Les Bruyères et Belmont. Le secteur compte des repères comme Monument aux Morts, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Pommier-de-Beaurepaire",
       "maçonnerie Pommier-de-Beaurepaire",
@@ -6045,11 +6045,11 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Pommier-de-Beaurepaire ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Pommier-de-Beaurepaire et notamment à Les Brosses, Les Bruyères et Belmont, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Oui, Pommier-de-Beaurepaire et notamment à Les Brosses, Les Bruyères et Belmont fait pleinement partie de notre zone d'intervention. Notre atelier est à Artas : la visite d'évaluation et le devis sont gratuits."
       },
       {
-        "question": "Quelles précautions pour construire à Pommier-de-Beaurepaire ?",
-        "answer": "Le secteur de Pommier-de-Beaurepaire peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "question": "Y a-t-il des contraintes de terrain à Pommier-de-Beaurepaire ?",
+        "answer": "Les points de vigilance locaux sont drainage et gestion des eaux pluviales. Nos techniques de gros œuvre en tiennent compte dès la conception, et le devis intègre ces spécificités."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Pommier-de-Beaurepaire ?",
@@ -6057,7 +6057,7 @@ export const cities: City[] = [
       },
       {
         "question": "Proposez-vous un devis gratuit à Pommier-de-Beaurepaire ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Pommier-de-Beaurepaire."
+        "answer": "Oui : demande par téléphone ou via le formulaire, réponse sous 24h et visite sur place offerte à Pommier-de-Beaurepaire."
       }
     ]
   },
@@ -6077,7 +6077,7 @@ export const cities: City[] = [
       "longitude": 5.0085
     },
     "description": "Artisan maçon à Saint-Pierre-de-Chandieu (Rhône, 4 616 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "À Saint-Pierre-de-Chandieu (4 616 habitants, Rhône), DZ Maçonnerie vous accompagne pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Nous couvrons notamment centre-ville et zones résidentielles. Le secteur compte des repères comme Croix de Satolas et Madone, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "À Saint-Pierre-de-Chandieu (4 616 habitants, Rhône), DZ Maçonnerie vous accompagne pour tous vos projets de gros œuvre : dalle béton, murs, extension, terrassement. Nous couvrons notamment centre-ville et zones résidentielles. Le secteur compte des repères comme Croix de Satolas et Madone, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Saint-Pierre-de-Chandieu",
       "maçonnerie Saint-Pierre-de-Chandieu",
@@ -6140,11 +6140,11 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Saint-Pierre-de-Chandieu ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Saint-Pierre-de-Chandieu et notamment à centre-ville et zones résidentielles, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Oui, Saint-Pierre-de-Chandieu et notamment à centre-ville et zones résidentielles fait pleinement partie de notre zone d'intervention. Notre atelier est à Artas : la visite d'évaluation et le devis sont gratuits."
       },
       {
         "question": "Quelles précautions pour construire à Saint-Pierre-de-Chandieu ?",
-        "answer": "Le secteur de Saint-Pierre-de-Chandieu peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "answer": "Les points de vigilance locaux sont drainage et gestion des eaux pluviales. Nos techniques de gros œuvre en tiennent compte dès la conception, et le devis intègre ces spécificités."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Saint-Pierre-de-Chandieu ?",
@@ -6152,7 +6152,7 @@ export const cities: City[] = [
       },
       {
         "question": "Proposez-vous un devis gratuit à Saint-Pierre-de-Chandieu ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Saint-Pierre-de-Chandieu."
+        "answer": "Oui : demande par téléphone ou via le formulaire, réponse sous 24h et visite sur place offerte à Saint-Pierre-de-Chandieu."
       }
     ]
   },
@@ -6172,7 +6172,7 @@ export const cities: City[] = [
       "longitude": 5.2626
     },
     "description": "Maçonnerie et terrassement à Moras (Isère, 520 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "DZ Maçonnerie met son savoir-faire au service des habitants de Moras (520 habitants, Isère) pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Les terrains locaux présentent des enjeux de conception parasismique, que nous intégrons dès l'étude.",
+    "introduction": "DZ Maçonnerie met son savoir-faire au service des habitants de Moras (520 habitants, Isère) pour vos chantiers de maçonnerie : terrasse, clôture, rénovation, terrassement. Les terrains locaux présentent des enjeux de conception parasismique, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Moras",
       "maçonnerie Moras",
@@ -6223,11 +6223,11 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Moras ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Moras, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Oui, Moras fait pleinement partie de notre zone d'intervention. Notre atelier est à Artas : la visite d'évaluation et le devis sont gratuits."
       },
       {
-        "question": "Quelles précautions pour construire à Moras ?",
-        "answer": "Le secteur de Moras peut présenter des enjeux de conception parasismique. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "question": "Y a-t-il des contraintes de terrain à Moras ?",
+        "answer": "Les points de vigilance locaux sont conception parasismique. Nos techniques de gros œuvre en tiennent compte dès la conception, et le devis intègre ces spécificités."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Moras ?",
@@ -6235,7 +6235,7 @@ export const cities: City[] = [
       },
       {
         "question": "Proposez-vous un devis gratuit à Moras ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Moras."
+        "answer": "Oui : demande par téléphone ou via le formulaire, réponse sous 24h et visite sur place offerte à Moras."
       }
     ]
   },
@@ -6255,7 +6255,7 @@ export const cities: City[] = [
       "longitude": 5.2083
     },
     "description": "Spécialiste gros œuvre à Chozeau (Isère, 987 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "DZ Maçonnerie intervient à Chozeau (987 habitants, Isère) pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Le secteur compte des repères comme La Motte Castrale de Chalignieu et Monument aux Morts, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de conception parasismique, que nous intégrons dès l'étude.",
+    "introduction": "DZ Maçonnerie intervient à Chozeau (987 habitants, Isère) pour vos travaux d'extension, de dalle béton, de murs et de terrassement. Le secteur compte des repères comme La Motte Castrale de Chalignieu et Monument aux Morts, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de conception parasismique, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Chozeau",
       "maçonnerie Chozeau",
@@ -6311,12 +6311,12 @@ export const cities: City[] = [
         "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Chozeau, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
       },
       {
-        "question": "Quelles précautions pour construire à Chozeau ?",
-        "answer": "Le secteur de Chozeau peut présenter des enjeux de conception parasismique. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "question": "Le terrain de Chozeau pose-t-il des difficultés pour construire ?",
+        "answer": "Oui, il faut composer avec conception parasismique. C'est pourquoi chaque chantier de Chozeau démarre par une analyse du sol, qui guide le choix des fondations et du drainage."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Chozeau ?",
-        "answer": "À Chozeau, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Nos équipes interviennent à Chozeau pour le terrassement, les fondations, les dalles béton, les murs, les extensions de maison et la rénovation."
       },
       {
         "question": "Proposez-vous un devis gratuit à Chozeau ?",
@@ -6340,7 +6340,7 @@ export const cities: City[] = [
       "longitude": 5.3984
     },
     "description": "Artisan maçon à Torchefelon (Isère, 838 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "À Torchefelon (838 habitants, Isère), DZ Maçonnerie vous accompagne pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Le secteur compte des repères comme Monument aux Morts, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "À Torchefelon (838 habitants, Isère), DZ Maçonnerie vous accompagne pour tous vos projets de gros œuvre : dalle béton, murs, extension, terrassement. Le secteur compte des repères comme Monument aux Morts, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Torchefelon",
       "maçonnerie Torchefelon",
@@ -6394,7 +6394,7 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Torchefelon ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Torchefelon, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Absolument : nous couvrons Torchefelon comme l'ensemble des communes alentour. Le déplacement pour l'étude de votre projet est offert."
       },
       {
         "question": "Quelles précautions pour construire à Torchefelon ?",
@@ -6402,11 +6402,11 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Torchefelon ?",
-        "answer": "À Torchefelon, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Torchefelon."
       },
       {
         "question": "Proposez-vous un devis gratuit à Torchefelon ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Torchefelon."
+        "answer": "Bien sûr, l'étude et le chiffrage de votre projet à Torchefelon sont entièrement gratuits, sans aucun engagement."
       }
     ]
   },
@@ -6426,7 +6426,7 @@ export const cities: City[] = [
       "longitude": 5.0319
     },
     "description": "Artisan maçon à Primarette (Isère, 686 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "À Primarette (686 habitants, Isère), DZ Maçonnerie vous accompagne pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "À Primarette (686 habitants, Isère), DZ Maçonnerie vous accompagne pour tous vos projets de gros œuvre : dalle béton, murs, extension, terrassement. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Primarette",
       "maçonnerie Primarette",
@@ -6480,11 +6480,11 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Primarette ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Primarette, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Oui, Primarette fait pleinement partie de notre zone d'intervention. Notre atelier est à Artas : la visite d'évaluation et le devis sont gratuits."
       },
       {
         "question": "Quelles précautions pour construire à Primarette ?",
-        "answer": "Le secteur de Primarette peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "answer": "Les points de vigilance locaux sont drainage et gestion des eaux pluviales. Nos techniques de gros œuvre en tiennent compte dès la conception, et le devis intègre ces spécificités."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Primarette ?",
@@ -6492,7 +6492,7 @@ export const cities: City[] = [
       },
       {
         "question": "Proposez-vous un devis gratuit à Primarette ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Primarette."
+        "answer": "Oui : demande par téléphone ou via le formulaire, réponse sous 24h et visite sur place offerte à Primarette."
       }
     ]
   },
@@ -6512,7 +6512,7 @@ export const cities: City[] = [
       "longitude": 5.2913
     },
     "description": "Spécialiste gros œuvre à Saint-Hilaire-de-Brens (Isère, 603 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "DZ Maçonnerie intervient à Saint-Hilaire-de-Brens (603 habitants, Isère) pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "DZ Maçonnerie intervient à Saint-Hilaire-de-Brens (603 habitants, Isère) pour vos travaux d'extension, de dalle béton, de murs et de terrassement. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Saint-Hilaire-de-Brens",
       "maçonnerie Saint-Hilaire-de-Brens",
@@ -6568,12 +6568,12 @@ export const cities: City[] = [
         "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Saint-Hilaire-de-Brens, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
       },
       {
-        "question": "Quelles précautions pour construire à Saint-Hilaire-de-Brens ?",
-        "answer": "Le secteur de Saint-Hilaire-de-Brens peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "question": "Y a-t-il des contraintes de terrain à Saint-Hilaire-de-Brens ?",
+        "answer": "Oui, il faut composer avec drainage et gestion des eaux pluviales. C'est pourquoi chaque chantier de Saint-Hilaire-de-Brens démarre par une analyse du sol, qui guide le choix des fondations et du drainage."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Saint-Hilaire-de-Brens ?",
-        "answer": "À Saint-Hilaire-de-Brens, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Nos équipes interviennent à Saint-Hilaire-de-Brens pour le terrassement, les fondations, les dalles béton, les murs, les extensions de maison et la rénovation."
       },
       {
         "question": "Proposez-vous un devis gratuit à Saint-Hilaire-de-Brens ?",
@@ -6597,7 +6597,7 @@ export const cities: City[] = [
       "longitude": 5.0597
     },
     "description": "Artisan maçon à Saint-Laurent-de-Mure (Rhône, 5 791 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "À Saint-Laurent-de-Mure (5 791 habitants, Rhône), DZ Maçonnerie vous accompagne pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Nous couvrons notamment centre-ville et zones pavillonnaires. Le secteur compte des repères comme centre-ville et zones résidentielles, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de stabilité des sols et conception parasismique, que nous intégrons dès l'étude.",
+    "introduction": "À Saint-Laurent-de-Mure (5 791 habitants, Rhône), DZ Maçonnerie vous accompagne pour tous vos projets de gros œuvre : dalle béton, murs, extension, terrassement. Nous couvrons notamment centre-ville et zones pavillonnaires. Le secteur compte des repères comme centre-ville et zones résidentielles, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de stabilité des sols et conception parasismique, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Saint-Laurent-de-Mure",
       "maçonnerie Saint-Laurent-de-Mure",
@@ -6654,19 +6654,19 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Saint-Laurent-de-Mure ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Saint-Laurent-de-Mure et notamment à centre-ville et zones pavillonnaires, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Absolument : nous couvrons Saint-Laurent-de-Mure et notamment à centre-ville et zones pavillonnaires comme l'ensemble des communes alentour. Le déplacement pour l'étude de votre projet est offert."
       },
       {
-        "question": "Quelles précautions pour construire à Saint-Laurent-de-Mure ?",
+        "question": "Y a-t-il des contraintes de terrain à Saint-Laurent-de-Mure ?",
         "answer": "Le secteur de Saint-Laurent-de-Mure peut présenter des enjeux de stabilité des sols et conception parasismique. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Saint-Laurent-de-Mure ?",
-        "answer": "À Saint-Laurent-de-Mure, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Saint-Laurent-de-Mure."
       },
       {
         "question": "Proposez-vous un devis gratuit à Saint-Laurent-de-Mure ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Saint-Laurent-de-Mure."
+        "answer": "Bien sûr, l'étude et le chiffrage de votre projet à Saint-Laurent-de-Mure sont entièrement gratuits, sans aucun engagement."
       }
     ]
   },
@@ -6686,7 +6686,7 @@ export const cities: City[] = [
       "longitude": 5.2586
     },
     "description": "Maçonnerie et terrassement à La Côte-Saint-André (Isère, 4 873 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "DZ Maçonnerie met son savoir-faire au service des habitants de La Côte-Saint-André (4 873 habitants, Isère) pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Nous couvrons notamment centre-ville et quartiers résidentiels. Le secteur compte des repères comme Musée Hector-Berlioz et Statue Hector Berlioz, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "DZ Maçonnerie met son savoir-faire au service des habitants de La Côte-Saint-André (4 873 habitants, Isère) pour vos chantiers de maçonnerie : terrasse, clôture, rénovation, terrassement. Nous couvrons notamment centre-ville et quartiers résidentiels. Le secteur compte des repères comme Musée Hector-Berlioz et Statue Hector Berlioz, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon La Côte-Saint-André",
       "maçonnerie La Côte-Saint-André",
@@ -6752,19 +6752,19 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à La Côte-Saint-André ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de La Côte-Saint-André et notamment à centre-ville et quartiers résidentiels, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Absolument : nous couvrons La Côte-Saint-André et notamment à centre-ville et quartiers résidentiels comme l'ensemble des communes alentour. Le déplacement pour l'étude de votre projet est offert."
       },
       {
-        "question": "Quelles précautions pour construire à La Côte-Saint-André ?",
+        "question": "Y a-t-il des contraintes de terrain à La Côte-Saint-André ?",
         "answer": "Le secteur de La Côte-Saint-André peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à La Côte-Saint-André ?",
-        "answer": "À La Côte-Saint-André, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à La Côte-Saint-André."
       },
       {
         "question": "Proposez-vous un devis gratuit à La Côte-Saint-André ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à La Côte-Saint-André."
+        "answer": "Bien sûr, l'étude et le chiffrage de votre projet à La Côte-Saint-André sont entièrement gratuits, sans aucun engagement."
       }
     ]
   },
@@ -6784,7 +6784,7 @@ export const cities: City[] = [
       "longitude": 5.0723
     },
     "description": "Artisan maçon à Pisieu (Isère, 524 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "À Pisieu (524 habitants, Isère), DZ Maçonnerie vous accompagne pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Nous couvrons notamment Lotissement du Charpenay et Village. Le secteur compte des repères comme Monument aux Morts, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "À Pisieu (524 habitants, Isère), DZ Maçonnerie vous accompagne pour tous vos projets de gros œuvre : dalle béton, murs, extension, terrassement. Nous couvrons notamment Lotissement du Charpenay et Village. Le secteur compte des repères comme Monument aux Morts, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Pisieu",
       "maçonnerie Pisieu",
@@ -6843,11 +6843,11 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Pisieu ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Pisieu et notamment à Lotissement du Charpenay et Village, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Oui, Pisieu et notamment à Lotissement du Charpenay et Village fait pleinement partie de notre zone d'intervention. Notre atelier est à Artas : la visite d'évaluation et le devis sont gratuits."
       },
       {
-        "question": "Quelles précautions pour construire à Pisieu ?",
-        "answer": "Le secteur de Pisieu peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "question": "Le terrain de Pisieu pose-t-il des difficultés pour construire ?",
+        "answer": "Les points de vigilance locaux sont drainage et gestion des eaux pluviales. Nos techniques de gros œuvre en tiennent compte dès la conception, et le devis intègre ces spécificités."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Pisieu ?",
@@ -6855,7 +6855,7 @@ export const cities: City[] = [
       },
       {
         "question": "Proposez-vous un devis gratuit à Pisieu ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Pisieu."
+        "answer": "Oui : demande par téléphone ou via le formulaire, réponse sous 24h et visite sur place offerte à Pisieu."
       }
     ]
   },
@@ -6875,7 +6875,7 @@ export const cities: City[] = [
       "longitude": 4.9278
     },
     "description": "Spécialiste gros œuvre à Pont-Évêque (Isère, 6 213 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "DZ Maçonnerie intervient à Pont-Évêque (6 213 habitants, Isère) pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Nous couvrons notamment Le Plan des Airs, L'Oeuvre et Le Village. Le secteur compte des repères comme centre-ville et zones commerciales, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "DZ Maçonnerie intervient à Pont-Évêque (6 213 habitants, Isère) pour vos travaux d'extension, de dalle béton, de murs et de terrassement. Nous couvrons notamment Le Plan des Airs, L'Oeuvre et Le Village. Le secteur compte des repères comme centre-ville et zones commerciales, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Pont-Évêque",
       "maçonnerie Pont-Évêque",
@@ -6939,11 +6939,11 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Pont-Évêque ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Pont-Évêque et notamment à Le Plan des Airs, L'Oeuvre et Le Village, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Oui, Pont-Évêque et notamment à Le Plan des Airs, L'Oeuvre et Le Village fait pleinement partie de notre zone d'intervention. Notre atelier est à Artas : la visite d'évaluation et le devis sont gratuits."
       },
       {
         "question": "Quelles précautions pour construire à Pont-Évêque ?",
-        "answer": "Le secteur de Pont-Évêque peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "answer": "Les points de vigilance locaux sont drainage et gestion des eaux pluviales. Nos techniques de gros œuvre en tiennent compte dès la conception, et le devis intègre ces spécificités."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Pont-Évêque ?",
@@ -6951,7 +6951,7 @@ export const cities: City[] = [
       },
       {
         "question": "Proposez-vous un devis gratuit à Pont-Évêque ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Pont-Évêque."
+        "answer": "Oui : demande par téléphone ou via le formulaire, réponse sous 24h et visite sur place offerte à Pont-Évêque."
       }
     ]
   },
@@ -6971,7 +6971,7 @@ export const cities: City[] = [
       "longitude": 5.3619
     },
     "description": "Maçonnerie et terrassement à Saint-Chef (Isère, 3 921 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "DZ Maçonnerie met son savoir-faire au service des habitants de Saint-Chef (3 921 habitants, Isère) pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Nous couvrons notamment centre-ville et zones résidentielles. Le secteur compte des repères comme Château Garnier et Château de Villeneuve, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "DZ Maçonnerie met son savoir-faire au service des habitants de Saint-Chef (3 921 habitants, Isère) pour vos chantiers de maçonnerie : terrasse, clôture, rénovation, terrassement. Nous couvrons notamment centre-ville et zones résidentielles. Le secteur compte des repères comme Château Garnier et Château de Villeneuve, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Saint-Chef",
       "maçonnerie Saint-Chef",
@@ -7034,12 +7034,12 @@ export const cities: City[] = [
         "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Saint-Chef et notamment à centre-ville et zones résidentielles, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
       },
       {
-        "question": "Quelles précautions pour construire à Saint-Chef ?",
-        "answer": "Le secteur de Saint-Chef peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "question": "Y a-t-il des contraintes de terrain à Saint-Chef ?",
+        "answer": "Oui, il faut composer avec drainage et gestion des eaux pluviales. C'est pourquoi chaque chantier de Saint-Chef démarre par une analyse du sol, qui guide le choix des fondations et du drainage."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Saint-Chef ?",
-        "answer": "À Saint-Chef, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Nos équipes interviennent à Saint-Chef pour le terrassement, les fondations, les dalles béton, les murs, les extensions de maison et la rénovation."
       },
       {
         "question": "Proposez-vous un devis gratuit à Saint-Chef ?",
@@ -7063,7 +7063,7 @@ export const cities: City[] = [
       "longitude": 4.9391
     },
     "description": "Spécialiste gros œuvre à Saint-Sorlin-de-Vienne (Isère, 964 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "DZ Maçonnerie intervient à Saint-Sorlin-de-Vienne (964 habitants, Isère) pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Nous couvrons notamment Lotissement Les Érables. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "DZ Maçonnerie intervient à Saint-Sorlin-de-Vienne (964 habitants, Isère) pour vos travaux d'extension, de dalle béton, de murs et de terrassement. Nous couvrons notamment Lotissement Les Érables. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Saint-Sorlin-de-Vienne",
       "maçonnerie Saint-Sorlin-de-Vienne",
@@ -7120,19 +7120,19 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Saint-Sorlin-de-Vienne ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Saint-Sorlin-de-Vienne et notamment à Lotissement Les Érables, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Absolument : nous couvrons Saint-Sorlin-de-Vienne et notamment à Lotissement Les Érables comme l'ensemble des communes alentour. Le déplacement pour l'étude de votre projet est offert."
       },
       {
-        "question": "Quelles précautions pour construire à Saint-Sorlin-de-Vienne ?",
+        "question": "Le terrain de Saint-Sorlin-de-Vienne pose-t-il des difficultés pour construire ?",
         "answer": "Le secteur de Saint-Sorlin-de-Vienne peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Saint-Sorlin-de-Vienne ?",
-        "answer": "À Saint-Sorlin-de-Vienne, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Saint-Sorlin-de-Vienne."
       },
       {
         "question": "Proposez-vous un devis gratuit à Saint-Sorlin-de-Vienne ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Saint-Sorlin-de-Vienne."
+        "answer": "Bien sûr, l'étude et le chiffrage de votre projet à Saint-Sorlin-de-Vienne sont entièrement gratuits, sans aucun engagement."
       }
     ]
   },
@@ -7152,7 +7152,7 @@ export const cities: City[] = [
       "longitude": 5.3777
     },
     "description": "Maçonnerie et terrassement à Bizonnes (Isère, 1 028 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "DZ Maçonnerie met son savoir-faire au service des habitants de Bizonnes (1 028 habitants, Isère) pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Les terrains locaux présentent des enjeux de conception parasismique, que nous intégrons dès l'étude.",
+    "introduction": "DZ Maçonnerie met son savoir-faire au service des habitants de Bizonnes (1 028 habitants, Isère) pour vos chantiers de maçonnerie : terrasse, clôture, rénovation, terrassement. Les terrains locaux présentent des enjeux de conception parasismique, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Bizonnes",
       "maçonnerie Bizonnes",
@@ -7206,11 +7206,11 @@ export const cities: City[] = [
       },
       {
         "question": "Quelles précautions pour construire à Bizonnes ?",
-        "answer": "Le secteur de Bizonnes peut présenter des enjeux de conception parasismique. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "answer": "Oui, il faut composer avec conception parasismique. C'est pourquoi chaque chantier de Bizonnes démarre par une analyse du sol, qui guide le choix des fondations et du drainage."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Bizonnes ?",
-        "answer": "À Bizonnes, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Nos équipes interviennent à Bizonnes pour le terrassement, les fondations, les dalles béton, les murs, les extensions de maison et la rénovation."
       },
       {
         "question": "Proposez-vous un devis gratuit à Bizonnes ?",
@@ -7234,7 +7234,7 @@ export const cities: City[] = [
       "longitude": 4.9728
     },
     "description": "Spécialiste gros œuvre à Montseveroux (Isère, 999 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "DZ Maçonnerie intervient à Montseveroux (999 habitants, Isère) pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "DZ Maçonnerie intervient à Montseveroux (999 habitants, Isère) pour vos travaux d'extension, de dalle béton, de murs et de terrassement. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Montseveroux",
       "maçonnerie Montseveroux",
@@ -7291,12 +7291,12 @@ export const cities: City[] = [
         "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Montseveroux, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
       },
       {
-        "question": "Quelles précautions pour construire à Montseveroux ?",
-        "answer": "Le secteur de Montseveroux peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "question": "Le terrain de Montseveroux pose-t-il des difficultés pour construire ?",
+        "answer": "Oui, il faut composer avec drainage et gestion des eaux pluviales. C'est pourquoi chaque chantier de Montseveroux démarre par une analyse du sol, qui guide le choix des fondations et du drainage."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Montseveroux ?",
-        "answer": "À Montseveroux, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Nos équipes interviennent à Montseveroux pour le terrassement, les fondations, les dalles béton, les murs, les extensions de maison et la rénovation."
       },
       {
         "question": "Proposez-vous un devis gratuit à Montseveroux ?",
@@ -7320,7 +7320,7 @@ export const cities: City[] = [
       "longitude": 4.9211
     },
     "description": "Artisan maçon à Serpaize (Isère, 2 091 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "À Serpaize (2 091 habitants, Isère), DZ Maçonnerie vous accompagne pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Nous couvrons notamment Le Clos de Neyve, Le Fardier et Lotissement la Combe. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "À Serpaize (2 091 habitants, Isère), DZ Maçonnerie vous accompagne pour tous vos projets de gros œuvre : dalle béton, murs, extension, terrassement. Nous couvrons notamment Le Clos de Neyve, Le Fardier et Lotissement la Combe. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Serpaize",
       "maçonnerie Serpaize",
@@ -7378,11 +7378,11 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Serpaize ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Serpaize et notamment à Le Clos de Neyve, Le Fardier et Lotissement la Combe, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Oui, Serpaize et notamment à Le Clos de Neyve, Le Fardier et Lotissement la Combe fait pleinement partie de notre zone d'intervention. Notre atelier est à Artas : la visite d'évaluation et le devis sont gratuits."
       },
       {
-        "question": "Quelles précautions pour construire à Serpaize ?",
-        "answer": "Le secteur de Serpaize peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "question": "Le terrain de Serpaize pose-t-il des difficultés pour construire ?",
+        "answer": "Les points de vigilance locaux sont drainage et gestion des eaux pluviales. Nos techniques de gros œuvre en tiennent compte dès la conception, et le devis intègre ces spécificités."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Serpaize ?",
@@ -7390,7 +7390,7 @@ export const cities: City[] = [
       },
       {
         "question": "Proposez-vous un devis gratuit à Serpaize ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Serpaize."
+        "answer": "Oui : demande par téléphone ou via le formulaire, réponse sous 24h et visite sur place offerte à Serpaize."
       }
     ]
   },
@@ -7410,7 +7410,7 @@ export const cities: City[] = [
       "longitude": 4.9584
     },
     "description": "Artisan maçon à Chaponnay (Rhône, 4 548 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "À Chaponnay (4 548 habitants, Rhône), DZ Maçonnerie vous accompagne pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Nous couvrons notamment centre-ville, zones résidentielles et quartiers pavillonnaires. Le secteur compte des repères comme Château Bouthier-Cornaz et Petit Belvédère, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "À Chaponnay (4 548 habitants, Rhône), DZ Maçonnerie vous accompagne pour tous vos projets de gros œuvre : dalle béton, murs, extension, terrassement. Nous couvrons notamment centre-ville, zones résidentielles et quartiers pavillonnaires. Le secteur compte des repères comme Château Bouthier-Cornaz et Petit Belvédère, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Chaponnay",
       "maçonnerie Chaponnay",
@@ -7477,11 +7477,11 @@ export const cities: City[] = [
       },
       {
         "question": "Quelles précautions pour construire à Chaponnay ?",
-        "answer": "Le secteur de Chaponnay peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "answer": "Oui, il faut composer avec drainage et gestion des eaux pluviales. C'est pourquoi chaque chantier de Chaponnay démarre par une analyse du sol, qui guide le choix des fondations et du drainage."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Chaponnay ?",
-        "answer": "À Chaponnay, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Nos équipes interviennent à Chaponnay pour le terrassement, les fondations, les dalles béton, les murs, les extensions de maison et la rénovation."
       },
       {
         "question": "Proposez-vous un devis gratuit à Chaponnay ?",
@@ -7505,7 +7505,7 @@ export const cities: City[] = [
       "longitude": 4.9819
     },
     "description": "Artisan maçon à Toussieu (Rhône, 3 177 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "À Toussieu (3 177 habitants, Rhône), DZ Maçonnerie vous accompagne pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "À Toussieu (3 177 habitants, Rhône), DZ Maçonnerie vous accompagne pour tous vos projets de gros œuvre : dalle béton, murs, extension, terrassement. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Toussieu",
       "maçonnerie Toussieu",
@@ -7559,7 +7559,7 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Toussieu ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Toussieu, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Absolument : nous couvrons Toussieu comme l'ensemble des communes alentour. Le déplacement pour l'étude de votre projet est offert."
       },
       {
         "question": "Quelles précautions pour construire à Toussieu ?",
@@ -7567,11 +7567,11 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Toussieu ?",
-        "answer": "À Toussieu, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Toussieu."
       },
       {
         "question": "Proposez-vous un devis gratuit à Toussieu ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Toussieu."
+        "answer": "Bien sûr, l'étude et le chiffrage de votre projet à Toussieu sont entièrement gratuits, sans aucun engagement."
       }
     ]
   },
@@ -7591,7 +7591,7 @@ export const cities: City[] = [
       "longitude": 5.3618
     },
     "description": "Maçonnerie et terrassement à Longechenal (Isère, 593 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "DZ Maçonnerie met son savoir-faire au service des habitants de Longechenal (593 habitants, Isère) pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Le secteur compte des repères comme Monument aux Morts, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de conception parasismique, que nous intégrons dès l'étude.",
+    "introduction": "DZ Maçonnerie met son savoir-faire au service des habitants de Longechenal (593 habitants, Isère) pour vos chantiers de maçonnerie : terrasse, clôture, rénovation, terrassement. Le secteur compte des repères comme Monument aux Morts, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de conception parasismique, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Longechenal",
       "maçonnerie Longechenal",
@@ -7645,19 +7645,19 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Longechenal ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Longechenal, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Absolument : nous couvrons Longechenal comme l'ensemble des communes alentour. Le déplacement pour l'étude de votre projet est offert."
       },
       {
-        "question": "Quelles précautions pour construire à Longechenal ?",
+        "question": "Y a-t-il des contraintes de terrain à Longechenal ?",
         "answer": "Le secteur de Longechenal peut présenter des enjeux de conception parasismique. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Longechenal ?",
-        "answer": "À Longechenal, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Longechenal."
       },
       {
         "question": "Proposez-vous un devis gratuit à Longechenal ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Longechenal."
+        "answer": "Bien sûr, l'étude et le chiffrage de votre projet à Longechenal sont entièrement gratuits, sans aucun engagement."
       }
     ]
   },
@@ -7677,7 +7677,7 @@ export const cities: City[] = [
       "longitude": 5.4017
     },
     "description": "Artisan maçon à Montcarra (Isère, 612 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "À Montcarra (612 habitants, Isère), DZ Maçonnerie vous accompagne pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Le secteur compte des repères comme Monument aux Morts, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de conception parasismique, que nous intégrons dès l'étude.",
+    "introduction": "À Montcarra (612 habitants, Isère), DZ Maçonnerie vous accompagne pour tous vos projets de gros œuvre : dalle béton, murs, extension, terrassement. Le secteur compte des repères comme Monument aux Morts, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de conception parasismique, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Montcarra",
       "maçonnerie Montcarra",
@@ -7733,11 +7733,11 @@ export const cities: City[] = [
       },
       {
         "question": "Quelles précautions pour construire à Montcarra ?",
-        "answer": "Le secteur de Montcarra peut présenter des enjeux de conception parasismique. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "answer": "Oui, il faut composer avec conception parasismique. C'est pourquoi chaque chantier de Montcarra démarre par une analyse du sol, qui guide le choix des fondations et du drainage."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Montcarra ?",
-        "answer": "À Montcarra, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Nos équipes interviennent à Montcarra pour le terrassement, les fondations, les dalles béton, les murs, les extensions de maison et la rénovation."
       },
       {
         "question": "Proposez-vous un devis gratuit à Montcarra ?",
@@ -7761,7 +7761,7 @@ export const cities: City[] = [
       "longitude": 5.1279
     },
     "description": "Spécialiste gros œuvre à Pajay (Isère, 1 036 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "DZ Maçonnerie intervient à Pajay (1 036 habitants, Isère) pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Le secteur compte des repères comme Calvaire et Monument aux Morts, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "DZ Maçonnerie intervient à Pajay (1 036 habitants, Isère) pour vos travaux d'extension, de dalle béton, de murs et de terrassement. Le secteur compte des repères comme Calvaire et Monument aux Morts, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Pajay",
       "maçonnerie Pajay",
@@ -7821,11 +7821,11 @@ export const cities: City[] = [
       },
       {
         "question": "Quelles précautions pour construire à Pajay ?",
-        "answer": "Le secteur de Pajay peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "answer": "Oui, il faut composer avec drainage et gestion des eaux pluviales. C'est pourquoi chaque chantier de Pajay démarre par une analyse du sol, qui guide le choix des fondations et du drainage."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Pajay ?",
-        "answer": "À Pajay, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Nos équipes interviennent à Pajay pour le terrassement, les fondations, les dalles béton, les murs, les extensions de maison et la rénovation."
       },
       {
         "question": "Proposez-vous un devis gratuit à Pajay ?",
@@ -7849,7 +7849,7 @@ export const cities: City[] = [
       "longitude": 5.2963
     },
     "description": "Spécialiste gros œuvre à Gillonnay (Isère, 1 009 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "DZ Maçonnerie intervient à Gillonnay (1 009 habitants, Isère) pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Nous couvrons notamment centre village et zones rurales. Le secteur compte des repères comme IV, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "DZ Maçonnerie intervient à Gillonnay (1 009 habitants, Isère) pour vos travaux d'extension, de dalle béton, de murs et de terrassement. Nous couvrons notamment centre village et zones rurales. Le secteur compte des repères comme IV, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Gillonnay",
       "maçonnerie Gillonnay",
@@ -7911,11 +7911,11 @@ export const cities: City[] = [
       },
       {
         "question": "Quelles précautions pour construire à Gillonnay ?",
-        "answer": "Le secteur de Gillonnay peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "answer": "Oui, il faut composer avec drainage et gestion des eaux pluviales. C'est pourquoi chaque chantier de Gillonnay démarre par une analyse du sol, qui guide le choix des fondations et du drainage."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Gillonnay ?",
-        "answer": "À Gillonnay, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Nos équipes interviennent à Gillonnay pour le terrassement, les fondations, les dalles béton, les murs, les extensions de maison et la rénovation."
       },
       {
         "question": "Proposez-vous un devis gratuit à Gillonnay ?",
@@ -7999,19 +7999,19 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Rochetoirin ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Rochetoirin et notamment à centre village et zones rurales, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Absolument : nous couvrons Rochetoirin et notamment à centre village et zones rurales comme l'ensemble des communes alentour. Le déplacement pour l'étude de votre projet est offert."
       },
       {
-        "question": "Quelles précautions pour construire à Rochetoirin ?",
+        "question": "Y a-t-il des contraintes de terrain à Rochetoirin ?",
         "answer": "Le secteur de Rochetoirin peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Rochetoirin ?",
-        "answer": "À Rochetoirin, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Rochetoirin."
       },
       {
         "question": "Proposez-vous un devis gratuit à Rochetoirin ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Rochetoirin."
+        "answer": "Bien sûr, l'étude et le chiffrage de votre projet à Rochetoirin sont entièrement gratuits, sans aucun engagement."
       }
     ]
   },
@@ -8031,7 +8031,7 @@ export const cities: City[] = [
       "longitude": 5.2192
     },
     "description": "Spécialiste gros œuvre à Sardieu (Isère, 1 193 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "DZ Maçonnerie intervient à Sardieu (1 193 habitants, Isère) pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "DZ Maçonnerie intervient à Sardieu (1 193 habitants, Isère) pour vos travaux d'extension, de dalle béton, de murs et de terrassement. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Sardieu",
       "maçonnerie Sardieu",
@@ -8087,12 +8087,12 @@ export const cities: City[] = [
         "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Sardieu, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
       },
       {
-        "question": "Quelles précautions pour construire à Sardieu ?",
-        "answer": "Le secteur de Sardieu peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "question": "Le terrain de Sardieu pose-t-il des difficultés pour construire ?",
+        "answer": "Oui, il faut composer avec drainage et gestion des eaux pluviales. C'est pourquoi chaque chantier de Sardieu démarre par une analyse du sol, qui guide le choix des fondations et du drainage."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Sardieu ?",
-        "answer": "À Sardieu, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Nos équipes interviennent à Sardieu pour le terrassement, les fondations, les dalles béton, les murs, les extensions de maison et la rénovation."
       },
       {
         "question": "Proposez-vous un devis gratuit à Sardieu ?",
@@ -8172,7 +8172,7 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Villemoirieu ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Villemoirieu et notamment à Lotissement Les Mûriers, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Absolument : nous couvrons Villemoirieu et notamment à Lotissement Les Mûriers comme l'ensemble des communes alentour. Le déplacement pour l'étude de votre projet est offert."
       },
       {
         "question": "Quelles précautions pour construire à Villemoirieu ?",
@@ -8180,11 +8180,11 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Villemoirieu ?",
-        "answer": "À Villemoirieu, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Villemoirieu."
       },
       {
         "question": "Proposez-vous un devis gratuit à Villemoirieu ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Villemoirieu."
+        "answer": "Bien sûr, l'étude et le chiffrage de votre projet à Villemoirieu sont entièrement gratuits, sans aucun engagement."
       }
     ]
   },
@@ -8204,7 +8204,7 @@ export const cities: City[] = [
       "longitude": 4.952
     },
     "description": "Maçonnerie et terrassement à Monsteroux-Milieu (Isère, 768 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "DZ Maçonnerie met son savoir-faire au service des habitants de Monsteroux-Milieu (768 habitants, Isère) pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "DZ Maçonnerie met son savoir-faire au service des habitants de Monsteroux-Milieu (768 habitants, Isère) pour vos chantiers de maçonnerie : terrasse, clôture, rénovation, terrassement. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Monsteroux-Milieu",
       "maçonnerie Monsteroux-Milieu",
@@ -8262,11 +8262,11 @@ export const cities: City[] = [
       },
       {
         "question": "Quelles précautions pour construire à Monsteroux-Milieu ?",
-        "answer": "Le secteur de Monsteroux-Milieu peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "answer": "Oui, il faut composer avec drainage et gestion des eaux pluviales. C'est pourquoi chaque chantier de Monsteroux-Milieu démarre par une analyse du sol, qui guide le choix des fondations et du drainage."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Monsteroux-Milieu ?",
-        "answer": "À Monsteroux-Milieu, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Nos équipes interviennent à Monsteroux-Milieu pour le terrassement, les fondations, les dalles béton, les murs, les extensions de maison et la rénovation."
       },
       {
         "question": "Proposez-vous un devis gratuit à Monsteroux-Milieu ?",
@@ -8290,7 +8290,7 @@ export const cities: City[] = [
       "longitude": 5.1084
     },
     "description": "Maçonnerie et terrassement à Colombier-Saugnieu (Rhône, 2 874 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "DZ Maçonnerie met son savoir-faire au service des habitants de Colombier-Saugnieu (2 874 habitants, Rhône) pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Nous couvrons notamment centre village et zones résidentielles. Le secteur compte des repères comme Brila Estonteco et Belvédère de l'aéroport, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de stabilité des sols et conception parasismique, que nous intégrons dès l'étude.",
+    "introduction": "DZ Maçonnerie met son savoir-faire au service des habitants de Colombier-Saugnieu (2 874 habitants, Rhône) pour vos chantiers de maçonnerie : terrasse, clôture, rénovation, terrassement. Nous couvrons notamment centre village et zones résidentielles. Le secteur compte des repères comme Brila Estonteco et Belvédère de l'aéroport, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de stabilité des sols et conception parasismique, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Colombier-Saugnieu",
       "maçonnerie Colombier-Saugnieu",
@@ -8348,11 +8348,11 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Colombier-Saugnieu ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Colombier-Saugnieu et notamment à centre village et zones résidentielles, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Oui, Colombier-Saugnieu et notamment à centre village et zones résidentielles fait pleinement partie de notre zone d'intervention. Notre atelier est à Artas : la visite d'évaluation et le devis sont gratuits."
       },
       {
         "question": "Quelles précautions pour construire à Colombier-Saugnieu ?",
-        "answer": "Le secteur de Colombier-Saugnieu peut présenter des enjeux de stabilité des sols et conception parasismique. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "answer": "Les points de vigilance locaux sont stabilité des sols et conception parasismique. Nos techniques de gros œuvre en tiennent compte dès la conception, et le devis intègre ces spécificités."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Colombier-Saugnieu ?",
@@ -8360,7 +8360,7 @@ export const cities: City[] = [
       },
       {
         "question": "Proposez-vous un devis gratuit à Colombier-Saugnieu ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Colombier-Saugnieu."
+        "answer": "Oui : demande par téléphone ou via le formulaire, réponse sous 24h et visite sur place offerte à Colombier-Saugnieu."
       }
     ]
   },
@@ -8380,7 +8380,7 @@ export const cities: City[] = [
       "longitude": 5.4248
     },
     "description": "Artisan maçon à Doissin (Isère, 876 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "À Doissin (876 habitants, Isère), DZ Maçonnerie vous accompagne pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "À Doissin (876 habitants, Isère), DZ Maçonnerie vous accompagne pour tous vos projets de gros œuvre : dalle béton, murs, extension, terrassement. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Doissin",
       "maçonnerie Doissin",
@@ -8436,12 +8436,12 @@ export const cities: City[] = [
         "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Doissin, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
       },
       {
-        "question": "Quelles précautions pour construire à Doissin ?",
-        "answer": "Le secteur de Doissin peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "question": "Le terrain de Doissin pose-t-il des difficultés pour construire ?",
+        "answer": "Oui, il faut composer avec drainage et gestion des eaux pluviales. C'est pourquoi chaque chantier de Doissin démarre par une analyse du sol, qui guide le choix des fondations et du drainage."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Doissin ?",
-        "answer": "À Doissin, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Nos équipes interviennent à Doissin pour le terrassement, les fondations, les dalles béton, les murs, les extensions de maison et la rénovation."
       },
       {
         "question": "Proposez-vous un devis gratuit à Doissin ?",
@@ -8465,7 +8465,7 @@ export const cities: City[] = [
       "longitude": 5.3239
     },
     "description": "Artisan maçon à Trept (Isère, 2 095 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "À Trept (2 095 habitants, Isère), DZ Maçonnerie vous accompagne pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Nous couvrons notamment Lotissement Le Clos, Le Rivard et Lotissement Pierres Plantées. Le secteur compte des repères comme centre-ville, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "À Trept (2 095 habitants, Isère), DZ Maçonnerie vous accompagne pour tous vos projets de gros œuvre : dalle béton, murs, extension, terrassement. Nous couvrons notamment Lotissement Le Clos, Le Rivard et Lotissement Pierres Plantées. Le secteur compte des repères comme centre-ville, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Trept",
       "maçonnerie Trept",
@@ -8524,7 +8524,7 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Trept ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Trept et notamment à Lotissement Le Clos, Le Rivard et Lotissement Pierres Plantées, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Absolument : nous couvrons Trept et notamment à Lotissement Le Clos, Le Rivard et Lotissement Pierres Plantées comme l'ensemble des communes alentour. Le déplacement pour l'étude de votre projet est offert."
       },
       {
         "question": "Quelles précautions pour construire à Trept ?",
@@ -8532,11 +8532,11 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Trept ?",
-        "answer": "À Trept, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Trept."
       },
       {
         "question": "Proposez-vous un devis gratuit à Trept ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Trept."
+        "answer": "Bien sûr, l'étude et le chiffrage de votre projet à Trept sont entièrement gratuits, sans aucun engagement."
       }
     ]
   },
@@ -8556,7 +8556,7 @@ export const cities: City[] = [
       "longitude": 5.3523
     },
     "description": "Spécialiste gros œuvre à Salagnon (Isère, 1 508 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "DZ Maçonnerie intervient à Salagnon (1 508 habitants, Isère) pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Nous couvrons notamment centre village et zones rurales. Le secteur compte des repères comme calvaire et Monument aux Morts, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "DZ Maçonnerie intervient à Salagnon (1 508 habitants, Isère) pour vos travaux d'extension, de dalle béton, de murs et de terrassement. Nous couvrons notamment centre village et zones rurales. Le secteur compte des repères comme calvaire et Monument aux Morts, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Salagnon",
       "maçonnerie Salagnon",
@@ -8616,19 +8616,19 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Salagnon ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Salagnon et notamment à centre village et zones rurales, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Absolument : nous couvrons Salagnon et notamment à centre village et zones rurales comme l'ensemble des communes alentour. Le déplacement pour l'étude de votre projet est offert."
       },
       {
-        "question": "Quelles précautions pour construire à Salagnon ?",
+        "question": "Le terrain de Salagnon pose-t-il des difficultés pour construire ?",
         "answer": "Le secteur de Salagnon peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Salagnon ?",
-        "answer": "À Salagnon, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Salagnon."
       },
       {
         "question": "Proposez-vous un devis gratuit à Salagnon ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Salagnon."
+        "answer": "Bien sûr, l'étude et le chiffrage de votre projet à Salagnon sont entièrement gratuits, sans aucun engagement."
       }
     ]
   },
@@ -8648,7 +8648,7 @@ export const cities: City[] = [
       "longitude": 4.9113
     },
     "description": "Maçonnerie et terrassement à Jardin (Isère, 2 178 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "DZ Maçonnerie met son savoir-faire au service des habitants de Jardin (2 178 habitants, Isère) pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Nous couvrons notamment Bérardier, Collonge et Saint-Benoit. Le secteur compte des repères comme Château de Montléans, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "DZ Maçonnerie met son savoir-faire au service des habitants de Jardin (2 178 habitants, Isère) pour vos chantiers de maçonnerie : terrasse, clôture, rénovation, terrassement. Nous couvrons notamment Bérardier, Collonge et Saint-Benoit. Le secteur compte des repères comme Château de Montléans, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Jardin",
       "maçonnerie Jardin",
@@ -8711,19 +8711,19 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Jardin ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Jardin et notamment à Bérardier, Collonge et Saint-Benoit, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Absolument : nous couvrons Jardin et notamment à Bérardier, Collonge et Saint-Benoit comme l'ensemble des communes alentour. Le déplacement pour l'étude de votre projet est offert."
       },
       {
-        "question": "Quelles précautions pour construire à Jardin ?",
+        "question": "Le terrain de Jardin pose-t-il des difficultés pour construire ?",
         "answer": "Le secteur de Jardin peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Jardin ?",
-        "answer": "À Jardin, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Jardin."
       },
       {
         "question": "Proposez-vous un devis gratuit à Jardin ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Jardin."
+        "answer": "Bien sûr, l'étude et le chiffrage de votre projet à Jardin sont entièrement gratuits, sans aucun engagement."
       }
     ]
   },
@@ -8743,7 +8743,7 @@ export const cities: City[] = [
       "longitude": 4.9109
     },
     "description": "Spécialiste gros œuvre à Villette-de-Vienne (Isère, 2 025 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "DZ Maçonnerie intervient à Villette-de-Vienne (2 025 habitants, Isère) pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "DZ Maçonnerie intervient à Villette-de-Vienne (2 025 habitants, Isère) pour vos travaux d'extension, de dalle béton, de murs et de terrassement. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Villette-de-Vienne",
       "maçonnerie Villette-de-Vienne",
@@ -8799,11 +8799,11 @@ export const cities: City[] = [
       },
       {
         "question": "Quelles précautions pour construire à Villette-de-Vienne ?",
-        "answer": "Le secteur de Villette-de-Vienne peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "answer": "Oui, il faut composer avec drainage et gestion des eaux pluviales. C'est pourquoi chaque chantier de Villette-de-Vienne démarre par une analyse du sol, qui guide le choix des fondations et du drainage."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Villette-de-Vienne ?",
-        "answer": "À Villette-de-Vienne, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Nos équipes interviennent à Villette-de-Vienne pour le terrassement, les fondations, les dalles béton, les murs, les extensions de maison et la rénovation."
       },
       {
         "question": "Proposez-vous un devis gratuit à Villette-de-Vienne ?",
@@ -8827,7 +8827,7 @@ export const cities: City[] = [
       "longitude": 5.1774
     },
     "description": "Artisan maçon à Marcilloles (Isère, 1 201 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "À Marcilloles (1 201 habitants, Isère), DZ Maçonnerie vous accompagne pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Le secteur compte des repères comme Calvaire, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "À Marcilloles (1 201 habitants, Isère), DZ Maçonnerie vous accompagne pour tous vos projets de gros œuvre : dalle béton, murs, extension, terrassement. Le secteur compte des repères comme Calvaire, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Marcilloles",
       "maçonnerie Marcilloles",
@@ -8886,12 +8886,12 @@ export const cities: City[] = [
         "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Marcilloles, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
       },
       {
-        "question": "Quelles précautions pour construire à Marcilloles ?",
-        "answer": "Le secteur de Marcilloles peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "question": "Y a-t-il des contraintes de terrain à Marcilloles ?",
+        "answer": "Oui, il faut composer avec drainage et gestion des eaux pluviales. C'est pourquoi chaque chantier de Marcilloles démarre par une analyse du sol, qui guide le choix des fondations et du drainage."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Marcilloles ?",
-        "answer": "À Marcilloles, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Nos équipes interviennent à Marcilloles pour le terrassement, les fondations, les dalles béton, les murs, les extensions de maison et la rénovation."
       },
       {
         "question": "Proposez-vous un devis gratuit à Marcilloles ?",
@@ -8971,19 +8971,19 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Sainte-Blandine ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Sainte-Blandine, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Absolument : nous couvrons Sainte-Blandine comme l'ensemble des communes alentour. Le déplacement pour l'étude de votre projet est offert."
       },
       {
-        "question": "Quelles précautions pour construire à Sainte-Blandine ?",
+        "question": "Le terrain de Sainte-Blandine pose-t-il des difficultés pour construire ?",
         "answer": "Le secteur de Sainte-Blandine peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Sainte-Blandine ?",
-        "answer": "À Sainte-Blandine, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Sainte-Blandine."
       },
       {
         "question": "Proposez-vous un devis gratuit à Sainte-Blandine ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Sainte-Blandine."
+        "answer": "Bien sûr, l'étude et le chiffrage de votre projet à Sainte-Blandine sont entièrement gratuits, sans aucun engagement."
       }
     ]
   },
@@ -9003,7 +9003,7 @@ export const cities: City[] = [
       "longitude": 5.0241
     },
     "description": "Maçonnerie et terrassement à Saint-Bonnet-de-Mure (Rhône, 6 984 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "DZ Maçonnerie met son savoir-faire au service des habitants de Saint-Bonnet-de-Mure (6 984 habitants, Rhône) pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Nous couvrons notamment centre-ville et quartiers résidentiels. Le secteur compte des repères comme Maison de la Photographie et Mémorial national des vétérans des essais nucléaires français, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de stabilité des sols et conception parasismique, que nous intégrons dès l'étude.",
+    "introduction": "DZ Maçonnerie met son savoir-faire au service des habitants de Saint-Bonnet-de-Mure (6 984 habitants, Rhône) pour vos chantiers de maçonnerie : terrasse, clôture, rénovation, terrassement. Nous couvrons notamment centre-ville et quartiers résidentiels. Le secteur compte des repères comme Maison de la Photographie et Mémorial national des vétérans des essais nucléaires français, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de stabilité des sols et conception parasismique, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Saint-Bonnet-de-Mure",
       "maçonnerie Saint-Bonnet-de-Mure",
@@ -9060,19 +9060,19 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Saint-Bonnet-de-Mure ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Saint-Bonnet-de-Mure et notamment à centre-ville et quartiers résidentiels, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Absolument : nous couvrons Saint-Bonnet-de-Mure et notamment à centre-ville et quartiers résidentiels comme l'ensemble des communes alentour. Le déplacement pour l'étude de votre projet est offert."
       },
       {
-        "question": "Quelles précautions pour construire à Saint-Bonnet-de-Mure ?",
+        "question": "Le terrain de Saint-Bonnet-de-Mure pose-t-il des difficultés pour construire ?",
         "answer": "Le secteur de Saint-Bonnet-de-Mure peut présenter des enjeux de stabilité des sols et conception parasismique. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Saint-Bonnet-de-Mure ?",
-        "answer": "À Saint-Bonnet-de-Mure, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Saint-Bonnet-de-Mure."
       },
       {
         "question": "Proposez-vous un devis gratuit à Saint-Bonnet-de-Mure ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Saint-Bonnet-de-Mure."
+        "answer": "Bien sûr, l'étude et le chiffrage de votre projet à Saint-Bonnet-de-Mure sont entièrement gratuits, sans aucun engagement."
       }
     ]
   },
@@ -9148,11 +9148,11 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Dizimieu ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Dizimieu, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Oui, Dizimieu fait pleinement partie de notre zone d'intervention. Notre atelier est à Artas : la visite d'évaluation et le devis sont gratuits."
       },
       {
         "question": "Quelles précautions pour construire à Dizimieu ?",
-        "answer": "Le secteur de Dizimieu peut présenter des enjeux de conception parasismique. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "answer": "Les points de vigilance locaux sont conception parasismique. Nos techniques de gros œuvre en tiennent compte dès la conception, et le devis intègre ces spécificités."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Dizimieu ?",
@@ -9160,7 +9160,7 @@ export const cities: City[] = [
       },
       {
         "question": "Proposez-vous un devis gratuit à Dizimieu ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Dizimieu."
+        "answer": "Oui : demande par téléphone ou via le formulaire, réponse sous 24h et visite sur place offerte à Dizimieu."
       }
     ]
   },
@@ -9234,19 +9234,19 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Saint-Hilaire-de-la-Côte ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Saint-Hilaire-de-la-Côte, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Absolument : nous couvrons Saint-Hilaire-de-la-Côte comme l'ensemble des communes alentour. Le déplacement pour l'étude de votre projet est offert."
       },
       {
-        "question": "Quelles précautions pour construire à Saint-Hilaire-de-la-Côte ?",
+        "question": "Le terrain de Saint-Hilaire-de-la-Côte pose-t-il des difficultés pour construire ?",
         "answer": "Le secteur de Saint-Hilaire-de-la-Côte peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Saint-Hilaire-de-la-Côte ?",
-        "answer": "À Saint-Hilaire-de-la-Côte, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Saint-Hilaire-de-la-Côte."
       },
       {
         "question": "Proposez-vous un devis gratuit à Saint-Hilaire-de-la-Côte ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Saint-Hilaire-de-la-Côte."
+        "answer": "Bien sûr, l'étude et le chiffrage de votre projet à Saint-Hilaire-de-la-Côte sont entièrement gratuits, sans aucun engagement."
       }
     ]
   },
@@ -9266,7 +9266,7 @@ export const cities: City[] = [
       "longitude": 5.0295
     },
     "description": "Maçonnerie et terrassement à Revel-Tourdan (Isère, 1 050 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "DZ Maçonnerie met son savoir-faire au service des habitants de Revel-Tourdan (1 050 habitants, Isère) pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Nous couvrons notamment Champ Martin, Revel et Les Terreaux. Le secteur compte des repères comme Croix et Monument aux Morts, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "DZ Maçonnerie met son savoir-faire au service des habitants de Revel-Tourdan (1 050 habitants, Isère) pour vos chantiers de maçonnerie : terrasse, clôture, rénovation, terrassement. Nous couvrons notamment Champ Martin, Revel et Les Terreaux. Le secteur compte des repères comme Croix et Monument aux Morts, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Revel-Tourdan",
       "maçonnerie Revel-Tourdan",
@@ -9329,11 +9329,11 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Revel-Tourdan ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Revel-Tourdan et notamment à Champ Martin, Revel et Les Terreaux, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Oui, Revel-Tourdan et notamment à Champ Martin, Revel et Les Terreaux fait pleinement partie de notre zone d'intervention. Notre atelier est à Artas : la visite d'évaluation et le devis sont gratuits."
       },
       {
-        "question": "Quelles précautions pour construire à Revel-Tourdan ?",
-        "answer": "Le secteur de Revel-Tourdan peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "question": "Le terrain de Revel-Tourdan pose-t-il des difficultés pour construire ?",
+        "answer": "Les points de vigilance locaux sont drainage et gestion des eaux pluviales. Nos techniques de gros œuvre en tiennent compte dès la conception, et le devis intègre ces spécificités."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Revel-Tourdan ?",
@@ -9341,7 +9341,7 @@ export const cities: City[] = [
       },
       {
         "question": "Proposez-vous un devis gratuit à Revel-Tourdan ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Revel-Tourdan."
+        "answer": "Oui : demande par téléphone ou via le formulaire, réponse sous 24h et visite sur place offerte à Revel-Tourdan."
       }
     ]
   },
@@ -9423,11 +9423,11 @@ export const cities: City[] = [
       },
       {
         "question": "Quelles précautions pour construire à Saint-Jean-de-Soudain ?",
-        "answer": "Le secteur de Saint-Jean-de-Soudain peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "answer": "Oui, il faut composer avec drainage et gestion des eaux pluviales. C'est pourquoi chaque chantier de Saint-Jean-de-Soudain démarre par une analyse du sol, qui guide le choix des fondations et du drainage."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Saint-Jean-de-Soudain ?",
-        "answer": "À Saint-Jean-de-Soudain, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Nos équipes interviennent à Saint-Jean-de-Soudain pour le terrassement, les fondations, les dalles béton, les murs, les extensions de maison et la rénovation."
       },
       {
         "question": "Proposez-vous un devis gratuit à Saint-Jean-de-Soudain ?",
@@ -9451,7 +9451,7 @@ export const cities: City[] = [
       "longitude": 5.183
     },
     "description": "Spécialiste gros œuvre à Tignieu-Jameyzieu (Isère, 8 031 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "DZ Maçonnerie intervient à Tignieu-Jameyzieu (8 031 habitants, Isère) pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Nous couvrons notamment Quatre Buissons. Le secteur compte des repères comme Locotracteur Berliet et À la mémoire de 7 patriotes Morts pour la France, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "DZ Maçonnerie intervient à Tignieu-Jameyzieu (8 031 habitants, Isère) pour vos travaux d'extension, de dalle béton, de murs et de terrassement. Nous couvrons notamment Quatre Buissons. Le secteur compte des repères comme Locotracteur Berliet et À la mémoire de 7 patriotes Morts pour la France, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Tignieu-Jameyzieu",
       "maçonnerie Tignieu-Jameyzieu",
@@ -9510,19 +9510,19 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Tignieu-Jameyzieu ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Tignieu-Jameyzieu et notamment à Quatre Buissons, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Absolument : nous couvrons Tignieu-Jameyzieu et notamment à Quatre Buissons comme l'ensemble des communes alentour. Le déplacement pour l'étude de votre projet est offert."
       },
       {
-        "question": "Quelles précautions pour construire à Tignieu-Jameyzieu ?",
+        "question": "Le terrain de Tignieu-Jameyzieu pose-t-il des difficultés pour construire ?",
         "answer": "Le secteur de Tignieu-Jameyzieu peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Tignieu-Jameyzieu ?",
-        "answer": "À Tignieu-Jameyzieu, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Tignieu-Jameyzieu."
       },
       {
         "question": "Proposez-vous un devis gratuit à Tignieu-Jameyzieu ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Tignieu-Jameyzieu."
+        "answer": "Bien sûr, l'étude et le chiffrage de votre projet à Tignieu-Jameyzieu sont entièrement gratuits, sans aucun engagement."
       }
     ]
   },
@@ -9602,11 +9602,11 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Moissieu-sur-Dolon ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Moissieu-sur-Dolon, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Oui, Moissieu-sur-Dolon fait pleinement partie de notre zone d'intervention. Notre atelier est à Artas : la visite d'évaluation et le devis sont gratuits."
       },
       {
         "question": "Quelles précautions pour construire à Moissieu-sur-Dolon ?",
-        "answer": "Le secteur de Moissieu-sur-Dolon peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "answer": "Les points de vigilance locaux sont drainage et gestion des eaux pluviales. Nos techniques de gros œuvre en tiennent compte dès la conception, et le devis intègre ces spécificités."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Moissieu-sur-Dolon ?",
@@ -9614,7 +9614,7 @@ export const cities: City[] = [
       },
       {
         "question": "Proposez-vous un devis gratuit à Moissieu-sur-Dolon ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Moissieu-sur-Dolon."
+        "answer": "Oui : demande par téléphone ou via le formulaire, réponse sous 24h et visite sur place offerte à Moissieu-sur-Dolon."
       }
     ]
   },
@@ -9634,7 +9634,7 @@ export const cities: City[] = [
       "longitude": 5.4459
     },
     "description": "Maçonnerie et terrassement à La Tour-du-Pin (Isère, 8 111 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "DZ Maçonnerie met son savoir-faire au service des habitants de La Tour-du-Pin (8 111 habitants, Isère) pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Nous couvrons notamment Résidence Chartreuse, Cité E.D.F. et La Coterelle. Le secteur compte des repères comme Monument commémoratif des résistants déportés et Plaque commémorative des résistants déportés, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "DZ Maçonnerie met son savoir-faire au service des habitants de La Tour-du-Pin (8 111 habitants, Isère) pour vos chantiers de maçonnerie : terrasse, clôture, rénovation, terrassement. Nous couvrons notamment Résidence Chartreuse, Cité E.D.F. et La Coterelle. Le secteur compte des repères comme Monument commémoratif des résistants déportés et Plaque commémorative des résistants déportés, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon La Tour-du-Pin",
       "maçonnerie La Tour-du-Pin",
@@ -9699,12 +9699,12 @@ export const cities: City[] = [
         "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de La Tour-du-Pin et notamment à Résidence Chartreuse, Cité E.D.F. et La Coterelle, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
       },
       {
-        "question": "Quelles précautions pour construire à La Tour-du-Pin ?",
-        "answer": "Le secteur de La Tour-du-Pin peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "question": "Le terrain de La Tour-du-Pin pose-t-il des difficultés pour construire ?",
+        "answer": "Oui, il faut composer avec drainage et gestion des eaux pluviales. C'est pourquoi chaque chantier de La Tour-du-Pin démarre par une analyse du sol, qui guide le choix des fondations et du drainage."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à La Tour-du-Pin ?",
-        "answer": "À La Tour-du-Pin, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Nos équipes interviennent à La Tour-du-Pin pour le terrassement, les fondations, les dalles béton, les murs, les extensions de maison et la rénovation."
       },
       {
         "question": "Proposez-vous un devis gratuit à La Tour-du-Pin ?",
@@ -9787,19 +9787,19 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Mions ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Mions et notamment à centre-ville, quartiers résidentiels et zones pavillonnaires, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Absolument : nous couvrons Mions et notamment à centre-ville, quartiers résidentiels et zones pavillonnaires comme l'ensemble des communes alentour. Le déplacement pour l'étude de votre projet est offert."
       },
       {
-        "question": "Quelles précautions pour construire à Mions ?",
+        "question": "Y a-t-il des contraintes de terrain à Mions ?",
         "answer": "Le secteur de Mions peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Mions ?",
-        "answer": "À Mions, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Mions."
       },
       {
         "question": "Proposez-vous un devis gratuit à Mions ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Mions."
+        "answer": "Bien sûr, l'étude et le chiffrage de votre projet à Mions sont entièrement gratuits, sans aucun engagement."
       }
     ]
   },
@@ -9819,7 +9819,7 @@ export const cities: City[] = [
       "longitude": 4.9097
     },
     "description": "Spécialiste gros œuvre à Marennes (Rhône, 1 992 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "DZ Maçonnerie intervient à Marennes (1 992 habitants, Rhône) pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Nous couvrons notamment centre village et zones résidentielles. Le secteur compte des repères comme Suzanne, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "DZ Maçonnerie intervient à Marennes (1 992 habitants, Rhône) pour vos travaux d'extension, de dalle béton, de murs et de terrassement. Nous couvrons notamment centre village et zones résidentielles. Le secteur compte des repères comme Suzanne, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Marennes",
       "maçonnerie Marennes",
@@ -9881,12 +9881,12 @@ export const cities: City[] = [
         "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Marennes et notamment à centre village et zones résidentielles, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
       },
       {
-        "question": "Quelles précautions pour construire à Marennes ?",
-        "answer": "Le secteur de Marennes peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "question": "Le terrain de Marennes pose-t-il des difficultés pour construire ?",
+        "answer": "Oui, il faut composer avec drainage et gestion des eaux pluviales. C'est pourquoi chaque chantier de Marennes démarre par une analyse du sol, qui guide le choix des fondations et du drainage."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Marennes ?",
-        "answer": "À Marennes, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Nos équipes interviennent à Marennes pour le terrassement, les fondations, les dalles béton, les murs, les extensions de maison et la rénovation."
       },
       {
         "question": "Proposez-vous un devis gratuit à Marennes ?",
@@ -9910,7 +9910,7 @@ export const cities: City[] = [
       "longitude": 5.1522
     },
     "description": "Maçonnerie et terrassement à Charvieu-Chavagneux (Isère, 10 547 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "DZ Maçonnerie met son savoir-faire au service des habitants de Charvieu-Chavagneux (10 547 habitants, Isère) pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Nous couvrons notamment Le Piarday, Les Ecoles et La Garenne. Le secteur compte des repères comme Mémorial du génocide arménien et Khatckar, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "DZ Maçonnerie met son savoir-faire au service des habitants de Charvieu-Chavagneux (10 547 habitants, Isère) pour vos chantiers de maçonnerie : terrasse, clôture, rénovation, terrassement. Nous couvrons notamment Le Piarday, Les Ecoles et La Garenne. Le secteur compte des repères comme Mémorial du génocide arménien et Khatckar, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Charvieu-Chavagneux",
       "maçonnerie Charvieu-Chavagneux",
@@ -9977,12 +9977,12 @@ export const cities: City[] = [
         "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Charvieu-Chavagneux et notamment à Le Piarday, Les Ecoles et La Garenne, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
       },
       {
-        "question": "Quelles précautions pour construire à Charvieu-Chavagneux ?",
-        "answer": "Le secteur de Charvieu-Chavagneux peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "question": "Le terrain de Charvieu-Chavagneux pose-t-il des difficultés pour construire ?",
+        "answer": "Oui, il faut composer avec drainage et gestion des eaux pluviales. C'est pourquoi chaque chantier de Charvieu-Chavagneux démarre par une analyse du sol, qui guide le choix des fondations et du drainage."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Charvieu-Chavagneux ?",
-        "answer": "À Charvieu-Chavagneux, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Nos équipes interviennent à Charvieu-Chavagneux pour le terrassement, les fondations, les dalles béton, les murs, les extensions de maison et la rénovation."
       },
       {
         "question": "Proposez-vous un devis gratuit à Charvieu-Chavagneux ?",
@@ -10006,7 +10006,7 @@ export const cities: City[] = [
       "longitude": 5.4549
     },
     "description": "Spécialiste gros œuvre à Montagnieu (Isère, 1 179 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "DZ Maçonnerie intervient à Montagnieu (1 179 habitants, Isère) pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "DZ Maçonnerie intervient à Montagnieu (1 179 habitants, Isère) pour vos travaux d'extension, de dalle béton, de murs et de terrassement. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Montagnieu",
       "maçonnerie Montagnieu",
@@ -10058,11 +10058,11 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Montagnieu ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Montagnieu, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Oui, Montagnieu fait pleinement partie de notre zone d'intervention. Notre atelier est à Artas : la visite d'évaluation et le devis sont gratuits."
       },
       {
-        "question": "Quelles précautions pour construire à Montagnieu ?",
-        "answer": "Le secteur de Montagnieu peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "question": "Y a-t-il des contraintes de terrain à Montagnieu ?",
+        "answer": "Les points de vigilance locaux sont drainage et gestion des eaux pluviales. Nos techniques de gros œuvre en tiennent compte dès la conception, et le devis intègre ces spécificités."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Montagnieu ?",
@@ -10070,7 +10070,7 @@ export const cities: City[] = [
       },
       {
         "question": "Proposez-vous un devis gratuit à Montagnieu ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Montagnieu."
+        "answer": "Oui : demande par téléphone ou via le formulaire, réponse sous 24h et visite sur place offerte à Montagnieu."
       }
     ]
   },
@@ -10090,7 +10090,7 @@ export const cities: City[] = [
       "longitude": 5.4227
     },
     "description": "Artisan maçon à Vignieu (Isère, 1 024 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "À Vignieu (1 024 habitants, Isère), DZ Maçonnerie vous accompagne pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "À Vignieu (1 024 habitants, Isère), DZ Maçonnerie vous accompagne pour tous vos projets de gros œuvre : dalle béton, murs, extension, terrassement. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Vignieu",
       "maçonnerie Vignieu",
@@ -10142,19 +10142,19 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Vignieu ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Vignieu, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Absolument : nous couvrons Vignieu comme l'ensemble des communes alentour. Le déplacement pour l'étude de votre projet est offert."
       },
       {
-        "question": "Quelles précautions pour construire à Vignieu ?",
+        "question": "Le terrain de Vignieu pose-t-il des difficultés pour construire ?",
         "answer": "Le secteur de Vignieu peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Vignieu ?",
-        "answer": "À Vignieu, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Vignieu."
       },
       {
         "question": "Proposez-vous un devis gratuit à Vignieu ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Vignieu."
+        "answer": "Bien sûr, l'étude et le chiffrage de votre projet à Vignieu sont entièrement gratuits, sans aucun engagement."
       }
     ]
   },
@@ -10174,7 +10174,7 @@ export const cities: City[] = [
       "longitude": 4.8803
     },
     "description": "Artisan maçon à Vienne (Isère, 31 778 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "À Vienne (31 778 habitants, Isère), DZ Maçonnerie vous accompagne pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Nous couvrons notamment Lotissement Les Chanterelles, Centre Ville et Collonge. Le secteur compte des repères comme Aqueduc romain et Enceinte romaine, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "À Vienne (31 778 habitants, Isère), DZ Maçonnerie vous accompagne pour tous vos projets de gros œuvre : dalle béton, murs, extension, terrassement. Nous couvrons notamment Lotissement Les Chanterelles, Centre Ville et Collonge. Le secteur compte des repères comme Aqueduc romain et Enceinte romaine, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Vienne",
       "maçonnerie Vienne",
@@ -10242,19 +10242,19 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Vienne ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Vienne et notamment à Lotissement Les Chanterelles, Centre Ville et Collonge, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Absolument : nous couvrons Vienne et notamment à Lotissement Les Chanterelles, Centre Ville et Collonge comme l'ensemble des communes alentour. Le déplacement pour l'étude de votre projet est offert."
       },
       {
-        "question": "Quelles précautions pour construire à Vienne ?",
+        "question": "Le terrain de Vienne pose-t-il des difficultés pour construire ?",
         "answer": "Le secteur de Vienne peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Vienne ?",
-        "answer": "À Vienne, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Vienne."
       },
       {
         "question": "Proposez-vous un devis gratuit à Vienne ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Vienne."
+        "answer": "Bien sûr, l'étude et le chiffrage de votre projet à Vienne sont entièrement gratuits, sans aucun engagement."
       }
     ]
   },
@@ -10274,7 +10274,7 @@ export const cities: City[] = [
       "longitude": 5.428
     },
     "description": "Maçonnerie et terrassement à Châbons (Isère, 2 133 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "DZ Maçonnerie met son savoir-faire au service des habitants de Châbons (2 133 habitants, Isère) pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Les terrains locaux présentent des enjeux de conception parasismique, que nous intégrons dès l'étude.",
+    "introduction": "DZ Maçonnerie met son savoir-faire au service des habitants de Châbons (2 133 habitants, Isère) pour vos chantiers de maçonnerie : terrasse, clôture, rénovation, terrassement. Les terrains locaux présentent des enjeux de conception parasismique, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Châbons",
       "maçonnerie Châbons",
@@ -10323,7 +10323,7 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Châbons ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Châbons, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Absolument : nous couvrons Châbons comme l'ensemble des communes alentour. Le déplacement pour l'étude de votre projet est offert."
       },
       {
         "question": "Quelles précautions pour construire à Châbons ?",
@@ -10331,11 +10331,11 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Châbons ?",
-        "answer": "À Châbons, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Châbons."
       },
       {
         "question": "Proposez-vous un devis gratuit à Châbons ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Châbons."
+        "answer": "Bien sûr, l'étude et le chiffrage de votre projet à Châbons sont entièrement gratuits, sans aucun engagement."
       }
     ]
   },
@@ -10355,7 +10355,7 @@ export const cities: City[] = [
       "longitude": 5.2635
     },
     "description": "Maçonnerie et terrassement à Crémieu (Isère, 3 536 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "DZ Maçonnerie met son savoir-faire au service des habitants de Crémieu (3 536 habitants, Isère) pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Nous couvrons notamment centre historique et zones résidentielles. Le secteur compte des repères comme Vestige du chemin de fer et victoire ?, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "DZ Maçonnerie met son savoir-faire au service des habitants de Crémieu (3 536 habitants, Isère) pour vos chantiers de maçonnerie : terrasse, clôture, rénovation, terrassement. Nous couvrons notamment centre historique et zones résidentielles. Le secteur compte des repères comme Vestige du chemin de fer et victoire ?, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Crémieu",
       "maçonnerie Crémieu",
@@ -10420,11 +10420,11 @@ export const cities: City[] = [
       },
       {
         "question": "Quelles précautions pour construire à Crémieu ?",
-        "answer": "Le secteur de Crémieu peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "answer": "Oui, il faut composer avec drainage et gestion des eaux pluviales. C'est pourquoi chaque chantier de Crémieu démarre par une analyse du sol, qui guide le choix des fondations et du drainage."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Crémieu ?",
-        "answer": "À Crémieu, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Nos équipes interviennent à Crémieu pour le terrassement, les fondations, les dalles béton, les murs, les extensions de maison et la rénovation."
       },
       {
         "question": "Proposez-vous un devis gratuit à Crémieu ?",
@@ -10501,19 +10501,19 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à La Frette ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de La Frette, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Absolument : nous couvrons La Frette comme l'ensemble des communes alentour. Le déplacement pour l'étude de votre projet est offert."
       },
       {
-        "question": "Quelles précautions pour construire à La Frette ?",
+        "question": "Y a-t-il des contraintes de terrain à La Frette ?",
         "answer": "Le secteur de La Frette peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à La Frette ?",
-        "answer": "À La Frette, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à La Frette."
       },
       {
         "question": "Proposez-vous un devis gratuit à La Frette ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à La Frette."
+        "answer": "Bien sûr, l'étude et le chiffrage de votre projet à La Frette sont entièrement gratuits, sans aucun engagement."
       }
     ]
   },
@@ -10533,7 +10533,7 @@ export const cities: City[] = [
       "longitude": 5.0823
     },
     "description": "Artisan maçon à Saint-Barthélemy (Isère, 923 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "À Saint-Barthélemy (923 habitants, Isère), DZ Maçonnerie vous accompagne pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Nous couvrons notamment Le Village, Lotissement la Voie Romaine et Lotissement les Pléiades. Le secteur compte des repères comme Monument aux Morts, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "À Saint-Barthélemy (923 habitants, Isère), DZ Maçonnerie vous accompagne pour tous vos projets de gros œuvre : dalle béton, murs, extension, terrassement. Nous couvrons notamment Le Village, Lotissement la Voie Romaine et Lotissement les Pléiades. Le secteur compte des repères comme Monument aux Morts, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Saint-Barthélemy",
       "maçonnerie Saint-Barthélemy",
@@ -10596,11 +10596,11 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Saint-Barthélemy ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Saint-Barthélemy et notamment à Le Village, Lotissement la Voie Romaine et Lotissement les Pléiades, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Oui, Saint-Barthélemy et notamment à Le Village, Lotissement la Voie Romaine et Lotissement les Pléiades fait pleinement partie de notre zone d'intervention. Notre atelier est à Artas : la visite d'évaluation et le devis sont gratuits."
       },
       {
-        "question": "Quelles précautions pour construire à Saint-Barthélemy ?",
-        "answer": "Le secteur de Saint-Barthélemy peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "question": "Le terrain de Saint-Barthélemy pose-t-il des difficultés pour construire ?",
+        "answer": "Les points de vigilance locaux sont drainage et gestion des eaux pluviales. Nos techniques de gros œuvre en tiennent compte dès la conception, et le devis intègre ces spécificités."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Saint-Barthélemy ?",
@@ -10608,7 +10608,7 @@ export const cities: City[] = [
       },
       {
         "question": "Proposez-vous un devis gratuit à Saint-Barthélemy ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Saint-Barthélemy."
+        "answer": "Oui : demande par téléphone ou via le formulaire, réponse sous 24h et visite sur place offerte à Saint-Barthélemy."
       }
     ]
   },
@@ -10628,7 +10628,7 @@ export const cities: City[] = [
       "longitude": 4.8792
     },
     "description": "Spécialiste gros œuvre à Chuzelles (Isère, 2 366 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "DZ Maçonnerie intervient à Chuzelles (2 366 habitants, Isère) pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Nous couvrons notamment Pauphile et Lotissement Plein Sud. Le secteur compte des repères comme Monument aux Morts et Croix du Coteau, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "DZ Maçonnerie intervient à Chuzelles (2 366 habitants, Isère) pour vos travaux d'extension, de dalle béton, de murs et de terrassement. Nous couvrons notamment Pauphile et Lotissement Plein Sud. Le secteur compte des repères comme Monument aux Morts et Croix du Coteau, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Chuzelles",
       "maçonnerie Chuzelles",
@@ -10688,11 +10688,11 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Chuzelles ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Chuzelles et notamment à Pauphile et Lotissement Plein Sud, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Oui, Chuzelles et notamment à Pauphile et Lotissement Plein Sud fait pleinement partie de notre zone d'intervention. Notre atelier est à Artas : la visite d'évaluation et le devis sont gratuits."
       },
       {
-        "question": "Quelles précautions pour construire à Chuzelles ?",
-        "answer": "Le secteur de Chuzelles peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "question": "Le terrain de Chuzelles pose-t-il des difficultés pour construire ?",
+        "answer": "Les points de vigilance locaux sont drainage et gestion des eaux pluviales. Nos techniques de gros œuvre en tiennent compte dès la conception, et le devis intègre ces spécificités."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Chuzelles ?",
@@ -10700,7 +10700,7 @@ export const cities: City[] = [
       },
       {
         "question": "Proposez-vous un devis gratuit à Chuzelles ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Chuzelles."
+        "answer": "Oui : demande par téléphone ou via le formulaire, réponse sous 24h et visite sur place offerte à Chuzelles."
       }
     ]
   },
@@ -10720,7 +10720,7 @@ export const cities: City[] = [
       "longitude": 5.1728
     },
     "description": "Maçonnerie et terrassement à Pont-de-Chéruy (Isère, 6 302 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "DZ Maçonnerie met son savoir-faire au service des habitants de Pont-de-Chéruy (6 302 habitants, Isère) pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Nous couvrons notamment Le Réveil, La plaine et Cresillieux. Le secteur compte des repères comme Square d'Arménie et La Créativité, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "DZ Maçonnerie met son savoir-faire au service des habitants de Pont-de-Chéruy (6 302 habitants, Isère) pour vos chantiers de maçonnerie : terrasse, clôture, rénovation, terrassement. Nous couvrons notamment Le Réveil, La plaine et Cresillieux. Le secteur compte des repères comme Square d'Arménie et La Créativité, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Pont-de-Chéruy",
       "maçonnerie Pont-de-Chéruy",
@@ -10784,12 +10784,12 @@ export const cities: City[] = [
         "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Pont-de-Chéruy et notamment à Le Réveil, La plaine et Cresillieux, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
       },
       {
-        "question": "Quelles précautions pour construire à Pont-de-Chéruy ?",
-        "answer": "Le secteur de Pont-de-Chéruy peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "question": "Y a-t-il des contraintes de terrain à Pont-de-Chéruy ?",
+        "answer": "Oui, il faut composer avec drainage et gestion des eaux pluviales. C'est pourquoi chaque chantier de Pont-de-Chéruy démarre par une analyse du sol, qui guide le choix des fondations et du drainage."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Pont-de-Chéruy ?",
-        "answer": "À Pont-de-Chéruy, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Nos équipes interviennent à Pont-de-Chéruy pour le terrassement, les fondations, les dalles béton, les murs, les extensions de maison et la rénovation."
       },
       {
         "question": "Proposez-vous un devis gratuit à Pont-de-Chéruy ?",
@@ -10813,7 +10813,7 @@ export const cities: City[] = [
       "longitude": 5.1154
     },
     "description": "Maçonnerie et terrassement à Beaufort (Isère, 573 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "DZ Maçonnerie met son savoir-faire au service des habitants de Beaufort (573 habitants, Isère) pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Le secteur compte des repères comme Monument aux Morts, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "DZ Maçonnerie met son savoir-faire au service des habitants de Beaufort (573 habitants, Isère) pour vos chantiers de maçonnerie : terrasse, clôture, rénovation, terrassement. Le secteur compte des repères comme Monument aux Morts, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Beaufort",
       "maçonnerie Beaufort",
@@ -10873,11 +10873,11 @@ export const cities: City[] = [
       },
       {
         "question": "Quelles précautions pour construire à Beaufort ?",
-        "answer": "Le secteur de Beaufort peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "answer": "Oui, il faut composer avec drainage et gestion des eaux pluviales. C'est pourquoi chaque chantier de Beaufort démarre par une analyse du sol, qui guide le choix des fondations et du drainage."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Beaufort ?",
-        "answer": "À Beaufort, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Nos équipes interviennent à Beaufort pour le terrassement, les fondations, les dalles béton, les murs, les extensions de maison et la rénovation."
       },
       {
         "question": "Proposez-vous un devis gratuit à Beaufort ?",
@@ -10901,7 +10901,7 @@ export const cities: City[] = [
       "longitude": 5.3924
     },
     "description": "Artisan maçon à Bévenais (Isère, 1 049 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "À Bévenais (1 049 habitants, Isère), DZ Maçonnerie vous accompagne pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Le secteur compte des repères comme Monument aux Morts, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "À Bévenais (1 049 habitants, Isère), DZ Maçonnerie vous accompagne pour tous vos projets de gros œuvre : dalle béton, murs, extension, terrassement. Le secteur compte des repères comme Monument aux Morts, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Bévenais",
       "maçonnerie Bévenais",
@@ -10956,7 +10956,7 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Bévenais ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Bévenais, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Absolument : nous couvrons Bévenais comme l'ensemble des communes alentour. Le déplacement pour l'étude de votre projet est offert."
       },
       {
         "question": "Quelles précautions pour construire à Bévenais ?",
@@ -10964,11 +10964,11 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Bévenais ?",
-        "answer": "À Bévenais, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Bévenais."
       },
       {
         "question": "Proposez-vous un devis gratuit à Bévenais ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Bévenais."
+        "answer": "Bien sûr, l'étude et le chiffrage de votre projet à Bévenais sont entièrement gratuits, sans aucun engagement."
       }
     ]
   },
@@ -11042,7 +11042,7 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Soleymieu ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Soleymieu, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Absolument : nous couvrons Soleymieu comme l'ensemble des communes alentour. Le déplacement pour l'étude de votre projet est offert."
       },
       {
         "question": "Quelles précautions pour construire à Soleymieu ?",
@@ -11050,11 +11050,11 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Soleymieu ?",
-        "answer": "À Soleymieu, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Soleymieu."
       },
       {
         "question": "Proposez-vous un devis gratuit à Soleymieu ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Soleymieu."
+        "answer": "Bien sûr, l'étude et le chiffrage de votre projet à Soleymieu sont entièrement gratuits, sans aucun engagement."
       }
     ]
   },
@@ -11074,7 +11074,7 @@ export const cities: City[] = [
       "longitude": 5.3058
     },
     "description": "Spécialiste gros œuvre à Brézins (Isère, 2 312 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "DZ Maçonnerie intervient à Brézins (2 312 habitants, Isère) pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Nous couvrons notamment centre village et zones pavillonnaires. Le secteur compte des repères comme centre du village, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "DZ Maçonnerie intervient à Brézins (2 312 habitants, Isère) pour vos travaux d'extension, de dalle béton, de murs et de terrassement. Nous couvrons notamment centre village et zones pavillonnaires. Le secteur compte des repères comme centre du village, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Brézins",
       "maçonnerie Brézins",
@@ -11134,12 +11134,12 @@ export const cities: City[] = [
         "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Brézins et notamment à centre village et zones pavillonnaires, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
       },
       {
-        "question": "Quelles précautions pour construire à Brézins ?",
-        "answer": "Le secteur de Brézins peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "question": "Le terrain de Brézins pose-t-il des difficultés pour construire ?",
+        "answer": "Oui, il faut composer avec drainage et gestion des eaux pluviales. C'est pourquoi chaque chantier de Brézins démarre par une analyse du sol, qui guide le choix des fondations et du drainage."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Brézins ?",
-        "answer": "À Brézins, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Nos équipes interviennent à Brézins pour le terrassement, les fondations, les dalles béton, les murs, les extensions de maison et la rénovation."
       },
       {
         "question": "Proposez-vous un devis gratuit à Brézins ?",
@@ -11163,7 +11163,7 @@ export const cities: City[] = [
       "longitude": 5.3089
     },
     "description": "Artisan maçon à Siccieu-Saint-Julien-et-Carisieu (Isère, 609 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "À Siccieu-Saint-Julien-et-Carisieu (609 habitants, Isère), DZ Maçonnerie vous accompagne pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Les terrains locaux présentent des enjeux de conception parasismique, que nous intégrons dès l'étude.",
+    "introduction": "À Siccieu-Saint-Julien-et-Carisieu (609 habitants, Isère), DZ Maçonnerie vous accompagne pour tous vos projets de gros œuvre : dalle béton, murs, extension, terrassement. Les terrains locaux présentent des enjeux de conception parasismique, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Siccieu-Saint-Julien-et-Carisieu",
       "maçonnerie Siccieu-Saint-Julien-et-Carisieu",
@@ -11218,12 +11218,12 @@ export const cities: City[] = [
         "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Siccieu-Saint-Julien-et-Carisieu, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
       },
       {
-        "question": "Quelles précautions pour construire à Siccieu-Saint-Julien-et-Carisieu ?",
-        "answer": "Le secteur de Siccieu-Saint-Julien-et-Carisieu peut présenter des enjeux de conception parasismique. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "question": "Le terrain de Siccieu-Saint-Julien-et-Carisieu pose-t-il des difficultés pour construire ?",
+        "answer": "Oui, il faut composer avec conception parasismique. C'est pourquoi chaque chantier de Siccieu-Saint-Julien-et-Carisieu démarre par une analyse du sol, qui guide le choix des fondations et du drainage."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Siccieu-Saint-Julien-et-Carisieu ?",
-        "answer": "À Siccieu-Saint-Julien-et-Carisieu, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Nos équipes interviennent à Siccieu-Saint-Julien-et-Carisieu pour le terrassement, les fondations, les dalles béton, les murs, les extensions de maison et la rénovation."
       },
       {
         "question": "Proposez-vous un devis gratuit à Siccieu-Saint-Julien-et-Carisieu ?",
@@ -11247,7 +11247,7 @@ export const cities: City[] = [
       "longitude": 5.4123
     },
     "description": "Artisan maçon à Sermérieu (Isère, 1 638 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "À Sermérieu (1 638 habitants, Isère), DZ Maçonnerie vous accompagne pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Nous couvrons notamment Chenavelle et La Cornue. Le secteur compte des repères comme Monument aux Morts et Madone du Moulin, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de conception parasismique, que nous intégrons dès l'étude.",
+    "introduction": "À Sermérieu (1 638 habitants, Isère), DZ Maçonnerie vous accompagne pour tous vos projets de gros œuvre : dalle béton, murs, extension, terrassement. Nous couvrons notamment Chenavelle et La Cornue. Le secteur compte des repères comme Monument aux Morts et Madone du Moulin, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de conception parasismique, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Sermérieu",
       "maçonnerie Sermérieu",
@@ -11304,7 +11304,7 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Sermérieu ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Sermérieu et notamment à Chenavelle et La Cornue, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Absolument : nous couvrons Sermérieu et notamment à Chenavelle et La Cornue comme l'ensemble des communes alentour. Le déplacement pour l'étude de votre projet est offert."
       },
       {
         "question": "Quelles précautions pour construire à Sermérieu ?",
@@ -11312,11 +11312,11 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Sermérieu ?",
-        "answer": "À Sermérieu, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Sermérieu."
       },
       {
         "question": "Proposez-vous un devis gratuit à Sermérieu ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Sermérieu."
+        "answer": "Bien sûr, l'étude et le chiffrage de votre projet à Sermérieu sont entièrement gratuits, sans aucun engagement."
       }
     ]
   },
@@ -11392,11 +11392,11 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Janneyrias ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Janneyrias et notamment à centre village et zones résidentielles, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Oui, Janneyrias et notamment à centre village et zones résidentielles fait pleinement partie de notre zone d'intervention. Notre atelier est à Artas : la visite d'évaluation et le devis sont gratuits."
       },
       {
-        "question": "Quelles précautions pour construire à Janneyrias ?",
-        "answer": "Le secteur de Janneyrias peut présenter des enjeux de conception parasismique. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "question": "Le terrain de Janneyrias pose-t-il des difficultés pour construire ?",
+        "answer": "Les points de vigilance locaux sont conception parasismique. Nos techniques de gros œuvre en tiennent compte dès la conception, et le devis intègre ces spécificités."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Janneyrias ?",
@@ -11404,7 +11404,7 @@ export const cities: City[] = [
       },
       {
         "question": "Proposez-vous un devis gratuit à Janneyrias ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Janneyrias."
+        "answer": "Oui : demande par téléphone ou via le formulaire, réponse sous 24h et visite sur place offerte à Janneyrias."
       }
     ]
   },
@@ -11488,12 +11488,12 @@ export const cities: City[] = [
         "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Sainte-Colombe et notamment à Chantemerle, Les Jacquetières et La Carrière, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
       },
       {
-        "question": "Quelles précautions pour construire à Sainte-Colombe ?",
-        "answer": "Le secteur de Sainte-Colombe peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "question": "Y a-t-il des contraintes de terrain à Sainte-Colombe ?",
+        "answer": "Oui, il faut composer avec drainage et gestion des eaux pluviales. C'est pourquoi chaque chantier de Sainte-Colombe démarre par une analyse du sol, qui guide le choix des fondations et du drainage."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Sainte-Colombe ?",
-        "answer": "À Sainte-Colombe, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Nos équipes interviennent à Sainte-Colombe pour le terrassement, les fondations, les dalles béton, les murs, les extensions de maison et la rénovation."
       },
       {
         "question": "Proposez-vous un devis gratuit à Sainte-Colombe ?",
@@ -11517,7 +11517,7 @@ export const cities: City[] = [
       "longitude": 5.2227
     },
     "description": "Maçonnerie et terrassement à Saint-Romain-de-Jalionas (Isère, 3 417 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "DZ Maçonnerie met son savoir-faire au service des habitants de Saint-Romain-de-Jalionas (3 417 habitants, Isère) pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Le secteur compte des repères comme Monument aux Morts et Villa gallo-romaine (vestiges), dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "DZ Maçonnerie met son savoir-faire au service des habitants de Saint-Romain-de-Jalionas (3 417 habitants, Isère) pour vos chantiers de maçonnerie : terrasse, clôture, rénovation, terrassement. Le secteur compte des repères comme Monument aux Morts et Villa gallo-romaine (vestiges), dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Saint-Romain-de-Jalionas",
       "maçonnerie Saint-Romain-de-Jalionas",
@@ -11573,11 +11573,11 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Saint-Romain-de-Jalionas ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Saint-Romain-de-Jalionas, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Oui, Saint-Romain-de-Jalionas fait pleinement partie de notre zone d'intervention. Notre atelier est à Artas : la visite d'évaluation et le devis sont gratuits."
       },
       {
-        "question": "Quelles précautions pour construire à Saint-Romain-de-Jalionas ?",
-        "answer": "Le secteur de Saint-Romain-de-Jalionas peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "question": "Y a-t-il des contraintes de terrain à Saint-Romain-de-Jalionas ?",
+        "answer": "Les points de vigilance locaux sont drainage et gestion des eaux pluviales. Nos techniques de gros œuvre en tiennent compte dès la conception, et le devis intègre ces spécificités."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Saint-Romain-de-Jalionas ?",
@@ -11585,7 +11585,7 @@ export const cities: City[] = [
       },
       {
         "question": "Proposez-vous un devis gratuit à Saint-Romain-de-Jalionas ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Saint-Romain-de-Jalionas."
+        "answer": "Oui : demande par téléphone ou via le formulaire, réponse sous 24h et visite sur place offerte à Saint-Romain-de-Jalionas."
       }
     ]
   },
@@ -11605,7 +11605,7 @@ export const cities: City[] = [
       "longitude": 4.8946
     },
     "description": "Spécialiste gros œuvre à Vernioz (Isère, 1 521 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "DZ Maçonnerie intervient à Vernioz (1 521 habitants, Isère) pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Le secteur compte des repères comme Le Jardin du Bois Marquis, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "DZ Maçonnerie intervient à Vernioz (1 521 habitants, Isère) pour vos travaux d'extension, de dalle béton, de murs et de terrassement. Le secteur compte des repères comme Le Jardin du Bois Marquis, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Vernioz",
       "maçonnerie Vernioz",
@@ -11661,19 +11661,19 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Vernioz ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Vernioz, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Absolument : nous couvrons Vernioz comme l'ensemble des communes alentour. Le déplacement pour l'étude de votre projet est offert."
       },
       {
-        "question": "Quelles précautions pour construire à Vernioz ?",
+        "question": "Y a-t-il des contraintes de terrain à Vernioz ?",
         "answer": "Le secteur de Vernioz peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Vernioz ?",
-        "answer": "À Vernioz, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Vernioz."
       },
       {
         "question": "Proposez-vous un devis gratuit à Vernioz ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Vernioz."
+        "answer": "Bien sûr, l'étude et le chiffrage de votre projet à Vernioz sont entièrement gratuits, sans aucun engagement."
       }
     ]
   },
@@ -11693,7 +11693,7 @@ export const cities: City[] = [
       "longitude": 5.0172
     },
     "description": "Maçonnerie et terrassement à Genas (Rhône, 13 421 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "DZ Maçonnerie met son savoir-faire au service des habitants de Genas (13 421 habitants, Rhône) pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Nous couvrons notamment Sous Genas, Fétan et Rupetit. Le secteur compte des repères comme Fort de Genas et Espace Muséal de Gandil, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "DZ Maçonnerie met son savoir-faire au service des habitants de Genas (13 421 habitants, Rhône) pour vos chantiers de maçonnerie : terrasse, clôture, rénovation, terrassement. Nous couvrons notamment Sous Genas, Fétan et Rupetit. Le secteur compte des repères comme Fort de Genas et Espace Muséal de Gandil, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Genas",
       "maçonnerie Genas",
@@ -11759,11 +11759,11 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Genas ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Genas et notamment à Sous Genas, Fétan et Rupetit, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Oui, Genas et notamment à Sous Genas, Fétan et Rupetit fait pleinement partie de notre zone d'intervention. Notre atelier est à Artas : la visite d'évaluation et le devis sont gratuits."
       },
       {
         "question": "Quelles précautions pour construire à Genas ?",
-        "answer": "Le secteur de Genas peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "answer": "Les points de vigilance locaux sont drainage et gestion des eaux pluviales. Nos techniques de gros œuvre en tiennent compte dès la conception, et le devis intègre ces spécificités."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Genas ?",
@@ -11771,7 +11771,7 @@ export const cities: City[] = [
       },
       {
         "question": "Proposez-vous un devis gratuit à Genas ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Genas."
+        "answer": "Oui : demande par téléphone ou via le formulaire, réponse sous 24h et visite sur place offerte à Genas."
       }
     ]
   },
@@ -11791,7 +11791,7 @@ export const cities: City[] = [
       "longitude": 5.0439
     },
     "description": "Spécialiste gros œuvre à Beaurepaire (Isère, 5 010 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "DZ Maçonnerie intervient à Beaurepaire (5 010 habitants, Isère) pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Nous couvrons notamment La Gare. Le secteur compte des repères comme Monument aux Morts, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "DZ Maçonnerie intervient à Beaurepaire (5 010 habitants, Isère) pour vos travaux d'extension, de dalle béton, de murs et de terrassement. Nous couvrons notamment La Gare. Le secteur compte des repères comme Monument aux Morts, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Beaurepaire",
       "maçonnerie Beaurepaire",
@@ -11853,11 +11853,11 @@ export const cities: City[] = [
       },
       {
         "question": "Quelles précautions pour construire à Beaurepaire ?",
-        "answer": "Le secteur de Beaurepaire peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "answer": "Oui, il faut composer avec drainage et gestion des eaux pluviales. C'est pourquoi chaque chantier de Beaurepaire démarre par une analyse du sol, qui guide le choix des fondations et du drainage."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Beaurepaire ?",
-        "answer": "À Beaurepaire, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Nos équipes interviennent à Beaurepaire pour le terrassement, les fondations, les dalles béton, les murs, les extensions de maison et la rénovation."
       },
       {
         "question": "Proposez-vous un devis gratuit à Beaurepaire ?",
@@ -11881,7 +11881,7 @@ export const cities: City[] = [
       "longitude": 5.4771
     },
     "description": "Spécialiste gros œuvre à Chélieu (Isère, 733 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "DZ Maçonnerie intervient à Chélieu (733 habitants, Isère) pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "DZ Maçonnerie intervient à Chélieu (733 habitants, Isère) pour vos travaux d'extension, de dalle béton, de murs et de terrassement. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Chélieu",
       "maçonnerie Chélieu",
@@ -11934,11 +11934,11 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Chélieu ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Chélieu, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Oui, Chélieu fait pleinement partie de notre zone d'intervention. Notre atelier est à Artas : la visite d'évaluation et le devis sont gratuits."
       },
       {
         "question": "Quelles précautions pour construire à Chélieu ?",
-        "answer": "Le secteur de Chélieu peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "answer": "Les points de vigilance locaux sont drainage et gestion des eaux pluviales. Nos techniques de gros œuvre en tiennent compte dès la conception, et le devis intègre ces spécificités."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Chélieu ?",
@@ -11946,7 +11946,7 @@ export const cities: City[] = [
       },
       {
         "question": "Proposez-vous un devis gratuit à Chélieu ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Chélieu."
+        "answer": "Oui : demande par téléphone ou via le formulaire, réponse sous 24h et visite sur place offerte à Chélieu."
       }
     ]
   },
@@ -12025,19 +12025,19 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Simandres ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Simandres et notamment à centre village et zones pavillonnaires, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Absolument : nous couvrons Simandres et notamment à centre village et zones pavillonnaires comme l'ensemble des communes alentour. Le déplacement pour l'étude de votre projet est offert."
       },
       {
-        "question": "Quelles précautions pour construire à Simandres ?",
+        "question": "Le terrain de Simandres pose-t-il des difficultés pour construire ?",
         "answer": "Le secteur de Simandres peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Simandres ?",
-        "answer": "À Simandres, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Simandres."
       },
       {
         "question": "Proposez-vous un devis gratuit à Simandres ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Simandres."
+        "answer": "Bien sûr, l'étude et le chiffrage de votre projet à Simandres sont entièrement gratuits, sans aucun engagement."
       }
     ]
   },
@@ -12057,7 +12057,7 @@ export const cities: City[] = [
       "longitude": 4.9104
     },
     "description": "Maçonnerie et terrassement à Corbas (Rhône, 11 315 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "DZ Maçonnerie met son savoir-faire au service des habitants de Corbas (11 315 habitants, Rhône) pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Nous couvrons notamment centre-ville et zones résidentielles. Le secteur compte des repères comme centre-ville et zones industrielles, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "DZ Maçonnerie met son savoir-faire au service des habitants de Corbas (11 315 habitants, Rhône) pour vos chantiers de maçonnerie : terrasse, clôture, rénovation, terrassement. Nous couvrons notamment centre-ville et zones résidentielles. Le secteur compte des repères comme centre-ville et zones industrielles, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Corbas",
       "maçonnerie Corbas",
@@ -12117,7 +12117,7 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Corbas ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Corbas et notamment à centre-ville et zones résidentielles, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Absolument : nous couvrons Corbas et notamment à centre-ville et zones résidentielles comme l'ensemble des communes alentour. Le déplacement pour l'étude de votre projet est offert."
       },
       {
         "question": "Quelles précautions pour construire à Corbas ?",
@@ -12125,11 +12125,11 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Corbas ?",
-        "answer": "À Corbas, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Corbas."
       },
       {
         "question": "Proposez-vous un devis gratuit à Corbas ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Corbas."
+        "answer": "Bien sûr, l'étude et le chiffrage de votre projet à Corbas sont entièrement gratuits, sans aucun engagement."
       }
     ]
   },
@@ -12209,19 +12209,19 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Les Côtes-d'Arey ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Les Côtes-d'Arey et notamment à Le Clos du Centre, Les Résidences des Lilas et Impasse Les Barlettes, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Absolument : nous couvrons Les Côtes-d'Arey et notamment à Le Clos du Centre, Les Résidences des Lilas et Impasse Les Barlettes comme l'ensemble des communes alentour. Le déplacement pour l'étude de votre projet est offert."
       },
       {
-        "question": "Quelles précautions pour construire à Les Côtes-d'Arey ?",
+        "question": "Y a-t-il des contraintes de terrain à Les Côtes-d'Arey ?",
         "answer": "Le secteur de Les Côtes-d'Arey peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Les Côtes-d'Arey ?",
-        "answer": "À Les Côtes-d'Arey, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Les Côtes-d'Arey."
       },
       {
         "question": "Proposez-vous un devis gratuit à Les Côtes-d'Arey ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Les Côtes-d'Arey."
+        "answer": "Bien sûr, l'étude et le chiffrage de votre projet à Les Côtes-d'Arey sont entièrement gratuits, sans aucun engagement."
       }
     ]
   },
@@ -12241,7 +12241,7 @@ export const cities: City[] = [
       "longitude": 5.4716
     },
     "description": "Maçonnerie et terrassement à Val-de-Virieu (Isère, 1 528 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "DZ Maçonnerie met son savoir-faire au service des habitants de Val-de-Virieu (1 528 habitants, Isère) pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Le secteur compte des repères comme Monument aux Morts et Croix de l'Homnézy, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "DZ Maçonnerie met son savoir-faire au service des habitants de Val-de-Virieu (1 528 habitants, Isère) pour vos chantiers de maçonnerie : terrasse, clôture, rénovation, terrassement. Le secteur compte des repères comme Monument aux Morts et Croix de l'Homnézy, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Val-de-Virieu",
       "maçonnerie Val-de-Virieu",
@@ -12296,11 +12296,11 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Val-de-Virieu ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Val-de-Virieu, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Oui, Val-de-Virieu fait pleinement partie de notre zone d'intervention. Notre atelier est à Artas : la visite d'évaluation et le devis sont gratuits."
       },
       {
-        "question": "Quelles précautions pour construire à Val-de-Virieu ?",
-        "answer": "Le secteur de Val-de-Virieu peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "question": "Y a-t-il des contraintes de terrain à Val-de-Virieu ?",
+        "answer": "Les points de vigilance locaux sont drainage et gestion des eaux pluviales. Nos techniques de gros œuvre en tiennent compte dès la conception, et le devis intègre ces spécificités."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Val-de-Virieu ?",
@@ -12308,7 +12308,7 @@ export const cities: City[] = [
       },
       {
         "question": "Proposez-vous un devis gratuit à Val-de-Virieu ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Val-de-Virieu."
+        "answer": "Oui : demande par téléphone ou via le formulaire, réponse sous 24h et visite sur place offerte à Val-de-Virieu."
       }
     ]
   },
@@ -12328,7 +12328,7 @@ export const cities: City[] = [
       "longitude": 4.95
     },
     "description": "Spécialiste gros œuvre à Bellegarde-Poussieu (Isère, 1 007 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "DZ Maçonnerie intervient à Bellegarde-Poussieu (1 007 habitants, Isère) pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Nous couvrons notamment Sous Miancon, Les Pierres et La Craz. Le secteur compte des repères comme Monument aux Morts, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "DZ Maçonnerie intervient à Bellegarde-Poussieu (1 007 habitants, Isère) pour vos travaux d'extension, de dalle béton, de murs et de terrassement. Nous couvrons notamment Sous Miancon, Les Pierres et La Craz. Le secteur compte des repères comme Monument aux Morts, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Bellegarde-Poussieu",
       "maçonnerie Bellegarde-Poussieu",
@@ -12394,11 +12394,11 @@ export const cities: City[] = [
       },
       {
         "question": "Quelles précautions pour construire à Bellegarde-Poussieu ?",
-        "answer": "Le secteur de Bellegarde-Poussieu peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "answer": "Oui, il faut composer avec drainage et gestion des eaux pluviales. C'est pourquoi chaque chantier de Bellegarde-Poussieu démarre par une analyse du sol, qui guide le choix des fondations et du drainage."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Bellegarde-Poussieu ?",
-        "answer": "À Bellegarde-Poussieu, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Nos équipes interviennent à Bellegarde-Poussieu pour le terrassement, les fondations, les dalles béton, les murs, les extensions de maison et la rénovation."
       },
       {
         "question": "Proposez-vous un devis gratuit à Bellegarde-Poussieu ?",
@@ -12422,7 +12422,7 @@ export const cities: City[] = [
       "longitude": 5.1558
     },
     "description": "Artisan maçon à Thodure (Isère, 795 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "À Thodure (795 habitants, Isère), DZ Maçonnerie vous accompagne pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Le secteur compte des repères comme Ramparts et Ancienne route du Grand Serre, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "À Thodure (795 habitants, Isère), DZ Maçonnerie vous accompagne pour tous vos projets de gros œuvre : dalle béton, murs, extension, terrassement. Le secteur compte des repères comme Ramparts et Ancienne route du Grand Serre, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Thodure",
       "maçonnerie Thodure",
@@ -12486,12 +12486,12 @@ export const cities: City[] = [
         "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Thodure, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
       },
       {
-        "question": "Quelles précautions pour construire à Thodure ?",
-        "answer": "Le secteur de Thodure peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "question": "Le terrain de Thodure pose-t-il des difficultés pour construire ?",
+        "answer": "Oui, il faut composer avec drainage et gestion des eaux pluviales. C'est pourquoi chaque chantier de Thodure démarre par une analyse du sol, qui guide le choix des fondations et du drainage."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Thodure ?",
-        "answer": "À Thodure, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Nos équipes interviennent à Thodure pour le terrassement, les fondations, les dalles béton, les murs, les extensions de maison et la rénovation."
       },
       {
         "question": "Proposez-vous un devis gratuit à Thodure ?",
@@ -12515,7 +12515,7 @@ export const cities: City[] = [
       "longitude": 5.4788
     },
     "description": "Spécialiste gros œuvre à La Chapelle-de-la-Tour (Isère, 1 992 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "DZ Maçonnerie intervient à La Chapelle-de-la-Tour (1 992 habitants, Isère) pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "DZ Maçonnerie intervient à La Chapelle-de-la-Tour (1 992 habitants, Isère) pour vos travaux d'extension, de dalle béton, de murs et de terrassement. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon La Chapelle-de-la-Tour",
       "maçonnerie La Chapelle-de-la-Tour",
@@ -12571,11 +12571,11 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à La Chapelle-de-la-Tour ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de La Chapelle-de-la-Tour, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Oui, La Chapelle-de-la-Tour fait pleinement partie de notre zone d'intervention. Notre atelier est à Artas : la visite d'évaluation et le devis sont gratuits."
       },
       {
         "question": "Quelles précautions pour construire à La Chapelle-de-la-Tour ?",
-        "answer": "Le secteur de La Chapelle-de-la-Tour peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "answer": "Les points de vigilance locaux sont drainage et gestion des eaux pluviales. Nos techniques de gros œuvre en tiennent compte dès la conception, et le devis intègre ces spécificités."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à La Chapelle-de-la-Tour ?",
@@ -12583,7 +12583,7 @@ export const cities: City[] = [
       },
       {
         "question": "Proposez-vous un devis gratuit à La Chapelle-de-la-Tour ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à La Chapelle-de-la-Tour."
+        "answer": "Oui : demande par téléphone ou via le formulaire, réponse sous 24h et visite sur place offerte à La Chapelle-de-la-Tour."
       }
     ]
   },
@@ -12603,7 +12603,7 @@ export const cities: City[] = [
       "longitude": 5.4155
     },
     "description": "Maçonnerie et terrassement à Le Grand-Lemps (Isère, 3 083 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "DZ Maçonnerie met son savoir-faire au service des habitants de Le Grand-Lemps (3 083 habitants, Isère) pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "DZ Maçonnerie met son savoir-faire au service des habitants de Le Grand-Lemps (3 083 habitants, Isère) pour vos chantiers de maçonnerie : terrasse, clôture, rénovation, terrassement. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Le Grand-Lemps",
       "maçonnerie Le Grand-Lemps",
@@ -12656,11 +12656,11 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Le Grand-Lemps ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Le Grand-Lemps, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Oui, Le Grand-Lemps fait pleinement partie de notre zone d'intervention. Notre atelier est à Artas : la visite d'évaluation et le devis sont gratuits."
       },
       {
-        "question": "Quelles précautions pour construire à Le Grand-Lemps ?",
-        "answer": "Le secteur de Le Grand-Lemps peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "question": "Le terrain de Le Grand-Lemps pose-t-il des difficultés pour construire ?",
+        "answer": "Les points de vigilance locaux sont drainage et gestion des eaux pluviales. Nos techniques de gros œuvre en tiennent compte dès la conception, et le devis intègre ces spécificités."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Le Grand-Lemps ?",
@@ -12668,7 +12668,7 @@ export const cities: City[] = [
       },
       {
         "question": "Proposez-vous un devis gratuit à Le Grand-Lemps ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Le Grand-Lemps."
+        "answer": "Oui : demande par téléphone ou via le formulaire, réponse sous 24h et visite sur place offerte à Le Grand-Lemps."
       }
     ]
   },
@@ -12688,7 +12688,7 @@ export const cities: City[] = [
       "longitude": 5.4877
     },
     "description": "Maçonnerie et terrassement à Saint-Didier-de-la-Tour (Isère, 2 143 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "DZ Maçonnerie met son savoir-faire au service des habitants de Saint-Didier-de-la-Tour (2 143 habitants, Isère) pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Le secteur compte des repères comme Monument aux Morts, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "DZ Maçonnerie met son savoir-faire au service des habitants de Saint-Didier-de-la-Tour (2 143 habitants, Isère) pour vos chantiers de maçonnerie : terrasse, clôture, rénovation, terrassement. Le secteur compte des repères comme Monument aux Morts, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Saint-Didier-de-la-Tour",
       "maçonnerie Saint-Didier-de-la-Tour",
@@ -12749,11 +12749,11 @@ export const cities: City[] = [
       },
       {
         "question": "Quelles précautions pour construire à Saint-Didier-de-la-Tour ?",
-        "answer": "Le secteur de Saint-Didier-de-la-Tour peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "answer": "Oui, il faut composer avec drainage et gestion des eaux pluviales. C'est pourquoi chaque chantier de Saint-Didier-de-la-Tour démarre par une analyse du sol, qui guide le choix des fondations et du drainage."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Saint-Didier-de-la-Tour ?",
-        "answer": "À Saint-Didier-de-la-Tour, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Nos équipes interviennent à Saint-Didier-de-la-Tour pour le terrassement, les fondations, les dalles béton, les murs, les extensions de maison et la rénovation."
       },
       {
         "question": "Proposez-vous un devis gratuit à Saint-Didier-de-la-Tour ?",
@@ -12777,7 +12777,7 @@ export const cities: City[] = [
       "longitude": 4.9474
     },
     "description": "Artisan maçon à Saint-Priest (Rhône, 49 229 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "À Saint-Priest (49 229 habitants, Rhône), DZ Maçonnerie vous accompagne pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Nous couvrons notamment centre-ville, Manissieux et Bel Air. Le secteur compte des repères comme Borne dimière et Calvaire de la Croix-Rousse, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "À Saint-Priest (49 229 habitants, Rhône), DZ Maçonnerie vous accompagne pour tous vos projets de gros œuvre : dalle béton, murs, extension, terrassement. Nous couvrons notamment centre-ville, Manissieux et Bel Air. Le secteur compte des repères comme Borne dimière et Calvaire de la Croix-Rousse, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Saint-Priest",
       "maçonnerie Saint-Priest",
@@ -12843,19 +12843,19 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Saint-Priest ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Saint-Priest et notamment à centre-ville, Manissieux et Bel Air, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Absolument : nous couvrons Saint-Priest et notamment à centre-ville, Manissieux et Bel Air comme l'ensemble des communes alentour. Le déplacement pour l'étude de votre projet est offert."
       },
       {
-        "question": "Quelles précautions pour construire à Saint-Priest ?",
+        "question": "Y a-t-il des contraintes de terrain à Saint-Priest ?",
         "answer": "Le secteur de Saint-Priest peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Saint-Priest ?",
-        "answer": "À Saint-Priest, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Saint-Priest."
       },
       {
         "question": "Proposez-vous un devis gratuit à Saint-Priest ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Saint-Priest."
+        "answer": "Bien sûr, l'étude et le chiffrage de votre projet à Saint-Priest sont entièrement gratuits, sans aucun engagement."
       }
     ]
   },
@@ -12875,7 +12875,7 @@ export const cities: City[] = [
       "longitude": 4.9867
     },
     "description": "Maçonnerie et terrassement à Pact (Isère, 863 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "DZ Maçonnerie met son savoir-faire au service des habitants de Pact (863 habitants, Isère) pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Nous couvrons notamment Vie Marchere et Hameau du Fer. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "DZ Maçonnerie met son savoir-faire au service des habitants de Pact (863 habitants, Isère) pour vos chantiers de maçonnerie : terrasse, clôture, rénovation, terrassement. Nous couvrons notamment Vie Marchere et Hameau du Fer. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Pact",
       "maçonnerie Pact",
@@ -12932,7 +12932,7 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Pact ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Pact et notamment à Vie Marchere et Hameau du Fer, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Absolument : nous couvrons Pact et notamment à Vie Marchere et Hameau du Fer comme l'ensemble des communes alentour. Le déplacement pour l'étude de votre projet est offert."
       },
       {
         "question": "Quelles précautions pour construire à Pact ?",
@@ -12940,11 +12940,11 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Pact ?",
-        "answer": "À Pact, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Pact."
       },
       {
         "question": "Proposez-vous un devis gratuit à Pact ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Pact."
+        "answer": "Bien sûr, l'étude et le chiffrage de votre projet à Pact sont entièrement gratuits, sans aucun engagement."
       }
     ]
   },
@@ -12964,7 +12964,7 @@ export const cities: City[] = [
       "longitude": 5.2572
     },
     "description": "Artisan maçon à Leyrieu (Isère, 919 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "À Leyrieu (919 habitants, Isère), DZ Maçonnerie vous accompagne pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Nous couvrons notamment Lotissement Clos Tommerieu. Le secteur compte des repères comme Monument aux Morts et stèle du Canadien, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "À Leyrieu (919 habitants, Isère), DZ Maçonnerie vous accompagne pour tous vos projets de gros œuvre : dalle béton, murs, extension, terrassement. Nous couvrons notamment Lotissement Clos Tommerieu. Le secteur compte des repères comme Monument aux Morts et stèle du Canadien, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Leyrieu",
       "maçonnerie Leyrieu",
@@ -13024,19 +13024,19 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Leyrieu ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Leyrieu et notamment à Lotissement Clos Tommerieu, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Absolument : nous couvrons Leyrieu et notamment à Lotissement Clos Tommerieu comme l'ensemble des communes alentour. Le déplacement pour l'étude de votre projet est offert."
       },
       {
-        "question": "Quelles précautions pour construire à Leyrieu ?",
+        "question": "Y a-t-il des contraintes de terrain à Leyrieu ?",
         "answer": "Le secteur de Leyrieu peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Leyrieu ?",
-        "answer": "À Leyrieu, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Leyrieu."
       },
       {
         "question": "Proposez-vous un devis gratuit à Leyrieu ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Leyrieu."
+        "answer": "Bien sûr, l'étude et le chiffrage de votre projet à Leyrieu sont entièrement gratuits, sans aucun engagement."
       }
     ]
   },
@@ -13120,11 +13120,11 @@ export const cities: City[] = [
       },
       {
         "question": "Quelles précautions pour construire à Saint-Clair-de-la-Tour ?",
-        "answer": "Le secteur de Saint-Clair-de-la-Tour peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "answer": "Oui, il faut composer avec drainage et gestion des eaux pluviales. C'est pourquoi chaque chantier de Saint-Clair-de-la-Tour démarre par une analyse du sol, qui guide le choix des fondations et du drainage."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Saint-Clair-de-la-Tour ?",
-        "answer": "À Saint-Clair-de-la-Tour, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Nos équipes interviennent à Saint-Clair-de-la-Tour pour le terrassement, les fondations, les dalles béton, les murs, les extensions de maison et la rénovation."
       },
       {
         "question": "Proposez-vous un devis gratuit à Saint-Clair-de-la-Tour ?",
@@ -13213,12 +13213,12 @@ export const cities: City[] = [
         "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de La Chapelle-de-Surieu et notamment à Les Terres de la Rivière, Les Combonnières et La Chapelle, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
       },
       {
-        "question": "Quelles précautions pour construire à La Chapelle-de-Surieu ?",
-        "answer": "Le secteur de La Chapelle-de-Surieu peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "question": "Le terrain de La Chapelle-de-Surieu pose-t-il des difficultés pour construire ?",
+        "answer": "Oui, il faut composer avec drainage et gestion des eaux pluviales. C'est pourquoi chaque chantier de La Chapelle-de-Surieu démarre par une analyse du sol, qui guide le choix des fondations et du drainage."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à La Chapelle-de-Surieu ?",
-        "answer": "À La Chapelle-de-Surieu, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Nos équipes interviennent à La Chapelle-de-Surieu pour le terrassement, les fondations, les dalles béton, les murs, les extensions de maison et la rénovation."
       },
       {
         "question": "Proposez-vous un devis gratuit à La Chapelle-de-Surieu ?",
@@ -13302,11 +13302,11 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Saint-Siméon-de-Bressieux ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Saint-Siméon-de-Bressieux et notamment à Charpenay, Le Verdin et Le Temple, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Oui, Saint-Siméon-de-Bressieux et notamment à Charpenay, Le Verdin et Le Temple fait pleinement partie de notre zone d'intervention. Notre atelier est à Artas : la visite d'évaluation et le devis sont gratuits."
       },
       {
-        "question": "Quelles précautions pour construire à Saint-Siméon-de-Bressieux ?",
-        "answer": "Le secteur de Saint-Siméon-de-Bressieux peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "question": "Le terrain de Saint-Siméon-de-Bressieux pose-t-il des difficultés pour construire ?",
+        "answer": "Les points de vigilance locaux sont drainage et gestion des eaux pluviales. Nos techniques de gros œuvre en tiennent compte dès la conception, et le devis intègre ces spécificités."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Saint-Siméon-de-Bressieux ?",
@@ -13314,7 +13314,7 @@ export const cities: City[] = [
       },
       {
         "question": "Proposez-vous un devis gratuit à Saint-Siméon-de-Bressieux ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Saint-Siméon-de-Bressieux."
+        "answer": "Oui : demande par téléphone ou via le formulaire, réponse sous 24h et visite sur place offerte à Saint-Siméon-de-Bressieux."
       }
     ]
   },
@@ -13334,7 +13334,7 @@ export const cities: City[] = [
       "longitude": 5.4759
     },
     "description": "Maçonnerie et terrassement à Dolomieu (Isère, 3 173 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "DZ Maçonnerie met son savoir-faire au service des habitants de Dolomieu (3 173 habitants, Isère) pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Nous couvrons notamment Lotissement du Lancelot. Le secteur compte des repères comme centre-ville, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de conception parasismique, que nous intégrons dès l'étude.",
+    "introduction": "DZ Maçonnerie met son savoir-faire au service des habitants de Dolomieu (3 173 habitants, Isère) pour vos chantiers de maçonnerie : terrasse, clôture, rénovation, terrassement. Nous couvrons notamment Lotissement du Lancelot. Le secteur compte des repères comme centre-ville, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de conception parasismique, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Dolomieu",
       "maçonnerie Dolomieu",
@@ -13391,12 +13391,12 @@ export const cities: City[] = [
         "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Dolomieu et notamment à Lotissement du Lancelot, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
       },
       {
-        "question": "Quelles précautions pour construire à Dolomieu ?",
-        "answer": "Le secteur de Dolomieu peut présenter des enjeux de conception parasismique. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "question": "Le terrain de Dolomieu pose-t-il des difficultés pour construire ?",
+        "answer": "Oui, il faut composer avec conception parasismique. C'est pourquoi chaque chantier de Dolomieu démarre par une analyse du sol, qui guide le choix des fondations et du drainage."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Dolomieu ?",
-        "answer": "À Dolomieu, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Nos équipes interviennent à Dolomieu pour le terrassement, les fondations, les dalles béton, les murs, les extensions de maison et la rénovation."
       },
       {
         "question": "Proposez-vous un devis gratuit à Dolomieu ?",
@@ -13420,7 +13420,7 @@ export const cities: City[] = [
       "longitude": 5.3504
     },
     "description": "Maçonnerie et terrassement à Saint-Étienne-de-Saint-Geoirs (Isère, 3 425 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "DZ Maçonnerie met son savoir-faire au service des habitants de Saint-Étienne-de-Saint-Geoirs (3 425 habitants, Isère) pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Nous couvrons notamment La Daleure, La Gare et Le Rival. Le secteur compte des repères comme yannick bonnefoy, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "DZ Maçonnerie met son savoir-faire au service des habitants de Saint-Étienne-de-Saint-Geoirs (3 425 habitants, Isère) pour vos chantiers de maçonnerie : terrasse, clôture, rénovation, terrassement. Nous couvrons notamment La Daleure, La Gare et Le Rival. Le secteur compte des repères comme yannick bonnefoy, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Saint-Étienne-de-Saint-Geoirs",
       "maçonnerie Saint-Étienne-de-Saint-Geoirs",
@@ -13485,12 +13485,12 @@ export const cities: City[] = [
         "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Saint-Étienne-de-Saint-Geoirs et notamment à La Daleure, La Gare et Le Rival, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
       },
       {
-        "question": "Quelles précautions pour construire à Saint-Étienne-de-Saint-Geoirs ?",
-        "answer": "Le secteur de Saint-Étienne-de-Saint-Geoirs peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "question": "Le terrain de Saint-Étienne-de-Saint-Geoirs pose-t-il des difficultés pour construire ?",
+        "answer": "Oui, il faut composer avec drainage et gestion des eaux pluviales. C'est pourquoi chaque chantier de Saint-Étienne-de-Saint-Geoirs démarre par une analyse du sol, qui guide le choix des fondations et du drainage."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Saint-Étienne-de-Saint-Geoirs ?",
-        "answer": "À Saint-Étienne-de-Saint-Geoirs, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Nos équipes interviennent à Saint-Étienne-de-Saint-Geoirs pour le terrassement, les fondations, les dalles béton, les murs, les extensions de maison et la rénovation."
       },
       {
         "question": "Proposez-vous un devis gratuit à Saint-Étienne-de-Saint-Geoirs ?",
@@ -13514,7 +13514,7 @@ export const cities: City[] = [
       "longitude": 4.841
     },
     "description": "Spécialiste gros œuvre à Seyssuel (Isère, 2 248 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "DZ Maçonnerie intervient à Seyssuel (2 248 habitants, Isère) pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Nous couvrons notamment Bon Accueil, Bas de Montrozier et Lotissement Les Cannes. Le secteur compte des repères comme centre du village et vignobles, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "DZ Maçonnerie intervient à Seyssuel (2 248 habitants, Isère) pour vos travaux d'extension, de dalle béton, de murs et de terrassement. Nous couvrons notamment Bon Accueil, Bas de Montrozier et Lotissement Les Cannes. Le secteur compte des repères comme centre du village et vignobles, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Seyssuel",
       "maçonnerie Seyssuel",
@@ -13576,11 +13576,11 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Seyssuel ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Seyssuel et notamment à Bon Accueil, Bas de Montrozier et Lotissement Les Cannes, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Oui, Seyssuel et notamment à Bon Accueil, Bas de Montrozier et Lotissement Les Cannes fait pleinement partie de notre zone d'intervention. Notre atelier est à Artas : la visite d'évaluation et le devis sont gratuits."
       },
       {
-        "question": "Quelles précautions pour construire à Seyssuel ?",
-        "answer": "Le secteur de Seyssuel peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "question": "Y a-t-il des contraintes de terrain à Seyssuel ?",
+        "answer": "Les points de vigilance locaux sont drainage et gestion des eaux pluviales. Nos techniques de gros œuvre en tiennent compte dès la conception, et le devis intègre ces spécificités."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Seyssuel ?",
@@ -13588,7 +13588,7 @@ export const cities: City[] = [
       },
       {
         "question": "Proposez-vous un devis gratuit à Seyssuel ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Seyssuel."
+        "answer": "Oui : demande par téléphone ou via le formulaire, réponse sous 24h et visite sur place offerte à Seyssuel."
       }
     ]
   },
@@ -13608,7 +13608,7 @@ export const cities: City[] = [
       "longitude": 5.0659
     },
     "description": "Artisan maçon à Pusignan (Rhône, 4 119 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "À Pusignan (4 119 habitants, Rhône), DZ Maçonnerie vous accompagne pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Nous couvrons notamment centre-ville et zones pavillonnaires. Le secteur compte des repères comme centre-ville et zones résidentielles, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de stabilité des sols et conception parasismique, que nous intégrons dès l'étude.",
+    "introduction": "À Pusignan (4 119 habitants, Rhône), DZ Maçonnerie vous accompagne pour tous vos projets de gros œuvre : dalle béton, murs, extension, terrassement. Nous couvrons notamment centre-ville et zones pavillonnaires. Le secteur compte des repères comme centre-ville et zones résidentielles, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de stabilité des sols et conception parasismique, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Pusignan",
       "maçonnerie Pusignan",
@@ -13666,7 +13666,7 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Pusignan ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Pusignan et notamment à centre-ville et zones pavillonnaires, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Absolument : nous couvrons Pusignan et notamment à centre-ville et zones pavillonnaires comme l'ensemble des communes alentour. Le déplacement pour l'étude de votre projet est offert."
       },
       {
         "question": "Quelles précautions pour construire à Pusignan ?",
@@ -13674,11 +13674,11 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Pusignan ?",
-        "answer": "À Pusignan, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Pusignan."
       },
       {
         "question": "Proposez-vous un devis gratuit à Pusignan ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Pusignan."
+        "answer": "Bien sûr, l'étude et le chiffrage de votre projet à Pusignan sont entièrement gratuits, sans aucun engagement."
       }
     ]
   },
@@ -13698,7 +13698,7 @@ export const cities: City[] = [
       "longitude": 5.1719
     },
     "description": "Maçonnerie et terrassement à Chavanoz (Isère, 5 126 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "DZ Maçonnerie met son savoir-faire au service des habitants de Chavanoz (5 126 habitants, Isère) pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Nous couvrons notamment Chavanoz Le Bourg, Les Cinq Chemins Sud et Belmont. Le secteur compte des repères comme Croix du Dauphiné et Croix Alexis Goy, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "DZ Maçonnerie met son savoir-faire au service des habitants de Chavanoz (5 126 habitants, Isère) pour vos chantiers de maçonnerie : terrasse, clôture, rénovation, terrassement. Nous couvrons notamment Chavanoz Le Bourg, Les Cinq Chemins Sud et Belmont. Le secteur compte des repères comme Croix du Dauphiné et Croix Alexis Goy, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Chavanoz",
       "maçonnerie Chavanoz",
@@ -13763,11 +13763,11 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Chavanoz ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Chavanoz et notamment à Chavanoz Le Bourg, Les Cinq Chemins Sud et Belmont, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Oui, Chavanoz et notamment à Chavanoz Le Bourg, Les Cinq Chemins Sud et Belmont fait pleinement partie de notre zone d'intervention. Notre atelier est à Artas : la visite d'évaluation et le devis sont gratuits."
       },
       {
-        "question": "Quelles précautions pour construire à Chavanoz ?",
-        "answer": "Le secteur de Chavanoz peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "question": "Y a-t-il des contraintes de terrain à Chavanoz ?",
+        "answer": "Les points de vigilance locaux sont drainage et gestion des eaux pluviales. Nos techniques de gros œuvre en tiennent compte dès la conception, et le devis intègre ces spécificités."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Chavanoz ?",
@@ -13775,7 +13775,7 @@ export const cities: City[] = [
       },
       {
         "question": "Proposez-vous un devis gratuit à Chavanoz ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Chavanoz."
+        "answer": "Oui : demande par téléphone ou via le formulaire, réponse sous 24h et visite sur place offerte à Chavanoz."
       }
     ]
   },
@@ -13795,7 +13795,7 @@ export const cities: City[] = [
       "longitude": 5.4716
     },
     "description": "Artisan maçon à Saint-Sorlin-de-Morestel (Isère, 610 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "À Saint-Sorlin-de-Morestel (610 habitants, Isère), DZ Maçonnerie vous accompagne pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "À Saint-Sorlin-de-Morestel (610 habitants, Isère), DZ Maçonnerie vous accompagne pour tous vos projets de gros œuvre : dalle béton, murs, extension, terrassement. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Saint-Sorlin-de-Morestel",
       "maçonnerie Saint-Sorlin-de-Morestel",
@@ -13849,11 +13849,11 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Saint-Sorlin-de-Morestel ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Saint-Sorlin-de-Morestel, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Oui, Saint-Sorlin-de-Morestel fait pleinement partie de notre zone d'intervention. Notre atelier est à Artas : la visite d'évaluation et le devis sont gratuits."
       },
       {
-        "question": "Quelles précautions pour construire à Saint-Sorlin-de-Morestel ?",
-        "answer": "Le secteur de Saint-Sorlin-de-Morestel peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "question": "Y a-t-il des contraintes de terrain à Saint-Sorlin-de-Morestel ?",
+        "answer": "Les points de vigilance locaux sont drainage et gestion des eaux pluviales. Nos techniques de gros œuvre en tiennent compte dès la conception, et le devis intègre ces spécificités."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Saint-Sorlin-de-Morestel ?",
@@ -13861,7 +13861,7 @@ export const cities: City[] = [
       },
       {
         "question": "Proposez-vous un devis gratuit à Saint-Sorlin-de-Morestel ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Saint-Sorlin-de-Morestel."
+        "answer": "Oui : demande par téléphone ou via le formulaire, réponse sous 24h et visite sur place offerte à Saint-Sorlin-de-Morestel."
       }
     ]
   },
@@ -13938,11 +13938,11 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Saint-Symphorien-d'Ozon ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Saint-Symphorien-d'Ozon, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Oui, Saint-Symphorien-d'Ozon fait pleinement partie de notre zone d'intervention. Notre atelier est à Artas : la visite d'évaluation et le devis sont gratuits."
       },
       {
         "question": "Quelles précautions pour construire à Saint-Symphorien-d'Ozon ?",
-        "answer": "Le secteur de Saint-Symphorien-d'Ozon peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "answer": "Les points de vigilance locaux sont drainage et gestion des eaux pluviales. Nos techniques de gros œuvre en tiennent compte dès la conception, et le devis intègre ces spécificités."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Saint-Symphorien-d'Ozon ?",
@@ -13950,7 +13950,7 @@ export const cities: City[] = [
       },
       {
         "question": "Proposez-vous un devis gratuit à Saint-Symphorien-d'Ozon ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Saint-Symphorien-d'Ozon."
+        "answer": "Oui : demande par téléphone ou via le formulaire, réponse sous 24h et visite sur place offerte à Saint-Symphorien-d'Ozon."
       }
     ]
   },
@@ -13970,7 +13970,7 @@ export const cities: City[] = [
       "longitude": 5.0897
     },
     "description": "Artisan maçon à Marcollin (Isère, 599 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "À Marcollin (599 habitants, Isère), DZ Maçonnerie vous accompagne pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Le secteur compte des repères comme Monument aux Morts, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "À Marcollin (599 habitants, Isère), DZ Maçonnerie vous accompagne pour tous vos projets de gros œuvre : dalle béton, murs, extension, terrassement. Le secteur compte des repères comme Monument aux Morts, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Marcollin",
       "maçonnerie Marcollin",
@@ -14031,11 +14031,11 @@ export const cities: City[] = [
       },
       {
         "question": "Quelles précautions pour construire à Marcollin ?",
-        "answer": "Le secteur de Marcollin peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "answer": "Oui, il faut composer avec drainage et gestion des eaux pluviales. C'est pourquoi chaque chantier de Marcollin démarre par une analyse du sol, qui guide le choix des fondations et du drainage."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Marcollin ?",
-        "answer": "À Marcollin, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Nos équipes interviennent à Marcollin pour le terrassement, les fondations, les dalles béton, les murs, les extensions de maison et la rénovation."
       },
       {
         "question": "Proposez-vous un devis gratuit à Marcollin ?",
@@ -14117,19 +14117,19 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Viriville ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Viriville, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Absolument : nous couvrons Viriville comme l'ensemble des communes alentour. Le déplacement pour l'étude de votre projet est offert."
       },
       {
-        "question": "Quelles précautions pour construire à Viriville ?",
+        "question": "Le terrain de Viriville pose-t-il des difficultés pour construire ?",
         "answer": "Le secteur de Viriville peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Viriville ?",
-        "answer": "À Viriville, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Viriville."
       },
       {
         "question": "Proposez-vous un devis gratuit à Viriville ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Viriville."
+        "answer": "Bien sûr, l'étude et le chiffrage de votre projet à Viriville sont entièrement gratuits, sans aucun engagement."
       }
     ]
   },
@@ -14149,7 +14149,7 @@ export const cities: City[] = [
       "longitude": 4.8438
     },
     "description": "Artisan maçon à Reventin-Vaugris (Isère, 2 035 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "À Reventin-Vaugris (2 035 habitants, Isère), DZ Maçonnerie vous accompagne pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Nous couvrons notamment centre village et zones résidentielles. Le secteur compte des repères comme centre du village et bord du Rhône, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "À Reventin-Vaugris (2 035 habitants, Isère), DZ Maçonnerie vous accompagne pour tous vos projets de gros œuvre : dalle béton, murs, extension, terrassement. Nous couvrons notamment centre village et zones résidentielles. Le secteur compte des repères comme centre du village et bord du Rhône, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Reventin-Vaugris",
       "maçonnerie Reventin-Vaugris",
@@ -14208,11 +14208,11 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Reventin-Vaugris ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Reventin-Vaugris et notamment à centre village et zones résidentielles, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Oui, Reventin-Vaugris et notamment à centre village et zones résidentielles fait pleinement partie de notre zone d'intervention. Notre atelier est à Artas : la visite d'évaluation et le devis sont gratuits."
       },
       {
-        "question": "Quelles précautions pour construire à Reventin-Vaugris ?",
-        "answer": "Le secteur de Reventin-Vaugris peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "question": "Y a-t-il des contraintes de terrain à Reventin-Vaugris ?",
+        "answer": "Les points de vigilance locaux sont drainage et gestion des eaux pluviales. Nos techniques de gros œuvre en tiennent compte dès la conception, et le devis intègre ces spécificités."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Reventin-Vaugris ?",
@@ -14220,7 +14220,7 @@ export const cities: City[] = [
       },
       {
         "question": "Proposez-vous un devis gratuit à Reventin-Vaugris ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Reventin-Vaugris."
+        "answer": "Oui : demande par téléphone ou via le formulaire, réponse sous 24h et visite sur place offerte à Reventin-Vaugris."
       }
     ]
   },
@@ -14240,7 +14240,7 @@ export const cities: City[] = [
       "longitude": 4.8307
     },
     "description": "Spécialiste gros œuvre à Saint-Romain-en-Gal (Rhône, 2 001 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "DZ Maçonnerie intervient à Saint-Romain-en-Gal (2 001 habitants, Rhône) pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Nous couvrons notamment Chatanay, La Roche et Les Missionnaires. Le secteur compte des repères comme Croix du Pont, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "DZ Maçonnerie intervient à Saint-Romain-en-Gal (2 001 habitants, Rhône) pour vos travaux d'extension, de dalle béton, de murs et de terrassement. Nous couvrons notamment Chatanay, La Roche et Les Missionnaires. Le secteur compte des repères comme Croix du Pont, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Saint-Romain-en-Gal",
       "maçonnerie Saint-Romain-en-Gal",
@@ -14302,11 +14302,11 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Saint-Romain-en-Gal ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Saint-Romain-en-Gal et notamment à Chatanay, La Roche et Les Missionnaires, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Oui, Saint-Romain-en-Gal et notamment à Chatanay, La Roche et Les Missionnaires fait pleinement partie de notre zone d'intervention. Notre atelier est à Artas : la visite d'évaluation et le devis sont gratuits."
       },
       {
         "question": "Quelles précautions pour construire à Saint-Romain-en-Gal ?",
-        "answer": "Le secteur de Saint-Romain-en-Gal peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "answer": "Les points de vigilance locaux sont drainage et gestion des eaux pluviales. Nos techniques de gros œuvre en tiennent compte dès la conception, et le devis intègre ces spécificités."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Saint-Romain-en-Gal ?",
@@ -14314,7 +14314,7 @@ export const cities: City[] = [
       },
       {
         "question": "Proposez-vous un devis gratuit à Saint-Romain-en-Gal ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Saint-Romain-en-Gal."
+        "answer": "Oui : demande par téléphone ou via le formulaire, réponse sous 24h et visite sur place offerte à Saint-Romain-en-Gal."
       }
     ]
   },
@@ -14393,11 +14393,11 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Assieu ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Assieu et notamment à Les Terrasses de Chiney, Le Cuzin et Taramas, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Oui, Assieu et notamment à Les Terrasses de Chiney, Le Cuzin et Taramas fait pleinement partie de notre zone d'intervention. Notre atelier est à Artas : la visite d'évaluation et le devis sont gratuits."
       },
       {
         "question": "Quelles précautions pour construire à Assieu ?",
-        "answer": "Le secteur d'Assieu peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "answer": "Les points de vigilance locaux sont drainage et gestion des eaux pluviales. Nos techniques de gros œuvre en tiennent compte dès la conception, et le devis intègre ces spécificités."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Assieu ?",
@@ -14405,7 +14405,7 @@ export const cities: City[] = [
       },
       {
         "question": "Proposez-vous un devis gratuit à Assieu ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Assieu."
+        "answer": "Oui : demande par téléphone ou via le formulaire, réponse sous 24h et visite sur place offerte à Assieu."
       }
     ]
   },
@@ -14425,7 +14425,7 @@ export const cities: City[] = [
       "longitude": 4.8359
     },
     "description": "Spécialiste gros œuvre à Communay (Rhône, 4 540 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "DZ Maçonnerie intervient à Communay (4 540 habitants, Rhône) pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Nous couvrons notamment centre-ville et zones résidentielles. Le secteur compte des repères comme Monument aux Morts, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "DZ Maçonnerie intervient à Communay (4 540 habitants, Rhône) pour vos travaux d'extension, de dalle béton, de murs et de terrassement. Nous couvrons notamment centre-ville et zones résidentielles. Le secteur compte des repères comme Monument aux Morts, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Communay",
       "maçonnerie Communay",
@@ -14489,12 +14489,12 @@ export const cities: City[] = [
         "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Communay et notamment à centre-ville et zones résidentielles, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
       },
       {
-        "question": "Quelles précautions pour construire à Communay ?",
-        "answer": "Le secteur de Communay peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "question": "Y a-t-il des contraintes de terrain à Communay ?",
+        "answer": "Oui, il faut composer avec drainage et gestion des eaux pluviales. C'est pourquoi chaque chantier de Communay démarre par une analyse du sol, qui guide le choix des fondations et du drainage."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Communay ?",
-        "answer": "À Communay, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Nos équipes interviennent à Communay pour le terrassement, les fondations, les dalles béton, les murs, les extensions de maison et la rénovation."
       },
       {
         "question": "Proposez-vous un devis gratuit à Communay ?",
@@ -14518,7 +14518,7 @@ export const cities: City[] = [
       "longitude": 5.469
     },
     "description": "Spécialiste gros œuvre à Vézeronce-Curtin (Isère, 2 241 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "DZ Maçonnerie intervient à Vézeronce-Curtin (2 241 habitants, Isère) pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Nous couvrons notamment Clos Le Régent. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "DZ Maçonnerie intervient à Vézeronce-Curtin (2 241 habitants, Isère) pour vos travaux d'extension, de dalle béton, de murs et de terrassement. Nous couvrons notamment Clos Le Régent. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Vézeronce-Curtin",
       "maçonnerie Vézeronce-Curtin",
@@ -14578,11 +14578,11 @@ export const cities: City[] = [
       },
       {
         "question": "Quelles précautions pour construire à Vézeronce-Curtin ?",
-        "answer": "Le secteur de Vézeronce-Curtin peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "answer": "Oui, il faut composer avec drainage et gestion des eaux pluviales. C'est pourquoi chaque chantier de Vézeronce-Curtin démarre par une analyse du sol, qui guide le choix des fondations et du drainage."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Vézeronce-Curtin ?",
-        "answer": "À Vézeronce-Curtin, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Nos équipes interviennent à Vézeronce-Curtin pour le terrassement, les fondations, les dalles béton, les murs, les extensions de maison et la rénovation."
       },
       {
         "question": "Proposez-vous un devis gratuit à Vézeronce-Curtin ?",
@@ -14606,7 +14606,7 @@ export const cities: City[] = [
       "longitude": 4.8242
     },
     "description": "Maçonnerie et terrassement à Saint-Cyr-sur-le-Rhône (Rhône, 1 286 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "DZ Maçonnerie met son savoir-faire au service des habitants de Saint-Cyr-sur-le-Rhône (1 286 habitants, Rhône) pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Nous couvrons notamment Le Lacat, Les Saunières et Chapuise. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "DZ Maçonnerie met son savoir-faire au service des habitants de Saint-Cyr-sur-le-Rhône (1 286 habitants, Rhône) pour vos chantiers de maçonnerie : terrasse, clôture, rénovation, terrassement. Nous couvrons notamment Le Lacat, Les Saunières et Chapuise. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Saint-Cyr-sur-le-Rhône",
       "maçonnerie Saint-Cyr-sur-le-Rhône",
@@ -14668,11 +14668,11 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Saint-Cyr-sur-le-Rhône ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Saint-Cyr-sur-le-Rhône et notamment à Le Lacat, Les Saunières et Chapuise, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Oui, Saint-Cyr-sur-le-Rhône et notamment à Le Lacat, Les Saunières et Chapuise fait pleinement partie de notre zone d'intervention. Notre atelier est à Artas : la visite d'évaluation et le devis sont gratuits."
       },
       {
-        "question": "Quelles précautions pour construire à Saint-Cyr-sur-le-Rhône ?",
-        "answer": "Le secteur de Saint-Cyr-sur-le-Rhône peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "question": "Y a-t-il des contraintes de terrain à Saint-Cyr-sur-le-Rhône ?",
+        "answer": "Les points de vigilance locaux sont drainage et gestion des eaux pluviales. Nos techniques de gros œuvre en tiennent compte dès la conception, et le devis intègre ces spécificités."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Saint-Cyr-sur-le-Rhône ?",
@@ -14680,7 +14680,7 @@ export const cities: City[] = [
       },
       {
         "question": "Proposez-vous un devis gratuit à Saint-Cyr-sur-le-Rhône ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Saint-Cyr-sur-le-Rhône."
+        "answer": "Oui : demande par téléphone ou via le formulaire, réponse sous 24h et visite sur place offerte à Saint-Cyr-sur-le-Rhône."
       }
     ]
   },
@@ -14700,7 +14700,7 @@ export const cities: City[] = [
       "longitude": 5.289
     },
     "description": "Artisan maçon à Annoisin-Chatelans (Isère, 719 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "À Annoisin-Chatelans (719 habitants, Isère), DZ Maçonnerie vous accompagne pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Le secteur compte des repères comme Musée de la Lauze et Monument aux Morts, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de stabilité des sols et conception parasismique, que nous intégrons dès l'étude.",
+    "introduction": "À Annoisin-Chatelans (719 habitants, Isère), DZ Maçonnerie vous accompagne pour tous vos projets de gros œuvre : dalle béton, murs, extension, terrassement. Le secteur compte des repères comme Musée de la Lauze et Monument aux Morts, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de stabilité des sols et conception parasismique, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Annoisin-Chatelans",
       "maçonnerie Annoisin-Chatelans",
@@ -14756,11 +14756,11 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Annoisin-Chatelans ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Annoisin-Chatelans, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Oui, Annoisin-Chatelans fait pleinement partie de notre zone d'intervention. Notre atelier est à Artas : la visite d'évaluation et le devis sont gratuits."
       },
       {
-        "question": "Quelles précautions pour construire à Annoisin-Chatelans ?",
-        "answer": "Le secteur d'Annoisin-Chatelans peut présenter des enjeux de stabilité des sols et conception parasismique. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "question": "Le terrain d'Annoisin-Chatelans pose-t-il des difficultés pour construire ?",
+        "answer": "Les points de vigilance locaux sont stabilité des sols et conception parasismique. Nos techniques de gros œuvre en tiennent compte dès la conception, et le devis intègre ces spécificités."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Annoisin-Chatelans ?",
@@ -14768,7 +14768,7 @@ export const cities: City[] = [
       },
       {
         "question": "Proposez-vous un devis gratuit à Annoisin-Chatelans ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Annoisin-Chatelans."
+        "answer": "Oui : demande par téléphone ou via le formulaire, réponse sous 24h et visite sur place offerte à Annoisin-Chatelans."
       }
     ]
   },
@@ -14844,19 +14844,19 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Anthon ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Anthon, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Absolument : nous couvrons Anthon comme l'ensemble des communes alentour. Le déplacement pour l'étude de votre projet est offert."
       },
       {
-        "question": "Quelles précautions pour construire à Anthon ?",
+        "question": "Le terrain d'Anthon pose-t-il des difficultés pour construire ?",
         "answer": "Le secteur d'Anthon peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Anthon ?",
-        "answer": "À Anthon, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Anthon."
       },
       {
         "question": "Proposez-vous un devis gratuit à Anthon ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Anthon."
+        "answer": "Bien sûr, l'étude et le chiffrage de votre projet à Anthon sont entièrement gratuits, sans aucun engagement."
       }
     ]
   },
@@ -14876,7 +14876,7 @@ export const cities: City[] = [
       "longitude": 5.5157
     },
     "description": "Maçonnerie et terrassement à Le Passage (Isère, 983 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "DZ Maçonnerie met son savoir-faire au service des habitants de Le Passage (983 habitants, Isère) pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Le secteur compte des repères comme Monument aux Morts, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "DZ Maçonnerie met son savoir-faire au service des habitants de Le Passage (983 habitants, Isère) pour vos chantiers de maçonnerie : terrasse, clôture, rénovation, terrassement. Le secteur compte des repères comme Monument aux Morts, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Le Passage",
       "maçonnerie Le Passage",
@@ -14932,11 +14932,11 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Le Passage ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Le Passage, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Oui, Le Passage fait pleinement partie de notre zone d'intervention. Notre atelier est à Artas : la visite d'évaluation et le devis sont gratuits."
       },
       {
-        "question": "Quelles précautions pour construire à Le Passage ?",
-        "answer": "Le secteur de Le Passage peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "question": "Le terrain de Le Passage pose-t-il des difficultés pour construire ?",
+        "answer": "Les points de vigilance locaux sont drainage et gestion des eaux pluviales. Nos techniques de gros œuvre en tiennent compte dès la conception, et le devis intègre ces spécificités."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Le Passage ?",
@@ -14944,7 +14944,7 @@ export const cities: City[] = [
       },
       {
         "question": "Proposez-vous un devis gratuit à Le Passage ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Le Passage."
+        "answer": "Oui : demande par téléphone ou via le formulaire, réponse sous 24h et visite sur place offerte à Le Passage."
       }
     ]
   },
@@ -14964,7 +14964,7 @@ export const cities: City[] = [
       "longitude": 4.9638
     },
     "description": "Spécialiste gros œuvre à Chassieu (Rhône, 11 208 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "DZ Maçonnerie intervient à Chassieu (11 208 habitants, Rhône) pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Nous couvrons notamment centre-ville et quartiers résidentiels. Le secteur compte des repères comme centre-ville et zones pavillonnaires, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "DZ Maçonnerie intervient à Chassieu (11 208 habitants, Rhône) pour vos travaux d'extension, de dalle béton, de murs et de terrassement. Nous couvrons notamment centre-ville et quartiers résidentiels. Le secteur compte des repères comme centre-ville et zones pavillonnaires, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Chassieu",
       "maçonnerie Chassieu",
@@ -15023,11 +15023,11 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Chassieu ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Chassieu et notamment à centre-ville et quartiers résidentiels, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Oui, Chassieu et notamment à centre-ville et quartiers résidentiels fait pleinement partie de notre zone d'intervention. Notre atelier est à Artas : la visite d'évaluation et le devis sont gratuits."
       },
       {
-        "question": "Quelles précautions pour construire à Chassieu ?",
-        "answer": "Le secteur de Chassieu peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "question": "Y a-t-il des contraintes de terrain à Chassieu ?",
+        "answer": "Les points de vigilance locaux sont drainage et gestion des eaux pluviales. Nos techniques de gros œuvre en tiennent compte dès la conception, et le devis intègre ces spécificités."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Chassieu ?",
@@ -15035,7 +15035,7 @@ export const cities: City[] = [
       },
       {
         "question": "Proposez-vous un devis gratuit à Chassieu ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Chassieu."
+        "answer": "Oui : demande par téléphone ou via le formulaire, réponse sous 24h et visite sur place offerte à Chassieu."
       }
     ]
   },
@@ -15055,7 +15055,7 @@ export const cities: City[] = [
       "longitude": 5.4488
     },
     "description": "Spécialiste gros œuvre à Colombe (Isère, 1 890 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "DZ Maçonnerie intervient à Colombe (1 890 habitants, Isère) pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Nous couvrons notamment Les Noisetiers. Le secteur compte des repères comme Monument aux Morts, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de conception parasismique, que nous intégrons dès l'étude.",
+    "introduction": "DZ Maçonnerie intervient à Colombe (1 890 habitants, Isère) pour vos travaux d'extension, de dalle béton, de murs et de terrassement. Nous couvrons notamment Les Noisetiers. Le secteur compte des repères comme Monument aux Morts, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de conception parasismique, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Colombe",
       "maçonnerie Colombe",
@@ -15115,11 +15115,11 @@ export const cities: City[] = [
       },
       {
         "question": "Quelles précautions pour construire à Colombe ?",
-        "answer": "Le secteur de Colombe peut présenter des enjeux de conception parasismique. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "answer": "Oui, il faut composer avec conception parasismique. C'est pourquoi chaque chantier de Colombe démarre par une analyse du sol, qui guide le choix des fondations et du drainage."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Colombe ?",
-        "answer": "À Colombe, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Nos équipes interviennent à Colombe pour le terrassement, les fondations, les dalles béton, les murs, les extensions de maison et la rénovation."
       },
       {
         "question": "Proposez-vous un devis gratuit à Colombe ?",
@@ -15143,7 +15143,7 @@ export const cities: City[] = [
       "longitude": 5.4787
     },
     "description": "Maçonnerie et terrassement à Oyeu (Isère, 1 106 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "DZ Maçonnerie met son savoir-faire au service des habitants d'Oyeu (1 106 habitants, Isère) pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Nous couvrons notamment Le Verney. Le secteur compte des repères comme Croix de Viapre et La Croix du Moine mort, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de conception parasismique, que nous intégrons dès l'étude.",
+    "introduction": "DZ Maçonnerie met son savoir-faire au service des habitants d'Oyeu (1 106 habitants, Isère) pour vos chantiers de maçonnerie : terrasse, clôture, rénovation, terrassement. Nous couvrons notamment Le Verney. Le secteur compte des repères comme Croix de Viapre et La Croix du Moine mort, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de conception parasismique, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Oyeu",
       "maçonnerie Oyeu",
@@ -15204,12 +15204,12 @@ export const cities: City[] = [
         "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Oyeu et notamment à Le Verney, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
       },
       {
-        "question": "Quelles précautions pour construire à Oyeu ?",
-        "answer": "Le secteur d'Oyeu peut présenter des enjeux de conception parasismique. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "question": "Y a-t-il des contraintes de terrain à Oyeu ?",
+        "answer": "Oui, il faut composer avec conception parasismique. C'est pourquoi chaque chantier d'Oyeu démarre par une analyse du sol, qui guide le choix des fondations et du drainage."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Oyeu ?",
-        "answer": "À Oyeu, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Nos équipes interviennent à Oyeu pour le terrassement, les fondations, les dalles béton, les murs, les extensions de maison et la rénovation."
       },
       {
         "question": "Proposez-vous un devis gratuit à Oyeu ?",
@@ -15233,7 +15233,7 @@ export const cities: City[] = [
       "longitude": 5.3406
     },
     "description": "Artisan maçon à Optevoz (Isère, 875 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "À Optevoz (875 habitants, Isère), DZ Maçonnerie vous accompagne pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Le secteur compte des repères comme Monument aux Morts et Robert Beaud, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de conception parasismique, que nous intégrons dès l'étude.",
+    "introduction": "À Optevoz (875 habitants, Isère), DZ Maçonnerie vous accompagne pour tous vos projets de gros œuvre : dalle béton, murs, extension, terrassement. Le secteur compte des repères comme Monument aux Morts et Robert Beaud, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de conception parasismique, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Optevoz",
       "maçonnerie Optevoz",
@@ -15289,12 +15289,12 @@ export const cities: City[] = [
         "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Optevoz, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
       },
       {
-        "question": "Quelles précautions pour construire à Optevoz ?",
-        "answer": "Le secteur d'Optevoz peut présenter des enjeux de conception parasismique. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "question": "Y a-t-il des contraintes de terrain à Optevoz ?",
+        "answer": "Oui, il faut composer avec conception parasismique. C'est pourquoi chaque chantier d'Optevoz démarre par une analyse du sol, qui guide le choix des fondations et du drainage."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Optevoz ?",
-        "answer": "À Optevoz, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Nos équipes interviennent à Optevoz pour le terrassement, les fondations, les dalles béton, les murs, les extensions de maison et la rénovation."
       },
       {
         "question": "Proposez-vous un devis gratuit à Optevoz ?",
@@ -15377,19 +15377,19 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Lapeyrouse-Mornay ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Lapeyrouse-Mornay et notamment à Mornay et Le Village, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Absolument : nous couvrons Lapeyrouse-Mornay et notamment à Mornay et Le Village comme l'ensemble des communes alentour. Le déplacement pour l'étude de votre projet est offert."
       },
       {
-        "question": "Quelles précautions pour construire à Lapeyrouse-Mornay ?",
+        "question": "Le terrain de Lapeyrouse-Mornay pose-t-il des difficultés pour construire ?",
         "answer": "Le secteur de Lapeyrouse-Mornay peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Lapeyrouse-Mornay ?",
-        "answer": "À Lapeyrouse-Mornay, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Lapeyrouse-Mornay."
       },
       {
         "question": "Proposez-vous un devis gratuit à Lapeyrouse-Mornay ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Lapeyrouse-Mornay."
+        "answer": "Bien sûr, l'étude et le chiffrage de votre projet à Lapeyrouse-Mornay sont entièrement gratuits, sans aucun engagement."
       }
     ]
   },
@@ -15461,11 +15461,11 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Faverges-de-la-Tour ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Faverges-de-la-Tour, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Oui, Faverges-de-la-Tour fait pleinement partie de notre zone d'intervention. Notre atelier est à Artas : la visite d'évaluation et le devis sont gratuits."
       },
       {
-        "question": "Quelles précautions pour construire à Faverges-de-la-Tour ?",
-        "answer": "Le secteur de Faverges-de-la-Tour peut présenter des enjeux de conception parasismique. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "question": "Le terrain de Faverges-de-la-Tour pose-t-il des difficultés pour construire ?",
+        "answer": "Les points de vigilance locaux sont conception parasismique. Nos techniques de gros œuvre en tiennent compte dès la conception, et le devis intègre ces spécificités."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Faverges-de-la-Tour ?",
@@ -15473,7 +15473,7 @@ export const cities: City[] = [
       },
       {
         "question": "Proposez-vous un devis gratuit à Faverges-de-la-Tour ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Faverges-de-la-Tour."
+        "answer": "Oui : demande par téléphone ou via le formulaire, réponse sous 24h et visite sur place offerte à Faverges-de-la-Tour."
       }
     ]
   },
@@ -15549,7 +15549,7 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Sillans ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Sillans, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Absolument : nous couvrons Sillans comme l'ensemble des communes alentour. Le déplacement pour l'étude de votre projet est offert."
       },
       {
         "question": "Quelles précautions pour construire à Sillans ?",
@@ -15557,11 +15557,11 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Sillans ?",
-        "answer": "À Sillans, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Sillans."
       },
       {
         "question": "Proposez-vous un devis gratuit à Sillans ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Sillans."
+        "answer": "Bien sûr, l'étude et le chiffrage de votre projet à Sillans sont entièrement gratuits, sans aucun engagement."
       }
     ]
   },
@@ -15581,7 +15581,7 @@ export const cities: City[] = [
       "longitude": 4.8129
     },
     "description": "Artisan maçon à Chasse-sur-Rhône (Isère, 6 588 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "À Chasse-sur-Rhône (6 588 habitants, Isère), DZ Maçonnerie vous accompagne pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Nous couvrons notamment Trembas. Le secteur compte des repères comme Stèle du Génocide, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "À Chasse-sur-Rhône (6 588 habitants, Isère), DZ Maçonnerie vous accompagne pour tous vos projets de gros œuvre : dalle béton, murs, extension, terrassement. Nous couvrons notamment Trembas. Le secteur compte des repères comme Stèle du Génocide, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Chasse-sur-Rhône",
       "maçonnerie Chasse-sur-Rhône",
@@ -15641,11 +15641,11 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Chasse-sur-Rhône ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Chasse-sur-Rhône et notamment à Trembas, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Oui, Chasse-sur-Rhône et notamment à Trembas fait pleinement partie de notre zone d'intervention. Notre atelier est à Artas : la visite d'évaluation et le devis sont gratuits."
       },
       {
         "question": "Quelles précautions pour construire à Chasse-sur-Rhône ?",
-        "answer": "Le secteur de Chasse-sur-Rhône peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "answer": "Les points de vigilance locaux sont drainage et gestion des eaux pluviales. Nos techniques de gros œuvre en tiennent compte dès la conception, et le devis intègre ces spécificités."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Chasse-sur-Rhône ?",
@@ -15653,7 +15653,7 @@ export const cities: City[] = [
       },
       {
         "question": "Proposez-vous un devis gratuit à Chasse-sur-Rhône ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Chasse-sur-Rhône."
+        "answer": "Oui : demande par téléphone ou via le formulaire, réponse sous 24h et visite sur place offerte à Chasse-sur-Rhône."
       }
     ]
   },
@@ -15727,11 +15727,11 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Saint-Pierre-de-Bressieux ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Saint-Pierre-de-Bressieux, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Oui, Saint-Pierre-de-Bressieux fait pleinement partie de notre zone d'intervention. Notre atelier est à Artas : la visite d'évaluation et le devis sont gratuits."
       },
       {
-        "question": "Quelles précautions pour construire à Saint-Pierre-de-Bressieux ?",
-        "answer": "Le secteur de Saint-Pierre-de-Bressieux peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "question": "Le terrain de Saint-Pierre-de-Bressieux pose-t-il des difficultés pour construire ?",
+        "answer": "Les points de vigilance locaux sont drainage et gestion des eaux pluviales. Nos techniques de gros œuvre en tiennent compte dès la conception, et le devis intègre ces spécificités."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Saint-Pierre-de-Bressieux ?",
@@ -15739,7 +15739,7 @@ export const cities: City[] = [
       },
       {
         "question": "Proposez-vous un devis gratuit à Saint-Pierre-de-Bressieux ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Saint-Pierre-de-Bressieux."
+        "answer": "Oui : demande par téléphone ou via le formulaire, réponse sous 24h et visite sur place offerte à Saint-Pierre-de-Bressieux."
       }
     ]
   },
@@ -15759,7 +15759,7 @@ export const cities: City[] = [
       "longitude": 5.4373
     },
     "description": "Spécialiste gros œuvre à Arandon-Passins (Isère, 1 864 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "DZ Maçonnerie intervient à Arandon-Passins (1 864 habitants, Isère) pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Nous couvrons notamment Résidence Les Platanes, Le Planot et La Brêche. Le secteur compte des repères comme Monument aux Morts et Villa gallo-romaine (vestiges), dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de conception parasismique, que nous intégrons dès l'étude.",
+    "introduction": "DZ Maçonnerie intervient à Arandon-Passins (1 864 habitants, Isère) pour vos travaux d'extension, de dalle béton, de murs et de terrassement. Nous couvrons notamment Résidence Les Platanes, Le Planot et La Brêche. Le secteur compte des repères comme Monument aux Morts et Villa gallo-romaine (vestiges), dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de conception parasismique, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Arandon-Passins",
       "maçonnerie Arandon-Passins",
@@ -15818,19 +15818,19 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Arandon-Passins ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Arandon-Passins et notamment à Résidence Les Platanes, Le Planot et La Brêche, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Absolument : nous couvrons Arandon-Passins et notamment à Résidence Les Platanes, Le Planot et La Brêche comme l'ensemble des communes alentour. Le déplacement pour l'étude de votre projet est offert."
       },
       {
-        "question": "Quelles précautions pour construire à Arandon-Passins ?",
+        "question": "Y a-t-il des contraintes de terrain à Arandon-Passins ?",
         "answer": "Le secteur d'Arandon-Passins peut présenter des enjeux de conception parasismique. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Arandon-Passins ?",
-        "answer": "À Arandon-Passins, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Arandon-Passins."
       },
       {
         "question": "Proposez-vous un devis gratuit à Arandon-Passins ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Arandon-Passins."
+        "answer": "Bien sûr, l'étude et le chiffrage de votre projet à Arandon-Passins sont entièrement gratuits, sans aucun engagement."
       }
     ]
   },
@@ -15909,11 +15909,11 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Cheyssieu ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Cheyssieu et notamment à Lotissement La Brula, Le Clos de la Baronnière et Beauchuzel, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Oui, Cheyssieu et notamment à Lotissement La Brula, Le Clos de la Baronnière et Beauchuzel fait pleinement partie de notre zone d'intervention. Notre atelier est à Artas : la visite d'évaluation et le devis sont gratuits."
       },
       {
         "question": "Quelles précautions pour construire à Cheyssieu ?",
-        "answer": "Le secteur de Cheyssieu peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "answer": "Les points de vigilance locaux sont drainage et gestion des eaux pluviales. Nos techniques de gros œuvre en tiennent compte dès la conception, et le devis intègre ces spécificités."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Cheyssieu ?",
@@ -15921,7 +15921,7 @@ export const cities: City[] = [
       },
       {
         "question": "Proposez-vous un devis gratuit à Cheyssieu ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Cheyssieu."
+        "answer": "Oui : demande par téléphone ou via le formulaire, réponse sous 24h et visite sur place offerte à Cheyssieu."
       }
     ]
   },
@@ -15994,19 +15994,19 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Courtenay ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Courtenay, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Absolument : nous couvrons Courtenay comme l'ensemble des communes alentour. Le déplacement pour l'étude de votre projet est offert."
       },
       {
-        "question": "Quelles précautions pour construire à Courtenay ?",
+        "question": "Le terrain de Courtenay pose-t-il des difficultés pour construire ?",
         "answer": "Le secteur de Courtenay peut présenter des enjeux de conception parasismique. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Courtenay ?",
-        "answer": "À Courtenay, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Courtenay."
       },
       {
         "question": "Proposez-vous un devis gratuit à Courtenay ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Courtenay."
+        "answer": "Bien sûr, l'étude et le chiffrage de votre projet à Courtenay sont entièrement gratuits, sans aucun engagement."
       }
     ]
   },
@@ -16086,11 +16086,11 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Sonnay ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Sonnay et notamment à La Perossière, Sorbiere et Combe de Nivelle, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Oui, Sonnay et notamment à La Perossière, Sorbiere et Combe de Nivelle fait pleinement partie de notre zone d'intervention. Notre atelier est à Artas : la visite d'évaluation et le devis sont gratuits."
       },
       {
-        "question": "Quelles précautions pour construire à Sonnay ?",
-        "answer": "Le secteur de Sonnay peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "question": "Le terrain de Sonnay pose-t-il des difficultés pour construire ?",
+        "answer": "Les points de vigilance locaux sont drainage et gestion des eaux pluviales. Nos techniques de gros œuvre en tiennent compte dès la conception, et le devis intègre ces spécificités."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Sonnay ?",
@@ -16098,7 +16098,7 @@ export const cities: City[] = [
       },
       {
         "question": "Proposez-vous un devis gratuit à Sonnay ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Sonnay."
+        "answer": "Oui : demande par téléphone ou via le formulaire, réponse sous 24h et visite sur place offerte à Sonnay."
       }
     ]
   },
@@ -16118,7 +16118,7 @@ export const cities: City[] = [
       "longitude": 5.1019
     },
     "description": "Artisan maçon à Villette-d'Anthon (Isère, 5 268 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "À Villette-d'Anthon (5 268 habitants, Isère), DZ Maçonnerie vous accompagne pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Nous couvrons notamment centre-ville et zones résidentielles. Le secteur compte des repères comme Monument du Bois des Peisses, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "À Villette-d'Anthon (5 268 habitants, Isère), DZ Maçonnerie vous accompagne pour tous vos projets de gros œuvre : dalle béton, murs, extension, terrassement. Nous couvrons notamment centre-ville et zones résidentielles. Le secteur compte des repères comme Monument du Bois des Peisses, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Villette-d'Anthon",
       "maçonnerie Villette-d'Anthon",
@@ -16182,12 +16182,12 @@ export const cities: City[] = [
         "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Villette-d'Anthon et notamment à centre-ville et zones résidentielles, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
       },
       {
-        "question": "Quelles précautions pour construire à Villette-d'Anthon ?",
-        "answer": "Le secteur de Villette-d'Anthon peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "question": "Y a-t-il des contraintes de terrain à Villette-d'Anthon ?",
+        "answer": "Oui, il faut composer avec drainage et gestion des eaux pluviales. C'est pourquoi chaque chantier de Villette-d'Anthon démarre par une analyse du sol, qui guide le choix des fondations et du drainage."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Villette-d'Anthon ?",
-        "answer": "À Villette-d'Anthon, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Nos équipes interviennent à Villette-d'Anthon pour le terrassement, les fondations, les dalles béton, les murs, les extensions de maison et la rénovation."
       },
       {
         "question": "Proposez-vous un devis gratuit à Villette-d'Anthon ?",
@@ -16211,7 +16211,7 @@ export const cities: City[] = [
       "longitude": 4.9502
     },
     "description": "Spécialiste gros œuvre à Jarcieu (Isère, 1 135 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "DZ Maçonnerie intervient à Jarcieu (1 135 habitants, Isère) pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Nous couvrons notamment Les Chatelardes, Les Combes et La Vie. Le secteur compte des repères comme Château de Valuze et Monument aux Morts, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "DZ Maçonnerie intervient à Jarcieu (1 135 habitants, Isère) pour vos travaux d'extension, de dalle béton, de murs et de terrassement. Nous couvrons notamment Les Chatelardes, Les Combes et La Vie. Le secteur compte des repères comme Château de Valuze et Monument aux Morts, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Jarcieu",
       "maçonnerie Jarcieu",
@@ -16274,19 +16274,19 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Jarcieu ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Jarcieu et notamment à Les Chatelardes, Les Combes et La Vie, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Absolument : nous couvrons Jarcieu et notamment à Les Chatelardes, Les Combes et La Vie comme l'ensemble des communes alentour. Le déplacement pour l'étude de votre projet est offert."
       },
       {
-        "question": "Quelles précautions pour construire à Jarcieu ?",
+        "question": "Y a-t-il des contraintes de terrain à Jarcieu ?",
         "answer": "Le secteur de Jarcieu peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Jarcieu ?",
-        "answer": "À Jarcieu, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Jarcieu."
       },
       {
         "question": "Proposez-vous un devis gratuit à Jarcieu ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Jarcieu."
+        "answer": "Bien sûr, l'étude et le chiffrage de votre projet à Jarcieu sont entièrement gratuits, sans aucun engagement."
       }
     ]
   },
@@ -16306,7 +16306,7 @@ export const cities: City[] = [
       "longitude": 4.8079
     },
     "description": "Artisan maçon à Ampuis (Rhône, 2 769 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "À Ampuis (2 769 habitants, Rhône), DZ Maçonnerie vous accompagne pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Nous couvrons notamment Le Port, Le Chateau et Le Vagnot. Le secteur compte des repères comme vignobles Côte-Rôtie et centre du village, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "À Ampuis (2 769 habitants, Rhône), DZ Maçonnerie vous accompagne pour tous vos projets de gros œuvre : dalle béton, murs, extension, terrassement. Nous couvrons notamment Le Port, Le Chateau et Le Vagnot. Le secteur compte des repères comme vignobles Côte-Rôtie et centre du village, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Ampuis",
       "maçonnerie Ampuis",
@@ -16371,19 +16371,19 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Ampuis ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Ampuis et notamment à Le Port, Le Chateau et Le Vagnot, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Absolument : nous couvrons Ampuis et notamment à Le Port, Le Chateau et Le Vagnot comme l'ensemble des communes alentour. Le déplacement pour l'étude de votre projet est offert."
       },
       {
-        "question": "Quelles précautions pour construire à Ampuis ?",
+        "question": "Y a-t-il des contraintes de terrain à Ampuis ?",
         "answer": "Le secteur d'Ampuis peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Ampuis ?",
-        "answer": "À Ampuis, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Ampuis."
       },
       {
         "question": "Proposez-vous un devis gratuit à Ampuis ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Ampuis."
+        "answer": "Bien sûr, l'étude et le chiffrage de votre projet à Ampuis sont entièrement gratuits, sans aucun engagement."
       }
     ]
   },
@@ -16403,7 +16403,7 @@ export const cities: City[] = [
       "longitude": 4.8589
     },
     "description": "Spécialiste gros œuvre à Feyzin (Rhône, 10 304 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "DZ Maçonnerie intervient à Feyzin (10 304 habitants, Rhône) pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Nous couvrons notamment centre-ville et quartiers résidentiels. Le secteur compte des repères comme La Motte et Morts pour la France, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "DZ Maçonnerie intervient à Feyzin (10 304 habitants, Rhône) pour vos travaux d'extension, de dalle béton, de murs et de terrassement. Nous couvrons notamment centre-ville et quartiers résidentiels. Le secteur compte des repères comme La Motte et Morts pour la France, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Feyzin",
       "maçonnerie Feyzin",
@@ -16467,12 +16467,12 @@ export const cities: City[] = [
         "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Feyzin et notamment à centre-ville et quartiers résidentiels, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
       },
       {
-        "question": "Quelles précautions pour construire à Feyzin ?",
-        "answer": "Le secteur de Feyzin peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "question": "Y a-t-il des contraintes de terrain à Feyzin ?",
+        "answer": "Oui, il faut composer avec drainage et gestion des eaux pluviales. C'est pourquoi chaque chantier de Feyzin démarre par une analyse du sol, qui guide le choix des fondations et du drainage."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Feyzin ?",
-        "answer": "À Feyzin, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Nos équipes interviennent à Feyzin pour le terrassement, les fondations, les dalles béton, les murs, les extensions de maison et la rénovation."
       },
       {
         "question": "Proposez-vous un devis gratuit à Feyzin ?",
@@ -16496,7 +16496,7 @@ export const cities: City[] = [
       "longitude": 5.4716
     },
     "description": "Spécialiste gros œuvre à Morestel (Isère, 4 340 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "DZ Maçonnerie intervient à Morestel (4 340 habitants, Isère) pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Nous couvrons notamment centre-ville et quartiers résidentiels. Le secteur compte des repères comme Place Grenette et Maison Ravier, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "DZ Maçonnerie intervient à Morestel (4 340 habitants, Isère) pour vos travaux d'extension, de dalle béton, de murs et de terrassement. Nous couvrons notamment centre-ville et quartiers résidentiels. Le secteur compte des repères comme Place Grenette et Maison Ravier, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Morestel",
       "maçonnerie Morestel",
@@ -16559,19 +16559,19 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Morestel ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Morestel et notamment à centre-ville et quartiers résidentiels, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Absolument : nous couvrons Morestel et notamment à centre-ville et quartiers résidentiels comme l'ensemble des communes alentour. Le déplacement pour l'étude de votre projet est offert."
       },
       {
-        "question": "Quelles précautions pour construire à Morestel ?",
+        "question": "Y a-t-il des contraintes de terrain à Morestel ?",
         "answer": "Le secteur de Morestel peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Morestel ?",
-        "answer": "À Morestel, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Morestel."
       },
       {
         "question": "Proposez-vous un devis gratuit à Morestel ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Morestel."
+        "answer": "Bien sûr, l'étude et le chiffrage de votre projet à Morestel sont entièrement gratuits, sans aucun engagement."
       }
     ]
   },
@@ -16591,7 +16591,7 @@ export const cities: City[] = [
       "longitude": 5.5336
     },
     "description": "Artisan maçon à Saint-André-le-Gaz (Isère, 2 754 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "À Saint-André-le-Gaz (2 754 habitants, Isère), DZ Maçonnerie vous accompagne pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "À Saint-André-le-Gaz (2 754 habitants, Isère), DZ Maçonnerie vous accompagne pour tous vos projets de gros œuvre : dalle béton, murs, extension, terrassement. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Saint-André-le-Gaz",
       "maçonnerie Saint-André-le-Gaz",
@@ -16647,19 +16647,19 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Saint-André-le-Gaz ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Saint-André-le-Gaz, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Absolument : nous couvrons Saint-André-le-Gaz comme l'ensemble des communes alentour. Le déplacement pour l'étude de votre projet est offert."
       },
       {
-        "question": "Quelles précautions pour construire à Saint-André-le-Gaz ?",
+        "question": "Y a-t-il des contraintes de terrain à Saint-André-le-Gaz ?",
         "answer": "Le secteur de Saint-André-le-Gaz peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Saint-André-le-Gaz ?",
-        "answer": "À Saint-André-le-Gaz, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Saint-André-le-Gaz."
       },
       {
         "question": "Proposez-vous un devis gratuit à Saint-André-le-Gaz ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Saint-André-le-Gaz."
+        "answer": "Bien sûr, l'étude et le chiffrage de votre projet à Saint-André-le-Gaz sont entièrement gratuits, sans aucun engagement."
       }
     ]
   },
@@ -16679,7 +16679,7 @@ export const cities: City[] = [
       "longitude": 4.8248
     },
     "description": "Artisan maçon à Sérézin-du-Rhône (Rhône, 3 133 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "À Sérézin-du-Rhône (3 133 habitants, Rhône), DZ Maçonnerie vous accompagne pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Le secteur compte des repères comme La Table Ronde, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "À Sérézin-du-Rhône (3 133 habitants, Rhône), DZ Maçonnerie vous accompagne pour tous vos projets de gros œuvre : dalle béton, murs, extension, terrassement. Le secteur compte des repères comme La Table Ronde, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Sérézin-du-Rhône",
       "maçonnerie Sérézin-du-Rhône",
@@ -16737,11 +16737,11 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Sérézin-du-Rhône ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Sérézin-du-Rhône, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Oui, Sérézin-du-Rhône fait pleinement partie de notre zone d'intervention. Notre atelier est à Artas : la visite d'évaluation et le devis sont gratuits."
       },
       {
-        "question": "Quelles précautions pour construire à Sérézin-du-Rhône ?",
-        "answer": "Le secteur de Sérézin-du-Rhône peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "question": "Y a-t-il des contraintes de terrain à Sérézin-du-Rhône ?",
+        "answer": "Les points de vigilance locaux sont drainage et gestion des eaux pluviales. Nos techniques de gros œuvre en tiennent compte dès la conception, et le devis intègre ces spécificités."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Sérézin-du-Rhône ?",
@@ -16749,7 +16749,7 @@ export const cities: City[] = [
       },
       {
         "question": "Proposez-vous un devis gratuit à Sérézin-du-Rhône ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Sérézin-du-Rhône."
+        "answer": "Oui : demande par téléphone ou via le formulaire, réponse sous 24h et visite sur place offerte à Sérézin-du-Rhône."
       }
     ]
   },
@@ -16769,7 +16769,7 @@ export const cities: City[] = [
       "longitude": 4.8805
     },
     "description": "Spécialiste gros œuvre à Vénissieux (Rhône, 65 502 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "DZ Maçonnerie intervient à Vénissieux (65 502 habitants, Rhône) pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Nous couvrons notamment Les Minguettes, Moulin à Vent et Charréard. Le secteur compte des repères comme Banette et Planchon et Aux déportés juifs de France, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "DZ Maçonnerie intervient à Vénissieux (65 502 habitants, Rhône) pour vos travaux d'extension, de dalle béton, de murs et de terrassement. Nous couvrons notamment Les Minguettes, Moulin à Vent et Charréard. Le secteur compte des repères comme Banette et Planchon et Aux déportés juifs de France, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Vénissieux",
       "maçonnerie Vénissieux",
@@ -16838,11 +16838,11 @@ export const cities: City[] = [
       },
       {
         "question": "Quelles précautions pour construire à Vénissieux ?",
-        "answer": "Le secteur de Vénissieux peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "answer": "Oui, il faut composer avec drainage et gestion des eaux pluviales. C'est pourquoi chaque chantier de Vénissieux démarre par une analyse du sol, qui guide le choix des fondations et du drainage."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Vénissieux ?",
-        "answer": "À Vénissieux, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Nos équipes interviennent à Vénissieux pour le terrassement, les fondations, les dalles béton, les murs, les extensions de maison et la rénovation."
       },
       {
         "question": "Proposez-vous un devis gratuit à Vénissieux ?",
@@ -16866,7 +16866,7 @@ export const cities: City[] = [
       "longitude": 4.8331
     },
     "description": "Artisan maçon à Solaize (Rhône, 3 144 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "À Solaize (3 144 habitants, Rhône), DZ Maçonnerie vous accompagne pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Nous couvrons notamment centre-ville, zones résidentielles et quartiers pavillonnaires. Le secteur compte des repères comme Maison Blanche et Le Pilier Romain, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "À Solaize (3 144 habitants, Rhône), DZ Maçonnerie vous accompagne pour tous vos projets de gros œuvre : dalle béton, murs, extension, terrassement. Nous couvrons notamment centre-ville, zones résidentielles et quartiers pavillonnaires. Le secteur compte des repères comme Maison Blanche et Le Pilier Romain, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Solaize",
       "maçonnerie Solaize",
@@ -16932,12 +16932,12 @@ export const cities: City[] = [
         "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Solaize et notamment à centre-ville, zones résidentielles et quartiers pavillonnaires, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
       },
       {
-        "question": "Quelles précautions pour construire à Solaize ?",
-        "answer": "Le secteur de Solaize peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "question": "Le terrain de Solaize pose-t-il des difficultés pour construire ?",
+        "answer": "Oui, il faut composer avec drainage et gestion des eaux pluviales. C'est pourquoi chaque chantier de Solaize démarre par une analyse du sol, qui guide le choix des fondations et du drainage."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Solaize ?",
-        "answer": "À Solaize, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Nos équipes interviennent à Solaize pour le terrassement, les fondations, les dalles béton, les murs, les extensions de maison et la rénovation."
       },
       {
         "question": "Proposez-vous un devis gratuit à Solaize ?",
@@ -16961,7 +16961,7 @@ export const cities: City[] = [
       "longitude": 5.0414
     },
     "description": "Spécialiste gros œuvre à Lens-Lestang (Drôme, 884 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "DZ Maçonnerie intervient à Lens-Lestang (884 habitants, Drôme) pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Nous couvrons notamment Pré Plancher, Les Granges et Le Village. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "DZ Maçonnerie intervient à Lens-Lestang (884 habitants, Drôme) pour vos travaux d'extension, de dalle béton, de murs et de terrassement. Nous couvrons notamment Pré Plancher, Les Granges et Le Village. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Lens-Lestang",
       "maçonnerie Lens-Lestang",
@@ -17025,12 +17025,12 @@ export const cities: City[] = [
         "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Lens-Lestang et notamment à Pré Plancher, Les Granges et Le Village, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
       },
       {
-        "question": "Quelles précautions pour construire à Lens-Lestang ?",
-        "answer": "Le secteur de Lens-Lestang peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "question": "Le terrain de Lens-Lestang pose-t-il des difficultés pour construire ?",
+        "answer": "Oui, il faut composer avec drainage et gestion des eaux pluviales. C'est pourquoi chaque chantier de Lens-Lestang démarre par une analyse du sol, qui guide le choix des fondations et du drainage."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Lens-Lestang ?",
-        "answer": "À Lens-Lestang, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Nos équipes interviennent à Lens-Lestang pour le terrassement, les fondations, les dalles béton, les murs, les extensions de maison et la rénovation."
       },
       {
         "question": "Proposez-vous un devis gratuit à Lens-Lestang ?",
@@ -17054,7 +17054,7 @@ export const cities: City[] = [
       "longitude": 5.2163
     },
     "description": "Spécialiste gros œuvre à Loyettes (Ain, 3 554 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "DZ Maçonnerie intervient à Loyettes (3 554 habitants, Ain) pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "DZ Maçonnerie intervient à Loyettes (3 554 habitants, Ain) pour vos travaux d'extension, de dalle béton, de murs et de terrassement. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Loyettes",
       "maçonnerie Loyettes",
@@ -17108,19 +17108,19 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Loyettes ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Loyettes, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Absolument : nous couvrons Loyettes comme l'ensemble des communes alentour. Le déplacement pour l'étude de votre projet est offert."
       },
       {
-        "question": "Quelles précautions pour construire à Loyettes ?",
+        "question": "Le terrain de Loyettes pose-t-il des difficultés pour construire ?",
         "answer": "Le secteur de Loyettes peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Loyettes ?",
-        "answer": "À Loyettes, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Loyettes."
       },
       {
         "question": "Proposez-vous un devis gratuit à Loyettes ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Loyettes."
+        "answer": "Bien sûr, l'étude et le chiffrage de votre projet à Loyettes sont entièrement gratuits, sans aucun engagement."
       }
     ]
   },
@@ -17195,11 +17195,11 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Valencogne ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Valencogne, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Oui, Valencogne fait pleinement partie de notre zone d'intervention. Notre atelier est à Artas : la visite d'évaluation et le devis sont gratuits."
       },
       {
-        "question": "Quelles précautions pour construire à Valencogne ?",
-        "answer": "Le secteur de Valencogne peut présenter des enjeux de conception parasismique. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "question": "Le terrain de Valencogne pose-t-il des difficultés pour construire ?",
+        "answer": "Les points de vigilance locaux sont conception parasismique. Nos techniques de gros œuvre en tiennent compte dès la conception, et le devis intègre ces spécificités."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Valencogne ?",
@@ -17207,7 +17207,7 @@ export const cities: City[] = [
       },
       {
         "question": "Proposez-vous un devis gratuit à Valencogne ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Valencogne."
+        "answer": "Oui : demande par téléphone ou via le formulaire, réponse sous 24h et visite sur place offerte à Valencogne."
       }
     ]
   },
@@ -17227,7 +17227,7 @@ export const cities: City[] = [
       "longitude": 5.5391
     },
     "description": "Spécialiste gros œuvre à La Bâtie-Montgascon (Isère, 2 035 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "DZ Maçonnerie intervient à La Bâtie-Montgascon (2 035 habitants, Isère) pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Nous couvrons notamment centre village et zones rurales. Le secteur compte des repères comme centre du village, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "DZ Maçonnerie intervient à La Bâtie-Montgascon (2 035 habitants, Isère) pour vos travaux d'extension, de dalle béton, de murs et de terrassement. Nous couvrons notamment centre village et zones rurales. Le secteur compte des repères comme centre du village, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon La Bâtie-Montgascon",
       "maçonnerie La Bâtie-Montgascon",
@@ -17287,12 +17287,12 @@ export const cities: City[] = [
         "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de La Bâtie-Montgascon et notamment à centre village et zones rurales, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
       },
       {
-        "question": "Quelles précautions pour construire à La Bâtie-Montgascon ?",
-        "answer": "Le secteur de La Bâtie-Montgascon peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "question": "Y a-t-il des contraintes de terrain à La Bâtie-Montgascon ?",
+        "answer": "Oui, il faut composer avec drainage et gestion des eaux pluviales. C'est pourquoi chaque chantier de La Bâtie-Montgascon démarre par une analyse du sol, qui guide le choix des fondations et du drainage."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à La Bâtie-Montgascon ?",
-        "answer": "À La Bâtie-Montgascon, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Nos équipes interviennent à La Bâtie-Montgascon pour le terrassement, les fondations, les dalles béton, les murs, les extensions de maison et la rénovation."
       },
       {
         "question": "Proposez-vous un devis gratuit à La Bâtie-Montgascon ?",
@@ -17385,12 +17385,12 @@ export const cities: City[] = [
         "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Meyzieu et notamment à Le Carreau, Les Gadelles et Les Calabres, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
       },
       {
-        "question": "Quelles précautions pour construire à Meyzieu ?",
-        "answer": "Le secteur de Meyzieu peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "question": "Y a-t-il des contraintes de terrain à Meyzieu ?",
+        "answer": "Oui, il faut composer avec drainage et gestion des eaux pluviales. C'est pourquoi chaque chantier de Meyzieu démarre par une analyse du sol, qui guide le choix des fondations et du drainage."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Meyzieu ?",
-        "answer": "À Meyzieu, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Nos équipes interviennent à Meyzieu pour le terrassement, les fondations, les dalles béton, les murs, les extensions de maison et la rénovation."
       },
       {
         "question": "Proposez-vous un devis gratuit à Meyzieu ?",
@@ -17414,7 +17414,7 @@ export const cities: City[] = [
       "longitude": 5.5339
     },
     "description": "Maçonnerie et terrassement à Villages du Lac de Paladru (Isère, 2 598 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "DZ Maçonnerie met son savoir-faire au service des habitants de Villages du Lac de Paladru (2 598 habitants, Isère) pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Nous couvrons notamment Le Mollard. Le secteur compte des repères comme Les Trois Croix et G.M. Witkowski, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de conception parasismique, que nous intégrons dès l'étude.",
+    "introduction": "DZ Maçonnerie met son savoir-faire au service des habitants de Villages du Lac de Paladru (2 598 habitants, Isère) pour vos chantiers de maçonnerie : terrasse, clôture, rénovation, terrassement. Nous couvrons notamment Le Mollard. Le secteur compte des repères comme Les Trois Croix et G.M. Witkowski, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de conception parasismique, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Villages du Lac de Paladru",
       "maçonnerie Villages du Lac de Paladru",
@@ -17472,12 +17472,12 @@ export const cities: City[] = [
         "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Villages du Lac de Paladru et notamment à Le Mollard, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
       },
       {
-        "question": "Quelles précautions pour construire à Villages du Lac de Paladru ?",
-        "answer": "Le secteur de Villages du Lac de Paladru peut présenter des enjeux de conception parasismique. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "question": "Le terrain de Villages du Lac de Paladru pose-t-il des difficultés pour construire ?",
+        "answer": "Oui, il faut composer avec conception parasismique. C'est pourquoi chaque chantier de Villages du Lac de Paladru démarre par une analyse du sol, qui guide le choix des fondations et du drainage."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Villages du Lac de Paladru ?",
-        "answer": "À Villages du Lac de Paladru, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Nos équipes interviennent à Villages du Lac de Paladru pour le terrassement, les fondations, les dalles béton, les murs, les extensions de maison et la rénovation."
       },
       {
         "question": "Proposez-vous un devis gratuit à Villages du Lac de Paladru ?",
@@ -17501,7 +17501,7 @@ export const cities: City[] = [
       "longitude": 4.803
     },
     "description": "Spécialiste gros œuvre à Ternay (Rhône, 5 596 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "DZ Maçonnerie intervient à Ternay (5 596 habitants, Rhône) pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Nous couvrons notamment centre-ville et zones résidentielles. Le secteur compte des repères comme Le Grand Clos et Farakas 7, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "DZ Maçonnerie intervient à Ternay (5 596 habitants, Rhône) pour vos travaux d'extension, de dalle béton, de murs et de terrassement. Nous couvrons notamment centre-ville et zones résidentielles. Le secteur compte des repères comme Le Grand Clos et Farakas 7, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Ternay",
       "maçonnerie Ternay",
@@ -17563,11 +17563,11 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Ternay ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Ternay et notamment à centre-ville et zones résidentielles, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Oui, Ternay et notamment à centre-ville et zones résidentielles fait pleinement partie de notre zone d'intervention. Notre atelier est à Artas : la visite d'évaluation et le devis sont gratuits."
       },
       {
-        "question": "Quelles précautions pour construire à Ternay ?",
-        "answer": "Le secteur de Ternay peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "question": "Le terrain de Ternay pose-t-il des difficultés pour construire ?",
+        "answer": "Les points de vigilance locaux sont drainage et gestion des eaux pluviales. Nos techniques de gros œuvre en tiennent compte dès la conception, et le devis intègre ces spécificités."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Ternay ?",
@@ -17575,7 +17575,7 @@ export const cities: City[] = [
       },
       {
         "question": "Proposez-vous un devis gratuit à Ternay ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Ternay."
+        "answer": "Oui : demande par téléphone ou via le formulaire, réponse sous 24h et visite sur place offerte à Ternay."
       }
     ]
   },
@@ -17657,12 +17657,12 @@ export const cities: City[] = [
         "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Manthes et notamment à Port De Jonc, Le Village et Le Château, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
       },
       {
-        "question": "Quelles précautions pour construire à Manthes ?",
-        "answer": "Le secteur de Manthes peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "question": "Le terrain de Manthes pose-t-il des difficultés pour construire ?",
+        "answer": "Oui, il faut composer avec drainage et gestion des eaux pluviales. C'est pourquoi chaque chantier de Manthes démarre par une analyse du sol, qui guide le choix des fondations et du drainage."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Manthes ?",
-        "answer": "À Manthes, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Nos équipes interviennent à Manthes pour le terrassement, les fondations, les dalles béton, les murs, les extensions de maison et la rénovation."
       },
       {
         "question": "Proposez-vous un devis gratuit à Manthes ?",
@@ -17740,19 +17740,19 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Chonas-l'Amballan ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Chonas-l'Amballan, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Absolument : nous couvrons Chonas-l'Amballan comme l'ensemble des communes alentour. Le déplacement pour l'étude de votre projet est offert."
       },
       {
-        "question": "Quelles précautions pour construire à Chonas-l'Amballan ?",
+        "question": "Y a-t-il des contraintes de terrain à Chonas-l'Amballan ?",
         "answer": "Le secteur de Chonas-l'Amballan peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Chonas-l'Amballan ?",
-        "answer": "À Chonas-l'Amballan, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Chonas-l'Amballan."
       },
       {
         "question": "Proposez-vous un devis gratuit à Chonas-l'Amballan ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Chonas-l'Amballan."
+        "answer": "Bien sûr, l'étude et le chiffrage de votre projet à Chonas-l'Amballan sont entièrement gratuits, sans aucun engagement."
       }
     ]
   },
@@ -17772,7 +17772,7 @@ export const cities: City[] = [
       "longitude": 5.5452
     },
     "description": "Artisan maçon à Saint-Ondras (Isère, 668 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "À Saint-Ondras (668 habitants, Isère), DZ Maçonnerie vous accompagne pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Le secteur compte des repères comme Monument aux Morts, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "À Saint-Ondras (668 habitants, Isère), DZ Maçonnerie vous accompagne pour tous vos projets de gros œuvre : dalle béton, murs, extension, terrassement. Le secteur compte des repères comme Monument aux Morts, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Saint-Ondras",
       "maçonnerie Saint-Ondras",
@@ -17831,11 +17831,11 @@ export const cities: City[] = [
       },
       {
         "question": "Quelles précautions pour construire à Saint-Ondras ?",
-        "answer": "Le secteur de Saint-Ondras peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "answer": "Oui, il faut composer avec drainage et gestion des eaux pluviales. C'est pourquoi chaque chantier de Saint-Ondras démarre par une analyse du sol, qui guide le choix des fondations et du drainage."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Saint-Ondras ?",
-        "answer": "À Saint-Ondras, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Nos équipes interviennent à Saint-Ondras pour le terrassement, les fondations, les dalles béton, les murs, les extensions de maison et la rénovation."
       },
       {
         "question": "Proposez-vous un devis gratuit à Saint-Ondras ?",
@@ -17859,7 +17859,7 @@ export const cities: City[] = [
       "longitude": 4.9116
     },
     "description": "Artisan maçon à Bron (Rhône, 42 982 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "À Bron (42 982 habitants, Rhône), DZ Maçonnerie vous accompagne pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Nous couvrons notamment Grand Parilly, La Croix et Lessivas. Le secteur compte des repères comme Fort de Bron et Mémorial pour les Anciens Combattants du Rhône Morts en Afrique du Nord, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de stabilité des sols et conception parasismique, que nous intégrons dès l'étude.",
+    "introduction": "À Bron (42 982 habitants, Rhône), DZ Maçonnerie vous accompagne pour tous vos projets de gros œuvre : dalle béton, murs, extension, terrassement. Nous couvrons notamment Grand Parilly, La Croix et Lessivas. Le secteur compte des repères comme Fort de Bron et Mémorial pour les Anciens Combattants du Rhône Morts en Afrique du Nord, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de stabilité des sols et conception parasismique, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Bron",
       "maçonnerie Bron",
@@ -17924,11 +17924,11 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Bron ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Bron et notamment à Grand Parilly, La Croix et Lessivas, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Oui, Bron et notamment à Grand Parilly, La Croix et Lessivas fait pleinement partie de notre zone d'intervention. Notre atelier est à Artas : la visite d'évaluation et le devis sont gratuits."
       },
       {
-        "question": "Quelles précautions pour construire à Bron ?",
-        "answer": "Le secteur de Bron peut présenter des enjeux de stabilité des sols et conception parasismique. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "question": "Le terrain de Bron pose-t-il des difficultés pour construire ?",
+        "answer": "Les points de vigilance locaux sont stabilité des sols et conception parasismique. Nos techniques de gros œuvre en tiennent compte dès la conception, et le devis intègre ces spécificités."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Bron ?",
@@ -17936,7 +17936,7 @@ export const cities: City[] = [
       },
       {
         "question": "Proposez-vous un devis gratuit à Bron ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Bron."
+        "answer": "Oui : demande par téléphone ou via le formulaire, réponse sous 24h et visite sur place offerte à Bron."
       }
     ]
   },
@@ -17956,7 +17956,7 @@ export const cities: City[] = [
       "longitude": 5.0377
     },
     "description": "Maçonnerie et terrassement à Jonage (Rhône, 6 144 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "DZ Maçonnerie met son savoir-faire au service des habitants de Jonage (6 144 habitants, Rhône) pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Nous couvrons notamment centre-ville et zones résidentielles. Le secteur compte des repères comme Grand Large et canal de Jonage, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "DZ Maçonnerie met son savoir-faire au service des habitants de Jonage (6 144 habitants, Rhône) pour vos chantiers de maçonnerie : terrasse, clôture, rénovation, terrassement. Nous couvrons notamment centre-ville et zones résidentielles. Le secteur compte des repères comme Grand Large et canal de Jonage, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Jonage",
       "maçonnerie Jonage",
@@ -18016,11 +18016,11 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Jonage ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Jonage et notamment à centre-ville et zones résidentielles, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Oui, Jonage et notamment à centre-ville et zones résidentielles fait pleinement partie de notre zone d'intervention. Notre atelier est à Artas : la visite d'évaluation et le devis sont gratuits."
       },
       {
         "question": "Quelles précautions pour construire à Jonage ?",
-        "answer": "Le secteur de Jonage peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "answer": "Les points de vigilance locaux sont drainage et gestion des eaux pluviales. Nos techniques de gros œuvre en tiennent compte dès la conception, et le devis intègre ces spécificités."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Jonage ?",
@@ -18028,7 +18028,7 @@ export const cities: City[] = [
       },
       {
         "question": "Proposez-vous un devis gratuit à Jonage ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Jonage."
+        "answer": "Oui : demande par téléphone ou via le formulaire, réponse sous 24h et visite sur place offerte à Jonage."
       }
     ]
   },
@@ -18048,7 +18048,7 @@ export const cities: City[] = [
       "longitude": 5.0798
     },
     "description": "Maçonnerie et terrassement à Jons (Rhône, 1 647 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "DZ Maçonnerie met son savoir-faire au service des habitants de Jons (1 647 habitants, Rhône) pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Nous couvrons notamment centre village et zones résidentielles. Le secteur compte des repères comme Monument aux morts de Jons et L'ancre de Jons, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "DZ Maçonnerie met son savoir-faire au service des habitants de Jons (1 647 habitants, Rhône) pour vos chantiers de maçonnerie : terrasse, clôture, rénovation, terrassement. Nous couvrons notamment centre village et zones résidentielles. Le secteur compte des repères comme Monument aux morts de Jons et L'ancre de Jons, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Jons",
       "maçonnerie Jons",
@@ -18109,19 +18109,19 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Jons ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Jons et notamment à centre village et zones résidentielles, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Absolument : nous couvrons Jons et notamment à centre village et zones résidentielles comme l'ensemble des communes alentour. Le déplacement pour l'étude de votre projet est offert."
       },
       {
-        "question": "Quelles précautions pour construire à Jons ?",
+        "question": "Le terrain de Jons pose-t-il des difficultés pour construire ?",
         "answer": "Le secteur de Jons peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Jons ?",
-        "answer": "À Jons, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Jons."
       },
       {
         "question": "Proposez-vous un devis gratuit à Jons ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Jons."
+        "answer": "Bien sûr, l'étude et le chiffrage de votre projet à Jons sont entièrement gratuits, sans aucun engagement."
       }
     ]
   },
@@ -18198,19 +18198,19 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Izeaux ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Izeaux et notamment à Les Granges, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Absolument : nous couvrons Izeaux et notamment à Les Granges comme l'ensemble des communes alentour. Le déplacement pour l'étude de votre projet est offert."
       },
       {
-        "question": "Quelles précautions pour construire à Izeaux ?",
+        "question": "Le terrain d'Izeaux pose-t-il des difficultés pour construire ?",
         "answer": "Le secteur d'Izeaux peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Izeaux ?",
-        "answer": "À Izeaux, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Izeaux."
       },
       {
         "question": "Proposez-vous un devis gratuit à Izeaux ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Izeaux."
+        "answer": "Bien sûr, l'étude et le chiffrage de votre projet à Izeaux sont entièrement gratuits, sans aucun engagement."
       }
     ]
   },
@@ -18230,7 +18230,7 @@ export const cities: City[] = [
       "longitude": 4.8638
     },
     "description": "Artisan maçon à Ville-sous-Anjou (Isère, 1 175 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "À Ville-sous-Anjou (1 175 habitants, Isère), DZ Maçonnerie vous accompagne pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Nous couvrons notamment Au Boclard, Au Bode et A Lampon. Le secteur compte des repères comme Monument aux Morts et La Madone, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "À Ville-sous-Anjou (1 175 habitants, Isère), DZ Maçonnerie vous accompagne pour tous vos projets de gros œuvre : dalle béton, murs, extension, terrassement. Nous couvrons notamment Au Boclard, Au Bode et A Lampon. Le secteur compte des repères comme Monument aux Morts et La Madone, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Ville-sous-Anjou",
       "maçonnerie Ville-sous-Anjou",
@@ -18295,12 +18295,12 @@ export const cities: City[] = [
         "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Ville-sous-Anjou et notamment à Au Boclard, Au Bode et A Lampon, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
       },
       {
-        "question": "Quelles précautions pour construire à Ville-sous-Anjou ?",
-        "answer": "Le secteur de Ville-sous-Anjou peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "question": "Y a-t-il des contraintes de terrain à Ville-sous-Anjou ?",
+        "answer": "Oui, il faut composer avec drainage et gestion des eaux pluviales. C'est pourquoi chaque chantier de Ville-sous-Anjou démarre par une analyse du sol, qui guide le choix des fondations et du drainage."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Ville-sous-Anjou ?",
-        "answer": "À Ville-sous-Anjou, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Nos équipes interviennent à Ville-sous-Anjou pour le terrassement, les fondations, les dalles béton, les murs, les extensions de maison et la rénovation."
       },
       {
         "question": "Proposez-vous un devis gratuit à Ville-sous-Anjou ?",
@@ -18324,7 +18324,7 @@ export const cities: City[] = [
       "longitude": 4.7847
     },
     "description": "Artisan maçon à Loire-sur-Rhône (Rhône, 2 746 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "À Loire-sur-Rhône (2 746 habitants, Rhône), DZ Maçonnerie vous accompagne pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Nous couvrons notamment Le Freyssinet, Lartaux et Chez Moulin. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "À Loire-sur-Rhône (2 746 habitants, Rhône), DZ Maçonnerie vous accompagne pour tous vos projets de gros œuvre : dalle béton, murs, extension, terrassement. Nous couvrons notamment Le Freyssinet, Lartaux et Chez Moulin. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Loire-sur-Rhône",
       "maçonnerie Loire-sur-Rhône",
@@ -18386,19 +18386,19 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Loire-sur-Rhône ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Loire-sur-Rhône et notamment à Le Freyssinet, Lartaux et Chez Moulin, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Absolument : nous couvrons Loire-sur-Rhône et notamment à Le Freyssinet, Lartaux et Chez Moulin comme l'ensemble des communes alentour. Le déplacement pour l'étude de votre projet est offert."
       },
       {
-        "question": "Quelles précautions pour construire à Loire-sur-Rhône ?",
+        "question": "Le terrain de Loire-sur-Rhône pose-t-il des difficultés pour construire ?",
         "answer": "Le secteur de Loire-sur-Rhône peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Loire-sur-Rhône ?",
-        "answer": "À Loire-sur-Rhône, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Loire-sur-Rhône."
       },
       {
         "question": "Proposez-vous un devis gratuit à Loire-sur-Rhône ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Loire-sur-Rhône."
+        "answer": "Bien sûr, l'étude et le chiffrage de votre projet à Loire-sur-Rhône sont entièrement gratuits, sans aucun engagement."
       }
     ]
   },
@@ -18418,7 +18418,7 @@ export const cities: City[] = [
       "longitude": 4.8067
     },
     "description": "Maçonnerie et terrassement à Saint-Prim (Isère, 1 478 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "DZ Maçonnerie met son savoir-faire au service des habitants de Saint-Prim (1 478 habitants, Isère) pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Le secteur compte des repères comme Croix de Glay et Notre-Dame de la Salette, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "DZ Maçonnerie met son savoir-faire au service des habitants de Saint-Prim (1 478 habitants, Isère) pour vos chantiers de maçonnerie : terrasse, clôture, rénovation, terrassement. Le secteur compte des repères comme Croix de Glay et Notre-Dame de la Salette, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Saint-Prim",
       "maçonnerie Saint-Prim",
@@ -18479,12 +18479,12 @@ export const cities: City[] = [
         "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Saint-Prim, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
       },
       {
-        "question": "Quelles précautions pour construire à Saint-Prim ?",
-        "answer": "Le secteur de Saint-Prim peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "question": "Y a-t-il des contraintes de terrain à Saint-Prim ?",
+        "answer": "Oui, il faut composer avec drainage et gestion des eaux pluviales. C'est pourquoi chaque chantier de Saint-Prim démarre par une analyse du sol, qui guide le choix des fondations et du drainage."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Saint-Prim ?",
-        "answer": "À Saint-Prim, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Nos équipes interviennent à Saint-Prim pour le terrassement, les fondations, les dalles béton, les murs, les extensions de maison et la rénovation."
       },
       {
         "question": "Proposez-vous un devis gratuit à Saint-Prim ?",
@@ -18508,7 +18508,7 @@ export const cities: City[] = [
       "longitude": 4.8162
     },
     "description": "Spécialiste gros œuvre à Auberives-sur-Varèze (Isère, 1 501 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "DZ Maçonnerie intervient à Auberives-sur-Varèze (1 501 habitants, Isère) pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "DZ Maçonnerie intervient à Auberives-sur-Varèze (1 501 habitants, Isère) pour vos travaux d'extension, de dalle béton, de murs et de terrassement. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Auberives-sur-Varèze",
       "maçonnerie Auberives-sur-Varèze",
@@ -18565,12 +18565,12 @@ export const cities: City[] = [
         "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Auberives-sur-Varèze, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
       },
       {
-        "question": "Quelles précautions pour construire à Auberives-sur-Varèze ?",
-        "answer": "Le secteur d'Auberives-sur-Varèze peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "question": "Le terrain d'Auberives-sur-Varèze pose-t-il des difficultés pour construire ?",
+        "answer": "Oui, il faut composer avec drainage et gestion des eaux pluviales. C'est pourquoi chaque chantier d'Auberives-sur-Varèze démarre par une analyse du sol, qui guide le choix des fondations et du drainage."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Auberives-sur-Varèze ?",
-        "answer": "À Auberives-sur-Varèze, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Nos équipes interviennent à Auberives-sur-Varèze pour le terrassement, les fondations, les dalles béton, les murs, les extensions de maison et la rénovation."
       },
       {
         "question": "Proposez-vous un devis gratuit à Auberives-sur-Varèze ?",
@@ -18594,7 +18594,7 @@ export const cities: City[] = [
       "longitude": 5.5166
     },
     "description": "Maçonnerie et terrassement à Charavines (Isère, 2 003 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "DZ Maçonnerie met son savoir-faire au service des habitants de Charavines (2 003 habitants, Isère) pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Le secteur compte des repères comme Croix et Croix du Plan, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "DZ Maçonnerie met son savoir-faire au service des habitants de Charavines (2 003 habitants, Isère) pour vos chantiers de maçonnerie : terrasse, clôture, rénovation, terrassement. Le secteur compte des repères comme Croix et Croix du Plan, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Charavines",
       "maçonnerie Charavines",
@@ -18655,11 +18655,11 @@ export const cities: City[] = [
       },
       {
         "question": "Quelles précautions pour construire à Charavines ?",
-        "answer": "Le secteur de Charavines peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "answer": "Oui, il faut composer avec drainage et gestion des eaux pluviales. C'est pourquoi chaque chantier de Charavines démarre par une analyse du sol, qui guide le choix des fondations et du drainage."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Charavines ?",
-        "answer": "À Charavines, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Nos équipes interviennent à Charavines pour le terrassement, les fondations, les dalles béton, les murs, les extensions de maison et la rénovation."
       },
       {
         "question": "Proposez-vous un devis gratuit à Charavines ?",
@@ -18683,7 +18683,7 @@ export const cities: City[] = [
       "longitude": 4.8121
     },
     "description": "Artisan maçon à Vernaison (Rhône, 5 210 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "À Vernaison (5 210 habitants, Rhône), DZ Maçonnerie vous accompagne pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Le secteur compte des repères comme Jouteurs, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "À Vernaison (5 210 habitants, Rhône), DZ Maçonnerie vous accompagne pour tous vos projets de gros œuvre : dalle béton, murs, extension, terrassement. Le secteur compte des repères comme Jouteurs, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Vernaison",
       "maçonnerie Vernaison",
@@ -18739,11 +18739,11 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Vernaison ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Vernaison, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Oui, Vernaison fait pleinement partie de notre zone d'intervention. Notre atelier est à Artas : la visite d'évaluation et le devis sont gratuits."
       },
       {
-        "question": "Quelles précautions pour construire à Vernaison ?",
-        "answer": "Le secteur de Vernaison peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "question": "Le terrain de Vernaison pose-t-il des difficultés pour construire ?",
+        "answer": "Les points de vigilance locaux sont drainage et gestion des eaux pluviales. Nos techniques de gros œuvre en tiennent compte dès la conception, et le devis intègre ces spécificités."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Vernaison ?",
@@ -18751,7 +18751,7 @@ export const cities: City[] = [
       },
       {
         "question": "Proposez-vous un devis gratuit à Vernaison ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Vernaison."
+        "answer": "Oui : demande par téléphone ou via le formulaire, réponse sous 24h et visite sur place offerte à Vernaison."
       }
     ]
   },
@@ -18771,7 +18771,7 @@ export const cities: City[] = [
       "longitude": 4.8514
     },
     "description": "Maçonnerie et terrassement à Saint-Fons (Rhône, 19 285 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "DZ Maçonnerie met son savoir-faire au service des habitants de Saint-Fons (19 285 habitants, Rhône) pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Nous couvrons notamment centre-ville et zones résidentielles. Le secteur compte des repères comme Pyramide du centenaire et Le rhinocéros, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "DZ Maçonnerie met son savoir-faire au service des habitants de Saint-Fons (19 285 habitants, Rhône) pour vos chantiers de maçonnerie : terrasse, clôture, rénovation, terrassement. Nous couvrons notamment centre-ville et zones résidentielles. Le secteur compte des repères comme Pyramide du centenaire et Le rhinocéros, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Saint-Fons",
       "maçonnerie Saint-Fons",
@@ -18832,12 +18832,12 @@ export const cities: City[] = [
         "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Saint-Fons et notamment à centre-ville et zones résidentielles, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
       },
       {
-        "question": "Quelles précautions pour construire à Saint-Fons ?",
-        "answer": "Le secteur de Saint-Fons peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "question": "Le terrain de Saint-Fons pose-t-il des difficultés pour construire ?",
+        "answer": "Oui, il faut composer avec drainage et gestion des eaux pluviales. C'est pourquoi chaque chantier de Saint-Fons démarre par une analyse du sol, qui guide le choix des fondations et du drainage."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Saint-Fons ?",
-        "answer": "À Saint-Fons, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Nos équipes interviennent à Saint-Fons pour le terrassement, les fondations, les dalles béton, les murs, les extensions de maison et la rénovation."
       },
       {
         "question": "Proposez-vous un devis gratuit à Saint-Fons ?",
@@ -18924,11 +18924,11 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Apprieu ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Apprieu et notamment à Lotissement La Croix Vanel, Le Clos des Noyers et Lotissement Le Four à Pain, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Oui, Apprieu et notamment à Lotissement La Croix Vanel, Le Clos des Noyers et Lotissement Le Four à Pain fait pleinement partie de notre zone d'intervention. Notre atelier est à Artas : la visite d'évaluation et le devis sont gratuits."
       },
       {
         "question": "Quelles précautions pour construire à Apprieu ?",
-        "answer": "Le secteur d'Apprieu peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "answer": "Les points de vigilance locaux sont drainage et gestion des eaux pluviales. Nos techniques de gros œuvre en tiennent compte dès la conception, et le devis intègre ces spécificités."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Apprieu ?",
@@ -18936,7 +18936,7 @@ export const cities: City[] = [
       },
       {
         "question": "Proposez-vous un devis gratuit à Apprieu ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Apprieu."
+        "answer": "Oui : demande par téléphone ou via le formulaire, réponse sous 24h et visite sur place offerte à Apprieu."
       }
     ]
   },
@@ -18956,7 +18956,7 @@ export const cities: City[] = [
       "longitude": 4.882
     },
     "description": "Artisan maçon à Anjou (Isère, 1 031 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "À Anjou (1 031 habitants, Isère), DZ Maçonnerie vous accompagne pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Le secteur compte des repères comme Croix et Monument aux Morts, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "À Anjou (1 031 habitants, Isère), DZ Maçonnerie vous accompagne pour tous vos projets de gros œuvre : dalle béton, murs, extension, terrassement. Le secteur compte des repères comme Croix et Monument aux Morts, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Anjou",
       "maçonnerie Anjou",
@@ -19012,19 +19012,19 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Anjou ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Anjou, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Absolument : nous couvrons Anjou comme l'ensemble des communes alentour. Le déplacement pour l'étude de votre projet est offert."
       },
       {
-        "question": "Quelles précautions pour construire à Anjou ?",
+        "question": "Le terrain d'Anjou pose-t-il des difficultés pour construire ?",
         "answer": "Le secteur d'Anjou peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Anjou ?",
-        "answer": "À Anjou, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Anjou."
       },
       {
         "question": "Proposez-vous un devis gratuit à Anjou ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Anjou."
+        "answer": "Bien sûr, l'étude et le chiffrage de votre projet à Anjou sont entièrement gratuits, sans aucun engagement."
       }
     ]
   },
@@ -19103,11 +19103,11 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Corbelin ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Corbelin et notamment à Clos Georges Danat, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Oui, Corbelin et notamment à Clos Georges Danat fait pleinement partie de notre zone d'intervention. Notre atelier est à Artas : la visite d'évaluation et le devis sont gratuits."
       },
       {
-        "question": "Quelles précautions pour construire à Corbelin ?",
-        "answer": "Le secteur de Corbelin peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "question": "Y a-t-il des contraintes de terrain à Corbelin ?",
+        "answer": "Les points de vigilance locaux sont drainage et gestion des eaux pluviales. Nos techniques de gros œuvre en tiennent compte dès la conception, et le devis intègre ces spécificités."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Corbelin ?",
@@ -19115,7 +19115,7 @@ export const cities: City[] = [
       },
       {
         "question": "Proposez-vous un devis gratuit à Corbelin ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Corbelin."
+        "answer": "Oui : demande par téléphone ou via le formulaire, réponse sous 24h et visite sur place offerte à Corbelin."
       }
     ]
   },
@@ -19135,7 +19135,7 @@ export const cities: City[] = [
       "longitude": 5.2914
     },
     "description": "Spécialiste gros œuvre à Hières-sur-Amby (Isère, 1 245 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "DZ Maçonnerie intervient à Hières-sur-Amby (1 245 habitants, Isère) pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Le secteur compte des repères comme Musée-Maison du Patrimoine et Portion du site typique d'éperon, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "DZ Maçonnerie intervient à Hières-sur-Amby (1 245 habitants, Isère) pour vos travaux d'extension, de dalle béton, de murs et de terrassement. Le secteur compte des repères comme Musée-Maison du Patrimoine et Portion du site typique d'éperon, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Hières-sur-Amby",
       "maçonnerie Hières-sur-Amby",
@@ -19197,11 +19197,11 @@ export const cities: City[] = [
       },
       {
         "question": "Quelles précautions pour construire à Hières-sur-Amby ?",
-        "answer": "Le secteur d'Hières-sur-Amby peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "answer": "Oui, il faut composer avec drainage et gestion des eaux pluviales. C'est pourquoi chaque chantier d'Hières-sur-Amby démarre par une analyse du sol, qui guide le choix des fondations et du drainage."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Hières-sur-Amby ?",
-        "answer": "À Hières-sur-Amby, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Nos équipes interviennent à Hières-sur-Amby pour le terrassement, les fondations, les dalles béton, les murs, les extensions de maison et la rénovation."
       },
       {
         "question": "Proposez-vous un devis gratuit à Hières-sur-Amby ?",
@@ -19225,7 +19225,7 @@ export const cities: City[] = [
       "longitude": 4.7858
     },
     "description": "Maçonnerie et terrassement à Grigny-sur-Rhône (Rhône, 10 030 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "DZ Maçonnerie met son savoir-faire au service des habitants de Grigny-sur-Rhône (10 030 habitants, Rhône) pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Nous couvrons notamment Les Arboras. Le secteur compte des repères comme Château (ancien) et Josephine, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "DZ Maçonnerie met son savoir-faire au service des habitants de Grigny-sur-Rhône (10 030 habitants, Rhône) pour vos chantiers de maçonnerie : terrasse, clôture, rénovation, terrassement. Nous couvrons notamment Les Arboras. Le secteur compte des repères comme Château (ancien) et Josephine, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Grigny-sur-Rhône",
       "maçonnerie Grigny-sur-Rhône",
@@ -19283,19 +19283,19 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Grigny-sur-Rhône ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Grigny-sur-Rhône et notamment à Les Arboras, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Absolument : nous couvrons Grigny-sur-Rhône et notamment à Les Arboras comme l'ensemble des communes alentour. Le déplacement pour l'étude de votre projet est offert."
       },
       {
-        "question": "Quelles précautions pour construire à Grigny-sur-Rhône ?",
+        "question": "Le terrain de Grigny-sur-Rhône pose-t-il des difficultés pour construire ?",
         "answer": "Le secteur de Grigny-sur-Rhône peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Grigny-sur-Rhône ?",
-        "answer": "À Grigny-sur-Rhône, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Grigny-sur-Rhône."
       },
       {
         "question": "Proposez-vous un devis gratuit à Grigny-sur-Rhône ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Grigny-sur-Rhône."
+        "answer": "Bien sûr, l'étude et le chiffrage de votre projet à Grigny-sur-Rhône sont entièrement gratuits, sans aucun engagement."
       }
     ]
   },
@@ -19315,7 +19315,7 @@ export const cities: City[] = [
       "longitude": 4.7776
     },
     "description": "Maçonnerie et terrassement à Tupin-et-Semons (Rhône, 653 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "DZ Maçonnerie met son savoir-faire au service des habitants de Tupin-et-Semons (653 habitants, Rhône) pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Nous couvrons notamment But de Mont et Les Olivières. Le secteur compte des repères comme Croix Jamette, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "DZ Maçonnerie met son savoir-faire au service des habitants de Tupin-et-Semons (653 habitants, Rhône) pour vos chantiers de maçonnerie : terrasse, clôture, rénovation, terrassement. Nous couvrons notamment But de Mont et Les Olivières. Le secteur compte des repères comme Croix Jamette, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Tupin-et-Semons",
       "maçonnerie Tupin-et-Semons",
@@ -19376,11 +19376,11 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Tupin-et-Semons ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Tupin-et-Semons et notamment à But de Mont et Les Olivières, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Oui, Tupin-et-Semons et notamment à But de Mont et Les Olivières fait pleinement partie de notre zone d'intervention. Notre atelier est à Artas : la visite d'évaluation et le devis sont gratuits."
       },
       {
-        "question": "Quelles précautions pour construire à Tupin-et-Semons ?",
-        "answer": "Le secteur de Tupin-et-Semons peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "question": "Le terrain de Tupin-et-Semons pose-t-il des difficultés pour construire ?",
+        "answer": "Les points de vigilance locaux sont drainage et gestion des eaux pluviales. Nos techniques de gros œuvre en tiennent compte dès la conception, et le devis intègre ces spécificités."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Tupin-et-Semons ?",
@@ -19388,7 +19388,7 @@ export const cities: City[] = [
       },
       {
         "question": "Proposez-vous un devis gratuit à Tupin-et-Semons ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Tupin-et-Semons."
+        "answer": "Oui : demande par téléphone ou via le formulaire, réponse sous 24h et visite sur place offerte à Tupin-et-Semons."
       }
     ]
   },
@@ -19408,7 +19408,7 @@ export const cities: City[] = [
       "longitude": 4.938
     },
     "description": "Spécialiste gros œuvre à Épinouze (Drôme, 1 531 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "DZ Maçonnerie intervient à Épinouze (1 531 habitants, Drôme) pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Nous couvrons notamment Quartier Neuf, Les Tanneurs et Les Ecoles. Le secteur compte des repères comme Commanderie de Lachal (ancienne) et Croix, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "DZ Maçonnerie intervient à Épinouze (1 531 habitants, Drôme) pour vos travaux d'extension, de dalle béton, de murs et de terrassement. Nous couvrons notamment Quartier Neuf, Les Tanneurs et Les Ecoles. Le secteur compte des repères comme Commanderie de Lachal (ancienne) et Croix, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Épinouze",
       "maçonnerie Épinouze",
@@ -19472,19 +19472,19 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Épinouze ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Épinouze et notamment à Quartier Neuf, Les Tanneurs et Les Ecoles, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Absolument : nous couvrons Épinouze et notamment à Quartier Neuf, Les Tanneurs et Les Ecoles comme l'ensemble des communes alentour. Le déplacement pour l'étude de votre projet est offert."
       },
       {
-        "question": "Quelles précautions pour construire à Épinouze ?",
+        "question": "Y a-t-il des contraintes de terrain à Épinouze ?",
         "answer": "Le secteur d'Épinouze peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Épinouze ?",
-        "answer": "À Épinouze, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Épinouze."
       },
       {
         "question": "Proposez-vous un devis gratuit à Épinouze ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Épinouze."
+        "answer": "Bien sûr, l'étude et le chiffrage de votre projet à Épinouze sont entièrement gratuits, sans aucun engagement."
       }
     ]
   },
@@ -19504,7 +19504,7 @@ export const cities: City[] = [
       "longitude": 4.9589
     },
     "description": "Artisan maçon à Décines-Charpieu (Rhône, 29 877 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "À Décines-Charpieu (29 877 habitants, Rhône), DZ Maçonnerie vous accompagne pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Nous couvrons notamment Charpieu, Le Molard et Les Marais. Le secteur compte des repères comme Mémorial du génocide arménien de Décines-Charpieu et Menhir de Montaberlet ou de Pierre-Fitte, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "À Décines-Charpieu (29 877 habitants, Rhône), DZ Maçonnerie vous accompagne pour tous vos projets de gros œuvre : dalle béton, murs, extension, terrassement. Nous couvrons notamment Charpieu, Le Molard et Les Marais. Le secteur compte des repères comme Mémorial du génocide arménien de Décines-Charpieu et Menhir de Montaberlet ou de Pierre-Fitte, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Décines-Charpieu",
       "maçonnerie Décines-Charpieu",
@@ -19571,7 +19571,7 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Décines-Charpieu ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Décines-Charpieu et notamment à Charpieu, Le Molard et Les Marais, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Absolument : nous couvrons Décines-Charpieu et notamment à Charpieu, Le Molard et Les Marais comme l'ensemble des communes alentour. Le déplacement pour l'étude de votre projet est offert."
       },
       {
         "question": "Quelles précautions pour construire à Décines-Charpieu ?",
@@ -19579,11 +19579,11 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Décines-Charpieu ?",
-        "answer": "À Décines-Charpieu, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Décines-Charpieu."
       },
       {
         "question": "Proposez-vous un devis gratuit à Décines-Charpieu ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Décines-Charpieu."
+        "answer": "Bien sûr, l'étude et le chiffrage de votre projet à Décines-Charpieu sont entièrement gratuits, sans aucun engagement."
       }
     ]
   },
@@ -19603,7 +19603,7 @@ export const cities: City[] = [
       "longitude": 5.0014
     },
     "description": "Spécialiste gros œuvre à Moras-en-Valloire (Drôme, 682 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "DZ Maçonnerie intervient à Moras-en-Valloire (682 habitants, Drôme) pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Nous couvrons notamment Les Ramus, Les Bises et Le Village. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "DZ Maçonnerie intervient à Moras-en-Valloire (682 habitants, Drôme) pour vos travaux d'extension, de dalle béton, de murs et de terrassement. Nous couvrons notamment Les Ramus, Les Bises et Le Village. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Moras-en-Valloire",
       "maçonnerie Moras-en-Valloire",
@@ -19665,12 +19665,12 @@ export const cities: City[] = [
         "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Moras-en-Valloire et notamment à Les Ramus, Les Bises et Le Village, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
       },
       {
-        "question": "Quelles précautions pour construire à Moras-en-Valloire ?",
-        "answer": "Le secteur de Moras-en-Valloire peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "question": "Y a-t-il des contraintes de terrain à Moras-en-Valloire ?",
+        "answer": "Oui, il faut composer avec drainage et gestion des eaux pluviales. C'est pourquoi chaque chantier de Moras-en-Valloire démarre par une analyse du sol, qui guide le choix des fondations et du drainage."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Moras-en-Valloire ?",
-        "answer": "À Moras-en-Valloire, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Nos équipes interviennent à Moras-en-Valloire pour le terrassement, les fondations, les dalles béton, les murs, les extensions de maison et la rénovation."
       },
       {
         "question": "Proposez-vous un devis gratuit à Moras-en-Valloire ?",
@@ -19751,11 +19751,11 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Saint-Maurice-de-Gourdans ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Saint-Maurice-de-Gourdans, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Oui, Saint-Maurice-de-Gourdans fait pleinement partie de notre zone d'intervention. Notre atelier est à Artas : la visite d'évaluation et le devis sont gratuits."
       },
       {
-        "question": "Quelles précautions pour construire à Saint-Maurice-de-Gourdans ?",
-        "answer": "Le secteur de Saint-Maurice-de-Gourdans peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "question": "Le terrain de Saint-Maurice-de-Gourdans pose-t-il des difficultés pour construire ?",
+        "answer": "Les points de vigilance locaux sont drainage et gestion des eaux pluviales. Nos techniques de gros œuvre en tiennent compte dès la conception, et le devis intègre ces spécificités."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Saint-Maurice-de-Gourdans ?",
@@ -19763,7 +19763,7 @@ export const cities: City[] = [
       },
       {
         "question": "Proposez-vous un devis gratuit à Saint-Maurice-de-Gourdans ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Saint-Maurice-de-Gourdans."
+        "answer": "Oui : demande par téléphone ou via le formulaire, réponse sous 24h et visite sur place offerte à Saint-Maurice-de-Gourdans."
       }
     ]
   },
@@ -19783,7 +19783,7 @@ export const cities: City[] = [
       "longitude": 5.347
     },
     "description": "Artisan maçon à Saint-Baudille-de-la-Tour (Isère, 849 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "À Saint-Baudille-de-la-Tour (849 habitants, Isère), DZ Maçonnerie vous accompagne pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Le secteur compte des repères comme Maison forte de Brotel et Monument aux Morts, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "À Saint-Baudille-de-la-Tour (849 habitants, Isère), DZ Maçonnerie vous accompagne pour tous vos projets de gros œuvre : dalle béton, murs, extension, terrassement. Le secteur compte des repères comme Maison forte de Brotel et Monument aux Morts, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Saint-Baudille-de-la-Tour",
       "maçonnerie Saint-Baudille-de-la-Tour",
@@ -19844,12 +19844,12 @@ export const cities: City[] = [
         "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Saint-Baudille-de-la-Tour, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
       },
       {
-        "question": "Quelles précautions pour construire à Saint-Baudille-de-la-Tour ?",
-        "answer": "Le secteur de Saint-Baudille-de-la-Tour peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "question": "Y a-t-il des contraintes de terrain à Saint-Baudille-de-la-Tour ?",
+        "answer": "Oui, il faut composer avec drainage et gestion des eaux pluviales. C'est pourquoi chaque chantier de Saint-Baudille-de-la-Tour démarre par une analyse du sol, qui guide le choix des fondations et du drainage."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Saint-Baudille-de-la-Tour ?",
-        "answer": "À Saint-Baudille-de-la-Tour, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Nos équipes interviennent à Saint-Baudille-de-la-Tour pour le terrassement, les fondations, les dalles béton, les murs, les extensions de maison et la rénovation."
       },
       {
         "question": "Proposez-vous un devis gratuit à Saint-Baudille-de-la-Tour ?",
@@ -19873,7 +19873,7 @@ export const cities: City[] = [
       "longitude": 4.8143
     },
     "description": "Maçonnerie et terrassement à Irigny (Rhône, 9 034 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "DZ Maçonnerie met son savoir-faire au service des habitants d'Irigny (9 034 habitants, Rhône) pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Le secteur compte des repères comme Château de la Damette et Villa et Jardin Bagatelle, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "DZ Maçonnerie met son savoir-faire au service des habitants d'Irigny (9 034 habitants, Rhône) pour vos chantiers de maçonnerie : terrasse, clôture, rénovation, terrassement. Le secteur compte des repères comme Château de la Damette et Villa et Jardin Bagatelle, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Irigny",
       "maçonnerie Irigny",
@@ -19934,11 +19934,11 @@ export const cities: City[] = [
       },
       {
         "question": "Quelles précautions pour construire à Irigny ?",
-        "answer": "Le secteur d'Irigny peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "answer": "Oui, il faut composer avec drainage et gestion des eaux pluviales. C'est pourquoi chaque chantier d'Irigny démarre par une analyse du sol, qui guide le choix des fondations et du drainage."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Irigny ?",
-        "answer": "À Irigny, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Nos équipes interviennent à Irigny pour le terrassement, les fondations, les dalles béton, les murs, les extensions de maison et la rénovation."
       },
       {
         "question": "Proposez-vous un devis gratuit à Irigny ?",
@@ -19962,7 +19962,7 @@ export const cities: City[] = [
       "longitude": 5.4956
     },
     "description": "Artisan maçon à Saint-Victor-de-Morestel (Isère, 1 168 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "À Saint-Victor-de-Morestel (1 168 habitants, Isère), DZ Maçonnerie vous accompagne pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Nous couvrons notamment Domaine des Champagnes. Le secteur compte des repères comme Monument aux Morts, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "À Saint-Victor-de-Morestel (1 168 habitants, Isère), DZ Maçonnerie vous accompagne pour tous vos projets de gros œuvre : dalle béton, murs, extension, terrassement. Nous couvrons notamment Domaine des Champagnes. Le secteur compte des repères comme Monument aux Morts, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Saint-Victor-de-Morestel",
       "maçonnerie Saint-Victor-de-Morestel",
@@ -20022,11 +20022,11 @@ export const cities: City[] = [
       },
       {
         "question": "Quelles précautions pour construire à Saint-Victor-de-Morestel ?",
-        "answer": "Le secteur de Saint-Victor-de-Morestel peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "answer": "Oui, il faut composer avec drainage et gestion des eaux pluviales. C'est pourquoi chaque chantier de Saint-Victor-de-Morestel démarre par une analyse du sol, qui guide le choix des fondations et du drainage."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Saint-Victor-de-Morestel ?",
-        "answer": "À Saint-Victor-de-Morestel, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Nos équipes interviennent à Saint-Victor-de-Morestel pour le terrassement, les fondations, les dalles béton, les murs, les extensions de maison et la rénovation."
       },
       {
         "question": "Proposez-vous un devis gratuit à Saint-Victor-de-Morestel ?",
@@ -20050,7 +20050,7 @@ export const cities: City[] = [
       "longitude": 5.1029
     },
     "description": "Maçonnerie et terrassement à Le Grand-Serre (Drôme, 973 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "DZ Maçonnerie met son savoir-faire au service des habitants de Le Grand-Serre (973 habitants, Drôme) pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Nous couvrons notamment Le Bourg. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "DZ Maçonnerie met son savoir-faire au service des habitants de Le Grand-Serre (973 habitants, Drôme) pour vos chantiers de maçonnerie : terrasse, clôture, rénovation, terrassement. Nous couvrons notamment Le Bourg. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Le Grand-Serre",
       "maçonnerie Le Grand-Serre",
@@ -20106,7 +20106,7 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Le Grand-Serre ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Le Grand-Serre et notamment à Le Bourg, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Absolument : nous couvrons Le Grand-Serre et notamment à Le Bourg comme l'ensemble des communes alentour. Le déplacement pour l'étude de votre projet est offert."
       },
       {
         "question": "Quelles précautions pour construire à Le Grand-Serre ?",
@@ -20114,11 +20114,11 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Le Grand-Serre ?",
-        "answer": "À Le Grand-Serre, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Le Grand-Serre."
       },
       {
         "question": "Proposez-vous un devis gratuit à Le Grand-Serre ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Le Grand-Serre."
+        "answer": "Bien sûr, l'étude et le chiffrage de votre projet à Le Grand-Serre sont entièrement gratuits, sans aucun engagement."
       }
     ]
   },
@@ -20195,12 +20195,12 @@ export const cities: City[] = [
         "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Bilieu, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
       },
       {
-        "question": "Quelles précautions pour construire à Bilieu ?",
-        "answer": "Le secteur de Bilieu peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "question": "Y a-t-il des contraintes de terrain à Bilieu ?",
+        "answer": "Oui, il faut composer avec drainage et gestion des eaux pluviales. C'est pourquoi chaque chantier de Bilieu démarre par une analyse du sol, qui guide le choix des fondations et du drainage."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Bilieu ?",
-        "answer": "À Bilieu, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Nos équipes interviennent à Bilieu pour le terrassement, les fondations, les dalles béton, les murs, les extensions de maison et la rénovation."
       },
       {
         "question": "Proposez-vous un devis gratuit à Bilieu ?",
@@ -20224,7 +20224,7 @@ export const cities: City[] = [
       "longitude": 5.5288
     },
     "description": "Maçonnerie et terrassement à Le Bouchage (Isère, 655 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "DZ Maçonnerie met son savoir-faire au service des habitants de Le Bouchage (655 habitants, Isère) pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Nous couvrons notamment Le Chouvard. Le secteur compte des repères comme La pomme, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "DZ Maçonnerie met son savoir-faire au service des habitants de Le Bouchage (655 habitants, Isère) pour vos chantiers de maçonnerie : terrasse, clôture, rénovation, terrassement. Nous couvrons notamment Le Chouvard. Le secteur compte des repères comme La pomme, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Le Bouchage",
       "maçonnerie Le Bouchage",
@@ -20280,19 +20280,19 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Le Bouchage ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Le Bouchage et notamment à Le Chouvard, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Absolument : nous couvrons Le Bouchage et notamment à Le Chouvard comme l'ensemble des communes alentour. Le déplacement pour l'étude de votre projet est offert."
       },
       {
-        "question": "Quelles précautions pour construire à Le Bouchage ?",
+        "question": "Le terrain de Le Bouchage pose-t-il des difficultés pour construire ?",
         "answer": "Le secteur de Le Bouchage peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Le Bouchage ?",
-        "answer": "À Le Bouchage, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Le Bouchage."
       },
       {
         "question": "Proposez-vous un devis gratuit à Le Bouchage ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Le Bouchage."
+        "answer": "Bien sûr, l'étude et le chiffrage de votre projet à Le Bouchage sont entièrement gratuits, sans aucun engagement."
       }
     ]
   },
@@ -20312,7 +20312,7 @@ export const cities: City[] = [
       "longitude": 5.4848
     },
     "description": "Spécialiste gros œuvre à Rives (Isère, 6 549 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "DZ Maçonnerie intervient à Rives (6 549 habitants, Isère) pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "DZ Maçonnerie intervient à Rives (6 549 habitants, Isère) pour vos travaux d'extension, de dalle béton, de murs et de terrassement. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Rives",
       "maçonnerie Rives",
@@ -20366,11 +20366,11 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Rives ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Rives, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Oui, Rives fait pleinement partie de notre zone d'intervention. Notre atelier est à Artas : la visite d'évaluation et le devis sont gratuits."
       },
       {
         "question": "Quelles précautions pour construire à Rives ?",
-        "answer": "Le secteur de Rives peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "answer": "Les points de vigilance locaux sont drainage et gestion des eaux pluviales. Nos techniques de gros œuvre en tiennent compte dès la conception, et le devis intègre ces spécificités."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Rives ?",
@@ -20378,7 +20378,7 @@ export const cities: City[] = [
       },
       {
         "question": "Proposez-vous un devis gratuit à Rives ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Rives."
+        "answer": "Oui : demande par téléphone ou via le formulaire, réponse sous 24h et visite sur place offerte à Rives."
       }
     ]
   },
@@ -20461,11 +20461,11 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Millery ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Millery et notamment à Clos Porte, L'Étang et Le Bourg, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Oui, Millery et notamment à Clos Porte, L'Étang et Le Bourg fait pleinement partie de notre zone d'intervention. Notre atelier est à Artas : la visite d'évaluation et le devis sont gratuits."
       },
       {
         "question": "Quelles précautions pour construire à Millery ?",
-        "answer": "Le secteur de Millery peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "answer": "Les points de vigilance locaux sont drainage et gestion des eaux pluviales. Nos techniques de gros œuvre en tiennent compte dès la conception, et le devis intègre ces spécificités."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Millery ?",
@@ -20473,7 +20473,7 @@ export const cities: City[] = [
       },
       {
         "question": "Proposez-vous un devis gratuit à Millery ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Millery."
+        "answer": "Oui : demande par téléphone ou via le formulaire, réponse sous 24h et visite sur place offerte à Millery."
       }
     ]
   },
@@ -20493,7 +20493,7 @@ export const cities: City[] = [
       "longitude": 5.4694
     },
     "description": "Artisan maçon à Beaucroissant (Isère, 1 790 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "À Beaucroissant (1 790 habitants, Isère), DZ Maçonnerie vous accompagne pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Nous couvrons notamment Le Verger du Clos. Le secteur compte des repères comme Chartreuse de Parménie, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "À Beaucroissant (1 790 habitants, Isère), DZ Maçonnerie vous accompagne pour tous vos projets de gros œuvre : dalle béton, murs, extension, terrassement. Nous couvrons notamment Le Verger du Clos. Le secteur compte des repères comme Chartreuse de Parménie, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Beaucroissant",
       "maçonnerie Beaucroissant",
@@ -20550,19 +20550,19 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Beaucroissant ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Beaucroissant et notamment à Le Verger du Clos, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Absolument : nous couvrons Beaucroissant et notamment à Le Verger du Clos comme l'ensemble des communes alentour. Le déplacement pour l'étude de votre projet est offert."
       },
       {
-        "question": "Quelles précautions pour construire à Beaucroissant ?",
+        "question": "Y a-t-il des contraintes de terrain à Beaucroissant ?",
         "answer": "Le secteur de Beaucroissant peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Beaucroissant ?",
-        "answer": "À Beaucroissant, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Beaucroissant."
       },
       {
         "question": "Proposez-vous un devis gratuit à Beaucroissant ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Beaucroissant."
+        "answer": "Bien sûr, l'étude et le chiffrage de votre projet à Beaucroissant sont entièrement gratuits, sans aucun engagement."
       }
     ]
   },
@@ -20639,7 +20639,7 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Saint-Blaise-du-Buis ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Saint-Blaise-du-Buis, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Absolument : nous couvrons Saint-Blaise-du-Buis comme l'ensemble des communes alentour. Le déplacement pour l'étude de votre projet est offert."
       },
       {
         "question": "Quelles précautions pour construire à Saint-Blaise-du-Buis ?",
@@ -20647,11 +20647,11 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Saint-Blaise-du-Buis ?",
-        "answer": "À Saint-Blaise-du-Buis, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Saint-Blaise-du-Buis."
       },
       {
         "question": "Proposez-vous un devis gratuit à Saint-Blaise-du-Buis ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Saint-Blaise-du-Buis."
+        "answer": "Bien sûr, l'étude et le chiffrage de votre projet à Saint-Blaise-du-Buis sont entièrement gratuits, sans aucun engagement."
       }
     ]
   },
@@ -20671,7 +20671,7 @@ export const cities: City[] = [
       "longitude": 5.5789
     },
     "description": "Spécialiste gros œuvre à Charancieu (Isère, 738 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "DZ Maçonnerie intervient à Charancieu (738 habitants, Isère) pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Nous couvrons notamment centre village et zones rurales. Le secteur compte des repères comme centre du village, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "DZ Maçonnerie intervient à Charancieu (738 habitants, Isère) pour vos travaux d'extension, de dalle béton, de murs et de terrassement. Nous couvrons notamment centre village et zones rurales. Le secteur compte des repères comme centre du village, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Charancieu",
       "maçonnerie Charancieu",
@@ -20733,11 +20733,11 @@ export const cities: City[] = [
       },
       {
         "question": "Quelles précautions pour construire à Charancieu ?",
-        "answer": "Le secteur de Charancieu peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "answer": "Oui, il faut composer avec drainage et gestion des eaux pluviales. C'est pourquoi chaque chantier de Charancieu démarre par une analyse du sol, qui guide le choix des fondations et du drainage."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Charancieu ?",
-        "answer": "À Charancieu, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Nos équipes interviennent à Charancieu pour le terrassement, les fondations, les dalles béton, les murs, les extensions de maison et la rénovation."
       },
       {
         "question": "Proposez-vous un devis gratuit à Charancieu ?",
@@ -20761,7 +20761,7 @@ export const cities: City[] = [
       "longitude": 4.7871
     },
     "description": "Artisan maçon à Charly (Rhône, 4 811 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "À Charly (4 811 habitants, Rhône), DZ Maçonnerie vous accompagne pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Nous couvrons notamment Les Jardins d'Emy. Le secteur compte des repères comme Château de Foudras, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "À Charly (4 811 habitants, Rhône), DZ Maçonnerie vous accompagne pour tous vos projets de gros œuvre : dalle béton, murs, extension, terrassement. Nous couvrons notamment Les Jardins d'Emy. Le secteur compte des repères comme Château de Foudras, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Charly",
       "maçonnerie Charly",
@@ -20822,12 +20822,12 @@ export const cities: City[] = [
         "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Charly et notamment à Les Jardins d'Emy, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
       },
       {
-        "question": "Quelles précautions pour construire à Charly ?",
-        "answer": "Le secteur de Charly peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "question": "Y a-t-il des contraintes de terrain à Charly ?",
+        "answer": "Oui, il faut composer avec drainage et gestion des eaux pluviales. C'est pourquoi chaque chantier de Charly démarre par une analyse du sol, qui guide le choix des fondations et du drainage."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Charly ?",
-        "answer": "À Charly, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Nos équipes interviennent à Charly pour le terrassement, les fondations, les dalles béton, les murs, les extensions de maison et la rénovation."
       },
       {
         "question": "Proposez-vous un devis gratuit à Charly ?",
@@ -20910,11 +20910,11 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Bougé-Chambalud ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Bougé-Chambalud et notamment à Champ du Perrier, Paillaret et Porte, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Oui, Bougé-Chambalud et notamment à Champ du Perrier, Paillaret et Porte fait pleinement partie de notre zone d'intervention. Notre atelier est à Artas : la visite d'évaluation et le devis sont gratuits."
       },
       {
-        "question": "Quelles précautions pour construire à Bougé-Chambalud ?",
-        "answer": "Le secteur de Bougé-Chambalud peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "question": "Le terrain de Bougé-Chambalud pose-t-il des difficultés pour construire ?",
+        "answer": "Les points de vigilance locaux sont drainage et gestion des eaux pluviales. Nos techniques de gros œuvre en tiennent compte dès la conception, et le devis intègre ces spécificités."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Bougé-Chambalud ?",
@@ -20922,7 +20922,7 @@ export const cities: City[] = [
       },
       {
         "question": "Proposez-vous un devis gratuit à Bougé-Chambalud ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Bougé-Chambalud."
+        "answer": "Oui : demande par téléphone ou via le formulaire, réponse sous 24h et visite sur place offerte à Bougé-Chambalud."
       }
     ]
   },
@@ -20942,7 +20942,7 @@ export const cities: City[] = [
       "longitude": 5.5567
     },
     "description": "Maçonnerie et terrassement à Les Avenières Veyrins-Thuellin (Isère, 7 698 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "DZ Maçonnerie met son savoir-faire au service des habitants de Les Avenières Veyrins-Thuellin (7 698 habitants, Isère) pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Nous couvrons notamment La Platière et Cité Ampère. Le secteur compte des repères comme Croix Saint-Marc et Le pouvoir de Gaïa, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "DZ Maçonnerie met son savoir-faire au service des habitants de Les Avenières Veyrins-Thuellin (7 698 habitants, Isère) pour vos chantiers de maçonnerie : terrasse, clôture, rénovation, terrassement. Nous couvrons notamment La Platière et Cité Ampère. Le secteur compte des repères comme Croix Saint-Marc et Le pouvoir de Gaïa, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Les Avenières Veyrins-Thuellin",
       "maçonnerie Les Avenières Veyrins-Thuellin",
@@ -21003,19 +21003,19 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Les Avenières Veyrins-Thuellin ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Les Avenières Veyrins-Thuellin et notamment à La Platière et Cité Ampère, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Absolument : nous couvrons Les Avenières Veyrins-Thuellin et notamment à La Platière et Cité Ampère comme l'ensemble des communes alentour. Le déplacement pour l'étude de votre projet est offert."
       },
       {
-        "question": "Quelles précautions pour construire à Les Avenières Veyrins-Thuellin ?",
+        "question": "Le terrain de Les Avenières Veyrins-Thuellin pose-t-il des difficultés pour construire ?",
         "answer": "Le secteur de Les Avenières Veyrins-Thuellin peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Les Avenières Veyrins-Thuellin ?",
-        "answer": "À Les Avenières Veyrins-Thuellin, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Les Avenières Veyrins-Thuellin."
       },
       {
         "question": "Proposez-vous un devis gratuit à Les Avenières Veyrins-Thuellin ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Les Avenières Veyrins-Thuellin."
+        "answer": "Bien sûr, l'étude et le chiffrage de votre projet à Les Avenières Veyrins-Thuellin sont entièrement gratuits, sans aucun engagement."
       }
     ]
   },
@@ -21035,7 +21035,7 @@ export const cities: City[] = [
       "longitude": 4.7902
     },
     "description": "Spécialiste gros œuvre à Clonas-sur-Varèze (Isère, 1 535 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "DZ Maçonnerie intervient à Clonas-sur-Varèze (1 535 habitants, Isère) pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Nous couvrons notamment Mas de la Mûrière, Lotissement Bellevue et Lotissement Le Bourbourey. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "DZ Maçonnerie intervient à Clonas-sur-Varèze (1 535 habitants, Isère) pour vos travaux d'extension, de dalle béton, de murs et de terrassement. Nous couvrons notamment Mas de la Mûrière, Lotissement Bellevue et Lotissement Le Bourbourey. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Clonas-sur-Varèze",
       "maçonnerie Clonas-sur-Varèze",
@@ -21094,11 +21094,11 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Clonas-sur-Varèze ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Clonas-sur-Varèze et notamment à Mas de la Mûrière, Lotissement Bellevue et Lotissement Le Bourbourey, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Oui, Clonas-sur-Varèze et notamment à Mas de la Mûrière, Lotissement Bellevue et Lotissement Le Bourbourey fait pleinement partie de notre zone d'intervention. Notre atelier est à Artas : la visite d'évaluation et le devis sont gratuits."
       },
       {
         "question": "Quelles précautions pour construire à Clonas-sur-Varèze ?",
-        "answer": "Le secteur de Clonas-sur-Varèze peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "answer": "Les points de vigilance locaux sont drainage et gestion des eaux pluviales. Nos techniques de gros œuvre en tiennent compte dès la conception, et le devis intègre ces spécificités."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Clonas-sur-Varèze ?",
@@ -21106,7 +21106,7 @@ export const cities: City[] = [
       },
       {
         "question": "Proposez-vous un devis gratuit à Clonas-sur-Varèze ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Clonas-sur-Varèze."
+        "answer": "Oui : demande par téléphone ou via le formulaire, réponse sous 24h et visite sur place offerte à Clonas-sur-Varèze."
       }
     ]
   },
@@ -21192,11 +21192,11 @@ export const cities: City[] = [
       },
       {
         "question": "Quelles précautions pour construire à Givors ?",
-        "answer": "Le secteur de Givors peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "answer": "Oui, il faut composer avec drainage et gestion des eaux pluviales. C'est pourquoi chaque chantier de Givors démarre par une analyse du sol, qui guide le choix des fondations et du drainage."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Givors ?",
-        "answer": "À Givors, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Nos équipes interviennent à Givors pour le terrassement, les fondations, les dalles béton, les murs, les extensions de maison et la rénovation."
       },
       {
         "question": "Proposez-vous un devis gratuit à Givors ?",
@@ -21220,7 +21220,7 @@ export const cities: City[] = [
       "longitude": 5.1076
     },
     "description": "Maçonnerie et terrassement à Balan (Ain, 3 077 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "DZ Maçonnerie met son savoir-faire au service des habitants de Balan (3 077 habitants, Ain) pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Nous couvrons notamment Lotissement Afu de Barbarel. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "DZ Maçonnerie met son savoir-faire au service des habitants de Balan (3 077 habitants, Ain) pour vos chantiers de maçonnerie : terrasse, clôture, rénovation, terrassement. Nous couvrons notamment Lotissement Afu de Barbarel. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Balan",
       "maçonnerie Balan",
@@ -21276,19 +21276,19 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Balan ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Balan et notamment à Lotissement Afu de Barbarel, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Absolument : nous couvrons Balan et notamment à Lotissement Afu de Barbarel comme l'ensemble des communes alentour. Le déplacement pour l'étude de votre projet est offert."
       },
       {
-        "question": "Quelles précautions pour construire à Balan ?",
+        "question": "Le terrain de Balan pose-t-il des difficultés pour construire ?",
         "answer": "Le secteur de Balan peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Balan ?",
-        "answer": "À Balan, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Balan."
       },
       {
         "question": "Proposez-vous un devis gratuit à Balan ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Balan."
+        "answer": "Bien sûr, l'étude et le chiffrage de votre projet à Balan sont entièrement gratuits, sans aucun engagement."
       }
     ]
   },
@@ -21308,7 +21308,7 @@ export const cities: City[] = [
       "longitude": 5.5852
     },
     "description": "Spécialiste gros œuvre à Les Abrets en Dauphiné (Isère, 6 850 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "DZ Maçonnerie intervient à Les Abrets en Dauphiné (6 850 habitants, Isère) pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Le secteur compte des repères comme Croix Bleue et monument aux morts, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "DZ Maçonnerie intervient à Les Abrets en Dauphiné (6 850 habitants, Isère) pour vos travaux d'extension, de dalle béton, de murs et de terrassement. Le secteur compte des repères comme Croix Bleue et monument aux morts, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Les Abrets en Dauphiné",
       "maçonnerie Les Abrets en Dauphiné",
@@ -21365,11 +21365,11 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Les Abrets en Dauphiné ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Les Abrets en Dauphiné, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Oui, Les Abrets en Dauphiné fait pleinement partie de notre zone d'intervention. Notre atelier est à Artas : la visite d'évaluation et le devis sont gratuits."
       },
       {
         "question": "Quelles précautions pour construire à Les Abrets en Dauphiné ?",
-        "answer": "Le secteur de Les Abrets en Dauphiné peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "answer": "Les points de vigilance locaux sont drainage et gestion des eaux pluviales. Nos techniques de gros œuvre en tiennent compte dès la conception, et le devis intègre ces spécificités."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Les Abrets en Dauphiné ?",
@@ -21377,7 +21377,7 @@ export const cities: City[] = [
       },
       {
         "question": "Proposez-vous un devis gratuit à Les Abrets en Dauphiné ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Les Abrets en Dauphiné."
+        "answer": "Oui : demande par téléphone ou via le formulaire, réponse sous 24h et visite sur place offerte à Les Abrets en Dauphiné."
       }
     ]
   },
@@ -21397,7 +21397,7 @@ export const cities: City[] = [
       "longitude": 4.925
     },
     "description": "Spécialiste gros œuvre à Vaulx-en-Velin (Rhône, 53 069 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "DZ Maçonnerie intervient à Vaulx-en-Velin (53 069 habitants, Rhône) pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Nous couvrons notamment La Balme, La Grappinière et La Poudrette. Le secteur compte des repères comme Monument à Missak Manouchian et aux résistants FTP fusillés et Mémorial Nathalie-Gautier, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "DZ Maçonnerie intervient à Vaulx-en-Velin (53 069 habitants, Rhône) pour vos travaux d'extension, de dalle béton, de murs et de terrassement. Nous couvrons notamment La Balme, La Grappinière et La Poudrette. Le secteur compte des repères comme Monument à Missak Manouchian et aux résistants FTP fusillés et Mémorial Nathalie-Gautier, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Vaulx-en-Velin",
       "maçonnerie Vaulx-en-Velin",
@@ -21462,11 +21462,11 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Vaulx-en-Velin ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Vaulx-en-Velin et notamment à La Balme, La Grappinière et La Poudrette, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Oui, Vaulx-en-Velin et notamment à La Balme, La Grappinière et La Poudrette fait pleinement partie de notre zone d'intervention. Notre atelier est à Artas : la visite d'évaluation et le devis sont gratuits."
       },
       {
-        "question": "Quelles précautions pour construire à Vaulx-en-Velin ?",
-        "answer": "Le secteur de Vaulx-en-Velin peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "question": "Y a-t-il des contraintes de terrain à Vaulx-en-Velin ?",
+        "answer": "Les points de vigilance locaux sont drainage et gestion des eaux pluviales. Nos techniques de gros œuvre en tiennent compte dès la conception, et le devis intègre ces spécificités."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Vaulx-en-Velin ?",
@@ -21474,7 +21474,7 @@ export const cities: City[] = [
       },
       {
         "question": "Proposez-vous un devis gratuit à Vaulx-en-Velin ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Vaulx-en-Velin."
+        "answer": "Oui : demande par téléphone ou via le formulaire, réponse sous 24h et visite sur place offerte à Vaulx-en-Velin."
       }
     ]
   },
@@ -21494,7 +21494,7 @@ export const cities: City[] = [
       "longitude": 5.267
     },
     "description": "Artisan maçon à Saint-Vulbas (Ain, 1 247 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "À Saint-Vulbas (1 247 habitants, Ain), DZ Maçonnerie vous accompagne pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Le secteur compte des repères comme Le bac à traille, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "À Saint-Vulbas (1 247 habitants, Ain), DZ Maçonnerie vous accompagne pour tous vos projets de gros œuvre : dalle béton, murs, extension, terrassement. Le secteur compte des repères comme Le bac à traille, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Saint-Vulbas",
       "maçonnerie Saint-Vulbas",
@@ -21548,7 +21548,7 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Saint-Vulbas ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Saint-Vulbas, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Absolument : nous couvrons Saint-Vulbas comme l'ensemble des communes alentour. Le déplacement pour l'étude de votre projet est offert."
       },
       {
         "question": "Quelles précautions pour construire à Saint-Vulbas ?",
@@ -21556,11 +21556,11 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Saint-Vulbas ?",
-        "answer": "À Saint-Vulbas, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Saint-Vulbas."
       },
       {
         "question": "Proposez-vous un devis gratuit à Saint-Vulbas ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Saint-Vulbas."
+        "answer": "Bien sûr, l'étude et le chiffrage de votre projet à Saint-Vulbas sont entièrement gratuits, sans aucun engagement."
       }
     ]
   },
@@ -21580,7 +21580,7 @@ export const cities: City[] = [
       "longitude": 4.7656
     },
     "description": "Artisan maçon à Les Roches-de-Condrieu (Isère, 2 055 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "À Les Roches-de-Condrieu (2 055 habitants, Isère), DZ Maçonnerie vous accompagne pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Nous couvrons notamment L'Église. Le secteur compte des repères comme Camille / la fille, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "À Les Roches-de-Condrieu (2 055 habitants, Isère), DZ Maçonnerie vous accompagne pour tous vos projets de gros œuvre : dalle béton, murs, extension, terrassement. Nous couvrons notamment L'Église. Le secteur compte des repères comme Camille / la fille, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Les Roches-de-Condrieu",
       "maçonnerie Les Roches-de-Condrieu",
@@ -21637,19 +21637,19 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Les Roches-de-Condrieu ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Les Roches-de-Condrieu et notamment à L'Église, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Absolument : nous couvrons Les Roches-de-Condrieu et notamment à L'Église comme l'ensemble des communes alentour. Le déplacement pour l'étude de votre projet est offert."
       },
       {
-        "question": "Quelles précautions pour construire à Les Roches-de-Condrieu ?",
+        "question": "Y a-t-il des contraintes de terrain à Les Roches-de-Condrieu ?",
         "answer": "Le secteur de Les Roches-de-Condrieu peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Les Roches-de-Condrieu ?",
-        "answer": "À Les Roches-de-Condrieu, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Les Roches-de-Condrieu."
       },
       {
         "question": "Proposez-vous un devis gratuit à Les Roches-de-Condrieu ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Les Roches-de-Condrieu."
+        "answer": "Bien sûr, l'étude et le chiffrage de votre projet à Les Roches-de-Condrieu sont entièrement gratuits, sans aucun engagement."
       }
     ]
   },
@@ -21726,11 +21726,11 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Roussillon ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Roussillon, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Oui, Roussillon fait pleinement partie de notre zone d'intervention. Notre atelier est à Artas : la visite d'évaluation et le devis sont gratuits."
       },
       {
-        "question": "Quelles précautions pour construire à Roussillon ?",
-        "answer": "Le secteur de Roussillon peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "question": "Le terrain de Roussillon pose-t-il des difficultés pour construire ?",
+        "answer": "Les points de vigilance locaux sont drainage et gestion des eaux pluviales. Nos techniques de gros œuvre en tiennent compte dès la conception, et le devis intègre ces spécificités."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Roussillon ?",
@@ -21738,7 +21738,7 @@ export const cities: City[] = [
       },
       {
         "question": "Proposez-vous un devis gratuit à Roussillon ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Roussillon."
+        "answer": "Oui : demande par téléphone ou via le formulaire, réponse sous 24h et visite sur place offerte à Roussillon."
       }
     ]
   },
@@ -21758,7 +21758,7 @@ export const cities: City[] = [
       "longitude": 5.4695
     },
     "description": "Maçonnerie et terrassement à Creys-Mépieu (Isère, 1 613 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "DZ Maçonnerie met son savoir-faire au service des habitants de Creys-Mépieu (1 613 habitants, Isère) pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Le secteur compte des repères comme Monument aux Morts et Vierge, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "DZ Maçonnerie met son savoir-faire au service des habitants de Creys-Mépieu (1 613 habitants, Isère) pour vos chantiers de maçonnerie : terrasse, clôture, rénovation, terrassement. Le secteur compte des repères comme Monument aux Morts et Vierge, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Creys-Mépieu",
       "maçonnerie Creys-Mépieu",
@@ -21814,7 +21814,7 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Creys-Mépieu ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Creys-Mépieu, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Absolument : nous couvrons Creys-Mépieu comme l'ensemble des communes alentour. Le déplacement pour l'étude de votre projet est offert."
       },
       {
         "question": "Quelles précautions pour construire à Creys-Mépieu ?",
@@ -21822,11 +21822,11 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Creys-Mépieu ?",
-        "answer": "À Creys-Mépieu, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Creys-Mépieu."
       },
       {
         "question": "Proposez-vous un devis gratuit à Creys-Mépieu ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Creys-Mépieu."
+        "answer": "Bien sûr, l'étude et le chiffrage de votre projet à Creys-Mépieu sont entièrement gratuits, sans aucun engagement."
       }
     ]
   },
@@ -21846,7 +21846,7 @@ export const cities: City[] = [
       "longitude": 5.58
     },
     "description": "Maçonnerie et terrassement à Montferrat (Isère, 1 846 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "DZ Maçonnerie met son savoir-faire au service des habitants de Montferrat (1 846 habitants, Isère) pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Le secteur compte des repères comme Mémorial et Célestin Adolphe Pégoud, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de conception parasismique, que nous intégrons dès l'étude.",
+    "introduction": "DZ Maçonnerie met son savoir-faire au service des habitants de Montferrat (1 846 habitants, Isère) pour vos chantiers de maçonnerie : terrasse, clôture, rénovation, terrassement. Le secteur compte des repères comme Mémorial et Célestin Adolphe Pégoud, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de conception parasismique, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Montferrat",
       "maçonnerie Montferrat",
@@ -21899,11 +21899,11 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Montferrat ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Montferrat, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Oui, Montferrat fait pleinement partie de notre zone d'intervention. Notre atelier est à Artas : la visite d'évaluation et le devis sont gratuits."
       },
       {
-        "question": "Quelles précautions pour construire à Montferrat ?",
-        "answer": "Le secteur de Montferrat peut présenter des enjeux de conception parasismique. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "question": "Le terrain de Montferrat pose-t-il des difficultés pour construire ?",
+        "answer": "Les points de vigilance locaux sont conception parasismique. Nos techniques de gros œuvre en tiennent compte dès la conception, et le devis intègre ces spécificités."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Montferrat ?",
@@ -21911,7 +21911,7 @@ export const cities: City[] = [
       },
       {
         "question": "Proposez-vous un devis gratuit à Montferrat ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Montferrat."
+        "answer": "Oui : demande par téléphone ou via le formulaire, réponse sous 24h et visite sur place offerte à Montferrat."
       }
     ]
   },
@@ -21999,11 +21999,11 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Saint-Clair-du-Rhône ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Saint-Clair-du-Rhône et notamment à Chante-Perdrix, Les Hautes Rembourdes et Les Hauts de Saint-Clair, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Oui, Saint-Clair-du-Rhône et notamment à Chante-Perdrix, Les Hautes Rembourdes et Les Hauts de Saint-Clair fait pleinement partie de notre zone d'intervention. Notre atelier est à Artas : la visite d'évaluation et le devis sont gratuits."
       },
       {
         "question": "Quelles précautions pour construire à Saint-Clair-du-Rhône ?",
-        "answer": "Le secteur de Saint-Clair-du-Rhône peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "answer": "Les points de vigilance locaux sont drainage et gestion des eaux pluviales. Nos techniques de gros œuvre en tiennent compte dès la conception, et le devis intègre ces spécificités."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Saint-Clair-du-Rhône ?",
@@ -22011,7 +22011,7 @@ export const cities: City[] = [
       },
       {
         "question": "Proposez-vous un devis gratuit à Saint-Clair-du-Rhône ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Saint-Clair-du-Rhône."
+        "answer": "Oui : demande par téléphone ou via le formulaire, réponse sous 24h et visite sur place offerte à Saint-Clair-du-Rhône."
       }
     ]
   },
@@ -22031,7 +22031,7 @@ export const cities: City[] = [
       "longitude": 5.0615
     },
     "description": "Spécialiste gros œuvre à Niévroz (Ain, 1 662 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "DZ Maçonnerie intervient à Niévroz (1 662 habitants, Ain) pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Le secteur compte des repères comme Statue de la Vierge, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "DZ Maçonnerie intervient à Niévroz (1 662 habitants, Ain) pour vos travaux d'extension, de dalle béton, de murs et de terrassement. Le secteur compte des repères comme Statue de la Vierge, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Niévroz",
       "maçonnerie Niévroz",
@@ -22089,11 +22089,11 @@ export const cities: City[] = [
       },
       {
         "question": "Quelles précautions pour construire à Niévroz ?",
-        "answer": "Le secteur de Niévroz peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "answer": "Oui, il faut composer avec drainage et gestion des eaux pluviales. C'est pourquoi chaque chantier de Niévroz démarre par une analyse du sol, qui guide le choix des fondations et du drainage."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Niévroz ?",
-        "answer": "À Niévroz, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Nos équipes interviennent à Niévroz pour le terrassement, les fondations, les dalles béton, les murs, les extensions de maison et la rénovation."
       },
       {
         "question": "Proposez-vous un devis gratuit à Niévroz ?",
@@ -22117,7 +22117,7 @@ export const cities: City[] = [
       "longitude": 4.9629
     },
     "description": "Maçonnerie et terrassement à Saint-Sorlin-en-Valloire (Drôme, 2 251 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "DZ Maçonnerie met son savoir-faire au service des habitants de Saint-Sorlin-en-Valloire (2 251 habitants, Drôme) pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Nous couvrons notamment Vers Le Moulin, Petit Bellangeon et Les Rochers. Le secteur compte des repères comme Monument aux Morts et Poire de la Valloire, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "DZ Maçonnerie met son savoir-faire au service des habitants de Saint-Sorlin-en-Valloire (2 251 habitants, Drôme) pour vos chantiers de maçonnerie : terrasse, clôture, rénovation, terrassement. Nous couvrons notamment Vers Le Moulin, Petit Bellangeon et Les Rochers. Le secteur compte des repères comme Monument aux Morts et Poire de la Valloire, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Saint-Sorlin-en-Valloire",
       "maçonnerie Saint-Sorlin-en-Valloire",
@@ -22183,11 +22183,11 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Saint-Sorlin-en-Valloire ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Saint-Sorlin-en-Valloire et notamment à Vers Le Moulin, Petit Bellangeon et Les Rochers, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Oui, Saint-Sorlin-en-Valloire et notamment à Vers Le Moulin, Petit Bellangeon et Les Rochers fait pleinement partie de notre zone d'intervention. Notre atelier est à Artas : la visite d'évaluation et le devis sont gratuits."
       },
       {
-        "question": "Quelles précautions pour construire à Saint-Sorlin-en-Valloire ?",
-        "answer": "Le secteur de Saint-Sorlin-en-Valloire peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "question": "Le terrain de Saint-Sorlin-en-Valloire pose-t-il des difficultés pour construire ?",
+        "answer": "Les points de vigilance locaux sont drainage et gestion des eaux pluviales. Nos techniques de gros œuvre en tiennent compte dès la conception, et le devis intègre ces spécificités."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Saint-Sorlin-en-Valloire ?",
@@ -22195,7 +22195,7 @@ export const cities: City[] = [
       },
       {
         "question": "Proposez-vous un devis gratuit à Saint-Sorlin-en-Valloire ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Saint-Sorlin-en-Valloire."
+        "answer": "Oui : demande par téléphone ou via le formulaire, réponse sous 24h et visite sur place offerte à Saint-Sorlin-en-Valloire."
       }
     ]
   },
@@ -22215,7 +22215,7 @@ export const cities: City[] = [
       "longitude": 4.8598
     },
     "description": "Spécialiste gros œuvre à Agnin (Isère, 1 245 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "DZ Maçonnerie intervient à Agnin (1 245 habitants, Isère) pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Nous couvrons notamment Lotissement Le Clos du Village et Lotissement Les Jonquilles. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "DZ Maçonnerie intervient à Agnin (1 245 habitants, Isère) pour vos travaux d'extension, de dalle béton, de murs et de terrassement. Nous couvrons notamment Lotissement Le Clos du Village et Lotissement Les Jonquilles. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Agnin",
       "maçonnerie Agnin",
@@ -22275,12 +22275,12 @@ export const cities: City[] = [
         "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Agnin et notamment à Lotissement Le Clos du Village et Lotissement Les Jonquilles, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
       },
       {
-        "question": "Quelles précautions pour construire à Agnin ?",
-        "answer": "Le secteur d'Agnin peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "question": "Le terrain d'Agnin pose-t-il des difficultés pour construire ?",
+        "answer": "Oui, il faut composer avec drainage et gestion des eaux pluviales. C'est pourquoi chaque chantier d'Agnin démarre par une analyse du sol, qui guide le choix des fondations et du drainage."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Agnin ?",
-        "answer": "À Agnin, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Nos équipes interviennent à Agnin pour le terrassement, les fondations, les dalles béton, les murs, les extensions de maison et la rénovation."
       },
       {
         "question": "Proposez-vous un devis gratuit à Agnin ?",
@@ -22304,7 +22304,7 @@ export const cities: City[] = [
       "longitude": 5.5884
     },
     "description": "Spécialiste gros œuvre à Chimilin (Isère, 1 417 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "DZ Maçonnerie intervient à Chimilin (1 417 habitants, Isère) pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Nous couvrons notamment centre village et zones pavillonnaires. Le secteur compte des repères comme Monument aux Morts, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "DZ Maçonnerie intervient à Chimilin (1 417 habitants, Isère) pour vos travaux d'extension, de dalle béton, de murs et de terrassement. Nous couvrons notamment centre village et zones pavillonnaires. Le secteur compte des repères comme Monument aux Morts, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Chimilin",
       "maçonnerie Chimilin",
@@ -22366,12 +22366,12 @@ export const cities: City[] = [
         "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Chimilin et notamment à centre village et zones pavillonnaires, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
       },
       {
-        "question": "Quelles précautions pour construire à Chimilin ?",
-        "answer": "Le secteur de Chimilin peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "question": "Le terrain de Chimilin pose-t-il des difficultés pour construire ?",
+        "answer": "Oui, il faut composer avec drainage et gestion des eaux pluviales. C'est pourquoi chaque chantier de Chimilin démarre par une analyse du sol, qui guide le choix des fondations et du drainage."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Chimilin ?",
-        "answer": "À Chimilin, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Nos équipes interviennent à Chimilin pour le terrassement, les fondations, les dalles béton, les murs, les extensions de maison et la rénovation."
       },
       {
         "question": "Proposez-vous un devis gratuit à Chimilin ?",
@@ -22395,7 +22395,7 @@ export const cities: City[] = [
       "longitude": 5.4193
     },
     "description": "Spécialiste gros œuvre à Bouvesse-Quirieu (Isère, 1 524 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "DZ Maçonnerie intervient à Bouvesse-Quirieu (1 524 habitants, Isère) pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Le secteur compte des repères comme Village médiéval et Maison forte de Quirieu, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "DZ Maçonnerie intervient à Bouvesse-Quirieu (1 524 habitants, Isère) pour vos travaux d'extension, de dalle béton, de murs et de terrassement. Le secteur compte des repères comme Village médiéval et Maison forte de Quirieu, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Bouvesse-Quirieu",
       "maçonnerie Bouvesse-Quirieu",
@@ -22455,11 +22455,11 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Bouvesse-Quirieu ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Bouvesse-Quirieu, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Oui, Bouvesse-Quirieu fait pleinement partie de notre zone d'intervention. Notre atelier est à Artas : la visite d'évaluation et le devis sont gratuits."
       },
       {
-        "question": "Quelles précautions pour construire à Bouvesse-Quirieu ?",
-        "answer": "Le secteur de Bouvesse-Quirieu peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "question": "Y a-t-il des contraintes de terrain à Bouvesse-Quirieu ?",
+        "answer": "Les points de vigilance locaux sont drainage et gestion des eaux pluviales. Nos techniques de gros œuvre en tiennent compte dès la conception, et le devis intègre ces spécificités."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Bouvesse-Quirieu ?",
@@ -22467,7 +22467,7 @@ export const cities: City[] = [
       },
       {
         "question": "Proposez-vous un devis gratuit à Bouvesse-Quirieu ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Bouvesse-Quirieu."
+        "answer": "Oui : demande par téléphone ou via le formulaire, réponse sous 24h et visite sur place offerte à Bouvesse-Quirieu."
       }
     ]
   },
@@ -22487,7 +22487,7 @@ export const cities: City[] = [
       "longitude": 4.7516
     },
     "description": "Spécialiste gros œuvre à Condrieu (Rhône, 3 957 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "DZ Maçonnerie intervient à Condrieu (3 957 habitants, Rhône) pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Nous couvrons notamment Croyez, La Clé et Bassenon. Le secteur compte des repères comme Wine and Ride Condrieu, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "DZ Maçonnerie intervient à Condrieu (3 957 habitants, Rhône) pour vos travaux d'extension, de dalle béton, de murs et de terrassement. Nous couvrons notamment Croyez, La Clé et Bassenon. Le secteur compte des repères comme Wine and Ride Condrieu, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Condrieu",
       "maçonnerie Condrieu",
@@ -22553,12 +22553,12 @@ export const cities: City[] = [
         "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Condrieu et notamment à Croyez, La Clé et Bassenon, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
       },
       {
-        "question": "Quelles précautions pour construire à Condrieu ?",
-        "answer": "Le secteur de Condrieu peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "question": "Y a-t-il des contraintes de terrain à Condrieu ?",
+        "answer": "Oui, il faut composer avec drainage et gestion des eaux pluviales. C'est pourquoi chaque chantier de Condrieu démarre par une analyse du sol, qui guide le choix des fondations et du drainage."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Condrieu ?",
-        "answer": "À Condrieu, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Nos équipes interviennent à Condrieu pour le terrassement, les fondations, les dalles béton, les murs, les extensions de maison et la rénovation."
       },
       {
         "question": "Proposez-vous un devis gratuit à Condrieu ?",
@@ -22582,7 +22582,7 @@ export const cities: City[] = [
       "longitude": 5.0189
     },
     "description": "Artisan maçon à Thil (Ain, 1 261 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "À Thil (1 261 habitants, Ain), DZ Maçonnerie vous accompagne pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Le secteur compte des repères comme Le Coq, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "À Thil (1 261 habitants, Ain), DZ Maçonnerie vous accompagne pour tous vos projets de gros œuvre : dalle béton, murs, extension, terrassement. Le secteur compte des repères comme Le Coq, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Thil",
       "maçonnerie Thil",
@@ -22637,7 +22637,7 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Thil ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Thil, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Absolument : nous couvrons Thil comme l'ensemble des communes alentour. Le déplacement pour l'étude de votre projet est offert."
       },
       {
         "question": "Quelles précautions pour construire à Thil ?",
@@ -22645,11 +22645,11 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Thil ?",
-        "answer": "À Thil, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Thil."
       },
       {
         "question": "Proposez-vous un devis gratuit à Thil ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Thil."
+        "answer": "Bien sûr, l'étude et le chiffrage de votre projet à Thil sont entièrement gratuits, sans aucun engagement."
       }
     ]
   },
@@ -22669,7 +22669,7 @@ export const cities: City[] = [
       "longitude": 4.7401
     },
     "description": "Artisan maçon à Les Haies (Rhône, 723 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "À Les Haies (723 habitants, Rhône), DZ Maçonnerie vous accompagne pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Nous couvrons notamment Champs Blancs, Les Varines et Champallier. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "À Les Haies (723 habitants, Rhône), DZ Maçonnerie vous accompagne pour tous vos projets de gros œuvre : dalle béton, murs, extension, terrassement. Nous couvrons notamment Champs Blancs, Les Varines et Champallier. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Les Haies",
       "maçonnerie Les Haies",
@@ -22727,7 +22727,7 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Les Haies ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Les Haies et notamment à Champs Blancs, Les Varines et Champallier, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Absolument : nous couvrons Les Haies et notamment à Champs Blancs, Les Varines et Champallier comme l'ensemble des communes alentour. Le déplacement pour l'étude de votre projet est offert."
       },
       {
         "question": "Quelles précautions pour construire à Les Haies ?",
@@ -22735,11 +22735,11 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Les Haies ?",
-        "answer": "À Les Haies, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Les Haies."
       },
       {
         "question": "Proposez-vous un devis gratuit à Les Haies ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Les Haies."
+        "answer": "Bien sûr, l'étude et le chiffrage de votre projet à Les Haies sont entièrement gratuits, sans aucun engagement."
       }
     ]
   },
@@ -22819,11 +22819,11 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Chirens ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Chirens et notamment à Lotissement Les Mas de la Pagère, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Oui, Chirens et notamment à Lotissement Les Mas de la Pagère fait pleinement partie de notre zone d'intervention. Notre atelier est à Artas : la visite d'évaluation et le devis sont gratuits."
       },
       {
         "question": "Quelles précautions pour construire à Chirens ?",
-        "answer": "Le secteur de Chirens peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "answer": "Les points de vigilance locaux sont drainage et gestion des eaux pluviales. Nos techniques de gros œuvre en tiennent compte dès la conception, et le devis intègre ces spécificités."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Chirens ?",
@@ -22831,7 +22831,7 @@ export const cities: City[] = [
       },
       {
         "question": "Proposez-vous un devis gratuit à Chirens ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Chirens."
+        "answer": "Oui : demande par téléphone ou via le formulaire, réponse sous 24h et visite sur place offerte à Chirens."
       }
     ]
   },
@@ -22851,7 +22851,7 @@ export const cities: City[] = [
       "longitude": 5.2547
     },
     "description": "Spécialiste gros œuvre à Roybon (Isère, 1 091 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "DZ Maçonnerie intervient à Roybon (1 091 habitants, Isère) pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Le secteur compte des repères comme Statue de la Liberté, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "DZ Maçonnerie intervient à Roybon (1 091 habitants, Isère) pour vos travaux d'extension, de dalle béton, de murs et de terrassement. Le secteur compte des repères comme Statue de la Liberté, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Roybon",
       "maçonnerie Roybon",
@@ -22909,12 +22909,12 @@ export const cities: City[] = [
         "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Roybon, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
       },
       {
-        "question": "Quelles précautions pour construire à Roybon ?",
-        "answer": "Le secteur de Roybon peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "question": "Y a-t-il des contraintes de terrain à Roybon ?",
+        "answer": "Oui, il faut composer avec drainage et gestion des eaux pluviales. C'est pourquoi chaque chantier de Roybon démarre par une analyse du sol, qui guide le choix des fondations et du drainage."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Roybon ?",
-        "answer": "À Roybon, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Nos équipes interviennent à Roybon pour le terrassement, les fondations, les dalles béton, les murs, les extensions de maison et la rénovation."
       },
       {
         "question": "Proposez-vous un devis gratuit à Roybon ?",
@@ -22938,7 +22938,7 @@ export const cities: City[] = [
       "longitude": 4.8112
     },
     "description": "Maçonnerie et terrassement à Oullins-Pierre-Bénite (Rhône, 38 168 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "DZ Maçonnerie met son savoir-faire au service des habitants d'Oullins-Pierre-Bénite (38 168 habitants, Rhône) pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Nous couvrons notamment La Glacière, Le Revoyet et La Buissière. Le secteur compte des repères comme Maison de la Cadière et Château le Petit-Perron, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "DZ Maçonnerie met son savoir-faire au service des habitants d'Oullins-Pierre-Bénite (38 168 habitants, Rhône) pour vos chantiers de maçonnerie : terrasse, clôture, rénovation, terrassement. Nous couvrons notamment La Glacière, Le Revoyet et La Buissière. Le secteur compte des repères comme Maison de la Cadière et Château le Petit-Perron, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Oullins-Pierre-Bénite",
       "maçonnerie Oullins-Pierre-Bénite",
@@ -23008,11 +23008,11 @@ export const cities: City[] = [
       },
       {
         "question": "Quelles précautions pour construire à Oullins-Pierre-Bénite ?",
-        "answer": "Le secteur d'Oullins-Pierre-Bénite peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "answer": "Oui, il faut composer avec drainage et gestion des eaux pluviales. C'est pourquoi chaque chantier d'Oullins-Pierre-Bénite démarre par une analyse du sol, qui guide le choix des fondations et du drainage."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Oullins-Pierre-Bénite ?",
-        "answer": "À Oullins-Pierre-Bénite, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Nos équipes interviennent à Oullins-Pierre-Bénite pour le terrassement, les fondations, les dalles béton, les murs, les extensions de maison et la rénovation."
       },
       {
         "question": "Proposez-vous un devis gratuit à Oullins-Pierre-Bénite ?",
@@ -23036,7 +23036,7 @@ export const cities: City[] = [
       "longitude": 5.2066
     },
     "description": "Maçonnerie et terrassement à Saint-Jean-de-Niost (Ain, 1 866 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "DZ Maçonnerie met son savoir-faire au service des habitants de Saint-Jean-de-Niost (1 866 habitants, Ain) pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Le secteur compte des repères comme Château Marcel et Monument aux morts, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "DZ Maçonnerie met son savoir-faire au service des habitants de Saint-Jean-de-Niost (1 866 habitants, Ain) pour vos chantiers de maçonnerie : terrasse, clôture, rénovation, terrassement. Le secteur compte des repères comme Château Marcel et Monument aux morts, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Saint-Jean-de-Niost",
       "maçonnerie Saint-Jean-de-Niost",
@@ -23094,11 +23094,11 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Saint-Jean-de-Niost ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Saint-Jean-de-Niost, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Oui, Saint-Jean-de-Niost fait pleinement partie de notre zone d'intervention. Notre atelier est à Artas : la visite d'évaluation et le devis sont gratuits."
       },
       {
-        "question": "Quelles précautions pour construire à Saint-Jean-de-Niost ?",
-        "answer": "Le secteur de Saint-Jean-de-Niost peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "question": "Y a-t-il des contraintes de terrain à Saint-Jean-de-Niost ?",
+        "answer": "Les points de vigilance locaux sont drainage et gestion des eaux pluviales. Nos techniques de gros œuvre en tiennent compte dès la conception, et le devis intègre ces spécificités."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Saint-Jean-de-Niost ?",
@@ -23106,7 +23106,7 @@ export const cities: City[] = [
       },
       {
         "question": "Proposez-vous un devis gratuit à Saint-Jean-de-Niost ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Saint-Jean-de-Niost."
+        "answer": "Oui : demande par téléphone ou via le formulaire, réponse sous 24h et visite sur place offerte à Saint-Jean-de-Niost."
       }
     ]
   },
@@ -23126,7 +23126,7 @@ export const cities: City[] = [
       "longitude": 5.5907
     },
     "description": "Spécialiste gros œuvre à Granieu (Isère, 519 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "DZ Maçonnerie intervient à Granieu (519 habitants, Isère) pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Le secteur compte des repères comme Monument aux Morts, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "DZ Maçonnerie intervient à Granieu (519 habitants, Isère) pour vos travaux d'extension, de dalle béton, de murs et de terrassement. Le secteur compte des repères comme Monument aux Morts, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Granieu",
       "maçonnerie Granieu",
@@ -23183,11 +23183,11 @@ export const cities: City[] = [
       },
       {
         "question": "Quelles précautions pour construire à Granieu ?",
-        "answer": "Le secteur de Granieu peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "answer": "Oui, il faut composer avec drainage et gestion des eaux pluviales. C'est pourquoi chaque chantier de Granieu démarre par une analyse du sol, qui guide le choix des fondations et du drainage."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Granieu ?",
-        "answer": "À Granieu, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Nos équipes interviennent à Granieu pour le terrassement, les fondations, les dalles béton, les murs, les extensions de maison et la rénovation."
       },
       {
         "question": "Proposez-vous un devis gratuit à Granieu ?",
@@ -23276,11 +23276,11 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Hauterives ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Hauterives et notamment à Sarasinière, Les Valois et Les Roches, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Oui, Hauterives et notamment à Sarasinière, Les Valois et Les Roches fait pleinement partie de notre zone d'intervention. Notre atelier est à Artas : la visite d'évaluation et le devis sont gratuits."
       },
       {
-        "question": "Quelles précautions pour construire à Hauterives ?",
-        "answer": "Le secteur d'Hauterives peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "question": "Y a-t-il des contraintes de terrain à Hauterives ?",
+        "answer": "Les points de vigilance locaux sont drainage et gestion des eaux pluviales. Nos techniques de gros œuvre en tiennent compte dès la conception, et le devis intègre ces spécificités."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Hauterives ?",
@@ -23288,7 +23288,7 @@ export const cities: City[] = [
       },
       {
         "question": "Proposez-vous un devis gratuit à Hauterives ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Hauterives."
+        "answer": "Oui : demande par téléphone ou via le formulaire, réponse sous 24h et visite sur place offerte à Hauterives."
       }
     ]
   },
@@ -23364,19 +23364,19 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Vourles ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Vourles, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Absolument : nous couvrons Vourles comme l'ensemble des communes alentour. Le déplacement pour l'étude de votre projet est offert."
       },
       {
-        "question": "Quelles précautions pour construire à Vourles ?",
+        "question": "Le terrain de Vourles pose-t-il des difficultés pour construire ?",
         "answer": "Le secteur de Vourles peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Vourles ?",
-        "answer": "À Vourles, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Vourles."
       },
       {
         "question": "Proposez-vous un devis gratuit à Vourles ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Vourles."
+        "answer": "Bien sûr, l'étude et le chiffrage de votre projet à Vourles sont entièrement gratuits, sans aucun engagement."
       }
     ]
   },
@@ -23396,7 +23396,7 @@ export const cities: City[] = [
       "longitude": 4.7929
     },
     "description": "Spécialiste gros œuvre à Saint-Genis-Laval (Rhône, 21 212 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "DZ Maçonnerie intervient à Saint-Genis-Laval (21 212 habitants, Rhône) pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Nous couvrons notamment Beaunant. Le secteur compte des repères comme Fort de Côte-Lorette et Château de Lumagne, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "DZ Maçonnerie intervient à Saint-Genis-Laval (21 212 habitants, Rhône) pour vos travaux d'extension, de dalle béton, de murs et de terrassement. Nous couvrons notamment Beaunant. Le secteur compte des repères comme Fort de Côte-Lorette et Château de Lumagne, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Saint-Genis-Laval",
       "maçonnerie Saint-Genis-Laval",
@@ -23458,12 +23458,12 @@ export const cities: City[] = [
         "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Saint-Genis-Laval et notamment à Beaunant, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
       },
       {
-        "question": "Quelles précautions pour construire à Saint-Genis-Laval ?",
-        "answer": "Le secteur de Saint-Genis-Laval peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "question": "Le terrain de Saint-Genis-Laval pose-t-il des difficultés pour construire ?",
+        "answer": "Oui, il faut composer avec drainage et gestion des eaux pluviales. C'est pourquoi chaque chantier de Saint-Genis-Laval démarre par une analyse du sol, qui guide le choix des fondations et du drainage."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Saint-Genis-Laval ?",
-        "answer": "À Saint-Genis-Laval, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Nos équipes interviennent à Saint-Genis-Laval pour le terrassement, les fondations, les dalles béton, les murs, les extensions de maison et la rénovation."
       },
       {
         "question": "Proposez-vous un devis gratuit à Saint-Genis-Laval ?",
@@ -23487,7 +23487,7 @@ export const cities: City[] = [
       "longitude": 4.8898
     },
     "description": "Artisan maçon à Villeurbanne (Rhône, 163 684 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "À Villeurbanne (163 684 habitants, Rhône), DZ Maçonnerie vous accompagne pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Nous couvrons notamment Buers, Charmettes et Charpennes. Le secteur compte des repères comme Institut d'art contemporain et Musée de l'informatique du centre de calcul de l'IN2P3, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "À Villeurbanne (163 684 habitants, Rhône), DZ Maçonnerie vous accompagne pour tous vos projets de gros œuvre : dalle béton, murs, extension, terrassement. Nous couvrons notamment Buers, Charmettes et Charpennes. Le secteur compte des repères comme Institut d'art contemporain et Musée de l'informatique du centre de calcul de l'IN2P3, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Villeurbanne",
       "maçonnerie Villeurbanne",
@@ -23553,19 +23553,19 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Villeurbanne ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Villeurbanne et notamment à Buers, Charmettes et Charpennes, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Absolument : nous couvrons Villeurbanne et notamment à Buers, Charmettes et Charpennes comme l'ensemble des communes alentour. Le déplacement pour l'étude de votre projet est offert."
       },
       {
-        "question": "Quelles précautions pour construire à Villeurbanne ?",
+        "question": "Le terrain de Villeurbanne pose-t-il des difficultés pour construire ?",
         "answer": "Le secteur de Villeurbanne peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Villeurbanne ?",
-        "answer": "À Villeurbanne, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Villeurbanne."
       },
       {
         "question": "Proposez-vous un devis gratuit à Villeurbanne ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Villeurbanne."
+        "answer": "Bien sûr, l'étude et le chiffrage de votre projet à Villeurbanne sont entièrement gratuits, sans aucun engagement."
       }
     ]
   },
@@ -23585,7 +23585,7 @@ export const cities: City[] = [
       "longitude": 5.5422
     },
     "description": "Spécialiste gros œuvre à Brangues (Isère, 614 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "DZ Maçonnerie intervient à Brangues (614 habitants, Isère) pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Nous couvrons notamment Brieux. Le secteur compte des repères comme Tombe de Paul Claudel et Monument aux Morts, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "DZ Maçonnerie intervient à Brangues (614 habitants, Isère) pour vos travaux d'extension, de dalle béton, de murs et de terrassement. Nous couvrons notamment Brieux. Le secteur compte des repères comme Tombe de Paul Claudel et Monument aux Morts, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Brangues",
       "maçonnerie Brangues",
@@ -23642,7 +23642,7 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Brangues ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Brangues et notamment à Brieux, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Absolument : nous couvrons Brangues et notamment à Brieux comme l'ensemble des communes alentour. Le déplacement pour l'étude de votre projet est offert."
       },
       {
         "question": "Quelles précautions pour construire à Brangues ?",
@@ -23650,11 +23650,11 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Brangues ?",
-        "answer": "À Brangues, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Brangues."
       },
       {
         "question": "Proposez-vous un devis gratuit à Brangues ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Brangues."
+        "answer": "Bien sûr, l'étude et le chiffrage de votre projet à Brangues sont entièrement gratuits, sans aucun engagement."
       }
     ]
   },
@@ -23674,7 +23674,7 @@ export const cities: City[] = [
       "longitude": 4.752
     },
     "description": "Spécialiste gros œuvre à Montagny (Rhône, 3 218 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "DZ Maçonnerie intervient à Montagny (3 218 habitants, Rhône) pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Nous couvrons notamment Montagny le Bas. Le secteur compte des repères comme Vieille tour, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "DZ Maçonnerie intervient à Montagny (3 218 habitants, Rhône) pour vos travaux d'extension, de dalle béton, de murs et de terrassement. Nous couvrons notamment Montagny le Bas. Le secteur compte des repères comme Vieille tour, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Montagny",
       "maçonnerie Montagny",
@@ -23732,19 +23732,19 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Montagny ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Montagny et notamment à Montagny le Bas, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Absolument : nous couvrons Montagny et notamment à Montagny le Bas comme l'ensemble des communes alentour. Le déplacement pour l'étude de votre projet est offert."
       },
       {
-        "question": "Quelles précautions pour construire à Montagny ?",
+        "question": "Le terrain de Montagny pose-t-il des difficultés pour construire ?",
         "answer": "Le secteur de Montagny peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Montagny ?",
-        "answer": "À Montagny, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Montagny."
       },
       {
         "question": "Proposez-vous un devis gratuit à Montagny ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Montagny."
+        "answer": "Bien sûr, l'étude et le chiffrage de votre projet à Montagny sont entièrement gratuits, sans aucun engagement."
       }
     ]
   },
@@ -23764,7 +23764,7 @@ export const cities: City[] = [
       "longitude": 5.5424
     },
     "description": "Maçonnerie et terrassement à La Murette (Isère, 1 836 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "DZ Maçonnerie met son savoir-faire au service des habitants de La Murette (1 836 habitants, Isère) pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Nous couvrons notamment Lotissement Plein Sud. Le secteur compte des repères comme Croix, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de conception parasismique, que nous intégrons dès l'étude.",
+    "introduction": "DZ Maçonnerie met son savoir-faire au service des habitants de La Murette (1 836 habitants, Isère) pour vos chantiers de maçonnerie : terrasse, clôture, rénovation, terrassement. Nous couvrons notamment Lotissement Plein Sud. Le secteur compte des repères comme Croix, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de conception parasismique, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon La Murette",
       "maçonnerie La Murette",
@@ -23818,19 +23818,19 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à La Murette ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de La Murette et notamment à Lotissement Plein Sud, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Absolument : nous couvrons La Murette et notamment à Lotissement Plein Sud comme l'ensemble des communes alentour. Le déplacement pour l'étude de votre projet est offert."
       },
       {
-        "question": "Quelles précautions pour construire à La Murette ?",
+        "question": "Y a-t-il des contraintes de terrain à La Murette ?",
         "answer": "Le secteur de La Murette peut présenter des enjeux de conception parasismique. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à La Murette ?",
-        "answer": "À La Murette, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à La Murette."
       },
       {
         "question": "Proposez-vous un devis gratuit à La Murette ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à La Murette."
+        "answer": "Bien sûr, l'étude et le chiffrage de votre projet à La Murette sont entièrement gratuits, sans aucun engagement."
       }
     ]
   },
@@ -23850,7 +23850,7 @@ export const cities: City[] = [
       "longitude": 4.7294
     },
     "description": "Artisan maçon à Échalas (Rhône, 1 994 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "À Échalas (1 994 habitants, Rhône), DZ Maçonnerie vous accompagne pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Nous couvrons notamment Gorgeat, Saint-Martin et La Madone. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "À Échalas (1 994 habitants, Rhône), DZ Maçonnerie vous accompagne pour tous vos projets de gros œuvre : dalle béton, murs, extension, terrassement. Nous couvrons notamment Gorgeat, Saint-Martin et La Madone. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Échalas",
       "maçonnerie Échalas",
@@ -23908,11 +23908,11 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Échalas ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Échalas et notamment à Gorgeat, Saint-Martin et La Madone, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Oui, Échalas et notamment à Gorgeat, Saint-Martin et La Madone fait pleinement partie de notre zone d'intervention. Notre atelier est à Artas : la visite d'évaluation et le devis sont gratuits."
       },
       {
-        "question": "Quelles précautions pour construire à Échalas ?",
-        "answer": "Le secteur d'Échalas peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "question": "Y a-t-il des contraintes de terrain à Échalas ?",
+        "answer": "Les points de vigilance locaux sont drainage et gestion des eaux pluviales. Nos techniques de gros œuvre en tiennent compte dès la conception, et le devis intègre ces spécificités."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Échalas ?",
@@ -23920,7 +23920,7 @@ export const cities: City[] = [
       },
       {
         "question": "Proposez-vous un devis gratuit à Échalas ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Échalas."
+        "answer": "Oui : demande par téléphone ou via le formulaire, réponse sous 24h et visite sur place offerte à Échalas."
       }
     ]
   },
@@ -23940,7 +23940,7 @@ export const cities: City[] = [
       "longitude": 5.524
     },
     "description": "Artisan maçon à Réaumont (Isère, 1 019 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "À Réaumont (1 019 habitants, Isère), DZ Maçonnerie vous accompagne pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Le secteur compte des repères comme Monument Aux Morts, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "À Réaumont (1 019 habitants, Isère), DZ Maçonnerie vous accompagne pour tous vos projets de gros œuvre : dalle béton, murs, extension, terrassement. Le secteur compte des repères comme Monument Aux Morts, dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Réaumont",
       "maçonnerie Réaumont",
@@ -23997,12 +23997,12 @@ export const cities: City[] = [
         "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Réaumont, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
       },
       {
-        "question": "Quelles précautions pour construire à Réaumont ?",
-        "answer": "Le secteur de Réaumont peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "question": "Le terrain de Réaumont pose-t-il des difficultés pour construire ?",
+        "answer": "Oui, il faut composer avec drainage et gestion des eaux pluviales. C'est pourquoi chaque chantier de Réaumont démarre par une analyse du sol, qui guide le choix des fondations et du drainage."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Réaumont ?",
-        "answer": "À Réaumont, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Nos équipes interviennent à Réaumont pour le terrassement, les fondations, les dalles béton, les murs, les extensions de maison et la rénovation."
       },
       {
         "question": "Proposez-vous un devis gratuit à Réaumont ?",
@@ -24080,19 +24080,19 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Vérin ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Vérin, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Absolument : nous couvrons Vérin comme l'ensemble des communes alentour. Le déplacement pour l'étude de votre projet est offert."
       },
       {
-        "question": "Quelles précautions pour construire à Vérin ?",
+        "question": "Le terrain de Vérin pose-t-il des difficultés pour construire ?",
         "answer": "Le secteur de Vérin peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Vérin ?",
-        "answer": "À Vérin, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Vérin."
       },
       {
         "question": "Proposez-vous un devis gratuit à Vérin ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Vérin."
+        "answer": "Bien sûr, l'étude et le chiffrage de votre projet à Vérin sont entièrement gratuits, sans aucun engagement."
       }
     ]
   },
@@ -24168,7 +24168,7 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Renage ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Renage et notamment à Lotissement L'Amandier, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Absolument : nous couvrons Renage et notamment à Lotissement L'Amandier comme l'ensemble des communes alentour. Le déplacement pour l'étude de votre projet est offert."
       },
       {
         "question": "Quelles précautions pour construire à Renage ?",
@@ -24176,11 +24176,11 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Renage ?",
-        "answer": "À Renage, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Renage."
       },
       {
         "question": "Proposez-vous un devis gratuit à Renage ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Renage."
+        "answer": "Bien sûr, l'étude et le chiffrage de votre projet à Renage sont entièrement gratuits, sans aucun engagement."
       }
     ]
   },
@@ -24200,7 +24200,7 @@ export const cities: City[] = [
       "longitude": 4.7774
     },
     "description": "Maçonnerie et terrassement à Saint-Maurice-l'Exil (Isère, 6 889 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "DZ Maçonnerie met son savoir-faire au service des habitants de Saint-Maurice-l'Exil (6 889 habitants, Isère) pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Nous couvrons notamment Lotissement Beau Soleil et Les Craies des Avenières. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "DZ Maçonnerie met son savoir-faire au service des habitants de Saint-Maurice-l'Exil (6 889 habitants, Isère) pour vos chantiers de maçonnerie : terrasse, clôture, rénovation, terrassement. Nous couvrons notamment Lotissement Beau Soleil et Les Craies des Avenières. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Saint-Maurice-l'Exil",
       "maçonnerie Saint-Maurice-l'Exil",
@@ -24253,7 +24253,7 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Saint-Maurice-l'Exil ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Saint-Maurice-l'Exil et notamment à Lotissement Beau Soleil et Les Craies des Avenières, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Absolument : nous couvrons Saint-Maurice-l'Exil et notamment à Lotissement Beau Soleil et Les Craies des Avenières comme l'ensemble des communes alentour. Le déplacement pour l'étude de votre projet est offert."
       },
       {
         "question": "Quelles précautions pour construire à Saint-Maurice-l'Exil ?",
@@ -24261,11 +24261,11 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Saint-Maurice-l'Exil ?",
-        "answer": "À Saint-Maurice-l'Exil, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Saint-Maurice-l'Exil."
       },
       {
         "question": "Proposez-vous un devis gratuit à Saint-Maurice-l'Exil ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Saint-Maurice-l'Exil."
+        "answer": "Bien sûr, l'étude et le chiffrage de votre projet à Saint-Maurice-l'Exil sont entièrement gratuits, sans aucun engagement."
       }
     ]
   },
@@ -24285,7 +24285,7 @@ export const cities: City[] = [
       "longitude": 5.2515
     },
     "description": "Spécialiste gros œuvre à Blyes (Ain, 1 401 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "DZ Maçonnerie intervient à Blyes (1 401 habitants, Ain) pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Le secteur compte des repères comme Memorial place de la mairie., dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "DZ Maçonnerie intervient à Blyes (1 401 habitants, Ain) pour vos travaux d'extension, de dalle béton, de murs et de terrassement. Le secteur compte des repères comme Memorial place de la mairie., dont nos chantiers respectent le caractère local. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Blyes",
       "maçonnerie Blyes",
@@ -24339,11 +24339,11 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Blyes ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Blyes, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Oui, Blyes fait pleinement partie de notre zone d'intervention. Notre atelier est à Artas : la visite d'évaluation et le devis sont gratuits."
       },
       {
-        "question": "Quelles précautions pour construire à Blyes ?",
-        "answer": "Le secteur de Blyes peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "question": "Le terrain de Blyes pose-t-il des difficultés pour construire ?",
+        "answer": "Les points de vigilance locaux sont drainage et gestion des eaux pluviales. Nos techniques de gros œuvre en tiennent compte dès la conception, et le devis intègre ces spécificités."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Blyes ?",
@@ -24351,7 +24351,7 @@ export const cities: City[] = [
       },
       {
         "question": "Proposez-vous un devis gratuit à Blyes ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Blyes."
+        "answer": "Oui : demande par téléphone ou via le formulaire, réponse sous 24h et visite sur place offerte à Blyes."
       }
     ]
   },
@@ -24371,7 +24371,7 @@ export const cities: City[] = [
       "longitude": 4.755
     },
     "description": "Spécialiste gros œuvre à Saint-Alban-du-Rhône (Isère, 965 hab.) : rénovation, extension, dalle et terrasse béton, murs et terrassement. Devis gratuit, garantie décennale.",
-    "introduction": "DZ Maçonnerie intervient à Saint-Alban-du-Rhône (965 habitants, Isère) pour vos travaux de maçonnerie générale, terrassement, extension et rénovation. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
+    "introduction": "DZ Maçonnerie intervient à Saint-Alban-du-Rhône (965 habitants, Isère) pour vos travaux d'extension, de dalle béton, de murs et de terrassement. Les terrains locaux présentent des enjeux de drainage et gestion des eaux pluviales, que nous intégrons dès l'étude.",
     "keywords": [
       "maçon Saint-Alban-du-Rhône",
       "maçonnerie Saint-Alban-du-Rhône",
@@ -24423,11 +24423,11 @@ export const cities: City[] = [
     "faq": [
       {
         "question": "Intervenez-vous à Saint-Alban-du-Rhône ?",
-        "answer": "Oui, DZ Maçonnerie intervient dans toute la commune de Saint-Alban-du-Rhône, ainsi que dans les communes voisines. Basés à Artas, nous nous déplaçons gratuitement pour évaluer votre projet."
+        "answer": "Oui, Saint-Alban-du-Rhône fait pleinement partie de notre zone d'intervention. Notre atelier est à Artas : la visite d'évaluation et le devis sont gratuits."
       },
       {
         "question": "Quelles précautions pour construire à Saint-Alban-du-Rhône ?",
-        "answer": "Le secteur de Saint-Alban-du-Rhône peut présenter des enjeux de drainage et gestion des eaux pluviales. Nous adaptons les fondations, le drainage et la mise en œuvre du béton en conséquence, après étude du terrain."
+        "answer": "Les points de vigilance locaux sont drainage et gestion des eaux pluviales. Nos techniques de gros œuvre en tiennent compte dès la conception, et le devis intègre ces spécificités."
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Saint-Alban-du-Rhône ?",
@@ -24435,7 +24435,7 @@ export const cities: City[] = [
       },
       {
         "question": "Proposez-vous un devis gratuit à Saint-Alban-du-Rhône ?",
-        "answer": "Oui, le devis est gratuit et sans engagement. Nous vous répondons sous 24h pour tout projet à Saint-Alban-du-Rhône."
+        "answer": "Oui : demande par téléphone ou via le formulaire, réponse sous 24h et visite sur place offerte à Saint-Alban-du-Rhône."
       }
     ]
   }
