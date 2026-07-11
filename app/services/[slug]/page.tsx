@@ -199,30 +199,53 @@ export default async function ServicePage(props: ServicePageProps) {
             </div>
           </div>
 
-          {/* Cities Section */}
-          <div className="mb-16">
-            <h2 className="text-2xl font-bold text-gray-900 mb-8">
-              Intervention dans votre région
-            </h2>
-            <p className="text-gray-600 mb-6">
-              Nous intervenons dans plus de {cities.length} villes autour
-              d'Artas et Bourgoin-Jallieu
-            </p>
-            <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
-              {cities.slice(0, 9).map((city) => (
-                <Link
-                  key={city.slug}
-                  href={`/services/${service.slug}/${city.slug}`}
-                  className="p-3 border border-gray-200 rounded-lg hover:border-primary-600 hover:bg-primary-50 transition-all font-medium text-gray-700 hover:text-primary-600 text-center"
-                >
-                  {city.name}
-                </Link>
-              ))}
+          {/* Cities Section — même style que « Zones d'intervention » de l'accueil */}
+          <div className="mb-16 rounded-3xl bg-gray-900 p-8 text-white md:p-12">
+            <div className="mb-10 text-center">
+              <h2 className="mb-4 text-3xl font-black">
+                Intervention dans votre région
+              </h2>
+              <p className="mx-auto max-w-3xl text-base text-gray-300">
+                Nous réalisons vos travaux de {service.name.toLowerCase()} dans
+                plus de {cities.length} communes autour d&apos;Artas et
+                Bourgoin-Jallieu.
+              </p>
+            </div>
+
+            <div className="grid gap-6 md:grid-cols-2 xl:grid-cols-3">
+              {cities
+                .filter((city) => city.featured)
+                .slice(0, 9)
+                .map((city) => (
+                  <Link
+                    key={city.slug}
+                    href={`/services/${service.slug}/${city.slug}`}
+                    className="rounded-2xl border border-white/10 bg-white/5 p-6 transition hover:border-primary-500 hover:bg-white/10"
+                  >
+                    <div className="flex items-center justify-between">
+                      <div>
+                        <span className="block text-base font-semibold text-white">
+                          {city.name}
+                        </span>
+
+                        <span className="mt-1 block text-sm text-gray-400">
+                          {city.zipCode} • {city.region}
+                        </span>
+                      </div>
+
+                      <ArrowRight className="h-4 w-4 text-primary-400" />
+                    </div>
+                  </Link>
+                ))}
+            </div>
+
+            <div className="mt-8 text-center">
               <Link
                 href="/villes"
-                className="p-3 border rounded-2xl border-primary-800  bg-primary-600 hover:bg-primary-700 transition-all font-medium text-white text-center col-span-2 md:col-span-3"
+                className="inline-flex items-center rounded-xl bg-primary-600 px-6 py-3 font-semibold text-white transition hover:bg-primary-700"
               >
-                Voir tous les secteurs d'intervention
+                Voir tous les secteurs d&apos;intervention
+                <ArrowRight className="ml-2 h-4 w-4" />
               </Link>
             </div>
           </div>

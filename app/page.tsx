@@ -538,7 +538,7 @@ export default function HomePage() {
           </h2>
 
           <p className="mx-auto mb-10 max-w-2xl text-base text-primary-50">
-            Contactez ${business.name} pour discuter de votre projet de
+            Contactez {business.name} pour discuter de votre projet de
             maçonnerie, rénovation ou terrassement en Isère.
           </p>
 
@@ -555,7 +555,7 @@ export default function HomePage() {
               href="/contact"
               className="inline-flex items-center rounded-xl border border-white/20 bg-white/10 px-8 py-5 text-base font-bold text-white backdrop-blur transition hover:bg-white/20"
             >
-              <Phone className="mr-2 h-5 w-5" />$
+              <Phone className="mr-2 h-5 w-5" />
               {business.phone.replace("+33", "0")}
             </a>
           </div>
