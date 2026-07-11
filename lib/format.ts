@@ -14,3 +14,10 @@ export function formatNumberFr(value?: number): string | undefined {
   if (value == null || !Number.isFinite(value)) return undefined;
   return value.toLocaleString("fr-FR");
 }
+
+/**
+ * Élision française : "de Artas" -> "d'Artas", "de Vienne" -> "de Vienne".
+ */
+export function deVille(name: string): string {
+  return /^[aeiouyéèêëàâîïôûh]/i.test(name) ? `d'${name}` : `de ${name}`;
+}

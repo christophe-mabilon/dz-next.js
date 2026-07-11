@@ -5,7 +5,9 @@ import { ArrowRight, MapPin, Phone } from "lucide-react";
 import { cities, getCityBySlug } from "@/data/cities";
 import { services } from "@/data/services";
 import { getRelatedCities } from "@/lib/getRelatedCities";
-import { formatPopulation } from "@/lib/format";
+import { getRealisationsNearCity } from "@/lib/realisationLinks";
+import { formatPopulation, deVille } from "@/lib/format";
+import Image from "next/image";
 import HeroSection from "@/components/sections/hero/HeroSection";
 import {
   generateMetadata as generatePageMetadata,
@@ -288,11 +290,64 @@ export default async function CityPage(props: CityPageProps) {
             </div>
           )}
 
+          {/* Réalisations dans le secteur (preuve locale) */}
+          {(() => {
+            const nearbyWorks = getRealisationsNearCity(city.slug, 3);
+            if (nearbyWorks.length === 0) return null;
+            return (
+              <div className="mb-12">
+                <h2 className="mb-2 text-2xl font-bold text-gray-900">
+                  Nos chantiers près {deVille(city.name)}
+                </h2>
+                <p className="mb-6 text-gray-600">
+                  Quelques réalisations récentes de DZ Maçonnerie dans le
+                  secteur :
+                </p>
+                <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+                  {nearbyWorks.map(({ realisation, distanceKm }) => (
+                    <Link
+                      key={realisation.slug}
+                      href={`/realisations/${realisation.slug}`}
+                      className="group flex flex-col overflow-hidden rounded-2xl border border-gray-200 bg-white shadow-sm transition hover:shadow-md"
+                    >
+                      {realisation.images?.[0] && (
+                        <div className="relative h-44 w-full overflow-hidden">
+                          <Image
+                            src={realisation.images[0].src}
+                            alt={realisation.images[0].alt}
+                            fill
+                            className="object-cover transition duration-300 group-hover:scale-105"
+                          />
+                        </div>
+                      )}
+                      <div className="flex flex-1 flex-col p-5">
+                        <h3 className="mb-1 font-bold leading-snug text-gray-900 group-hover:text-primary-600">
+                          {realisation.title}
+                        </h3>
+                        <p className="mb-2 text-sm text-gray-500">
+                          {realisation.city}
+                          {distanceKm > 0 && ` — à ${distanceKm} km`} •{" "}
+                          {realisation.date}
+                        </p>
+                        <p className="line-clamp-2 flex-1 text-sm text-gray-600">
+                          {realisation.description}
+                        </p>
+                        <span className="mt-3 text-sm font-semibold text-primary-600">
+                          Voir le chantier →
+                        </span>
+                      </div>
+                    </Link>
+                  ))}
+                </div>
+              </div>
+            );
+          })()}
+
           {/* Zone d'intervention / villes voisines (maillage) */}
           {nearby.length > 0 && (
             <div className="mb-12 rounded-xl border border-primary-200 bg-primary-50 p-8">
               <h2 className="mb-4 text-2xl font-bold text-gray-900">
-                Zone d'intervention autour de {city.name}
+                Zone d'intervention autour {deVille(city.name)}
               </h2>
               <p className="mb-6 text-gray-700">
                 Basés à {business.city}, nous intervenons à {city.name} et dans
