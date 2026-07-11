@@ -199,10 +199,14 @@ export default async function ServicePage(props: ServicePageProps) {
             </div>
           </div>
 
-          {/* Cities Section — même style que « Zones d'intervention » de l'accueil */}
-          <div className="mb-16 rounded-3xl bg-gray-900 p-8 text-white md:p-12">
-            <div className="mb-10 text-center">
-              <h2 className="mb-4 text-3xl font-black">
+        </div>
+      </section>
+
+      {/* Cities Section — pleine largeur, même style que l'accueil */}
+      <section className="bg-gray-900 py-20 text-white">
+        <div className="mx-auto max-w-8xl px-6 lg:px-8">
+            <div className="mb-14 text-center">
+              <h2 className="mb-6 text-4xl font-black">
                 Intervention dans votre région
               </h2>
               <p className="mx-auto max-w-3xl text-base text-gray-300">
@@ -248,9 +252,12 @@ export default async function ServicePage(props: ServicePageProps) {
                 <ArrowRight className="ml-2 h-4 w-4" />
               </Link>
             </div>
-          </div>
+        </div>
+      </section>
 
-          {/* FAQ */}
+      {/* FAQ */}
+      <section className="section-padding bg-white">
+        <div className="mx-auto max-w-8xl px-6 lg:px-8">
           <div className="bg-gray-50 p-8 rounded-xl border border-gray-200">
             <h2 className="text-2xl font-bold text-gray-900 mb-8">
               Questions fréquentes
