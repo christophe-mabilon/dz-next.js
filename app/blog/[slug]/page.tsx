@@ -4,6 +4,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { articles } from "@/data/blog";
 import { siteConfig } from "@/data/config";
+import { getArticleService, getStrategicCities } from "@/lib/blogLinks";
 import {
   generateArticleSchema,
   generateFAQSchema,
@@ -472,6 +473,47 @@ export default async function BlogArticlePage({ params }: Props) {
                   Demander un devis
                 </a>
               </div>
+
+              {/* SERVICE LIÉ + VILLES (maillage blog -> pages money) */}
+              {(() => {
+                const service = getArticleService(article);
+                if (!service) return null;
+                const strategicCities = getStrategicCities(5);
+                return (
+                  <div className="mt-16 rounded-2xl border border-gray-200 bg-gray-50 p-8">
+                    <h2 className="mb-3 text-2xl font-black text-gray-900">
+                      Un projet de {service.name.toLowerCase()} ?
+                    </h2>
+                    <p className="mb-6 text-gray-600">
+                      DZ Maçonnerie réalise vos travaux de{" "}
+                      {service.name.toLowerCase()} partout en Nord-Isère :
+                      étude, devis gratuit et garantie décennale.
+                    </p>
+                    <Link
+                      href={`/services/${service.slug}`}
+                      className="inline-flex rounded-xl bg-primary-600 px-6 py-3 font-semibold text-white transition hover:bg-primary-700"
+                    >
+                      Découvrir notre service {service.name.toLowerCase()} →
+                    </Link>
+
+                    <p className="mb-3 mt-8 text-sm font-semibold uppercase tracking-wide text-gray-500">
+                      {service.name} près de chez vous
+                    </p>
+                    <ul className="flex flex-wrap gap-3">
+                      {strategicCities.map((city) => (
+                        <li key={city.slug}>
+                          <Link
+                            href={`/services/${service.slug}/${city.slug}`}
+                            className="inline-block rounded-full border border-gray-300 bg-white px-4 py-2 text-sm text-gray-700 transition hover:border-primary-400 hover:text-primary-600"
+                          >
+                            {service.name} {city.name}
+                          </Link>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                );
+              })()}
 
               {/* ARTICLES SIMILAIRES */}
               {(() => {

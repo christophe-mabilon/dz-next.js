@@ -4,6 +4,8 @@ import { Metadata } from "next";
 import { ArrowRight, CheckCircle } from "lucide-react";
 import { services, getServiceBySlug } from "@/data/services";
 import { cities } from "@/data/cities";
+import { articles } from "@/data/blog";
+import { getServiceArticles } from "@/lib/blogLinks";
 import HeroSection from "@/components/sections/hero/HeroSection";
 import {
   generateMetadata as generatePageMetadata,
@@ -293,6 +295,40 @@ export default async function ServicePage(props: ServicePageProps) {
         </div>
       </section>
 
+      {/* GUIDES LIÉS (maillage service -> blog) */}
+      {(() => {
+        const guides = getServiceArticles(service.slug, articles, 4);
+        if (guides.length === 0) return null;
+        return (
+          <section className="section-padding bg-white">
+            <div className="mx-auto max-w-8xl px-6 lg:px-8">
+              <h2 className="text-2xl font-bold text-gray-900 mb-8">
+                Guides et prix : {service.name.toLowerCase()}
+              </h2>
+              <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
+                {guides.map((guide) => (
+                  <Link
+                    key={guide.slug}
+                    href={`/blog/${guide.slug}`}
+                    className="group rounded-xl border border-gray-200 bg-white p-5 shadow-sm transition hover:shadow-md"
+                  >
+                    <h3 className="mb-2 font-bold leading-snug text-gray-900 group-hover:text-primary-600">
+                      {guide.title}
+                    </h3>
+                    <p className="line-clamp-2 text-sm text-gray-600">
+                      {guide.excerpt}
+                    </p>
+                    <span className="mt-3 inline-block text-sm font-semibold text-primary-600">
+                      Lire le guide →
+                    </span>
+                  </Link>
+                ))}
+              </div>
+            </div>
+          </section>
+        );
+      })()}
+
       {/* CTA Section */}
       <section className="hero-gradient py-16 md:py-24 text-white">
         <div className="mx-auto max-w-8xl px-6 lg:px-8 text-center">
@@ -300,7 +336,7 @@ export default async function ServicePage(props: ServicePageProps) {
             Besoin d'un expert en {service.name.toLowerCase()} ?
           </h2>
           <p className="text-xl text-primary-50 mb-8 max-w-2xl mx-auto">
-            ${business.name} réalise tous vos projets avec professionnalisme et
+            {business.name} réalise tous vos projets avec professionnalisme et
             garantie
           </p>
           <Link
