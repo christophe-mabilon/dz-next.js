@@ -651,8 +651,7 @@ export default function ContactPage() {
               href="/contact"
               className="btn-secondary border-white text-white hover:bg-white hover:bg-opacity-10"
             >
-              <Phone className="mr-2 h-4 w-4" />
-              {formatPhone(business.phone)}
+              <span className="mr-3 flex h-9 w-9 flex-shrink-0 items-center justify-center rounded-full bg-primary-600 shadow-lg shadow-primary-900/40"><Phone className="h-4 w-4 text-white" /></span>{formatPhone(business.phone)}
             </a>
 
             <a
