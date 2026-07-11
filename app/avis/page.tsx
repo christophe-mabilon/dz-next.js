@@ -406,68 +406,52 @@ export default function AvisPage() {
         </div>
       </section>
 
-      {/* NOTRE ENGAGEMENT QUALITÉ — bande pleine largeur */}
-      <section className="bg-gray-900 py-20 text-white">
+      {/* NOTRE ENGAGEMENT QUALITÉ */}
+      <section className="section-padding bg-white">
         <div className="mx-auto max-w-8xl px-6 lg:px-8">
-          <div className="mb-14 text-center">
-            <p className="mb-3 text-lg font-semibold uppercase tracking-wide text-primary-400">
+          <div className="mx-auto max-w-3xl text-center">
+            <p className="mb-3 text-lg font-semibold uppercase tracking-wide text-primary-600">
               La qualité est notre fondation !
             </p>
-            <h2 className="text-4xl font-black">
+            <h2 className="mb-6 text-3xl font-black text-gray-900">
               La satisfaction de nos clients, notre meilleure publicité
             </h2>
           </div>
-          <div className="grid gap-8 text-base leading-relaxed text-gray-300 lg:grid-cols-3">
-            <div className="rounded-2xl border border-white/10 bg-white/5 p-8">
-              <h3 className="mb-4 text-lg font-bold text-white">
-                Des fondations solides, au sens propre comme au figuré
-              </h3>
-              <p>
-                Notre slogan n&apos;est pas un simple jeu de mots de maçon : en
-                maçonnerie comme en relation client, tout repose sur des
-                fondations solides. Un chantier réussi commence par une écoute
-                attentive de votre projet, un devis transparent où chaque poste
-                est expliqué, et des engagements que nous tenons — sur la
-                qualité comme sur les délais.
-              </p>
-            </div>
-            <div className="rounded-2xl border border-white/10 bg-white/5 p-8">
-              <h3 className="mb-4 text-lg font-bold text-white">
-                Des avis réels, des chantiers vérifiables
-              </h3>
-              <p>
-                Chaque avis publié sur cette page est celui d&apos;un vrai
-                client, pour un vrai chantier réalisé à Artas,
-                Bourgoin-Jallieu, Vienne ou ailleurs en Nord-Isère. Nous
-                n&apos;avons rien à maquiller : notre travail est visible,
-                vérifiable, et il parle pour nous. C&apos;est aussi pour cela
-                que nous vous invitons à consulter nos avis directement sur
-                Google.
-              </p>
-            </div>
-            <div className="rounded-2xl border border-white/10 bg-white/5 p-8">
-              <h3 className="mb-4 text-lg font-bold text-white">
-                Votre satisfaction, notre modèle économique
-              </h3>
-              <p>
-                La satisfaction client n&apos;est pas un objectif marketing,
-                c&apos;est notre modèle économique : un artisan local vit de sa
-                réputation et des recommandations de ses clients. Chaque
-                chantier que nous livrons doit pouvoir devenir notre meilleure
-                carte de visite — celle que vous montrerez à vos voisins, votre
-                famille, vos collègues.
-              </p>
-            </div>
+          <div className="mx-auto max-w-3xl space-y-5 text-base leading-relaxed text-gray-700">
+            <p>
+              Notre slogan n&apos;est pas un simple jeu de mots de maçon : en
+              maçonnerie comme en relation client, tout repose sur des
+              fondations solides. Un chantier réussi commence par une écoute
+              attentive de votre projet, un devis transparent où chaque poste
+              est expliqué, et des engagements que nous tenons — sur la
+              qualité comme sur les délais.
+            </p>
+            <p>
+              Chaque avis publié sur cette page est celui d&apos;un vrai
+              client, pour un vrai chantier réalisé à Artas, Bourgoin-Jallieu,
+              Vienne ou ailleurs en Nord-Isère. Nous n&apos;avons rien à
+              maquiller : notre travail est visible, vérifiable, et il parle
+              pour nous. C&apos;est aussi pour cela que nous vous invitons à
+              consulter nos avis directement sur Google.
+            </p>
+            <p>
+              La satisfaction client n&apos;est pas un objectif marketing,
+              c&apos;est notre modèle économique : un artisan local vit de sa
+              réputation et des recommandations de ses clients. Chaque
+              chantier que nous livrons doit pouvoir devenir notre meilleure
+              carte de visite — celle que vous montrerez à vos voisins, votre
+              famille, vos collègues.
+            </p>
           </div>
 
           {/* CTA */}
-          <div className="mt-14 text-center">
-            <p className="mx-auto mb-2 max-w-3xl text-2xl font-black text-white">
+          <div className="mt-12 text-center">
+            <p className="mx-auto mb-2 max-w-3xl text-2xl font-black text-gray-900">
               Votre projet mérite le même soin que ces chantiers.
             </p>
-            <p className="mx-auto mb-8 max-w-2xl text-lg text-gray-300">
+            <p className="mx-auto mb-8 max-w-2xl text-lg text-gray-600">
               Visite sur place et devis détaillé <strong>gratuits</strong> :
-              dans 48h, vous saurez exactement ce que coûte votre projet — et
+              sous 48h, vous saurez exactement ce que coûte votre projet — et
               pourquoi. Vous ne risquez rien, sauf d&apos;être convaincu.
             </p>
             <div className="flex flex-col items-center justify-center gap-4 sm:flex-row">
@@ -480,7 +464,7 @@ export default function AvisPage() {
               </Link>
               <a
                 href={`tel:${business.phone}`}
-                className="inline-flex items-center rounded-xl border border-white/20 bg-white/10 px-8 py-4 text-base font-bold text-white transition hover:bg-white/20"
+                className="inline-flex items-center rounded-xl border border-primary-600 px-8 py-4 text-base font-bold text-primary-600 transition hover:bg-primary-50"
               >
                 {business.phone.replace("+33", "0")}
               </a>
