@@ -163,8 +163,8 @@ export default function ContactPage() {
               <div className="space-y-6">
                 {/* PHONE */}
                 <div className="flex gap-4">
-                  <div className="flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-lg bg-primary-100">
-                    <Phone className="h-6 w-6 text-primary-600" />
+                  <div className="flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-full bg-primary-600 shadow-lg shadow-primary-900/30">
+                    <Phone className="h-6 w-6 text-white" />
                   </div>
 
                   <div>
@@ -187,8 +187,8 @@ export default function ContactPage() {
 
                 {/* EMAIL */}
                 <div className="flex gap-4">
-                  <div className="flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-lg bg-primary-100">
-                    <Mail className="h-6 w-6 text-primary-600" />
+                  <div className="flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-full bg-primary-600 shadow-lg shadow-primary-900/30">
+                    <Mail className="h-6 w-6 text-white" />
                   </div>
 
                   <div>
@@ -209,8 +209,8 @@ export default function ContactPage() {
 
                 {/* LOCATION */}
                 <div className="flex gap-4">
-                  <div className="flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-lg bg-primary-100">
-                    <MapPin className="h-6 w-6 text-primary-600" />
+                  <div className="flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-full bg-primary-600 shadow-lg shadow-primary-900/30">
+                    <MapPin className="h-6 w-6 text-white" />
                   </div>
 
                   <div>
@@ -230,8 +230,8 @@ export default function ContactPage() {
 
                 {/* HOURS */}
                 <div className="flex gap-4">
-                  <div className="flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-lg bg-primary-100">
-                    <Clock className="h-6 w-6 text-primary-600" />
+                  <div className="flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-full bg-primary-600 shadow-lg shadow-primary-900/30">
+                    <Clock className="h-6 w-6 text-white" />
                   </div>
 
                   <div>
@@ -308,8 +308,14 @@ export default function ContactPage() {
                   maçonnerie ou terrassement.
                 </p>
 
-                <a href="/contact" className="btn-primary w-full text-center">
-                  Appeler maintenant
+                <a
+                  href="/contact"
+                  className="btn-primary flex w-full items-center justify-center gap-3 text-center"
+                >
+                  <span className="flex h-9 w-9 flex-shrink-0 items-center justify-center rounded-full bg-primary-700 shadow-lg shadow-primary-900/40">
+                    <Phone className="h-4 w-4 text-white" />
+                  </span>
+                  {formatPhone(business.phone)}
                 </a>
               </div>
             </div>
