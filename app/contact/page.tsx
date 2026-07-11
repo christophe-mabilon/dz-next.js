@@ -308,15 +308,12 @@ export default function ContactPage() {
                   maçonnerie ou terrassement.
                 </p>
 
-                <a
-                  href="/contact"
-                  className="btn-primary flex w-full items-center justify-center gap-3 text-center"
-                >
+                <div className="flex w-full items-center justify-center gap-3 rounded-xl bg-primary-500 px-6 py-4 text-center font-semibold text-white">
                   <span className="flex h-9 w-9 flex-shrink-0 items-center justify-center rounded-full bg-primary-700 shadow-lg shadow-primary-900/40">
                     <Phone className="h-4 w-4 text-white" />
                   </span>
                   {formatPhone(business.phone)}
-                </a>
+                </div>
               </div>
             </div>
 
