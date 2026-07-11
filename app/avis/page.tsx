@@ -459,6 +459,33 @@ export default function AvisPage() {
               </p>
             </div>
           </div>
+
+          {/* CTA */}
+          <div className="mt-14 text-center">
+            <p className="mx-auto mb-2 max-w-3xl text-2xl font-black text-white">
+              Votre projet mérite le même soin que ces chantiers.
+            </p>
+            <p className="mx-auto mb-8 max-w-2xl text-lg text-gray-300">
+              Visite sur place et devis détaillé <strong>gratuits</strong> :
+              dans 48h, vous saurez exactement ce que coûte votre projet — et
+              pourquoi. Vous ne risquez rien, sauf d&apos;être convaincu.
+            </p>
+            <div className="flex flex-col items-center justify-center gap-4 sm:flex-row">
+              <Link
+                href="/contact"
+                className="inline-flex items-center rounded-xl bg-primary-600 px-8 py-4 text-base font-bold text-white transition hover:bg-primary-700"
+              >
+                Demander mon devis gratuit
+                <ArrowRight className="ml-2 h-5 w-5" />
+              </Link>
+              <a
+                href={`tel:${business.phone}`}
+                className="inline-flex items-center rounded-xl border border-white/20 bg-white/10 px-8 py-4 text-base font-bold text-white transition hover:bg-white/20"
+              >
+                {business.phone.replace("+33", "0")}
+              </a>
+            </div>
+          </div>
         </div>
       </section>
 
