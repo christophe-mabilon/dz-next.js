@@ -6,7 +6,7 @@ import { cities, getCityBySlug } from "@/data/cities";
 import { services } from "@/data/services";
 import { getRelatedCities } from "@/lib/getRelatedCities";
 import { getRealisationsNearCity } from "@/lib/realisationLinks";
-import { formatPopulation, deVille } from "@/lib/format";
+import { formatPopulation, deVille, formatPhone } from "@/lib/format";
 import Image from "next/image";
 import HeroSection from "@/components/sections/hero/HeroSection";
 import {
@@ -59,7 +59,7 @@ export default async function CityPage(props: CityPageProps) {
 
   const nearby = getRelatedCities(city.slug, 8);
   const population = formatPopulation(city.population);
-  const phone = business.phone.replace("+33", "0");
+  const phone = formatPhone(business.phone);
   const cityUrl = `${siteConfig.siteUrl}/villes/${city.slug}`;
 
   const breadcrumbs = [
@@ -399,7 +399,7 @@ export default async function CityPage(props: CityPageProps) {
               Demander un devis <ArrowRight className="ml-2 h-4 w-4" />
             </Link>
             <a
-              href={`tel:${business.phone}`}
+              href="/contact"
               className="btn-secondary border-white text-white"
             >
               <Phone className="mr-2 h-4 w-4" />

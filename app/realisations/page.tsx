@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { formatPhone } from "@/lib/format";
 import Link from "next/link";
 import Image from "next/image";
 import { realisations } from "@/data/realisations";
@@ -91,7 +92,7 @@ export default function RealisationsPage() {
         imageAlt={`Réalisations maçonnerie et terrassement en Nord-Isère — ${business.name}`}
         primaryButtonText="Demander un devis"
         primaryButtonHref="/contact"
-        secondaryButtonText={business.phone.replace("+33", "0")}
+        secondaryButtonText={formatPhone(business.phone)}
         secondaryButtonHref="/contact"
         cards={[
           {

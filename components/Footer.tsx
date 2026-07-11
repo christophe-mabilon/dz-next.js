@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { formatPhone } from "@/lib/format";
 import {
   Mail,
   MapPin,
@@ -184,7 +185,7 @@ export function Footer() {
                     href="/contact"
                     className="font-semibold text-white transition hover:text-primary-400"
                   >
-                    {business.phone.replace("+33", "0")}
+                    {formatPhone(business.phone)}
                   </a>
                 </div>
               </div>

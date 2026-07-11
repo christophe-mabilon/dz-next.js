@@ -1,5 +1,7 @@
 "use client";
 
+import { formatPhone } from "@/lib/format";
+
 import Link from "next/link";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
@@ -86,7 +88,7 @@ export function Header() {
               href="/contact"
               className="font-semibold transition hover:text-primary-100"
             >
-              {business.phone.replace("+33", "0")}
+              {formatPhone(business.phone)}
             </a>
           </div>
         </div>
@@ -153,7 +155,7 @@ export function Header() {
                     Devis gratuit
                   </span>
 
-                  <span>{business.phone.replace("+33", "0")}</span>
+                  <span>{formatPhone(business.phone)}</span>
                 </div>
               </a>
 

@@ -1,4 +1,5 @@
 import { cities } from "@/data/cities";
+import { formatPhone } from "@/lib/format";
 import Image from "next/image";
 import Link from "next/link";
 import { Metadata } from "next";
@@ -88,7 +89,7 @@ export default function HomePage() {
         imageAlt={`Réalisation de maçonnerie à Bourgoin-Jallieu par ${business.name}`}
         primaryButtonText="Demander un devis"
         primaryButtonHref="/contact"
-        secondaryButtonText={business.phone.replace("+33", "0")}
+        secondaryButtonText={formatPhone(business.phone)}
         secondaryButtonHref="/contact"
         cards={[
           {
@@ -531,7 +532,7 @@ export default function HomePage() {
               className="inline-flex items-center rounded-xl border border-white/20 bg-white/10 px-8 py-5 text-base font-bold text-white backdrop-blur transition hover:bg-white/20"
             >
               <Phone className="mr-2 h-5 w-5" />
-              {business.phone.replace("+33", "0")}
+              {formatPhone(business.phone)}
             </a>
           </div>
         </div>

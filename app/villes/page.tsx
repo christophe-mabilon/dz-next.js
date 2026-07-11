@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { formatPhone } from "@/lib/format";
 import { Metadata } from "next";
 import { ArrowRight, MapPin } from "lucide-react";
 
@@ -61,7 +62,7 @@ export default function VillesPage() {
         imageAlt="Secteurs d'intervention DZ Maçonnerie en Isère"
         primaryButtonText="Demander un devis"
         primaryButtonHref="/contact"
-        secondaryButtonText={business.phone.replace("+33", "0")}
+        secondaryButtonText={formatPhone(business.phone)}
         secondaryButtonHref="/contact"
         cards={[
           {
@@ -223,10 +224,10 @@ export default function VillesPage() {
             </Link>
 
             <a
-              href={`tel:${business.phone}`}
+              href="/contact"
               className="inline-flex items-center rounded-xl border border-white/20 bg-white/10 px-8 py-5 text-base font-bold text-white backdrop-blur transition hover:bg-white/20"
             >
-              {business.phone.replace("+33", "0")}
+              {formatPhone(business.phone)}
             </a>
           </div>
         </div>

@@ -1,5 +1,7 @@
 "use client";
 
+import { formatPhone } from "@/lib/format";
+
 import { useState } from "react";
 
 import Image from "next/image";
@@ -55,7 +57,7 @@ export default function BlogPageClient() {
         imageAlt={`Blog maçonnerie ${business.name}`}
         primaryButtonText="Demander un devis"
         primaryButtonHref="/contact"
-        secondaryButtonText={business.phone.replace("+33", "0")}
+        secondaryButtonText={formatPhone(business.phone)}
         secondaryButtonHref="/contact"
         cards={[
           {
@@ -458,7 +460,7 @@ export default function BlogPageClient() {
             </Link>
 
             <a
-              href={`tel:${business.phone}`}
+              href="/contact"
               className="
                 inline-flex items-center justify-center
                 rounded-xl
@@ -472,7 +474,7 @@ export default function BlogPageClient() {
                 hover:bg-white/20
               "
             >
-              {business.phone.replace("+33", "0")}
+              {formatPhone(business.phone)}
             </a>
           </div>
         </div>

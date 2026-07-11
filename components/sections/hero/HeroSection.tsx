@@ -1,4 +1,6 @@
 "use client";
+
+import { formatPhone } from "@/lib/format";
 import { siteConfig } from "@/data/config";
 
 const { business } = siteConfig;
@@ -54,7 +56,7 @@ function getIcon(icon: string) {
       return <Hammer className="mb-3 h-6 w-6 text-primary-300" />;
   }
 }
-const defaultPhone = business.phone.replace("+33", "0");
+const defaultPhone = formatPhone(business.phone);
 
 export default function HeroSection({
   badge,

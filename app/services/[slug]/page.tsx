@@ -1,4 +1,5 @@
 import { notFound } from "next/navigation";
+import { formatPhone } from "@/lib/format";
 import Link from "next/link";
 import { Metadata } from "next";
 import { ArrowRight, CheckCircle } from "lucide-react";
@@ -116,7 +117,7 @@ export default async function ServicePage(props: ServicePageProps) {
         imageAlt={service.name}
         primaryButtonText="Demander un devis"
         primaryButtonHref="/contact"
-        secondaryButtonText={business.phone.replace("+33", "0")}
+        secondaryButtonText={formatPhone(business.phone)}
         secondaryButtonHref="/contact"
         cards={[
           {
@@ -354,7 +355,7 @@ export default async function ServicePage(props: ServicePageProps) {
                 href="/contact"
                 className="btn-secondary border-primary-600 text-primary-600"
               >
-                {business.phone.replace("+33", "0")}
+                {formatPhone(business.phone)}
               </a>
             </div>
           </div>

@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { formatPhone } from "@/lib/format";
 import { Metadata } from "next";
 
 import { Star, ArrowRight, Shield, BadgeCheck, Clock } from "lucide-react";
@@ -76,7 +77,7 @@ export default function AvisPage() {
         imageAlt={`Avis clients ${business.name}`}
         primaryButtonText="Demander un devis"
         primaryButtonHref="/contact"
-        secondaryButtonText={business.phone.replace("+33", "0")}
+        secondaryButtonText={formatPhone(business.phone)}
         secondaryButtonHref="/contact"
         cards={[
           {
@@ -486,10 +487,10 @@ export default function AvisPage() {
                 <ArrowRight className="ml-2 h-5 w-5" />
               </Link>
               <a
-                href={`tel:${business.phone}`}
+                href="/contact"
                 className="inline-flex items-center rounded-xl border border-primary-600 px-8 py-4 text-base font-bold text-primary-600 transition hover:bg-primary-50"
               >
-                {business.phone.replace("+33", "0")}
+                {formatPhone(business.phone)}
               </a>
             </div>
           </div>
@@ -722,7 +723,7 @@ export default function AvisPage() {
                   hover:bg-primary-500/10
                 "
               >
-                {business.phone.replace("+33", "0")}
+                {formatPhone(business.phone)}
               </a>
             </div>
           </div>

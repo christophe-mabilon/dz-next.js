@@ -14,7 +14,7 @@ import {
 } from "@/lib/seo";
 import { getRealisationsNearCity } from "@/lib/realisationLinks";
 import { siteConfig } from "@/data/config";
-import { deVille } from "@/lib/format";
+import { deVille, formatPhone } from "@/lib/format";
 import { generateSeoTitle, generateSeoDescription } from "@/lib/seo-generators";
 import { generateLocalIntroduction } from "@/lib/seo-generators";
 import { generateSeoFaqs } from "@/lib/seo-generators";
@@ -130,7 +130,7 @@ export default async function CombinedServiceCityPage(
         imageAlt={`${service.name} à ${cityData.name}`}
         primaryButtonText="Demander un devis"
         primaryButtonHref="/contact"
-        secondaryButtonText={business.phone.replace("+33", "0")}
+        secondaryButtonText={formatPhone(business.phone)}
         secondaryButtonHref="/contact"
         cards={[
           {
@@ -227,11 +227,11 @@ export default async function CombinedServiceCityPage(
                   Devis gratuit <ArrowRight className="ml-2 w-4 h-4" />
                 </Link>
                 <a
-                  href={`tel:${business.phone}`}
+                  href="/contact"
                   className="inline-flex items-center justify-center gap-2 rounded-xl border border-primary-600 px-5 py-3 text-sm font-semibold text-primary-700 hover:bg-primary-50 transition"
                 >
                   <Phone className="w-4 h-4" />
-                  {business.phone.replace("+33", "0")}
+                  {formatPhone(business.phone)}
                 </a>
               </div>
             </div>
@@ -385,11 +385,11 @@ export default async function CombinedServiceCityPage(
                 Demander un devis <ArrowRight className="w-4 h-4" />
               </Link>
               <a
-                href={`tel:${business.phone}`}
+                href="/contact"
                 className="inline-flex items-center justify-center gap-2 border border-white/40 text-white font-semibold rounded-xl px-6 py-3 hover:bg-white/10 transition"
               >
                 <Phone className="w-4 h-4" />
-                {business.phone.replace("+33", "0")}
+                {formatPhone(business.phone)}
               </a>
             </div>
           </div>

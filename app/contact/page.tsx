@@ -1,5 +1,7 @@
 "use client";
 
+import { formatPhone } from "@/lib/format";
+
 import { useState } from "react";
 import Link from "next/link";
 
@@ -103,7 +105,7 @@ export default function ContactPage() {
         imageAlt={`Contact ${business.name}`}
         primaryButtonText="Demander un devis"
         primaryButtonHref="/contact"
-        secondaryButtonText={business.phone.replace("+33", "0")}
+        secondaryButtonText={formatPhone(business.phone)}
         cards={[
           {
             icon: "hammer",
@@ -174,7 +176,7 @@ export default function ContactPage() {
                       href="/contact"
                       className="font-medium text-primary-600 hover:text-primary-700"
                     >
-                      {business.phone.replace("+33", "0")}
+                      {formatPhone(business.phone)}
                     </a>
 
                     <p className="mt-1 text-sm text-gray-600">
@@ -647,7 +649,7 @@ export default function ContactPage() {
               className="btn-secondary border-white text-white hover:bg-white hover:bg-opacity-10"
             >
               <Phone className="mr-2 h-4 w-4" />
-              {business.phone.replace("+33", "0")}
+              {formatPhone(business.phone)}
             </a>
 
             <a

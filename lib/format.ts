@@ -16,6 +16,14 @@ export function formatNumberFr(value?: number): string | undefined {
 }
 
 /**
+ * Formatage téléphone français : "+33688144257" -> "06.88.14.42.57".
+ */
+export function formatPhone(phone: string): string {
+  const digits = phone.replace(/^\+33/, "0").replace(/\D/g, "");
+  return digits.match(/.{1,2}/g)?.join(".") ?? phone;
+}
+
+/**
  * Élision française : "de Artas" -> "d'Artas", "de Vienne" -> "de Vienne".
  */
 export function deVille(name: string): string {

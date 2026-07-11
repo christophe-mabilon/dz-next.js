@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { formatPhone } from "@/lib/format";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { Metadata } from "next";
@@ -78,7 +79,7 @@ export default async function RealisationDetailPage({ params }: Props) {
         imageAlt={realisation.images[0]?.alt || realisation.title}
         primaryButtonText="Demander un devis"
         primaryButtonHref="/contact"
-        secondaryButtonText={business.phone.replace("+33", "0")}
+        secondaryButtonText={formatPhone(business.phone)}
         secondaryButtonHref="/contact"
         cards={[
           {
