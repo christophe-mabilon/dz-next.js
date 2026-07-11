@@ -129,7 +129,7 @@ export default function AvisPage() {
             <h2 className="mb-3 text-3xl font-black text-gray-900">
               La confiance de nos clients en quelques chiffres
             </h2>
-            <p className="mx-auto max-w-2xl text-gray-600">
+            <p className="mx-auto max-w-8xl text-gray-600">
               Des chiffres qui ne mentent pas : ils sont le reflet direct des
               avis laissés par nos clients en Nord-Isère.
             </p>
@@ -157,16 +157,15 @@ export default function AvisPage() {
               </div>
             ))}
           </div>
-
         </div>
       </section>
 
       {/* GOOGLE REVIEWS — RATING OVERVIEW pleine largeur */}
       <section className="bg-gray-950 py-16 text-white md:py-20">
         <div className="mx-auto max-w-8xl px-6 lg:px-8">
-            <div className="mb-4 text-center">
-              <p
-                className="
+          <div className="mb-4 text-center">
+            <p
+              className="
                 inline-flex items-center
                 rounded-full
                 border border-primary-500/40
@@ -175,14 +174,14 @@ export default function AvisPage() {
                 text-sm font-medium text-white
                 mb-3
               "
-              >
-                Témoignages issus de nos avis Google
-              </p>
-            </div>
-            <div className="flex flex-col gap-10 lg:flex-row lg:items-center">
-              {/* LEFT */}
-              <div
-                className="
+            >
+              Témoignages issus de nos avis Google
+            </p>
+          </div>
+          <div className="flex flex-col gap-10 lg:flex-row lg:items-center">
+            {/* LEFT */}
+            <div
+              className="
                   flex flex-col items-center
                   rounded-2xl
                   border border-white/10
@@ -191,117 +190,117 @@ export default function AvisPage() {
                   text-center
                   backdrop-blur-sm
                 "
-              >
-                {/* ICON */}
-                <div
-                  className="
+            >
+              {/* ICON */}
+              <div
+                className="
                     mb-5
                     flex h-16 w-16 items-center justify-center
                     rounded-2xl
                     bg-primary-500/10
                   "
-                >
-                  <Star className="h-8 w-8 fill-yellow-400 text-yellow-400" />
-                </div>
+              >
+                <Star className="h-8 w-8 fill-yellow-400 text-yellow-400" />
+              </div>
 
-                {/* STARS */}
-                <div className="mb-4 flex items-center gap-2">
-                  {[...Array(5)].map((_, i) => (
-                    <Star
-                      key={i}
-                      className="
+              {/* STARS */}
+              <div className="mb-4 flex items-center gap-2">
+                {[...Array(5)].map((_, i) => (
+                  <Star
+                    key={i}
+                    className="
                         h-7 w-7
                         fill-yellow-400
                         text-yellow-400
                       "
-                    />
-                  ))}
-                </div>
-
-                {/* NOTE */}
-                <p className="mb-2 text-6xl font-black text-white">5/5</p>
-
-                {/* SUBTEXT */}
-                <p className="mb-1 text-base font-semibold text-white">
-                  Plus de {reviews.length}+ avis clients
-                </p>
-
-                <p className="text-sm text-gray-400">
-                  Basé sur nos avis Google vérifiés
-                </p>
+                  />
+                ))}
               </div>
 
-              {/* CONTENT */}
-              <div className="flex-1">
-                <h3
-                  className="
+              {/* NOTE */}
+              <p className="mb-2 text-6xl font-black text-white">5/5</p>
+
+              {/* SUBTEXT */}
+              <p className="mb-1 text-base font-semibold text-white">
+                Plus de {reviews.length}+ avis clients
+              </p>
+
+              <p className="text-sm text-gray-400">
+                Basé sur nos avis Google vérifiés
+              </p>
+            </div>
+
+            {/* CONTENT */}
+            <div className="flex-1">
+              <h3
+                className="
                     mb-5
                     text-3xl
                     font-black
                     leading-tight
                     text-white
                   "
-                >
-                  Une entreprise locale reconnue pour la qualité de ses
-                  réalisations
-                </h3>
+              >
+                Une entreprise locale reconnue pour la qualité de ses
+                réalisations
+              </h3>
 
-                <p
-                  className="
+              <p
+                className="
                     mb-6
                     text-base
                     leading-relaxed
                     text-gray-300
                   "
-                >
-                  Nos clients à Artas, Bourgoin-Jallieu, Vienne et dans tout le
-                  Nord-Isère soulignent régulièrement notre sérieux, notre
-                  réactivité, la qualité des finitions ainsi que le respect des
-                  délais sur chaque chantier de maçonnerie, rénovation et
-                  terrassement.
-                </p>
+              >
+                Nos clients à Artas, Bourgoin-Jallieu, Vienne et dans tout le
+                Nord-Isère soulignent régulièrement notre sérieux, notre
+                réactivité, la qualité des finitions ainsi que le respect des
+                délais sur chaque chantier de maçonnerie, rénovation et
+                terrassement.
+              </p>
 
-                {/* HIGHLIGHTS */}
-                <div className="grid gap-4 sm:grid-cols-2">
-                  {[
-                    "Travail soigné et durable",
-                    "Respect des délais",
-                    "Excellent relationnel client",
-                    "Conseils et accompagnement",
-                  ].map((item) => (
-                    <div
-                      key={item}
-                      className="
+              {/* HIGHLIGHTS */}
+              <div className="grid gap-4 sm:grid-cols-2">
+                {[
+                  "Travail soigné et durable",
+                  "Respect des délais",
+                  "Excellent relationnel client",
+                  "Conseils et accompagnement",
+                ].map((item) => (
+                  <div
+                    key={item}
+                    className="
                         flex items-center gap-3
                         rounded-xl
                         border border-white/10
                         bg-white/5
                         px-4 py-3
                       "
-                    >
-                      <div className="h-2.5 w-2.5 rounded-full bg-primary-500" />
+                  >
+                    <div className="h-2.5 w-2.5 rounded-full bg-primary-500" />
 
-                      <span
-                        className="
+                    <span
+                      className="
                           text-sm
                           font-medium
                           text-gray-200
                         "
-                      >
-                        {item}
-                      </span>
-                    </div>
-                  ))}
-                </div>
+                    >
+                      {item}
+                    </span>
+                  </div>
+                ))}
+              </div>
 
-                {/* CTA */}
-                <div className="mt-8 flex flex-col gap-4 sm:flex-row">
-                  {business.socialProfiles.google && (
-                    <Link
-                      href={business.socialProfiles.google}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="
+              {/* CTA */}
+              <div className="mt-8 flex flex-col gap-4 sm:flex-row">
+                {business.socialProfiles.google && (
+                  <Link
+                    href={business.socialProfiles.google}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="
                         inline-flex items-center justify-center
                         rounded-xl
                         bg-primary-600
@@ -310,15 +309,15 @@ export default function AvisPage() {
                         transition
                         hover:bg-primary-700
                       "
-                    >
-                      Voir tous nos avis Google
-                      <ArrowRight className="ml-2 h-4 w-4" />
-                    </Link>
-                  )}
+                  >
+                    Voir tous nos avis Google
+                    <ArrowRight className="ml-2 h-4 w-4" />
+                  </Link>
+                )}
 
-                  <Link
-                    href="/contact"
-                    className="
+                <Link
+                  href="/contact"
+                  className="
                       inline-flex items-center justify-center
                       rounded-xl
                       border border-white/10
@@ -329,89 +328,89 @@ export default function AvisPage() {
                       hover:border-primary-500
                       hover:bg-primary-500/10
                     "
-                  >
-                    Demander un devis
-                  </Link>
-                </div>
+                >
+                  Demander un devis
+                </Link>
+              </div>
 
-                {/* CLIENT REVIEWS */}
-                <div className="mt-10 grid gap-4 md:grid-cols-3">
-                  {reviews.slice(0, 3).map((review, idx) => (
-                    <div
-                      key={idx}
-                      className="
+              {/* CLIENT REVIEWS */}
+              <div className="mt-10 grid gap-4 md:grid-cols-3">
+                {reviews.slice(0, 3).map((review, idx) => (
+                  <div
+                    key={idx}
+                    className="
                         rounded-2xl
                         border border-white/10
                         bg-white/5
                         p-5
                         backdrop-blur-sm
                       "
-                    >
-                      {/* STARS */}
-                      <div className="mb-3 flex gap-1">
-                        {[...Array(review.rating)].map((_, i) => (
-                          <Star
-                            key={i}
-                            className="
+                  >
+                    {/* STARS */}
+                    <div className="mb-3 flex gap-1">
+                      {[...Array(review.rating)].map((_, i) => (
+                        <Star
+                          key={i}
+                          className="
                               h-4 w-4
                               fill-yellow-400
                               text-yellow-400
                             "
-                          />
-                        ))}
-                      </div>
+                        />
+                      ))}
+                    </div>
 
-                      {/* TEXT */}
-                      <p
-                        className="
+                    {/* TEXT */}
+                    <p
+                      className="
                           mb-5
                           line-clamp-4
                           text-sm
                           leading-relaxed
                           text-gray-300
                         "
-                      >
-                        "{review.text}"
+                    >
+                      "{review.text}"
+                    </p>
+
+                    {/* AUTHOR */}
+                    <div className="border-t border-white/10 pt-4">
+                      <p className="font-semibold text-white">
+                        {review.author}
                       </p>
 
-                      {/* AUTHOR */}
-                      <div className="border-t border-white/10 pt-4">
-                        <p className="font-semibold text-white">
-                          {review.author}
-                        </p>
+                      <p className="text-sm text-gray-400">{review.city}</p>
 
-                        <p className="text-sm text-gray-400">{review.city}</p>
-
-                        <p
-                          className="
+                      <p
+                        className="
                             mt-1
                             text-xs
                             font-medium
                             text-primary-400
                           "
-                        >
-                          {review.service}
-                        </p>
+                      >
+                        {review.service}
+                      </p>
 
-                        <div
-                          className="
+                      <div
+                        className="
                             mt-2
                             flex items-center gap-2
                             text-xs text-gray-500
                           "
-                        >
-                          <span>{review.relativeDate}</span>
+                      >
+                        <span>{review.relativeDate}</span>
 
-                          <span>•</span>
+                        <span>•</span>
 
-                          <span>{review.source}</span>
-                        </div>
+                        <span>{review.source}</span>
                       </div>
                     </div>
-                  ))}
-                </div>
+                  </div>
+                ))}
               </div>
             </div>
+          </div>
         </div>
       </section>
 
@@ -429,27 +428,33 @@ export default function AvisPage() {
           <div className="mx-auto max-w-8xl space-y-5 text-base leading-relaxed text-gray-700">
             <p>
               Notre slogan n&apos;est pas un simple jeu de mots de maçon : en
-              maçonnerie comme en relation client, tout repose sur des
-              fondations solides. Un chantier réussi commence par une écoute
-              attentive de votre projet, un devis transparent où chaque poste
-              est expliqué, et des engagements que nous tenons — sur la
-              qualité comme sur les délais.
+              maçonnerie comme en relation client, <strong>tout repose sur des fondations solides</strong>.{" "}
             </p>
             <p>
-              Chaque avis publié sur cette page est celui d&apos;un vrai
-              client, pour un vrai chantier réalisé à Artas, Bourgoin-Jallieu,
-              Vienne ou ailleurs en Nord-Isère. Nous n&apos;avons rien à
-              maquiller : notre travail est visible, vérifiable, et il parle
-              pour nous. C&apos;est aussi pour cela que nous vous invitons à
-              consulter nos avis directement sur Google.
+              Un chantier réussi commence par une écoute attentive de votre
+              projet, un <strong>devis transparent où chaque poste est expliqué</strong>, et des <strong>engagements que nous tenons</strong> — sur la qualité comme sur les délais.
+            </p>
+            <p>
+              Chaque avis publié sur cette page est celui d&apos;un <strong>vrai client, pour un vrai chantier</strong> réalisé à Artas, Bourgoin-Jallieu, Vienne ou
+              ailleurs en Nord-Isère.
+            </p>
+            <p>
+              {" "}
+              Nous n&apos;avons rien à maquiller : notre travail est <strong>visible, vérifiable</strong>, et il parle pour nous.
+            </p>
+            <p>
+              C&apos;est aussi pour cela que nous vous invitons à consulter nos
+              avis <strong>directement sur Google</strong>.
             </p>
             <p>
               La satisfaction client n&apos;est pas un objectif marketing,
-              c&apos;est notre modèle économique : un artisan local vit de sa
-              réputation et des recommandations de ses clients. Chaque
-              chantier que nous livrons doit pouvoir devenir notre meilleure
-              carte de visite — celle que vous montrerez à vos voisins, votre
-              famille, vos collègues.
+              <strong>c&apos;est notre modèle économique</strong> : un artisan local vit de sa
+              réputation et des recommandations de ses clients.
+            </p>
+            <p>
+              {" "}
+              Chaque chantier que nous livrons doit pouvoir devenir notre <strong>meilleure carte de visite</strong> — celle que vous montrerez à vos
+              voisins, votre famille, vos collègues.
             </p>
           </div>
 
@@ -458,11 +463,14 @@ export default function AvisPage() {
             <p className="mx-auto mb-2 max-w-8xl text-2xl font-black text-gray-900">
               Votre projet mérite le même soin que ces chantiers.
             </p>
-            <p className="mx-auto mb-8 max-w-2xl text-lg text-gray-600">
+            <p className="mx-auto mb-8 max-w-8xl text-lg text-gray-600">
               Visite sur place et devis détaillé <strong>gratuits</strong> :
               sous 48h, vous saurez exactement ce que coûte votre projet — et
-              pourquoi. Vous ne risquez rien, sauf d&apos;être convaincu.
+              pourquoi.
             </p>
+            <strong className="mb-5">
+              Vous ne risquez rien, sauf d&apos;être convaincu.
+            </strong>
             <div className="flex flex-col items-center justify-center gap-4 sm:flex-row">
               <Link
                 href="/contact"
