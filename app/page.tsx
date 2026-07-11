@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "/images/og-home.jpg",
+        url: "/images/og-image.jpg",
         width: 1200,
         height: 630,
         alt: "DZ Maçonnerie & Terrassement",
@@ -77,32 +77,7 @@ const services = [
 export default function HomePage() {
   return (
     <>
-      {/* SEO LOCAL BUSINESS */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "LocalBusiness",
-            name: business.name,
-            image: "https://www.dzmaconnerie38.fr/images/og-home.jpg",
-            url: "https://www.dzmaconnerie38.fr",
-            telephone: "+33688144257",
-            address: {
-              "@type": "PostalAddress",
-              addressLocality: "Artas",
-              postalCode: "38440",
-              addressCountry: "FR",
-            },
-            areaServed: [
-              "Bourgoin-Jallieu",
-              "Villefontaine",
-              "Vienne",
-              "L’Isle-d’Abeau",
-            ],
-          }),
-        }}
-      />
+      {/* LocalBusiness complet déjà injecté par le layout (graphe @id) */}
       {/* HERO */}
       <HeroSection
         badge="Artisan maçon • Bourgoin-Jallieu • Nord-Isère"

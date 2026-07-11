@@ -13,7 +13,6 @@ export const metadata: Metadata = generatePageMetadata(
   `Mentions légales | ${business.name}`,
   `Mentions légales et informations légales du site ${business.name}.`,
   "/mentions-legales",
-  `${siteConfig.siteUrl}/og-mentions.jpg`,
 );
 
 export default function MentionsLegales() {

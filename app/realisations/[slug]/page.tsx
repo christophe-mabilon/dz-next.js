@@ -5,7 +5,11 @@ import { Metadata } from "next";
 import HeroSection from "@/components/sections/hero/HeroSection";
 import { realisations } from "@/data/realisations";
 import { siteConfig } from "@/data/config";
-import { generateMetadata as generatePageMetadata } from "@/lib/seo";
+import {
+  generateMetadata as generatePageMetadata,
+  generateRealisationSchema,
+  generateBreadcrumbSchema,
+} from "@/lib/seo";
 
 const { business } = siteConfig;
 
@@ -38,6 +42,26 @@ export default async function RealisationDetailPage({ params }: Props) {
 
   return (
     <main className="bg-white">
+      {/* Schema : réalisation (Article + lieu du chantier + galerie) */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(generateRealisationSchema(realisation)),
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(
+            generateBreadcrumbSchema([
+              { name: "Accueil", url: "/" },
+              { name: "Réalisations", url: "/realisations" },
+              { name: realisation.title, url: `/realisations/${slug}` },
+            ]),
+          ),
+        }}
+      />
+
       {/* HERO */}
       <HeroSection
         badge={`${realisation.service} • ${realisation.city} • ${realisation.date}`}

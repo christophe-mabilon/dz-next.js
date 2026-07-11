@@ -1,5 +1,7 @@
 import { Metadata } from "next";
 import { siteConfig } from "@/data/config";
+import { services } from "@/data/services";
+import { reviews } from "@/data/reviews";
 
 export function generateMetadata(
   title: string,
@@ -41,25 +43,39 @@ export function generateMetadata(
   };
 }
 
-// LocalBusiness Schema pour la page d'accueil
+// LocalBusiness Schema (nœud central du graphe, référencé partout via @id)
+export const BUSINESS_ID = `${siteConfig.siteUrl}/#business`;
+
 export function generateLocalBusinessSchema() {
+  // note moyenne calculée depuis les avis réels
+  const ratingValue = reviews.length
+    ? (
+        reviews.reduce((sum, r) => sum + (r.rating ?? 5), 0) / reviews.length
+      ).toFixed(1)
+    : undefined;
+
   return {
     "@context": "https://schema.org",
 
-    "@type": ["LocalBusiness", "ConstructionCompany"],
+    // types schema.org VALIDES (ConstructionCompany n'existe pas)
+    "@type": ["LocalBusiness", "HomeAndConstructionBusiness", "GeneralContractor"],
 
-    "@id": `${siteConfig.siteUrl}/#business`,
+    "@id": BUSINESS_ID,
 
     name: siteConfig.business.name,
+    legalName: siteConfig.business.legalName,
 
     url: siteConfig.siteUrl,
 
     image: [
       `${siteConfig.siteUrl}/images/og-image.jpg`,
-      `${siteConfig.siteUrl}/images/hero/hero-maconnerie.avif`,
+      `${siteConfig.siteUrl}/images/chantiers/DZ-maconnerie_logo1.webp`,
     ],
 
-    logo: `${siteConfig.siteUrl}/logo.png`,
+    logo: {
+      "@type": "ImageObject",
+      url: `${siteConfig.siteUrl}/images/chantiers/DZ-maconnerie_logo1.webp`,
+    },
 
     description: siteConfig.business.description,
 
@@ -71,149 +87,124 @@ export function generateLocalBusinessSchema() {
 
     slogan: "Entreprise de maçonnerie et terrassement en Nord-Isère",
 
+    knowsLanguage: "fr",
+
+    currenciesAccepted: "EUR",
+    paymentAccepted: "Espèces, Chèque, Virement bancaire",
+
     address: {
       "@type": "PostalAddress",
-
       streetAddress: siteConfig.business.address,
-
       addressLocality: siteConfig.business.city,
-
       postalCode: siteConfig.business.zipCode,
-
+      addressRegion: siteConfig.business.region,
       addressCountry: siteConfig.business.country,
     },
 
     geo: siteConfig.business.coordinates
       ? {
           "@type": "GeoCoordinates",
-
           latitude: siteConfig.business.coordinates.latitude,
-
           longitude: siteConfig.business.coordinates.longitude,
         }
       : undefined,
 
-    areaServed:
-      siteConfig.business.serviceArea?.map((city) => ({
-        "@type": "City",
-
+    // zone de chalandise réelle : cercle de 35 km autour d'Artas
+    // + villes principales nommées (double signal pour le local pack)
+    areaServed: [
+      {
+        "@type": "GeoCircle",
+        geoMidpoint: {
+          "@type": "GeoCoordinates",
+          latitude: siteConfig.business.coordinates?.latitude,
+          longitude: siteConfig.business.coordinates?.longitude,
+        },
+        geoRadius: "35000",
+      },
+      ...(siteConfig.business.serviceArea ?? []).slice(0, 15).map((city) => ({
+        "@type": "City" as const,
         name: city,
-      })) || [],
+      })),
+    ],
 
     openingHoursSpecification:
       siteConfig.business.openingHoursSpecification?.map((item) => ({
         "@type": "OpeningHoursSpecification",
-
         dayOfWeek: item.dayOfWeek,
-
         opens: item.opens,
-
         closes: item.closes,
       })) || [],
 
+    // catalogue construit depuis les VRAIS services (avec URLs)
     hasOfferCatalog: {
       "@type": "OfferCatalog",
-
-      name: "Services de maçonnerie",
-
-      itemListElement: [
-        {
-          "@type": "Offer",
-
-          itemOffered: {
-            "@type": "Service",
-
-            name: "Maçonnerie générale",
-          },
+      name: "Services de maçonnerie et terrassement",
+      itemListElement: services.map((service) => ({
+        "@type": "Offer",
+        itemOffered: {
+          "@type": "Service",
+          name: service.name,
+          description: service.description,
+          url: `${siteConfig.siteUrl}/services/${service.slug}`,
         },
-
-        {
-          "@type": "Offer",
-
-          itemOffered: {
-            "@type": "Service",
-
-            name: "Terrassement",
-          },
-        },
-
-        {
-          "@type": "Offer",
-
-          itemOffered: {
-            "@type": "Service",
-
-            name: "Extension maison",
-          },
-        },
-
-        {
-          "@type": "Offer",
-
-          itemOffered: {
-            "@type": "Service",
-
-            name: "Dalle béton",
-          },
-        },
-
-        {
-          "@type": "Offer",
-
-          itemOffered: {
-            "@type": "Service",
-
-            name: "Ouverture mur porteur",
-          },
-        },
-      ],
+      })),
     },
 
-    aggregateRating: {
-      "@type": "AggregateRating",
-
-      ratingValue: "5",
-
-      reviewCount: "15",
-    },
+    aggregateRating: ratingValue
+      ? {
+          "@type": "AggregateRating",
+          ratingValue,
+          bestRating: "5",
+          worstRating: "1",
+          reviewCount: String(reviews.length),
+        }
+      : undefined,
 
     sameAs: [
       siteConfig.business.socialProfiles.google || "",
-
       siteConfig.business.socialProfiles.facebook || "",
-
       siteConfig.business.socialProfiles.instagram || "",
     ].filter(Boolean),
   };
 }
-// Service Schema pour les pages services
+// Service Schema pour les pages services (et service×ville via `city`)
 export function generateServiceSchema(
   serviceName: string,
   serviceDescription: string,
   serviceUrl: string,
+  city?: { name: string; zipCode?: string },
 ) {
   return {
     "@context": "https://schema.org",
     "@type": "Service",
+    "@id": `${serviceUrl}#service`,
     name: serviceName,
     description: serviceDescription,
     url: serviceUrl,
-    provider: {
-      "@type": "LocalBusiness",
-      name: siteConfig.business.name,
-      url: siteConfig.siteUrl,
-      telephone: siteConfig.business.phone,
-      address: {
-        "@type": "PostalAddress",
-        streetAddress: siteConfig.business.address,
-        addressLocality: siteConfig.business.city,
-        postalCode: siteConfig.business.zipCode,
-        addressCountry: siteConfig.business.country,
-      },
-    },
-    areaServed: {
-      "@type": "Region",
-      name: "Nord-Isère",
+    serviceType: serviceName,
+    inLanguage: "fr-FR",
+    // référence le nœud LocalBusiness du layout (graphe @id) au lieu de
+    // dupliquer un provider incomplet sur chaque page
+    provider: { "@id": BUSINESS_ID },
+    areaServed: city
+      ? {
+          "@type": "City",
+          name: city.name,
+          ...(city.zipCode ? { postalCode: city.zipCode } : {}),
+          containedInPlace: {
+            "@type": "AdministrativeArea",
+            name: "Isère, Auvergne-Rhône-Alpes",
+          },
+        }
+      : {
+          "@type": "AdministrativeArea",
+          name: "Nord-Isère",
+        },
+    offers: {
+      "@type": "Offer",
+      priceCurrency: "EUR",
+      description: "Devis gratuit et sans engagement sous 24h",
+      availability: "https://schema.org/InStock",
     },
   };
 }
@@ -292,13 +283,129 @@ export function generateOrganizationSchema() {
   };
 }
 
-// WebSite Schema avec SearchAction
+// WebSite Schema
 export function generateWebSiteSchema() {
   return {
     "@context": "https://schema.org",
     "@type": "WebSite",
+    "@id": `${siteConfig.siteUrl}/#website`,
     name: siteConfig.business.name,
     url: siteConfig.siteUrl,
+    inLanguage: "fr-FR",
+    publisher: { "@id": BUSINESS_ID },
+  };
+}
+
+// Avis clients : Review[] rattachées au LocalBusiness (rich snippets étoiles)
+export function generateReviewsSchema(
+  items: Array<{
+    author: string;
+    rating: number;
+    text: string;
+    service?: string;
+  }>,
+) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "@id": BUSINESS_ID,
+    name: siteConfig.business.name,
+    review: items.map((r) => ({
+      "@type": "Review",
+      author: { "@type": "Person", name: r.author },
+      reviewRating: {
+        "@type": "Rating",
+        ratingValue: String(r.rating),
+        bestRating: "5",
+        worstRating: "1",
+      },
+      reviewBody: r.text,
+      ...(r.service ? { about: r.service } : {}),
+    })),
+    aggregateRating: items.length
+      ? {
+          "@type": "AggregateRating",
+          ratingValue: (
+            items.reduce((s, r) => s + r.rating, 0) / items.length
+          ).toFixed(1),
+          bestRating: "5",
+          worstRating: "1",
+          reviewCount: String(items.length),
+        }
+      : undefined,
+  };
+}
+
+// Pages hub (villes, services, blog, réalisations) : CollectionPage + ItemList
+export function generateCollectionSchema(
+  name: string,
+  description: string,
+  path: string,
+  items: Array<{ name: string; url: string }>,
+) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "@id": `${siteConfig.siteUrl}${path}#collection`,
+    name,
+    description,
+    url: `${siteConfig.siteUrl}${path}`,
+    inLanguage: "fr-FR",
+    isPartOf: { "@id": `${siteConfig.siteUrl}/#website` },
+    about: { "@id": BUSINESS_ID },
+    mainEntity: {
+      "@type": "ItemList",
+      numberOfItems: items.length,
+      itemListElement: items.map((item, i) => ({
+        "@type": "ListItem",
+        position: i + 1,
+        name: item.name,
+        url: `${siteConfig.siteUrl}${item.url}`,
+      })),
+    },
+  };
+}
+
+// Fiche réalisation : Article + lieu du chantier + galerie photos
+export function generateRealisationSchema(realisation: {
+  slug: string;
+  title: string;
+  city: string;
+  service: string;
+  description: string;
+  images: { src: string; alt: string }[];
+}) {
+  const url = `${siteConfig.siteUrl}/realisations/${realisation.slug}`;
+  return {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "@id": `${url}#realisation`,
+    headline: realisation.title,
+    description: realisation.description,
+    url,
+    inLanguage: "fr-FR",
+    author: { "@id": BUSINESS_ID },
+    publisher: { "@id": BUSINESS_ID },
+    about: {
+      "@type": "Service",
+      name: realisation.service,
+      provider: { "@id": BUSINESS_ID },
+    },
+    // signal local fort : le chantier a eu lieu dans cette commune
+    contentLocation: {
+      "@type": "City",
+      name: realisation.city,
+      containedInPlace: {
+        "@type": "AdministrativeArea",
+        name: "Isère, Auvergne-Rhône-Alpes",
+      },
+    },
+    image: realisation.images.map((img) => ({
+      "@type": "ImageObject",
+      url: `${siteConfig.siteUrl}${img.src}`,
+      caption: img.alt,
+    })),
+    mainEntityOfPage: { "@type": "WebPage", "@id": url },
   };
 }
 
@@ -331,12 +438,14 @@ export function generateArticleSchema(
     },
     publisher: {
       "@type": "Organization",
+      "@id": BUSINESS_ID,
       name: siteConfig.business.name,
       logo: {
         "@type": "ImageObject",
-        url: `${siteConfig.siteUrl}/DZ-maconnerie_logo1.webp`,
+        url: `${siteConfig.siteUrl}/images/chantiers/DZ-maconnerie_logo1.webp`,
       },
     },
+    inLanguage: "fr-FR",
     mainEntityOfPage: {
       "@type": "WebPage",
       "@id": articleUrl,

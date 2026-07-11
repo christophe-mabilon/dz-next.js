@@ -11,7 +11,6 @@ export const metadata: Metadata = generatePageMetadata(
   `Conditions d'utilisation | ${business.name}`,
   `Conditions d'utilisation du site ${business.name}.`,
   "/conditions",
-  `${siteConfig.siteUrl}/og-conditions.jpg`,
 );
 
 export default function ConditionsUtilisation() {

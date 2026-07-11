@@ -3,7 +3,11 @@ import { Metadata } from "next";
 
 import { Star, ArrowRight, Shield, BadgeCheck, Clock } from "lucide-react";
 
-import { generateMetadata as generatePageMetadata } from "@/lib/seo";
+import {
+  generateMetadata as generatePageMetadata,
+  generateReviewsSchema,
+  generateBreadcrumbSchema,
+} from "@/lib/seo";
 import { siteConfig } from "@/data/config";
 
 import HeroSection from "@/components/sections/hero/HeroSection";
@@ -16,7 +20,6 @@ export const metadata: Metadata = generatePageMetadata(
   `${business.name} | Avis clients et témoignages`,
   `Découvrez les avis et témoignages des clients de ${business.name} pour leurs travaux de maçonnerie, rénovation, terrassement et extension maison en Isère.`,
   "/avis",
-  `${siteConfig.siteUrl}/og-avis.jpg`,
 );
 
 const stats = [
@@ -44,6 +47,25 @@ const stats = [
 export default function AvisPage() {
   return (
     <>
+      {/* Schema : avis clients + note agrégée (rich snippets étoiles) */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(generateReviewsSchema(reviews)),
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(
+            generateBreadcrumbSchema([
+              { name: "Accueil", url: "/" },
+              { name: "Avis clients", url: "/avis" },
+            ]),
+          ),
+        }}
+      />
+
       {/* HERO */}
       <HeroSection
         badge={`Avis clients • ${business.city} • ${business.region}`}

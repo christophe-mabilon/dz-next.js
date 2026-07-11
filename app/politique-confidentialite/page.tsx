@@ -11,7 +11,6 @@ export const metadata: Metadata = generatePageMetadata(
   `Politique de confidentialité | ${business.name}`,
   `Politique de confidentialité et protection des données personnelles de ${business.name}.`,
   "/politique-confidentialite",
-  `${siteConfig.siteUrl}/og-privacy.jpg`,
 );
 
 export default function PolitiqueConfidentialite() {

@@ -44,7 +44,7 @@ export async function generateMetadata(
     service.name,
     service.description,
     `/services/${service.slug}`,
-    service.image || `${siteConfig.siteUrl}/og-service.jpg`,
+    service.image || `${siteConfig.siteUrl}/images/og-image.jpg`,
   );
 }
 

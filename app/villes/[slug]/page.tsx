@@ -11,7 +11,6 @@ import Image from "next/image";
 import HeroSection from "@/components/sections/hero/HeroSection";
 import {
   generateMetadata as generatePageMetadata,
-  generateLocalBusinessSchema,
   generateFAQSchema,
   generateBreadcrumbSchema,
   generateCitySchema,
@@ -46,7 +45,7 @@ export async function generateMetadata(
     `Maçonnerie & Terrassement à ${city.name} (${city.zipCode}) | DZ Maçonnerie`,
     city.description,
     `/villes/${city.slug}`,
-    `${siteConfig.siteUrl}/og-city.jpg`,
+    `${siteConfig.siteUrl}/images/og-image.jpg`,
   );
 }
 
@@ -71,13 +70,7 @@ export default async function CityPage(props: CityPageProps) {
 
   return (
     <>
-      {/* Schema.org */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify(generateLocalBusinessSchema()),
-        }}
-      />
+      {/* Schema.org (LocalBusiness global déjà injecté par le layout) */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{

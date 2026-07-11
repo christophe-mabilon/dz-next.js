@@ -4,7 +4,11 @@ import { Metadata } from "next";
 import { ArrowRight, CheckCircle2, ShieldCheck } from "lucide-react";
 
 import { services } from "@/data/services";
-import { generateMetadata as generatePageMetadata } from "@/lib/seo";
+import {
+  generateMetadata as generatePageMetadata,
+  generateCollectionSchema,
+  generateBreadcrumbSchema,
+} from "@/lib/seo";
 import { siteConfig } from "@/data/config";
 import HeroSection from "@/components/sections/hero/HeroSection";
 
@@ -14,12 +18,37 @@ export const metadata: Metadata = generatePageMetadata(
   "Services de maçonnerie à Bourgoin-Jallieu | DZ Maçonnerie",
   "Entreprise de maçonnerie à Bourgoin-Jallieu spécialisée en maçonnerie générale, rénovation, terrassement, dalle béton, piscine béton et extension maison en Isère.",
   "/services",
-  `${siteConfig.siteUrl}/og-services.jpg`,
 );
 
 export default function ServicesPage() {
   return (
     <>
+      {/* Schema : catalogue des services */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(
+            generateCollectionSchema(
+              "Services de maçonnerie et terrassement",
+              "Tous les services de DZ Maçonnerie : maçonnerie générale, rénovation, extension, dalle béton, terrassement, piscine et clôtures en Nord-Isère.",
+              "/services",
+              services.map((s) => ({ name: s.name, url: `/services/${s.slug}` })),
+            ),
+          ),
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(
+            generateBreadcrumbSchema([
+              { name: "Accueil", url: "/" },
+              { name: "Services", url: "/services" },
+            ]),
+          ),
+        }}
+      />
+
       {/* HERO */}
       <HeroSection
         badge="Services • Bourgoin-Jallieu • Nord-Isère"

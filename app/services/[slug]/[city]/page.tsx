@@ -10,6 +10,7 @@ import {
   generateMetadata as generatePageMetadata,
   generateServiceSchema,
   generateFAQSchema,
+  generateBreadcrumbSchema,
 } from "@/lib/seo";
 import { getRealisationsNearCity } from "@/lib/realisationLinks";
 import { siteConfig } from "@/data/config";
@@ -56,7 +57,7 @@ export async function generateMetadata(
     title,
     description,
     `/services/${service.slug}/${cityData.slug}`,
-    service.image || `${siteConfig.siteUrl}/og-service.jpg`,
+    service.image || `${siteConfig.siteUrl}/images/og-image.jpg`,
   );
 }
 
@@ -91,6 +92,7 @@ export default async function CombinedServiceCityPage(
               `${service.name} à ${cityData.name}`,
               `Expert en ${service.name.toLowerCase()} à ${cityData.name}`,
               `${siteConfig.siteUrl}/services/${service.slug}/${cityData.slug}`,
+              { name: cityData.name, zipCode: cityData.zipCode },
             ),
           ),
         }}
@@ -99,6 +101,22 @@ export default async function CombinedServiceCityPage(
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify(generateFAQSchema(faqItems)),
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(
+            generateBreadcrumbSchema([
+              { name: "Accueil", url: "/" },
+              { name: "Services", url: "/services" },
+              { name: service.name, url: `/services/${service.slug}` },
+              {
+                name: `${service.name} à ${cityData.name}`,
+                url: `/services/${service.slug}/${cityData.slug}`,
+              },
+            ]),
+          ),
         }}
       />
 

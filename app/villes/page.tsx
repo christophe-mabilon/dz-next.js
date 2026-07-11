@@ -3,7 +3,11 @@ import { Metadata } from "next";
 import { ArrowRight, MapPin } from "lucide-react";
 
 import { cities } from "@/data/cities";
-import { generateMetadata as generatePageMetadata } from "@/lib/seo";
+import {
+  generateMetadata as generatePageMetadata,
+  generateCollectionSchema,
+  generateBreadcrumbSchema,
+} from "@/lib/seo";
 import { siteConfig } from "@/data/config";
 import HeroSection from "@/components/sections/hero/HeroSection";
 
@@ -13,7 +17,6 @@ export const metadata: Metadata = generatePageMetadata(
   "Secteurs d'intervention | DZ Maçonnerie – Isère",
   `DZ Maçonnerie intervient dans plus de ${cities.length} villes autour d'Artas et Bourgoin-Jallieu. Maçonnerie, terrassement et rénovation en Nord-Isère.`,
   "/villes",
-  `${siteConfig.siteUrl}/og-villes.jpg`,
 );
 
 const featuredCities = cities.filter((c) => c.featured);
@@ -22,6 +25,32 @@ const otherCities = cities.filter((c) => !c.featured);
 export default function VillesPage() {
   return (
     <>
+      {/* Schema : liste des communes desservies */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(
+            generateCollectionSchema(
+              `Zones d'intervention — ${cities.length} communes en Nord-Isère`,
+              `Toutes les communes où DZ Maçonnerie intervient pour vos travaux de maçonnerie et terrassement.`,
+              "/villes",
+              cities.map((c) => ({ name: c.name, url: `/villes/${c.slug}` })),
+            ),
+          ),
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(
+            generateBreadcrumbSchema([
+              { name: "Accueil", url: "/" },
+              { name: "Villes", url: "/villes" },
+            ]),
+          ),
+        }}
+      />
+
       {/* HERO */}
       <HeroSection
         badge={`Secteurs d'intervention • ${cities.length} communes • Nord-Isère`}

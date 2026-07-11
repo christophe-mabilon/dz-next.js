@@ -19,7 +19,7 @@ export function generateRealisationMetadata(
   const ogImage =
     project.images?.[0]?.src
       ? `${SITE_URL}${project.images[0].src}`
-      : `${SITE_URL}/og-default.jpg`
+      : `${SITE_URL}/images/og-image.jpg`
 
   return {
     title,
