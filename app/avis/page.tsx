@@ -418,7 +418,7 @@ export default function AvisPage() {
       {/* NOTRE ENGAGEMENT QUALITÉ */}
       <section className="section-padding bg-white">
         <div className="mx-auto max-w-8xl px-6 lg:px-8">
-          <div className="mx-auto max-w-3xl text-center">
+          <div className="mx-auto max-w-8xl text-center">
             <p className="mb-3 text-lg font-semibold uppercase tracking-wide text-primary-600">
               La qualité est notre fondation !
             </p>
@@ -426,7 +426,7 @@ export default function AvisPage() {
               La satisfaction de nos clients, notre meilleure publicité
             </h2>
           </div>
-          <div className="mx-auto max-w-3xl space-y-5 text-base leading-relaxed text-gray-700">
+          <div className="mx-auto max-w-8xl space-y-5 text-base leading-relaxed text-gray-700">
             <p>
               Notre slogan n&apos;est pas un simple jeu de mots de maçon : en
               maçonnerie comme en relation client, tout repose sur des
@@ -455,7 +455,7 @@ export default function AvisPage() {
 
           {/* CTA */}
           <div className="mt-12 text-center">
-            <p className="mx-auto mb-2 max-w-3xl text-2xl font-black text-gray-900">
+            <p className="mx-auto mb-2 max-w-8xl text-2xl font-black text-gray-900">
               Votre projet mérite le même soin que ces chantiers.
             </p>
             <p className="mx-auto mb-8 max-w-2xl text-lg text-gray-600">
