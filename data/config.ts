@@ -1,62 +1,23 @@
 import { SiteConfig } from "@/types";
-export const openingHoursSpecification = [
-  {
-    dayOfWeek: "Monday",
-    opens: "08:00",
-    closes: "18:00",
-  },
+// Horaires réels : 8h-12h / 14h-18h (fiche Google Business alignée).
+// Schema.org : une entrée par plage horaire (matin + après-midi).
+const WEEKDAYS = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"];
 
-  {
-    dayOfWeek: "Tuesday",
-    opens: "08:00",
-    closes: "18:00",
-  },
-
-  {
-    dayOfWeek: "Wednesday",
-    opens: "08:00",
-    closes: "18:00",
-  },
-
-  {
-    dayOfWeek: "Thursday",
-    opens: "08:00",
-    closes: "18:00",
-  },
-
-  {
-    dayOfWeek: "Friday",
-    opens: "08:00",
-    closes: "18:00",
-  },
-];
+export const openingHoursSpecification = WEEKDAYS.flatMap((dayOfWeek) => [
+  { dayOfWeek, opens: "08:00", closes: "12:00" },
+  { dayOfWeek, opens: "14:00", closes: "18:00" },
+]);
 
 export const openingHoursDisplay = [
-  {
-    day: "Lundi",
-    hours: "08h00 - 18h00",
-  },
-
-  {
-    day: "Mardi",
-    hours: "08h00 - 18h00",
-  },
-
-  {
-    day: "Mercredi",
-    hours: "08h00 - 18h00",
-  },
-
-  {
-    day: "Jeudi",
-    hours: "08h00 - 18h00",
-  },
-
-  {
-    day: "Vendredi",
-    hours: "08h00 - 18h00",
-  },
-];
+  "Lundi",
+  "Mardi",
+  "Mercredi",
+  "Jeudi",
+  "Vendredi",
+].map((day) => ({
+  day,
+  hours: "08h00 - 12h00 / 14h00 - 18h00",
+}));
 export const siteConfig: SiteConfig = {
   siteName: "DZ Maçonnerie & Terrassement",
   siteDescription:
