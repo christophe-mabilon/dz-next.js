@@ -47,32 +47,75 @@ if (!KEY || !PLACE_ID) {
   process.exit(0);
 }
 
-const url =
-  `https://maps.googleapis.com/maps/api/place/details/json` +
-  `?place_id=${encodeURIComponent(PLACE_ID)}` +
-  `&fields=rating,user_ratings_total,reviews` +
-  `&reviews_no_translations=true&language=fr&key=${KEY}`;
-
-const res = await fetch(url);
-const data = await res.json();
-
-if (data.status !== "OK") {
-  console.error(`❌ Places API: ${data.status} ${data.error_message ?? ""}`);
-  process.exit(1);
+// ---- 1. Places API (New) — celle que Google active par défaut aujourd'hui
+async function fetchNew() {
+  const res = await fetch(
+    `https://places.googleapis.com/v1/places/${encodeURIComponent(PLACE_ID)}?languageCode=fr`,
+    {
+      headers: {
+        "X-Goog-Api-Key": KEY,
+        "X-Goog-FieldMask": "rating,userRatingCount,reviews",
+      },
+    },
+  );
+  const data = await res.json();
+  if (!res.ok) throw new Error(data.error?.message ?? `HTTP ${res.status}`);
+  return {
+    ratingValue: data.rating ?? null,
+    reviewCount: data.userRatingCount ?? null,
+    reviews: (data.reviews ?? []).map((rev) => ({
+      author: rev.authorAttribution?.displayName ?? "Client Google",
+      rating: rev.rating,
+      text: rev.text?.text ?? "",
+      relativeDate: rev.relativePublishTimeDescription,
+      source: "Google",
+    })),
+  };
 }
 
-const r = data.result;
+// ---- 2. Places API historique (repli)
+async function fetchLegacy() {
+  const url =
+    `https://maps.googleapis.com/maps/api/place/details/json` +
+    `?place_id=${encodeURIComponent(PLACE_ID)}` +
+    `&fields=rating,user_ratings_total,reviews` +
+    `&reviews_no_translations=true&language=fr&key=${KEY}`;
+  const res = await fetch(url);
+  const data = await res.json();
+  if (data.status !== "OK")
+    throw new Error(`${data.status} ${data.error_message ?? ""}`);
+  const r = data.result;
+  return {
+    ratingValue: r.rating ?? null,
+    reviewCount: r.user_ratings_total ?? null,
+    reviews: (r.reviews ?? []).map((rev) => ({
+      author: rev.author_name,
+      rating: rev.rating,
+      text: rev.text,
+      relativeDate: rev.relative_time_description,
+      source: "Google",
+    })),
+  };
+}
+
+let result;
+try {
+  result = await fetchNew();
+  console.log("→ Places API (New)");
+} catch (eNew) {
+  console.log(`→ Places API (New) indisponible (${eNew.message}), essai API historique…`);
+  try {
+    result = await fetchLegacy();
+    console.log("→ Places API (historique)");
+  } catch (eLegacy) {
+    console.error(`❌ Les deux API ont échoué : ${eLegacy.message}`);
+    process.exit(1);
+  }
+}
+
 const out = {
   fetchedAt: new Date().toISOString(),
-  ratingValue: r.rating ?? null,
-  reviewCount: r.user_ratings_total ?? null,
-  reviews: (r.reviews ?? []).map((rev) => ({
-    author: rev.author_name,
-    rating: rev.rating,
-    text: rev.text,
-    relativeDate: rev.relative_time_description,
-    source: "Google",
-  })),
+  ...result,
 };
 
 await writeFile(OUT, JSON.stringify(out, null, 2) + "\n");

@@ -38,9 +38,8 @@ export const partners: Partner[] = [
       "Notre entreprise propose des interventions dans le domaine de l'électricité générale et vous assure un travail réalisé avec soin et professionnalisme.\n\n" +
       "Nos prestations s'adressent aux particuliers ou aux professionnels, pour de la rénovation ou du neuf.\n\n" +
       "Pour des conseils avisés sur les travaux à entreprendre, n'hésitez pas à nous contacter.",
-    // TODO (Christophe) : compléter quand disponibles
-    // logo: "/images/partenaires/js-elec.webp",
-    // website: "https://…",
-    // phone: "+33…",
+        logo: "/images/partenaires/js-elec.webp",
+    website: "https://jselec38.fr/",
+    phone: "07 83 24 32 40",
   },
 ];
