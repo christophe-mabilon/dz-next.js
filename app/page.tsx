@@ -337,15 +337,15 @@ export default function HomePage() {
           </div>
         </div>
       </section>
-      {/* PHOTO SECTION */}
-      <section className="bg-white py-16">
+      {/* PHOTO SECTION — bande sombre, cartes claires */}
+      <section className="bg-gray-900 py-16 text-white md:py-20">
         <div className="mx-auto max-w-8xl px-6 lg:px-8">
           <div className="mb-14 text-center">
-            <h2 className="mb-4 text-4xl font-black text-gray-900">
+            <h2 className="mb-4 text-4xl font-black text-white">
               Des réalisations de qualité en Nord-Isère
             </h2>
 
-            <p className="mx-auto max-w-3xl text-base leading-relaxed text-gray-600">
+            <p className="mx-auto max-w-3xl text-base leading-relaxed text-gray-300">
               Découvrez quelques réalisations de travaux de maçonnerie,
               terrassement, dalle béton et rénovation effectuées à
               Bourgoin-Jallieu, Artas, Villefontaine, Vienne et dans tout le
@@ -356,19 +356,19 @@ export default function HomePage() {
           <div className="grid gap-8 md:grid-cols-3">
             {[
               {
-                image: "/assets/img/extention_maison.webp",
+                image: "/images/services/maconnerie-generale.webp",
                 alt: "Travaux de maçonnerie en parpaing à Bourgoin-Jallieu",
                 title: "Maçonnerie générale",
                 desc: "Construction en parpaing et travaux de gros œuvre à Bourgoin-Jallieu.",
               },
               {
-                image: "/assets/img/piscine-beton.webp",
+                image: "/images/services/piscine.webp",
                 alt: "Construction de piscine béton en Isère",
                 title: "Piscine béton",
                 desc: "Construction et maçonnerie de piscine béton pour aménagement extérieur.",
               },
               {
-                image: "/assets/img/realisation-muret.webp",
+                image: "/images/services/realisation-cloture-muret.webp",
                 alt: "Construction de muret et clôture en Isère",
                 title: "Muret & clôture",
                 desc: "Création de murets et aménagement extérieur en Isère.",
