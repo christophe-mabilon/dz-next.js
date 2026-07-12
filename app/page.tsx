@@ -11,14 +11,14 @@ const { business } = siteConfig;
 
 export const metadata: Metadata = {
   title:
-    "Artisan Maçon à Bourgoin-Jallieu | Construction, Rénovation & Terrassement | DZ Maçonnerie & Terrassement",
+    "Entreprise de maçonnerie à Bourgoin-Jallieu | Construction, Rénovation & Terrassement | DZ Maçonnerie & Terrassement",
   description:
     "Entreprise de maçonnerie à Bourgoin-Jallieu et en Isère. Terrassement, dalle béton, ouverture mur porteur, rénovation et extension maison. Devis gratuit sous 24h.",
   alternates: {
     canonical: "https://www.dzmaconnerie38.fr",
   },
   openGraph: {
-    title: `Artisan maçon à Bourgoin-Jallieu | Construction, rénovation & terrassement | ${business.name}`,
+    title: `Entreprise de maçonnerie à Bourgoin-Jallieu | Construction, rénovation & terrassement | ${business.name}`,
     description:
       "Travaux de maçonnerie, terrassement, rénovation et extension en Isère.",
     url: "https://www.dzmaconnerie38.fr",
@@ -40,7 +40,7 @@ const services = [
   {
     title: "Maçonnerie générale",
     description:
-      "Artisan maçon à Artas près de Bourgoin-Jallieu. Construction, rénovation, extension de maison, terrassement, fondations, terrasses, murs porteurs, piscines et aménagements extérieurs. Devis gratuit.",
+      "Entreprise de maçonnerie à Artas près de Bourgoin-Jallieu. Construction, rénovation, extension de maison, terrassement, fondations, terrasses, murs porteurs, piscines et aménagements extérieurs. Devis gratuit.",
     href: "/services/maconnerie-neuf",
   },
   {

@@ -22,8 +22,10 @@
 import { writeFile, readFile } from "node:fs/promises";
 import { existsSync } from "node:fs";
 import path from "node:path";
+import { fileURLToPath } from "node:url";
 
-const ROOT = path.resolve(import.meta.dirname, "..");
+// import.meta.dirname n'existe qu'à partir de Node 20.11 (plante sur Vercel)
+const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const OUT = path.join(ROOT, "data", "reviews-live.json");
 
 // charge .env.local si présent (sans dépendance)

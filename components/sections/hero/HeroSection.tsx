@@ -111,8 +111,8 @@ export default function HeroSection({
       </div>
 
       {/* CONTENT */}
-      <div className={`relative z-10 px-3 mx-auto px-6 ${heightClass}`}>
-        <div className="max-w-4xl">
+      <div className={`relative z-10 px-6 mx-auto ${heightClass}`}>
+        <div className="max-w-6xl">
           {/* BADGE */}
           {badge && (
             <div className="mb-6 inline-flex items-center rounded-full bg-white/10 px-4 py-2 text-sm text-white backdrop-blur">
