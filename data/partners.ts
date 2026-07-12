@@ -39,7 +39,7 @@ export interface Partner {
    * créent des paragraphes.
    */
   description: string;
-  /** Logo (chemin dans /public, ex. "/images/partenaires/logo-js-elec.png") */
+  /** Logo (chemin dans /public, ex. "/images/partenaires/logo-js-elec.webp") */
   logo?: string;
   /** Site web (optionnel) */
   website?: string;
