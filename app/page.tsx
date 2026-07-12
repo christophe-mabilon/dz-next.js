@@ -276,8 +276,8 @@ export default function HomePage() {
                 key={item.title}
                 className="rounded-2xl border border-white/10 bg-white/5 p-8 backdrop-blur-sm transition-all duration-300 hover:-translate-y-1.5 hover:border-primary-500 hover:bg-white/10 hover:shadow-2xl"
               >
-                <span className="mb-6 flex h-14 w-14 items-center justify-center rounded-full bg-primary-600 shadow-lg shadow-primary-900/40">
-                  <item.icon className="h-7 w-7 text-white" />
+                <span className="mb-6 flex h-14 w-14 items-center justify-center rounded-2xl bg-primary-500/10">
+                  <item.icon className="h-7 w-7 text-yellow-400" />
                 </span>
 
                 <h3 className="mb-4 text-2xl font-bold text-white">
