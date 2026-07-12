@@ -15,7 +15,7 @@ import {
   Fence,
   Shovel,
   Warehouse,
-  Layers,
+  Square,
   LayoutGrid,
 } from "lucide-react";
 import HeroSection from "@/components/sections/hero/HeroSection";
@@ -71,14 +71,14 @@ const services = [
     title: "Agrandissement maison",
     description:
       "Une chambre en plus, un garage, une surélévation : gagnez de l'espace sans déménager, avec une étude de faisabilité avant tout engagement.",
-    icon: Expand,
+    icon: HousePlus,
     href: "/services/agrandissement-maison",
   },
   {
     title: "Extension maison",
     description:
       "Nous agrandissons votre surface habitable avec une extension parfaitement raccordée à l'existant, du terrassement à la mise hors d'eau.",
-    icon: HousePlus,
+    icon: Expand,
     href: "/services/extension-maison",
   },
   {
@@ -113,7 +113,7 @@ const services = [
     title: "Dalle béton",
     description:
       "Dalles armées planes et pérennes pour garage, terrasse, maison ou extension — préparées dans les règles de l'art.",
-    icon: Layers,
+    icon: Square,
     href: "/services/dalle-beton",
   },
   {
