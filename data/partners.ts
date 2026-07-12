@@ -3,9 +3,29 @@
  * Ajouter une entrée par partenaire — la page /partenaires se met à jour
  * automatiquement. Déposer les logos dans public/images/partenaires/.
  */
+/** Métiers de l'annuaire (ordre d'affichage du menu) */
+export const PARTNER_CATEGORIES = [
+  "Électriciens",
+  "Plombiers",
+  "Charpentiers",
+  "Couvreurs",
+  "Menuisiers",
+  "Carreleurs",
+  "Peintres",
+  "Façadiers",
+  "Plaquistes",
+  "Serruriers",
+  "Ramoneurs",
+  "Paysagistes",
+] as const;
+
+export type PartnerCategory = (typeof PARTNER_CATEGORIES)[number];
+
 export interface Partner {
   /** Nom de l'entreprise */
   name: string;
+  /** Métier (catégorie du menu de l'annuaire) */
+  category: PartnerCategory;
   /** Type de services (ex. "Entreprise d'électricité générale") */
   trade: string;
   /** Ville (affichage court + regroupements) */
@@ -30,6 +50,7 @@ export interface Partner {
 export const partners: Partner[] = [
   {
     name: "JS ELEC",
+    category: "Électriciens",
     trade: "Entreprise d'électricité générale",
     city: "Maubec",
     address: "86 Chem. de la Cigalière, 38300 Maubec",

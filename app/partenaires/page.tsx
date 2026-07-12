@@ -4,7 +4,20 @@ import Image from "next/image";
 import { ArrowRight, Handshake, Globe, MapPin } from "lucide-react";
 import HeroSection from "@/components/sections/hero/HeroSection";
 import { siteConfig } from "@/data/config";
-import { partners } from "@/data/partners";
+import { partners, PARTNER_CATEGORIES } from "@/data/partners";
+
+// métiers ayant au moins une entreprise, dans l'ordre du menu
+const activeCategories = PARTNER_CATEGORIES.map((category) => ({
+  category,
+  items: partners.filter((p) => p.category === category),
+})).filter(({ items }) => items.length > 0);
+
+const anchor = (category: string) =>
+  category
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/[̀-ͯ]/g, "")
+    .replace(/[^a-z0-9]+/g, "-");
 import {
   generateMetadata as generatePageMetadata,
   generateBreadcrumbSchema,
@@ -125,8 +138,41 @@ export default function PartenairesPage() {
           </div>
 
           {partners.length > 0 ? (
-            <div className="space-y-8">
-              {partners.map((partner) => (
+            <>
+              {/* Menu des métiers (seuls ceux ayant des entreprises) */}
+              <nav
+                aria-label="Métiers de l'annuaire"
+                className="mb-10 flex flex-wrap gap-3"
+              >
+                {activeCategories.map(({ category, items }) => (
+                  <a
+                    key={category}
+                    href={`#${anchor(category)}`}
+                    className="relative inline-flex items-center rounded-xl bg-primary-600 px-5 py-2.5 font-semibold text-white shadow-md transition hover:bg-primary-700"
+                  >
+                    {category}
+                    <span className="absolute -right-2 -top-2 flex h-6 min-w-6 items-center justify-center rounded-full border-2 border-white bg-primary-900 px-1.5 text-xs font-bold">
+                      {items.length}
+                    </span>
+                  </a>
+                ))}
+              </nav>
+
+              <div className="space-y-12">
+                {activeCategories.map(({ category, items }) => (
+                  <div
+                    key={category}
+                    id={anchor(category)}
+                    className="scroll-mt-28"
+                  >
+                    <h3 className="mb-6 flex items-center gap-3 text-2xl font-bold text-gray-900">
+                      {category}
+                      <span className="rounded-full bg-primary-100 px-3 py-1 text-sm font-semibold text-primary-700">
+                        {items.length} entreprise{items.length > 1 ? "s" : ""}
+                      </span>
+                    </h3>
+                    <div className="space-y-8">
+                      {items.map((partner) => (
                 <article
                   key={partner.name}
                   className="overflow-hidden rounded-2xl border border-gray-200 bg-white shadow-sm transition hover:border-primary-300 hover:shadow-md"
@@ -217,8 +263,12 @@ export default function PartenairesPage() {
                     </div>
                   </div>
                 </article>
-              ))}
-            </div>
+                      ))}
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </>
           ) : (
             <div className="rounded-2xl border border-dashed border-gray-300 bg-gray-50 p-10 text-center">
               <Handshake className="mx-auto mb-4 h-10 w-10 text-primary-600" />
