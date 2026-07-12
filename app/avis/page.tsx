@@ -6,6 +6,7 @@ import { Star, ArrowRight, Shield, BadgeCheck, Clock } from "lucide-react";
 
 import {
   generateMetadata as generatePageMetadata,
+  getRatingSummary,
   generateReviewsSchema,
   generateBreadcrumbSchema,
 } from "@/lib/seo";
@@ -13,7 +14,7 @@ import { siteConfig } from "@/data/config";
 
 import HeroSection from "@/components/sections/hero/HeroSection";
 
-import { reviews } from "@/data/reviews";
+import { reviews, allReviews } from "@/data/reviews";
 
 const { business } = siteConfig;
 
@@ -23,15 +24,19 @@ export const metadata: Metadata = generatePageMetadata(
   "/avis",
 );
 
+const rating = getRatingSummary();
+const noteMoyenne = rating?.ratingValue ?? "5";
+const nbAvis = rating?.reviewCount ?? String(reviews.length);
+
 const stats = [
   {
     label: "Avis clients",
-    value: `${reviews.length}+`,
+    value: `${nbAvis}+`,
   },
 
   {
     label: "Note moyenne",
-    value: "5/5",
+    value: `${noteMoyenne}/5`,
   },
 
   {
@@ -52,7 +57,7 @@ export default function AvisPage() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: JSON.stringify(generateReviewsSchema(reviews)),
+          __html: JSON.stringify(generateReviewsSchema(allReviews)),
         }}
       />
       <script
@@ -219,11 +224,11 @@ export default function AvisPage() {
               </div>
 
               {/* NOTE */}
-              <p className="mb-2 text-6xl font-black text-white">5/5</p>
+              <p className="mb-2 text-6xl font-black text-white">{noteMoyenne}/5</p>
 
               {/* SUBTEXT */}
               <p className="mb-1 text-base font-semibold text-white">
-                Plus de {reviews.length}+ avis clients
+                Plus de {nbAvis}+ avis clients
               </p>
 
               <p className="text-sm text-gray-400">
@@ -336,7 +341,7 @@ export default function AvisPage() {
 
               {/* CLIENT REVIEWS */}
               <div className="mt-10 grid gap-4 md:grid-cols-3">
-                {reviews.slice(0, 3).map((review, idx) => (
+                {allReviews.slice(0, 3).map((review, idx) => (
                   <div
                     key={idx}
                     className="
@@ -380,9 +385,12 @@ export default function AvisPage() {
                         {review.author}
                       </p>
 
-                      <p className="text-sm text-gray-400">{review.city}</p>
+                      {review.city && (
+                          <p className="text-sm text-gray-400">{review.city}</p>
+                        )}
 
-                      <p
+                      {review.service && (
+                        <p
                         className="
                             mt-1
                             text-xs
@@ -392,6 +400,7 @@ export default function AvisPage() {
                       >
                         {review.service}
                       </p>
+                        )}
 
                       <div
                         className="
@@ -505,7 +514,7 @@ export default function AvisPage() {
           </h2>
 
           <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
-            {reviews.map((review, idx) => (
+            {allReviews.map((review, idx) => (
               <div
                 key={idx}
                 className="
@@ -549,9 +558,12 @@ export default function AvisPage() {
                         {review.author}
                       </p>
 
-                      <p className="text-sm text-gray-600">{review.city}</p>
+                      {review.city && (
+                        <p className="text-sm text-gray-600">{review.city}</p>
+                      )}
                     </div>
 
+                    {review.service && (
                     <div
                       className="
                         rounded-full
@@ -565,6 +577,7 @@ export default function AvisPage() {
                     >
                       {review.service}
                     </div>
+                    )}
                   </div>
 
                   <div

@@ -14,7 +14,8 @@
     "cities:build": "node scripts/build-cities.mjs",
     "cities:all": "node scripts/enrich-cities.mjs && node scripts/build-cities.mjs",
     "reviews:fetch": "node scripts/fetch-reviews.mjs",
-    "partners:requests": "node scripts/list-partner-requests.mjs"
+    "partners:requests": "node scripts/list-partner-requests.mjs",
+    "prebuild": "node scripts/fetch-reviews.mjs"
   },
   "dependencies": {
     "@tailwindcss/typography": "^0.5.19",

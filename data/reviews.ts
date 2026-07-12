@@ -1,4 +1,17 @@
-export const reviews = [
+import reviewsLive from "./reviews-live.json";
+
+export interface Review {
+  author: string;
+  rating: number;
+  text: string;
+  source: string;
+  relativeDate?: string;
+  /** renseignés sur les avis curatés à la main, absents des avis API */
+  city?: string;
+  service?: string;
+}
+
+export const reviews: Review[] = [
   {
     author: "Valerie Sperti",
     city: "Artas",
@@ -148,4 +161,16 @@ export const reviews = [
     source: "Google",
     text: "Entreprise fiable et sérieuse. Les délais ont été respectés et le chantier a été parfaitement réalisé. Très satisfait du résultat final.",
   },
+];
+
+/**
+ * Avis affichés sur le site : les avis Google récupérés automatiquement
+ * (scripts/fetch-reviews.mjs) en tête, dédoublonnés par auteur avec la
+ * liste curatée ci-dessus. Se met à jour à chaque build (hook prebuild).
+ */
+export const allReviews: Review[] = [
+  ...((reviewsLive.reviews ?? []) as Review[]).filter(
+    (live) => !reviews.some((m) => m.author === live.author),
+  ),
+  ...reviews,
 ];
