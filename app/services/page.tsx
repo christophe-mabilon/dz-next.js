@@ -2,7 +2,14 @@ import Link from "next/link";
 import { formatPhone } from "@/lib/format";
 import Image from "next/image";
 import { Metadata } from "next";
-import { ArrowRight, CheckCircle2, ShieldCheck } from "lucide-react";
+import {
+  ArrowRight,
+  CheckCircle2,
+  ShieldCheck,
+  Award,
+  FileCheck,
+  MapPin,
+} from "lucide-react";
 
 import { services } from "@/data/services";
 import {
@@ -170,15 +177,15 @@ export default function ServicesPage() {
         </div>
       </section>
 
-      {/* SERVICES — bande sombre, cartes claires */}
-      <section className="bg-gray-900 py-16 text-white md:py-20">
+      {/* SERVICES */}
+      <section className="bg-gray-50 py-16">
         <div className="mx-auto max-w-8xl px-6 lg:px-8">
           <div className="mb-14 text-center">
-            <h2 className="mb-4 text-4xl font-black text-white">
+            <h2 className="mb-4 text-4xl font-black text-gray-900">
               Nos prestations de maçonnerie
             </h2>
 
-            <p className="mx-auto max-w-3xl text-base leading-relaxed text-gray-300">
+            <p className="mx-auto max-w-3xl text-base leading-relaxed text-gray-600">
               Découvrez l’ensemble de nos services de maçonnerie, rénovation et
               terrassement à Bourgoin-Jallieu et dans toute l’Isère.
             </p>
@@ -255,17 +262,17 @@ export default function ServicesPage() {
           <div className="grid gap-8 md:grid-cols-3">
             {[
               {
-                image: "/assets/img/maconnerie-generale.webp",
+                image: "/images/services/maconnerie-generale.webp",
                 title: "Maçonnerie générale",
                 desc: "Travaux de gros œuvre et construction en parpaing.",
               },
               {
-                image: "/assets/img/realisation-piscine.webp",
+                image: "/images/services/piscine.webp",
                 title: "Piscine béton",
                 desc: "Construction de piscine béton et aménagement extérieur.",
               },
               {
-                image: "/assets/img/realisation-muret.webp",
+                image: "/images/services/realisation-cloture-muret.webp",
                 title: "Muret & clôture",
                 desc: "Création de murets et travaux d’aménagement extérieur.",
               },
@@ -297,15 +304,15 @@ export default function ServicesPage() {
         </div>
       </section>
 
-      {/* WHY US */}
-      <section className="bg-gray-50 py-16">
+      {/* WHY US — bande sombre */}
+      <section className="bg-gray-900 py-16 text-white md:py-20">
         <div className="mx-auto max-w-8xl px-6 lg:px-8">
           <div className="mb-14 text-center">
-            <h2 className="mb-4 text-4xl font-black text-gray-900">
+            <h2 className="mb-4 text-4xl font-black text-white">
               Pourquoi choisir DZ Maçonnerie ?
             </h2>
 
-            <p className="mx-auto max-w-3xl text-base text-gray-600">
+            <p className="mx-auto max-w-3xl text-base text-gray-300">
               Une entreprise locale reconnue pour son sérieux, son
               accompagnement et la qualité de ses travaux.
             </p>
@@ -314,29 +321,35 @@ export default function ServicesPage() {
           <div className="grid gap-8 md:grid-cols-2 xl:grid-cols-4">
             {[
               {
+                icon: Award,
                 title: "10 ans d’expérience",
                 desc: "Une solide expertise dans les travaux de maçonnerie générale.",
               },
               {
+                icon: ShieldCheck,
                 title: "Garantie décennale",
                 desc: "Tous nos travaux sont couverts par une assurance décennale.",
               },
               {
+                icon: FileCheck,
                 title: "Devis gratuit",
                 desc: "Étude personnalisée et accompagnement de votre projet.",
               },
               {
+                icon: MapPin,
                 title: "Entreprise locale",
                 desc: "Basée à Artas près de Bourgoin-Jallieu en Isère.",
               },
             ].map((item) => (
               <div
                 key={item.title}
-                className="rounded-3xl border border-gray-200 bg-white p-8"
+                className="rounded-2xl border border-white/10 bg-white/5 p-8 backdrop-blur-sm transition-all duration-300 hover:-translate-y-1.5 hover:border-primary-500 hover:bg-white/10 hover:shadow-2xl"
               >
-                <ShieldCheck className="mb-5 h-10 w-10 text-primary-500" />
+                <span className="mx-auto mb-6 flex h-14 w-14 items-center justify-center rounded-2xl bg-primary-500/10">
+                  <item.icon className="h-7 w-7 text-orange-400" />
+                </span>
 
-                <h3 className="mb-4 text-2xl font-bold text-gray-900">
+                <h3 className="mb-4 text-2xl font-bold text-white">
                   {item.title}
                 </h3>
 
