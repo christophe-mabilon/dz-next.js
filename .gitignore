@@ -44,3 +44,6 @@ pnpm-lock.yaml
 
 # Caches de build locaux (API villes)
 data/.cache/
+
+# Demandes de partenariat (données runtime, hors git)
+var/

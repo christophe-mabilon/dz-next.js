@@ -10,6 +10,7 @@ import {
   generateCollectionSchema,
 } from "@/lib/seo";
 import { formatPhone } from "@/lib/format";
+import { PartnerForm } from "@/components/PartnerForm";
 
 const { business } = siteConfig;
 
@@ -169,12 +170,33 @@ export default function PartenairesPage() {
                 Nord-Isère et nous avons déjà travaillé ensemble ?
                 Contactez-nous pour figurer ici.
               </p>
-              <Link href="/contact" className="btn-primary inline-flex">
+              <a href="#devenir-partenaire" className="btn-primary inline-flex">
                 Devenir partenaire
                 <ArrowRight className="ml-2 h-4 w-4" />
-              </Link>
+              </a>
             </div>
           )}
+        </div>
+      </section>
+
+      {/* FORMULAIRE DEVENIR PARTENAIRE */}
+      <section
+        id="devenir-partenaire"
+        className="section-padding scroll-mt-24 bg-white"
+      >
+        <div className="mx-auto max-w-8xl px-6 lg:px-8">
+          <div className="mx-auto max-w-3xl">
+            <h2 className="mb-3 text-3xl font-bold text-gray-900">
+              Devenir entreprise partenaire
+            </h2>
+            <p className="mb-8 text-gray-600">
+              Vous êtes un artisan ou une entreprise du bâtiment en Nord-Isère
+              et vous souhaitez rejoindre notre réseau ? Présentez-vous via ce
+              formulaire — nous privilégions les professionnels avec qui nous
+              avons déjà collaboré sur chantier.
+            </p>
+            <PartnerForm />
+          </div>
         </div>
       </section>
     </>

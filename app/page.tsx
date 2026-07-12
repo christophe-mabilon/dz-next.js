@@ -41,7 +41,7 @@ const services = [
     title: "Maçonnerie générale",
     description:
       "Artisan maçon à Artas près de Bourgoin-Jallieu. Construction, rénovation, extension de maison, terrassement, fondations, terrasses, murs porteurs, piscines et aménagements extérieurs. Devis gratuit.",
-    href: "/services/maconnerie-generale",
+    href: "/services/maconnerie-neuf",
   },
   {
     title: "Terrassement",
@@ -59,7 +59,7 @@ const services = [
     title: "Ouverture mur porteur",
     description:
       "Ouverture de mur porteur avec pose IPN et sécurisation du chantier.",
-    href: "/services/ouverture-mur-porteur",
+    href: "/services/renovation-maconnerie",
   },
   {
     title: "Extension maison",
@@ -71,7 +71,7 @@ const services = [
     title: "Rénovation",
     description:
       "Rénovation intérieure et extérieure pour particuliers et professionnels.",
-    href: "/services/renovation",
+    href: "/services/renovation-maconnerie",
   },
 ];
 
@@ -81,8 +81,8 @@ export default function HomePage() {
       {/* LocalBusiness complet déjà injecté par le layout (graphe @id) */}
       {/* HERO */}
       <HeroSection
-        badge="Artisan maçon • Bourgoin-Jallieu • Nord-Isère"
-        title="Artisan Maçon"
+        badge="Entreprise de maçonnerie • Bourgoin-Jallieu • Nord-Isère"
+        title="Entreprise de maçonnerie"
         highlight="Bourgoin-Jallieu"
         description="Entreprise de maçonnerie générale située à Artas, près de Bourgoin-Jallieu, spécialisée dans la construction, la rénovation, les extensions de maison, les terrasses, le terrassement, les fondations, les dalles béton et l'ouverture de murs porteurs. Déplacement dans tout le Nord-Isère."
         image="/images/realisations/artisan-macon-bourgoin-jallieu-terrasse-gres-cerame-dz-maconnerie-terrassement.webp"

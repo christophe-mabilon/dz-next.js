@@ -22,11 +22,12 @@ export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.siteUrl),
 
   title: {
-    default: `Artisan maçon à Bourgoin-Jallieu | Maçonnerie, terrassement & rénovation | ${siteConfig.siteName}`,
+    default: `Entreprise de maçonnerie à Bourgoin-Jallieu | Maçonnerie, terrassement & rénovation | ${siteConfig.siteName}`,
     template: `%s | ${siteConfig.siteName}`,
   },
   description: siteConfig.siteDescription,
   keywords: [
+    "Entreprise de maçonnerie Bourgoin-Jallieu",
     "artisan maçon Bourgoin-Jallieu",
     "maçon Bourgoin-Jallieu",
     "maçon Artas",

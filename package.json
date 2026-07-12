@@ -13,7 +13,8 @@
     "cities:enrich": "node scripts/enrich-cities.mjs",
     "cities:build": "node scripts/build-cities.mjs",
     "cities:all": "node scripts/enrich-cities.mjs && node scripts/build-cities.mjs",
-    "reviews:fetch": "node scripts/fetch-reviews.mjs"
+    "reviews:fetch": "node scripts/fetch-reviews.mjs",
+    "partners:requests": "node scripts/list-partner-requests.mjs"
   },
   "dependencies": {
     "@tailwindcss/typography": "^0.5.19",
