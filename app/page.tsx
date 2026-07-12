@@ -304,7 +304,7 @@ export default function HomePage() {
                 href={service.href}
                 className="group rounded-3xl border border-gray-200 bg-white p-8 transition-all duration-300 hover:-translate-y-1.5 hover:border-primary-500 hover:bg-primary-50/40 hover:shadow-2xl"
               >
-                <span className="mb-5 flex h-14 w-14 items-center justify-center rounded-full bg-primary-600 shadow-lg shadow-primary-900/25 transition-transform duration-300 group-hover:scale-110">
+                <span className="mb-8 flex h-14 w-14 items-center justify-center rounded-full bg-primary-600 shadow-lg shadow-primary-900/25 transition-transform duration-300 group-hover:scale-110">
                   <service.icon className="h-7 w-7 text-white" />
                 </span>
 
