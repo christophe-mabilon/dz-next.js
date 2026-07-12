@@ -3,7 +3,21 @@ import { formatPhone } from "@/lib/format";
 import Image from "next/image";
 import Link from "next/link";
 import { Metadata } from "next";
-import { ArrowRight, CheckCircle2, Phone } from "lucide-react";
+import {
+  ArrowRight,
+  CheckCircle2,
+  Phone,
+  BrickWall,
+  Hammer,
+  Expand,
+  HousePlus,
+  Waves,
+  Fence,
+  Shovel,
+  Warehouse,
+  Layers,
+  LayoutGrid,
+} from "lucide-react";
 import HeroSection from "@/components/sections/hero/HeroSection";
 import { siteConfig } from "@/data/config";
 
@@ -36,42 +50,78 @@ export const metadata: Metadata = {
   },
 };
 
+// formulations propres à l'accueil (volontairement différentes des pages
+// services pour éviter le contenu dupliqué)
 const services = [
   {
-    title: "Maçonnerie générale",
+    title: "Maçonnerie générale neuf",
     description:
-      "Entreprise de maçonnerie à Artas près de Bourgoin-Jallieu. Construction, rénovation, extension de maison, terrassement, fondations, terrasses, murs porteurs, piscines et aménagements extérieurs. Devis gratuit.",
+      "Fondations, murs porteurs, planchers : le gros œuvre complet de votre maison, garage ou bâtiment, construit pour durer.",
+    icon: BrickWall,
     href: "/services/maconnerie-neuf",
   },
   {
-    title: "Terrassement",
+    title: "Rénovation maçonnerie",
     description:
-      "Terrassement, décaissement, nivellement, évacuation des terres, préparation de terrain et fondations pour maison, terrasse, piscine et garage.",
-    href: "/services/terrassement",
-  },
-  {
-    title: "Dalle béton",
-    description:
-      "Création de dalle béton armée pour terrasse, garage, maison, piscine, extension et bâtiment industriel.",
-    href: "/services/dalle-beton",
-  },
-  {
-    title: "Ouverture mur porteur",
-    description:
-      "Ouverture de mur porteur avec pose IPN et sécurisation du chantier.",
+      "Murs porteurs à ouvrir, façades fatiguées, reprises structurelles : nous redonnons solidité et cachet au bâti ancien comme au récent.",
+    icon: Hammer,
     href: "/services/renovation-maconnerie",
+  },
+  {
+    title: "Agrandissement maison",
+    description:
+      "Une chambre en plus, un garage, une surélévation : gagnez de l'espace sans déménager, avec une étude de faisabilité avant tout engagement.",
+    icon: Expand,
+    href: "/services/agrandissement-maison",
   },
   {
     title: "Extension maison",
     description:
-      "Construction d'extension de maison en parpaing, béton ou brique avec fondations et dalle béton.",
+      "Nous agrandissons votre surface habitable avec une extension parfaitement raccordée à l'existant, du terrassement à la mise hors d'eau.",
+    icon: HousePlus,
     href: "/services/extension-maison",
   },
   {
-    title: "Rénovation",
+    title: "Piscine et terrasse",
     description:
-      "Rénovation intérieure et extérieure pour particuliers et professionnels.",
-    href: "/services/renovation-maconnerie",
+      "Bassins en béton armé, plages antidérapantes et terrasses extérieures : des aménagements pensés pour les étés du Nord-Isère.",
+    icon: Waves,
+    href: "/services/piscine-terrasse",
+  },
+  {
+    title: "Clôtures et murs",
+    description:
+      "Murs de clôture enduits, murets, piliers de portail et soutènements calculés : des limites nettes qui tiennent dans le temps.",
+    icon: Fence,
+    href: "/services/clotures-murs",
+  },
+  {
+    title: "Terrassement",
+    description:
+      "Décaissement, nivellement, fouilles et évacuation des terres : votre terrain parfaitement préparé avant de construire.",
+    icon: Shovel,
+    href: "/services/terrassement",
+  },
+  {
+    title: "Abri de jardin",
+    description:
+      "Dalles d'assise et abris maçonnés en dur : des dépendances saines et durables, du local technique à l'atelier.",
+    icon: Warehouse,
+    href: "/services/abri-de-jardin",
+  },
+  {
+    title: "Dalle béton",
+    description:
+      "Dalles armées planes et pérennes pour garage, terrasse, maison ou extension — préparées dans les règles de l'art.",
+    icon: Layers,
+    href: "/services/dalle-beton",
+  },
+  {
+    title: "Dalles sur plots",
+    description:
+      "La terrasse contemporaine : pose sans colle ni mortier, drainage parfait sous les dalles, finition grès cérame.",
+    icon: LayoutGrid,
+    href: "/services/dalles-sur-plot",
   },
 ];
 
@@ -252,8 +302,12 @@ export default function HomePage() {
               <Link
                 key={service.title}
                 href={service.href}
-                className="group rounded-3xl border border-gray-200 bg-white p-8 transition hover:-translate-y-1 hover:border-primary-500 hover:shadow-xl"
+                className="group rounded-3xl border border-gray-200 bg-white p-8 transition-all duration-300 hover:-translate-y-1.5 hover:border-primary-500 hover:bg-primary-50/40 hover:shadow-2xl"
               >
+                <span className="mb-5 flex h-14 w-14 items-center justify-center rounded-full bg-primary-600 shadow-lg shadow-primary-900/25 transition-transform duration-300 group-hover:scale-110">
+                  <service.icon className="h-7 w-7 text-white" />
+                </span>
+
                 <h3 className="mb-4 text-2xl font-bold text-gray-900">
                   {service.title}
                 </h3>
@@ -264,7 +318,7 @@ export default function HomePage() {
 
                 <div className="flex items-center font-bold text-primary-600">
                   En savoir plus
-                  <ArrowRight className="ml-2 h-4 w-4 transition group-hover:translate-x-1" />
+                  <ArrowRight className="ml-2 h-4 w-4 transition-transform duration-300 group-hover:translate-x-2" />
                 </div>
               </Link>
             ))}

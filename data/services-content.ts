@@ -21,7 +21,7 @@ export const serviceEditorial: Record<string, EditorialBlock[]> = {
     {
       title: "Ce que comprend notre prestation",
       paragraphs: [
-        "Décapage de la terre végétale, fouilles et tranchées, création de plateformes, empierrement et fonds de forme compactés au niveau laser, drainage, gestion des eaux pluviales, viabilisation (tranchées réseaux) et assainissement : nous couvrons l'intégralité du terrassement, du premier coup de godet à la plateforme prête à construire.",
+        "Décapage de la terre végétale, fouilles et tranchées, création de plateformes, empierrement et fonds de forme compactés au niveau laser, drainage, gestion des eaux pluviales et viabilisation (tranchées réseaux) : nous couvrons l'intégralité du terrassement, du premier coup de godet à la plateforme prête à construire.",
         "La question des terres excavées est traitée dès le devis — réutilisation sur place quand c'est possible (c'est autant d'économisé), évacuation en filière agréée sinon. Vous savez exactement ce que vous payez, poste par poste, avant le premier jour de chantier.",
       ],
     },
@@ -322,9 +322,9 @@ export const serviceFaqs: Record<string, SeoFaq[]> = {
         "Oui, sauf sol gelé en profondeur ou fortes pluies prolongées. Les terres argileuses du Nord-Isère se travaillent d'ailleurs mieux hors période de saturation en eau.",
     },
     {
-      question: "Réalisez-vous les VRD (tranchées, réseaux, assainissement) ?",
+      question: "Réalisez-vous les VRD (tranchées et réseaux) ?",
       answer:
-        "Oui : tranchées de réseaux (eau, électricité, télécom), assainissement individuel ou raccordement au collectif, drainage périphérique et gestion des eaux pluviales.",
+        "Oui : tranchées de réseaux (eau, électricité, télécom), drainage périphérique et gestion des eaux pluviales.",
     },
   ],
   "abri-de-jardin": [
@@ -448,7 +448,7 @@ export const serviceBenefits: Record<string, string[]> = {
     "Engins adaptés à chaque chantier et à ses accès",
     "Devis distinguant réutilisation et évacuation des terres",
     "Connaissance des sols argileux du Nord-Isère",
-    "VRD : tranchées, assainissement, eaux pluviales",
+    "VRD : tranchées de réseaux et eaux pluviales",
     "Nivellement laser et fonds de forme compactés",
     "Intervention rapide, y compris en hiver",
   ],

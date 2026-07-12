@@ -202,7 +202,7 @@ export default function ServicesPage() {
               return (
                 <div
                   key={service.slug}
-                  className="group overflow-hidden rounded-3xl border border-gray-200 bg-white shadow-sm transition hover:-translate-y-1 hover:shadow-xl"
+                  className="group overflow-hidden rounded-3xl border border-gray-200 bg-white shadow-sm transition-all duration-300 hover:-translate-y-1.5 hover:border-primary-300 hover:bg-primary-50/40 hover:shadow-2xl"
                 >
                   <div className="relative aspect-[4/3] overflow-hidden">
                     <Image
@@ -210,7 +210,7 @@ export default function ServicesPage() {
                       alt={service.name}
                       fill
                       sizes="(max-width: 768px) 100vw, 33vw"
-                      className="object-cover object-center transition duration-700 group-hover:scale-110"
+                      className="object-cover object-center transition-transform duration-500 group-hover:scale-105"
                     />
                   </div>
 
@@ -228,7 +228,7 @@ export default function ServicesPage() {
                       className="inline-flex items-center font-bold text-primary-600 transition hover:text-primary-700"
                     >
                       Découvrir le service
-                      <ArrowRight className="ml-2 h-4 w-4 transition group-hover:translate-x-1" />
+                      <ArrowRight className="ml-2 h-4 w-4 transition group-hover:translate-x-2" />
                     </Link>
                   </div>
                 </div>

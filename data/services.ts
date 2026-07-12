@@ -6,7 +6,7 @@ export const services: Service[] = [
     slug: "maconnerie-neuf",
     name: "Maçonnerie générale neuf",
     description:
-      "Construction de gros œuvre et maçonnerie générale pour bâtiments neufs",
+      "Construction de maisons, garages, bâtiments et ouvrages en gros œuvre avec des fondations solides et une maçonnerie durable.",
     longDescription:
       "Nous assurons la construction complète du gros œuvre pour vos projets neufs. Maçonnerie de qualité, respectant les normes RT 2012 et les standards de construction modernes. Nos équipes expérimentées garantissent une réalisation conforme aux plans et délais.",
     image: "/images/services/maconnerie-generale.webp",
@@ -33,7 +33,8 @@ export const services: Service[] = [
     id: "2",
     slug: "renovation-maconnerie",
     name: "Rénovation maçonnerie",
-    description: "Travaux de rénovation de murs, enduits, et ravalement",
+    description:
+      "Rénovation de maçonnerie, ouverture de murs porteurs, reprises structurelles et transformation de bâtiments anciens ou récents.",
     longDescription:
       "Spécialistes en rénovation maçonnerie, nous prenons en charge le ravalement, la réfection des murs, les enduits de façade et l'étanchéité. Restauration de bâtiments anciens et mise aux normes de l'existant.",
     image: "/images/services/renovations-maison.webp",
@@ -60,7 +61,8 @@ export const services: Service[] = [
     id: "3",
     slug: "agrandissement-maison",
     name: "Agrandissement maison",
-    description: "Extension et surélévation de votre habitation",
+    description:
+      "Agrandissez votre habitation avec une extension sur mesure : création de nouvelles pièces, garage ou surélévation.",
     longDescription:
       "Augmentez la surface habitable de votre maison avec nos solutions d'agrandissement. Extension latérale, surélévation ou ajout d'étage. Nous gérons l'ensemble du projet de la conception à la finition.",
     image: "/images/services/agrandissement-maison.webp",
@@ -87,7 +89,8 @@ export const services: Service[] = [
     id: "4",
     slug: "extension-maison",
     name: "Extension maison",
-    description: "Création de pièces supplémentaires et extension latérale",
+    description:
+      "Réalisation d'extensions de maison pour gagner en surface habitable tout en respectant l'architecture existante.",
     longDescription:
       "Ajouter une chambre, un garage, une cuisine plus grande ou une véranda à votre maison. Nos extensions s'intègrent parfaitement à votre architecture existante.",
     image: "/images/services/extension-maison.webp",
@@ -114,7 +117,8 @@ export const services: Service[] = [
     id: "5",
     slug: "piscine-terrasse",
     name: "Piscine et terrasse",
-    description: "Construction de piscines et terrasses en maçonnerie",
+    description:
+      "Construction de piscines maçonnées, plages de piscine et terrasses en béton adaptées à vos aménagements extérieurs.",
     longDescription:
       "Créez votre espace extérieur de détente. Construction de piscines, terrasses en dalle béton, allées, zones de loisirs. Aménagements durables et esthétiques.",
     image: "/images/services/piscine.webp",
@@ -142,7 +146,7 @@ export const services: Service[] = [
     slug: "clotures-murs",
     name: "Clôtures et murs",
     description:
-      "Construction de clôtures, murs de soutènement et murs de séparation",
+      "Réalisation de murs de clôture, murets, murs de soutènement et séparations extérieures solides et durables.",
     longDescription:
       "Clôtures en parpaing, pierre, béton. Murs de séparation et de soutènement. Aménagement des terrains avec gabions ou éléments décoratifs.",
     image: "/images/services/realisation-cloture-muret.webp",
@@ -169,9 +173,10 @@ export const services: Service[] = [
     id: "7",
     slug: "terrassement",
     name: "Terrassement",
-    description: "Préparation de terrain, dallage et assainissement",
+    description:
+      "Préparation du terrain, décaissement, nivellement et fouilles pour assurer des fondations solides avant vos travaux.",
     longDescription:
-      "Préparation et terrassement des terrains pour vos constructions. Dallage, drainage, assainissement. Travaux de terrassement pour aménagement d'accès et routes.",
+      "Préparation et terrassement des terrains pour vos constructions. Dallage, drainage et gestion des eaux pluviales. Travaux de terrassement pour aménagement d'accès et routes.",
     image: "/images/services/terrassement.webp",
     heroImage: "/images/services/terrassement.webp",
     galleryImages: [
@@ -189,14 +194,15 @@ export const services: Service[] = [
       "terrassement",
       "préparation terrain",
       "dallage",
-      "assainissement terrain",
+      "nivellement terrain",
     ],
   },
   {
     id: "8",
     slug: "abri-de-jardin",
     name: "Abri de jardin",
-    description: "Construction d'abris et cabanons en maçonnerie",
+    description:
+      "Construction d'abris de jardin, locaux techniques et dépendances en maçonnerie, adaptés à vos besoins.",
     longDescription:
       "Créez un abri fonctionnel pour stocker vos outils et équipements. Cabanons en parpaing, pierre ou béton, avec finition adaptée à votre jardin.",
     image: "/images/services/abri-de-jardin.webp",
@@ -223,9 +229,10 @@ export const services: Service[] = [
     id: "9",
     slug: "dalle-beton",
     name: "Dalle béton",
-    description: "Création et réparation de dalles béton pour vos projets",
+    description:
+      "Réalisation de dalles béton pour maisons, garages, terrasses, abris de jardin et autres projets de construction.",
     longDescription:
-      "Spécialistes en création et réparation de dalles béton. Dallages pour habitations, terrasses, allées, parkings. Béton armé de qualité avec finition lisse ou striée selon vos préférences. Travaux durables et résistants aux charges.",
+      "Spécialistes en création de dalles béton. Dallages pour habitations, terrasses, allées, parkings. Béton armé de qualité avec finition lisse ou striée selon vos préférences. Travaux durables et résistants aux charges.",
     image: "/images/services/dalles.webp",
     heroImage: "/images/services/dalles.webp",
     galleryImages: [
@@ -251,7 +258,8 @@ export const services: Service[] = [
     id: "10",
     slug: "dalles-sur-plot",
     name: "Dalles sur plot",
-    description: "Installation de dalles sur plots pour terrasses surélevées",
+    description:
+      "Pose de dalles sur plots pour créer des terrasses modernes, esthétiques et parfaitement drainées.",
     longDescription:
       "Solutions modernes de dalles sur plots pour terrasses, accès surélevés et aménagements extérieurs. Réglables et évolutives, parfaites pour les terrains en pente. Drainage excellent et rapidité d'installation. Esthétique contemporaine et polyvalente.",
     image: "/images/services/dalles-sur-plot.webp",
