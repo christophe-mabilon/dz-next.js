@@ -1,32 +1,46 @@
 /**
  * Annuaire des entreprises partenaires.
  * Ajouter une entrée par partenaire — la page /partenaires se met à jour
- * automatiquement (et le maillage "artisans du bâtiment" avec).
+ * automatiquement. Déposer les logos dans public/images/partenaires/.
  */
 export interface Partner {
   /** Nom de l'entreprise */
   name: string;
-  /** Métier / spécialité (ex. "Plombier chauffagiste") */
+  /** Type de services (ex. "Entreprise d'électricité générale") */
   trade: string;
-  /** Ville d'implantation */
+  /** Ville (affichage court + regroupements) */
   city: string;
-  /** Description courte (1-2 phrases sur la collaboration) */
+  /** Adresse complète (affichée sous "Localisation") */
+  address?: string;
+  /** Numéro de SIRET */
+  siret?: string;
+  /**
+   * Description de l'entreprise — les doubles sauts de ligne (\n\n)
+   * créent des paragraphes.
+   */
   description: string;
+  /** Logo (chemin dans /public, ex. "/images/partenaires/js-elec.webp") */
+  logo?: string;
   /** Site web (optionnel) */
   website?: string;
-  /** Téléphone (optionnel) */
+  /** Téléphone (optionnel, format +33…) */
   phone?: string;
 }
 
 export const partners: Partner[] = [
-  // Exemple à dupliquer :
-  // {
-  //   name: "Entreprise Dupont",
-  //   trade: "Charpentier couvreur",
-  //   city: "Bourgoin-Jallieu",
-  //   description:
-  //     "Nous collaborons régulièrement sur les extensions et surélévations : DZ Maçonnerie réalise le gros œuvre, Dupont la charpente et la couverture.",
-  //   website: "https://exemple.fr",
-  //   phone: "+33600000000",
-  // },
+  {
+    name: "JS ELEC",
+    trade: "Entreprise d'électricité générale",
+    city: "Maubec",
+    address: "86 Chem. de la Cigalière, 38300 Maubec",
+    siret: "817999261000032",
+    description:
+      "Notre entreprise propose des interventions dans le domaine de l'électricité générale et vous assure un travail réalisé avec soin et professionnalisme.\n\n" +
+      "Nos prestations s'adressent aux particuliers ou aux professionnels, pour de la rénovation ou du neuf.\n\n" +
+      "Pour des conseils avisés sur les travaux à entreprendre, n'hésitez pas à nous contacter.",
+    // TODO (Christophe) : compléter quand disponibles
+    // logo: "/images/partenaires/js-elec.webp",
+    // website: "https://…",
+    // phone: "+33…",
+  },
 ];

@@ -15,6 +15,8 @@ export function PartnerForm() {
     email: "",
     phone: "",
     city: "",
+    adresse: "",
+    siret: "",
     website: "",
     message: "",
     // honeypot anti-bot : invisible pour les humains, les bots le remplissent
@@ -51,6 +53,8 @@ export function PartnerForm() {
           email: "",
           phone: "",
           city: "",
+          adresse: "",
+          siret: "",
           website: "",
           message: "",
           faxNumber: "",
@@ -215,6 +219,41 @@ export function PartnerForm() {
             onChange={handleChange}
             className={inputClass}
             placeholder="Ex. Bourgoin-Jallieu"
+          />
+        </div>
+        <div>
+          <label
+            htmlFor="p-adresse"
+            className="mb-1.5 block text-sm font-semibold text-gray-700"
+          >
+            Adresse complète (optionnel)
+          </label>
+          <input
+            id="p-adresse"
+            name="adresse"
+            type="text"
+            value={form.adresse}
+            onChange={handleChange}
+            className={inputClass}
+            placeholder="Ex. 86 Chem. de la Cigalière, 38300 Maubec"
+          />
+        </div>
+        <div>
+          <label
+            htmlFor="p-siret"
+            className="mb-1.5 block text-sm font-semibold text-gray-700"
+          >
+            Numéro de SIRET (optionnel)
+          </label>
+          <input
+            id="p-siret"
+            name="siret"
+            type="text"
+            inputMode="numeric"
+            value={form.siret}
+            onChange={handleChange}
+            className={inputClass}
+            placeholder="14 chiffres"
           />
         </div>
         <div>

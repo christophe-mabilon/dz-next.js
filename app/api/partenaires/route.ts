@@ -23,6 +23,8 @@ interface PartnerRequest {
   phone: string;
   city: string;
   website?: string;
+  adresse?: string;
+  siret?: string;
   message: string;
 }
 
@@ -46,6 +48,8 @@ function validate(data: PartnerRequest): string[] {
     errors.push("Téléphone : numéro invalide");
   if (data.website && !/^https?:\/\/.+\..+/.test(data.website))
     errors.push("Site web : URL invalide (doit commencer par http)");
+  if (data.siret && !/^\d{14}$/.test(data.siret.replace(/\s/g, "")))
+    errors.push("SIRET : 14 chiffres attendus");
   return errors;
 }
 
@@ -77,6 +81,8 @@ export async function POST(request: NextRequest) {
       phone: data.phone.trim(),
       city: data.city.trim(),
       website: data.website?.trim() || null,
+      adresse: data.adresse?.trim() || null,
+      siret: data.siret?.trim() || null,
       message: data.message.trim(),
     };
 

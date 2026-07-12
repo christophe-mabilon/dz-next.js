@@ -1,5 +1,6 @@
 import { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import { ArrowRight, Handshake, Globe, MapPin } from "lucide-react";
 import HeroSection from "@/components/sections/hero/HeroSection";
 import { siteConfig } from "@/data/config";
@@ -124,38 +125,98 @@ export default function PartenairesPage() {
           </div>
 
           {partners.length > 0 ? (
-            <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+            <div className="space-y-8">
               {partners.map((partner) => (
-                <div
+                <article
                   key={partner.name}
-                  className="flex flex-col rounded-2xl border border-gray-200 bg-gray-50 p-6 transition hover:border-primary-300 hover:shadow-md"
+                  className="overflow-hidden rounded-2xl border border-gray-200 bg-white shadow-sm transition hover:border-primary-300 hover:shadow-md"
                 >
-                  <span className="mb-4 flex h-11 w-11 items-center justify-center rounded-full bg-primary-600 shadow-lg shadow-primary-900/30">
-                    <Handshake className="h-5 w-5 text-white" />
-                  </span>
-                  <h3 className="mb-1 text-lg font-bold text-gray-900">
-                    {partner.name}
-                  </h3>
-                  <p className="mb-1 text-sm font-semibold text-primary-600">
-                    {partner.trade}
-                  </p>
-                  <p className="mb-3 flex items-center gap-1 text-sm text-gray-500">
-                    <MapPin className="h-3.5 w-3.5" /> {partner.city}
-                  </p>
-                  <p className="flex-1 text-sm leading-relaxed text-gray-600">
-                    {partner.description}
-                  </p>
-                  {partner.website && (
-                    <a
-                      href={partner.website}
-                      target="_blank"
-                      rel="noopener noreferrer nofollow"
-                      className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-primary-600 hover:underline"
-                    >
-                      <Globe className="h-4 w-4" /> Site web
-                    </a>
-                  )}
-                </div>
+                  {/* En-tête : logo + nom */}
+                  <div className="border-b border-gray-100 p-6 pb-5">
+                    {partner.logo ? (
+                      <Image
+                        src={partner.logo}
+                        alt={`Logo ${partner.name}`}
+                        width={220}
+                        height={90}
+                        className="mb-4 h-auto max-h-24 w-auto object-contain"
+                      />
+                    ) : (
+                      <span className="mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-primary-600 shadow-lg shadow-primary-900/30">
+                        <Handshake className="h-6 w-6 text-white" />
+                      </span>
+                    )}
+                    <h3 className="text-xl font-bold text-gray-900">
+                      {partner.name}
+                    </h3>
+                  </div>
+
+                  {/* Corps : infos à gauche, description à droite */}
+                  <div className="grid gap-8 p-6 lg:grid-cols-[280px_1fr]">
+                    <dl className="space-y-4 text-sm">
+                      <div className="border-b border-gray-100 pb-4">
+                        <dt className="mb-1 font-bold text-gray-900">
+                          Type de services
+                        </dt>
+                        <dd className="text-gray-600">{partner.trade}</dd>
+                      </div>
+                      {partner.siret && (
+                        <div className="border-b border-gray-100 pb-4">
+                          <dt className="mb-1 font-bold text-gray-900">
+                            Numéro de SIRET
+                          </dt>
+                          <dd className="text-gray-600">{partner.siret}</dd>
+                        </div>
+                      )}
+                      <div className="border-b border-gray-100 pb-4">
+                        <dt className="mb-1 flex items-center gap-1 font-bold text-gray-900">
+                          <MapPin className="h-3.5 w-3.5 text-primary-600" />
+                          Localisation
+                        </dt>
+                        <dd className="text-gray-600">
+                          {partner.address ?? partner.city}
+                        </dd>
+                      </div>
+                      {partner.phone && (
+                        <div className="border-b border-gray-100 pb-4">
+                          <dt className="mb-1 font-bold text-gray-900">
+                            Téléphone
+                          </dt>
+                          <dd className="text-gray-600">
+                            {formatPhone(partner.phone)}
+                          </dd>
+                        </div>
+                      )}
+                    </dl>
+
+                    <div>
+                      <h4 className="mb-3 font-bold text-gray-900">
+                        Description de l&apos;entreprise
+                      </h4>
+                      <div className="space-y-3 text-sm leading-relaxed text-gray-600">
+                        {partner.description.split("\n\n").map((p, i) => (
+                          <p key={i}>{p}</p>
+                        ))}
+                      </div>
+                      {partner.website && (
+                        <p className="mt-5">
+                          <span className="mb-1 block font-bold text-gray-900">
+                            Site web :
+                          </span>
+                          <a
+                            href={partner.website}
+                            target="_blank"
+                            rel="noopener noreferrer nofollow"
+                            className="inline-flex items-center gap-1 font-medium text-primary-600 hover:underline"
+                          >
+                            <Globe className="h-4 w-4" />
+                            {partner.trade} {partner.name}
+                          </a>
+                        </p>
+                      )}
+                    </div>
+                  </div>
+                </article>
               ))}
             </div>
           ) : (
