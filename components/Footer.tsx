@@ -54,6 +54,27 @@ export function Footer() {
               <ShieldCheck className="mr-2 h-4 w-4" />
               Garantie décennale • Devis gratuit
             </div>
+
+            <ul className="mt-6 space-y-3 text-sm">
+              <li>
+                <Link
+                  href="/a-propos"
+                  className="inline-flex items-center gap-2 text-white-400 transition hover:text-primary-400"
+                >
+                  <ArrowRight className="h-4 w-4" />
+                  À propos de l&apos;entreprise
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/partenaires"
+                  className="inline-flex items-center gap-2 text-white-400 transition hover:text-primary-400"
+                >
+                  <ArrowRight className="h-4 w-4" />
+                  Nos entreprises partenaires
+                </Link>
+              </li>
+            </ul>
           </div>
 
           {/* SERVICES */}
@@ -275,6 +296,13 @@ export function Footer() {
               className="transition hover:text-primary-400"
             >
               Conditions
+            </Link>
+
+            <Link
+              href="/partenaires"
+              className="transition hover:text-primary-400"
+            >
+              Partenaires
             </Link>
 
             <Link href="/contact" className="transition hover:text-primary-400">
