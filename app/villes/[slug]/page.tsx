@@ -169,8 +169,8 @@ export default async function CityPage(props: CityPageProps) {
             <p className="text-base leading-relaxed text-gray-700">
               {business.name} est votre partenaire de confiance pour tous vos
               projets de maçonnerie à {city.name} ({city.zipCode}). Basés à{" "}
-              {business.city}, nous intervenons dans la région {city.region} avec
-              une équipe de professionnels qualifiés et expérimentés.
+              {business.city}, nous intervenons dans la région {city.region}{" "}
+              avec une équipe de professionnels qualifiés et expérimentés.
             </p>
           </div>
 
@@ -227,7 +227,7 @@ export default async function CityPage(props: CityPageProps) {
           {/* Spécificités du terrain */}
           {((city.terrainTypes && city.terrainTypes.length > 0) ||
             (city.commonIssues && city.commonIssues.length > 0)) && (
-            <div className="mb-12 rounded-xl border border-amber-200 bg-amber-50 p-8">
+            <div className="mb-12 rounded-xl border border-primary-200 bg-primary-50 p-8">
               <h2 className="mb-4 text-2xl font-bold text-gray-900">
                 Spécificités du terrain à {city.name}
               </h2>
