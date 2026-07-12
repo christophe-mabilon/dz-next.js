@@ -1,6 +1,7 @@
 "use client";
 
 import { formatPhone } from "@/lib/format";
+import { SafeEmail } from "@/components/SafeEmail";
 
 import { useState } from "react";
 import Link from "next/link";
@@ -34,6 +35,7 @@ export default function ContactPage() {
     city: "",
     service: "",
     message: "",
+    faxNumber: "",
   });
 
   const [submitted, setSubmitted] = useState(false);
@@ -80,6 +82,7 @@ export default function ContactPage() {
           city: "",
           service: "",
           message: "",
+          faxNumber: "",
         });
 
         setTimeout(() => setSubmitted(false), 5000);
@@ -198,7 +201,7 @@ export default function ContactPage() {
                       href="/contact"
                       className="font-medium text-primary-600 hover:text-primary-700"
                     >
-                      {business.email}
+                      <SafeEmail />
                     </a>
 
                     <p className="mt-1 text-sm text-gray-600">
@@ -334,6 +337,19 @@ export default function ContactPage() {
                 )}
 
                 <form onSubmit={handleSubmit} className="space-y-5">
+                  {/* honeypot anti-bot : invisible, hors tabulation */}
+                  <div className="hidden" aria-hidden="true">
+                    <label htmlFor="c-fax">Fax</label>
+                    <input
+                      id="c-fax"
+                      name="faxNumber"
+                      type="text"
+                      tabIndex={-1}
+                      autoComplete="off"
+                      value={formData.faxNumber}
+                      onChange={handleChange}
+                    />
+                  </div>
                   {/* NOM + PRÉNOM */}
                   <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
                     <div>

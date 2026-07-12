@@ -95,7 +95,8 @@ export function generateLocalBusinessSchema() {
 
     telephone: siteConfig.business.phone,
 
-    email: siteConfig.business.email,
+    // email volontairement absent du schema : cible n°1 des harvesters de
+    // spam, et champ optionnel pour Google (le téléphone suffit au local pack)
 
     priceRange: siteConfig.business.priceRange || "€€",
 

@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { formatPhone } from "@/lib/format";
+import { SafeEmail } from "@/components/SafeEmail";
 import {
   Mail,
   MapPin,
@@ -195,7 +196,7 @@ export function Footer() {
                     href="/contact"
                     className="break-all text-sm font-medium text-white transition hover:text-primary-400"
                   >
-                    {business.email}
+                    <SafeEmail />
                   </a>
                 </div>
               </div>

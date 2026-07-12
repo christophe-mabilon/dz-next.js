@@ -51,7 +51,16 @@ function validate(data: PartnerRequest): string[] {
 
 export async function POST(request: NextRequest) {
   try {
-    const data = (await request.json()) as PartnerRequest;
+    const data = (await request.json()) as PartnerRequest & {
+      faxNumber?: string;
+    };
+    // honeypot rempli = bot : réponse succès factice, rien n'est enregistré
+    if (data.faxNumber) {
+      return NextResponse.json({
+        success: true,
+        message: "Demande bien reçue.",
+      });
+    }
     const errors = validate(data);
     if (errors.length > 0) {
       return NextResponse.json({ success: false, errors }, { status: 400 });

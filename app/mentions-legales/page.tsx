@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { SafeEmail } from "@/components/SafeEmail";
 import { formatPhone } from "@/lib/format";
 import { Metadata } from "next";
 import { ArrowRight } from "lucide-react";
@@ -132,7 +133,7 @@ export default function MentionsLegales() {
                   <div className="space-y-3 text-gray-600">
                     <p>{formatPhone(business.phone)}</p>
 
-                    <p>{business.email}</p>
+                    <p><SafeEmail /></p>
 
                     <p>{siteConfig.siteUrl}</p>
 

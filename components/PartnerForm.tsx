@@ -17,6 +17,8 @@ export function PartnerForm() {
     city: "",
     website: "",
     message: "",
+    // honeypot anti-bot : invisible pour les humains, les bots le remplissent
+    faxNumber: "",
   });
   const [submitted, setSubmitted] = useState(false);
   const [sending, setSending] = useState(false);
@@ -51,6 +53,7 @@ export function PartnerForm() {
           city: "",
           website: "",
           message: "",
+          faxNumber: "",
         });
       } else {
         alert("Erreur : " + (result.errors?.join(", ") || result.message));
@@ -82,6 +85,20 @@ export function PartnerForm() {
       onSubmit={handleSubmit}
       className="rounded-2xl border border-gray-200 bg-gray-50 p-8"
     >
+      {/* honeypot : hors écran, hors tabulation, ignoré des lecteurs d'écran */}
+      <div className="hidden" aria-hidden="true">
+        <label htmlFor="p-fax">Fax</label>
+        <input
+          id="p-fax"
+          name="faxNumber"
+          type="text"
+          tabIndex={-1}
+          autoComplete="off"
+          value={form.faxNumber}
+          onChange={handleChange}
+        />
+      </div>
+
       <div className="grid gap-5 sm:grid-cols-2">
         <div>
           <label

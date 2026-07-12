@@ -76,6 +76,13 @@ export async function POST(request: NextRequest) {
   try {
     // Récupérer les données du formulaire
     const data = await request.json();
+    // honeypot anti-bot : succès factice, la demande n'est pas traitée
+    if (data.faxNumber) {
+      return NextResponse.json(
+        { success: true, message: "Message bien reçu." },
+        { status: 200 },
+      );
+    }
 
     // Valider les données
     const errors = validateContactData(data);
