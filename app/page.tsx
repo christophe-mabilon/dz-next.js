@@ -17,6 +17,10 @@ import {
   Warehouse,
   Square,
   LayoutGrid,
+  Award,
+  ShieldCheck,
+  FileCheck,
+  MapPin,
 } from "lucide-react";
 import HeroSection from "@/components/sections/hero/HeroSection";
 import { siteConfig } from "@/data/config";
@@ -226,19 +230,19 @@ export default function HomePage() {
           </div>
         </div>
       </section>
-      {/* WHY US */}
-      <section className="bg-white py-16">
+      {/* WHY US — bande sombre, style du bloc avis Google */}
+      <section className="bg-gray-950 py-16 text-white md:py-20">
         <div className="mx-auto max-w-8xl px-6 lg:px-8">
           <div className="mb-14 text-center">
-            <span className="mb-4 inline-block rounded-full bg-primary-100 px-4 py-2 text-sm font-bold text-primary-700">
+            <span className="mb-4 inline-block rounded-full border border-primary-500/40 bg-primary-500 px-4 py-2 text-sm font-bold text-white">
               POURQUOI NOUS CHOISIR
             </span>
 
-            <h2 className="mb-6 text-4xl font-black text-gray-900">
+            <h2 className="mb-6 text-4xl font-black text-white">
               Une entreprise de maçonnerie de confiance en Isère
             </h2>
 
-            <p className="mx-auto max-w-3xl text-base leading-relaxed text-gray-600">
+            <p className="mx-auto max-w-3xl text-base leading-relaxed text-gray-300">
               {business.name} accompagne ses clients avec sérieux et
               professionnalisme pour tous leurs travaux de maçonnerie à
               Bourgoin-Jallieu et dans toute l’Isère.
@@ -248,31 +252,39 @@ export default function HomePage() {
           <div className="grid gap-8 md:grid-cols-2 xl:grid-cols-4">
             {[
               {
+                icon: Award,
                 title: "10 ans d’expérience",
                 desc: "Une solide expérience dans les travaux de maçonnerie générale et terrassement.",
               },
               {
+                icon: ShieldCheck,
                 title: "Garantie décennale",
                 desc: "Tous nos travaux sont couverts par une assurance décennale.",
               },
               {
+                icon: FileCheck,
                 title: "Devis gratuit",
                 desc: "Étude personnalisée de votre projet avec réponse rapide.",
               },
               {
+                icon: MapPin,
                 title: "Intervention locale",
                 desc: "Entreprise basée à Artas proche de Bourgoin-Jallieu et Vienne.",
               },
             ].map((item) => (
               <div
                 key={item.title}
-                className="rounded-3xl border border-gray-200 bg-gray-50 p-8"
+                className="rounded-2xl border border-white/10 bg-white/5 p-8 backdrop-blur-sm transition-all duration-300 hover:-translate-y-1.5 hover:border-primary-500 hover:bg-white/10 hover:shadow-2xl"
               >
-                <h3 className="mb-4 text-2xl font-bold text-gray-900">
+                <span className="mb-6 flex h-14 w-14 items-center justify-center rounded-full bg-primary-600 shadow-lg shadow-primary-900/40">
+                  <item.icon className="h-7 w-7 text-white" />
+                </span>
+
+                <h3 className="mb-4 text-2xl font-bold text-white">
                   {item.title}
                 </h3>
 
-                <p className="leading-relaxed text-gray-600">{item.desc}</p>
+                <p className="leading-relaxed text-gray-300">{item.desc}</p>
               </div>
             ))}
           </div>
