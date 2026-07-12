@@ -170,15 +170,15 @@ export default function ServicesPage() {
         </div>
       </section>
 
-      {/* SERVICES */}
-      <section className="bg-gray-50 py-16">
+      {/* SERVICES — bande sombre, cartes claires */}
+      <section className="bg-gray-900 py-16 text-white md:py-20">
         <div className="mx-auto max-w-8xl px-6 lg:px-8">
           <div className="mb-14 text-center">
-            <h2 className="mb-4 text-4xl font-black text-gray-900">
+            <h2 className="mb-4 text-4xl font-black text-white">
               Nos prestations de maçonnerie
             </h2>
 
-            <p className="mx-auto max-w-3xl text-base leading-relaxed text-gray-600">
+            <p className="mx-auto max-w-3xl text-base leading-relaxed text-gray-300">
               Découvrez l’ensemble de nos services de maçonnerie, rénovation et
               terrassement à Bourgoin-Jallieu et dans toute l’Isère.
             </p>
