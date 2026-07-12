@@ -349,7 +349,7 @@ export default function ServicesPage() {
                   <item.icon className="h-7 w-7 text-orange-400" />
                 </span>
 
-                <h3 className="mb-4 text-2xl font-bold text-white">
+                <h3 className="mb-4 text-center text-2xl font-bold text-white">
                   {item.title}
                 </h3>
 
