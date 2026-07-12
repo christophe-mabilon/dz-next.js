@@ -231,7 +231,7 @@ export default function HomePage() {
         </div>
       </section>
       {/* WHY US — bande sombre, style du bloc avis Google */}
-      <section className="bg-gray-950 py-16 text-white md:py-20">
+      <section className="bg-gray-900 py-16 text-white md:py-20">
         <div className="mx-auto max-w-8xl px-6 lg:px-8">
           <div className="mb-14 text-center">
             <span className="mb-4 inline-block rounded-full border border-primary-500/40 bg-primary-500 px-4 py-2 text-sm font-bold text-white">
