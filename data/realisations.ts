@@ -879,6 +879,21 @@ export const realisations: Realisation[] = [
         alt: "Mur de clôture intégrant un espace de rangement extérieur maçonné",
         phase: "apres",
       },
+      {
+        src: "/images/realisations/fondations-massifs/fondation-semelle-filante-beton-aciers-attente.webp",
+        alt: "Semelle filante de fondation coulée avec aciers en attente pour un mur",
+        phase: "pendant",
+      },
+      {
+        src: "/images/realisations/fondations-massifs/semelle-fondation-coulee-tranchee-aciers.webp",
+        alt: "Semelle de fondation coulée en tranchée, armatures en place",
+        phase: "pendant",
+      },
+      {
+        src: "/images/realisations/fondations-massifs/fondation-blocs-a-bancher-angle-aciers-attente.webp",
+        alt: "Angle de fondation en blocs à bancher avec aciers en attente",
+        phase: "pendant",
+      },
     ],
     steps: [
       {
@@ -958,6 +973,11 @@ export const realisations: Realisation[] = [
         src: "/images/realisations/clotures-portails/fouille-massif-fondation-platine-avant-coulage.webp",
         alt: "Fouille de massif de fondation avant coulage pour platine de poteau",
         phase: "avant",
+      },
+      {
+        src: "/images/realisations/fondations-massifs/fouille-massif-herisson-gravier-avant-beton.webp",
+        alt: "Fouille de massif avec hérisson de gravier, prête pour le coulage du béton",
+        phase: "pendant",
       },
       {
         src: "/images/realisations/clotures-portails/massif-beton-scellement-platine-poteau.webp",
@@ -1171,6 +1191,33 @@ export const realisations: Realisation[] = [
         alt: "Carrelage imitation parquet en cours de pose, joints décalés",
         phase: "pendant",
       },
+      {
+        src: "/images/realisations/carrelage-interieur/carrelage-metro-blanc-pose-interieure.webp",
+        alt: "Faïence métro blanche posée en intérieur — autre chantier carrelage DZ Maçonnerie",
+      },
+    ],
+    steps: [
+      {
+        title: "Préparation du support",
+        description:
+          "Le sol de la maison ancienne est remis à niveau : sur un format lame, le moindre défaut de planéité se voit en lumière rasante.",
+        image:
+          "/images/realisations/carrelage-interieur/carrelage-imitation-parquet-renovation-interieure.webp",
+      },
+      {
+        title: "Pose à joints décalés",
+        description:
+          "Les lames sont posées dans le sens de la lumière, à joints décalés comme un vrai parquet, avec contrôle de planéité permanent.",
+        image:
+          "/images/realisations/carrelage-interieur/carrelage-imitation-parquet-pose.webp",
+      },
+      {
+        title: "Jonction et finitions",
+        description:
+          "La transition avec le sol ton pierre est calepinée pour tomber juste : deux matières qui cohabitent proprement.",
+        image:
+          "/images/realisations/carrelage-interieur/carrelage-interieur-jonction-parquet-pierre.webp",
+      },
     ],
     materials: ["Carrelage imitation parquet", "Mortier-colle"],
     keywords: [
@@ -1178,6 +1225,107 @@ export const realisations: Realisation[] = [
       "pose carrelage Bourgoin-Jallieu",
       "carrelage rénovation maison ancienne Isère",
       "carreleur Nord-Isère",
+    ],
+  },
+
+  // ------------------------------------------------------------------
+  // RÉNOVATION DU BÂTI ANCIEN — SÉRIE (SÉRÉZIN-DE-LA-TOUR ET ALENTOURS)
+  // ------------------------------------------------------------------
+  {
+    slug: "renovation-bati-ancien-serezin-de-la-tour",
+    title: "Rénovation du bâti ancien à Sérézin-de-la-Tour et alentours",
+    city: "Sérézin-de-la-Tour",
+    service: "Rénovation",
+    date: "2021 – 2024",
+    clientType: "Particuliers",
+    keyFigures: [
+      { value: "Pisé", label: "chaînage béton sur murs en terre crue" },
+      { value: "Appuis", label: "de fenêtre coffrés et coulés sur mesure" },
+      { value: "Étable", label: "reprise pour une nouvelle vie" },
+    ],
+    description:
+      "Nos interventions de maçonnerie dans le bâti ancien du Nord-Isère : chaînage béton sur murs en pisé, reprise d'une étable, appuis de fenêtre coffrés et coulés à l'échafaudage.",
+    context: [
+      "Le Nord-Isère est un pays de fermes en pisé et de bâtisses en pierre. Les rénover demande un vrai savoir-faire : ces murs anciens ne se travaillent pas comme du parpaing, et chaque intervention doit respecter la manière dont le bâtiment a été construit.",
+      "Cette page regroupe plusieurs de nos chantiers de rénovation : chaînage en tête d'un mur en pisé sous une charpente ancienne, reprise d'une étable, et réfection d'appuis de fenêtre coulés sur mesure.",
+    ],
+    challenges: [
+      "Intervenir sur des murs en pisé sans les fragiliser",
+      "Consolider la tête des murs sous des charpentes anciennes conservées",
+      "Refaire des appuis de fenêtre en façade, au coffrage, à l'échafaudage",
+    ],
+    solution:
+      "Dans l'ancien, la règle est de consolider sans dénaturer : le chaînage béton coulé en tête du mur en pisé lui redonne une assise saine sous la charpente conservée. Les appuis de fenêtre sont coffrés et coulés sur place, aux cotes exactes de chaque ouverture, avec la pente qui rejette l'eau loin de la façade.",
+    content:
+      "Sur une ferme en pisé, nous avons coffré et coulé une arase de chaînage en tête de mur, directement sous la charpente d'origine : c'est elle qui répartit désormais les charges de la toiture sur toute la longueur du mur en terre crue.\n\nDans une ancienne étable en cours de reconversion, les sols ont été piqués et préparés pour recevoir les ouvrages neufs, en évacuant les gravats au fur et à mesure pour travailler proprement.\n\nEn façade, les appuis de fenêtre fatigués ont été déposés puis refaits : coffrage bois à l'échafaudage, coulage du béton, arase lissée avec pente d'écoulement. Des ouvrages discrets, mais qui protègent durablement les murs des infiltrations.",
+    images: [
+      {
+        src: "/images/realisations/renovation-batisse/chainage-arase-beton-mur-pise-sous-charpente.webp",
+        alt: "Chaînage béton coffré en tête d'un mur en pisé sous la charpente ancienne — DZ Maçonnerie",
+        phase: "pendant",
+      },
+      {
+        src: "/images/realisations/renovation-batisse/piquage-murs-etable-renovation-ferme.webp",
+        alt: "Piquage et préparation des sols d'une étable en cours de rénovation",
+        phase: "pendant",
+      },
+      {
+        src: "/images/realisations/renovation-batisse/appui-fenetre-beton-coffrage-echafaudage.webp",
+        alt: "Appui de fenêtre béton fraîchement coulé dans son coffrage, à l'échafaudage",
+        phase: "pendant",
+      },
+      {
+        src: "/images/realisations/renovation-batisse/preparation-allege-fenetre-maconnerie.webp",
+        alt: "Préparation de l'allège d'une fenêtre avant réfection de l'appui",
+        phase: "pendant",
+      },
+      {
+        src: "/images/realisations/renovation-batisse/appui-de-fenetre-beton-pose.webp",
+        alt: "Appui de fenêtre en béton posé et terminé",
+        phase: "apres",
+      },
+      {
+        src: "/images/realisations/renovation-batisse/appui-de-fenetre-beton-refection.webp",
+        alt: "Réfection d'un appui de fenêtre en béton sur une façade ancienne",
+        phase: "apres",
+      },
+    ],
+    steps: [
+      {
+        title: "Piquage et préparation",
+        description:
+          "Les enduits fatigués et les sols sont piqués, les gravats évacués : le support sain apparaît avant toute reprise.",
+        image:
+          "/images/realisations/renovation-batisse/piquage-murs-etable-renovation-ferme.webp",
+      },
+      {
+        title: "Chaînage sur mur en pisé",
+        description:
+          "Une arase de chaînage béton est coffrée et coulée en tête de mur, sous la charpente conservée : le mur en terre crue retrouve une assise saine.",
+        image:
+          "/images/realisations/renovation-batisse/chainage-arase-beton-mur-pise-sous-charpente.webp",
+      },
+      {
+        title: "Appuis de fenêtre coffrés",
+        description:
+          "Chaque appui est coffré sur place à l'échafaudage puis coulé aux cotes exactes de l'ouverture, avec la pente d'écoulement.",
+        image:
+          "/images/realisations/renovation-batisse/appui-fenetre-beton-coffrage-echafaudage.webp",
+      },
+      {
+        title: "Finitions",
+        description:
+          "Décoffrage, arase lissée et raccords : des ouvrages discrets qui protègent durablement la façade des infiltrations.",
+        image: "/images/realisations/renovation-batisse/appui-de-fenetre-beton-pose.webp",
+      },
+    ],
+    materials: ["Pisé", "Béton armé", "Chaînage béton armé"],
+    keywords: [
+      "rénovation maison pisé Isère",
+      "chaînage mur pisé Nord-Isère",
+      "appui de fenêtre béton rénovation",
+      "rénovation ferme ancienne Bourgoin-Jallieu",
+      "maçon bâti ancien Sérézin-de-la-Tour",
     ],
   },
 
