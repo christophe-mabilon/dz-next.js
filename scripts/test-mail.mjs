@@ -38,6 +38,7 @@ const {
   SMTP_PASSWORD,
   MAIL_TO,
   MAIL_FROM,
+  MAIL_BCC,
 } = process.env;
 
 if (!SMTP_HOST || !SMTP_USER || !SMTP_PASSWORD) {
@@ -70,15 +71,18 @@ try {
 }
 
 try {
+  const bcc = MAIL_BCC?.trim() || undefined;
   const info = await transporter.sendMail({
     from: MAIL_FROM || SMTP_USER,
     to,
+    bcc,
     subject: "Test SMTP — site DZ Maçonnerie",
     html: `<p>Ceci est un <strong>email de test</strong> envoyé par <code>npm run mail:test</code>.</p>
            <p>Si tu lis ceci, l'envoi des formulaires (contact + partenaires) fonctionnera.</p>
            <p style="color:#6b7280;font-size:12px">Envoyé le ${new Date().toLocaleString("fr-FR")}.</p>`,
   });
   console.log(`✅ Email de test envoyé à ${to} (id: ${info.messageId}).`);
+  if (bcc) console.log(`   📩 Copie cachée (BCC) envoyée à ${bcc}.`);
   console.log("   Vérifie ta boîte de réception (et les spams).\n");
 } catch (err) {
   console.error("❌ Échec de l'envoi :", err.message);
