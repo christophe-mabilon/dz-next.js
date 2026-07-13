@@ -425,6 +425,11 @@ export const realisations: Realisation[] = [
       "La terrasse a été coulée en béton armé sur une assise préparée, avec une pente d'écoulement orientée vers l'extérieur de l'habitation pour que l'eau de pluie ne stagne jamais contre les murs.\n\nLa finition de la surface a été soignée pour offrir un sol agréable pieds nus, facile à entretenir, qui peut rester tel quel ou recevoir un carrelage extérieur plus tard.\n\nRésultat : un espace de vie extérieur durable, utilisable dès la fin du chantier, qui valorise la maison.",
     images: [
       {
+        src: "/images/realisations/terrasse-beton-dolomieu/terrasse-beton-dolomieu-realisation-finitions.webp",
+        alt: "Terrasse béton talochée terminée à Dolomieu, avec pan coupé, le long des portes-fenêtres — DZ Maçonnerie",
+        phase: "apres",
+      },
+      {
         src: "/images/realisations/terrasse-beton-dolomieu/terrasse-beton-dolomieu-vue-ensemble.webp",
         alt: "Terrasse béton terminée à Dolomieu, vue d'ensemble — DZ Maçonnerie",
         phase: "apres",
