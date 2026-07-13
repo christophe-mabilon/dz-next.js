@@ -1,3 +1,5 @@
+export type PhotoPhase = "avant" | "pendant" | "apres";
+
 export interface Realisation {
   slug: string;
   title: string;
@@ -9,9 +11,30 @@ export interface Realisation {
   images: {
     src: string;
     alt: string;
+    /** pour les filtres de galerie et le bloc avant/après */
+    phase?: PhotoPhase;
   }[];
   materials?: string[];
   keywords?: string[];
+  // ---- champs fiche détaillée (tous optionnels, remplir avec les VRAIES
+  // données du chantier — les sections correspondantes n'apparaissent que
+  // si le champ est renseigné) ----
+  /** ex. "6 semaines" */
+  duration?: string;
+  /** ex. "Particulier" | "Professionnel" */
+  clientType?: string;
+  /** ex. "45 m²", "45 ml", "10 × 4 m" */
+  surface?: string;
+  /** paragraphes du bloc « Contexte du projet » (sinon: description) */
+  context?: string[];
+  /** « Les contraintes rencontrées » (liste à coches) */
+  challenges?: string[];
+  /** encart « Notre solution » sous les contraintes */
+  solution?: string;
+  /** « Réalisation étape par étape » */
+  steps?: { title: string; description: string; image?: string }[];
+  /** bande « Chiffres clés » (sinon: auto surface + durée) */
+  keyFigures?: { value: string; label: string }[];
 }
 
 export const realisations: Realisation[] = [
@@ -21,6 +44,13 @@ export const realisations: Realisation[] = [
     city: "Bourgoin-Jallieu",
     service: "Extension maison",
     date: "Mars 2024",
+    surface: "42 m²",
+    clientType: "Particulier",
+    keyFigures: [
+      { value: "42 m²", label: "sur deux niveaux" },
+      { value: "R+1", label: "séjour + chambre" },
+      { value: "20 cm", label: "parpaing creux" },
+    ],
     description:
       "Extension de 42 m² sur deux niveaux, intégrée harmonieusement à la maison existante. Murs en parpaing, dalle béton armé et enduit finition lisse.",
     content:
@@ -29,10 +59,12 @@ export const realisations: Realisation[] = [
       {
         src: "/images/realisations/extension-maison-bourgoin-jallieu-facade.webp",
         alt: "Extension maison deux niveaux façade terminée à Bourgoin-Jallieu — DZ Maçonnerie",
+        phase: "apres",
       },
       {
         src: "/images/realisations/extension-maison-bourgoin-jallieu-structure.webp",
         alt: "Structure parpaing extension maison en cours de montage à Bourgoin-Jallieu",
+        phase: "pendant",
       },
       {
         src: "/images/realisations/extension-maison-bourgoin-jallieu-interieur.webp",
@@ -53,6 +85,14 @@ export const realisations: Realisation[] = [
     city: "Artas",
     service: "Dalle béton",
     date: "Janvier 2024",
+    surface: "80 m²",
+    duration: "1 jour de coulage",
+    keyFigures: [
+      { value: "80 m²", label: "de dalle armée" },
+      { value: "350 kg/m³", label: "dosage béton" },
+      { value: "2 lits", label: "treillis croisés" },
+      { value: "DTU 13.3", label: "norme respectée" },
+    ],
     description:
       "Réalisation d'une dalle béton armée de 80 m² pour un garage-atelier à Artas. Ferraillage sur treillis soudé, béton C25/30 lissé mécaniquement.",
     content:
@@ -61,14 +101,17 @@ export const realisations: Realisation[] = [
       {
         src: "/images/realisations/dalle-beton-artas-resultat.webp",
         alt: "Dalle béton lissée mécaniquement 80 m² terminée à Artas — DZ Maçonnerie",
+        phase: "apres",
       },
       {
         src: "/images/realisations/dalle-beton-artas-ferraillage.webp",
         alt: "Ferraillage treillis soudé avant coulage dalle béton à Artas",
+        phase: "pendant",
       },
       {
         src: "/images/realisations/dalle-beton-artas-coulage.webp",
         alt: "Coulage béton C25/30 dalle garage-atelier à Artas par DZ Maçonnerie",
+        phase: "pendant",
       },
     ],
     materials: ["Béton C25/30", "Treillis soudé ST25", "Film polyane", "Isolant périphérique"],
@@ -85,6 +128,12 @@ export const realisations: Realisation[] = [
     city: "La Verpillière",
     service: "Terrassement",
     date: "Avril 2024",
+    surface: "600 m²",
+    keyFigures: [
+      { value: "600 m²", label: "de terrain préparé" },
+      { value: "0/31.5", label: "tout-venant compacté" },
+      { value: "100%", label: "plateforme nivelée" },
+    ],
     description:
       "Terrassement et nivellement d'un terrain de 600 m² à La Verpillière pour la construction d'une maison individuelle. Déblai, remblai et préparation des accès.",
     content:
@@ -93,14 +142,17 @@ export const realisations: Realisation[] = [
       {
         src: "/images/realisations/terrassement-la-verpilliere-vue-generale.webp",
         alt: "Terrassement terrain 600 m² vue générale à La Verpillière — DZ Maçonnerie",
+        phase: "pendant",
       },
       {
         src: "/images/realisations/terrassement-la-verpilliere-engins.webp",
         alt: "Engins de terrassement excavatrice au travail à La Verpillière",
+        phase: "pendant",
       },
       {
         src: "/images/realisations/terrassement-la-verpilliere-nivellement.webp",
         alt: "Nivellement et compactage plateforme terrain à La Verpillière",
+        phase: "apres",
       },
     ],
     materials: ["Tout-venant 0/31.5", "Géotextile", "Gravier concassé", "Remblai sélectionné"],
@@ -117,6 +169,12 @@ export const realisations: Realisation[] = [
     city: "Vienne",
     service: "Rénovation",
     date: "Juin 2024",
+    clientType: "Particulier",
+    keyFigures: [
+      { value: "100%", label: "enduit piqué et refait" },
+      { value: "3 couches", label: "gobetis, corps, finition" },
+      { value: "20 ans", label: "de durabilité estimée" },
+    ],
     description:
       "Réfection complète de la façade d'une maison des années 1970 à Vienne. Piquage de l'ancien enduit, application d'un enduit hydraulique armé et finition grattée ton naturel.",
     content:
@@ -125,14 +183,17 @@ export const realisations: Realisation[] = [
       {
         src: "/images/realisations/renovation-facade-vienne-resultat.webp",
         alt: "Rénovation façade maison années 70 enduit grattée ton naturel à Vienne — DZ Maçonnerie",
+        phase: "apres",
       },
       {
         src: "/images/realisations/renovation-facade-vienne-avant-travaux.webp",
         alt: "Façade avant rénovation état dégradé fissures à Vienne",
+        phase: "avant",
       },
       {
         src: "/images/realisations/renovation-facade-vienne-pose-enduit.webp",
         alt: "Pose enduit hydraulique armé fibre de verre façade à Vienne",
+        phase: "pendant",
       },
     ],
     materials: ["Enduit hydraulique", "Fibre de verre armée", "Gobetis d'accroche", "Finition grattée"],
@@ -149,6 +210,14 @@ export const realisations: Realisation[] = [
     city: "Saint-Quentin-Fallavier",
     service: "Construction garage",
     date: "Septembre 2023",
+    surface: "45 m²",
+    duration: "6 semaines",
+    clientType: "Particulier",
+    keyFigures: [
+      { value: "45 m²", label: "garage double" },
+      { value: "6 semaines", label: "de chantier" },
+      { value: "20 cm", label: "parpaing + chaînages" },
+    ],
     description:
       "Construction d'un garage double de 45 m² à Saint-Quentin-Fallavier. Fondations semelles filantes, murs parpaing, dalle béton, toiture tuile romane.",
     content:
@@ -157,14 +226,17 @@ export const realisations: Realisation[] = [
       {
         src: "/images/realisations/construction-garage-saint-quentin-fallavier-resultat.webp",
         alt: "Garage double parpaing tuile romane terminé à Saint-Quentin-Fallavier — DZ Maçonnerie",
+        phase: "apres",
       },
       {
         src: "/images/realisations/construction-garage-saint-quentin-fallavier-structure.webp",
         alt: "Structure parpaing garage double en cours de montage à Saint-Quentin-Fallavier",
+        phase: "pendant",
       },
       {
         src: "/images/realisations/construction-garage-saint-quentin-fallavier-toiture.webp",
         alt: "Pose charpente bois et tuiles romane garage à Saint-Quentin-Fallavier",
+        phase: "pendant",
       },
     ],
     materials: ["Parpaing 20 cm", "Béton armé C25/30", "Charpente bois", "Tuile romane", "Semelles filantes"],
@@ -181,6 +253,13 @@ export const realisations: Realisation[] = [
     city: "Villefontaine",
     service: "Terrasse",
     date: "Mai 2024",
+    surface: "55 m²",
+    clientType: "Particulier",
+    keyFigures: [
+      { value: "55 m²", label: "de terrasse" },
+      { value: "2%", label: "de pente d'écoulement" },
+      { value: "25 m²", label: "entre joints de dilatation" },
+    ],
     description:
       "Création d'une terrasse extérieure de 55 m² en béton désactivé à Villefontaine. Préparation du fond de forme, ferraillage treillis, béton lavé finition granulat gris anthracite.",
     content:
@@ -189,14 +268,17 @@ export const realisations: Realisation[] = [
       {
         src: "/images/realisations/terrasse-beton-villefontaine-resultat.webp",
         alt: "Terrasse béton désactivé granulat anthracite 55 m² à Villefontaine — DZ Maçonnerie",
+        phase: "apres",
       },
       {
         src: "/images/realisations/terrasse-beton-villefontaine-coulage.webp",
         alt: "Coulage béton désactivé terrasse avec pente drainage à Villefontaine",
+        phase: "pendant",
       },
       {
         src: "/images/realisations/terrasse-beton-villefontaine-detail-granulat.webp",
         alt: "Détail granulat gris anthracite béton désactivé lavé terrasse Villefontaine",
+        phase: "apres",
       },
     ],
     materials: ["Béton désactivé", "Treillis soudé", "Granulat gris anthracite", "Désactivant", "Tout-venant compacté"],
@@ -213,6 +295,13 @@ export const realisations: Realisation[] = [
     city: "Maubec",
     service: "Piscine",
     date: "Juillet 2024",
+    surface: "10 × 4 m",
+    clientType: "Particulier",
+    keyFigures: [
+      { value: "220 m³", label: "de terre excavée" },
+      { value: "25 cm", label: "radier béton armé" },
+      { value: "75/100", label: "liner armé" },
+    ],
     description:
       "Construction d'une piscine de 10 x 4 m en béton armé à Maubec. Terrassement, ferraillage, coulage béton, pose liner et équipements hydrauliques.",
     content:
@@ -221,14 +310,17 @@ export const realisations: Realisation[] = [
       {
         src: "/images/realisations/piscine-maubec-resultat.webp",
         alt: "Piscine béton armé liner gris clair plage désactivée terminée à Maubec — DZ Maçonnerie",
+        phase: "apres",
       },
       {
         src: "/images/realisations/piscine-maubec-construction-beton.webp",
         alt: "Construction piscine coffrage béton armé parois à Maubec",
+        phase: "pendant",
       },
       {
         src: "/images/realisations/piscine-maubec-pose-liner.webp",
         alt: "Pose liner armé 75/100 gris clair piscine béton à Maubec",
+        phase: "pendant",
       },
     ],
     materials: ["Béton armé C30/37", "Liner armé 75/100", "Skimmer", "Filtre à sable", "Pompe filtration"],
@@ -245,6 +337,12 @@ export const realisations: Realisation[] = [
     city: "Ruy-Montceau",
     service: "Clôture",
     date: "Octobre 2023",
+    surface: "45 ml",
+    keyFigures: [
+      { value: "45 ml", label: "de clôture" },
+      { value: "1,80 m", label: "de hauteur" },
+      { value: "4 m", label: "entre chaînages" },
+    ],
     description:
       "Construction d'un mur de clôture de 45 ml en parpaing enduit à Ruy-Montceau. Fondations béton, élévation parpaing 15 cm, chaperon béton et enduit ton sablé.",
     content:
@@ -253,14 +351,17 @@ export const realisations: Realisation[] = [
       {
         src: "/images/realisations/mur-cloture-ruy-montceau-resultat.webp",
         alt: "Mur clôture parpaing enduit sablé portail double vantaux terminé à Ruy-Montceau — DZ Maçonnerie",
+        phase: "apres",
       },
       {
         src: "/images/realisations/mur-cloture-ruy-montceau-elevation-parpaing.webp",
         alt: "Élévation mur parpaing 15 cm avec chaînages clôture à Ruy-Montceau",
+        phase: "pendant",
       },
       {
         src: "/images/realisations/mur-cloture-ruy-montceau-chaperon.webp",
         alt: "Détail chaperon béton penté couronnement mur clôture à Ruy-Montceau",
+        phase: "pendant",
       },
     ],
     materials: ["Parpaing 15 cm", "Béton armé", "Chaperon béton", "Enduit finition sablée"],
@@ -277,6 +378,14 @@ export const realisations: Realisation[] = [
     city: "Crachier",
     service: "Chape",
     date: "Février 2024",
+    surface: "120 m²",
+    clientType: "Particulier",
+    keyFigures: [
+      { value: "120 m²", label: "de chape fluide" },
+      { value: "5 cm", label: "d'épaisseur" },
+      { value: "±2 mm", label: "de planéité (règle 2 m)" },
+      { value: "7 jours", label: "avant pose carrelage" },
+    ],
     description:
       "Réalisation d'une chape béton de 120 m² à Crachier pour un plancher chauffant. Isolation phonique, treillis chauffant, chape fluide autonivelante.",
     content:
@@ -285,14 +394,17 @@ export const realisations: Realisation[] = [
       {
         src: "/images/realisations/chape-beton-crachier-resultat.webp",
         alt: "Chape fluide autonivelante 120 m² plancher chauffant terminée à Crachier — DZ Maçonnerie",
+        phase: "apres",
       },
       {
         src: "/images/realisations/chape-beton-crachier-isolation.webp",
         alt: "Pose isolation phonique Tramichape et treillis chauffant à Crachier",
+        phase: "pendant",
       },
       {
         src: "/images/realisations/chape-beton-crachier-coulage.webp",
         alt: "Coulage chape liquide autonivelante plancher chauffant à Crachier",
+        phase: "pendant",
       },
     ],
     materials: ["Chape fluide autonivelante", "Isolation phonique Tramichape", "Treillis chauffant", "Sulfoaluminate de calcium"],
@@ -309,6 +421,14 @@ export const realisations: Realisation[] = [
     city: "L'Isle-d'Abeau",
     service: "Gros œuvre",
     date: "Novembre 2023",
+    surface: "120 m²",
+    duration: "5 mois",
+    clientType: "Particulier",
+    keyFigures: [
+      { value: "120 m²", label: "maison R+1" },
+      { value: "5 mois", label: "jusqu'au hors d'eau" },
+      { value: "0,17", label: "U (W/m².K) des murs" },
+    ],
     description:
       "Gros œuvre complet d'une maison individuelle de 120 m² à L'Isle-d'Abeau. Fondations, sous-sol, élévation R+1, dalle de compression et toiture terrasse.",
     content:
@@ -317,14 +437,17 @@ export const realisations: Realisation[] = [
       {
         src: "/images/realisations/gros-oeuvre-isle-abeau-resultat.webp",
         alt: "Gros œuvre maison individuelle R+1 hors d'eau à L'Isle-d'Abeau — DZ Maçonnerie",
+        phase: "apres",
       },
       {
         src: "/images/realisations/gros-oeuvre-isle-abeau-fondations.webp",
         alt: "Fondations béton armé semelles filantes radier maison à L'Isle-d'Abeau",
+        phase: "pendant",
       },
       {
         src: "/images/realisations/gros-oeuvre-isle-abeau-elevation-murs.webp",
         alt: "Élévation murs bloc PSE 30 et plancher poutrelles-hourdis maison à L'Isle-d'Abeau",
+        phase: "pendant",
       },
     ],
     materials: ["Bloc béton PSE 30", "Béton armé C25/30", "Poutrelles hourdis EPS", "Membrane bitumineuse", "Béton banché"],

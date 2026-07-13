@@ -1,9 +1,18 @@
 import Image from "next/image";
-import { formatPhone } from "@/lib/format";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { Metadata } from "next";
-import HeroSection from "@/components/sections/hero/HeroSection";
+import {
+  ArrowRight,
+  CheckCircle2,
+  Clock,
+  User,
+  Ruler,
+  Package,
+  Star,
+  Phone,
+  Plus,
+} from "lucide-react";
 import { realisations } from "@/data/realisations";
 import { siteConfig } from "@/data/config";
 import {
@@ -15,9 +24,13 @@ import {
   materialsGlossary,
   realisationServiceSlug,
 } from "@/data/realisations-content";
+import { serviceFaqs } from "@/data/services-content";
 import { services } from "@/data/services";
 import { getRelatedCities } from "@/lib/getRelatedCities";
 import { cities } from "@/data/cities";
+import { reviews } from "@/data/reviews";
+import { formatPhone } from "@/lib/format";
+import { RealisationGallery } from "@/components/RealisationGallery";
 
 const { business } = siteConfig;
 
@@ -46,7 +59,93 @@ export default async function RealisationDetailPage({ params }: Props) {
 
   if (!realisation) notFound();
 
-  const galleryImages = realisation.images.slice(1);
+  const phone = formatPhone(business.phone);
+
+  // titre scindé pour colorer la ville (« … à Bourgoin-Jallieu »)
+  const splitAt = realisation.title.lastIndexOf(" à ");
+  const titleMain =
+    splitAt > 0 ? realisation.title.slice(0, splitAt) : realisation.title;
+  const titleCity = splitAt > 0 ? realisation.title.slice(splitAt + 3) : null;
+
+  // contexte / détails sans duplication
+  const contentParas = realisation.content.split("\n\n");
+  const contextParas = realisation.context ?? contentParas.slice(0, 1);
+  const detailParas = realisation.context ? contentParas : contentParas.slice(1);
+
+  // avant / après
+  const avantImg = realisation.images.find((i) => i.phase === "avant");
+  const apresImg = realisation.images.find((i) => i.phase === "apres");
+
+  // chiffres clés (repli : surface + durée réelles)
+  const figures =
+    realisation.keyFigures ??
+    [
+      realisation.surface
+        ? { value: realisation.surface, label: "de surface" }
+        : null,
+      realisation.duration
+        ? { value: realisation.duration, label: "de chantier" }
+        : null,
+    ].filter((f): f is { value: string; label: string } => f !== null);
+
+  // stats du héro (uniquement les champs renseignés)
+  const heroStats = [
+    realisation.duration && {
+      icon: Clock,
+      label: "Durée du chantier",
+      value: realisation.duration,
+    },
+    realisation.clientType && {
+      icon: User,
+      label: "Type de client",
+      value: realisation.clientType,
+    },
+    realisation.surface && {
+      icon: Ruler,
+      label: "Surface concernée",
+      value: realisation.surface,
+    },
+    realisation.materials?.[0] && {
+      icon: Package,
+      label: "Matériau principal",
+      value: realisation.materials[0],
+    },
+  ].filter(Boolean) as {
+    icon: typeof Clock;
+    label: string;
+    value: string;
+  }[];
+
+  // avis client réel de la même commune (si disponible)
+  const localReview = reviews.find(
+    (r) =>
+      r.city?.localeCompare(realisation.city, "fr", {
+        sensitivity: "base",
+      }) === 0,
+  );
+
+  // FAQ du service correspondant
+  const svcSlug = realisationServiceSlug[realisation.service];
+  const svc = services.find((s) => s.slug === svcSlug);
+  const faqs = svcSlug ? (serviceFaqs[svcSlug] ?? []).slice(0, 5) : [];
+
+  // maillage villes voisines du chantier
+  const cityMatch = cities.find(
+    (c) =>
+      c.name.localeCompare(realisation.city, "fr", { sensitivity: "base" }) ===
+      0,
+  );
+  const nearby = cityMatch ? getRelatedCities(cityMatch.slug, 4) : [];
+
+  // réalisations similaires : même service d'abord
+  const similar = [...realisations]
+    .filter((r) => r.slug !== realisation.slug)
+    .sort(
+      (a, b) =>
+        Number(realisationServiceSlug[b.service] === svcSlug) -
+        Number(realisationServiceSlug[a.service] === svcSlug),
+    )
+    .slice(0, 3);
 
   return (
     <main className="bg-white">
@@ -70,200 +169,499 @@ export default async function RealisationDetailPage({ params }: Props) {
         }}
       />
 
-      {/* HERO */}
-      <HeroSection
-        badge={`${realisation.service} • ${realisation.city} • ${realisation.date}`}
-        title={realisation.title}
-        description={realisation.description}
-        image="/images/realisations/artisan-macon-bourgoin-jallieu-terrasse-gres-cerame-dz-maconnerie-terrassement.webp"
-        imageAlt={realisation.images[0]?.alt || realisation.title}
-        primaryButtonText="Demander un devis"
-        primaryButtonHref="/contact"
-        secondaryButtonText={formatPhone(business.phone)}
-        secondaryButtonHref="/contact"
-        cards={[
-          {
-            icon: "hammer",
-            title: realisation.service,
-            description: `Chantier réalisé à ${realisation.city}.`,
-          },
-          {
-            icon: "shield",
-            title: "Garantie décennale",
-            description: "Travaux assurés et durables.",
-          },
-          {
-            icon: "star",
-            title: "Devis gratuit",
-            description: "Réponse rapide sous 24h.",
-          },
-        ]}
-      />
+      {/* HERO sombre avec photo du chantier */}
+      <section className="relative overflow-hidden bg-gray-900 text-white">
+        {realisation.images[0] && (
+          <>
+            <Image
+              src={realisation.images[0].src}
+              alt={realisation.images[0].alt}
+              fill
+              priority
+              sizes="100vw"
+              className="object-cover opacity-25"
+            />
+            <div className="absolute inset-0 bg-gradient-to-r from-gray-950 via-gray-950/80 to-gray-900/40" />
+          </>
+        )}
 
-      {/* BREADCRUMBS */}
-      <nav
-        aria-label="Fil d'Ariane"
-        className="border-b border-gray-100 bg-gray-50 py-3"
-      >
-        <div className="mx-auto lg:px-8">
-          <ol className="flex flex-wrap items-center gap-1 text-sm text-gray-500">
+        <div className="relative z-10 mx-auto max-w-8xl px-6 py-16 md:py-20 lg:px-8">
+          {/* fil d'ariane */}
+          <ol className="mb-8 flex flex-wrap items-center gap-1 text-sm text-gray-400">
             <li>
-              <Link
-                href="/"
-                className="transition hover:text-primary-600 hover:underline"
-              >
+              <Link href="/" className="transition hover:text-white">
                 Accueil
               </Link>
             </li>
-            <li className="select-none px-1 text-gray-400">/</li>
+            <li className="px-1">/</li>
             <li>
-              <Link
-                href="/realisations"
-                className="transition hover:text-primary-600 hover:underline"
-              >
+              <Link href="/realisations" className="transition hover:text-white">
                 Réalisations
               </Link>
             </li>
-            <li className="select-none px-1 text-gray-400">/</li>
-            <li className="font-medium text-gray-800" aria-current="page">
-              {realisation.title}
-            </li>
+            <li className="px-1">/</li>
+            <li className="text-gray-200">{realisation.title}</li>
           </ol>
-        </div>
-      </nav>
 
-      {/* GALERIE */}
-      {galleryImages.length > 0 && (
-        <section className="border-b border-gray-100 bg-gray-50 py-10">
-          <div className="mx-auto max-w-8xl px-6 lg:px-8">
-            <h2 className="mb-6 text-xl font-bold text-gray-900">
-              Photos du chantier
-            </h2>
-            <div
-              className={`grid gap-4 ${galleryImages.length === 1 ? "grid-cols-1" : "grid-cols-1 sm:grid-cols-2"}`}
-            >
-              {galleryImages.map((img, i) => (
-                <div
-                  key={i}
-                  className="relative overflow-hidden rounded-2xl aspect-video bg-gray-200"
-                >
-                  <Image
-                    src={img.src}
-                    alt={img.alt}
-                    fill
-                    className="object-cover"
-                    sizes="(max-width: 640px) 100vw, 50vw"
-                  />
+          <span className="mb-5 inline-flex items-center rounded-full border border-primary-500/40 bg-primary-500 px-4 py-2 text-sm font-medium text-white">
+            {realisation.service} • {realisation.city} • {realisation.date}
+          </span>
+
+          <h1 className="mb-4 max-w-3xl text-4xl font-black leading-tight md:text-5xl">
+            {titleMain}
+            {titleCity && (
+              <>
+                {" "}
+                <span className="text-primary-400">à {titleCity}</span>
+              </>
+            )}
+          </h1>
+
+          <p className="mb-8 max-w-2xl text-base leading-relaxed text-gray-300">
+            {realisation.description}
+          </p>
+
+          {heroStats.length > 0 && (
+            <dl className="mb-10 flex flex-wrap gap-x-10 gap-y-5">
+              {heroStats.map(({ icon: Icon, label, value }) => (
+                <div key={label} className="flex items-center gap-3">
+                  <span className="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-full border border-primary-500/40 bg-primary-500/10">
+                    <Icon className="h-5 w-5 text-primary-400" />
+                  </span>
+                  <div>
+                    <dt className="text-xs text-gray-400">{label}</dt>
+                    <dd className="font-bold text-white">{value}</dd>
+                  </div>
                 </div>
+              ))}
+            </dl>
+          )}
+
+          <div className="flex flex-col gap-4 sm:flex-row">
+            <Link
+              href="/contact"
+              className="inline-flex items-center justify-center rounded-xl bg-primary-600 px-6 py-3.5 font-bold text-white transition hover:bg-primary-700"
+            >
+              Demander un devis
+              <ArrowRight className="ml-2 h-4 w-4" />
+            </Link>
+            <Link
+              href="/contact"
+              className="inline-flex items-center justify-center gap-3 rounded-xl border border-white/20 bg-white/5 px-6 py-3.5 font-bold text-white transition hover:bg-white/15"
+            >
+              <span className="flex h-8 w-8 flex-shrink-0 items-center justify-center rounded-full bg-primary-700 shadow-lg shadow-primary-900/40">
+                <Phone className="h-4 w-4 text-white" />
+              </span>
+              {phone}
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* AVANT/APRÈS (si photos phasées) + CONTEXTE */}
+      <section className="section-padding bg-white">
+        <div className="mx-auto max-w-8xl px-6 lg:px-8">
+          <div className="grid items-start gap-12 lg:grid-cols-2">
+            <div>
+              {avantImg && apresImg ? (
+                <div className="grid gap-4 sm:grid-cols-2">
+                  {[
+                    { img: avantImg, badge: "AVANT" },
+                    { img: apresImg, badge: "APRÈS" },
+                  ].map(({ img, badge }) => (
+                    <div
+                      key={img.src}
+                      className="relative aspect-[3/4] overflow-hidden rounded-2xl"
+                    >
+                      <Image
+                        src={img.src}
+                        alt={img.alt}
+                        fill
+                        sizes="(max-width: 640px) 100vw, 25vw"
+                        className="object-cover"
+                      />
+                      <span
+                        className={`absolute left-3 top-3 rounded-md px-2.5 py-1 text-xs font-black tracking-wide text-white ${
+                          badge === "AVANT" ? "bg-gray-900/90" : "bg-primary-600"
+                        }`}
+                      >
+                        {badge}
+                      </span>
+                    </div>
+                  ))}
+                </div>
+              ) : (
+                realisation.images[0] && (
+                  <div className="relative aspect-[4/3] overflow-hidden rounded-2xl">
+                    <Image
+                      src={realisation.images[0].src}
+                      alt={realisation.images[0].alt}
+                      fill
+                      sizes="(max-width: 1024px) 100vw, 50vw"
+                      className="object-cover"
+                    />
+                  </div>
+                )
+              )}
+            </div>
+
+            <div>
+              <p className="mb-2 text-sm font-bold uppercase tracking-wide text-primary-600">
+                Le projet
+              </p>
+              <h2 className="mb-6 text-3xl font-black text-gray-900">
+                Contexte du projet
+              </h2>
+              <div className="space-y-4 text-base leading-relaxed text-gray-700">
+                {contextParas.map((p, i) => (
+                  <p key={i}>{p}</p>
+                ))}
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* CONTRAINTES + ÉTAPES (sections remplies au fil des vraies données) */}
+      {(realisation.challenges?.length || realisation.steps?.length) && (
+        <section className="bg-gray-50 py-16">
+          <div className="mx-auto max-w-8xl px-6 lg:px-8">
+            <div
+              className={`grid gap-12 ${
+                realisation.challenges?.length && realisation.steps?.length
+                  ? "lg:grid-cols-[340px_1fr]"
+                  : ""
+              }`}
+            >
+              {realisation.challenges && realisation.challenges.length > 0 && (
+                <div>
+                  <p className="mb-2 text-sm font-bold uppercase tracking-wide text-primary-600">
+                    Les défis du chantier
+                  </p>
+                  <h2 className="mb-6 text-2xl font-black text-gray-900">
+                    Les contraintes rencontrées
+                  </h2>
+                  <ul className="space-y-3">
+                    {realisation.challenges.map((c) => (
+                      <li key={c} className="flex items-start gap-3">
+                        <CheckCircle2 className="mt-0.5 h-5 w-5 flex-shrink-0 text-primary-600" />
+                        <span className="text-gray-700">{c}</span>
+                      </li>
+                    ))}
+                  </ul>
+                  {realisation.solution && (
+                    <p className="mt-6 rounded-xl border border-primary-200 bg-primary-50 p-4 text-sm leading-relaxed text-gray-700">
+                      <strong className="text-primary-700">
+                        Notre solution :
+                      </strong>{" "}
+                      {realisation.solution}
+                    </p>
+                  )}
+                </div>
+              )}
+
+              {realisation.steps && realisation.steps.length > 0 && (
+                <div>
+                  <p className="mb-2 text-sm font-bold uppercase tracking-wide text-primary-600">
+                    Les étapes du chantier
+                  </p>
+                  <h2 className="mb-8 text-2xl font-black text-gray-900">
+                    Réalisation étape par étape
+                  </h2>
+                  <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+                    {realisation.steps.map((step, i) => (
+                      <div key={step.title}>
+                        <div className="mb-3 flex items-center gap-3">
+                          <span className="flex h-8 w-8 flex-shrink-0 items-center justify-center rounded-full border-2 border-primary-600 text-sm font-black text-primary-600">
+                            {i + 1}
+                          </span>
+                          <h3 className="font-bold text-gray-900">
+                            {step.title}
+                          </h3>
+                        </div>
+                        <p className="mb-3 text-sm leading-relaxed text-gray-600">
+                          {step.description}
+                        </p>
+                        {step.image && (
+                          <div className="relative aspect-[4/3] overflow-hidden rounded-xl">
+                            <Image
+                              src={step.image}
+                              alt={`${step.title} — ${realisation.title}`}
+                              fill
+                              sizes="(max-width: 640px) 100vw, 25vw"
+                              className="object-cover"
+                            />
+                          </div>
+                        )}
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              )}
+            </div>
+          </div>
+        </section>
+      )}
+
+      {/* CHIFFRES CLÉS */}
+      {figures.length > 0 && (
+        <section className="border-y border-gray-100 bg-white py-12">
+          <div className="mx-auto max-w-8xl px-6 lg:px-8">
+            <p className="mb-8 text-center text-sm font-bold uppercase tracking-wide text-primary-600">
+              Chiffres clés
+            </p>
+            <dl className="flex flex-wrap items-start justify-center gap-x-14 gap-y-8">
+              {figures.map(({ value, label }) => (
+                <div key={label} className="text-center">
+                  <dt className="mb-1 text-3xl font-black text-primary-600">
+                    {value}
+                  </dt>
+                  <dd className="text-sm text-gray-600">{label}</dd>
+                </div>
+              ))}
+            </dl>
+          </div>
+        </section>
+      )}
+
+      {/* DÉTAILS DU CHANTIER */}
+      {detailParas.length > 0 && (
+        <section className="section-padding bg-white">
+          <div className="mx-auto max-w-8xl px-6 lg:px-8">
+            <h2 className="mb-6 text-2xl font-bold text-gray-900">
+              Détails du chantier
+            </h2>
+            <div className="max-w-4xl space-y-4 text-base leading-relaxed text-gray-700">
+              {detailParas.map((p, i) => (
+                <p key={i}>{p}</p>
               ))}
             </div>
           </div>
         </section>
       )}
 
-      {/* CONTENT */}
-      <section className="section-padding bg-white">
+      {/* GALERIE + AVIS + FAQ */}
+      <section className="bg-gray-50 py-16">
         <div className="mx-auto max-w-8xl px-6 lg:px-8">
-          <h2 className="mb-6 text-2xl font-bold text-gray-900">
-            Détails du chantier
-          </h2>
-          <p className="whitespace-pre-line text-base leading-relaxed text-gray-700">
-            {realisation.content}
-          </p>
-
-          {realisation.materials && realisation.materials.length > 0 && (
-            <div className="mt-10">
-              <h2 className="mb-2 text-xl font-bold text-gray-900">
-                Matériaux et techniques : pourquoi ces choix ?
-              </h2>
-              <p className="mb-6 text-gray-600">
-                Chaque matériau de ce chantier a été choisi pour une raison
-                précise. Voici lesquelles :
+          <div className="grid gap-12 lg:grid-cols-[1fr_380px]">
+            <div>
+              <p className="mb-2 text-sm font-bold uppercase tracking-wide text-primary-600">
+                Galerie photos
               </p>
-              <dl className="grid gap-4 sm:grid-cols-2">
-                {realisation.materials.map((m) => (
-                  <div
-                    key={m}
-                    className="rounded-xl border border-gray-200 bg-gray-50 p-4"
-                  >
-                    <dt className="mb-1 font-semibold text-primary-700">{m}</dt>
-                    {materialsGlossary[m] && (
-                      <dd className="text-sm leading-relaxed text-gray-600">
-                        {materialsGlossary[m]}
-                      </dd>
-                    )}
-                  </div>
-                ))}
-              </dl>
+              <h2 className="mb-8 text-2xl font-black text-gray-900">
+                Découvrez le chantier en images
+              </h2>
+              <RealisationGallery images={realisation.images} />
             </div>
-          )}
 
-          {/* Service associé + maillage local */}
-          {(() => {
-            const svcSlug = realisationServiceSlug[realisation.service];
-            const svc = services.find((s) => s.slug === svcSlug);
-            if (!svc) return null;
-            const cityMatch = cities.find(
-              (c) =>
-                c.name.localeCompare(realisation.city, "fr", {
-                  sensitivity: "base",
-                }) === 0,
-            );
-            const nearby = cityMatch
-              ? getRelatedCities(cityMatch.slug, 4)
-              : [];
-            return (
-              <div className="mt-12 rounded-2xl border border-gray-200 bg-gray-50 p-8">
-                <h2 className="mb-3 text-2xl font-bold text-gray-900">
-                  Ce savoir-faire près de chez vous
-                </h2>
-                <p className="mb-5 text-gray-600">
-                  Ce chantier illustre notre expertise en{" "}
-                  {svc.name.toLowerCase()}. Découvrez ce service en détail, ou
-                  directement pour votre commune :
-                </p>
-                <div className="flex flex-wrap gap-3">
-                  <Link
-                    href={`/services/${svc.slug}`}
-                    className="inline-flex items-center rounded-xl bg-primary-600 px-5 py-2.5 font-semibold text-white transition hover:bg-primary-700"
-                  >
-                    {svc.name} →
-                  </Link>
-                  {cityMatch && (
-                    <Link
-                      href={`/services/${svc.slug}/${cityMatch.slug}`}
-                      className="inline-flex items-center rounded-full border border-primary-300 bg-white px-4 py-2 text-sm text-primary-700 transition hover:bg-primary-50"
-                    >
-                      {svc.name} {realisation.city}
-                    </Link>
-                  )}
-                  {nearby.slice(0, 3).map((c) => (
-                    <Link
-                      key={c.slug}
-                      href={`/services/${svc.slug}/${c.slug}`}
-                      className="inline-flex items-center rounded-full border border-primary-300 bg-white px-4 py-2 text-sm text-primary-700 transition hover:bg-primary-50"
-                    >
-                      {svc.name} {c.name}
-                    </Link>
-                  ))}
+            <div className="space-y-10">
+              {localReview && (
+                <div>
+                  <p className="mb-4 text-sm font-bold uppercase tracking-wide text-primary-600">
+                    Avis client — {realisation.city}
+                  </p>
+                  <div className="rounded-2xl border border-gray-200 bg-white p-6 shadow-sm">
+                    <div className="mb-3 flex gap-1">
+                      {[...Array(localReview.rating)].map((_, i) => (
+                        <Star
+                          key={i}
+                          className="h-4 w-4 fill-yellow-400 text-yellow-400"
+                        />
+                      ))}
+                    </div>
+                    <p className="mb-4 text-sm leading-relaxed text-gray-700">
+                      &ldquo;{localReview.text}&rdquo;
+                    </p>
+                    <p className="font-semibold text-gray-900">
+                      {localReview.author}
+                    </p>
+                    <p className="text-sm text-gray-500">
+                      {localReview.city} • {localReview.source}
+                    </p>
+                  </div>
                 </div>
-              </div>
-            );
-          })()}
+              )}
 
-          {/* CTA */}
-          <div className="mt-12 rounded-2xl bg-primary-600 p-8 text-white">
-            <h2 className="mb-3 text-2xl font-bold">
-              Un projet similaire à {realisation.city} ?
+              {faqs.length > 0 && (
+                <div>
+                  <p className="mb-4 text-sm font-bold uppercase tracking-wide text-primary-600">
+                    Questions fréquentes
+                  </p>
+                  <div className="space-y-2">
+                    {faqs.map((faq) => (
+                      <details
+                        key={faq.question}
+                        className="group rounded-xl border border-gray-200 bg-white"
+                      >
+                        <summary className="flex cursor-pointer items-center justify-between gap-3 p-4 text-sm font-semibold text-gray-900 [&::-webkit-details-marker]:hidden">
+                          {faq.question}
+                          <Plus className="h-4 w-4 flex-shrink-0 text-primary-600 transition-transform group-open:rotate-45" />
+                        </summary>
+                        <p className="px-4 pb-4 text-sm leading-relaxed text-gray-600">
+                          {faq.answer}
+                        </p>
+                      </details>
+                    ))}
+                  </div>
+                </div>
+              )}
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* MATÉRIAUX (glossaire pédagogique) */}
+      {realisation.materials && realisation.materials.length > 0 && (
+        <section className="section-padding bg-white">
+          <div className="mx-auto max-w-8xl px-6 lg:px-8">
+            <h2 className="mb-2 text-2xl font-bold text-gray-900">
+              Matériaux et techniques : pourquoi ces choix ?
             </h2>
-            <p className="mb-6 text-primary-100">
-              Contactez {business.name} pour un devis gratuit. Réponse sous 24h.
+            <p className="mb-6 text-gray-600">
+              Chaque matériau de ce chantier a été choisi pour une raison
+              précise. Voici lesquelles :
             </p>
+            <dl className="grid gap-4 sm:grid-cols-2">
+              {realisation.materials.map((m) => (
+                <div
+                  key={m}
+                  className="rounded-xl border border-gray-200 bg-gray-50 p-4"
+                >
+                  <dt className="mb-1 font-semibold text-primary-700">{m}</dt>
+                  {materialsGlossary[m] && (
+                    <dd className="text-sm leading-relaxed text-gray-600">
+                      {materialsGlossary[m]}
+                    </dd>
+                  )}
+                </div>
+              ))}
+            </dl>
+          </div>
+        </section>
+      )}
+
+      {/* MAILLAGE : ce savoir-faire près de chez vous */}
+      {svc && (
+        <section className="bg-gray-50 py-14">
+          <div className="mx-auto max-w-8xl px-6 lg:px-8">
+            <h2 className="mb-3 text-2xl font-bold text-gray-900">
+              Ce savoir-faire près de chez vous
+            </h2>
+            <p className="mb-5 text-gray-600">
+              Ce chantier illustre notre expertise en {svc.name.toLowerCase()}.
+              Découvrez ce service en détail, ou directement pour votre
+              commune :
+            </p>
+            <div className="flex flex-wrap gap-3">
+              <Link
+                href={`/services/${svc.slug}`}
+                className="inline-flex items-center rounded-xl bg-primary-600 px-5 py-2.5 font-semibold text-white transition hover:bg-primary-700"
+              >
+                {svc.name} →
+              </Link>
+              {cityMatch && (
+                <Link
+                  href={`/services/${svc.slug}/${cityMatch.slug}`}
+                  className="inline-flex items-center rounded-full border border-primary-300 bg-white px-4 py-2 text-sm text-primary-700 transition hover:bg-primary-50"
+                >
+                  {svc.name} {realisation.city}
+                </Link>
+              )}
+              {nearby.slice(0, 3).map((c) => (
+                <Link
+                  key={c.slug}
+                  href={`/services/${svc.slug}/${c.slug}`}
+                  className="inline-flex items-center rounded-full border border-primary-300 bg-white px-4 py-2 text-sm text-primary-700 transition hover:bg-primary-50"
+                >
+                  {svc.name} {c.name}
+                </Link>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
+
+      {/* RÉALISATIONS SIMILAIRES */}
+      {similar.length > 0 && (
+        <section className="section-padding bg-white">
+          <div className="mx-auto max-w-8xl px-6 lg:px-8">
+            <p className="mb-2 text-sm font-bold uppercase tracking-wide text-primary-600">
+              Réalisations similaires
+            </p>
+            <h2 className="mb-8 text-2xl font-black text-gray-900">
+              D&apos;autres projets qui pourraient vous intéresser
+            </h2>
+            <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+              {similar.map((r) => (
+                <Link
+                  key={r.slug}
+                  href={`/realisations/${r.slug}`}
+                  className="group overflow-hidden rounded-2xl border border-gray-200 bg-white shadow-sm transition-all duration-300 hover:-translate-y-1.5 hover:shadow-2xl"
+                >
+                  {r.images?.[0] && (
+                    <div className="relative aspect-[4/3] overflow-hidden">
+                      <Image
+                        src={r.images[0].src}
+                        alt={r.images[0].alt}
+                        fill
+                        sizes="(max-width: 640px) 100vw, 33vw"
+                        className="object-cover transition duration-500 group-hover:scale-105"
+                      />
+                    </div>
+                  )}
+                  <div className="p-5">
+                    <h3 className="mb-1 font-bold leading-snug text-gray-900 group-hover:text-primary-600">
+                      {r.title}
+                    </h3>
+                    <p className="text-sm text-gray-500">
+                      {r.city}
+                      {(r.surface || r.duration) && (
+                        <>
+                          {" "}
+                          •{" "}
+                          {[r.surface, r.duration]
+                            .filter(Boolean)
+                            .join(" – ")}
+                        </>
+                      )}
+                    </p>
+                  </div>
+                </Link>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
+
+      {/* CTA FINAL */}
+      <section className="bg-gray-900 py-14 text-white">
+        <div className="mx-auto flex max-w-8xl flex-col items-center justify-between gap-6 px-6 md:flex-row lg:px-8">
+          <div>
+            <h2 className="text-3xl font-black">
+              Vous avez un projet{" "}
+              <span className="text-primary-400">similaire ?</span>
+            </h2>
+            <p className="mt-2 max-w-xl text-gray-300">
+              Nous intervenons dans tout le Nord-Isère pour vos travaux de
+              maçonnerie, terrassement et aménagement extérieur.
+            </p>
+          </div>
+          <div className="flex flex-col gap-4 sm:flex-row">
             <Link
               href="/contact"
-              className="inline-flex items-center rounded-xl bg-white px-6 py-3 font-semibold text-primary-700 transition hover:bg-gray-100"
+              className="inline-flex items-center justify-center rounded-xl bg-primary-600 px-6 py-3.5 font-bold text-white transition hover:bg-primary-700"
             >
-              Demander un devis gratuit →
+              Demander un devis gratuit
+              <ArrowRight className="ml-2 h-4 w-4" />
+            </Link>
+            <Link
+              href="/contact"
+              className="inline-flex items-center justify-center gap-3 rounded-xl border border-white/20 bg-white/5 px-6 py-3.5 font-bold text-white transition hover:bg-white/15"
+            >
+              <span className="flex h-8 w-8 flex-shrink-0 items-center justify-center rounded-full bg-primary-700 shadow-lg shadow-primary-900/40">
+                <Phone className="h-4 w-4 text-white" />
+              </span>
+              {phone}
             </Link>
           </div>
         </div>
