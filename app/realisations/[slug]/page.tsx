@@ -8,7 +8,9 @@ import {
   CheckCircle2,
   Clock,
   Droplets,
+  Images,
   Layers,
+  MapPin,
   User,
   Ruler,
   Package,
@@ -106,6 +108,11 @@ export default async function RealisationDetailPage({ params }: Props) {
 
   // stats du héro (uniquement les champs renseignés)
   const heroStats = [
+    {
+      icon: MapPin,
+      label: "Localisation",
+      value: realisation.city,
+    },
     realisation.duration && {
       icon: Clock,
       label: "Durée du chantier",
@@ -272,6 +279,15 @@ export default async function RealisationDetailPage({ params }: Props) {
             </Link>
           </div>
         </div>
+
+        {/* accès direct à la galerie (comme la maquette) */}
+        <a
+          href="#galerie"
+          className="absolute bottom-6 right-6 z-10 hidden items-center gap-2 rounded-lg bg-gray-950/70 px-4 py-2.5 text-sm font-bold text-white backdrop-blur transition hover:bg-gray-950/90 md:inline-flex"
+        >
+          Résultat final
+          <Images className="h-4 w-4 text-primary-400" />
+        </a>
       </section>
 
       {/* AVANT/APRÈS (si photos phasées) + CONTEXTE */}
@@ -466,7 +482,7 @@ export default async function RealisationDetailPage({ params }: Props) {
       )}
 
       {/* GALERIE + AVIS + FAQ */}
-      <section className="bg-gray-50 py-16">
+      <section id="galerie" className="scroll-mt-24 bg-gray-50 py-16">
         <div className="mx-auto max-w-8xl px-6 lg:px-8">
           <div className="grid gap-12 lg:grid-cols-[1fr_380px]">
             <div>
