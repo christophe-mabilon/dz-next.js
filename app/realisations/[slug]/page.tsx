@@ -456,7 +456,7 @@ export default async function RealisationDetailPage({ params }: Props) {
                 return (
                   <div
                     key={label}
-                    className="px-10 py-2 text-center md:px-16 [&:not(:last-child)]:border-r [&:not(:last-child)]:border-white/10 [&:not(:last-child)]:shadow-[16px_0_24px_-16px_rgba(20,184,166,0.35)]"
+                    className="px-10 py-2 text-center md:px-16 [&:not(:last-child)]:border-r [&:not(:last-child)]:border-white/40 [&:not(:last-child)]:shadow-[18px_0_28px_-14px_rgba(20,184,166,0.55)]"
                   >
                     <span className="mx-auto mb-3 flex h-12 w-12 items-center justify-center rounded-full border border-primary-500/30 bg-primary-500/10">
                       <Icon className="h-6 w-6 text-primary-400" />
