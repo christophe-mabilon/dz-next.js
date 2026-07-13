@@ -6,6 +6,7 @@ import {
   ArrowRight,
   BadgeCheck,
   CheckCircle2,
+  ChevronsLeftRight,
   Clock,
   Droplets,
   Images,
@@ -296,7 +297,11 @@ export default async function RealisationDetailPage({ params }: Props) {
           <div className="grid items-start gap-12 lg:grid-cols-2">
             <div>
               {avantImg && apresImg ? (
-                <div className="grid gap-4 sm:grid-cols-2">
+                <div className="relative grid gap-4 sm:grid-cols-2">
+                  {/* pastille double flèche à la jonction avant/après */}
+                  <span className="pointer-events-none absolute left-1/2 top-1/2 z-10 flex h-12 w-12 -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full bg-white text-gray-900 shadow-lg ring-1 ring-gray-200">
+                    <ChevronsLeftRight className="h-5 w-5" />
+                  </span>
                   {[
                     { img: avantImg, badge: "AVANT" },
                     { img: apresImg, badge: "APRÈS" },
