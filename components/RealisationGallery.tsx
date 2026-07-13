@@ -2,7 +2,9 @@
 
 import { useState } from "react";
 import Image from "next/image";
+import { ZoomIn } from "lucide-react";
 import type { PhotoPhase } from "@/data/realisations";
+import { Lightbox } from "@/components/Lightbox";
 
 const PHASE_LABELS: Record<PhotoPhase, string> = {
   avant: "Avant",
@@ -14,6 +16,7 @@ type Photo = { src: string; alt: string; phase?: PhotoPhase };
 
 export function RealisationGallery({ images }: { images: Photo[] }) {
   const [filter, setFilter] = useState<PhotoPhase | "toutes">("toutes");
+  const [openIndex, setOpenIndex] = useState<number | null>(null);
 
   const phases = (["avant", "pendant", "apres"] as PhotoPhase[]).filter((p) =>
     images.some((img) => img.phase === p),
@@ -29,7 +32,10 @@ export function RealisationGallery({ images }: { images: Photo[] }) {
           {(["toutes", ...phases] as const).map((p) => (
             <button
               key={p}
-              onClick={() => setFilter(p)}
+              onClick={() => {
+                setFilter(p);
+                setOpenIndex(null);
+              }}
               className={`rounded-full px-4 py-1.5 text-sm font-semibold transition ${
                 filter === p
                   ? "bg-primary-600 text-white shadow"
@@ -43,10 +49,13 @@ export function RealisationGallery({ images }: { images: Photo[] }) {
       )}
 
       <div className="grid grid-cols-2 gap-4 md:grid-cols-3">
-        {visible.map((img) => (
-          <div
+        {visible.map((img, i) => (
+          <button
             key={img.src}
-            className="group relative aspect-[4/3] overflow-hidden rounded-xl"
+            type="button"
+            onClick={() => setOpenIndex(i)}
+            aria-label={`Agrandir : ${img.alt}`}
+            className="group relative aspect-[4/3] cursor-zoom-in overflow-hidden rounded-xl"
           >
             <Image
               src={img.src}
@@ -60,9 +69,25 @@ export function RealisationGallery({ images }: { images: Photo[] }) {
                 {PHASE_LABELS[img.phase]}
               </span>
             )}
-          </div>
+            <span className="absolute bottom-2 right-2 flex h-8 w-8 items-center justify-center rounded-full bg-gray-900/60 text-white opacity-0 transition group-hover:opacity-100">
+              <ZoomIn className="h-4 w-4" />
+            </span>
+          </button>
         ))}
       </div>
+
+      {openIndex !== null && (
+        <Lightbox
+          photos={visible.map((img) => ({
+            src: img.src,
+            alt: img.alt,
+            label: img.phase ? PHASE_LABELS[img.phase] : undefined,
+          }))}
+          index={openIndex}
+          onClose={() => setOpenIndex(null)}
+          onIndexChange={setOpenIndex}
+        />
+      )}
     </div>
   );
 }

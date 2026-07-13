@@ -4,8 +4,11 @@ import Link from "next/link";
 import { Metadata } from "next";
 import {
   ArrowRight,
+  BadgeCheck,
   CheckCircle2,
   Clock,
+  Droplets,
+  Layers,
   User,
   Ruler,
   Package,
@@ -31,6 +34,19 @@ import { cities } from "@/data/cities";
 import { reviews } from "@/data/reviews";
 import { formatPhone } from "@/lib/format";
 import { RealisationGallery } from "@/components/RealisationGallery";
+import { ZoomableImage } from "@/components/Lightbox";
+
+// icône d'un chiffre clé choisie selon son intitulé
+function figureIcon(text: string) {
+  const t = text.toLowerCase();
+  if (/(m²|m³|\bml\b|×|mètre|largeur|surface)/.test(t)) return Ruler;
+  if (/(jour|semaine|mois|20\d\d|durée|chantier)/.test(t)) return Clock;
+  if (/(drainage|eau|galet|pluvial)/.test(t)) return Droplets;
+  if (/(client|équipe|particulier|professionnel)/.test(t)) return User;
+  if (/(pisé|parpaing|béton|soubassement|treillis|pierre|niveau|restanque|plage|escalier)/.test(t))
+    return Layers;
+  return BadgeCheck;
+}
 
 const { business } = siteConfig;
 
@@ -170,7 +186,7 @@ export default async function RealisationDetailPage({ params }: Props) {
       />
 
       {/* HERO sombre avec photo du chantier */}
-      <section className="relative overflow-hidden bg-gray-900 text-white">
+      <section className="relative overflow-hidden  text-white">
         {realisation.images[0] && (
           <>
             <Image
@@ -269,17 +285,13 @@ export default async function RealisationDetailPage({ params }: Props) {
                     { img: avantImg, badge: "AVANT" },
                     { img: apresImg, badge: "APRÈS" },
                   ].map(({ img, badge }) => (
-                    <div
+                    <ZoomableImage
                       key={img.src}
-                      className="relative aspect-[3/4] overflow-hidden rounded-2xl"
+                      src={img.src}
+                      alt={img.alt}
+                      sizes="(max-width: 640px) 100vw, 25vw"
+                      containerClassName="relative aspect-[3/4] overflow-hidden rounded-2xl"
                     >
-                      <Image
-                        src={img.src}
-                        alt={img.alt}
-                        fill
-                        sizes="(max-width: 640px) 100vw, 25vw"
-                        className="object-cover"
-                      />
                       <span
                         className={`absolute left-3 top-3 rounded-md px-2.5 py-1 text-xs font-black tracking-wide text-white ${
                           badge === "AVANT" ? "bg-gray-900/90" : "bg-primary-600"
@@ -287,20 +299,17 @@ export default async function RealisationDetailPage({ params }: Props) {
                       >
                         {badge}
                       </span>
-                    </div>
+                    </ZoomableImage>
                   ))}
                 </div>
               ) : (
                 realisation.images[0] && (
-                  <div className="relative aspect-[4/3] overflow-hidden rounded-2xl">
-                    <Image
-                      src={realisation.images[0].src}
-                      alt={realisation.images[0].alt}
-                      fill
-                      sizes="(max-width: 1024px) 100vw, 50vw"
-                      className="object-cover"
-                    />
-                  </div>
+                  <ZoomableImage
+                    src={realisation.images[0].src}
+                    alt={realisation.images[0].alt}
+                    sizes="(max-width: 1024px) 100vw, 50vw"
+                    containerClassName="relative aspect-[4/3] overflow-hidden rounded-2xl"
+                  />
                 )
               )}
             </div>
@@ -368,30 +377,40 @@ export default async function RealisationDetailPage({ params }: Props) {
                   <h2 className="mb-8 text-2xl font-black text-gray-900">
                     Réalisation étape par étape
                   </h2>
-                  <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-                    {realisation.steps.map((step, i) => (
-                      <div key={step.title}>
-                        <div className="mb-3 flex items-center gap-3">
-                          <span className="flex h-8 w-8 flex-shrink-0 items-center justify-center rounded-full border-2 border-primary-600 text-sm font-black text-primary-600">
+                  <div
+                    className={`grid gap-8 sm:grid-cols-2 ${
+                      ["", "lg:grid-cols-1", "lg:grid-cols-2", "lg:grid-cols-3", "lg:grid-cols-4", "lg:grid-cols-5"][
+                        Math.min(realisation.steps.length, 5)
+                      ]
+                    }`}
+                  >
+                    {realisation.steps.map((step, i, arr) => (
+                      <div key={step.title} className="flex flex-col">
+                        {/* numéro relié par la ligne de progression */}
+                        <div className="relative mb-4 flex items-center justify-center">
+                          {i > 0 && (
+                            <span className="absolute left-0 right-1/2 top-1/2 hidden h-0.5 -translate-y-1/2 bg-primary-200 lg:block" />
+                          )}
+                          {i < arr.length - 1 && (
+                            <span className="absolute left-1/2 right-0 top-1/2 hidden h-0.5 -translate-y-1/2 bg-primary-200 lg:block" />
+                          )}
+                          <span className="relative z-10 flex h-10 w-10 items-center justify-center rounded-full border-2 border-primary-600 bg-white text-sm font-black text-primary-600">
                             {i + 1}
                           </span>
-                          <h3 className="font-bold text-gray-900">
-                            {step.title}
-                          </h3>
                         </div>
-                        <p className="mb-3 text-sm leading-relaxed text-gray-600">
+                        <h3 className="mb-2 text-center font-bold text-gray-900">
+                          {step.title}
+                        </h3>
+                        <p className="mb-4 text-center text-sm leading-relaxed text-gray-600">
                           {step.description}
                         </p>
                         {step.image && (
-                          <div className="relative aspect-[4/3] overflow-hidden rounded-xl">
-                            <Image
-                              src={step.image}
-                              alt={`${step.title} — ${realisation.title}`}
-                              fill
-                              sizes="(max-width: 640px) 100vw, 25vw"
-                              className="object-cover"
-                            />
-                          </div>
+                          <ZoomableImage
+                            src={step.image}
+                            alt={`${step.title} — ${realisation.title}`}
+                            sizes="(max-width: 640px) 100vw, 25vw"
+                            containerClassName="relative mt-auto aspect-[4/3] overflow-hidden rounded-xl"
+                          />
                         )}
                       </div>
                     ))}
@@ -411,14 +430,20 @@ export default async function RealisationDetailPage({ params }: Props) {
               Chiffres clés
             </p>
             <dl className="flex flex-wrap items-start justify-center gap-x-24 gap-y-8">
-              {figures.map(({ value, label }) => (
-                <div key={label} className="text-center">
-                  <dt className="mb-1 text-3xl font-black text-white">
-                    {value}
-                  </dt>
-                  <dd className="text-sm text-gray-400">{label}</dd>
-                </div>
-              ))}
+              {figures.map(({ value, label }) => {
+                const Icon = figureIcon(`${value} ${label}`);
+                return (
+                  <div key={label} className="text-center">
+                    <span className="mx-auto mb-3 flex h-12 w-12 items-center justify-center rounded-full border border-primary-500/30 bg-primary-500/10">
+                      <Icon className="h-6 w-6 text-primary-400" />
+                    </span>
+                    <dt className="mb-1 text-3xl font-black text-white">
+                      {value}
+                    </dt>
+                    <dd className="text-sm text-gray-400">{label}</dd>
+                  </div>
+                );
+              })}
             </dl>
           </div>
         </section>
