@@ -1,6 +1,9 @@
 import { NextRequest, NextResponse } from "next/server";
 import { mkdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
+import { sendMail, renderRows } from "@/lib/mail";
+
+export const runtime = "nodejs";
 
 /**
  * Demandes de partenariat : validation + persistance JSON côté serveur.
@@ -105,7 +108,33 @@ export async function POST(request: NextRequest) {
       console.warn("Persistance fichier indisponible:", fsError);
     }
 
-    // TODO (installation VPS) : transférer vers l'API email existante
+    // notification email à David (n'empêche pas la réponse si l'envoi échoue)
+    try {
+      const html = `
+        <h2 style="font-family:Arial,sans-serif;color:#0d9488">Nouvelle demande de partenariat</h2>
+        ${renderRows([
+          ["Entreprise", entry.entreprise],
+          ["Métier", entry.metier],
+          ["Contact", entry.contact],
+          ["Email", entry.email],
+          ["Téléphone", entry.phone],
+          ["Ville", entry.city],
+          ["Site web", entry.website],
+          ["Adresse", entry.adresse],
+          ["SIRET", entry.siret],
+          ["Message", entry.message],
+        ])}
+        <p style="font-family:Arial,sans-serif;font-size:12px;color:#6b7280;margin-top:16px">
+          Reçu le ${new Date().toLocaleString("fr-FR")} via le formulaire partenaires du site.
+        </p>`;
+      await sendMail({
+        subject: `Partenariat — ${entry.entreprise} (${entry.metier})`,
+        html,
+        replyTo: entry.email,
+      });
+    } catch (mailError) {
+      console.warn("Envoi email partenariat échoué:", mailError);
+    }
 
     return NextResponse.json({
       success: true,

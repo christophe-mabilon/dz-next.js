@@ -5,6 +5,22 @@ Format : chaque version résume l'état du site à un moment donné, pour savoir
 
 ---
 
+## [1.1.0] — 2026-07-14 — Envoi email des formulaires
+
+- Envoi réel des formulaires **contact** et **partenaires** par email
+  (Nodemailer + SMTP OVH), intégré directement dans les routes Next.js
+  (`/api/contact`, `/api/partenaires`) — **pas de base de données**.
+- `lib/mail.ts` : transporteur SMTP + `sendMail()`, échappement HTML des champs,
+  `replyTo` = email du visiteur (réponse en un clic).
+- Dégradation gracieuse : sans variables SMTP (dev / Vercel), le formulaire
+  répond « OK » et journalise (mode démo). L'envoi réel démarre sur le VPS
+  une fois `.env.local` renseigné (voir `.env.example`).
+- Partenaires : email **en plus** de la persistance JSON existante.
+
+À faire à l'install VPS : renseigner `SMTP_*` / `MAIL_*` dans `.env.local`.
+
+---
+
 ## [1.0.0] — 2026-07-14 — Première version complète
 
 État : site en production sur Vercel (cible finale = VPS OVH). Formulaires

@@ -1,4 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
+import { sendMail, renderRows } from "@/lib/mail";
+
+export const runtime = "nodejs";
 
 interface ContactData {
   nom: string;
@@ -46,30 +49,29 @@ function validateContactData(data: ContactData) {
   return errors;
 }
 
-// Fonction pour envoyer un email (à implémenter avec votre service)
+// Envoi de la demande de devis par email (Nodemailer + SMTP OVH)
 async function sendEmail(data: ContactData) {
-  // Cette fonction peut être implémentée avec :
-  // - Resend (https://resend.com)
-  // - SendGrid (https://sendgrid.com)
-  // - Mailgun (https://mailgun.com)
-  // - NodeMailer (https://nodemailer.com)
-  // - Ou simplement envoyer une notification à votre email
+  const html = `
+    <h2 style="font-family:Arial,sans-serif;color:#0d9488">Nouvelle demande de devis</h2>
+    ${renderRows([
+      ["Nom", `${data.prenom} ${data.nom}`],
+      ["Email", data.email],
+      ["Téléphone", data.phone],
+      ["Adresse chantier", data.adresse],
+      ["Code postal", data.codePostal],
+      ["Ville", data.city],
+      ["Service", data.service],
+      ["Message", data.message],
+    ])}
+    <p style="font-family:Arial,sans-serif;font-size:12px;color:#6b7280;margin-top:16px">
+      Reçu le ${new Date().toLocaleString("fr-FR")} via le formulaire de contact du site.
+    </p>`;
 
-  // Pour l'instant, on log les données
-  console.log("Nouvelle demande de devis:", {
-    timestamp: new Date().toISOString(),
-    ...data,
+  return sendMail({
+    subject: `Devis — ${data.prenom} ${data.nom} (${data.city}) • ${data.service}`,
+    html,
+    replyTo: data.email,
   });
-
-  // À implémenter : envoyer un email réel
-  // await resend.emails.send({
-  //   from: 'dz.maconnerie38@gmail.com',
-  //   to: 'admin@dzmaconnerie38.fr',
-  //   subject: `Nouvelle demande de devis de ${data.prenom} ${data.nom}`,
-  //   html: generateEmailHTML(data),
-  // });
-
-  return true;
 }
 
 export async function POST(request: NextRequest) {
