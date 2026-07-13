@@ -1,11 +1,14 @@
 import { notFound } from "next/navigation";
 import { formatPhone } from "@/lib/format";
 import Link from "next/link";
+import Image from "next/image";
 import { Metadata } from "next";
 import { ArrowRight, CheckCircle } from "lucide-react";
 import { services, getServiceBySlug } from "@/data/services";
 import { cities } from "@/data/cities";
 import { articles } from "@/data/blog";
+import { realisations } from "@/data/realisations";
+import { realisationServiceSlug } from "@/data/realisations-content";
 import { getServiceArticles } from "@/lib/blogLinks";
 import {
   serviceFaqs,
@@ -77,6 +80,14 @@ export default async function ServicePage(props: ServicePageProps) {
   ];
 
   const faqs = serviceFaqs[service.slug] ?? [];
+
+  // réalisations concrètes rattachées à ce service (via le mapping libellé -> slug)
+  const serviceRealisations = realisations
+    .filter((r) => realisationServiceSlug[r.service] === service.slug)
+    .slice(0, 4);
+
+  // maillage service -> service : les autres prestations
+  const otherServices = services.filter((s) => s.slug !== service.slug);
 
   return (
     <>
@@ -395,6 +406,90 @@ export default async function ServicePage(props: ServicePageProps) {
           </section>
         );
       })()}
+
+      {/* RÉALISATIONS LIÉES AU SERVICE */}
+      {serviceRealisations.length > 0 && (
+        <section className="section-padding bg-gray-50">
+          <div className="mx-auto max-w-8xl px-6 lg:px-8">
+            <p className="mb-2 text-sm font-bold uppercase tracking-wide text-primary-600">
+              Nos chantiers
+            </p>
+            <h2 className="mb-8 text-2xl font-bold text-gray-900">
+              Réalisations en {service.name.toLowerCase()}
+            </h2>
+            <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
+              {serviceRealisations.map((r) => (
+                <Link
+                  key={r.slug}
+                  href={`/realisations/${r.slug}`}
+                  className="group overflow-hidden rounded-2xl border border-gray-200 bg-white shadow-sm transition-all duration-300 hover:-translate-y-1.5 hover:shadow-xl"
+                >
+                  {r.images?.[0] && (
+                    <div className="relative aspect-[4/3] overflow-hidden">
+                      <Image
+                        src={r.images[0].src}
+                        alt={r.images[0].alt}
+                        fill
+                        sizes="(max-width: 640px) 100vw, 25vw"
+                        className="object-cover transition duration-500 group-hover:scale-105"
+                      />
+                    </div>
+                  )}
+                  <div className="p-4">
+                    <h3 className="mb-1 text-sm font-bold leading-snug text-gray-900 group-hover:text-primary-600">
+                      {r.title}
+                    </h3>
+                    <p className="text-xs text-gray-500">
+                      {r.city}
+                      {(r.surface || r.duration) && (
+                        <>
+                          {" "}
+                          • {[r.surface, r.duration].filter(Boolean).join(" – ")}
+                        </>
+                      )}
+                    </p>
+                  </div>
+                </Link>
+              ))}
+            </div>
+            <div className="mt-8">
+              <Link
+                href="/realisations"
+                className="inline-flex items-center font-semibold text-primary-600 hover:text-primary-700"
+              >
+                Voir toutes nos réalisations
+                <ArrowRight className="ml-2 h-4 w-4" />
+              </Link>
+            </div>
+          </div>
+        </section>
+      )}
+
+      {/* MAILLAGE SERVICE -> SERVICE : NOS AUTRES PRESTATIONS */}
+      <section className="section-padding bg-white">
+        <div className="mx-auto max-w-8xl px-6 lg:px-8">
+          <p className="mb-2 text-sm font-bold uppercase tracking-wide text-primary-600">
+            Voir aussi
+          </p>
+          <h2 className="mb-8 text-2xl font-bold text-gray-900">
+            Nos autres prestations
+          </h2>
+          <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-3">
+            {otherServices.map((s) => (
+              <Link
+                key={s.slug}
+                href={`/services/${s.slug}`}
+                className="group flex items-center justify-between gap-3 rounded-xl border border-gray-200 bg-white p-4 transition hover:border-primary-500 hover:bg-primary-50"
+              >
+                <span className="font-semibold text-gray-800 group-hover:text-primary-700">
+                  {s.name}
+                </span>
+                <ArrowRight className="h-4 w-4 flex-shrink-0 text-primary-500 transition group-hover:translate-x-1" />
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
 
       {/* CTA Section */}
       <section className="hero-gradient py-16 md:py-24 text-white">

@@ -19,6 +19,7 @@ import {
   BUSINESS_ID,
 } from "@/lib/seo";
 import { formatPhone } from "@/lib/format";
+import { LocationMap } from "@/components/LocationMap";
 
 const { business } = siteConfig;
 
@@ -301,6 +302,26 @@ export default function AProposPage() {
               Lire les avis clients
             </Link>
           </div>
+        </div>
+      </section>
+
+      {/* OÙ NOUS TROUVER */}
+      <section className="section-padding bg-white">
+        <div className="mx-auto max-w-8xl px-6 lg:px-8">
+          <div className="mb-8">
+            <p className="mb-2 text-sm font-bold uppercase tracking-wide text-primary-600">
+              Notre implantation
+            </p>
+            <h2 className="text-2xl font-bold text-gray-900">
+              Un artisan local, basé à Artas en Nord-Isère
+            </h2>
+            <p className="mt-3 max-w-2xl text-gray-600">
+              Notre atelier se situe à Artas (38440). De là, nous rayonnons dans
+              tout le Nord-Isère : Bourgoin-Jallieu, L&apos;Isle-d&apos;Abeau,
+              Villefontaine, La Verpillière et les communes alentour.
+            </p>
+          </div>
+          <LocationMap zoom={11} />
         </div>
       </section>
     </>

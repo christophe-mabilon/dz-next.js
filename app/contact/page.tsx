@@ -19,6 +19,7 @@ import {
 } from "lucide-react";
 
 import HeroSection from "@/components/sections/hero/HeroSection";
+import { LocationMap } from "@/components/LocationMap";
 
 import { siteConfig } from "@/data/config";
 
@@ -588,8 +589,29 @@ export default function ContactPage() {
         </div>
       </section>
 
-      {/* BENEFITS */}
+      {/* CARTE / LOCALISATION */}
       <section className="section-padding bg-gray-50">
+        <div className="mx-auto max-w-8xl px-6 lg:px-8">
+          <div className="mb-8 text-center">
+            <p className="mb-2 text-sm font-bold uppercase tracking-wide text-primary-600">
+              Où nous trouver
+            </p>
+            <h2 className="heading-md">
+              Basés à {business.city}, au cœur du Nord-Isère
+            </h2>
+            <p className="mx-auto mt-3 max-w-2xl text-gray-600">
+              Notre atelier est à {business.city} ({business.zipCode}). Nous
+              intervenons dans tout le Nord-Isère pour vos travaux de maçonnerie,
+              terrassement et aménagement extérieur — la visite d&apos;évaluation
+              et le devis sont gratuits.
+            </p>
+          </div>
+          <LocationMap zoom={12} />
+        </div>
+      </section>
+
+      {/* BENEFITS */}
+      <section className="section-padding bg-white">
         <div className="mx-auto max-w-8xl px-6 lg:px-8">
           <h2 className="heading-md mb-12 text-center">
             Pourquoi nous contacter ?

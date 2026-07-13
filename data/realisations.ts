@@ -316,7 +316,7 @@ export const realisations: Realisation[] = [
       "Le chantier a débuté par le ferraillage du radier : une nappe d'armatures dimensionnée pour reprendre le poids de l'eau et les poussées du terrain. Le radier de 8 × 4 m a ensuite été coulé d'un seul tenant pour former un fond monolithique sans point faible.\n\nLes parois du bassin ont été montées puis enduites pour préparer l'étanchéité. L'escalier a été entièrement maçonné en béton : intégré à la structure, il ne bougera jamais et se nettoie comme le reste du bassin.\n\nAutour du bassin, nous avons réalisé une plage en dalles posées sur plots, avec un parement soigné en rive. L'ensemble s'intègre dans la cour de la ferme en pisé, entre bâti ancien et confort moderne.",
     images: [
       {
-        src: "/images/realisations/piscine-maconnee/piscine-et-terrasse-beton-amenagement.webp",
+        src: "/images/realisations/piscine-maconnee/piscine-maconnee-enduit-escalier-beton-avant-liner.webp",
         alt: "Piscine maçonnée 8x4 m et terrasse aménagée à Saint-Agnin-sur-Bion — DZ Maçonnerie",
         phase: "apres",
       },

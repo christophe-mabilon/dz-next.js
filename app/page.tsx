@@ -23,6 +23,7 @@ import {
   MapPin,
 } from "lucide-react";
 import HeroSection from "@/components/sections/hero/HeroSection";
+import { LocationMap } from "@/components/LocationMap";
 import { siteConfig } from "@/data/config";
 
 const { business } = siteConfig;
@@ -569,6 +570,10 @@ export default function HomePage() {
                   </div>
                 </Link>
               ))}
+          </div>
+
+          <div className="mx-auto mt-14 max-w-5xl">
+            <LocationMap zoom={11} variant="dark" />
           </div>
         </div>
       </section>
