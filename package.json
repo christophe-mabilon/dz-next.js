@@ -15,6 +15,11 @@
     "cities:all": "node scripts/enrich-cities.mjs && node scripts/build-cities.mjs",
     "reviews:fetch": "node scripts/fetch-reviews.mjs",
     "partners:requests": "node scripts/list-partner-requests.mjs",
+    "mail:test": "node scripts/test-mail.mjs",
+    "pm2:start": "pm2 start ecosystem.config.js",
+    "pm2:reload": "pm2 reload ecosystem.config.js --update-env",
+    "pm2:logs": "pm2 logs dzmaconnerie",
+    "deploy:vps": "git pull && npm install && npm run build && pm2 reload ecosystem.config.js",
     "prebuild": "node scripts/fetch-reviews.mjs"
   },
   "dependencies": {

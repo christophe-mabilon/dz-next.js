@@ -5,6 +5,19 @@ Format : chaque version résume l'état du site à un moment donné, pour savoir
 
 ---
 
+## [1.1.1] — 2026-07-14 — Outils de déploiement VPS
+
+- `ecosystem.config.js` : config PM2 (un seul process `next start`, autorestart +
+  redémarrage au reboot). PM2 relance le site — donc l'API — s'il tombe.
+- `npm run mail:test` : envoie un email de test via le SMTP configuré
+  (`scripts/test-mail.mjs`) pour valider les identifiants OVH sans le formulaire web.
+- Scripts npm : `pm2:start`, `pm2:reload`, `pm2:logs`, `deploy:vps`.
+
+Rappel : `.env.example` = modèle versionné ; **`.env.local`** = vrai fichier de
+secrets, à créer sur le VPS (jamais dans git), lu automatiquement par Next.js.
+
+---
+
 ## [1.1.0] — 2026-07-14 — Envoi email des formulaires
 
 - Envoi réel des formulaires **contact** et **partenaires** par email
