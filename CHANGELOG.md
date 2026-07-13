@@ -5,6 +5,15 @@ Format : chaque version résume l'état du site à un moment donné, pour savoir
 
 ---
 
+## [1.1.2] — 2026-07-14 — Copie cachée webmaster (BCC)
+
+- `MAIL_BCC` (optionnel) : envoie une copie cachée de chaque demande (contact +
+  partenaires) au webmaster, **invisible du destinataire principal**.
+- `.env.example` clarifié : options Gmail (mot de passe d'application) **ou** OVH,
+  avertissement « ne jamais mettre le vrai mot de passe dans ce modèle public ».
+
+---
+
 ## [1.1.1] — 2026-07-14 — Outils de déploiement VPS
 
 - `ecosystem.config.js` : config PM2 (un seul process `next start`, autorestart +

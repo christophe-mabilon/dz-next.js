@@ -13,6 +13,7 @@ import nodemailer from "nodemailer";
  *   SMTP_PASSWORD   le mot de passe de la boîte
  *   MAIL_TO         destinataire des demandes (David) — défaut : SMTP_USER
  *   MAIL_FROM       expéditeur affiché — défaut : SMTP_USER
+ *   MAIL_BCC        copie cachée (webmaster) — optionnel, invisible du destinataire
  *
  * Si SMTP n'est pas configuré (dev local, preview Vercel), l'envoi est
  * simplement journalisé : le formulaire répond « OK » sans planter.
@@ -26,6 +27,7 @@ const {
   SMTP_PASSWORD,
   MAIL_TO,
   MAIL_FROM,
+  MAIL_BCC,
 } = process.env;
 
 /** true seulement si les paramètres SMTP indispensables sont présents. */
@@ -66,6 +68,8 @@ export async function sendMail({
   await transporter.sendMail({
     from: MAIL_FROM || SMTP_USER,
     to: MAIL_TO || SMTP_USER,
+    // copie cachée webmaster : invisible du destinataire principal (David)
+    bcc: MAIL_BCC || undefined,
     subject,
     html,
     replyTo,
