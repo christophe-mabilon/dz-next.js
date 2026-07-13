@@ -449,7 +449,7 @@ export default async function RealisationDetailPage({ params }: Props) {
           {/* texture mur en pierre très légère, répétée sur le fond sombre */}
           <div
             aria-hidden
-            className="absolute inset-0 bg-repeat opacity-[0.07]"
+            className="absolute inset-0 bg-repeat opacity-[0.15]"
             style={{
               backgroundImage: "url(/images/textures/mur-pierre-blanche.webp)",
               backgroundSize: "560px",
