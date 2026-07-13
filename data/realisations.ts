@@ -434,11 +434,6 @@ export const realisations: Realisation[] = [
         alt: "Terrasse béton terminée à Dolomieu, vue d'ensemble — DZ Maçonnerie",
         phase: "apres",
       },
-      {
-        src: "/images/realisations/terrasse-beton-dolomieu/terrasse-beton-dolomieu-realisation.webp",
-        alt: "Réalisation de la terrasse en béton à Dolomieu",
-        phase: "apres",
-      },
     ],
     materials: ["Béton armé", "Treillis soudé"],
     keywords: [
