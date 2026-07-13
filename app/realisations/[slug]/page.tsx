@@ -145,7 +145,7 @@ export default async function RealisationDetailPage({ params }: Props) {
         Number(realisationServiceSlug[b.service] === svcSlug) -
         Number(realisationServiceSlug[a.service] === svcSlug),
     )
-    .slice(0, 3);
+    .slice(0, 4);
 
   return (
     <main className="bg-white">
@@ -179,9 +179,9 @@ export default async function RealisationDetailPage({ params }: Props) {
               fill
               priority
               sizes="100vw"
-              className="object-cover opacity-25"
+              className="object-cover opacity-60"
             />
-            <div className="absolute inset-0 bg-gradient-to-r from-gray-950 via-gray-950/80 to-gray-900/40" />
+            <div className="absolute inset-0 bg-gradient-to-r from-gray-950/95 via-gray-950/70 to-gray-900/20" />
           </>
         )}
 
@@ -405,18 +405,18 @@ export default async function RealisationDetailPage({ params }: Props) {
 
       {/* CHIFFRES CLÉS */}
       {figures.length > 0 && (
-        <section className="border-y border-gray-100 bg-white py-12">
-          <div className="mx-auto max-w-8xl px-6 lg:px-8">
+        <section className="border-y border-gray-100 bg-gray-950 py-12">
+          <div className="mx-auto max-w-12xl px-6 lg:px-8">
             <p className="mb-8 text-center text-sm font-bold uppercase tracking-wide text-primary-600">
               Chiffres clés
             </p>
-            <dl className="flex flex-wrap items-start justify-center gap-x-14 gap-y-8">
+            <dl className="flex flex-wrap items-start justify-center gap-x-24 gap-y-8">
               {figures.map(({ value, label }) => (
                 <div key={label} className="text-center">
-                  <dt className="mb-1 text-3xl font-black text-primary-600">
+                  <dt className="mb-1 text-3xl font-black text-white">
                     {value}
                   </dt>
-                  <dd className="text-sm text-gray-600">{label}</dd>
+                  <dd className="text-sm text-gray-400">{label}</dd>
                 </div>
               ))}
             </dl>
@@ -591,7 +591,7 @@ export default async function RealisationDetailPage({ params }: Props) {
             <h2 className="mb-8 text-2xl font-black text-gray-900">
               D&apos;autres projets qui pourraient vous intéresser
             </h2>
-            <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+            <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
               {similar.map((r) => (
                 <Link
                   key={r.slug}
@@ -604,16 +604,16 @@ export default async function RealisationDetailPage({ params }: Props) {
                         src={r.images[0].src}
                         alt={r.images[0].alt}
                         fill
-                        sizes="(max-width: 640px) 100vw, 33vw"
+                        sizes="(max-width: 640px) 100vw, 25vw"
                         className="object-cover transition duration-500 group-hover:scale-105"
                       />
                     </div>
                   )}
-                  <div className="p-5">
-                    <h3 className="mb-1 font-bold leading-snug text-gray-900 group-hover:text-primary-600">
+                  <div className="p-4">
+                    <h3 className="mb-1 text-sm font-bold leading-snug text-gray-900 group-hover:text-primary-600">
                       {r.title}
                     </h3>
-                    <p className="text-sm text-gray-500">
+                    <p className="text-xs text-gray-500">
                       {r.city}
                       {(r.surface || r.duration) && (
                         <>

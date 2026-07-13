@@ -88,6 +88,42 @@ export const materialsGlossary: Record<string, string> = {
     "Bloc à bancher isolant (polystyrène 30 cm) : structure et isolation en une seule opération.",
   "Membrane bitumineuse":
     "Étanchéité soudée au chalumeau, référence pour les toitures-terrasses.",
+  "Chaînage béton armé":
+    "Ceinture de béton armé coulée en tête de murs : elle solidarise la structure et évite les fissurations.",
+  "Linteau béton armé":
+    "Poutre en béton armé posée au-dessus d'une ouverture pour reprendre les charges du mur.",
+  Étaiement:
+    "Étais métalliques qui reprennent provisoirement les charges du mur pendant la création d'une ouverture.",
+  Pisé:
+    "Terre crue compactée en banches, typique du bâti ancien du Nord-Isère : solide mais fragile à travailler, il exige une intervention par passes courtes.",
+  "Dalles sur plots":
+    "Dalles posées sur supports réglables : terrasse plane, drainante et démontable, sans colle ni joint.",
+  "Dalles grès cérame 2 cm":
+    "Céramique pleine masse de 20 mm d'épaisseur, ingélive et antidérapante, conçue pour la pose extérieure sur plots.",
+  "Plots réglables":
+    "Supports à vis placés sous chaque angle de dalle : réglage du niveau au millimètre et libre écoulement de l'eau dessous.",
+  "Galets drainants":
+    "Lit de galets placé derrière un mur de soutènement : l'eau percole et s'évacue au lieu de pousser sur l'ouvrage.",
+  Couvertine:
+    "Profil de couronnement posé en tête de mur pour le protéger des infiltrations d'eau de pluie.",
+  "Blocs à bancher":
+    "Blocs creux empilés à sec, ferraillés puis remplis de béton : un mur monolithique d'une grande solidité.",
+  "Platines de fixation":
+    "Plaques d'ancrage fixées sur massif béton pour recevoir les poteaux : pose précise et démontable.",
+  "Panneaux de clôture rigides":
+    "Panneaux de treillis soudé galvanisé : une clôture indéformable et sans entretien.",
+  Occultants:
+    "Lamelles insérées dans les panneaux rigides pour créer un brise-vue opaque et durable.",
+  "Mortier-colle":
+    "Colle à carrelage adaptée au format et au support, garante d'une adhérence totale sous chaque carreau.",
+  "Carrelage imitation parquet":
+    "Grès cérame en format lame reproduisant le bois : l'esthétique du parquet, la robustesse du carrelage.",
+  "Tuiles terre cuite":
+    "Couverture traditionnelle de la région : durable, réparable et parfaitement intégrée au bâti local.",
+  "Canalisations PVC":
+    "Tuyaux d'assainissement posés sur lit de pose avec pente contrôlée, pour un écoulement gravitaire fiable.",
+  "Regard de visite":
+    "Boîte d'accès placée aux points clés du réseau enterré : contrôle et débouchage sans terrassement.",
 };
 
 // service (libellé réalisation) -> slug du service correspondant
@@ -98,8 +134,15 @@ export const realisationServiceSlug: Record<string, string> = {
   Terrasse: "piscine-terrasse",
   Piscine: "piscine-terrasse",
   "Extension maison": "extension-maison",
+  Agrandissement: "agrandissement-maison",
   "Construction garage": "maconnerie-neuf",
   "Gros œuvre": "maconnerie-neuf",
   Rénovation: "renovation-maconnerie",
+  "Ouverture mur porteur": "renovation-maconnerie",
+  Carrelage: "renovation-maconnerie",
   Clôture: "clotures-murs",
+  "Mur de soutènement": "clotures-murs",
+  "Dalles sur plots": "dalles-sur-plot",
+  "Abri de jardin": "abri-de-jardin",
+  VRD: "terrassement",
 };

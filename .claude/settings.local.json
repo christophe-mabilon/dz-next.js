@@ -8,7 +8,30 @@
       "PowerShell(netstat -ano)",
       "PowerShell(Get-Process -Id 6880 -ErrorAction SilentlyContinue)",
       "PowerShell(try { $r = Invoke-WebRequest -Uri \"http://localhost:3001/\" -TimeoutSec 30 -UseBasicParsing; $r.StatusCode } catch { $_.Exception.Message })",
-      "PowerShell(Stop-Process -Id 4616, 6880 -Force -ErrorAction SilentlyContinue)"
+      "PowerShell(Stop-Process -Id 4616, 6880 -Force -ErrorAction SilentlyContinue)",
+      "Read(//c/Users/chris/OneDrive/Bureau/annuaires dz/img webp/**)",
+      "Bash(node *)",
+      "Bash(npm *)",
+      "Bash(npx *)",
+      "Bash(curl *)",
+      "Bash(git *)",
+      "Bash(ls *)",
+      "Bash(sed *)",
+      "Bash(grep *)",
+      "Bash(cat *)",
+      "Bash(wc *)",
+      "Bash(find *)",
+      "Bash(head *)",
+      "Bash(tail *)",
+      "Bash(until *)",
+      "Bash(for *)",
+      "Bash(rm -rf .next *)",
+      "PowerShell(Get-CimInstance *)",
+      "PowerShell(Get-NetTCPConnection *)",
+      "PowerShell(Stop-Process *)",
+      "Edit",
+      "Write",
+      "Read"
     ]
   }
 }
