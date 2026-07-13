@@ -16,7 +16,8 @@ export function Lightbox({
   photos: LightboxPhoto[];
   index: number;
   onClose: () => void;
-  onIndexChange: (i: number) => void;
+  // eslint-disable-next-line no-unused-vars -- nom de paramètre requis dans un type fonction TS
+  onIndexChange: (nextIndex: number) => void;
 }) {
   const prev = useCallback(
     () => onIndexChange((index - 1 + photos.length) % photos.length),
