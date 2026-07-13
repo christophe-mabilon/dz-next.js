@@ -445,8 +445,17 @@ export default async function RealisationDetailPage({ params }: Props) {
 
       {/* CHIFFRES CLÉS */}
       {figures.length > 0 && (
-        <section className="border-y border-gray-100 bg-gray-950 py-16">
-          <div className="mx-auto max-w-12xl px-6 lg:px-8">
+        <section className="relative overflow-hidden border-y border-gray-100 bg-gray-950 py-16">
+          {/* texture mur en pierre très légère sur le fond sombre */}
+          <Image
+            src="/images/realisations/ouvertures-murs-porteurs/ouverture-mur-porteur-pise-batisse-ancienne.webp"
+            alt=""
+            aria-hidden
+            fill
+            sizes="100vw"
+            className="object-cover object-bottom opacity-[0.08] grayscale"
+          />
+          <div className="relative z-10 mx-auto max-w-12xl px-6 lg:px-8">
             <p className="mb-10 text-center text-sm font-bold uppercase tracking-wide text-primary-600">
               Chiffres clés
             </p>
