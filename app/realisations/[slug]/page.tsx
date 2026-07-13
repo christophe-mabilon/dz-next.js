@@ -445,16 +445,19 @@ export default async function RealisationDetailPage({ params }: Props) {
 
       {/* CHIFFRES CLÉS */}
       {figures.length > 0 && (
-        <section className="border-y border-gray-100 bg-gray-950 py-12">
+        <section className="border-y border-gray-100 bg-gray-950 py-16">
           <div className="mx-auto max-w-12xl px-6 lg:px-8">
-            <p className="mb-8 text-center text-sm font-bold uppercase tracking-wide text-primary-600">
+            <p className="mb-10 text-center text-sm font-bold uppercase tracking-wide text-primary-600">
               Chiffres clés
             </p>
-            <dl className="flex flex-wrap items-start justify-center gap-x-24 gap-y-8">
+            <dl className="flex flex-wrap items-stretch justify-center gap-y-10">
               {figures.map(({ value, label }) => {
                 const Icon = figureIcon(`${value} ${label}`);
                 return (
-                  <div key={label} className="text-center">
+                  <div
+                    key={label}
+                    className="px-10 py-2 text-center md:px-16 [&:not(:last-child)]:border-r [&:not(:last-child)]:border-white/10 [&:not(:last-child)]:shadow-[16px_0_24px_-16px_rgba(20,184,166,0.35)]"
+                  >
                     <span className="mx-auto mb-3 flex h-12 w-12 items-center justify-center rounded-full border border-primary-500/30 bg-primary-500/10">
                       <Icon className="h-6 w-6 text-primary-400" />
                     </span>
