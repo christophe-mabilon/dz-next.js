@@ -3,17 +3,13 @@ import type { NextConfig } from 'next';
 const nextConfig: NextConfig = {
   reactStrictMode: true,
 
-  // Image optimization
+  // Image optimization — toutes les images sont locales (/public/images).
+  // Pas de remotePatterns : si une image distante est ajoutée un jour,
+  // next/image lèvera une erreur explicite invitant à déclarer son hôte ici.
   images: {
     formats: ['image/avif', 'image/webp'],
     deviceSizes: [640, 750, 828, 1080, 1200, 1920, 2048, 3840],
     imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],
-    remotePatterns: [
-      {
-        protocol: 'https',
-        hostname: '**',
-      },
-    ],
   },
 
   // Compression et performance
@@ -21,17 +17,12 @@ const nextConfig: NextConfig = {
   poweredByHeader: false,
 
   // Headers pour SEO et performance
+  // NB : pas de CORS sur /api — les formulaires (contact, partenaires) sont
+  // en même origine. Un `Access-Control-Allow-Origin: *` ouvrirait inutilement
+  // les routes à d'autres domaines (et est de toute façon invalide combiné à
+  // `Allow-Credentials: true`). On laisse la same-origin policy protéger l'API.
   async headers() {
     return [
-      {
-        source: '/api/:path*',
-        headers: [
-          { key: 'Access-Control-Allow-Credentials', value: 'true' },
-          { key: 'Access-Control-Allow-Origin', value: '*' },
-          { key: 'Access-Control-Allow-Methods', value: 'GET,OPTIONS,PATCH,DELETE,POST,PUT' },
-          { key: 'Access-Control-Allow-Headers', value: 'X-CSRF-Token, X-Requested-With, Accept, Accept-Version, Content-Length, Content-MD5, Content-Type, Date, X-Api-Version' },
-        ],
-      },
       {
         source: '/(.*)',
         headers: [

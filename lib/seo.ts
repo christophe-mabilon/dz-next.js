@@ -426,7 +426,7 @@ export function generateRealisationSchema(realisation: {
   };
 }
 
-// Article Schema pour le blog
+// BlogPosting Schema pour le blog (sous-type d'Article, plus précis pour un billet)
 export function generateArticleSchema(
   title: string,
   description: string,
@@ -438,7 +438,7 @@ export function generateArticleSchema(
 ) {
   return {
     "@context": "https://schema.org",
-    "@type": "Article",
+    "@type": "BlogPosting",
     headline: title,
     description,
     image: {
