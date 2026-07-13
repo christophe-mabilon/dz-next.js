@@ -1244,8 +1244,13 @@ export const realisations: Realisation[] = [
     solution:
       "Un réseau enterré ne se rattrape pas après remblaiement : chaque canalisation est posée sur un lit de pose, avec une pente contrôlée au niveau, et chaque changement de direction reçoit un regard de visite. La ventilation secondaire, souvent oubliée, évite le désiphonnage des équipements de la maison — nous l'intégrons systématiquement.",
     content:
-      "Les tranchées ont été ouvertes à la mini-pelle aux profondeurs requises, avec des pentes régulières contrôlées tout au long de la pose : c'est la pente qui fait fonctionner un réseau gravitaire, pas le diamètre du tuyau.\n\nLes canalisations d'eaux pluviales ont été posées et raccordées vers l'exutoire, avec des regards de visite aux points stratégiques : en cas de bouchon dans dix ans, tout reste accessible sans casser.\n\nLe réseau d'eaux usées a été repris avec sa ventilation secondaire : une colonne qui équilibre les pressions dans le réseau et protège les siphons de la maison. Après essais d'écoulement, les tranchées ont été remblayées et compactées.",
+      "Les tranchées ont été ouvertes à la mini-pelle aux profondeurs requises, avec des pentes régulières contrôlées tout au long de la pose : c'est la pente qui fait fonctionner un réseau gravitaire, pas le diamètre du tuyau.\n\nLes canalisations d'eaux pluviales ont été posées et raccordées vers l'exutoire, avec des regards de visite aux points stratégiques : en cas de bouchon dans dix ans, tout reste accessible sans casser.\n\nLe réseau d'eaux usées a été repris avec sa ventilation secondaire : une colonne qui équilibre les pressions dans le réseau et protège les siphons de la maison. Après essais d'écoulement, les tranchées ont été remblayées et compactées.\n\nÀ l'intérieur, les attentes d'évacuation et de ventilation ont été positionnées avant coulage puis intégrées à la dalle béton, lissée en finition : chaque équipement futur trouvera son raccordement exactement là où il faut.",
     images: [
+      {
+        src: "/images/realisations/vrd-eaux-pluviales/evacuation-eaux-usees-ventilation-vrd-finition-beton-lisse.webp",
+        alt: "Attentes d'évacuation des eaux usées et ventilation intégrées à la dalle béton lissée — DZ Maçonnerie",
+        phase: "apres",
+      },
       {
         src: "/images/realisations/vrd-eaux-pluviales/tranchee-eaux-pluviales-terrassement.webp",
         alt: "Tranchée d'eaux pluviales creusée à La Verpillière — DZ Maçonnerie Terrassement",
