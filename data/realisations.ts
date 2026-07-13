@@ -244,6 +244,8 @@ export const realisations: Realisation[] = [
         title: "Étaiement du mur",
         description:
           "Mise en place d'étais de part et d'autre du mur pour reprendre les charges de la structure pendant l'intervention.",
+        image:
+          "/images/realisations/ouvertures-murs-porteurs/ouverture-mur-porteur-2m-grande-baie.webp",
       },
       {
         title: "Découpe de l'ouverture",
@@ -631,6 +633,8 @@ export const realisations: Realisation[] = [
         title: "Calepinage au cordeau",
         description:
           "Les joints sont alignés sur toute la surface : en grand format, la moindre dérive se voit — la rigueur de pose fait le rendu.",
+        image:
+          "/images/realisations/terrasse-gres-cerame/terrasse-gres-cerame-sur-plots-vue-jardin.webp",
       },
       {
         title: "Bordure anthracite en ceinture",
@@ -711,12 +715,14 @@ export const realisations: Realisation[] = [
         description:
           "Deux niveaux de murs en parpaing bétonné montés en escalier : chaque ouvrage reprend une hauteur de terre raisonnable.",
         image:
-          "/images/realisations/mur-soutenement/mur-soutenement-deux-niveaux-reprise-pierre.webp",
+          "/images/realisations/mur-soutenement/mur-soutenement-parpaing-arase-beton-terrain-pente.webp",
       },
       {
         title: "Raccord au mur en pierre",
         description:
           "Le mur ancien est conservé : un raidisseur béton armé assure la jonction entre la pierre et la maçonnerie neuve.",
+        image:
+          "/images/realisations/mur-soutenement/mur-soutenement-deux-niveaux-reprise-pierre.webp",
       },
       {
         title: "Barbacanes et drainage",
