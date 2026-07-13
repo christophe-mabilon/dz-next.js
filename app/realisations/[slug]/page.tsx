@@ -451,12 +451,12 @@ export default async function RealisationDetailPage({ params }: Props) {
               Chiffres clés
             </p>
             <dl className="flex flex-wrap items-stretch justify-center gap-y-10">
-              {figures.map(({ value, label }) => {
+              {figures.map(({ value, label }, i, arr) => {
                 const Icon = figureIcon(`${value} ${label}`);
                 return (
                   <div
                     key={label}
-                    className="px-10 py-2 text-center md:px-16 [&:not(:last-child)]:border-r [&:not(:last-child)]:border-white/40 [&:not(:last-child)]:shadow-[18px_0_28px_-14px_rgba(20,184,166,0.55)]"
+                    className="relative px-10 py-2 text-center md:px-16"
                   >
                     <span className="mx-auto mb-3 flex h-12 w-12 items-center justify-center rounded-full border border-primary-500/30 bg-primary-500/10">
                       <Icon className="h-6 w-6 text-primary-400" />
@@ -465,6 +465,9 @@ export default async function RealisationDetailPage({ params }: Props) {
                       {value}
                     </dt>
                     <dd className="text-sm text-gray-400">{label}</dd>
+                    {i < arr.length - 1 && (
+                      <span className="absolute right-0 top-1/2 h-4/5 w-px -translate-y-1/2 bg-white/40 shadow-[0_0_16px_2px_rgba(20,184,166,0.5)]" />
+                    )}
                   </div>
                 );
               })}
