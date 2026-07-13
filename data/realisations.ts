@@ -229,6 +229,11 @@ export const realisations: Realisation[] = [
         phase: "pendant",
       },
       {
+        src: "/images/realisations/ouvertures-murs-porteurs/ouverture-tremie-ascenseur-finitions.webp",
+        alt: "Trémie d'ascenseur terminée : parois enduites et ascenseur privatif en service",
+        phase: "apres",
+      },
+      {
         src: "/images/realisations/ouvertures-murs-porteurs/chainage-linteau-beton-arme.webp",
         alt: "Chaînage et linteau béton armé coulés lors d'une ouverture de mur porteur",
         phase: "pendant",
