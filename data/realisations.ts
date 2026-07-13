@@ -706,8 +706,13 @@ export const realisations: Realisation[] = [
     solution:
       "Un mur de soutènement ne cède presque jamais sous le poids de la terre : c'est l'eau accumulée derrière qui le pousse. Nous avons donc traité le drainage aussi sérieusement que la structure : lit de galets drainants derrière les murs, barbacanes traversantes pour laisser l'eau s'échapper, arases béton et couvertines pour protéger les têtes de murs. Les raidisseurs en béton armé reprennent les efforts aux points singuliers, notamment à la jonction avec le mur en pierre.",
     content:
-      "Les murs ont été montés en parpaing bétonné sur deux niveaux, en escalier — le principe des restanques : deux murs plus bas retiennent mieux qu'un seul mur haut, avec moins de poussée sur chaque ouvrage.\n\nLa partie ancienne en pierre a été conservée : le mur neuf vient s'y raccorder par l'intermédiaire d'un poteau raidisseur en béton armé, et l'arase filante rattrape les niveaux entre l'ancien et le neuf. Les barbacanes ménagées en pied de mur laissent l'eau du talus s'évacuer librement.\n\nEn arrière des murs, un lit de galets drainants collecte les eaux de ruissellement, et les couvertines posées en tête protègent la maçonnerie des infiltrations. Chaperons et arases ont été coffrés et coulés sur place pour une finition durable.",
+      "Les murs ont été montés en parpaing bétonné sur deux niveaux, en escalier — le principe des restanques : deux murs plus bas retiennent mieux qu'un seul mur haut, avec moins de poussée sur chaque ouvrage.\n\nLa partie ancienne en pierre a été conservée : le mur neuf vient s'y raccorder par l'intermédiaire d'un poteau raidisseur en béton armé, et l'arase filante rattrape les niveaux entre l'ancien et le neuf. Les barbacanes ménagées en pied de mur laissent l'eau du talus s'évacuer librement.\n\nEn arrière des murs, un lit de galets drainants collecte les eaux de ruissellement, et les couvertines posées en tête protègent la maçonnerie des infiltrations. Chaperons et arases ont été coffrés et coulés sur place pour une finition durable.\n\nEn fin de chantier, les deux niveaux ont été enduits en finition claire : l'ouvrage se fond dans le jardin, la pelouse a repris ses droits et les barbacanes continuent de faire leur travail en toute discrétion.",
     images: [
+      {
+        src: "/images/realisations/mur-soutenement/mur-soutenement-parpaing-barbacane-restanque-finitions-beton.webp",
+        alt: "Murs de soutènement en restanque terminés et enduits, barbacane d'évacuation visible — DZ Maçonnerie Ruy-Montceau",
+        phase: "apres",
+      },
       {
         src: "/images/realisations/mur-soutenement/mur-soutenement-deux-niveaux-reprise-pierre.webp",
         alt: "Murs de soutènement sur deux niveaux avec reprise sur mur en pierre à Ruy-Montceau — DZ Maçonnerie",
@@ -720,8 +725,8 @@ export const realisations: Realisation[] = [
       },
       {
         src: "/images/realisations/mur-soutenement/mur-soutenement-parpaing-barbacane-restanque.webp",
-        alt: "Barbacane d'évacuation d'eau dans le mur de soutènement en restanque",
-        phase: "pendant",
+        alt: "Barbacane d'évacuation d'eau dans le mur de soutènement en restanque, avant enduit",
+        phase: "avant",
       },
       {
         src: "/images/realisations/mur-soutenement/mur-soutenement-parpaing-arase-beton-terrain-pente.webp",
@@ -762,6 +767,13 @@ export const realisations: Realisation[] = [
           "Têtes de murs coffrées et coulées sur place, puis protégées par couvertines : la finition qui fait durer l'ouvrage.",
         image:
           "/images/realisations/mur-soutenement/mur-soutenement-chaperon-coffrage-beton-frais.webp",
+      },
+      {
+        title: "Enduit de finition",
+        description:
+          "Les deux niveaux sont enduits en finition claire : la restanque se fond dans le jardin, barbacanes discrètes mais fonctionnelles.",
+        image:
+          "/images/realisations/mur-soutenement/mur-soutenement-parpaing-barbacane-restanque-finitions-beton.webp",
       },
     ],
     materials: ["Parpaing 20 cm", "Béton armé", "Galets drainants", "Couvertine", "Chaperon béton"],
