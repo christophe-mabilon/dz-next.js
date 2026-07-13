@@ -405,6 +405,11 @@ export const realisations: Realisation[] = [
     service: "Terrasse",
     date: "2023",
     clientType: "Particulier",
+    keyFigures: [
+      { value: "Béton armé", label: "treillis soudé sur toute la surface" },
+      { value: "Pente", label: "d'écoulement vers l'extérieur" },
+      { value: "Prêt à vivre", label: "dès la fin du chantier" },
+    ],
     description:
       "Réalisation d'une terrasse en béton à Dolomieu : une surface plane, résistante et durable, prête à vivre ou à recevoir un revêtement.",
     context: [
@@ -449,6 +454,11 @@ export const realisations: Realisation[] = [
     service: "Terrasse",
     date: "2025",
     clientType: "Particulier",
+    keyFigures: [
+      { value: "Hérisson", label: "graviers compactés en assise" },
+      { value: "Caniveau", label: "intégré au coulage" },
+      { value: "Taloché", label: "finition fine et régulière" },
+    ],
     description:
       "Terrasse béton talochée réalisée dans les règles de l'art à Villefontaine : hérisson de graviers compacté, treillis soudé sur polyane, béton taloché et caniveau d'évacuation intégré au coulage.",
     context: [
@@ -522,6 +532,11 @@ export const realisations: Realisation[] = [
     service: "Dalles sur plots",
     date: "2025",
     clientType: "Particulier",
+    keyFigures: [
+      { value: "En L", label: "le long de deux façades" },
+      { value: "Laser", label: "implantation et niveaux au millimètre" },
+      { value: "Zéro", label: "entretien, l'aspect du bois en plus" },
+    ],
     description:
       "Terrasse en L autour de la maison à L'Isle-d'Abeau : implantation au laser, dalle béton armée, puis pose de dalles céramiques imitation bois sur plots réglables.",
     context: [
@@ -595,6 +610,11 @@ export const realisations: Realisation[] = [
     service: "Dalles sur plots",
     date: "2025",
     clientType: "Particulier",
+    keyFigures: [
+      { value: "2 cm", label: "dalles grès cérame pleine masse" },
+      { value: "Plots", label: "réglables, terrasse drainante" },
+      { value: "Anthracite", label: "bordure contrastée en ceinture" },
+    ],
     description:
       "Terrasse en dalles grès cérame grand format posées sur plots à Nivolas-Vermelle, soulignée d'une bordure anthracite contrastée en pourtour.",
     context: [
@@ -763,6 +783,11 @@ export const realisations: Realisation[] = [
     service: "Clôture",
     date: "2021 – 2025",
     clientType: "Particuliers",
+    keyFigures: [
+      { value: "Parpaing", label: "ou blocs à bancher selon l'ouvrage" },
+      { value: "Redans", label: "fondations qui suivent la pente" },
+      { value: "Arases", label: "coffrées, contrôlées au niveau" },
+    ],
     description:
       "Nos chantiers de murs de clôture en Nord-Isère : fondations, élévation en parpaing ou blocs à bancher, chaînages, arases soignées et finitions enduites.",
     context: [
@@ -1106,6 +1131,11 @@ export const realisations: Realisation[] = [
     service: "Carrelage",
     date: "2025",
     clientType: "Particulier",
+    keyFigures: [
+      { value: "Format lame", label: "pose à joints décalés" },
+      { value: "2 matières", label: "jonction bois / ton pierre calepinée" },
+      { value: "Zéro", label: "ponçage, zéro vitrification" },
+    ],
     description:
       "Pose d'un carrelage imitation parquet dans une pièce de vie en rénovation à Crachier, avec jonction soignée sur un sol en carreaux ton pierre.",
     context: [
@@ -1161,6 +1191,11 @@ export const realisations: Realisation[] = [
     service: "Abri de jardin",
     date: "2023",
     clientType: "Particulier",
+    keyFigures: [
+      { value: "Maçonné", label: "construit comme une maison" },
+      { value: "Dalle", label: "béton armée en fondation" },
+      { value: "Tuiles", label: "couverture en terre cuite" },
+    ],
     description:
       "Construction complète d'un abri de jardin maçonné à Saint-Quentin-Fallavier : dalle béton, murs en parpaing, pignon avec linteau et toiture en tuiles.",
     context: [
@@ -1242,6 +1277,11 @@ export const realisations: Realisation[] = [
     service: "VRD",
     date: "2024",
     clientType: "Particulier",
+    keyFigures: [
+      { value: "Regards", label: "de visite aux points clés du réseau" },
+      { value: "Pentes", label: "contrôlées au niveau à la pose" },
+      { value: "Ventilation", label: "secondaire intégrée au réseau" },
+    ],
     description:
       "Travaux de VRD à La Verpillière : tranchées, pose de canalisations d'eaux pluviales, regards de visite et évacuation des eaux usées avec ventilation secondaire.",
     context: [

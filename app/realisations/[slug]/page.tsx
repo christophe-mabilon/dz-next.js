@@ -456,7 +456,7 @@ export default async function RealisationDetailPage({ params }: Props) {
             }}
           />
           <div className="relative z-10 mx-auto max-w-12xl px-6 lg:px-8">
-            <p className="mb-10 text-center text-sm font-bold uppercase tracking-wide text-primary-600">
+            <p className="mb-10 text-center text-xl font-bold uppercase tracking-wide text-primary-600">
               Chiffres clés
             </p>
             <dl className="flex flex-wrap items-stretch justify-center gap-y-10">
