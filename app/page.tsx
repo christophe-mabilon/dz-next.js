@@ -223,10 +223,10 @@ export default function HomePage() {
 
           <div className="relative h-[500px] overflow-hidden rounded-3xl">
             <Image
-              src="/images/chantiers/artisan-macon.webp"
+              src="/images/og-image.jpg"
               alt="Artisan maçon réalisant des travaux de maçonnerie générale près de Bourgoin-Jallieu en Isère"
               fill
-              className="object-cover object-[65%_center] md:object-center transition duration-500 hover:scale-105"
+              className="object-contain object-[50%_center] md:object-center transition duration-500 hover:scale-105"
             />
           </div>
         </div>
