@@ -184,9 +184,14 @@ export const realisations: Realisation[] = [
       "Les largeurs varient selon les projets : un passage de 1,20 m pour ouvrir une cuisine, 1,35 m ou 1,70 m pour relier deux pièces de vie, jusqu'à 2 m pour créer une grande baie entre séjour et extension. À chaque fois, le linteau en béton armé est dimensionné en conséquence et repose sur des appuis sains.\n\nNous intervenons aussi dans le bâti ancien du Nord-Isère, notamment les murs en pisé. Ce matériau en terre crue, très répandu dans la région, demande une approche spécifique : passes de découpe courtes, appuis élargis et reprise immédiate, pour que la bâtisse ne souffre jamais de l'intervention.\n\nParmi ces chantiers figure également la création d'une trémie pour un ascenseur privatif : une découpe verticale précise à travers la structure, préparée pour recevoir l'équipement dans le respect des cotes du fabricant.",
     images: [
       {
-        src: "/images/realisations/ouvertures-murs-porteurs/ouverture-mur-porteur-2m-grande-baie.webp",
-        alt: "Ouverture de mur porteur de 2 m avec linteau béton armé — DZ Maçonnerie Bourgoin-Jallieu",
+        src: "/images/realisations/ouvertures-murs-porteurs/ouverture-mur-porteur-2m-grande-baie-finitions.webp",
+        alt: "Grande baie de 2 m terminée dans un mur porteur, tableaux enduits et finitions propres — DZ Maçonnerie Bourgoin-Jallieu",
         phase: "apres",
+      },
+      {
+        src: "/images/realisations/ouvertures-murs-porteurs/ouverture-mur-porteur-2m-grande-baie.webp",
+        alt: "Ouverture de 2 m en cours : étaiement complet et linteau béton armé coulé au-dessus de la baie",
+        phase: "avant",
       },
       {
         src: "/images/realisations/ouvertures-murs-porteurs/ouverture-mur-porteur-1m20-linteau.webp",
@@ -257,9 +262,9 @@ export const realisations: Realisation[] = [
       {
         title: "Reprise des tableaux et finitions",
         description:
-          "Reprise des jambages et des tableaux, dépose de l'étaiement une fois le linteau en charge, préparation pour les finitions.",
+          "Reprise des jambages et des tableaux, dépose de l'étaiement une fois le linteau en charge, enduit de finition.",
         image:
-          "/images/realisations/ouvertures-murs-porteurs/ouverture-mur-porteur-2m-grande-baie.webp",
+          "/images/realisations/ouvertures-murs-porteurs/ouverture-mur-porteur-2m-grande-baie-finitions.webp",
       },
     ],
     materials: ["Linteau béton armé", "Étaiement", "Béton armé", "Pisé"],
