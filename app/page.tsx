@@ -379,7 +379,7 @@ export default function HomePage() {
             ].map((item) => (
               <div
                 key={item.title}
-                className="rounded-2xl border border-white/10 bg-white/5 p-8 backdrop-blur-sm transition-all duration-300 hover:-translate-y-1.5 hover:border-primary-500 hover:bg-white/10 hover:shadow-2xl"
+                className="rounded-2xl border border-white/10 bg-gray-950/80 p-8 shadow-lg backdrop-blur-sm transition-all duration-300 hover:-translate-y-1.5 hover:border-primary-500 hover:bg-gray-900 hover:shadow-2xl"
               >
                 <span className="mx-auto mb-6 flex h-14 w-14 items-center justify-center rounded-2xl bg-primary-500/10">
                   <item.icon className="h-7 w-7 text-orange-400" />
@@ -726,7 +726,7 @@ export default function HomePage() {
                 <Link
                   key={city.id}
                   href={`/villes/${city.slug}`}
-                  className="rounded-2xl border border-white/10 bg-white/5 p-6 transition hover:border-primary-500 hover:bg-white/10"
+                  className="rounded-2xl border border-white/10 bg-gray-950/80 p-6 shadow-lg backdrop-blur-sm transition hover:border-primary-500 hover:bg-gray-900"
                 >
                   <div className="flex items-center justify-between">
                     <div>

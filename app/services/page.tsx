@@ -305,8 +305,16 @@ export default function ServicesPage() {
       </section>
 
       {/* WHY US — bande sombre */}
-      <section className="bg-gray-900 py-16 text-white md:py-20">
-        <div className="mx-auto max-w-8xl px-6 lg:px-8">
+      <section className="relative overflow-hidden bg-gray-900 py-16 text-white md:py-20">
+        <div
+          aria-hidden
+          className="absolute inset-0 bg-repeat opacity-[0.15]"
+          style={{
+            backgroundImage: "url(/images/textures/mur-pierre-blanche.webp)",
+            backgroundSize: "560px",
+          }}
+        />
+        <div className="relative z-10 mx-auto max-w-8xl px-6 lg:px-8">
           <div className="mb-14 text-center">
             <h2 className="mb-4 text-4xl font-black text-white">
               Pourquoi choisir DZ Maçonnerie ?
@@ -343,7 +351,7 @@ export default function ServicesPage() {
             ].map((item) => (
               <div
                 key={item.title}
-                className="rounded-2xl border border-white/10 bg-white/5 p-8 backdrop-blur-sm transition-all duration-300 hover:-translate-y-1.5 hover:border-primary-500 hover:bg-white/10 hover:shadow-2xl"
+                className="rounded-2xl border border-white/10 bg-gray-950/80 p-8 shadow-lg backdrop-blur-sm transition-all duration-300 hover:-translate-y-1.5 hover:border-primary-500 hover:bg-gray-900 hover:shadow-2xl"
               >
                 <span className="mx-auto mb-6 flex h-14 w-14 items-center justify-center rounded-2xl bg-primary-500/10">
                   <item.icon className="h-7 w-7 text-orange-400" />
