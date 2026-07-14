@@ -416,16 +416,6 @@ export default function HomePage() {
                 }`}
               >
                 <div className="relative flex-1 p-8 pb-6">
-                  {/* illustration du service, discrète en fond */}
-                  <Image
-                    src={service.illustration}
-                    alt=""
-                    aria-hidden
-                    width={320}
-                    height={240}
-                    className="pointer-events-none absolute -right-2 bottom-0 w-52 opacity-50 mix-blend-multiply transition duration-500 group-hover:opacity-90 md:w-60"
-                  />
-
                   <div className="relative mb-6 flex items-start justify-between gap-3">
                     <span className="flex h-14 w-14 flex-shrink-0 items-center justify-center rounded-full bg-primary-600 shadow-lg shadow-primary-900/25 transition-transform duration-300 group-hover:scale-110">
                       <service.icon className="h-7 w-7 text-white" />
@@ -444,17 +434,28 @@ export default function HomePage() {
                     {service.description}
                   </p>
 
-                  <ul className="relative space-y-2.5 border-t border-gray-100 pt-5">
-                    {service.checks.map((check) => (
-                      <li
-                        key={check}
-                        className="flex items-center gap-2.5 text-sm font-medium text-gray-700"
-                      >
-                        <CheckCircle2 className="h-5 w-5 flex-shrink-0 fill-primary-600 text-white" />
-                        {check}
-                      </li>
-                    ))}
-                  </ul>
+                  <div className="relative border-t border-gray-100 pt-5">
+                    {/* illustration du service, contenue sous le trait */}
+                    <Image
+                      src={service.illustration}
+                      alt=""
+                      aria-hidden
+                      width={320}
+                      height={240}
+                      className="pointer-events-none absolute bottom-0 right-0 max-h-[90%] w-auto max-w-[55%] object-contain opacity-50 mix-blend-multiply transition duration-500 group-hover:opacity-90"
+                    />
+                    <ul className="relative space-y-2.5">
+                      {service.checks.map((check) => (
+                        <li
+                          key={check}
+                          className="flex items-center gap-2.5 text-sm font-medium text-gray-700"
+                        >
+                          <CheckCircle2 className="h-5 w-5 flex-shrink-0 fill-primary-600 text-white" />
+                          {check}
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
                 </div>
 
                 {/* pied de carte */}
