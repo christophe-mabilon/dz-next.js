@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { formatPhone } from "@/lib/format";
 import { SafeEmail } from "@/components/SafeEmail";
+import { StoneTexture } from "@/components/StoneTexture";
 import {
   Mail,
   MapPin,
@@ -29,9 +30,10 @@ export function Footer() {
   const { business } = siteConfig;
 
   return (
-    <footer className="border-t border-gray-800 bg-gray-950 text-gray-300">
+    <footer className="relative overflow-hidden border-t border-gray-800 bg-gray-950 text-gray-300">
+      <StoneTexture />
       {/* MAIN FOOTER */}
-      <div className="px-3 mx-auto py-20">
+      <div className="relative z-10 px-3 mx-auto py-20">
         <div className="grid gap-14 lg:grid-cols-4">
           {/* ENTREPRISE */}
           <div className="lg:col-span-1">
@@ -341,7 +343,7 @@ export function Footer() {
       </div>
 
       {/* CTA BAR */}
-      <div className="border-t border-primary-500 bg-primary-600">
+      <div className="relative z-10 border-t border-primary-500 bg-primary-600">
         <div className="px-3 mx-auto flex flex-col items-center justify-between gap-4 py-8 md:flex-row">
           <div>
             <h3 className="mb-1 text-xl font-bold text-white">

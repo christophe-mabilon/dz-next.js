@@ -11,6 +11,7 @@ import {
   generateBreadcrumbSchema,
 } from "@/lib/seo";
 import { siteConfig } from "@/data/config";
+import { StoneTexture } from "@/components/StoneTexture";
 
 import HeroSection from "@/components/sections/hero/HeroSection";
 
@@ -167,8 +168,9 @@ export default function AvisPage() {
       </section>
 
       {/* GOOGLE REVIEWS — RATING OVERVIEW pleine largeur */}
-      <section className="bg-gray-950 py-16 text-white md:py-20">
-        <div className="mx-auto max-w-8xl px-6 lg:px-8">
+      <section className="relative overflow-hidden bg-gray-950 py-16 text-white md:py-20">
+        <StoneTexture />
+        <div className="relative z-10 mx-auto max-w-8xl px-6 lg:px-8">
           <div className="mb-4 text-center">
             <p
               className="
@@ -191,7 +193,7 @@ export default function AvisPage() {
                   flex flex-col items-center
                   rounded-2xl
                   border border-white/10
-                  bg-white/5
+                  bg-gray-900
                   px-8 py-10
                   text-center
                   backdrop-blur-sm
@@ -280,7 +282,7 @@ export default function AvisPage() {
                         flex items-center gap-3
                         rounded-xl
                         border border-white/10
-                        bg-white/5
+                        bg-gray-900
                         px-4 py-3
                       "
                   >
@@ -327,7 +329,7 @@ export default function AvisPage() {
                       inline-flex items-center justify-center
                       rounded-xl
                       border border-white/10
-                      bg-white/5
+                      bg-gray-900
                       px-6 py-4
                       font-semibold text-white
                       transition
@@ -347,7 +349,7 @@ export default function AvisPage() {
                     className="
                         rounded-2xl
                         border border-white/10
-                        bg-white/5
+                        bg-gray-900
                         p-5
                         backdrop-blur-sm
                       "
@@ -428,7 +430,7 @@ export default function AvisPage() {
       <section className="section-padding bg-white">
         <div className="mx-auto max-w-8xl px-6 lg:px-8">
           <div className="mx-auto max-w-8xl text-center">
-            <p className="mb-3 text-lg font-semibold uppercase tracking-wide text-primary-600">
+            <p className="mb-3 text-2xl font-black uppercase tracking-wide text-primary-600 md:text-3xl">
               La qualité est notre fondation !
             </p>
             <h2 className="mb-6 text-3xl font-black text-gray-900">
@@ -654,15 +656,16 @@ export default function AvisPage() {
       </section>
 
       {/* CTA */}
-      <section className="section-padding bg-gray-950 text-white">
-        <div className="mx-auto max-w-8xl px-6 lg:px-8 text-center">
+      <section className="section-padding relative overflow-hidden bg-gray-950 text-white">
+        <StoneTexture />
+        <div className="relative z-10 mx-auto max-w-8xl px-6 lg:px-8 text-center">
           <div
             className="
               rounded-3xl
               border border-white/10
-              bg-white/5
+              bg-gray-900
               p-10
-              backdrop-blur-sm
+              shadow-lg
             "
           >
             <div className="mb-6 flex justify-center">
@@ -744,8 +747,9 @@ export default function AvisPage() {
       </section>
 
       {/* FINAL CTA */}
-      <section className="hero-gradient py-16 text-white md:py-24">
-        <div className="mx-auto max-w-8xl px-6 lg:px-8 text-center">
+      <section className="hero-gradient relative overflow-hidden py-16 text-white md:py-24">
+        <StoneTexture />
+        <div className="relative z-10 mx-auto max-w-8xl px-6 lg:px-8 text-center">
           <h2
             className="
               mb-4

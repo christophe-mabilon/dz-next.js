@@ -20,6 +20,7 @@ import {
 } from "@/lib/seo";
 import { formatPhone } from "@/lib/format";
 import { LocationMap } from "@/components/LocationMap";
+import { StoneTexture } from "@/components/StoneTexture";
 
 const { business } = siteConfig;
 
@@ -169,8 +170,9 @@ export default function AProposPage() {
       </section>
 
       {/* GARANTIES */}
-      <section className="bg-gray-900 py-20 text-white">
-        <div className="mx-auto max-w-8xl px-6 lg:px-8">
+      <section className="relative overflow-hidden bg-gray-900 py-20 text-white">
+        <StoneTexture />
+        <div className="relative z-10 mx-auto max-w-8xl px-6 lg:px-8">
           <div className="mb-14 text-center">
             <h2 className="mb-6 text-4xl font-black">
               Nos garanties, noir sur blanc
@@ -206,7 +208,7 @@ export default function AProposPage() {
             ].map(({ icon: Icon, title, text }) => (
               <div
                 key={title}
-                className="rounded-2xl border border-white/10 bg-white/5 p-6"
+                className="rounded-2xl border border-white/10 bg-gray-950/80 p-6 shadow-lg"
               >
                 <span className="mb-4 flex h-11 w-11 items-center justify-center rounded-full bg-primary-600 shadow-lg shadow-primary-900/40">
                   <Icon className="h-5 w-5 text-white" />

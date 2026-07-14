@@ -20,6 +20,7 @@ import {
 
 import HeroSection from "@/components/sections/hero/HeroSection";
 import { LocationMap } from "@/components/LocationMap";
+import { StoneTexture } from "@/components/StoneTexture";
 
 import { siteConfig } from "@/data/config";
 
@@ -673,8 +674,9 @@ export default function ContactPage() {
       </section>
 
       {/* FINAL CTA */}
-      <section className="hero-gradient py-16 text-white md:py-24">
-        <div className="mx-auto max-w-8xl px-6 lg:px-8 text-center">
+      <section className="hero-gradient relative overflow-hidden py-16 text-white md:py-24">
+        <StoneTexture />
+        <div className="relative z-10 mx-auto max-w-8xl px-6 lg:px-8 text-center">
           <h2 className="mb-4 text-4xl font-bold leading-tight md:text-5xl">
             Prêt à démarrer votre projet ?
           </h2>
