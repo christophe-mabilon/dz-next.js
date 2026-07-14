@@ -1,4 +1,5 @@
 import { cities } from "@/data/cities";
+import { realisations } from "@/data/realisations";
 import { formatPhone } from "@/lib/format";
 import Image from "next/image";
 import Link from "next/link";
@@ -356,48 +357,54 @@ export default function HomePage() {
 
           <div className="grid gap-8 md:grid-cols-3">
             {[
-              {
-                image: "/images/services/maconnerie-generale.webp",
-                alt: "Travaux de maçonnerie en parpaing à Bourgoin-Jallieu",
-                title: "Maçonnerie générale",
-                desc: "Construction en parpaing et travaux de gros œuvre à Bourgoin-Jallieu.",
-              },
-              {
-                image: "/images/services/piscine.webp",
-                alt: "Construction de piscine béton en Isère",
-                title: "Piscine béton",
-                desc: "Construction et maçonnerie de piscine béton pour aménagement extérieur.",
-              },
-              {
-                image: "/images/services/realisation-cloture-muret.webp",
-                alt: "Construction de muret et clôture en Isère",
-                title: "Muret & clôture",
-                desc: "Création de murets et aménagement extérieur en Isère.",
-              },
-            ].map((item, index) => (
-              <div
-                key={index}
-                className="group overflow-hidden rounded-3xl border border-gray-200 bg-white shadow-sm transition hover:-translate-y-1 hover:shadow-xl"
-              >
-                <div className="relative aspect-[4/3] overflow-hidden">
-                  <Image
-                    src={item.image}
-                    alt={item.alt}
-                    fill
-                    sizes="(max-width: 768px) 100vw, 33vw"
-                    className="object-cover object-center transition duration-700 group-hover:scale-110"
-                  />
-                </div>
+              "piscine-maconnee-saint-agnin-sur-bion",
+              "ouverture-mur-porteur-bourgoin-jallieu",
+              "mur-soutenement-ruy-montceau",
+            ]
+              .map((slug) => realisations.find((r) => r.slug === slug))
+              .filter((r): r is (typeof realisations)[number] => Boolean(r))
+              .map((r) => (
+                <Link
+                  key={r.slug}
+                  href={`/realisations/${r.slug}`}
+                  className="group overflow-hidden rounded-3xl border border-gray-200 bg-white shadow-sm transition hover:-translate-y-1 hover:shadow-xl"
+                >
+                  <div className="relative aspect-[4/3] overflow-hidden">
+                    <Image
+                      src={r.images[0].src}
+                      alt={r.images[0].alt}
+                      fill
+                      sizes="(max-width: 768px) 100vw, 33vw"
+                      className="object-cover object-center transition duration-700 group-hover:scale-110"
+                    />
+                  </div>
 
-                <div className="p-6">
-                  <h3 className="mb-3 text-2xl font-bold text-gray-900">
-                    {item.title}
-                  </h3>
+                  <div className="p-6">
+                    <h3 className="mb-3 text-2xl font-bold leading-snug text-gray-900 group-hover:text-primary-600">
+                      {r.title}
+                    </h3>
 
-                  <p className="leading-relaxed text-gray-600">{item.desc}</p>
-                </div>
-              </div>
-            ))}
+                    <p className="line-clamp-3 leading-relaxed text-gray-600">
+                      {r.description}
+                    </p>
+
+                    <span className="mt-4 inline-flex items-center font-semibold text-primary-600">
+                      Voir ce chantier
+                      <ArrowRight className="ml-2 h-4 w-4 transition group-hover:translate-x-1" />
+                    </span>
+                  </div>
+                </Link>
+              ))}
+          </div>
+
+          <div className="mt-12 text-center">
+            <Link
+              href="/realisations"
+              className="inline-flex items-center rounded-xl bg-primary-600 px-8 py-4 font-bold text-white transition hover:bg-primary-700"
+            >
+              Voir toutes nos réalisations
+              <ArrowRight className="ml-2 h-5 w-5" />
+            </Link>
           </div>
         </div>
       </section>

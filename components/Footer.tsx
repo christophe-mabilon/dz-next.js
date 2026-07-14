@@ -68,6 +68,33 @@ export function Footer() {
               </li>
               <li>
                 <Link
+                  href="/realisations"
+                  className="inline-flex items-center gap-2 text-white-400 transition hover:text-primary-400"
+                >
+                  <ArrowRight className="h-4 w-4" />
+                  Nos réalisations
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/avis"
+                  className="inline-flex items-center gap-2 text-white-400 transition hover:text-primary-400"
+                >
+                  <ArrowRight className="h-4 w-4" />
+                  Avis de nos clients
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/blog"
+                  className="inline-flex items-center gap-2 text-white-400 transition hover:text-primary-400"
+                >
+                  <ArrowRight className="h-4 w-4" />
+                  Guides et conseils
+                </Link>
+              </li>
+              <li>
+                <Link
                   href="/partenaires"
                   className="inline-flex items-center gap-2 text-white-400 transition hover:text-primary-400"
                 >

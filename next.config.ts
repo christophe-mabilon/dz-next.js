@@ -51,14 +51,26 @@ const nextConfig: NextConfig = {
     ];
   },
 
-  // Redirects
+  // Redirects — 301 des URLs de l'ANCIEN site (dzmaconnerie38.fr, pages .html
+  // indexées par Google) vers leurs équivalents. Indispensable au moment de la
+  // bascule VPS pour conserver l'historique/l'autorité acquise par ces pages.
+  // Source : sitemap.xml de l'ancien site (relevé le 14/07/2026).
   async redirects() {
     return [
-      {
-        source: '/index.html',
-        destination: '/',
-        permanent: true,
-      },
+      { source: '/index.html', destination: '/', permanent: true },
+      { source: '/macon-bourgoin.html', destination: '/villes/bourgoin-jallieu', permanent: true },
+      { source: '/travaux-maconnerie-bourgoin.html', destination: '/services', permanent: true },
+      { source: '/travaux-renovation-38.html', destination: '/services/renovation-maconnerie', permanent: true },
+      { source: '/avis-clients.html', destination: '/avis', permanent: true },
+      { source: '/entreprises-partenaire.html', destination: '/partenaires', permanent: true },
+      { source: '/mentions-legales-maconnerie.html', destination: '/mentions-legales', permanent: true },
+      // anciennes pages « devis par ville » → pages villes correspondantes
+      { source: '/devis-travaux-maconnerie-bourgoin-jallieu-38300.html', destination: '/villes/bourgoin-jallieu', permanent: true },
+      { source: '/devis-travaux-maconnerie-l-isle-d-abeau-38080.html', destination: '/villes/l-isle-d-abeau', permanent: true },
+      { source: '/devis-travaux-maconnerie-vienne-38200.html', destination: '/villes/vienne', permanent: true },
+      { source: '/devis-travaux-maconnerie-villefontaine-38090.html', destination: '/villes/villefontaine', permanent: true },
+      { source: '/devis-travaux-maconnerie-saint-jean-de-bournay-38440.html', destination: '/villes/saint-jean-de-bournay', permanent: true },
+      { source: '/devis-travaux-maconnerie-artas-38440.html', destination: '/villes/artas', permanent: true },
     ];
   },
 

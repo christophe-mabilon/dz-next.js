@@ -5,6 +5,24 @@ Format : chaque version résume l'état du site à un moment donné, pour savoir
 
 ---
 
+## [1.2.0] — 2026-07-14 — Passe SEO globale (préparation top 1)
+
+- **301 de migration** : les 13 URLs .html de l'ancien site (relevées dans son
+  sitemap) redirigent vers leurs équivalents — dont les anciennes pages
+  « devis-travaux-maconnerie-{ville}.html » vers les pages villes. Indispensable
+  pour conserver l'historique Google au moment de la bascule VPS.
+- **Accueil** : la section réalisations affiche 3 **vraies fiches cliquables**
+  (piscine, ouverture mur porteur, soutènement) au lieu de 3 images de stock
+  sans lien + bouton « Voir toutes nos réalisations ».
+- **Footer** : liens Réalisations, Avis clients et Guides (blog) ajoutés dans la
+  colonne entreprise → maillage sitewide vers ces sections.
+
+Vérifié au passage (déjà en place, rien à faire) : sitemap avec photos des
+réalisations, aggregateRating dans LocalBusiness, robots.txt, OG image,
+Réalisations dans le menu principal.
+
+---
+
 ## [1.1.2] — 2026-07-14 — Copie cachée webmaster (BCC)
 
 - `MAIL_BCC` (optionnel) : envoie une copie cachée de chaque demande (contact +
