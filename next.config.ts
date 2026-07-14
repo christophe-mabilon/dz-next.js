@@ -71,6 +71,8 @@ const nextConfig: NextConfig = {
       { source: '/devis-travaux-maconnerie-villefontaine-38090.html', destination: '/villes/villefontaine', permanent: true },
       { source: '/devis-travaux-maconnerie-saint-jean-de-bournay-38440.html', destination: '/villes/saint-jean-de-bournay', permanent: true },
       { source: '/devis-travaux-maconnerie-artas-38440.html', destination: '/villes/artas', permanent: true },
+      // article supprimé (service non proposé) → guide terrasse béton
+      { source: '/blog/beton-desactive-terrasse', destination: '/blog/terrasse-beton-guide', permanent: true },
     ];
   },
 

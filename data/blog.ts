@@ -520,7 +520,7 @@ export const articles = [
         La surface totale est bien sûr le premier critère : plus elle est grande, plus le volume de béton et le temps de travail augmentent, même si le coût au m² peut diminuer par effet d’échelle.        
         L’épaisseur de la dalle influe directement sur la quantité de béton utilisée et sur la nécessité ou non d’un ferraillage.        
         Les travaux de terrassement et de compactage préalables représentent souvent 20 à 30 % du coût total.        
-        Enfin, les finitions (béton lissé, désactivé, balayé) ont également un impact sur le prix final.`,
+        Enfin, les finitions (béton lissé, balayé) ont également un impact sur le prix final.`,
         },
 
         {
@@ -562,7 +562,7 @@ export const articles = [
 
         answer: `Le tarif dépend principalement de la surface, de l’épaisseur et des travaux préparatoires.        
         En règle générale, comptez entre 50 et 120 €/m² pour une dalle béton standard en Isère, pose et terrassement inclus.        
-        Pour les dalles avec finitions spéciales (béton désactivé, lissé) ou ferraillage renforcé, le prix peut être plus élevé.`,
+        Pour les dalles avec finitions spéciales (béton lissé) ou ferraillage renforcé, le prix peut être plus élevé.`,
       },
 
       {
@@ -625,7 +625,7 @@ export const articles = [
     content: {
       introduction: `La terrasse béton reste l’une des solutions les plus durables et modernes pour aménager ses extérieurs en Isère.        
         Polyvalente, robuste et nécessitant peu d’entretien, elle s’adapte à tous les styles architecturaux.        
-        Que vous optiez pour un béton lissé, désactivé ou balayé, le résultat est toujours esthétique et résistant.        
+        Que vous optiez pour un béton lissé ou balayé, le résultat est toujours esthétique et résistant.        
         Cependant, une terrasse béton doit être réalisée avec soin pour éviter les problèmes classiques de fissures ou d’affaissements qui apparaissent souvent quelques années après la pose.`,
 
       sections: [
@@ -662,7 +662,6 @@ export const articles = [
 
           content: `Le béton offre de nombreuses possibilités de finitions pour personnaliser l’aspect de votre terrasse.        
         Le béton lissé donne un rendu épuré et contemporain, idéal pour les espaces modernes.        
-        Le béton désactivé, où les granulats apparents créent une texture rugueuse, est très apprécié pour son aspect naturel et son adhérence par temps humide.        
         Le béton balayé est une finition économique et efficace qui offre une bonne adhérence.        
         Enfin, les finitions imprimées ou teintées permettent d’imiter d’autres matériaux (bois, pierre, ardoise) tout en conservant les avantages du béton.`,
         },
@@ -694,124 +693,6 @@ export const articles = [
       ctaTitle: `Un projet de terrasse béton en Isère ?`,
 
       ctaText: `DZ Maçonnerie réalise vos terrasses béton et aménagements extérieurs dans tout le Nord-Isère.`,
-    },
-  },
-
-  {
-    slug: `beton-desactive-terrasse`,
-
-    title: `Pourquoi choisir le béton désactivé pour une terrasse ?`,
-
-    excerpt: `Le béton désactivé est idéal pour les extérieurs grâce à sa résistance et son esthétique moderne.`,
-
-    image: `/images/blog/terrasse-beton.webp`,
-
-    category: `Dalle béton`,
-
-    author: `David Zambon`,
-
-    publishedAt: `2025-05-20`,
-
-    updatedAt: `2026-05-23`,
-
-    readTime: `5 min`,
-
-    seo: {
-      metaTitle: `Béton désactivé terrasse : avantages et conseils`,
-
-      metaDescription: `Découvrez les avantages du béton désactivé pour une terrasse extérieure moderne et résistante.`,
-
-      keywords: [
-        `béton désactivé`,
-        `terrasse béton désactivé`,
-        `béton extérieur Isère`,
-        `terrasse moderne béton`,
-        `dalle béton décorative`,
-      ],
-    },
-
-    hero: {
-      badge: `Béton désactivé`,
-
-      title: `Pourquoi choisir le béton désactivé pour une terrasse ?`,
-
-      subtitle: `Le béton désactivé offre une finition moderne, résistante et idéale pour les aménagements extérieurs.`,
-    },
-
-    content: {
-      introduction: `Le béton désactivé est l’une des finitions béton les plus prisées pour les terrasses, allées et aménagements extérieurs.        
-        Son procédé consiste à appliquer un produit retardateur de prise en surface pour que les granulats (galets, graviers) apparaissent après lavage, créant un rendu naturel et texturé très esthétique.        
-        En Isère, il est très utilisé pour les terrasses de maison, les allées de jardin et les plages de piscine car il s’intègre parfaitement dans les environnements naturels.        
-        DZ Maçonnerie réalise des terrasses en béton désactivé avec des granulats sélectionnés pour un rendu soigné et personnalisé.`,
-
-      sections: [
-        {
-          title: `Quels sont les avantages du béton désactivé ?`,
-
-          content: `Le béton désactivé cumule de nombreux avantages qui en font une solution idéale pour les extérieurs.        
-        Son aspect décoratif avec les granulats apparents offre un rendu naturel qui s’harmonise avec les espaces verts et les pierres naturelles.        
-        Sa texture rugueuse procure une excellente adhérence, même sous la pluie, ce qui en fait une solution antidérapante naturelle parfaite autour des piscines et sur les terrasses exposées aux intempéries.        
-        Contrairement aux dallages en pierre ou aux pavés, le béton désactivé ne présente pas de joints qui peuvent se colmater ou laisser pousser les mauvaises herbes.        
-        Enfin, il offre une surface continue sans interruption, ce qui facilite le balayage et l’entretien.`,
-        },
-
-        {
-          title: `Une solution durable face aux intempéries`,
-
-          content: `Le béton désactivé résiste particulièrement bien aux intempéries, aux cycles gel-dégel et aux passages fréquents, ce qui en fait une solution très adaptée au climat isérois.        
-        Contrairement à certains revêtements qui s’effritent ou se décolorent avec le temps, le béton désactivé conserve son aspect naturel pendant de nombreuses années.        
-        Les granulats intégrés dans la masse du béton ne peuvent pas se décoller comme des carreaux collés, ce qui garantit une longévité supérieure.        
-        Pour maximiser la durabilité, DZ Maçonnerie utilise un béton bien dosé et applique un produit de cure après le coulage pour protéger la surface durant la prise.`,
-        },
-
-        {
-          title: `Un entretien limité au fil des années`,
-
-          content: `L’un des atouts majeurs du béton désactivé est sa faible exigence en termes d’entretien.        
-        Un nettoyage régulier au jet d’eau suffit généralement pour éliminer les salissures et conserver son aspect.        
-        En cas d’apparition de mousses ou d’algues (fréquent dans les zones ombragées ou humides), un traitement annuel avec un produit antifongique permet de retrouver l’aspect d’origine.        
-        Pour prolonger encore sa durée de vie, l’application d’un hydrofuge tous les 5 à 10 ans est recommandée pour limiter les infiltrations d’eau dans la masse du béton.        
-        DZ Maçonnerie peut vous conseiller sur les produits d’entretien adaptés à votre revêtement.`,
-        },
-
-        {
-          title: `Comment est réalisé un béton désactivé ?`,
-
-          content: `La réalisation d’un béton désactivé de qualité nécessite un savoir-faire technique précis.        
-        Après le terrassement et le compactage du terrain, le béton est coulé et tiré à la règle pour obtenir un niveau homogène.        
-        Un produit retardateur de prise est ensuite pulvérisé en surface pour empêcher le ciment de durcir en périphérie.        
-        Après une attente de 6 à 24 heures selon les conditions météorologiques, la surface est lavée au jet haute pression pour éliminer la laitance et faire apparaître les granulats.        
-        La qualité du résultat final dépend de la précision du dosage du retardateur, du timing du lavage et de l’homogénéité du béton.`,
-        },
-      ],
-
-      conclusion: `Le béton désactivé constitue une excellente solution pour une terrasse ou une allée moderne, durable et facile d’entretien en Isère.        
-        Son rendu naturel, son adhérence et sa résistance aux intempéries en font le revêtement extérieur le plus polyvalent du marché.        
-        DZ Maçonnerie réalise vos projets de béton désactivé dans tout le Nord-Isère avec des finitions de qualité.`,
-    },
-
-    faq: [
-      {
-        question: `Le béton désactivé est-il glissant ?`,
-
-        answer: `Non, au contraire : sa texture rugueuse avec les granulats apparents offre une excellente adhérence même par temps humide.        
-        C’est pourquoi il est très souvent utilisé autour des piscines et sur les terrasses exposées à la pluie.        
-        C’est l’un de ses avantages majeurs par rapport aux carrelages lisses.`,
-      },
-
-      {
-        question: `Le béton désactivé nécessite-t-il beaucoup d’entretien ?`,
-
-        answer: `Non, le béton désactivé est l’un des revêtements extérieurs les moins exigeants en entretien.        
-        Un nettoyage régulier au jet d’eau suffit pour conserver son aspect.        
-        Un traitement hydrofuge tous les 5 à 10 ans et un anti-mousse annuel dans les zones ombragées permettent de le maintenir en parfait état pendant plusieurs décennies.`,
-      },
-    ],
-
-    footer: {
-      ctaTitle: `Envie d’une terrasse en béton désactivé ?`,
-
-      ctaText: `DZ Maçonnerie réalise vos terrasses et aménagements extérieurs en béton désactivé en Isère.`,
     },
   },
 
@@ -1211,9 +1092,8 @@ export const articles = [
         {
           title: `Le retour en force du béton décoratif`,
 
-          content: `Le béton désactivé, le béton lissé et le béton imprimé sont au cœur des tendances 2026 en maçonnerie extérieure.        
+          content: `Le béton lissé et le béton imprimé sont au cœur des tendances 2026 en maçonnerie extérieure.        
         Ces finitions permettent de créer des terrasses, allées et plages de piscine avec un rendu très esthétique, tout en conservant les avantages de durabilité propres au béton.        
-        Le béton désactivé avec des granulats colorés ou des galets locaux s’intègre parfaitement dans les paysages isérois.        
         Les clients recherchent également des effets de continuité entre les espaces intérieurs et extérieurs, avec des dalles bétonnées étendues jusqu’à la terrasse.        
         DZ Maçonnerie maîtrise l’ensemble de ces techniques pour répondre aux projets les plus créatifs.`,
         },
@@ -1240,7 +1120,7 @@ export const articles = [
           title: `L’intégration paysagère comme critère clé`,
 
           content: `En 2026, les clients souhaitent que leurs aménagements extérieurs s’intègrent harmonieusement dans leur environnement naturel.        
-        En Isère, cela se traduit par le choix de granulats locaux pour le béton désactivé, l’utilisation de pierres régionales pour les murets ou la création de jardins en terrasses qui épousent la topographie naturelle du terrain.        
+        En Isère, cela se traduit par l’utilisation de pierres régionales pour les murets ou la création de jardins en terrasses qui épousent la topographie naturelle du terrain.        
         DZ Maçonnerie conseille ses clients sur les matériaux et les couleurs les plus adaptés à leur environnement local, pour des réalisations qui valorisent durablement leur propriété.`,
         },
       ],
@@ -1254,7 +1134,7 @@ export const articles = [
         question: `Quels matériaux utiliser pour des extérieurs durables en Isère ?`,
 
         answer: `Le béton et la maçonnerie restent parmi les solutions les plus résistantes et durables pour les extérieurs isérois.        
-        Le béton désactivé, les murets maçonnés et les dalles béton ferraillées offrent une longévité supérieure à 30 ans avec un entretien minimal.        
+        Les murets maçonnés et les dalles béton ferraillées offrent une longévité supérieure à 30 ans avec un entretien minimal.        
         Ces matériaux résistent parfaitement au gel, aux UV et aux variations climatiques de la région.`,
       },
 
@@ -1650,7 +1530,7 @@ export const articles = [
         `entretien terrasse béton`,
         `nettoyage dalle béton`,
         `terrasse béton extérieure`,
-        `béton désactivé entretien`,
+        `nettoyage terrasse béton`,
         `terrasse béton Isère`,
       ],
     },
@@ -1677,7 +1557,7 @@ export const articles = [
         En pratique, un passage au jet d’eau à pression modérée suffit pour éliminer les salissures du quotidien comme la poussière, les feuilles mortes ou les traces légères.        
         Pour les taches plus incrustées (huile, rouille, mousse), un nettoyeur haute pression avec un détergent adapté permet de retrouver un aspect propre sans endommager la surface.        
         Il est recommandé de nettoyer la terrasse au moins une à deux fois par an, idéalement au printemps après les pluies hivernales et à l’automne avant l’arrivée du froid.        
-        Évitez les nettoyages trop agressifs qui pourraient éroder la surface du béton et exposer les granulats prématurément, notamment sur les finitions béton désactivé.`,
+        Évitez les nettoyages trop agressifs qui pourraient éroder la surface du béton.`,
         },
 
         {
@@ -1687,7 +1567,7 @@ export const articles = [
         Ce traitement, à renouveler tous les 5 à 10 ans selon l’exposition, forme une barrière invisible qui empêche l’eau de s’infiltrer dans la masse du béton.        
         En Isère, où les hivers peuvent être rudes et les cycles gel-dégel fréquents, un béton non traité risque de se fissurer progressivement sous l’effet de l’expansion de l’eau gelée dans ses pores.        
         Un hydrofuge de qualité préserve également la couleur et la texture de la surface en limitant l’absorption des salissures.        
-        DZ Maçonnerie peut vous conseiller sur les produits les mieux adaptés à votre type de finition béton (lissé, désactivé ou balayé).`,
+        DZ Maçonnerie peut vous conseiller sur les produits les mieux adaptés à votre type de finition béton (lissé ou balayé).`,
         },
 
         {
@@ -1695,7 +1575,7 @@ export const articles = [
 
           content: `Certains produits ménagers courants peuvent fragiliser le béton sur le long terme et altérer durablement sa finition.        
         L’acide chlorhydrique utilisé pour détartrer les carrelages est particulièrement nocif : il dissout le liant cimentaire et laisse une surface poreuse et rugueuse difficile à entretenir.        
-        De même, les produits à base de javel concentrée peuvent décolorer et affaiblir la surface du béton désactivé ou lissé.        
+        De même, les produits à base de javel concentrée peuvent décolorer et affaiblir la surface du béton lissé.        
         Pour les taches résistantes comme les traces d’huile de moteur ou de rouille, optez pour des nettoyants dégraissants neutres ou des produits spéciaux béton disponibles dans les commerces de bricolage.        
         En cas de doute, DZ Maçonnerie peut vous orienter vers les produits appropriés à votre type de revêtement béton.`,
         },
@@ -1713,7 +1593,7 @@ export const articles = [
         answer: `Pour nettoyer efficacement une terrasse béton, commencez par un rinçage à l’eau claire pour ramollir les salissures.        
         Utilisez ensuite un nettoyeur haute pression à pression modérée (100 à 120 bars maximum) avec un détergent neutre adapté au béton.        
         Pour les mousses et algues, un produit antifongique appliqué en prévention une fois par an suffit généralement.        
-        Évitez les produits acides qui endommagent la surface du béton et altèrent les granulats apparents sur les finitions désactivées.`,
+        Évitez les produits acides qui endommagent la surface du béton.`,
       },
 
       {
@@ -3094,7 +2974,6 @@ export const articles = [
           title: `Des finitions esthétiques variées`,
 
           content: `Le béton offre aujourd’hui une palette de finitions décoratives très large qui dépasse largement le simple béton gris lisse.        
-        Le béton désactivé, avec ses granulats apparents, apporte un rendu naturel qui s’harmonise parfaitement avec les jardins et les espaces verts.        
         Le béton lissé crée des surfaces épurées et contemporaines très appréciées dans les architectures modernes.        
         Le béton balayé ou brossé offre une finition antidérapante économique et efficace.        
         Enfin, les bétons imprimés ou teintés permettent d’imiter d’autres matériaux (bois, pierre, ardoise) tout en conservant la robustesse du béton.        
@@ -3129,7 +3008,7 @@ export const articles = [
       {
         question: `Le béton décoratif nécessite-t-il beaucoup d’entretien ?`,
 
-        answer: `Non, le béton décoratif (désactivé, lissé ou imprimé) est l’un des revêtements extérieurs les moins exigeants en entretien.        
+        answer: `Non, le béton décoratif (lissé ou imprimé) est l’un des revêtements extérieurs les moins exigeants en entretien.        
         Un nettoyage annuel au jet d’eau et un traitement hydrofuge tous les 5 à 10 ans permettent de maintenir son aspect en parfait état.        
         Un traitement antifongique annuel dans les zones ombragées prévient l’apparition de mousses.        
         DZ Maçonnerie peut vous conseiller les produits adaptés à votre finition.`,
@@ -3310,7 +3189,6 @@ export const articles = [
 
           content: `L’allée béton n’est plus synonyme de surface grise et monotone.        
         Les différentes finitions disponibles permettent de créer des allées esthétiques parfaitement intégrées à l’architecture de la maison.        
-        Le béton désactivé avec ses granulats apparents offre un rendu naturel très populaire dans le Nord-Isère.        
         Le béton lissé crée des surfaces épurées et contemporaines.        
         Le béton balayé apporte une texture antidérapante économique.        
         Des teintes minérales peuvent être intégrées à la masse ou appliquées en surface pour personnaliser encore davantage le rendu.        
@@ -3329,7 +3207,7 @@ export const articles = [
       ],
 
       conclusion: `L’allée béton est un choix judicieux pour les propriétés iséroises : durable, esthétique, résistante aux intempéries et peu exigeante en entretien.        
-        Que vous optiez pour le béton désactivé naturel, le lissé contemporain ou le balayé traditionnel, DZ Maçonnerie réalise votre allée béton avec soin dans tout le Nord-Isère.        
+        Que vous optiez pour le lissé contemporain ou le balayé traditionnel, DZ Maçonnerie réalise votre allée béton avec soin dans tout le Nord-Isère.        
         Contactez-nous pour un devis gratuit.`,
     },
 
@@ -3346,7 +3224,6 @@ export const articles = [
         question: `Quelle finition béton choisir pour une allée de maison ?`,
 
         answer: `Le choix de la finition dépend de votre style et de votre budget.        
-        Le béton désactivé (granulats apparents) offre un rendu naturel très apprécié en Isère.        
         Le béton lissé convient aux architectures modernes et épurées.        
         Le béton balayé est la solution la plus économique avec une bonne adhérence.        
         DZ Maçonnerie peut vous montrer des exemples de réalisations dans chaque finition pour vous aider à choisir.`,
@@ -3422,7 +3299,6 @@ export const articles = [
 
           content: `L’escalier béton peut recevoir différentes finitions pour s’intégrer harmonieusement à l’architecture de votre propriété.        
         Le béton lissé crée des marches épurées et contemporaines, idéales pour les maisons modernes.        
-        Le béton désactivé apporte un aspect naturel avec ses granulats apparents qui s’harmonisent avec les terrasses et allées existantes.        
         Pour les escaliers exposés aux intempéries, une finition brossée ou striée améliore l’adhérence et réduit le risque de glissade.        
         Des plinthes verticales habillées de carrelage ou de pierre naturelle peuvent compléter l’escalier béton pour lui donner un aspect plus raffiné.        
         DZ Maçonnerie réalise des escaliers sur mesure adaptés à chaque configuration.`,
@@ -3631,7 +3507,7 @@ export const articles = [
         Elle résiste parfaitement aux cycles gel-dégel qui fragilisent les carrelages et décollent les joints.        
         Son coût de réalisation est généralement inférieur à celui d’une terrasse carrelée pour une surface équivalente.        
         L’entretien est minimal : un nettoyage annuel suffit.        
-        Avec les finitions décoratives modernes (béton désactivé, lissé, imprimé), la terrasse béton offre aussi un très large choix esthétique qui rivalise avec le carrelage tout en conservant une surface continue sans joints.`,
+        Avec les finitions décoratives modernes (béton lissé, imprimé), la terrasse béton offre aussi un très large choix esthétique qui rivalise avec le carrelage tout en conservant une surface continue sans joints.`,
         },
 
         {
@@ -3650,7 +3526,7 @@ export const articles = [
           content: `Sur le plan de la durabilité, le béton l’emporte généralement en Isère où les cycles climatiques sont marqués.        
         Les carrelages extérieurs de mauvaise qualité ou mal posés peuvent se desceller, se fissurer ou se soulever par gel-dégel dès les premières années.        
         Un carrelage de qualité posé sur une dalle béton parfaitement réalisée peut durer longtemps, mais le coût total est souvent 30 à 50 % plus élevé qu’une terrasse béton décorative.        
-        Sur le plan du budget, la terrasse béton désactivé ou lissé est la solution la plus économique à la mise en œuvre.        
+        Sur le plan du budget, la terrasse en béton lissé est la solution la plus économique à la mise en œuvre.        
         Le carrelage nécessite en plus la pose par un carreleur qualifié, un coût de matériau souvent plus élevé et des joints à entretenir régulièrement.`,
         },
       ],

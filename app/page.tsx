@@ -69,7 +69,7 @@ const services = [
   {
     title: "Rénovation maçonnerie",
     description:
-      "Murs porteurs à ouvrir, façades fatiguées, reprises structurelles : nous redonnons solidité et cachet au bâti ancien comme au récent.",
+      "Murs porteurs à ouvrir, fissures à reprendre, consolidations structurelles : nous redonnons solidité et cachet au bâti ancien comme au récent.",
     icon: Hammer,
     href: "/services/renovation-maconnerie",
   },

@@ -21,8 +21,6 @@ export const materialsGlossary: Record<string, string> = {
     "Béton haute résistance (30 MPa), prescrit pour les ouvrages fortement sollicités comme les piscines.",
   "Béton banché":
     "Béton coulé entre banches (coffrages verticaux) : murs monolithiques d'une grande solidité, parfaits pour les bassins.",
-  "Béton désactivé":
-    "Béton décoratif dont la surface laisse apparaître les granulats : antidérapant et très résistant, idéal en extérieur.",
   "Poutrelles hourdis":
     "Système de plancher préfabriqué : poutrelles béton et entrevous, recouverts d'une dalle de compression.",
   "Poutrelles hourdis EPS":
@@ -48,7 +46,7 @@ export const materialsGlossary: Record<string, string> = {
   "Remblai sélectionné":
     "Matériaux de remblai triés et compactables, garantissant une plateforme homogène.",
   "Enduit hydraulique":
-    "Enduit de façade à base de liants hydrauliques : protection durable contre les intempéries.",
+    "Enduit à base de liants hydrauliques : protection durable des maçonneries contre l'eau et les intempéries.",
   "Fibre de verre armée":
     "Armature souple noyée dans l'enduit pour ponter les microfissures du support.",
   "Gobetis d'accroche":
@@ -65,10 +63,6 @@ export const materialsGlossary: Record<string, string> = {
     "Tuile galbée traditionnelle de la région, esthétique méditerranéenne et excellente évacuation des eaux.",
   "Semelles filantes":
     "Fondations linéaires continues sous les murs porteurs, dimensionnées selon la portance du sol.",
-  "Granulat gris anthracite":
-    "Gravillon décoratif sombre révélé par la désactivation du béton : rendu moderne et salissures invisibles.",
-  Désactivant:
-    "Produit pulvérisé sur le béton frais pour révéler les granulats en surface après lavage.",
   "Liner armé 75/100":
     "Membrane d'étanchéité piscine renforcée de 1,5 mm : bien plus résistante qu'un liner standard.",
   Skimmer: "Dispositif d'aspiration de surface qui capte les impuretés flottantes du bassin.",

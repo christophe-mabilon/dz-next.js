@@ -13,7 +13,7 @@ export const commonProjects = [
   "extension maison",
   "garage",
   "terrassement de terrain",
-  "rénovation de façade",
+  "ouverture de mur porteur",
 ];
 
 export const seoVariations = [
@@ -194,8 +194,8 @@ export function faq(c) {
     question: `Quels travaux de maçonnerie réalisez-vous à ${c.name} ?`,
     answer: pick(
       [
-        `À ${c.name}, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet.`,
-        `Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à ${c.name}.`,
+        `À ${c.name}, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, ouvertures de murs porteurs et terrassement complet.`,
+        `Extensions, dalles et terrasses béton, murs de soutènement, garages, ouvertures de murs porteurs, terrassement : nous couvrons tout le gros œuvre à ${c.name}.`,
         `Nos équipes interviennent à ${c.name} pour le terrassement, les fondations, les dalles béton, les murs, les extensions de maison et la rénovation.`,
       ],
       c.slug + "faq3",

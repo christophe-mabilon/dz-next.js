@@ -36,7 +36,7 @@ export const services: Service[] = [
     description:
       "Rénovation de maçonnerie, ouverture de murs porteurs, reprises structurelles et transformation de bâtiments anciens ou récents.",
     longDescription:
-      "Spécialistes en rénovation maçonnerie, nous prenons en charge le ravalement, la réfection des murs, les enduits de façade et l'étanchéité. Restauration de bâtiments anciens et mise aux normes de l'existant.",
+      "Spécialistes en rénovation maçonnerie, nous prenons en charge la réfection des murs, les reprises structurelles et les ouvertures de murs porteurs. Restauration de bâtiments anciens et mise aux normes de l'existant.",
     image: "/images/services/renovations-maison.webp",
     heroImage: "/images/services/renovations-maison.webp",
     galleryImages: [
@@ -52,8 +52,8 @@ export const services: Service[] = [
     ],
     keywords: [
       "rénovation maçonnerie",
-      "ravalement",
-      "enduit façade",
+      "ouverture mur porteur",
+      "reprise en sous-œuvre",
       "réparation murs",
     ],
   },

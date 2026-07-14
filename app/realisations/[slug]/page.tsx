@@ -140,18 +140,48 @@ export default async function RealisationDetailPage({ params }: Props) {
     value: string;
   }[];
 
-  // avis client réel de la même commune (si disponible)
+  // FAQ du service correspondant
+  const svcSlug = realisationServiceSlug[realisation.service];
+
+  // avis client réel de la même commune ET d'un service compatible —
+  // un avis « soutènement » n'a rien à faire sur une fiche « ouverture ».
+  const reviewServicePatterns: Record<string, RegExp> = {
+    terrassement: /terrass|vrd|pluvial/i,
+    "dalle-beton": /dalle|chape|sol béton|dallage/i,
+    "piscine-terrasse": /piscine|terrasse/i,
+    "maconnerie-neuf": /construction|garage|gros œuvre|maçonnerie neuve/i,
+    "renovation-maconnerie": /rénov|ouverture|mur porteur|carrel|pisé/i,
+    "clotures-murs": /clôture|muret|soutènement|portail|mur de/i,
+    "agrandissement-maison": /agrandissement/i,
+    "extension-maison": /extension/i,
+    "dalles-sur-plot": /plot|grès cérame|terrasse/i,
+    "abri-de-jardin": /abri/i,
+  };
+  const svcPattern = reviewServicePatterns[svcSlug];
   const localReview = reviews.find(
     (r) =>
       r.city?.localeCompare(realisation.city, "fr", {
         sensitivity: "base",
-      }) === 0,
+      }) === 0 &&
+      (!r.service || (svcPattern ? svcPattern.test(r.service) : false)),
   );
-
-  // FAQ du service correspondant
-  const svcSlug = realisationServiceSlug[realisation.service];
   const svc = services.find((s) => s.slug === svcSlug);
-  const faqs = svcSlug ? (serviceFaqs[svcSlug] ?? []).slice(0, 5) : [];
+
+  // FAQ : rotation stable selon la fiche (les réalisations d'un même service
+  // n'affichent pas toutes les mêmes questions) + une question locale unique.
+  const faqPool = svcSlug ? (serviceFaqs[svcSlug] ?? []) : [];
+  const faqOffset = faqPool.length
+    ? [...slug].reduce((a, c) => a + c.charCodeAt(0), 0) % faqPool.length
+    : 0;
+  const faqs = [
+    ...(faqPool.length
+      ? [...faqPool.slice(faqOffset), ...faqPool.slice(0, faqOffset)].slice(0, 3)
+      : []),
+    {
+      question: `Réalisez-vous ce type de chantier autour de ${realisation.city} ?`,
+      answer: `Oui — cette réalisation en est un exemple concret. Notre atelier est à Artas et nous intervenons à ${realisation.city} comme dans tout le Nord-Isère : la visite d'évaluation et le devis sont gratuits.`,
+    },
+  ];
 
   // maillage villes voisines du chantier
   const cityMatch = cities.find(

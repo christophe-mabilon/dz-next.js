@@ -71,8 +71,8 @@ export const realisations: Realisation[] = [
     images: [
       {
         src: "/images/realisations/agrandissement-badinieres/agrandissement-maison-badinieres-elevation-murs.webp",
-        alt: "Élévation des murs en parpaing de l'agrandissement de maison à Badinières — DZ Maçonnerie",
-        phase: "pendant",
+        alt: "Murs de l'agrandissement de maison montés à Badinières — DZ Maçonnerie",
+        phase: "apres",
       },
       {
         src: "/images/realisations/agrandissement-badinieres/dallage-beton-agrandissement-maison-preparation.webp",
@@ -237,11 +237,6 @@ export const realisations: Realisation[] = [
         src: "/images/realisations/ouvertures-murs-porteurs/chainage-linteau-beton-arme.webp",
         alt: "Chaînage et linteau béton armé coulés lors d'une ouverture de mur porteur",
         phase: "pendant",
-      },
-      {
-        src: "/images/realisations/ouvertures-murs-porteurs/ouverture-mur-porteur-realisation.webp",
-        alt: "Ouverture de mur porteur terminée, prête pour les finitions",
-        phase: "apres",
       },
     ],
     steps: [
@@ -984,7 +979,7 @@ export const realisations: Realisation[] = [
       {
         src: "/images/realisations/clotures-portails/fouille-massif-fondation-platine-avant-coulage.webp",
         alt: "Fouille de massif de fondation avant coulage pour platine de poteau",
-        phase: "avant",
+        phase: "pendant",
       },
       {
         src: "/images/realisations/fondations-massifs/fouille-massif-herisson-gravier-avant-beton.webp",

@@ -47,14 +47,14 @@ export const serviceEditorial: Record<string, EditorialBlock[]> = {
       title: "Redonner vie au bâti ancien sans le dénaturer",
       paragraphs: [
         "Le Nord-Isère possède un patrimoine bâti riche : maisons en pisé, murs en pierre, fermes dauphinoises. Ces constructions demandent des techniques spécifiques — un enduit ciment sur un mur en pisé, et c'est l'humidité piégée qui ronge le mur de l'intérieur. Nous utilisons des matériaux compatibles : chaux naturelle, enduits respirants, mortiers adaptés.",
-        "Fissures, façade fatiguée, murs humides, linteaux affaissés : avant de réparer, nous diagnostiquons. Traiter une fissure sans comprendre son origine, c'est la voir revenir dans deux ans.",
+        "Fissures, murs humides, linteaux affaissés : avant de réparer, nous diagnostiquons. Traiter une fissure sans comprendre son origine, c'est la voir revenir dans deux ans.",
       ],
     },
     {
-      title: "Du rafraîchissement à la restructuration complète",
+      title: "De la simple reprise à la restructuration complète",
       paragraphs: [
-        "Ravalement de façade, reprise d'enduits, réparation de murs porteurs, reprise en sous-œuvre, création d'ouvertures : nous intervenons sur tous les niveaux de rénovation, du simple embellissement à la reprise structurelle.",
-        "Chaque intervention structurelle est couverte par notre garantie décennale, et nous vous accompagnons sur les démarches (déclaration préalable de ravalement, conformité PLU).",
+        "Réparation de murs porteurs, reprise en sous-œuvre, création d'ouvertures, consolidation de maçonneries anciennes : nous intervenons sur tous les niveaux de rénovation, de la reprise localisée à la restructuration complète.",
+        "Chaque intervention structurelle est couverte par notre garantie décennale, et nous vous accompagnons sur les démarches (déclaration préalable, conformité PLU).",
       ],
     },
   ],
@@ -101,7 +101,7 @@ export const serviceEditorial: Record<string, EditorialBlock[]> = {
     {
       title: "Des plages et terrasses qui subliment le bassin",
       paragraphs: [
-        "Le tour de piscine mérite autant d'attention que le bassin : béton désactivé antidérapant, béton balayé, grès cérame sur plots… Nous concevons des plages qui restent agréables pieds nus, évacuent l'eau et vieillissent sans entretien.",
+        "Le tour de piscine mérite autant d'attention que le bassin : béton balayé antidérapant, grès cérame sur plots, dalles avec parement… Nous concevons des plages qui restent agréables pieds nus, évacuent l'eau et vieillissent sans entretien.",
         "Le bon calendrier : terrasser à l'automne, maçonner l'hiver, plonger dès les premiers beaux jours. Nous planifions le chantier pour que l'été ne soit pas perdu.",
       ],
     },
@@ -149,7 +149,7 @@ export const serviceEditorial: Record<string, EditorialBlock[]> = {
     {
       title: "Terrasse, garage, atelier : à chaque usage sa dalle",
       paragraphs: [
-        "Une terrasse piétonne n'exige pas la même dalle qu'un garage qui reçoit deux véhicules : épaisseur (12 à 15 cm), ferraillage, dosage béton et finition varient selon l'usage. Lissée mécaniquement, balayée antidérapante, désactivée décorative — nous adaptons la finition à votre projet.",
+        "Une terrasse piétonne n'exige pas la même dalle qu'un garage qui reçoit deux véhicules : épaisseur (12 à 15 cm), ferraillage, dosage béton et finition varient selon l'usage. Lissée mécaniquement, talochée fine ou balayée antidérapante — nous adaptons la finition à votre projet.",
         "Pompe à béton pour les accès difficiles, calepinage des joints, cure par temps chaud : chaque détail d'exécution compte, et c'est notre travail de n'en négliger aucun.",
       ],
     },
@@ -202,19 +202,19 @@ export const serviceFaqs: Record<string, SeoFaq[]> = {
         "Oui. Le bâti ancien du Nord-Isère compte beaucoup de constructions en pisé (terre crue). Nous utilisons des enduits à la chaux respirants et évitons le ciment qui piège l'humidité et dégrade ces murs.",
     },
     {
-      question: "Comment traitez-vous les fissures sur une façade ?",
+      question: "Comment traitez-vous les fissures sur un mur ?",
       answer:
-        "Nous diagnostiquons d'abord l'origine (retrait-gonflement des argiles, tassement, défaut de chaînage). Selon le cas : agrafage, reprise en sous-œuvre, joint de dilatation, puis réfection de l'enduit. Une fissure évolutive justifie un suivi avant réparation.",
+        "Nous diagnostiquons d'abord l'origine (retrait-gonflement des argiles, tassement, défaut de chaînage). Selon le cas : agrafage, reprise en sous-œuvre, joint de dilatation, puis reprise de la maçonnerie. Une fissure évolutive justifie un suivi avant réparation.",
     },
     {
-      question: "Faut-il une autorisation pour un ravalement de façade ?",
+      question: "Faut-il une autorisation pour ouvrir un mur porteur ?",
       answer:
-        "Un ravalement à l'identique nécessite une déclaration préalable dans la plupart des communes. Si l'aspect change (couleur, enduit), consultez le PLU. Nous vous aidons à préparer le dossier.",
+        "Dans une maison individuelle, une ouverture intérieure ne demande pas d'autorisation d'urbanisme. En copropriété, l'accord de la copropriété et une étude structure sont nécessaires. Dans tous les cas, nous réalisons l'ouverture dans les règles : étaiement, linteau dimensionné, reprise des charges.",
     },
     {
-      question: "Quel prix au m² pour un enduit de façade ?",
+      question: "Peut-on ouvrir un mur porteur dans une maison en pisé ?",
       answer:
-        "Selon l'état du support et la finition (grattée, talochée, projetée), comptez généralement entre 40 et 80 €/m² fourniture et pose. Le devis après visite est gratuit et détaillé poste par poste.",
+        "Oui, mais le pisé demande une méthode spécifique : passes de découpe courtes, appuis élargis et reprise immédiate pour ne jamais laisser le mur travailler à vide. C'est une intervention que nous pratiquons régulièrement dans le bâti ancien du Nord-Isère.",
     },
   ],
   "agrandissement-maison": [
@@ -270,7 +270,7 @@ export const serviceFaqs: Record<string, SeoFaq[]> = {
     {
       question: "Quelle terrasse autour d'une piscine : béton, bois, carrelage ?",
       answer:
-        "Le béton (désactivé, balayé ou drainant) est antidérapant, durable et sans entretien — idéal en plage de piscine. Le grès cérame sur plots est une belle alternative. Nous chiffrons les deux options.",
+        "Le béton balayé est antidérapant, durable et sans entretien — idéal en plage de piscine. Le grès cérame sur plots est une belle alternative : drainant, réglable au millimètre et très élégant. Nous chiffrons les deux options.",
     },
     {
       question: "Faut-il un permis pour une piscine enterrée ?",
@@ -368,7 +368,7 @@ export const serviceFaqs: Record<string, SeoFaq[]> = {
     {
       question: "Quel prix au m² pour une dalle béton ?",
       answer:
-        "Comptez généralement 60 à 90 €/m² pose comprise pour une dalle standard, davantage pour un béton décoratif (désactivé, quartz…) ou un accès difficile nécessitant une pompe à béton.",
+        "Comptez généralement 60 à 90 €/m² pose comprise pour une dalle standard, davantage pour un accès difficile nécessitant une pompe à béton.",
     },
   ],
   "dalles-sur-plot": [
@@ -408,7 +408,7 @@ export const serviceBenefits: Record<string, string[]> = {
     "Expérience du bâti ancien du Nord-Isère (pisé, pierre, mollasse)",
     "Enduits chaux respirants adaptés aux murs anciens",
     "Diagnostic fissures avant toute réparation",
-    "Accompagnement déclaration préalable de ravalement",
+    "Accompagnement déclaration préalable et démarches d'urbanisme",
     "Reprise en sous-œuvre maîtrisée",
     "Garantie décennale sur les travaux structurels",
   ],
@@ -431,7 +431,7 @@ export const serviceBenefits: Record<string, string[]> = {
   "piscine-terrasse": [
     "Bassin béton armé : radier et murs banchés",
     "Terrassement et évacuation des terres inclus",
-    "Plages antidérapantes : désactivé, balayé, grès cérame",
+    "Plages antidérapantes : béton balayé, grès cérame sur plots",
     "Coordination avec pisciniers partenaires",
     "Chantier planifié hors saison pour un été dans l'eau",
     "Garantie décennale sur la structure du bassin",
@@ -464,7 +464,7 @@ export const serviceBenefits: Record<string, string[]> = {
     "Épaisseur et ferraillage adaptés à l'usage (12-15 cm)",
     "Béton dosé 350 kg/m³, joints de fractionnement",
     "Support compacté : la garantie anti-fissures",
-    "Finitions : lissée, balayée, désactivée, quartz",
+    "Finitions : lissée, talochée ou balayée selon l'usage",
     "Pompe à béton pour les accès difficiles",
     "Garantie décennale",
   ],

@@ -63,7 +63,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -86,7 +86,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Artas ?",
-        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Artas."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, ouvertures de murs porteurs, terrassement : nous couvrons tout le gros œuvre à Artas."
       },
       {
         "question": "Proposez-vous un devis gratuit à Artas ?",
@@ -153,7 +153,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -176,7 +176,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Meyrieu-les-Étangs ?",
-        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Meyrieu-les-Étangs."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, ouvertures de murs porteurs, terrassement : nous couvrons tout le gros œuvre à Meyrieu-les-Étangs."
       },
       {
         "question": "Proposez-vous un devis gratuit à Meyrieu-les-Étangs ?",
@@ -242,7 +242,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -265,7 +265,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Charantonnay ?",
-        "answer": "À Charantonnay, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "À Charantonnay, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, ouvertures de murs porteurs et terrassement complet."
       },
       {
         "question": "Proposez-vous un devis gratuit à Charantonnay ?",
@@ -330,7 +330,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "conception parasismique"
@@ -417,7 +417,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "conception parasismique"
@@ -438,7 +438,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Four ?",
-        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Four."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, ouvertures de murs porteurs, terrassement : nous couvrons tout le gros œuvre à Four."
       },
       {
         "question": "Proposez-vous un devis gratuit à Four ?",
@@ -503,7 +503,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "conception parasismique"
@@ -524,7 +524,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Chèzeneuve ?",
-        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Chèzeneuve."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, ouvertures de murs porteurs, terrassement : nous couvrons tout le gros œuvre à Chèzeneuve."
       },
       {
         "question": "Proposez-vous un devis gratuit à Chèzeneuve ?",
@@ -593,7 +593,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "conception parasismique"
@@ -614,7 +614,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Roche ?",
-        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Roche."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, ouvertures de murs porteurs, terrassement : nous couvrons tout le gros œuvre à Roche."
       },
       {
         "question": "Proposez-vous un devis gratuit à Roche ?",
@@ -684,7 +684,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -707,7 +707,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Saint-Jean-de-Bournay ?",
-        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Saint-Jean-de-Bournay."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, ouvertures de murs porteurs, terrassement : nous couvrons tout le gros œuvre à Saint-Jean-de-Bournay."
       },
       {
         "question": "Proposez-vous un devis gratuit à Saint-Jean-de-Bournay ?",
@@ -777,7 +777,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -800,7 +800,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Saint-Agnin-sur-Bion ?",
-        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Saint-Agnin-sur-Bion."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, ouvertures de murs porteurs, terrassement : nous couvrons tout le gros œuvre à Saint-Agnin-sur-Bion."
       },
       {
         "question": "Proposez-vous un devis gratuit à Saint-Agnin-sur-Bion ?",
@@ -863,7 +863,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "conception parasismique"
@@ -884,7 +884,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Culin ?",
-        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Culin."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, ouvertures de murs porteurs, terrassement : nous couvrons tout le gros œuvre à Culin."
       },
       {
         "question": "Proposez-vous un devis gratuit à Culin ?",
@@ -951,7 +951,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -1037,7 +1037,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -1060,7 +1060,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Sainte-Anne-sur-Gervonde ?",
-        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Sainte-Anne-sur-Gervonde."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, ouvertures de murs porteurs, terrassement : nous couvrons tout le gros œuvre à Sainte-Anne-sur-Gervonde."
       },
       {
         "question": "Proposez-vous un devis gratuit à Sainte-Anne-sur-Gervonde ?",
@@ -1131,7 +1131,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -1221,7 +1221,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -1245,7 +1245,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Saint-Alban-de-Roche ?",
-        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Saint-Alban-de-Roche."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, ouvertures de murs porteurs, terrassement : nous couvrons tout le gros œuvre à Saint-Alban-de-Roche."
       },
       {
         "question": "Proposez-vous un devis gratuit à Saint-Alban-de-Roche ?",
@@ -1314,7 +1314,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -1338,7 +1338,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Maubec ?",
-        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Maubec."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, ouvertures de murs porteurs, terrassement : nous couvrons tout le gros œuvre à Maubec."
       },
       {
         "question": "Proposez-vous un devis gratuit à Maubec ?",
@@ -1408,7 +1408,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -1432,7 +1432,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Châtonnay ?",
-        "answer": "À Châtonnay, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "À Châtonnay, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, ouvertures de murs porteurs et terrassement complet."
       },
       {
         "question": "Proposez-vous un devis gratuit à Châtonnay ?",
@@ -1500,7 +1500,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -1590,7 +1590,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "conception parasismique"
@@ -1611,7 +1611,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Bonnefamille ?",
-        "answer": "À Bonnefamille, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "À Bonnefamille, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, ouvertures de murs porteurs et terrassement complet."
       },
       {
         "question": "Proposez-vous un devis gratuit à Bonnefamille ?",
@@ -1678,7 +1678,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "conception parasismique"
@@ -1699,7 +1699,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Tramolé ?",
-        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Tramolé."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, ouvertures de murs porteurs, terrassement : nous couvrons tout le gros œuvre à Tramolé."
       },
       {
         "question": "Proposez-vous un devis gratuit à Tramolé ?",
@@ -1775,7 +1775,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -1798,7 +1798,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Diémoz ?",
-        "answer": "À Diémoz, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "À Diémoz, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, ouvertures de murs porteurs et terrassement complet."
       },
       {
         "question": "Proposez-vous un devis gratuit à Diémoz ?",
@@ -1869,7 +1869,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -1962,7 +1962,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -2053,7 +2053,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -2143,7 +2143,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -2231,7 +2231,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -2255,7 +2255,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Meyrié ?",
-        "answer": "À Meyrié, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "À Meyrié, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, ouvertures de murs porteurs et terrassement complet."
       },
       {
         "question": "Proposez-vous un devis gratuit à Meyrié ?",
@@ -2318,7 +2318,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -2409,7 +2409,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -2505,7 +2505,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -2529,7 +2529,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Bourgoin-Jallieu ?",
-        "answer": "À Bourgoin-Jallieu, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "À Bourgoin-Jallieu, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, ouvertures de murs porteurs et terrassement complet."
       },
       {
         "question": "Proposez-vous un devis gratuit à Bourgoin-Jallieu ?",
@@ -2595,7 +2595,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -2683,7 +2683,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "conception parasismique"
@@ -2704,7 +2704,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Eclose-Badinières ?",
-        "answer": "À Eclose-Badinières, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "À Eclose-Badinières, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, ouvertures de murs porteurs et terrassement complet."
       },
       {
         "question": "Proposez-vous un devis gratuit à Eclose-Badinières ?",
@@ -2776,7 +2776,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -2865,7 +2865,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -2889,7 +2889,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Nivolas-Vermelle ?",
-        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Nivolas-Vermelle."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, ouvertures de murs porteurs, terrassement : nous couvrons tout le gros œuvre à Nivolas-Vermelle."
       },
       {
         "question": "Proposez-vous un devis gratuit à Nivolas-Vermelle ?",
@@ -2960,7 +2960,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -2984,7 +2984,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Meyssiez ?",
-        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Meyssiez."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, ouvertures de murs porteurs, terrassement : nous couvrons tout le gros œuvre à Meyssiez."
       },
       {
         "question": "Proposez-vous un devis gratuit à Meyssiez ?",
@@ -3048,7 +3048,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -3071,7 +3071,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Moidieu-Détourbe ?",
-        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Moidieu-Détourbe."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, ouvertures de murs porteurs, terrassement : nous couvrons tout le gros œuvre à Moidieu-Détourbe."
       },
       {
         "question": "Proposez-vous un devis gratuit à Moidieu-Détourbe ?",
@@ -3141,7 +3141,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -3165,7 +3165,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Saint-Quentin-Fallavier ?",
-        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Saint-Quentin-Fallavier."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, ouvertures de murs porteurs, terrassement : nous couvrons tout le gros œuvre à Saint-Quentin-Fallavier."
       },
       {
         "question": "Proposez-vous un devis gratuit à Saint-Quentin-Fallavier ?",
@@ -3233,7 +3233,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -3257,7 +3257,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Frontonas ?",
-        "answer": "À Frontonas, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "À Frontonas, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, ouvertures de murs porteurs et terrassement complet."
       },
       {
         "question": "Proposez-vous un devis gratuit à Frontonas ?",
@@ -3329,7 +3329,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -3353,7 +3353,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Porte-des-Bonnevaux ?",
-        "answer": "À Porte-des-Bonnevaux, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "À Porte-des-Bonnevaux, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, ouvertures de murs porteurs et terrassement complet."
       },
       {
         "question": "Proposez-vous un devis gratuit à Porte-des-Bonnevaux ?",
@@ -3421,7 +3421,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -3509,7 +3509,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "stabilité des sols",
@@ -3603,7 +3603,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -3626,7 +3626,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Heyrieux ?",
-        "answer": "À Heyrieux, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "À Heyrieux, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, ouvertures de murs porteurs et terrassement complet."
       },
       {
         "question": "Proposez-vous un devis gratuit à Heyrieux ?",
@@ -3696,7 +3696,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -3719,7 +3719,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Valencin ?",
-        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Valencin."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, ouvertures de murs porteurs, terrassement : nous couvrons tout le gros œuvre à Valencin."
       },
       {
         "question": "Proposez-vous un devis gratuit à Valencin ?",
@@ -3789,7 +3789,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -3882,7 +3882,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -3906,7 +3906,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Succieu ?",
-        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Succieu."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, ouvertures de murs porteurs, terrassement : nous couvrons tout le gros œuvre à Succieu."
       },
       {
         "question": "Proposez-vous un devis gratuit à Succieu ?",
@@ -3967,7 +3967,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -3990,7 +3990,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Saint-Marcel-Bel-Accueil ?",
-        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Saint-Marcel-Bel-Accueil."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, ouvertures de murs porteurs, terrassement : nous couvrons tout le gros œuvre à Saint-Marcel-Bel-Accueil."
       },
       {
         "question": "Proposez-vous un devis gratuit à Saint-Marcel-Bel-Accueil ?",
@@ -4052,7 +4052,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "conception parasismique"
@@ -4137,7 +4137,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -4160,7 +4160,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Septème ?",
-        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Septème."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, ouvertures de murs porteurs, terrassement : nous couvrons tout le gros œuvre à Septème."
       },
       {
         "question": "Proposez-vous un devis gratuit à Septème ?",
@@ -4222,7 +4222,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -4246,7 +4246,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Sérézin-de-la-Tour ?",
-        "answer": "À Sérézin-de-la-Tour, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "À Sérézin-de-la-Tour, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, ouvertures de murs porteurs et terrassement complet."
       },
       {
         "question": "Proposez-vous un devis gratuit à Sérézin-de-la-Tour ?",
@@ -4315,7 +4315,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -4339,7 +4339,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Eyzin-Pinet ?",
-        "answer": "À Eyzin-Pinet, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "À Eyzin-Pinet, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, ouvertures de murs porteurs et terrassement complet."
       },
       {
         "question": "Proposez-vous un devis gratuit à Eyzin-Pinet ?",
@@ -4408,7 +4408,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -4501,7 +4501,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "conception parasismique"
@@ -4585,7 +4585,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "conception parasismique"
@@ -4675,7 +4675,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -4698,7 +4698,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Saint-Savin ?",
-        "answer": "À Saint-Savin, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "À Saint-Savin, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, ouvertures de murs porteurs et terrassement complet."
       },
       {
         "question": "Proposez-vous un devis gratuit à Saint-Savin ?",
@@ -4763,7 +4763,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -4787,7 +4787,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Cour-et-Buis ?",
-        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Cour-et-Buis."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, ouvertures de murs porteurs, terrassement : nous couvrons tout le gros œuvre à Cour-et-Buis."
       },
       {
         "question": "Proposez-vous un devis gratuit à Cour-et-Buis ?",
@@ -4857,7 +4857,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -4881,7 +4881,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Estrablin ?",
-        "answer": "À Estrablin, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "À Estrablin, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, ouvertures de murs porteurs et terrassement complet."
       },
       {
         "question": "Proposez-vous un devis gratuit à Estrablin ?",
@@ -4942,7 +4942,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -5030,7 +5030,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -5053,7 +5053,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Biol ?",
-        "answer": "À Biol, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "À Biol, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, ouvertures de murs porteurs et terrassement complet."
       },
       {
         "question": "Proposez-vous un devis gratuit à Biol ?",
@@ -5123,7 +5123,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -5147,7 +5147,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Ornacieux-Balbins ?",
-        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Ornacieux-Balbins."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, ouvertures de murs porteurs, terrassement : nous couvrons tout le gros œuvre à Ornacieux-Balbins."
       },
       {
         "question": "Proposez-vous un devis gratuit à Ornacieux-Balbins ?",
@@ -5217,7 +5217,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -5241,7 +5241,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Satolas-et-Bonce ?",
-        "answer": "À Satolas-et-Bonce, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "À Satolas-et-Bonce, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, ouvertures de murs porteurs et terrassement complet."
       },
       {
         "question": "Proposez-vous un devis gratuit à Satolas-et-Bonce ?",
@@ -5307,7 +5307,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -5331,7 +5331,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Cessieu ?",
-        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Cessieu."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, ouvertures de murs porteurs, terrassement : nous couvrons tout le gros œuvre à Cessieu."
       },
       {
         "question": "Proposez-vous un devis gratuit à Cessieu ?",
@@ -5393,7 +5393,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "conception parasismique"
@@ -5481,7 +5481,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -5505,7 +5505,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Chamagnieu ?",
-        "answer": "À Chamagnieu, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "À Chamagnieu, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, ouvertures de murs porteurs et terrassement complet."
       },
       {
         "question": "Proposez-vous un devis gratuit à Chamagnieu ?",
@@ -5576,7 +5576,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -5600,7 +5600,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Saint-Victor-de-Cessieu ?",
-        "answer": "À Saint-Victor-de-Cessieu, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "À Saint-Victor-de-Cessieu, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, ouvertures de murs porteurs et terrassement complet."
       },
       {
         "question": "Proposez-vous un devis gratuit à Saint-Victor-de-Cessieu ?",
@@ -5663,7 +5663,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "conception parasismique"
@@ -5684,7 +5684,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Eydoche ?",
-        "answer": "À Eydoche, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "À Eydoche, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, ouvertures de murs porteurs et terrassement complet."
       },
       {
         "question": "Proposez-vous un devis gratuit à Eydoche ?",
@@ -5752,7 +5752,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -5845,7 +5845,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -5869,7 +5869,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Luzinay ?",
-        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Luzinay."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, ouvertures de murs porteurs, terrassement : nous couvrons tout le gros œuvre à Luzinay."
       },
       {
         "question": "Proposez-vous un devis gratuit à Luzinay ?",
@@ -5937,7 +5937,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -5960,7 +5960,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Mottier ?",
-        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Mottier."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, ouvertures de murs porteurs, terrassement : nous couvrons tout le gros œuvre à Mottier."
       },
       {
         "question": "Proposez-vous un devis gratuit à Mottier ?",
@@ -6029,7 +6029,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -6053,7 +6053,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Pommier-de-Beaurepaire ?",
-        "answer": "À Pommier-de-Beaurepaire, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "À Pommier-de-Beaurepaire, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, ouvertures de murs porteurs et terrassement complet."
       },
       {
         "question": "Proposez-vous un devis gratuit à Pommier-de-Beaurepaire ?",
@@ -6124,7 +6124,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -6148,7 +6148,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Saint-Pierre-de-Chandieu ?",
-        "answer": "À Saint-Pierre-de-Chandieu, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "À Saint-Pierre-de-Chandieu, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, ouvertures de murs porteurs et terrassement complet."
       },
       {
         "question": "Proposez-vous un devis gratuit à Saint-Pierre-de-Chandieu ?",
@@ -6210,7 +6210,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "conception parasismique"
@@ -6231,7 +6231,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Moras ?",
-        "answer": "À Moras, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "À Moras, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, ouvertures de murs porteurs et terrassement complet."
       },
       {
         "question": "Proposez-vous un devis gratuit à Moras ?",
@@ -6295,7 +6295,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "conception parasismique"
@@ -6379,7 +6379,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -6402,7 +6402,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Torchefelon ?",
-        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Torchefelon."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, ouvertures de murs porteurs, terrassement : nous couvrons tout le gros œuvre à Torchefelon."
       },
       {
         "question": "Proposez-vous un devis gratuit à Torchefelon ?",
@@ -6464,7 +6464,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -6488,7 +6488,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Primarette ?",
-        "answer": "À Primarette, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "À Primarette, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, ouvertures de murs porteurs et terrassement complet."
       },
       {
         "question": "Proposez-vous un devis gratuit à Primarette ?",
@@ -6550,7 +6550,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -6640,7 +6640,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "stabilité des sols",
@@ -6662,7 +6662,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Saint-Laurent-de-Mure ?",
-        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Saint-Laurent-de-Mure."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, ouvertures de murs porteurs, terrassement : nous couvrons tout le gros œuvre à Saint-Laurent-de-Mure."
       },
       {
         "question": "Proposez-vous un devis gratuit à Saint-Laurent-de-Mure ?",
@@ -6736,7 +6736,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -6760,7 +6760,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à La Côte-Saint-André ?",
-        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à La Côte-Saint-André."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, ouvertures de murs porteurs, terrassement : nous couvrons tout le gros œuvre à La Côte-Saint-André."
       },
       {
         "question": "Proposez-vous un devis gratuit à La Côte-Saint-André ?",
@@ -6827,7 +6827,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -6851,7 +6851,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Pisieu ?",
-        "answer": "À Pisieu, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "À Pisieu, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, ouvertures de murs porteurs et terrassement complet."
       },
       {
         "question": "Proposez-vous un devis gratuit à Pisieu ?",
@@ -6923,7 +6923,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -6947,7 +6947,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Pont-Évêque ?",
-        "answer": "À Pont-Évêque, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "À Pont-Évêque, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, ouvertures de murs porteurs et terrassement complet."
       },
       {
         "question": "Proposez-vous un devis gratuit à Pont-Évêque ?",
@@ -7016,7 +7016,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -7104,7 +7104,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -7128,7 +7128,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Saint-Sorlin-de-Vienne ?",
-        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Saint-Sorlin-de-Vienne."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, ouvertures de murs porteurs, terrassement : nous couvrons tout le gros œuvre à Saint-Sorlin-de-Vienne."
       },
       {
         "question": "Proposez-vous un devis gratuit à Saint-Sorlin-de-Vienne ?",
@@ -7189,7 +7189,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "conception parasismique"
@@ -7272,7 +7272,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -7363,7 +7363,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -7386,7 +7386,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Serpaize ?",
-        "answer": "À Serpaize, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "À Serpaize, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, ouvertures de murs porteurs et terrassement complet."
       },
       {
         "question": "Proposez-vous un devis gratuit à Serpaize ?",
@@ -7457,7 +7457,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -7543,7 +7543,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -7567,7 +7567,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Toussieu ?",
-        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Toussieu."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, ouvertures de murs porteurs, terrassement : nous couvrons tout le gros œuvre à Toussieu."
       },
       {
         "question": "Proposez-vous un devis gratuit à Toussieu ?",
@@ -7632,7 +7632,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "conception parasismique"
@@ -7653,7 +7653,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Longechenal ?",
-        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Longechenal."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, ouvertures de murs porteurs, terrassement : nous couvrons tout le gros œuvre à Longechenal."
       },
       {
         "question": "Proposez-vous un devis gratuit à Longechenal ?",
@@ -7716,7 +7716,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "conception parasismique"
@@ -7802,7 +7802,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -7892,7 +7892,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -7983,7 +7983,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -8007,7 +8007,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Rochetoirin ?",
-        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Rochetoirin."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, ouvertures de murs porteurs, terrassement : nous couvrons tout le gros œuvre à Rochetoirin."
       },
       {
         "question": "Proposez-vous un devis gratuit à Rochetoirin ?",
@@ -8069,7 +8069,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -8159,7 +8159,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "conception parasismique"
@@ -8180,7 +8180,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Villemoirieu ?",
-        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Villemoirieu."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, ouvertures de murs porteurs, terrassement : nous couvrons tout le gros œuvre à Villemoirieu."
       },
       {
         "question": "Proposez-vous un devis gratuit à Villemoirieu ?",
@@ -8242,7 +8242,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -8334,7 +8334,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "stabilité des sols",
@@ -8356,7 +8356,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Colombier-Saugnieu ?",
-        "answer": "À Colombier-Saugnieu, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "À Colombier-Saugnieu, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, ouvertures de murs porteurs et terrassement complet."
       },
       {
         "question": "Proposez-vous un devis gratuit à Colombier-Saugnieu ?",
@@ -8418,7 +8418,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -8509,7 +8509,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -8532,7 +8532,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Trept ?",
-        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Trept."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, ouvertures de murs porteurs, terrassement : nous couvrons tout le gros œuvre à Trept."
       },
       {
         "question": "Proposez-vous un devis gratuit à Trept ?",
@@ -8601,7 +8601,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -8624,7 +8624,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Salagnon ?",
-        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Salagnon."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, ouvertures de murs porteurs, terrassement : nous couvrons tout le gros œuvre à Salagnon."
       },
       {
         "question": "Proposez-vous un devis gratuit à Salagnon ?",
@@ -8695,7 +8695,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -8719,7 +8719,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Jardin ?",
-        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Jardin."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, ouvertures de murs porteurs, terrassement : nous couvrons tout le gros œuvre à Jardin."
       },
       {
         "question": "Proposez-vous un devis gratuit à Jardin ?",
@@ -8780,7 +8780,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -8868,7 +8868,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -8955,7 +8955,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -8979,7 +8979,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Sainte-Blandine ?",
-        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Sainte-Blandine."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, ouvertures de murs porteurs, terrassement : nous couvrons tout le gros œuvre à Sainte-Blandine."
       },
       {
         "question": "Proposez-vous un devis gratuit à Sainte-Blandine ?",
@@ -9046,7 +9046,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "stabilité des sols",
@@ -9068,7 +9068,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Saint-Bonnet-de-Mure ?",
-        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Saint-Bonnet-de-Mure."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, ouvertures de murs porteurs, terrassement : nous couvrons tout le gros œuvre à Saint-Bonnet-de-Mure."
       },
       {
         "question": "Proposez-vous un devis gratuit à Saint-Bonnet-de-Mure ?",
@@ -9135,7 +9135,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "conception parasismique"
@@ -9156,7 +9156,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Dizimieu ?",
-        "answer": "À Dizimieu, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "À Dizimieu, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, ouvertures de murs porteurs et terrassement complet."
       },
       {
         "question": "Proposez-vous un devis gratuit à Dizimieu ?",
@@ -9219,7 +9219,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -9242,7 +9242,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Saint-Hilaire-de-la-Côte ?",
-        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Saint-Hilaire-de-la-Côte."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, ouvertures de murs porteurs, terrassement : nous couvrons tout le gros œuvre à Saint-Hilaire-de-la-Côte."
       },
       {
         "question": "Proposez-vous un devis gratuit à Saint-Hilaire-de-la-Côte ?",
@@ -9313,7 +9313,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -9337,7 +9337,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Revel-Tourdan ?",
-        "answer": "À Revel-Tourdan, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "À Revel-Tourdan, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, ouvertures de murs porteurs et terrassement complet."
       },
       {
         "question": "Proposez-vous un devis gratuit à Revel-Tourdan ?",
@@ -9403,7 +9403,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -9495,7 +9495,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -9518,7 +9518,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Tignieu-Jameyzieu ?",
-        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Tignieu-Jameyzieu."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, ouvertures de murs porteurs, terrassement : nous couvrons tout le gros œuvre à Tignieu-Jameyzieu."
       },
       {
         "question": "Proposez-vous un devis gratuit à Tignieu-Jameyzieu ?",
@@ -9586,7 +9586,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -9610,7 +9610,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Moissieu-sur-Dolon ?",
-        "answer": "À Moissieu-sur-Dolon, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "À Moissieu-sur-Dolon, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, ouvertures de murs porteurs et terrassement complet."
       },
       {
         "question": "Proposez-vous un devis gratuit à Moissieu-sur-Dolon ?",
@@ -9680,7 +9680,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -9772,7 +9772,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -9795,7 +9795,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Mions ?",
-        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Mions."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, ouvertures de murs porteurs, terrassement : nous couvrons tout le gros œuvre à Mions."
       },
       {
         "question": "Proposez-vous un devis gratuit à Mions ?",
@@ -9862,7 +9862,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -9959,7 +9959,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -10043,7 +10043,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -10066,7 +10066,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Montagnieu ?",
-        "answer": "À Montagnieu, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "À Montagnieu, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, ouvertures de murs porteurs et terrassement complet."
       },
       {
         "question": "Proposez-vous un devis gratuit à Montagnieu ?",
@@ -10127,7 +10127,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -10150,7 +10150,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Vignieu ?",
-        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Vignieu."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, ouvertures de murs porteurs, terrassement : nous couvrons tout le gros œuvre à Vignieu."
       },
       {
         "question": "Proposez-vous un devis gratuit à Vignieu ?",
@@ -10226,7 +10226,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -10250,7 +10250,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Vienne ?",
-        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Vienne."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, ouvertures de murs porteurs, terrassement : nous couvrons tout le gros œuvre à Vienne."
       },
       {
         "question": "Proposez-vous un devis gratuit à Vienne ?",
@@ -10310,7 +10310,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "conception parasismique"
@@ -10331,7 +10331,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Châbons ?",
-        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Châbons."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, ouvertures de murs porteurs, terrassement : nous couvrons tout le gros œuvre à Châbons."
       },
       {
         "question": "Proposez-vous un devis gratuit à Châbons ?",
@@ -10400,7 +10400,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -10486,7 +10486,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -10509,7 +10509,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à La Frette ?",
-        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à La Frette."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, ouvertures de murs porteurs, terrassement : nous couvrons tout le gros œuvre à La Frette."
       },
       {
         "question": "Proposez-vous un devis gratuit à La Frette ?",
@@ -10581,7 +10581,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -10604,7 +10604,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Saint-Barthélemy ?",
-        "answer": "À Saint-Barthélemy, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "À Saint-Barthélemy, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, ouvertures de murs porteurs et terrassement complet."
       },
       {
         "question": "Proposez-vous un devis gratuit à Saint-Barthélemy ?",
@@ -10672,7 +10672,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -10696,7 +10696,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Chuzelles ?",
-        "answer": "À Chuzelles, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "À Chuzelles, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, ouvertures de murs porteurs et terrassement complet."
       },
       {
         "question": "Proposez-vous un devis gratuit à Chuzelles ?",
@@ -10766,7 +10766,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -10854,7 +10854,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -10941,7 +10941,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -10964,7 +10964,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Bévenais ?",
-        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Bévenais."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, ouvertures de murs porteurs, terrassement : nous couvrons tout le gros œuvre à Bévenais."
       },
       {
         "question": "Proposez-vous un devis gratuit à Bévenais ?",
@@ -11029,7 +11029,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "conception parasismique"
@@ -11050,7 +11050,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Soleymieu ?",
-        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Soleymieu."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, ouvertures de murs porteurs, terrassement : nous couvrons tout le gros œuvre à Soleymieu."
       },
       {
         "question": "Proposez-vous un devis gratuit à Soleymieu ?",
@@ -11116,7 +11116,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -11202,7 +11202,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "conception parasismique"
@@ -11291,7 +11291,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "conception parasismique"
@@ -11312,7 +11312,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Sermérieu ?",
-        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Sermérieu."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, ouvertures de murs porteurs, terrassement : nous couvrons tout le gros œuvre à Sermérieu."
       },
       {
         "question": "Proposez-vous un devis gratuit à Sermérieu ?",
@@ -11379,7 +11379,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "conception parasismique"
@@ -11400,7 +11400,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Janneyrias ?",
-        "answer": "À Janneyrias, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "À Janneyrias, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, ouvertures de murs porteurs et terrassement complet."
       },
       {
         "question": "Proposez-vous un devis gratuit à Janneyrias ?",
@@ -11469,7 +11469,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -11558,7 +11558,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -11581,7 +11581,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Saint-Romain-de-Jalionas ?",
-        "answer": "À Saint-Romain-de-Jalionas, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "À Saint-Romain-de-Jalionas, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, ouvertures de murs porteurs et terrassement complet."
       },
       {
         "question": "Proposez-vous un devis gratuit à Saint-Romain-de-Jalionas ?",
@@ -11645,7 +11645,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -11669,7 +11669,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Vernioz ?",
-        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Vernioz."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, ouvertures de murs porteurs, terrassement : nous couvrons tout le gros œuvre à Vernioz."
       },
       {
         "question": "Proposez-vous un devis gratuit à Vernioz ?",
@@ -11743,7 +11743,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -11767,7 +11767,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Genas ?",
-        "answer": "À Genas, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "À Genas, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, ouvertures de murs porteurs et terrassement complet."
       },
       {
         "question": "Proposez-vous un devis gratuit à Genas ?",
@@ -11834,7 +11834,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -11919,7 +11919,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -11942,7 +11942,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Chélieu ?",
-        "answer": "À Chélieu, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "À Chélieu, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, ouvertures de murs porteurs et terrassement complet."
       },
       {
         "question": "Proposez-vous un devis gratuit à Chélieu ?",
@@ -12009,7 +12009,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -12033,7 +12033,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Simandres ?",
-        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Simandres."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, ouvertures de murs porteurs, terrassement : nous couvrons tout le gros œuvre à Simandres."
       },
       {
         "question": "Proposez-vous un devis gratuit à Simandres ?",
@@ -12102,7 +12102,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -12125,7 +12125,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Corbas ?",
-        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Corbas."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, ouvertures de murs porteurs, terrassement : nous couvrons tout le gros œuvre à Corbas."
       },
       {
         "question": "Proposez-vous un devis gratuit à Corbas ?",
@@ -12193,7 +12193,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -12217,7 +12217,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Les Côtes-d'Arey ?",
-        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Les Côtes-d'Arey."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, ouvertures de murs porteurs, terrassement : nous couvrons tout le gros œuvre à Les Côtes-d'Arey."
       },
       {
         "question": "Proposez-vous un devis gratuit à Les Côtes-d'Arey ?",
@@ -12281,7 +12281,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -12304,7 +12304,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Val-de-Virieu ?",
-        "answer": "À Val-de-Virieu, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "À Val-de-Virieu, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, ouvertures de murs porteurs et terrassement complet."
       },
       {
         "question": "Proposez-vous un devis gratuit à Val-de-Virieu ?",
@@ -12374,7 +12374,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -12467,7 +12467,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -12555,7 +12555,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -12579,7 +12579,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à La Chapelle-de-la-Tour ?",
-        "answer": "À La Chapelle-de-la-Tour, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "À La Chapelle-de-la-Tour, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, ouvertures de murs porteurs et terrassement complet."
       },
       {
         "question": "Proposez-vous un devis gratuit à La Chapelle-de-la-Tour ?",
@@ -12641,7 +12641,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -12664,7 +12664,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Le Grand-Lemps ?",
-        "answer": "À Le Grand-Lemps, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "À Le Grand-Lemps, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, ouvertures de murs porteurs et terrassement complet."
       },
       {
         "question": "Proposez-vous un devis gratuit à Le Grand-Lemps ?",
@@ -12729,7 +12729,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -12828,7 +12828,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -12851,7 +12851,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Saint-Priest ?",
-        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Saint-Priest."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, ouvertures de murs porteurs, terrassement : nous couvrons tout le gros œuvre à Saint-Priest."
       },
       {
         "question": "Proposez-vous un devis gratuit à Saint-Priest ?",
@@ -12916,7 +12916,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -12940,7 +12940,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Pact ?",
-        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Pact."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, ouvertures de murs porteurs, terrassement : nous couvrons tout le gros œuvre à Pact."
       },
       {
         "question": "Proposez-vous un devis gratuit à Pact ?",
@@ -13008,7 +13008,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -13032,7 +13032,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Leyrieu ?",
-        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Leyrieu."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, ouvertures de murs porteurs, terrassement : nous couvrons tout le gros œuvre à Leyrieu."
       },
       {
         "question": "Proposez-vous un devis gratuit à Leyrieu ?",
@@ -13100,7 +13100,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -13194,7 +13194,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -13286,7 +13286,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -13310,7 +13310,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Saint-Siméon-de-Bressieux ?",
-        "answer": "À Saint-Siméon-de-Bressieux, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "À Saint-Siméon-de-Bressieux, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, ouvertures de murs porteurs et terrassement complet."
       },
       {
         "question": "Proposez-vous un devis gratuit à Saint-Siméon-de-Bressieux ?",
@@ -13375,7 +13375,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "conception parasismique"
@@ -13467,7 +13467,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -13561,7 +13561,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -13584,7 +13584,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Seyssuel ?",
-        "answer": "À Seyssuel, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "À Seyssuel, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, ouvertures de murs porteurs et terrassement complet."
       },
       {
         "question": "Proposez-vous un devis gratuit à Seyssuel ?",
@@ -13652,7 +13652,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "stabilité des sols",
@@ -13674,7 +13674,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Pusignan ?",
-        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Pusignan."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, ouvertures de murs porteurs, terrassement : nous couvrons tout le gros œuvre à Pusignan."
       },
       {
         "question": "Proposez-vous un devis gratuit à Pusignan ?",
@@ -13748,7 +13748,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -13771,7 +13771,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Chavanoz ?",
-        "answer": "À Chavanoz, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "À Chavanoz, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, ouvertures de murs porteurs et terrassement complet."
       },
       {
         "question": "Proposez-vous un devis gratuit à Chavanoz ?",
@@ -13834,7 +13834,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -13857,7 +13857,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Saint-Sorlin-de-Morestel ?",
-        "answer": "À Saint-Sorlin-de-Morestel, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "À Saint-Sorlin-de-Morestel, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, ouvertures de murs porteurs et terrassement complet."
       },
       {
         "question": "Proposez-vous un devis gratuit à Saint-Sorlin-de-Morestel ?",
@@ -13922,7 +13922,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -13946,7 +13946,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Saint-Symphorien-d'Ozon ?",
-        "answer": "À Saint-Symphorien-d'Ozon, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "À Saint-Symphorien-d'Ozon, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, ouvertures de murs porteurs et terrassement complet."
       },
       {
         "question": "Proposez-vous un devis gratuit à Saint-Symphorien-d'Ozon ?",
@@ -14011,7 +14011,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -14101,7 +14101,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -14125,7 +14125,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Viriville ?",
-        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Viriville."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, ouvertures de murs porteurs, terrassement : nous couvrons tout le gros œuvre à Viriville."
       },
       {
         "question": "Proposez-vous un devis gratuit à Viriville ?",
@@ -14193,7 +14193,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -14216,7 +14216,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Reventin-Vaugris ?",
-        "answer": "À Reventin-Vaugris, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "À Reventin-Vaugris, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, ouvertures de murs porteurs et terrassement complet."
       },
       {
         "question": "Proposez-vous un devis gratuit à Reventin-Vaugris ?",
@@ -14286,7 +14286,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -14310,7 +14310,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Saint-Romain-en-Gal ?",
-        "answer": "À Saint-Romain-en-Gal, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "À Saint-Romain-en-Gal, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, ouvertures de murs porteurs et terrassement complet."
       },
       {
         "question": "Proposez-vous un devis gratuit à Saint-Romain-en-Gal ?",
@@ -14377,7 +14377,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -14401,7 +14401,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Assieu ?",
-        "answer": "À Assieu, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "À Assieu, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, ouvertures de murs porteurs et terrassement complet."
       },
       {
         "question": "Proposez-vous un devis gratuit à Assieu ?",
@@ -14470,7 +14470,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -14559,7 +14559,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -14652,7 +14652,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -14676,7 +14676,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Saint-Cyr-sur-le-Rhône ?",
-        "answer": "À Saint-Cyr-sur-le-Rhône, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "À Saint-Cyr-sur-le-Rhône, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, ouvertures de murs porteurs et terrassement complet."
       },
       {
         "question": "Proposez-vous un devis gratuit à Saint-Cyr-sur-le-Rhône ?",
@@ -14742,7 +14742,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "stabilité des sols",
@@ -14764,7 +14764,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Annoisin-Chatelans ?",
-        "answer": "À Annoisin-Chatelans, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "À Annoisin-Chatelans, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, ouvertures de murs porteurs et terrassement complet."
       },
       {
         "question": "Proposez-vous un devis gratuit à Annoisin-Chatelans ?",
@@ -14829,7 +14829,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -14852,7 +14852,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Anthon ?",
-        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Anthon."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, ouvertures de murs porteurs, terrassement : nous couvrons tout le gros œuvre à Anthon."
       },
       {
         "question": "Proposez-vous un devis gratuit à Anthon ?",
@@ -14917,7 +14917,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -14940,7 +14940,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Le Passage ?",
-        "answer": "À Le Passage, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "À Le Passage, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, ouvertures de murs porteurs et terrassement complet."
       },
       {
         "question": "Proposez-vous un devis gratuit à Le Passage ?",
@@ -15008,7 +15008,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -15031,7 +15031,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Chassieu ?",
-        "answer": "À Chassieu, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "À Chassieu, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, ouvertures de murs porteurs et terrassement complet."
       },
       {
         "question": "Proposez-vous un devis gratuit à Chassieu ?",
@@ -15098,7 +15098,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "conception parasismique"
@@ -15188,7 +15188,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "conception parasismique"
@@ -15273,7 +15273,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "conception parasismique"
@@ -15362,7 +15362,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -15385,7 +15385,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Lapeyrouse-Mornay ?",
-        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Lapeyrouse-Mornay."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, ouvertures de murs porteurs, terrassement : nous couvrons tout le gros œuvre à Lapeyrouse-Mornay."
       },
       {
         "question": "Proposez-vous un devis gratuit à Lapeyrouse-Mornay ?",
@@ -15448,7 +15448,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "conception parasismique"
@@ -15469,7 +15469,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Faverges-de-la-Tour ?",
-        "answer": "À Faverges-de-la-Tour, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "À Faverges-de-la-Tour, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, ouvertures de murs porteurs et terrassement complet."
       },
       {
         "question": "Proposez-vous un devis gratuit à Faverges-de-la-Tour ?",
@@ -15533,7 +15533,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -15557,7 +15557,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Sillans ?",
-        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Sillans."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, ouvertures de murs porteurs, terrassement : nous couvrons tout le gros œuvre à Sillans."
       },
       {
         "question": "Proposez-vous un devis gratuit à Sillans ?",
@@ -15625,7 +15625,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -15649,7 +15649,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Chasse-sur-Rhône ?",
-        "answer": "À Chasse-sur-Rhône, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "À Chasse-sur-Rhône, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, ouvertures de murs porteurs et terrassement complet."
       },
       {
         "question": "Proposez-vous un devis gratuit à Chasse-sur-Rhône ?",
@@ -15711,7 +15711,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -15735,7 +15735,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Saint-Pierre-de-Bressieux ?",
-        "answer": "À Saint-Pierre-de-Bressieux, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "À Saint-Pierre-de-Bressieux, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, ouvertures de murs porteurs et terrassement complet."
       },
       {
         "question": "Proposez-vous un devis gratuit à Saint-Pierre-de-Bressieux ?",
@@ -15805,7 +15805,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "conception parasismique"
@@ -15826,7 +15826,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Arandon-Passins ?",
-        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Arandon-Passins."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, ouvertures de murs porteurs, terrassement : nous couvrons tout le gros œuvre à Arandon-Passins."
       },
       {
         "question": "Proposez-vous un devis gratuit à Arandon-Passins ?",
@@ -15894,7 +15894,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -15917,7 +15917,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Cheyssieu ?",
-        "answer": "À Cheyssieu, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "À Cheyssieu, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, ouvertures de murs porteurs et terrassement complet."
       },
       {
         "question": "Proposez-vous un devis gratuit à Cheyssieu ?",
@@ -15981,7 +15981,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "conception parasismique"
@@ -16002,7 +16002,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Courtenay ?",
-        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Courtenay."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, ouvertures de murs porteurs, terrassement : nous couvrons tout le gros œuvre à Courtenay."
       },
       {
         "question": "Proposez-vous un devis gratuit à Courtenay ?",
@@ -16070,7 +16070,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -16094,7 +16094,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Sonnay ?",
-        "answer": "À Sonnay, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "À Sonnay, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, ouvertures de murs porteurs et terrassement complet."
       },
       {
         "question": "Proposez-vous un devis gratuit à Sonnay ?",
@@ -16163,7 +16163,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -16259,7 +16259,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -16282,7 +16282,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Jarcieu ?",
-        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Jarcieu."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, ouvertures de murs porteurs, terrassement : nous couvrons tout le gros œuvre à Jarcieu."
       },
       {
         "question": "Proposez-vous un devis gratuit à Jarcieu ?",
@@ -16355,7 +16355,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -16379,7 +16379,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Ampuis ?",
-        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Ampuis."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, ouvertures de murs porteurs, terrassement : nous couvrons tout le gros œuvre à Ampuis."
       },
       {
         "question": "Proposez-vous un devis gratuit à Ampuis ?",
@@ -16449,7 +16449,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -16543,7 +16543,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -16567,7 +16567,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Morestel ?",
-        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Morestel."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, ouvertures de murs porteurs, terrassement : nous couvrons tout le gros œuvre à Morestel."
       },
       {
         "question": "Proposez-vous un devis gratuit à Morestel ?",
@@ -16631,7 +16631,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -16655,7 +16655,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Saint-André-le-Gaz ?",
-        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Saint-André-le-Gaz."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, ouvertures de murs porteurs, terrassement : nous couvrons tout le gros œuvre à Saint-André-le-Gaz."
       },
       {
         "question": "Proposez-vous un devis gratuit à Saint-André-le-Gaz ?",
@@ -16721,7 +16721,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -16745,7 +16745,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Sérézin-du-Rhône ?",
-        "answer": "À Sérézin-du-Rhône, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "À Sérézin-du-Rhône, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, ouvertures de murs porteurs et terrassement complet."
       },
       {
         "question": "Proposez-vous un devis gratuit à Sérézin-du-Rhône ?",
@@ -16819,7 +16819,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -16914,7 +16914,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -17007,7 +17007,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -17093,7 +17093,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -17116,7 +17116,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Loyettes ?",
-        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Loyettes."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, ouvertures de murs porteurs, terrassement : nous couvrons tout le gros œuvre à Loyettes."
       },
       {
         "question": "Proposez-vous un devis gratuit à Loyettes ?",
@@ -17182,7 +17182,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "conception parasismique"
@@ -17203,7 +17203,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Valencogne ?",
-        "answer": "À Valencogne, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "À Valencogne, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, ouvertures de murs porteurs et terrassement complet."
       },
       {
         "question": "Proposez-vous un devis gratuit à Valencogne ?",
@@ -17269,7 +17269,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -17367,7 +17367,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -17456,7 +17456,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "conception parasismique"
@@ -17547,7 +17547,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -17571,7 +17571,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Ternay ?",
-        "answer": "À Ternay, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "À Ternay, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, ouvertures de murs porteurs et terrassement complet."
       },
       {
         "question": "Proposez-vous un devis gratuit à Ternay ?",
@@ -17639,7 +17639,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -17725,7 +17725,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -17748,7 +17748,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Chonas-l'Amballan ?",
-        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Chonas-l'Amballan."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, ouvertures de murs porteurs, terrassement : nous couvrons tout le gros œuvre à Chonas-l'Amballan."
       },
       {
         "question": "Proposez-vous un devis gratuit à Chonas-l'Amballan ?",
@@ -17812,7 +17812,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -17910,7 +17910,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "stabilité des sols",
@@ -17932,7 +17932,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Bron ?",
-        "answer": "À Bron, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "À Bron, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, ouvertures de murs porteurs et terrassement complet."
       },
       {
         "question": "Proposez-vous un devis gratuit à Bron ?",
@@ -18001,7 +18001,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -18024,7 +18024,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Jonage ?",
-        "answer": "À Jonage, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "À Jonage, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, ouvertures de murs porteurs et terrassement complet."
       },
       {
         "question": "Proposez-vous un devis gratuit à Jonage ?",
@@ -18093,7 +18093,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -18117,7 +18117,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Jons ?",
-        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Jons."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, ouvertures de murs porteurs, terrassement : nous couvrons tout le gros œuvre à Jons."
       },
       {
         "question": "Proposez-vous un devis gratuit à Jons ?",
@@ -18183,7 +18183,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -18206,7 +18206,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Izeaux ?",
-        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Izeaux."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, ouvertures de murs porteurs, terrassement : nous couvrons tout le gros œuvre à Izeaux."
       },
       {
         "question": "Proposez-vous un devis gratuit à Izeaux ?",
@@ -18277,7 +18277,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -18370,7 +18370,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -18394,7 +18394,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Loire-sur-Rhône ?",
-        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Loire-sur-Rhône."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, ouvertures de murs porteurs, terrassement : nous couvrons tout le gros œuvre à Loire-sur-Rhône."
       },
       {
         "question": "Proposez-vous un devis gratuit à Loire-sur-Rhône ?",
@@ -18461,7 +18461,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -18547,7 +18547,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -18635,7 +18635,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -18724,7 +18724,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -18747,7 +18747,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Vernaison ?",
-        "answer": "À Vernaison, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "À Vernaison, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, ouvertures de murs porteurs et terrassement complet."
       },
       {
         "question": "Proposez-vous un devis gratuit à Vernaison ?",
@@ -18814,7 +18814,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -18908,7 +18908,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -18932,7 +18932,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Apprieu ?",
-        "answer": "À Apprieu, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "À Apprieu, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, ouvertures de murs porteurs et terrassement complet."
       },
       {
         "question": "Proposez-vous un devis gratuit à Apprieu ?",
@@ -18997,7 +18997,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -19020,7 +19020,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Anjou ?",
-        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Anjou."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, ouvertures de murs porteurs, terrassement : nous couvrons tout le gros œuvre à Anjou."
       },
       {
         "question": "Proposez-vous un devis gratuit à Anjou ?",
@@ -19087,7 +19087,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -19111,7 +19111,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Corbelin ?",
-        "answer": "À Corbelin, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "À Corbelin, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, ouvertures de murs porteurs et terrassement complet."
       },
       {
         "question": "Proposez-vous un devis gratuit à Corbelin ?",
@@ -19177,7 +19177,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -19268,7 +19268,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -19291,7 +19291,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Grigny-sur-Rhône ?",
-        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Grigny-sur-Rhône."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, ouvertures de murs porteurs, terrassement : nous couvrons tout le gros œuvre à Grigny-sur-Rhône."
       },
       {
         "question": "Proposez-vous un devis gratuit à Grigny-sur-Rhône ?",
@@ -19360,7 +19360,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -19384,7 +19384,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Tupin-et-Semons ?",
-        "answer": "À Tupin-et-Semons, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "À Tupin-et-Semons, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, ouvertures de murs porteurs et terrassement complet."
       },
       {
         "question": "Proposez-vous un devis gratuit à Tupin-et-Semons ?",
@@ -19457,7 +19457,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -19480,7 +19480,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Épinouze ?",
-        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Épinouze."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, ouvertures de murs porteurs, terrassement : nous couvrons tout le gros œuvre à Épinouze."
       },
       {
         "question": "Proposez-vous un devis gratuit à Épinouze ?",
@@ -19556,7 +19556,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -19579,7 +19579,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Décines-Charpieu ?",
-        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Décines-Charpieu."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, ouvertures de murs porteurs, terrassement : nous couvrons tout le gros œuvre à Décines-Charpieu."
       },
       {
         "question": "Proposez-vous un devis gratuit à Décines-Charpieu ?",
@@ -19647,7 +19647,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -19736,7 +19736,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -19759,7 +19759,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Saint-Maurice-de-Gourdans ?",
-        "answer": "À Saint-Maurice-de-Gourdans, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "À Saint-Maurice-de-Gourdans, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, ouvertures de murs porteurs et terrassement complet."
       },
       {
         "question": "Proposez-vous un devis gratuit à Saint-Maurice-de-Gourdans ?",
@@ -19825,7 +19825,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -19915,7 +19915,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -20003,7 +20003,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -20090,7 +20090,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -20114,7 +20114,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Le Grand-Serre ?",
-        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Le Grand-Serre."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, ouvertures de murs porteurs, terrassement : nous couvrons tout le gros œuvre à Le Grand-Serre."
       },
       {
         "question": "Proposez-vous un devis gratuit à Le Grand-Serre ?",
@@ -20177,7 +20177,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -20265,7 +20265,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -20288,7 +20288,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Le Bouchage ?",
-        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Le Bouchage."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, ouvertures de murs porteurs, terrassement : nous couvrons tout le gros œuvre à Le Bouchage."
       },
       {
         "question": "Proposez-vous un devis gratuit à Le Bouchage ?",
@@ -20351,7 +20351,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -20374,7 +20374,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Rives ?",
-        "answer": "À Rives, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "À Rives, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, ouvertures de murs porteurs et terrassement complet."
       },
       {
         "question": "Proposez-vous un devis gratuit à Rives ?",
@@ -20445,7 +20445,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -20469,7 +20469,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Millery ?",
-        "answer": "À Millery, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "À Millery, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, ouvertures de murs porteurs et terrassement complet."
       },
       {
         "question": "Proposez-vous un devis gratuit à Millery ?",
@@ -20535,7 +20535,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -20558,7 +20558,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Beaucroissant ?",
-        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Beaucroissant."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, ouvertures de murs porteurs, terrassement : nous couvrons tout le gros œuvre à Beaucroissant."
       },
       {
         "question": "Proposez-vous un devis gratuit à Beaucroissant ?",
@@ -20624,7 +20624,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -20647,7 +20647,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Saint-Blaise-du-Buis ?",
-        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Saint-Blaise-du-Buis."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, ouvertures de murs porteurs, terrassement : nous couvrons tout le gros œuvre à Saint-Blaise-du-Buis."
       },
       {
         "question": "Proposez-vous un devis gratuit à Saint-Blaise-du-Buis ?",
@@ -20714,7 +20714,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -20804,7 +20804,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -20895,7 +20895,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -20918,7 +20918,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Bougé-Chambalud ?",
-        "answer": "À Bougé-Chambalud, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "À Bougé-Chambalud, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, ouvertures de murs porteurs et terrassement complet."
       },
       {
         "question": "Proposez-vous un devis gratuit à Bougé-Chambalud ?",
@@ -20987,7 +20987,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -21011,7 +21011,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Les Avenières Veyrins-Thuellin ?",
-        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Les Avenières Veyrins-Thuellin."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, ouvertures de murs porteurs, terrassement : nous couvrons tout le gros œuvre à Les Avenières Veyrins-Thuellin."
       },
       {
         "question": "Proposez-vous un devis gratuit à Les Avenières Veyrins-Thuellin ?",
@@ -21078,7 +21078,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -21102,7 +21102,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Clonas-sur-Varèze ?",
-        "answer": "À Clonas-sur-Varèze, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "À Clonas-sur-Varèze, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, ouvertures de murs porteurs et terrassement complet."
       },
       {
         "question": "Proposez-vous un devis gratuit à Clonas-sur-Varèze ?",
@@ -21172,7 +21172,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -21261,7 +21261,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -21284,7 +21284,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Balan ?",
-        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Balan."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, ouvertures de murs porteurs, terrassement : nous couvrons tout le gros œuvre à Balan."
       },
       {
         "question": "Proposez-vous un devis gratuit à Balan ?",
@@ -21349,7 +21349,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -21373,7 +21373,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Les Abrets en Dauphiné ?",
-        "answer": "À Les Abrets en Dauphiné, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "À Les Abrets en Dauphiné, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, ouvertures de murs porteurs et terrassement complet."
       },
       {
         "question": "Proposez-vous un devis gratuit à Les Abrets en Dauphiné ?",
@@ -21447,7 +21447,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -21470,7 +21470,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Vaulx-en-Velin ?",
-        "answer": "À Vaulx-en-Velin, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "À Vaulx-en-Velin, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, ouvertures de murs porteurs et terrassement complet."
       },
       {
         "question": "Proposez-vous un devis gratuit à Vaulx-en-Velin ?",
@@ -21533,7 +21533,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -21556,7 +21556,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Saint-Vulbas ?",
-        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Saint-Vulbas."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, ouvertures de murs porteurs, terrassement : nous couvrons tout le gros œuvre à Saint-Vulbas."
       },
       {
         "question": "Proposez-vous un devis gratuit à Saint-Vulbas ?",
@@ -21622,7 +21622,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -21645,7 +21645,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Les Roches-de-Condrieu ?",
-        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Les Roches-de-Condrieu."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, ouvertures de murs porteurs, terrassement : nous couvrons tout le gros œuvre à Les Roches-de-Condrieu."
       },
       {
         "question": "Proposez-vous un devis gratuit à Les Roches-de-Condrieu ?",
@@ -21711,7 +21711,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -21734,7 +21734,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Roussillon ?",
-        "answer": "À Roussillon, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "À Roussillon, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, ouvertures de murs porteurs et terrassement complet."
       },
       {
         "question": "Proposez-vous un devis gratuit à Roussillon ?",
@@ -21799,7 +21799,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -21822,7 +21822,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Creys-Mépieu ?",
-        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Creys-Mépieu."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, ouvertures de murs porteurs, terrassement : nous couvrons tout le gros œuvre à Creys-Mépieu."
       },
       {
         "question": "Proposez-vous un devis gratuit à Creys-Mépieu ?",
@@ -21886,7 +21886,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "conception parasismique"
@@ -21907,7 +21907,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Montferrat ?",
-        "answer": "À Montferrat, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "À Montferrat, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, ouvertures de murs porteurs et terrassement complet."
       },
       {
         "question": "Proposez-vous un devis gratuit à Montferrat ?",
@@ -21984,7 +21984,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -22007,7 +22007,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Saint-Clair-du-Rhône ?",
-        "answer": "À Saint-Clair-du-Rhône, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "À Saint-Clair-du-Rhône, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, ouvertures de murs porteurs et terrassement complet."
       },
       {
         "question": "Proposez-vous un devis gratuit à Saint-Clair-du-Rhône ?",
@@ -22070,7 +22070,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -22167,7 +22167,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -22191,7 +22191,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Saint-Sorlin-en-Valloire ?",
-        "answer": "À Saint-Sorlin-en-Valloire, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "À Saint-Sorlin-en-Valloire, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, ouvertures de murs porteurs et terrassement complet."
       },
       {
         "question": "Proposez-vous un devis gratuit à Saint-Sorlin-en-Valloire ?",
@@ -22256,7 +22256,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -22347,7 +22347,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -22439,7 +22439,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -22463,7 +22463,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Bouvesse-Quirieu ?",
-        "answer": "À Bouvesse-Quirieu, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "À Bouvesse-Quirieu, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, ouvertures de murs porteurs et terrassement complet."
       },
       {
         "question": "Proposez-vous un devis gratuit à Bouvesse-Quirieu ?",
@@ -22534,7 +22534,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -22622,7 +22622,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -22645,7 +22645,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Thil ?",
-        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Thil."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, ouvertures de murs porteurs, terrassement : nous couvrons tout le gros œuvre à Thil."
       },
       {
         "question": "Proposez-vous un devis gratuit à Thil ?",
@@ -22711,7 +22711,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -22735,7 +22735,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Les Haies ?",
-        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Les Haies."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, ouvertures de murs porteurs, terrassement : nous couvrons tout le gros œuvre à Les Haies."
       },
       {
         "question": "Proposez-vous un devis gratuit à Les Haies ?",
@@ -22803,7 +22803,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -22827,7 +22827,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Chirens ?",
-        "answer": "À Chirens, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "À Chirens, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, ouvertures de murs porteurs et terrassement complet."
       },
       {
         "question": "Proposez-vous un devis gratuit à Chirens ?",
@@ -22890,7 +22890,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -22989,7 +22989,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -23079,7 +23079,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -23102,7 +23102,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Saint-Jean-de-Niost ?",
-        "answer": "À Saint-Jean-de-Niost, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "À Saint-Jean-de-Niost, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, ouvertures de murs porteurs et terrassement complet."
       },
       {
         "question": "Proposez-vous un devis gratuit à Saint-Jean-de-Niost ?",
@@ -23164,7 +23164,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -23260,7 +23260,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -23284,7 +23284,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Hauterives ?",
-        "answer": "À Hauterives, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "À Hauterives, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, ouvertures de murs porteurs et terrassement complet."
       },
       {
         "question": "Proposez-vous un devis gratuit à Hauterives ?",
@@ -23348,7 +23348,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -23372,7 +23372,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Vourles ?",
-        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Vourles."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, ouvertures de murs porteurs, terrassement : nous couvrons tout le gros œuvre à Vourles."
       },
       {
         "question": "Proposez-vous un devis gratuit à Vourles ?",
@@ -23440,7 +23440,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -23538,7 +23538,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -23561,7 +23561,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Villeurbanne ?",
-        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Villeurbanne."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, ouvertures de murs porteurs, terrassement : nous couvrons tout le gros œuvre à Villeurbanne."
       },
       {
         "question": "Proposez-vous un devis gratuit à Villeurbanne ?",
@@ -23627,7 +23627,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -23650,7 +23650,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Brangues ?",
-        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Brangues."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, ouvertures de murs porteurs, terrassement : nous couvrons tout le gros œuvre à Brangues."
       },
       {
         "question": "Proposez-vous un devis gratuit à Brangues ?",
@@ -23716,7 +23716,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -23740,7 +23740,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Montagny ?",
-        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Montagny."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, ouvertures de murs porteurs, terrassement : nous couvrons tout le gros œuvre à Montagny."
       },
       {
         "question": "Proposez-vous un devis gratuit à Montagny ?",
@@ -23805,7 +23805,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "conception parasismique"
@@ -23826,7 +23826,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à La Murette ?",
-        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à La Murette."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, ouvertures de murs porteurs, terrassement : nous couvrons tout le gros œuvre à La Murette."
       },
       {
         "question": "Proposez-vous un devis gratuit à La Murette ?",
@@ -23892,7 +23892,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -23916,7 +23916,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Échalas ?",
-        "answer": "À Échalas, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "À Échalas, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, ouvertures de murs porteurs et terrassement complet."
       },
       {
         "question": "Proposez-vous un devis gratuit à Échalas ?",
@@ -23979,7 +23979,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -24064,7 +24064,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -24088,7 +24088,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Vérin ?",
-        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Vérin."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, ouvertures de murs porteurs, terrassement : nous couvrons tout le gros œuvre à Vérin."
       },
       {
         "question": "Proposez-vous un devis gratuit à Vérin ?",
@@ -24152,7 +24152,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -24176,7 +24176,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Renage ?",
-        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Renage."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, ouvertures de murs porteurs, terrassement : nous couvrons tout le gros œuvre à Renage."
       },
       {
         "question": "Proposez-vous un devis gratuit à Renage ?",
@@ -24238,7 +24238,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -24261,7 +24261,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Saint-Maurice-l'Exil ?",
-        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, façades, terrassement : nous couvrons tout le gros œuvre à Saint-Maurice-l'Exil."
+        "answer": "Extensions, dalles et terrasses béton, murs de soutènement, garages, ouvertures de murs porteurs, terrassement : nous couvrons tout le gros œuvre à Saint-Maurice-l'Exil."
       },
       {
         "question": "Proposez-vous un devis gratuit à Saint-Maurice-l'Exil ?",
@@ -24324,7 +24324,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -24347,7 +24347,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Blyes ?",
-        "answer": "À Blyes, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "À Blyes, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, ouvertures de murs porteurs et terrassement complet."
       },
       {
         "question": "Proposez-vous un devis gratuit à Blyes ?",
@@ -24408,7 +24408,7 @@ export const cities: City[] = [
       "extension maison",
       "garage",
       "terrassement de terrain",
-      "rénovation de façade"
+      "ouverture de mur porteur"
     ],
     "commonIssues": [
       "drainage",
@@ -24431,7 +24431,7 @@ export const cities: City[] = [
       },
       {
         "question": "Quels travaux de maçonnerie réalisez-vous à Saint-Alban-du-Rhône ?",
-        "answer": "À Saint-Alban-du-Rhône, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, rénovation de façade et terrassement complet."
+        "answer": "À Saint-Alban-du-Rhône, nous réalisons dalle et terrasse béton, murs de clôture et de soutènement, extensions, garages, ouvertures de murs porteurs et terrassement complet."
       },
       {
         "question": "Proposez-vous un devis gratuit à Saint-Alban-du-Rhône ?",
