@@ -328,8 +328,16 @@ export default function HomePage() {
         </div>
       </section>
       {/* WHY US — bande sombre, style du bloc avis Google */}
-      <section className="bg-gray-900 py-16 text-white md:py-20">
-        <div className="mx-auto max-w-8xl px-6 lg:px-8">
+      <section className="relative overflow-hidden bg-gray-900 py-16 text-white md:py-20">
+        <div
+          aria-hidden
+          className="absolute inset-0 bg-repeat opacity-[0.15]"
+          style={{
+            backgroundImage: "url(/images/textures/mur-pierre-blanche.webp)",
+            backgroundSize: "560px",
+          }}
+        />
+        <div className="relative z-10 mx-auto max-w-8xl px-6 lg:px-8">
           <div className="mb-14 text-center">
             <span className="mb-4 inline-block rounded-full border border-primary-500/40 bg-primary-500 px-4 py-2 text-sm font-bold text-white">
               POURQUOI NOUS CHOISIR
@@ -482,8 +490,16 @@ export default function HomePage() {
         </div>
       </section>
       {/* PHOTO SECTION — bande sombre, cartes claires */}
-      <section className="bg-gray-900 py-16 text-white md:py-20">
-        <div className="mx-auto max-w-8xl px-6 lg:px-8">
+      <section className="relative overflow-hidden bg-gray-900 py-16 text-white md:py-20">
+        <div
+          aria-hidden
+          className="absolute inset-0 bg-repeat opacity-[0.15]"
+          style={{
+            backgroundImage: "url(/images/textures/mur-pierre-blanche.webp)",
+            backgroundSize: "560px",
+          }}
+        />
+        <div className="relative z-10 mx-auto max-w-8xl px-6 lg:px-8">
           <div className="mb-14 text-center">
             <h2 className="mb-4 text-4xl font-black text-white">
               Des réalisations de qualité en Nord-Isère
@@ -683,8 +699,16 @@ export default function HomePage() {
         }}
       />
       {/* ZONES */}
-      <section className="bg-gray-900 py-20 text-white">
-        <div className="mx-auto max-w-8xl px-6 lg:px-8">
+      <section className="relative overflow-hidden bg-gray-900 py-20 text-white">
+        <div
+          aria-hidden
+          className="absolute inset-0 bg-repeat opacity-[0.15]"
+          style={{
+            backgroundImage: "url(/images/textures/mur-pierre-blanche.webp)",
+            backgroundSize: "560px",
+          }}
+        />
+        <div className="relative z-10 mx-auto max-w-8xl px-6 lg:px-8">
           <div className="mb-14 text-center">
             <h2 className="mb-6 text-4xl font-black">Zones d’intervention</h2>
 
