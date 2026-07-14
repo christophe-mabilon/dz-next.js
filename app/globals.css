@@ -26,16 +26,31 @@
   button:focus-visible {
     @apply outline-2 outline-offset-2 outline-primary-600;
   }
+
+  /* ombre légère sur tous les titres */
+  h1,
+  h2,
+  h3 {
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.12);
+  }
+}
+
+/* ombre légère sur le texte des boutons / CTA */
+button,
+.btn-primary,
+.btn-secondary,
+a[class*="rounded-xl"] {
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.18);
 }
 
 /* Hero text*/
 h1.mb-6.text-5xl.font-black.leading-tight.text-white.md\:text-7xl {
-  text-shadow: 0 3px 5px rgba(0, 0, 0.4);
+  text-shadow: 0 3px 5px rgba(0, 0, 0, 0.4);
 }
 
 p.mb-8.max-w-2xl.text-xl.leading-relaxed.text-gray-200 {
   color: white !important;
-  text-shadow: 0 1px 2px rgba(0, 0, 0.15);
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
 }
 
 @layer components {

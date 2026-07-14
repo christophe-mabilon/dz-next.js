@@ -72,8 +72,18 @@ const services = [
     icon: BrickWall,
     href: "/services/maconnerie-neuf",
     badge: "Gros œuvre complet",
-    checks: ["Fondations", "Murs porteurs", "Planchers & dalles béton", "Garages", "Extensions"],
-    foot: { icon: ShieldCheck, label: "Garantie décennale", sub: "Assurance incluse" },
+    checks: [
+      "Fondations",
+      "Murs porteurs",
+      "Planchers & dalles béton",
+      "Garages",
+      "Extensions",
+    ],
+    foot: {
+      icon: ShieldCheck,
+      label: "Garantie décennale",
+      sub: "Assurance incluse",
+    },
     illustration: "/images/services/illustrations/maconnerie-neuf.webp",
   },
   {
@@ -91,7 +101,11 @@ const services = [
       "Reprise en sous-œuvre",
       "Bâti ancien & pisé",
     ],
-    foot: { icon: FileCheck, label: "Diagnostic sur place", sub: "Devis sous 48h" },
+    foot: {
+      icon: FileCheck,
+      label: "Diagnostic sur place",
+      sub: "Devis sous 48h",
+    },
     illustration: "/images/services/illustrations/renovation-maconnerie.webp",
   },
   {
@@ -108,7 +122,11 @@ const services = [
       "Garages & annexes",
       "Étude de faisabilité",
     ],
-    foot: { icon: CalendarDays, label: "Étude gratuite", sub: "Faisabilité vérifiée" },
+    foot: {
+      icon: CalendarDays,
+      label: "Étude gratuite",
+      sub: "Faisabilité vérifiée",
+    },
     illustration: "/images/services/illustrations/agrandissement-maison.webp",
   },
   {
@@ -125,7 +143,11 @@ const services = [
       "Toiture et étanchéité",
       "Finitions sur-mesure",
     ],
-    foot: { icon: PenLine, label: "Projet sur-mesure", sub: "Étude et devis gratuits" },
+    foot: {
+      icon: PenLine,
+      label: "Projet sur-mesure",
+      sub: "Étude et devis gratuits",
+    },
     illustration: "/images/services/illustrations/extension-maison.webp",
   },
   {
@@ -142,7 +164,11 @@ const services = [
       "Dalles sur plots",
       "Étanchéité & drainage",
     ],
-    foot: { icon: Waves, label: "Matériaux durables", sub: "Résistants & antidérapants" },
+    foot: {
+      icon: Waves,
+      label: "Matériaux durables",
+      sub: "Résistants & antidérapants",
+    },
     illustration: "/images/services/illustrations/piscine-terrasse.webp",
   },
   {
@@ -159,7 +185,11 @@ const services = [
       "Soutènements",
       "Finitions enduites",
     ],
-    foot: { icon: Shield, label: "Travaux garantis", sub: "Garantie décennale" },
+    foot: {
+      icon: Shield,
+      label: "Travaux garantis",
+      sub: "Garantie décennale",
+    },
     illustration: "/images/services/illustrations/clotures-murs.webp",
   },
   {
@@ -193,7 +223,11 @@ const services = [
       "Rangements extérieurs",
       "Ateliers et dépendances",
     ],
-    foot: { icon: ShieldCheck, label: "Constructions durables", sub: "Matériaux de qualité" },
+    foot: {
+      icon: ShieldCheck,
+      label: "Constructions durables",
+      sub: "Matériaux de qualité",
+    },
     illustration: "/images/services/illustrations/abri-de-jardin.webp",
   },
   {
@@ -204,7 +238,11 @@ const services = [
     href: "/services/dalle-beton",
     badge: "Conforme DTU",
     checks: ["Dalles armées", "Garage", "Terrasse", "Maison", "Extension"],
-    foot: { icon: Ruler, label: "Travail soigné", sub: "Respect des normes DTU" },
+    foot: {
+      icon: Ruler,
+      label: "Travail soigné",
+      sub: "Respect des normes DTU",
+    },
     illustration: "/images/services/illustrations/dalle-beton.webp",
   },
   {
@@ -221,7 +259,11 @@ const services = [
       "Stable et durable",
       "Entretien facile",
     ],
-    foot: { icon: Droplets, label: "Drainage parfait", sub: "Évacuation des eaux" },
+    foot: {
+      icon: Droplets,
+      label: "Drainage parfait",
+      sub: "Évacuation des eaux",
+    },
     illustration: "/images/services/illustrations/dalles-sur-plot.webp",
   },
 ];
@@ -283,7 +325,7 @@ export default function HomePage() {
               ENTREPRISE DE MAÇONNERIE
             </span>
 
-            <h2 className="mb-6 text-4xl font-black leading-tight text-gray-900">
+            <h2 className="mb-6 text-3xl font-black leading-tight text-gray-900">
               Votre maçon à Bourgoin-Jallieu et en Isère
             </h2>
 
@@ -399,7 +441,7 @@ export default function HomePage() {
       <section className="bg-gray-50 py-20">
         <div className="mx-auto max-w-8xl px-6 lg:px-8">
           <div className="mb-14 text-center">
-            <span className="mb-4 inline-block rounded-full bg-primary-100 px-4 py-2 text-sm font-bold text-primary-700">
+            <span className="mb-4 inline-block rounded-full bg-primary-500 text-white px-4 py-2 text-sm font-bold">
               NOS SERVICES
             </span>
 
@@ -476,7 +518,9 @@ export default function HomePage() {
                       <p className="text-sm font-bold text-gray-900">
                         {service.foot.label}
                       </p>
-                      <p className="text-xs text-gray-500">{service.foot.sub}</p>
+                      <p className="text-xs text-gray-500">
+                        {service.foot.sub}
+                      </p>
                     </div>
                   </div>
                   <span className="inline-flex items-center whitespace-nowrap text-sm font-bold text-primary-600">

@@ -181,6 +181,7 @@ export default function AvisPage() {
                 px-4 py-2
                 text-sm font-medium text-white
                 mb-3
+                [text-shadow:0_1px_2px_rgba(0,0,0,0.25)]
               "
             >
               Témoignages issus de nos avis Google
@@ -430,7 +431,7 @@ export default function AvisPage() {
       <section className="section-padding bg-white">
         <div className="mx-auto max-w-8xl px-6 lg:px-8">
           <div className="mx-auto max-w-8xl text-center">
-            <p className="mb-3 text-2xl font-black uppercase tracking-wide text-primary-600 md:text-3xl">
+            <p className="mb-3 text-2xl font-black uppercase tracking-wide text-primary-600 [text-shadow:0_1px_2px_rgba(0,0,0,0.15)] md:text-3xl">
               La qualité est notre fondation !
             </p>
             <h2 className="mb-6 text-3xl font-black text-gray-900">
@@ -479,7 +480,7 @@ export default function AvisPage() {
 
           {/* CTA */}
           <div className="mt-12 text-center">
-            <p className="mx-auto mb-2 max-w-8xl text-2xl font-black text-primary-600">
+            <p className="mx-auto mb-2 max-w-8xl text-2xl font-black text-primary-600 [text-shadow:0_1px_2px_rgba(0,0,0,0.15)]">
               Un projet bien préparé, c&apos;est un chantier réussi.
             </p>
             <p className="mx-auto mb-8 max-w-8xl text-lg text-gray-600">
@@ -606,7 +607,7 @@ export default function AvisPage() {
       <section className="section-padding bg-white">
         <div className="mx-auto max-w-8xl px-6 lg:px-8">
           <h2 className="heading-md mb-12 text-center">
-            Pourquoi nos clients nous choisissent
+            Pourquoi nos clients nous font confiance
           </h2>
 
           <div className="grid grid-cols-1 gap-8 md:grid-cols-3">
