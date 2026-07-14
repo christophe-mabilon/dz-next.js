@@ -5,6 +5,19 @@ Format : chaque version résume l'état du site à un moment donné, pour savoir
 
 ---
 
+## [1.3.0] — 2026-07-14 — Nouvelles cartes services sur l'accueil
+
+- Cartes services redessinées d'après la maquette validée : badge, trait vert
+  sous le titre, liste de points forts à coches, **illustration au trait par
+  service** en fond, pied de carte (atout + « Découvrir le service »).
+- 10 illustrations générées par Christophe (ChatGPT, libres) découpées depuis
+  la planche → `public/images/services/illustrations/*.webp`.
+- Faits adaptés à la réalité : pas de « 15 ans », pas de « rénovation de
+  façades », « terrasses bois » remplacé par « dalles sur plots ».
+- Carte « Rénovation maçonnerie » mise en avant (Service phare, liseré vert).
+
+---
+
 ## [1.2.0] — 2026-07-14 — Passe SEO globale (préparation top 1)
 
 - **301 de migration** : les 13 URLs .html de l'ancien site (relevées dans son

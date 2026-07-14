@@ -20,8 +20,14 @@ import {
   LayoutGrid,
   Award,
   ShieldCheck,
+  Shield,
   FileCheck,
   MapPin,
+  Truck,
+  Droplets,
+  Ruler,
+  PenLine,
+  CalendarDays,
 } from "lucide-react";
 import HeroSection from "@/components/sections/hero/HeroSection";
 import { LocationMap } from "@/components/LocationMap";
@@ -65,6 +71,10 @@ const services = [
       "Fondations, murs porteurs, planchers : le gros œuvre complet de votre maison, garage ou bâtiment, construit pour durer.",
     icon: BrickWall,
     href: "/services/maconnerie-neuf",
+    badge: "Gros œuvre complet",
+    checks: ["Fondations", "Murs porteurs", "Planchers & dalles béton", "Garages", "Extensions"],
+    foot: { icon: ShieldCheck, label: "Garantie décennale", sub: "Assurance incluse" },
+    illustration: "/images/services/illustrations/maconnerie-neuf.webp",
   },
   {
     title: "Rénovation maçonnerie",
@@ -72,6 +82,17 @@ const services = [
       "Murs porteurs à ouvrir, fissures à reprendre, consolidations structurelles : nous redonnons solidité et cachet au bâti ancien comme au récent.",
     icon: Hammer,
     href: "/services/renovation-maconnerie",
+    badge: "Service phare",
+    featured: true,
+    checks: [
+      "Ouverture de murs porteurs",
+      "Reprise de fissures",
+      "Consolidations structurelles",
+      "Reprise en sous-œuvre",
+      "Bâti ancien & pisé",
+    ],
+    foot: { icon: FileCheck, label: "Diagnostic sur place", sub: "Devis sous 48h" },
+    illustration: "/images/services/illustrations/renovation-maconnerie.webp",
   },
   {
     title: "Agrandissement maison",
@@ -79,6 +100,16 @@ const services = [
       "Une chambre en plus, un garage, une surélévation : gagnez de l'espace sans déménager, avec une étude de faisabilité avant tout engagement.",
     icon: HousePlus,
     href: "/services/agrandissement-maison",
+    badge: "Sur-mesure",
+    checks: [
+      "Extensions",
+      "Surélévations",
+      "Aménagements intérieurs",
+      "Garages & annexes",
+      "Étude de faisabilité",
+    ],
+    foot: { icon: CalendarDays, label: "Étude gratuite", sub: "Faisabilité vérifiée" },
+    illustration: "/images/services/illustrations/agrandissement-maison.webp",
   },
   {
     title: "Extension maison",
@@ -86,6 +117,16 @@ const services = [
       "Nous agrandissons votre surface habitable avec une extension parfaitement raccordée à l'existant, du terrassement à la mise hors d'eau.",
     icon: Expand,
     href: "/services/extension-maison",
+    badge: "Raccordée à l'existant",
+    checks: [
+      "Étude personnalisée",
+      "Terrassement",
+      "Gros œuvre",
+      "Toiture et étanchéité",
+      "Finitions sur-mesure",
+    ],
+    foot: { icon: PenLine, label: "Projet sur-mesure", sub: "Étude et devis gratuits" },
+    illustration: "/images/services/illustrations/extension-maison.webp",
   },
   {
     title: "Piscine et terrasse",
@@ -93,6 +134,16 @@ const services = [
       "Bassins en béton armé, plages antidérapantes et terrasses extérieures : des aménagements pensés pour les étés du Nord-Isère.",
     icon: Waves,
     href: "/services/piscine-terrasse",
+    badge: "Été comme hiver",
+    checks: [
+      "Piscines béton armé",
+      "Plages et margelles",
+      "Terrasses carrelées",
+      "Dalles sur plots",
+      "Étanchéité & drainage",
+    ],
+    foot: { icon: Waves, label: "Matériaux durables", sub: "Résistants & antidérapants" },
+    illustration: "/images/services/illustrations/piscine-terrasse.webp",
   },
   {
     title: "Clôtures et murs",
@@ -100,6 +151,16 @@ const services = [
       "Murs de clôture enduits, murets, piliers de portail et soutènements calculés : des limites nettes qui tiennent dans le temps.",
     icon: Fence,
     href: "/services/clotures-murs",
+    badge: "Solidité & sécurité",
+    checks: [
+      "Murs de clôture",
+      "Murets & soubassements",
+      "Piliers de portail",
+      "Soutènements",
+      "Finitions enduites",
+    ],
+    foot: { icon: Shield, label: "Travaux garantis", sub: "Garantie décennale" },
+    illustration: "/images/services/illustrations/clotures-murs.webp",
   },
   {
     title: "Terrassement",
@@ -107,6 +168,16 @@ const services = [
       "Décaissement, nivellement, fouilles et évacuation des terres : votre terrain parfaitement préparé avant de construire.",
     icon: Shovel,
     href: "/services/terrassement",
+    badge: "Terrain prêt à construire",
+    checks: [
+      "Décaissement",
+      "Nivellement",
+      "Fouilles",
+      "Évacuation des terres",
+      "Préparation des accès",
+    ],
+    foot: { icon: Truck, label: "Intervention rapide", sub: "Matériel adapté" },
+    illustration: "/images/services/illustrations/terrassement.webp",
   },
   {
     title: "Abri de jardin",
@@ -114,6 +185,16 @@ const services = [
       "Dalles d'assise et abris maçonnés en dur : des dépendances saines et durables, du local technique à l'atelier.",
     icon: Warehouse,
     href: "/services/abri-de-jardin",
+    badge: "Construit pour durer",
+    checks: [
+      "Dalles d'assise",
+      "Abris maçonnés",
+      "Locaux techniques",
+      "Rangements extérieurs",
+      "Ateliers et dépendances",
+    ],
+    foot: { icon: ShieldCheck, label: "Constructions durables", sub: "Matériaux de qualité" },
+    illustration: "/images/services/illustrations/abri-de-jardin.webp",
   },
   {
     title: "Dalle béton",
@@ -121,6 +202,10 @@ const services = [
       "Dalles armées planes et pérennes pour garage, terrasse, maison ou extension — préparées dans les règles de l'art.",
     icon: Square,
     href: "/services/dalle-beton",
+    badge: "Conforme DTU",
+    checks: ["Dalles armées", "Garage", "Terrasse", "Maison", "Extension"],
+    foot: { icon: Ruler, label: "Travail soigné", sub: "Respect des normes DTU" },
+    illustration: "/images/services/illustrations/dalle-beton.webp",
   },
   {
     title: "Dalles sur plots",
@@ -128,6 +213,16 @@ const services = [
       "La terrasse contemporaine : pose sans colle ni mortier, drainage parfait sous les dalles, finition grès cérame.",
     icon: LayoutGrid,
     href: "/services/dalles-sur-plot",
+    badge: "Finition haut de gamme",
+    checks: [
+      "Pose sur plots réglables",
+      "Drainage optimal",
+      "Grès cérame",
+      "Stable et durable",
+      "Entretien facile",
+    ],
+    foot: { icon: Droplets, label: "Drainage parfait", sub: "Évacuation des eaux" },
+    illustration: "/images/services/illustrations/dalles-sur-plot.webp",
   },
 ];
 
@@ -316,23 +411,69 @@ export default function HomePage() {
               <Link
                 key={service.title}
                 href={service.href}
-                className="group rounded-3xl border border-gray-200 bg-white p-8 transition-all duration-300 hover:-translate-y-1.5 hover:border-primary-500 hover:bg-primary-50/40 hover:shadow-2xl"
+                className={`group relative flex flex-col overflow-hidden rounded-3xl border bg-white shadow-sm transition-all duration-300 hover:-translate-y-1.5 hover:border-primary-500 hover:shadow-2xl ${
+                  service.featured ? "border-primary-300" : "border-gray-200"
+                }`}
               >
-                <span className="mb-8 flex h-14 w-14 items-center justify-center rounded-full bg-primary-600 shadow-lg shadow-primary-900/25 transition-transform duration-300 group-hover:scale-110">
-                  <service.icon className="h-7 w-7 text-white" />
-                </span>
+                <div className="relative flex-1 p-8 pb-6">
+                  {/* illustration du service, discrète en fond */}
+                  <Image
+                    src={service.illustration}
+                    alt=""
+                    aria-hidden
+                    width={320}
+                    height={240}
+                    className="pointer-events-none absolute -right-2 bottom-0 w-52 opacity-50 mix-blend-multiply transition duration-500 group-hover:opacity-90 md:w-60"
+                  />
 
-                <h3 className="mb-4 text-2xl font-bold text-gray-900">
-                  {service.title}
-                </h3>
+                  <div className="relative mb-6 flex items-start justify-between gap-3">
+                    <span className="flex h-14 w-14 flex-shrink-0 items-center justify-center rounded-full bg-primary-600 shadow-lg shadow-primary-900/25 transition-transform duration-300 group-hover:scale-110">
+                      <service.icon className="h-7 w-7 text-white" />
+                    </span>
+                    <span className="rounded-lg bg-primary-50 px-3 py-1.5 text-right text-xs font-bold text-primary-700 ring-1 ring-primary-100">
+                      {service.badge}
+                    </span>
+                  </div>
 
-                <p className="mb-6 leading-relaxed text-gray-600">
-                  {service.description}
-                </p>
+                  <h3 className="relative mb-3 text-2xl font-bold text-gray-900">
+                    {service.title}
+                  </h3>
+                  <span className="mb-4 block h-1 w-10 rounded bg-primary-500" />
 
-                <div className="flex items-center font-bold text-primary-600">
-                  En savoir plus
-                  <ArrowRight className="ml-2 h-4 w-4 transition-transform duration-300 group-hover:translate-x-2" />
+                  <p className="relative mb-6 leading-relaxed text-gray-600">
+                    {service.description}
+                  </p>
+
+                  <ul className="relative space-y-2.5 border-t border-gray-100 pt-5">
+                    {service.checks.map((check) => (
+                      <li
+                        key={check}
+                        className="flex items-center gap-2.5 text-sm font-medium text-gray-700"
+                      >
+                        <CheckCircle2 className="h-5 w-5 flex-shrink-0 fill-primary-600 text-white" />
+                        {check}
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+
+                {/* pied de carte */}
+                <div className="flex items-center justify-between gap-4 border-t border-gray-100 bg-primary-50/50 px-8 py-5">
+                  <div className="flex items-center gap-3">
+                    <span className="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-xl border border-primary-100 bg-white text-primary-600">
+                      <service.foot.icon className="h-5 w-5" />
+                    </span>
+                    <div>
+                      <p className="text-sm font-bold text-gray-900">
+                        {service.foot.label}
+                      </p>
+                      <p className="text-xs text-gray-500">{service.foot.sub}</p>
+                    </div>
+                  </div>
+                  <span className="inline-flex items-center whitespace-nowrap text-sm font-bold text-primary-600">
+                    Découvrir le service
+                    <ArrowRight className="ml-1.5 h-4 w-4 transition-transform duration-300 group-hover:translate-x-1.5" />
+                  </span>
                 </div>
               </Link>
             ))}
