@@ -35,6 +35,8 @@ export interface Realisation {
   steps?: { title: string; description: string; image?: string }[];
   /** bande « Chiffres clés » (sinon: auto surface + durée) */
   keyFigures?: { value: string; label: string }[];
+  /** FAQ propres au chantier (sinon : FAQ du service en rotation) */
+  faqs?: { question: string; answer: string }[];
 }
 
 export const realisations: Realisation[] = [
@@ -140,6 +142,23 @@ export const realisations: Realisation[] = [
           "Création d'une mezzanine pour exploiter la hauteur sous toiture et gagner une surface utile supplémentaire.",
         image:
           "/images/realisations/agrandissement-badinieres/creation-mezzanine-agrandissement-interieur.webp",
+      },
+    ],
+    faqs: [
+      {
+        question: "Faut-il un permis de construire pour un agrandissement de 20 m² ?",
+        answer:
+          "Jusqu'à 20 m² d'emprise (40 m² en zone urbaine couverte par un PLU), une déclaration préalable suffit dans la plupart des cas. Au-delà, il faut un permis de construire. Nous vous orientons selon les règles de votre commune.",
+      },
+      {
+        question: "Comment l'agrandissement est-il solidarisé à la maison existante ?",
+        answer:
+          "Par un chaînage en béton armé coulé en tête des murs neufs, qui lie la structure et permet à la charpente de reprendre ses charges dans la continuité de la toiture existante — c'est exactement ce qui a été fait sur ce chantier.",
+      },
+      {
+        question: "Peut-on créer une mezzanine dans un agrandissement ?",
+        answer:
+          "Oui, si la hauteur sous toiture le permet : ici, la mezzanine ajoute un couchage et du rangement au-dessus de la pièce principale, sans augmenter l'emprise au sol.",
       },
     ],
     materials: ["Parpaing 20 cm", "Béton armé", "Chaînage béton armé", "Charpente bois"],
@@ -269,6 +288,23 @@ export const realisations: Realisation[] = [
           "/images/realisations/ouvertures-murs-porteurs/ouverture-mur-porteur-2m-grande-baie-finitions.webp",
       },
     ],
+    faqs: [
+      {
+        question: "Quelle largeur d'ouverture peut-on créer dans un mur porteur ?",
+        answer:
+          "Cela dépend du mur et des charges reprises : nous avons réalisé des passages de 1,20 m à 2 m, ainsi qu'une trémie d'ascenseur. Chaque ouverture reçoit un linteau en béton armé dimensionné pour sa portée.",
+      },
+      {
+        question: "Ouvrir un mur porteur fragilise-t-il la maison ?",
+        answer:
+          "Non, si les règles de l'art sont respectées : étaiement de part et d'autre pendant les travaux, linteau dimensionné posé sur des appuis sains, et dépose de l'étaiement seulement une fois le linteau en charge.",
+      },
+      {
+        question: "Peut-on ouvrir un mur en pisé ?",
+        answer:
+          "Oui, mais ce matériau en terre crue exige une méthode spécifique : passes de découpe courtes, appuis élargis et reprise immédiate, pour ne jamais laisser le mur travailler à vide. C'est une intervention que nous pratiquons régulièrement dans le bâti ancien du Nord-Isère.",
+      },
+    ],
     materials: ["Linteau béton armé", "Étaiement", "Béton armé", "Pisé"],
     keywords: [
       "ouverture mur porteur Bourgoin-Jallieu",
@@ -380,6 +416,23 @@ export const realisations: Realisation[] = [
           "/images/realisations/piscine-maconnee/plage-piscine-dalles-sur-plots-parement.webp",
       },
     ],
+    faqs: [
+      {
+        question: "Pourquoi choisir une piscine maçonnée plutôt qu'une coque ?",
+        answer:
+          "Tout est sur mesure : dimensions, profondeur, escalier intégré. Le bassin maçonné sur radier béton armé est aussi réputé pour sa longévité — aucune pièce n'est rapportée, tout fait corps avec la structure.",
+      },
+      {
+        question: "À quoi sert le radier d'une piscine ?",
+        answer:
+          "C'est le fond en béton armé, coulé d'un seul tenant, qui reprend le poids de l'eau et les poussées du terrain : c'est lui qui garantit qu'aucun tassement ne déformera le bassin.",
+      },
+      {
+        question: "L'escalier peut-il être fait aux dimensions souhaitées ?",
+        answer:
+          "Oui : maçonné en béton dans l'angle du bassin comme sur ce chantier, il est intégré à la structure, durable et exactement aux cotes voulues par le client.",
+      },
+    ],
     materials: ["Béton armé", "Treillis soudé", "Enduit hydraulique", "Dalles sur plots"],
     keywords: [
       "piscine maçonnée Isère",
@@ -428,6 +481,23 @@ export const realisations: Realisation[] = [
         src: "/images/realisations/terrasse-beton-dolomieu/terrasse-beton-dolomieu-vue-ensemble.webp",
         alt: "Terrasse béton terminée à Dolomieu, vue d'ensemble — DZ Maçonnerie",
         phase: "apres",
+      },
+    ],
+    faqs: [
+      {
+        question: "Quelle pente faut-il donner à une terrasse béton ?",
+        answer:
+          "Une légère pente orientée vers l'extérieur de l'habitation, pour que l'eau de pluie ne stagne jamais contre les murs — elle est réglée au moment du coulage.",
+      },
+      {
+        question: "Peut-on poser un carrelage sur la terrasse plus tard ?",
+        answer:
+          "Oui : une dalle béton bien réalisée est le support idéal pour un carrelage extérieur ou des dalles sur plots. La terrasse reste aussi très bien telle quelle, avec sa finition soignée.",
+      },
+      {
+        question: "Quand peut-on utiliser la terrasse après le coulage ?",
+        answer:
+          "Elle est praticable à pied au bout de quelques jours ; le béton atteint sa résistance complète à 28 jours. Nous vous indiquons les délais précis à la fin du chantier.",
       },
     ],
     materials: ["Béton armé", "Treillis soudé"],
@@ -508,6 +578,23 @@ export const realisations: Realisation[] = [
           "/images/realisations/terrasse-beton-talochee/dalle-terrasse-beton-taloche-caniveau-frais.webp",
       },
     ],
+    faqs: [
+      {
+        question: "À quoi sert le hérisson de graviers sous la dalle ?",
+        answer:
+          "C'est la fondation de la terrasse : une couche de graviers concassés compactée qui draine l'eau, répartit les charges et met la dalle à l'abri des mouvements de terrain et des cycles de gel.",
+      },
+      {
+        question: "Pourquoi intégrer le caniveau directement au coulage ?",
+        answer:
+          "Posé avant le béton, il affleure parfaitement la surface finie : l'eau est collectée dès le premier jour de pluie, sans saignée disgracieuse à refaire après coup.",
+      },
+      {
+        question: "Le polyane et le treillis soudé sont-ils vraiment indispensables ?",
+        answer:
+          "Oui : le film polyane bloque les remontées d'humidité du sol, et le treillis posé sur cales arme le cœur de la dalle contre la fissuration. C'est invisible une fois le béton coulé, mais c'est ce qui fait la différence dans dix ans.",
+      },
+    ],
     materials: ["Gravier concassé", "Film polyane", "Treillis soudé", "Béton armé"],
     keywords: [
       "terrasse béton Villefontaine",
@@ -586,6 +673,23 @@ export const realisations: Realisation[] = [
           "/images/realisations/terrasse-plots-imitation-bois/terrasse-dalles-imitation-bois-sur-plots-terminee.webp",
       },
     ],
+    faqs: [
+      {
+        question: "Quels avantages des dalles sur plots par rapport à un carrelage collé ?",
+        answer:
+          "La pose est démontable (accès aux réseaux, remplacement d'une dalle à l'unité), l'eau s'écoule librement dessous, et les plots réglables rattrapent les niveaux au millimètre sans chape de rattrapage.",
+      },
+      {
+        question: "L'aspect bois demande-t-il de l'entretien ?",
+        answer:
+          "Aucun : c'est du grès cérame. Pas de lasure, pas d'écharde, pas de grisaillement — le rendu chaleureux du bois avec la robustesse de la céramique.",
+      },
+      {
+        question: "Faut-il une dalle béton sous les plots ?",
+        answer:
+          "Un support stable est indispensable : ici, une dalle armée d'un treillis soudé a été coulée en suivant la forme en L de la terrasse, pour que l'ensemble ne bouge pas dans le temps.",
+      },
+    ],
     materials: ["Dalles grès cérame 2 cm", "Plots réglables", "Treillis soudé", "Film polyane"],
     keywords: [
       "terrasse dalles sur plots L'Isle-d'Abeau",
@@ -662,6 +766,23 @@ export const realisations: Realisation[] = [
           "Une rive de dalles anthracite encadre la terrasse : finition contrastée qui marque la limite avec le jardin.",
         image:
           "/images/realisations/terrasse-gres-cerame/terrasse-gres-cerame-bordure-anthracite-terminee.webp",
+      },
+    ],
+    faqs: [
+      {
+        question: "La terrasse peut-elle affleurer les seuils des portes-fenêtres ?",
+        answer:
+          "Oui, c'est l'un des grands avantages des plots réglables : chaque dalle est ajustée au millimètre pour supprimer la marche entre le séjour et la terrasse.",
+      },
+      {
+        question: "Les dalles de 2 cm résistent-elles au gel ?",
+        answer:
+          "Oui : le grès cérame pleine masse de 20 mm est ingélif et antidérapant, conçu spécifiquement pour la pose extérieure sur plots — parfaitement adapté aux hivers du Nord-Isère.",
+      },
+      {
+        question: "Comment l'eau de pluie s'évacue-t-elle ?",
+        answer:
+          "Elle passe entre les joints ouverts des dalles et s'écoule librement sous la terrasse, loin de la façade : pas de flaques, pas de joints à refaire.",
       },
     ],
     materials: ["Dalles grès cérame 2 cm", "Plots réglables"],
@@ -769,6 +890,23 @@ export const realisations: Realisation[] = [
           "Les deux niveaux sont enduits en finition claire : la restanque se fond dans le jardin, barbacanes discrètes mais fonctionnelles.",
         image:
           "/images/realisations/mur-soutenement/mur-soutenement-parpaing-barbacane-restanque-finitions-beton.webp",
+      },
+    ],
+    faqs: [
+      {
+        question: "Pourquoi deux murs en restanque plutôt qu'un seul mur haut ?",
+        answer:
+          "Deux ouvrages plus bas retiennent chacun une hauteur de terre raisonnable : la poussée sur chaque mur est réduite, l'ensemble est plus durable et s'intègre mieux dans le jardin.",
+      },
+      {
+        question: "À quoi servent les barbacanes ?",
+        answer:
+          "Ce sont des orifices traversants en pied de mur qui laissent l'eau du talus s'échapper. Un mur de soutènement cède rarement sous la terre : c'est l'eau accumulée derrière qui le pousse.",
+      },
+      {
+        question: "Faut-il un drainage derrière un mur de soutènement ?",
+        answer:
+          "Oui, systématiquement : ici un lit de galets drainants collecte les eaux de ruissellement derrière les murs, complété par les barbacanes et des couvertines qui protègent les têtes de murs.",
       },
     ],
     materials: ["Parpaing 20 cm", "Béton armé", "Galets drainants", "Couvertine", "Chaperon béton"],
@@ -932,6 +1070,23 @@ export const realisations: Realisation[] = [
           "/images/realisations/murs-cloture/mur-cloture-redans-enduit-cloture-occultee-pente.webp",
       },
     ],
+    faqs: [
+      {
+        question: "Parpaing ou blocs à bancher : comment choisir ?",
+        answer:
+          "Le parpaing convient aux clôtures courantes ; les blocs à bancher, ferraillés puis remplis de béton, s'imposent quand le mur doit reprendre des poussées (terre, portail lourd) — le mur devient monolithique.",
+      },
+      {
+        question: "Comment fonder un mur de clôture sur un terrain en pente ?",
+        answer:
+          "En redans : la fondation descend en escalier, chaque palier reposant sur une assise horizontale saine. Le mur suit proprement le terrain sans jamais être posé « en biais ».",
+      },
+      {
+        question: "À quoi sert l'arase en tête de mur ?",
+        answer:
+          "Coffrée et coulée au niveau, elle solidarise la tête du mur, rattrape les niveaux et protège la maçonnerie des infiltrations — c'est elle qui conditionne la durée de vie de l'ouvrage.",
+      },
+    ],
     materials: ["Parpaing 20 cm", "Blocs à bancher", "Béton armé", "Chaperon béton"],
     keywords: [
       "mur de clôture Maubec",
@@ -1050,6 +1205,23 @@ export const realisations: Realisation[] = [
         image: "/images/realisations/clotures-portails/seuil-beton-portail-coulissant-9m.webp",
       },
     ],
+    faqs: [
+      {
+        question: "Pourquoi fixer les poteaux sur platines plutôt que de les sceller ?",
+        answer:
+          "La platine posée sur un massif béton surfacé à la taloche garantit un aplomb parfait et permet de remplacer un poteau sans casser. Chaque massif est dimensionné pour la prise au vent des occultants.",
+      },
+      {
+        question: "Les occultants résistent-ils au vent ?",
+        answer:
+          "Oui, à condition que les ancrages soient à la hauteur : une clôture occultée prend beaucoup plus de vent qu'un simple grillage, c'est pourquoi les massifs béton sont dimensionnés en conséquence.",
+      },
+      {
+        question: "Pourquoi un seuil béton pour un portail coulissant ?",
+        answer:
+          "Le rail doit être parfaitement rectiligne et de niveau pour que le portail coulisse sans effort pendant des années : ici, le seuil de 9 m a été coulé d'un seul tenant et contrôlé au niveau sur toute la portée.",
+      },
+    ],
     materials: ["Béton armé", "Platines de fixation", "Panneaux de clôture rigides", "Occultants"],
     keywords: [
       "clôture rigide Meyrié",
@@ -1139,6 +1311,23 @@ export const realisations: Realisation[] = [
           "/images/realisations/dallage-100m2/dallage-beton-100m2-dalle-terminee-soubassement.webp",
       },
     ],
+    faqs: [
+      {
+        question: "Pourquoi couler 100 m² d'un seul tenant ?",
+        answer:
+          "Chaque reprise de bétonnage crée un point faible. En coulant la surface en continu, la dalle est homogène — l'armature en treillis soudé travaille sur toute la surface sans interruption.",
+      },
+      {
+        question: "À quoi sert le film polyane sous le dallage ?",
+        answer:
+          "Il bloque les remontées d'humidité du sol — indispensable dans une bâtisse ancienne comme ici, où le sol n'a jamais été isolé de la terre.",
+      },
+      {
+        question: "Peut-on poser un revêtement sur ce dallage ?",
+        answer:
+          "Oui : la surface lissée est prête à recevoir un carrelage ou une résine, et peut aussi rester telle quelle pour un usage atelier ou garage.",
+      },
+    ],
     materials: ["Béton armé", "Treillis soudé", "Film polyane", "Isolant périphérique", "Parpaing 20 cm"],
     keywords: [
       "dallage béton Artas",
@@ -1224,6 +1413,23 @@ export const realisations: Realisation[] = [
           "La transition avec le sol ton pierre est calepinée pour tomber juste : deux matières qui cohabitent proprement.",
         image:
           "/images/realisations/carrelage-interieur/carrelage-interieur-jonction-parquet-pierre.webp",
+      },
+    ],
+    faqs: [
+      {
+        question: "Pourquoi un carrelage imitation parquet plutôt qu'un vrai parquet ?",
+        answer:
+          "Le rendu du bois sans ses contraintes : insensible à l'eau et aux rayures, aucun ponçage ni vitrification, entretien d'un simple coup de serpillière — idéal dans une pièce de vie.",
+      },
+      {
+        question: "Comment réussir la jonction entre deux sols différents ?",
+        answer:
+          "En calepinant avant la pose : ici, la transition entre les lames imitation parquet et les carreaux ton pierre de l'entrée a été calculée pour tomber juste, sans coupe disgracieuse.",
+      },
+      {
+        question: "Le support doit-il être parfaitement plan pour un format lame ?",
+        answer:
+          "Oui : sur des carreaux longs et étroits, le moindre défaut de planéité se voit en lumière rasante (effet de tuilage). La préparation du support est l'étape qui conditionne tout le résultat.",
       },
     ],
     materials: ["Carrelage imitation parquet", "Mortier-colle"],
@@ -1326,6 +1532,23 @@ export const realisations: Realisation[] = [
         image: "/images/realisations/renovation-batisse/appui-de-fenetre-beton-pose.webp",
       },
     ],
+    faqs: [
+      {
+        question: "Pourquoi couler un chaînage béton sur un mur en pisé ?",
+        answer:
+          "L'arase de chaînage en tête de mur répartit les charges de la toiture sur toute la longueur du mur en terre crue : la charpente d'origine est conservée et le mur retrouve une assise saine.",
+      },
+      {
+        question: "Comment refait-on un appui de fenêtre ?",
+        answer:
+          "L'ancien appui est déposé, un coffrage bois est monté à l'échafaudage, puis le béton est coulé aux cotes exactes de l'ouverture avec une pente qui rejette l'eau loin du mur.",
+      },
+      {
+        question: "Intervenez-vous sur les fermes dauphinoises ?",
+        answer:
+          "Oui, régulièrement : pisé, pierre, mollasse… Le bâti ancien du Nord-Isère demande des techniques spécifiques que nous pratiquons sur des chantiers comme celui-ci.",
+      },
+    ],
     materials: ["Pisé", "Béton armé", "Chaînage béton armé"],
     keywords: [
       "rénovation maison pisé Isère",
@@ -1413,6 +1636,23 @@ export const realisations: Realisation[] = [
         image: "/images/realisations/abri-jardin/abri-jardin-maconne-parpaing-toiture-tuiles.webp",
       },
     ],
+    faqs: [
+      {
+        question: "Quels avantages d'un abri maçonné par rapport à un abri en kit ?",
+        answer:
+          "Construit comme une maison (dalle, parpaing, tuiles), il reste sain et sec en toute saison, ne se déforme pas, ne demande aucun entretien et valorise durablement le terrain.",
+      },
+      {
+        question: "Faut-il une autorisation pour construire un abri de jardin ?",
+        answer:
+          "En dessous de 5 m², aucune formalité dans la plupart des cas ; de 5 à 20 m², une déclaration préalable ; au-delà, un permis de construire. Nous vous aidons à y voir clair selon votre commune.",
+      },
+      {
+        question: "L'abri peut-il s'accorder avec la maison ?",
+        answer:
+          "Oui : couverture en tuiles assortie, enduit possible sur les murs — ici la toiture reprend l'esprit de la maison principale.",
+      },
+    ],
     materials: ["Parpaing 20 cm", "Béton armé", "Charpente bois", "Tuiles terre cuite"],
     keywords: [
       "abri de jardin maçonné Saint-Quentin-Fallavier",
@@ -1493,6 +1733,23 @@ export const realisations: Realisation[] = [
           "Reprise de l'évacuation des eaux usées avec sa ventilation secondaire, essais d'écoulement puis remblaiement compacté.",
         image:
           "/images/realisations/vrd-eaux-pluviales/evacuation-eaux-usees-ventilation-vrd.webp",
+      },
+    ],
+    faqs: [
+      {
+        question: "À quoi sert la ventilation secondaire ?",
+        answer:
+          "Elle équilibre les pressions dans le réseau d'eaux usées et empêche le désiphonnage : sans elle, les siphons de la maison se vident et les odeurs remontent. Elle est souvent oubliée — nous l'intégrons systématiquement.",
+      },
+      {
+        question: "Pourquoi poser des regards de visite ?",
+        answer:
+          "Placés aux changements de direction, ils permettent de contrôler et déboucher le réseau sans terrassement : en cas de bouchon dans dix ans, tout reste accessible.",
+      },
+      {
+        question: "Qu'est-ce qui fait qu'un réseau gravitaire fonctionne ?",
+        answer:
+          "La pente, pas le diamètre du tuyau : chaque canalisation est posée sur un lit de pose avec une pente régulière, contrôlée au niveau tout au long de la pose.",
       },
     ],
     materials: ["Canalisations PVC", "Regard de visite", "Gravier concassé"],

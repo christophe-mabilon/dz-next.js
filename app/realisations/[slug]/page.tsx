@@ -167,16 +167,18 @@ export default async function RealisationDetailPage({ params }: Props) {
   );
   const svc = services.find((s) => s.slug === svcSlug);
 
-  // FAQ : rotation stable selon la fiche (les réalisations d'un même service
-  // n'affichent pas toutes les mêmes questions) + une question locale unique.
+  // FAQ : questions propres au chantier si la fiche en définit, sinon
+  // rotation stable dans la FAQ du service (pour ne pas dupliquer les mêmes
+  // questions entre fiches) — plus une question locale unique.
   const faqPool = svcSlug ? (serviceFaqs[svcSlug] ?? []) : [];
   const faqOffset = faqPool.length
     ? [...slug].reduce((a, c) => a + c.charCodeAt(0), 0) % faqPool.length
     : 0;
+  const rotatedFaqs = faqPool.length
+    ? [...faqPool.slice(faqOffset), ...faqPool.slice(0, faqOffset)].slice(0, 3)
+    : [];
   const faqs = [
-    ...(faqPool.length
-      ? [...faqPool.slice(faqOffset), ...faqPool.slice(0, faqOffset)].slice(0, 3)
-      : []),
+    ...(realisation.faqs?.length ? realisation.faqs : rotatedFaqs),
     {
       question: `Réalisez-vous ce type de chantier autour de ${realisation.city} ?`,
       answer: `Oui — cette réalisation en est un exemple concret. Notre atelier est à Artas et nous intervenons à ${realisation.city} comme dans tout le Nord-Isère : la visite d'évaluation et le devis sont gratuits.`,

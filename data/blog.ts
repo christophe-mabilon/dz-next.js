@@ -662,8 +662,7 @@ export const articles = [
 
           content: `Le béton offre de nombreuses possibilités de finitions pour personnaliser l’aspect de votre terrasse.        
         Le béton lissé donne un rendu épuré et contemporain, idéal pour les espaces modernes.        
-        Le béton balayé est une finition économique et efficace qui offre une bonne adhérence.        
-        Enfin, les finitions imprimées ou teintées permettent d’imiter d’autres matériaux (bois, pierre, ardoise) tout en conservant les avantages du béton.`,
+        Le béton balayé est une finition économique et efficace qui offre une bonne adhérence.`,
         },
       ],
 
@@ -1092,7 +1091,7 @@ export const articles = [
         {
           title: `Le retour en force du béton décoratif`,
 
-          content: `Le béton lissé et le béton imprimé sont au cœur des tendances 2026 en maçonnerie extérieure.        
+          content: `Le béton lissé est au cœur des tendances 2026 en maçonnerie extérieure.        
         Ces finitions permettent de créer des terrasses, allées et plages de piscine avec un rendu très esthétique, tout en conservant les avantages de durabilité propres au béton.        
         Les clients recherchent également des effets de continuité entre les espaces intérieurs et extérieurs, avec des dalles bétonnées étendues jusqu’à la terrasse.        
         DZ Maçonnerie maîtrise l’ensemble de ces techniques pour répondre aux projets les plus créatifs.`,
@@ -2660,7 +2659,7 @@ export const articles = [
           title: `Préserver le caractère et l’aspect d’origine`,
 
           content: `Une rénovation réussie d’une maçonnerie ancienne doit concilier amélioration de la durabilité et respect du caractère patrimonial du bâtiment.        
-        Le choix des matériaux est déterminant : un enduit à la chaux aérienne pour les façades en pierre, une peinture minérale respirante pour les enduits traditionnels, des pierres de taille du même calcaire local pour les reprises localisées.        
+        Le choix des matériaux est déterminant : une peinture minérale respirante pour les enduits traditionnels, des pierres de taille du même calcaire local pour les reprises localisées.        
         Dans les zones classées ou sauvegardées du Nord-Isère, des contraintes réglementaires peuvent s’appliquer sur les matériaux et les teintes utilisés.        
         DZ Maçonnerie conseille ses clients sur les solutions techniques respectueuses du bâti ancien pour obtenir des résultats durables sans altérer le cachet du bâtiment.`,
         },
@@ -2976,7 +2975,6 @@ export const articles = [
           content: `Le béton offre aujourd’hui une palette de finitions décoratives très large qui dépasse largement le simple béton gris lisse.        
         Le béton lissé crée des surfaces épurées et contemporaines très appréciées dans les architectures modernes.        
         Le béton balayé ou brossé offre une finition antidérapante économique et efficace.        
-        Enfin, les bétons imprimés ou teintés permettent d’imiter d’autres matériaux (bois, pierre, ardoise) tout en conservant la robustesse du béton.        
         DZ Maçonnerie vous conseille sur la finition la plus adaptée à votre projet et à votre environnement.`,
         },
 
@@ -3008,7 +3006,7 @@ export const articles = [
       {
         question: `Le béton décoratif nécessite-t-il beaucoup d’entretien ?`,
 
-        answer: `Non, le béton décoratif (lissé ou imprimé) est l’un des revêtements extérieurs les moins exigeants en entretien.        
+        answer: `Non, le béton lissé est l’un des revêtements extérieurs les moins exigeants en entretien.        
         Un nettoyage annuel au jet d’eau et un traitement hydrofuge tous les 5 à 10 ans permettent de maintenir son aspect en parfait état.        
         Un traitement antifongique annuel dans les zones ombragées prévient l’apparition de mousses.        
         DZ Maçonnerie peut vous conseiller les produits adaptés à votre finition.`,
@@ -3507,7 +3505,7 @@ export const articles = [
         Elle résiste parfaitement aux cycles gel-dégel qui fragilisent les carrelages et décollent les joints.        
         Son coût de réalisation est généralement inférieur à celui d’une terrasse carrelée pour une surface équivalente.        
         L’entretien est minimal : un nettoyage annuel suffit.        
-        Avec les finitions décoratives modernes (béton lissé, imprimé), la terrasse béton offre aussi un très large choix esthétique qui rivalise avec le carrelage tout en conservant une surface continue sans joints.`,
+        Avec les finitions décoratives modernes (béton lissé, taloché), la terrasse béton offre aussi un très large choix esthétique qui rivalise avec le carrelage tout en conservant une surface continue sans joints.`,
         },
 
         {

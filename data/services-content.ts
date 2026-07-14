@@ -46,7 +46,7 @@ export const serviceEditorial: Record<string, EditorialBlock[]> = {
     {
       title: "Redonner vie au bâti ancien sans le dénaturer",
       paragraphs: [
-        "Le Nord-Isère possède un patrimoine bâti riche : maisons en pisé, murs en pierre, fermes dauphinoises. Ces constructions demandent des techniques spécifiques — un enduit ciment sur un mur en pisé, et c'est l'humidité piégée qui ronge le mur de l'intérieur. Nous utilisons des matériaux compatibles : chaux naturelle, enduits respirants, mortiers adaptés.",
+        "Le Nord-Isère possède un patrimoine bâti riche : maisons en pisé, murs en pierre, fermes dauphinoises. Ces constructions demandent des techniques spécifiques — un enduit ciment sur un mur en pisé, et c'est l'humidité piégée qui ronge le mur de l'intérieur. Nous intervenons avec des méthodes compatibles avec le bâti ancien, qui laissent ces murs respirer.",
         "Fissures, murs humides, linteaux affaissés : avant de réparer, nous diagnostiquons. Traiter une fissure sans comprendre son origine, c'est la voir revenir dans deux ans.",
       ],
     },
@@ -199,7 +199,7 @@ export const serviceFaqs: Record<string, SeoFaq[]> = {
     {
       question: "Pouvez-vous rénover des murs en pisé, fréquents dans le Nord-Isère ?",
       answer:
-        "Oui. Le bâti ancien du Nord-Isère compte beaucoup de constructions en pisé (terre crue). Nous utilisons des enduits à la chaux respirants et évitons le ciment qui piège l'humidité et dégrade ces murs.",
+        "Oui. Le bâti ancien du Nord-Isère compte beaucoup de constructions en pisé (terre crue). Nous intervenons par passes courtes avec des reprises ciblées, en évitant les solutions qui piègent l'humidité et dégradent ces murs.",
     },
     {
       question: "Comment traitez-vous les fissures sur un mur ?",
@@ -406,7 +406,7 @@ export const serviceBenefits: Record<string, string[]> = {
   ],
   "renovation-maconnerie": [
     "Expérience du bâti ancien du Nord-Isère (pisé, pierre, mollasse)",
-    "Enduits chaux respirants adaptés aux murs anciens",
+    "Ouvertures de murs porteurs, même en pisé",
     "Diagnostic fissures avant toute réparation",
     "Accompagnement déclaration préalable et démarches d'urbanisme",
     "Reprise en sous-œuvre maîtrisée",
